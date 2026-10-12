@@ -1,0 +1,2063 @@
+{
+  "clip_id": "video22_cp002",
+  "video_id": "video22",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 119,
+  "source_frame_offset": 120,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video22_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The slender dark gray long gun held by Person A, with a mottled surface, a long barrel, and a protruding sighting component at the front visible."
+    },
+    {
+      "source_entity_id": "video22_e003",
+      "name": "muddy shell-cratered ground",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark, uneven ground from the foreground to the midground, scattered with gravel and rocks, with wet, bright reflections in places."
+    },
+    {
+      "source_entity_id": "video22_e004",
+      "name": "cluster of ruined walls and rubble",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A collection comprising nearby ruined walls on the left and right and gray-black damaged walls in the mid-to-far background, some retaining rectangular door and window openings."
+    },
+    {
+      "source_entity_id": "video22_e005",
+      "name": "cluster of dead trees",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A cluster of gray-black, leafless, slender tree trunks with sparse short branches in the mid-to-far background."
+    },
+    {
+      "source_entity_id": "video22_e006",
+      "name": "smoke-cloud-filled sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A smoke-cloud background in the upper portion, ranging from brighter gray-white to darker yellow-green."
+    },
+    {
+      "source_entity_id": "video22_e007",
+      "name": "orange point of fire",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A collection of orange-yellow open flames on the muddy ground and near the ruined walls, excluding the discrete airborne sparks."
+    },
+    {
+      "source_entity_id": "video22_e008",
+      "name": "damaged vertical flag",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A long, narrow cloth flag on a slender flagpole in the upper left, with alternating dark and light bands and uneven fabric edges."
+    },
+    {
+      "source_entity_id": "video22_e012",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The first-person person holding Weapon A; a portion of a dark-gloved hand can be consistently identified in this clip."
+    },
+    {
+      "source_entity_id": "video22_e016",
+      "name": "shower of sparks",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Discrete orange-yellow glowing particles above the flames, appearing as dots and short lines."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video22_cp002_restore00016",
+      "statement": "At frame 0, one Weapon A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00017",
+      "statement": "At frame 0, a portion of Person A's hand holding the gun is visible, corresponding to one person.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a001",
+      "statement": "At frame 0, Weapon A is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a005",
+      "statement": "At frame 0, the muddy shell-cratered ground is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a009",
+      "statement": "At frame 0, the cluster of ruined walls and rubble is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a013",
+      "statement": "At frame 0, the cluster of dead trees is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a017",
+      "statement": "At frame 0, the smoke-cloud-filled sky is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a021",
+      "statement": "At frame 0, the orange point of fire is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00005",
+      "statement": "At frame 0, a portion of Person A's gloved hand is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00057",
+      "statement": "At frame 0, the damaged vertical flag is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video22_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00024",
+      "statement": "At frame 119, one Weapon A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00025",
+      "statement": "At frame 119, a portion of Person A's hand holding the gun is visible, corresponding to one person.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a027",
+      "statement": "At frame 119, Weapon A is visible, and the overall outline of the gun can be discerned.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a031",
+      "statement": "At frame 119, the muddy shell-cratered ground is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a035",
+      "statement": "At frame 119, the cluster of ruined walls and rubble is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a039",
+      "statement": "At frame 119, the cluster of dead trees is visible, and the outlines of the leafless trunks can be discerned.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a043",
+      "statement": "At frame 119, the smoke-cloud-filled sky is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_a047",
+      "statement": "At frame 119, the orange point of fire is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00029",
+      "statement": "At frame 119, a portion of Person A's gloved hand is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00061",
+      "statement": "At frame 119, the shower of sparks is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00002",
+      "statement": "At frame 0, Weapon A is a slender dark gray long gun with a long barrel at the front.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00003",
+      "statement": "At frame 0, Weapon A is a slender dark gray long gun with a long barrel at the front; light-colored mottled deposits are present on the barrel and body, some metal edges reflect light, and a protruding sighting component is visible at the front.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00006",
+      "statement": "At frame 0, Person A's exposed hand is wearing a dark glove.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00007",
+      "statement": "At frame 0, Person A's exposed hand is wearing a dark glove; several fingers form a curved, close-together outline, with narrow bright edges along the backs and outer edges of the fingers.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00010",
+      "statement": "At frame 0, the muddy shell-cratered ground is dark black-brown, muddy and uneven, with light gray gravel mixed in.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00011",
+      "statement": "At frame 0, the muddy shell-cratered ground is dark black-brown, muddy and uneven, with light gray gravel mixed in; wet, bright, uneven muddy surfaces, angular rocks, and localized grooves are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00014",
+      "statement": "At frame 0, the cluster of dead trees appears as outlines of slender gray-black leafless trunks.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00015",
+      "statement": "At frame 0, the cluster of dead trees consists of slender gray-black leafless trunks of varying thicknesses and heights; some have sparse short branches and truncated-looking tops, and the distant outlines fade in the mist.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00018",
+      "statement": "At frame 0, the smoke-cloud-filled sky ranges from gray-white to yellow-green, with clearly defined bright and dark regions.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00019",
+      "statement": "At frame 0, the smoke-cloud-filled sky transitions from brighter gray-white on the left to darker yellow-green on the right, with clearly defined bright and dark regions and a soft boundary between them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00022",
+      "statement": "At frame 0, the orange point of fire appears as conspicuous, irregular orange-yellow flames.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00023",
+      "statement": "At frame 0, the orange point of fire appears as conspicuous, irregular orange-yellow flames, with a brighter yellow core and orange edges, and small tongues of flame branching from the top.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00050",
+      "statement": "At frame 0, the cluster of ruined walls and rubble consists of gray-black damaged masonry walls, with a tall nearby wall on the left and another wall cut off by the right edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00051",
+      "statement": "At frame 0, the cluster of ruined walls and rubble consists of gray-black damaged masonry walls, with a taller nearby wall on the left and another wall cut off by the right edge; the top edge of the left wall is jagged, exposed block masonry and residual plaster are visible on its surface, and the walls in the mid-to-far background retain rectangular door and window openings.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00058",
+      "statement": "At frame 0, the damaged vertical flag is a cloth flag with alternating dark and light areas on a flagpole.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00059",
+      "statement": "At frame 0, the damaged vertical flag is a cloth flag with alternating dark and light areas attached to a slender flagpole; the fabric is creased, its edges are uneven, and light-colored crossing bands are visible against the dark field.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00026",
+      "statement": "At frame 119, Weapon A is a slender dark gray long gun with a long barrel at the front.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00027",
+      "statement": "At frame 119, Weapon A is a slender dark gray long gun with a long barrel at the front; light-colored mottling and localized bright edges are visible on the surface, and the outline of the protruding sighting component remains visible at the front.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00030",
+      "statement": "At frame 119, Person A's exposed hand is wearing a dark glove.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00031",
+      "statement": "At frame 119, Person A's exposed hand is wearing a dark glove, and the outlines of the curved fingers and localized bright edges on the backs of the fingers can be discerned.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00034",
+      "statement": "At frame 119, the muddy shell-cratered ground is dark black-brown, muddy and uneven, with light gray gravel mixed in.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00035",
+      "statement": "At frame 119, the muddy shell-cratered ground is dark black-brown, muddy and uneven, with light gray gravel and scattered rocks mixed in; raised and low areas alternate, and the surface has uneven wet, bright reflections.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00038",
+      "statement": "At frame 119, the cluster of dead trees appears as outlines of slender gray-black leafless trunks.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00039",
+      "statement": "At frame 119, the cluster of dead trees consists of slender gray-black leafless trunks of varying thicknesses and heights; some have sparse short branches, and the distant outlines are fainter.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00042",
+      "statement": "At frame 119, the smoke-cloud-filled sky ranges from gray-white to yellow-green, with clearly defined bright and dark regions.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00043",
+      "statement": "At frame 119, the smoke-cloud-filled sky transitions from brighter gray-white on the left to darker yellow-green on the right, with clearly defined bright and dark regions and a soft boundary between them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00046",
+      "statement": "At frame 119, the orange point of fire appears as conspicuous, irregular orange-yellow flames.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00047",
+      "statement": "At frame 119, the orange point of fire appears as conspicuous, irregular orange-yellow flames, with brighter yellow areas inside, a more orange outer region, and a jagged top outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00054",
+      "statement": "At frame 119, the cluster of ruined walls and rubble consists of gray-black damaged walls, with a row of low ruined walls containing rectangular door and window openings on the left and part of a ruined wall visible at the right edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00055",
+      "statement": "At frame 119, the cluster of ruined walls and rubble consists of gray-black damaged walls, with a row of low ruined walls containing rectangular door and window openings on the left and part of a ruined wall visible at the right edge; the top edge of the left wall is broken and uneven, brighter ground is visible behind the doorway, the surface is mottled with light and dark areas, and the edges are affected by motion blur.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00062",
+      "statement": "At frame 119, the shower of sparks consists of discrete small orange-yellow glowing dots.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00063",
+      "statement": "At frame 119, the shower of sparks consists of discrete small orange-yellow glowing dots and short lines of varying sizes and brightness, with irregular spacing.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00018",
+      "statement": "At frame 0, Weapon A is in the foreground in the lower portion of the image, with its front pointing toward the upper left; Person A's hand holds Weapon A in the lower portion of the image, and together they occlude part of the muddy shell-cratered ground behind them.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001",
+        "video22_e012",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00019",
+      "statement": "At frame 0, the muddy shell-cratered ground occupies the lower half of the image and extends from the foreground to the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00020",
+      "statement": "At frame 0, the cluster of ruined walls and rubble is distributed along the left side, the right edge, and the mid-to-far background of the image; muddy shell-cratered ground remains visible between the nearby walls on both sides, the ground is lower than the upper edges of the walls on both sides, and the nearby walls occlude part of the distant background.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00021",
+      "statement": "At frame 0, the cluster of dead trees is distributed in the mid-to-far background between and behind the cluster of ruined walls and rubble, with its upper portions in front of the smoke-cloud-filled sky.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005",
+        "video22_e004",
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00022",
+      "statement": "At frame 0, the smoke-cloud-filled sky occupies the upper portion of the image and extends above and behind the cluster of ruined walls and rubble.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00023",
+      "statement": "At frame 0, the orange points of fire are distributed on the muddy shell-cratered ground and near the cluster of ruined walls and rubble; the main visible area is in the midground slightly right of center, with some flames also at the left edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00004",
+      "statement": "At frame 0, Weapon A is in the foreground in the lower portion of the image, with its barrel pointing diagonally toward the upper left of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00008",
+      "statement": "At frame 0, Person A's hand is in the lower portion of the image, in close contact with and holding Weapon A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e012",
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00012",
+      "statement": "At frame 0, the muddy shell-cratered ground occupies the lower half of the image and extends from the foreground to the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00016",
+      "statement": "At frame 0, the cluster of dead trees is distributed in the mid-to-far background, extending vertically into the smoke-cloud-filled sky region.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005",
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00020",
+      "statement": "At frame 0, the smoke-cloud-filled sky is in the upper portion of the image and above the outline of the cluster of ruined walls and rubble.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00024",
+      "statement": "At frame 0, the orange points of fire are distributed in the midground between the muddy shell-cratered ground and the cluster of ruined walls and rubble.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00052",
+      "statement": "At frame 0, the cluster of ruined walls and rubble is situated on the left and right sides of the image and in the mid-to-far background, leaving the lower muddy shell-cratered ground visible in the center.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00060",
+      "statement": "At frame 0, the damaged vertical flag is in the upper-left portion of the image, visible above part of the outline of the cluster of ruined walls and rubble.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e008",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00026",
+      "statement": "At frame 119, Weapon A is in the foreground in the lower portion of the image, with its front pointing toward the upper left; Person A's hand holds Weapon A in the lower portion of the image, and together they occlude part of the muddy shell-cratered ground behind them.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001",
+        "video22_e012",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00027",
+      "statement": "At frame 119, the muddy shell-cratered ground occupies the lower half of the image and extends from the foreground to the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00028",
+      "statement": "At frame 119, the cluster of ruined walls and rubble is in the left midground and at the right edge of the image, with muddy shell-cratered ground visible between the ruined walls on both sides; ground is also visible behind the openings in the wall on the left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00029",
+      "statement": "At frame 119, the cluster of dead trees is distributed in the mid-to-far background between and behind the cluster of ruined walls and rubble, with its upper portions in front of the smoke-cloud-filled sky.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005",
+        "video22_e004",
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00030",
+      "statement": "At frame 119, the smoke-cloud-filled sky occupies the upper portion of the image and extends above and behind the cluster of ruined walls and rubble.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_restore00031",
+      "statement": "At frame 119, orange points of fire are visible on the muddy shell-cratered ground and near the cluster of ruined walls and rubble slightly left of center and at the right edge of the image; one slightly left of center is in front of the ruined wall on the left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00028",
+      "statement": "At frame 119, Weapon A is in the foreground in the lower portion of the image, with its barrel pointing diagonally toward the upper left of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00032",
+      "statement": "At frame 119, Person A's hand is in the lower portion of the image, in close contact with and holding Weapon A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e012",
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00036",
+      "statement": "At frame 119, the muddy shell-cratered ground occupies the lower half of the image and extends from the foreground to the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00040",
+      "statement": "At frame 119, the cluster of dead trees is distributed in the mid-to-far background, extending vertically into the smoke-cloud-filled sky region.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005",
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00044",
+      "statement": "At frame 119, the smoke-cloud-filled sky is in the upper portion of the image and above the outline of the cluster of ruined walls and rubble.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00048",
+      "statement": "At frame 119, the orange points of fire are distributed in the midground between the muddy shell-cratered ground and the cluster of ruined walls and rubble.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00056",
+      "statement": "At frame 119, the cluster of ruined walls and rubble is in the left midground and at the right edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00064",
+      "statement": "At frame 119, the shower of sparks is above the orange point of fire.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e016",
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00065",
+      "statement": "At frame 0, the camera is above the muddy shell-cratered ground, at the near end of the passage between the nearby left and right walls of the cluster of ruined walls and rubble.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00065",
+      "statement": "At frame 0, the camera is above the muddy shell-cratered ground, at the near end of the passage between the nearby left and right walls of the cluster of ruined walls and rubble.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00067",
+      "statement": "At frame 119, the camera has approached the gravel mound between the cluster of ruined walls and rubble and remains above the muddy shell-cratered ground.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        80,
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00067",
+      "statement": "At frame 119, the camera has approached the gravel mound between the cluster of ruined walls and rubble and remains above the muddy shell-cratered ground.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        80,
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00066",
+      "statement": "At frame 0, the camera faces the gravelly ground between the nearby walls on both sides of the cluster of ruined walls and rubble and the distant cluster of dead trees.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004",
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00066",
+      "statement": "At frame 0, the camera faces the gravelly ground between the nearby walls on both sides of the cluster of ruined walls and rubble and the distant cluster of dead trees.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004",
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00068",
+      "statement": "At frame 119, the camera faces the orange point of fire slightly left of center and the cluster of ruined walls and rubble with a doorway behind and to its left.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00068",
+      "statement": "At frame 119, the camera faces the orange point of fire slightly left of center and the cluster of ruined walls and rubble with a doorway behind and to its left.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00069",
+      "statement": "From frames 0 to 80, the camera generally moves forward, approaching the gravel mound on the muddy shell-cratered ground, while the nearby left and right walls of the cluster of ruined walls and rubble gradually recede toward the sides of the image.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        10,
+        20,
+        35,
+        56,
+        72,
+        80
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00069",
+      "statement": "From frames 0 to 80, the camera generally moves forward, approaching the gravel mound on the muddy shell-cratered ground, while the nearby left and right walls of the cluster of ruined walls and rubble gradually recede toward the sides of the image.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        10,
+        20,
+        35,
+        56,
+        72,
+        80
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00070",
+      "statement": "From frames 80 to 119, the camera continues moving forward, approaching the orange point of fire between the cluster of ruined walls and rubble.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 119,
+      "evidence_frames": [
+        80,
+        90,
+        99,
+        113,
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004",
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00070",
+      "statement": "From frames 80 to 119, the camera continues moving forward, approaching the orange point of fire between the cluster of ruined walls and rubble.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 119,
+      "evidence_frames": [
+        80,
+        90,
+        99,
+        113,
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004",
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00072",
+      "statement": "From frames 80 to 94, the camera generally turns right, causing the central orange point of fire to move to the left side of the image; after approximately frame 90, the rotation slows noticeably.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 94,
+      "evidence_frames": [
+        80,
+        81,
+        82,
+        83,
+        87,
+        88,
+        89,
+        90,
+        91,
+        94,
+        95
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e005",
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00072",
+      "statement": "From frames 80 to 94, the camera generally turns right, causing the central orange point of fire to move to the left side of the image; after approximately frame 90, the rotation slows noticeably.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 94,
+      "evidence_frames": [
+        80,
+        81,
+        82,
+        83,
+        87,
+        88,
+        89,
+        90,
+        91,
+        94,
+        95
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e005",
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00073",
+      "statement": "From frames 113 to 119, the camera turns back to the left, with the rotation accelerating in the final portion and the cluster of ruined walls and rubble with a doorway moving back toward the right of the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 113,
+      "end_frame": 119,
+      "evidence_frames": [
+        112,
+        113,
+        114,
+        116,
+        117,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00073",
+      "statement": "From frames 113 to 119, the camera turns back to the left, with the rotation accelerating in the final portion and the cluster of ruined walls and rubble with a doorway moving back toward the right of the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 113,
+      "end_frame": 119,
+      "evidence_frames": [
+        112,
+        113,
+        114,
+        116,
+        117,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_a056",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        90,
+        113,
+        119
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video22_cp002_a056",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        90,
+        113,
+        119
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video22_cp002_r00074",
+      "statement": "From frames 0 to 35, Weapon A bobs relative to the camera, with the muzzle moving from the upper left to a lower position farther to the right.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 35,
+      "evidence_frames": [
+        0,
+        10,
+        19,
+        20,
+        21,
+        34,
+        35,
+        36
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00074",
+      "statement": "From frames 0 to 35, Weapon A bobs relative to the camera, with the muzzle moving from the upper left to a lower position farther to the right.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 35,
+      "evidence_frames": [
+        0,
+        10,
+        19,
+        20,
+        21,
+        34,
+        35,
+        36
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00075",
+      "statement": "From frames 72 to 90, Weapon A first sinks toward the lower left of the image, then rises and swings back to the right after approximately frame 81; the muzzle approaches the left edge and at one point is partially out of frame.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 72,
+      "end_frame": 90,
+      "evidence_frames": [
+        71,
+        72,
+        73,
+        80,
+        81,
+        82,
+        83,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00075",
+      "statement": "From frames 72 to 90, Weapon A first sinks toward the lower left of the image, then rises and swings back to the right after approximately frame 81; the muzzle approaches the left edge and at one point is partially out of frame.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 72,
+      "end_frame": 90,
+      "evidence_frames": [
+        71,
+        72,
+        73,
+        80,
+        81,
+        82,
+        83,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00076",
+      "statement": "From frames 90 to 105, Weapon A as a whole drops back into the lower portion of the image relative to the camera, then rises slightly again in the final portion.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 90,
+      "end_frame": 105,
+      "evidence_frames": [
+        90,
+        91,
+        94,
+        95,
+        98,
+        99,
+        103,
+        104,
+        105,
+        106
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00076",
+      "statement": "From frames 90 to 105, Weapon A as a whole drops back into the lower portion of the image relative to the camera, then rises slightly again in the final portion.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 105,
+      "evidence_frames": [
+        90,
+        91,
+        94,
+        95,
+        98,
+        99,
+        103,
+        104,
+        105,
+        106
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00077",
+      "statement": "From frames 98 to 119, the shower of sparks appears intermittently above the orange point of fire, moving upward away from the tongues of flame and dispersing.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 98,
+      "end_frame": 119,
+      "evidence_frames": [
+        97,
+        98,
+        99,
+        104,
+        113,
+        116,
+        117,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e016",
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00077",
+      "statement": "From frames 98 to 119, the shower of sparks appears intermittently above the orange point of fire, moving upward away from the tongues of flame and dispersing.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 98,
+      "end_frame": 119,
+      "evidence_frames": [
+        97,
+        98,
+        99,
+        104,
+        113,
+        116,
+        117,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e016",
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp002_r00078",
+      "statement": "From frames 0 to 119, the tongues of flame of the orange point of fire continuously extend, contract, and branch, with their brightness fluctuating as they burn.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        35,
+        58,
+        81,
+        90,
+        104,
+        116,
+        119
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp002_r00078",
+      "statement": "From frames 0 to 119, the tongues of flame of the orange point of fire continuously extend, contract, and branch, with their brightness fluctuating as they burn.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        35,
+        58,
+        81,
+        90,
+        104,
+        116,
+        119
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    119
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "f21a54d03f5952154c3230ca223bd89b6b7f52800cefeabfca8fd50ead9a593f"
+}

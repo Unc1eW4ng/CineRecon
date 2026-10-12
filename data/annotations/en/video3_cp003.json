@@ -1,0 +1,1245 @@
+{
+  "clip_id": "video3_cp003",
+  "video_id": "video3",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 46,
+  "source_frame_offset": 66,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video3_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The short-haired adult man on the image-left side of the first shot, wearing a black formal jacket, white shirt, and dark tie; his short hair appears dark under the dim lighting."
+    },
+    {
+      "source_entity_id": "video3_e002",
+      "name": "Brick-and-stone wall",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The gray masonry-block wall behind Person A and the partially plastered wall on the image-right side."
+    },
+    {
+      "source_entity_id": "video3_e003",
+      "name": "Wooden post-and-beam frame",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A dark wooden architectural structure, with a thick vertical post primarily visible in the first shot and stair treads, beams, posts, and a platform edge visible in the second shot."
+    },
+    {
+      "source_entity_id": "video3_e005",
+      "name": "Reddish-brown plane at the far end",
+      "numbered": false,
+      "first_appearance_frame": 22,
+      "identification": "The reddish-brown segmented plane deep in the center of the second shot, with its surface divided by horizontal and vertical seams."
+    },
+    {
+      "source_entity_id": "video3_e006",
+      "name": "Two hands at the bottom edge",
+      "numbered": false,
+      "first_appearance_frame": 22,
+      "identification": "The two bare hands visible at the bottom edge in the second shot, each hooking curved fingers around the same round rod."
+    },
+    {
+      "source_entity_id": "video3_e009",
+      "name": "Central vertical shaft opening",
+      "numbered": false,
+      "first_appearance_frame": 22,
+      "identification": "The dark opening in the center of the second shot, enclosed by wooden beams and platform edges, with a boundary that appears approximately quadrilateral in perspective."
+    },
+    {
+      "source_entity_id": "video3_e012",
+      "name": "Window opening in the wall",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The wall opening on the image-right side of the thick vertical post in the first shot, revealing part of a thick light-colored window surround, inner wall, and windowsill."
+    },
+    {
+      "source_entity_id": "video3_e013",
+      "name": "Foreground horizontal round rod",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The slender brown round rod extending horizontally across the bottom of the second shot and gripped by the Two hands at the bottom edge."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video3_cp003_restore00009",
+      "statement": "At frame 0, 1 Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00010",
+      "statement": "At frame 0, the Brick-and-stone wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00011",
+      "statement": "At frame 0, the thick vertical-post portion of the Wooden post-and-beam frame is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00012",
+      "statement": "At frame 0, part of the Window opening in the wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a003",
+      "statement": "At frame 0, 1 Person A is visible, with the upper body on the image-left side and on the image-left side of the thick vertical post of the Wooden post-and-beam frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a007",
+      "statement": "At frame 0, the Brick-and-stone wall is visible, distributed across the rear image-left and the image-right side.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a011",
+      "statement": "At frame 0, the thick vertical-post portion of the Wooden post-and-beam frame is visible in the foreground slightly right of center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00010",
+      "statement": "At frame 0, the Window opening in the wall is visible slightly right of the middle of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00015",
+      "statement": "At frame 46, the Wooden post-and-beam frame and its staircase components are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00016",
+      "statement": "At frame 46, the Reddish-brown plane at the far end is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00017",
+      "statement": "At frame 46, the two hands of the Two hands at the bottom edge are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00018",
+      "statement": "At frame 46, the Central vertical shaft opening is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00019",
+      "statement": "At frame 46, the Foreground horizontal round rod is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a021",
+      "statement": "At frame 46, the Wooden post-and-beam frame and its staircase components are visible, distributed through the foreground and middle ground around the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a025",
+      "statement": "At frame 46, the Reddish-brown plane at the far end is visible, deep in the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a033",
+      "statement": "At frame 46, the Central vertical shaft opening is visible in the lower-middle part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00003",
+      "statement": "At frame 46, the two bare hands of the Two hands at the bottom edge are visible, located from the bottom center to slightly right of center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00014",
+      "statement": "At frame 46, the Foreground horizontal round rod is visible in the foreground at the bottom of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a004",
+      "statement": "At frame 0, Person A is a short-haired adult man wearing a black formal jacket, with a white shirt and dark tie visible at the collar; the image shows the outline of his head and upper body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a005",
+      "statement": "At frame 0, Person A is a short-haired adult man wearing a black formal jacket, white shirt, and dark tie, and the image shows the outline of his head and upper body; his short hair is combed back, his frontal hairline is relatively high, and the white shirt collar points are on both sides of the centrally positioned dark tie.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a008",
+      "statement": "At frame 0, the Brick-and-stone wall ranges from light gray to grayish brown, occupies a large background area, and has a rough, uneven surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a009",
+      "statement": "At frame 0, the Brick-and-stone wall occupies a large background area, ranges from light gray to grayish brown, and has a rough, uneven surface; the masonry-block edges are irregular, the seams vary in lightness and darkness, and there is conspicuous mottling of light and dark.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a012",
+      "statement": "At frame 0, the visible portion of the Wooden post-and-beam frame consists primarily of a thick dark-brown vertical post; the post is wide and thick and runs vertically through the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a013",
+      "statement": "At frame 0, the visible portion of the Wooden post-and-beam frame consists primarily of a thick dark-brown vertical post; the post is wide and thick and runs vertically through the image, its edges are approximately vertical, and longitudinal bands of lighter and darker color are visible on its surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00011",
+      "statement": "At frame 0, only part of the thick light-colored window surround and windowsill of the Window opening in the wall is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00012",
+      "statement": "At frame 0, only part of the thick light-colored window surround and windowsill of the Window opening in the wall is visible; the plaster along the edges is rough, and distinct light and dark areas on the inner wall can be discerned.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a022",
+      "statement": "At frame 46, the Wooden post-and-beam frame is predominantly dark brown to grayish brown, with thick wooden beams, post-like components, diagonal components, and rows of stair treads forming a layered geometric framework.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a023",
+      "statement": "At frame 46, the Wooden post-and-beam frame is predominantly dark brown to grayish brown, with thick wooden beams, post-like components, diagonal components, and rows of stair treads forming a layered framework; there are dark gaps between the treads, some beam and plank ends and edges are uneven, and illuminated edges are lighter.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a026",
+      "statement": "At frame 46, the Reddish-brown plane at the far end is relatively large overall and is assembled from approximately rectangular reddish-brown sections.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a027",
+      "statement": "At frame 46, the Reddish-brown plane at the far end is relatively large overall, with approximately rectangular reddish-brown sections divided by horizontal and vertical seams; the sections vary in shade, there are dark patches in places, and the seams vary in width.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a034",
+      "statement": "At frame 46, the Central vertical shaft opening is a dark, approximately quadrilateral opening enclosed by thick wooden beams, with its boundary affected by perspective and occlusion.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a035",
+      "statement": "At frame 46, the Central vertical shaft opening is a dark, approximately quadrilateral opening enclosed by thick wooden beams, with its boundary affected by perspective and occlusion; layered crossbeams and plank-like components surround it, its interior is nearly black, and some beam and plank ends overlap.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00004",
+      "statement": "At frame 46, the Two hands at the bottom edge are two bare, skin-toned hands, with parts of the palms and curved fingers visible from the bottom edge of the image, gripping the Foreground horizontal round rod at two separate locations.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e006",
+        "video3_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00005",
+      "statement": "At frame 46, the Two hands at the bottom edge are two bare, skin-toned hands, with parts of the palms and curved fingers visible from the bottom edge of the image, gripping the Foreground horizontal round rod at two separate locations; several fingers of each hand curve side by side and hook around the rod, dark gaps between the fingers can be discerned, and the wrists are cropped by the bottom edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e006",
+        "video3_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00015",
+      "statement": "At frame 46, the Foreground horizontal round rod is a slender brown round rod extending across the bottom edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00016",
+      "statement": "At frame 46, the Foreground horizontal round rod is a slender brown round rod extending across the bottom edge of the image, with an almost straight outline and a brighter illuminated upper edge; part of the rod's surface is occluded by the fingers of the Two hands at the bottom edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e013",
+        "video3_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00013",
+      "statement": "At frame 0, Person A's upper body occupies the image-left side, in front of the Brick-and-stone wall and on the image-left side of the thick vertical post of the Wooden post-and-beam frame, while the lower part of his body extends beyond the bottom edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e002",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00014",
+      "statement": "At frame 0, the thick vertical post of the Wooden post-and-beam frame is in the foreground slightly right of center; the Brick-and-stone wall is distributed on both sides of the post and is partially occluded by it, while the Window opening in the wall is on the image-right side of the post.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002",
+        "video3_e003",
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a006",
+      "statement": "At frame 0, Person A's upper body is on the image-left side, in front of the Brick-and-stone wall, and on the image-left side of the thick vertical post of the Wooden post-and-beam frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e002",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a010",
+      "statement": "At frame 0, the Brick-and-stone wall is located at the rear image-left and on the image-right side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a014",
+      "statement": "At frame 0, the thick vertical post of the Wooden post-and-beam frame is in the foreground slightly right of center.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00013",
+      "statement": "At frame 0, the Window opening in the wall is slightly right of the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00020",
+      "statement": "At frame 46, the Wooden post-and-beam frame and its staircase components are distributed along both sides of the Central vertical shaft opening and connect to the platforms; the Central vertical shaft opening is in the lower-middle part of the image and extends below the near platform.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e003",
+        "video3_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00021",
+      "statement": "At frame 46, the Reddish-brown plane at the far end is deep in the center of the image, behind the Wooden post-and-beam frame, and is partially occluded along both sides and its lower edge by wooden components.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e005",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_restore00022",
+      "statement": "At frame 46, the Two hands at the bottom edge extend into the image from the bottom edge and hook around the same Foreground horizontal round rod at two horizontally separated contact points from the bottom center to slightly right of center, partially occluding the rod's surface; the round rod extends horizontally across the bottom of the image, in front of the Wooden post-and-beam frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e006",
+        "video3_e013",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a024",
+      "statement": "At frame 46, the Wooden post-and-beam frame and its staircase components are distributed through the foreground and middle ground around the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a028",
+      "statement": "At frame 46, the Reddish-brown plane at the far end is deep in the center of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a036",
+      "statement": "At frame 46, the Central vertical shaft opening is in the lower-middle part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00006",
+      "statement": "At frame 46, the Two hands at the bottom edge are located along the bottom edge of the image, distributed from the bottom center to slightly right of center.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00017",
+      "statement": "At frame 46, the Foreground horizontal round rod is in front of the Wooden post-and-beam frame, and the Two hands at the bottom edge each hook around one of two horizontally separated locations on the round rod.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e013",
+        "video3_e003",
+        "video3_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_a001",
+      "statement": "At frame 0, the camera is at a relatively high position in front of Person A, looking down at his upper body from close range; the thick vertical post of the Wooden post-and-beam frame enters the near foreground.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a001",
+      "statement": "At frame 0, the camera is at a relatively high position in front of Person A, looking down at his upper body from close range; the thick vertical post of the Wooden post-and-beam frame enters the near foreground.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_a019",
+      "statement": "At frame 46, the camera is above the near end of the Central vertical shaft opening, with the Foreground horizontal round rod extending across between the camera and the opening.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e009",
+        "video3_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a019",
+      "statement": "At frame 46, the camera is above the near end of the Central vertical shaft opening, with the Foreground horizontal round rod extending across between the camera and the opening.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e009",
+        "video3_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_r00001",
+      "statement": "At frame 0, the camera faces Person A's upper body and the thick vertical post of the Wooden post-and-beam frame slightly right of center.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00001",
+      "statement": "At frame 0, the camera faces Person A's upper body and the thick vertical post of the Wooden post-and-beam frame slightly right of center.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_a020",
+      "statement": "At frame 46, the camera looks into the Central vertical shaft opening, with the image including the Reddish-brown plane at the far end and the layered Wooden post-and-beam frame.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e005",
+        "video3_e009",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_a020",
+      "statement": "At frame 46, the camera looks into the Central vertical shaft opening, with the image including the Reddish-brown plane at the far end and the layered Wooden post-and-beam frame.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video3_e005",
+        "video3_e009",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_r00002",
+      "statement": "From frame 0 through frame 46, this clip has 1 shot cut.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        20,
+        21,
+        22,
+        23,
+        46
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video3_cp003_r00002",
+      "statement": "From frame 0 through frame 46, this clip has 1 shot cut.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        20,
+        21,
+        22,
+        23,
+        46
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video3_cp003_r00007",
+      "statement": "From frame 0 through frame 21, Person A remains on the image-left side of the thick vertical post of the Wooden post-and-beam frame, while his head and upper body shift generally toward the lower left in the image.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 21,
+      "evidence_frames": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        10,
+        12,
+        15,
+        16,
+        20,
+        21
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00007",
+      "statement": "From frame 0 through frame 21, Person A remains on the image-left side of the thick vertical post of the Wooden post-and-beam frame, while his head and upper body shift generally toward the lower left in the image.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 21,
+      "evidence_frames": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        10,
+        12,
+        15,
+        16,
+        20,
+        21
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_r00008",
+      "statement": "From frame 0 through frame 21, Person A raises his head, turning his face from angled toward the lower right of the image to facing the image-right side.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 21,
+      "evidence_frames": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        10,
+        12,
+        15,
+        16,
+        20,
+        21
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00008",
+      "statement": "From frame 0 through frame 21, Person A raises his head, turning his face from angled toward the lower right of the image to facing the image-right side.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 21,
+      "evidence_frames": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        10,
+        12,
+        15,
+        16,
+        20,
+        21
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp003_r00009",
+      "statement": "From frame 22 through frame 46, the Two hands at the bottom edge continuously hook their curved fingers around the Foreground horizontal round rod.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 46,
+      "evidence_frames": [
+        21,
+        22,
+        23,
+        34,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video3_e006",
+        "video3_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp003_r00009",
+      "statement": "From frame 22 through frame 46, the Two hands at the bottom edge continuously hook their curved fingers around the Foreground horizontal round rod.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 46,
+      "evidence_frames": [
+        21,
+        22,
+        23,
+        34,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video3_e006",
+        "video3_e013"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    46
+  ],
+  "evaluation_cut_frames": [
+    22
+  ],
+  "source_sha256": "7d5ffe7039b08fa0f95cc578a69f38d92e5f8cc3411db9d516fb638f8b788e49"
+}

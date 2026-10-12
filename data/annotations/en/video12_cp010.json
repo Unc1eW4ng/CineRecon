@@ -1,0 +1,1325 @@
+{
+  "clip_id": "video12_cp010",
+  "video_id": "video12",
+  "fps": 29.97002997002997,
+  "start_frame": 0,
+  "end_frame": 58,
+  "source_frame_offset": 561,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video12_e001",
+      "name": "teal stadium seating",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Teal seats arranged in large sections in the stands, with gray stairs and passageways between sections."
+    },
+    {
+      "source_entity_id": "video12_e002",
+      "name": "stadium roof and trusses",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light-gray long-span canopy covering the stands and its repeated trusses."
+    },
+    {
+      "source_entity_id": "video12_e003",
+      "name": "pink-purple illuminated racing gate set",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "In this clip, this specifically corresponds to the pink-purple illuminated rectangular entrance frame to the image-left of Object M, leading to the interior passageway."
+    },
+    {
+      "source_entity_id": "video12_e004",
+      "name": "green stadium turf",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The broad green ground inside the stadium, with alternating broad light and dark stripes visible on its surface."
+    },
+    {
+      "source_entity_id": "video12_e005",
+      "name": "gray sideline passageway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The long, narrow gray road surface between the turf and the low sideline wall, with a yellow longitudinal line visible in the near section."
+    },
+    {
+      "source_entity_id": "video12_e006",
+      "name": "Object L",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The white pentagonal thick-framed gate on the turf on the right, hollow inside, with a pink bottom and a partially pink-purple illuminated inner edge."
+    },
+    {
+      "source_entity_id": "video12_e007",
+      "name": "Object M",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The tall, narrow framed gate to the right of the entrance, with slender uprights bearing repeated cyan-blue illuminated segments and a wider white cap panel and pink-purple frame edge at the top."
+    },
+    {
+      "source_entity_id": "video12_e011",
+      "name": "stadium floodlight strip",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The bright white light points and rows of lights near the stadium roof."
+    },
+    {
+      "source_entity_id": "video12_e012",
+      "name": "passageway floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray hard-surfaced floor of the interior passageway, illuminated by purple-orange light, with a yellow line visible in places."
+    },
+    {
+      "source_entity_id": "video12_e013",
+      "name": "passageway wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The solid walls on both sides of the interior passageway, with a dark strip along the junction with the floor; a wall corner occludes the passageway farther away."
+    },
+    {
+      "source_entity_id": "video12_e015",
+      "name": "purple-orange passageway light fixture",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The purple linear light source and localized orange-yellow light source along the edge of the interior passageway."
+    },
+    {
+      "source_entity_id": "video12_e016",
+      "name": "upper-level black display screen",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark rectangular display screen near the upper-level stands, with a bright light-colored pattern on the screen."
+    },
+    {
+      "source_entity_id": "video12_e020",
+      "name": "teal low sideline wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous opaque teal wall strip extending along the sideline passageway and the lower edge of the seating."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video12_cp010_restore00011",
+      "statement": "At frame 0, the stadium floodlight strip is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_restore00012",
+      "statement": "At frame 0, one entrance gate in the pink-purple illuminated racing gate set, one Object L, and one Object M are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e003",
+        "video12_e006",
+        "video12_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_restore00013",
+      "statement": "At frame 0, one upper-level black display screen is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00009",
+      "statement": "At frame 0, the teal stadium seating is visible in the upper half and on the image-left.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00012",
+      "statement": "At frame 0, the stadium roof and trusses are visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00015",
+      "statement": "At frame 0, the stadium floodlight strip is visible near the roof in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00018",
+      "statement": "At frame 0, the teal low sideline wall is visible on the image-left and along the lower edge of the distant seating.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00021",
+      "statement": "At frame 0, Object M is visible slightly left of the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00024",
+      "statement": "At frame 0, Object L is visible on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00027",
+      "statement": "At frame 0, one entrance frame in the pink-purple illuminated racing gate set is visible on the image-left of Object M.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e003",
+        "video12_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00030",
+      "statement": "At frame 0, the upper-level black display screen is visible in the upper-right of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00033",
+      "statement": "At frame 0, the green stadium turf is visible in the center and on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00036",
+      "statement": "At frame 0, the gray sideline passageway is visible from the lower-left to slightly left of the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_restore00018",
+      "statement": "At frame 58, the purple-orange passageway light fixture is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00039",
+      "statement": "At frame 58, the passageway floor is visible from the lower-left to the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video12_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00042",
+      "statement": "At frame 58, the passageway walls are visible on both sides of the visible passage.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video12_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00048",
+      "statement": "At frame 58, the purple-orange passageway light fixture is visible along the edge of the visible passage and near the walls.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00010",
+      "statement": "At frame 0, the teal stadium seating forms large sections of stepped stands.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00011",
+      "statement": "At frame 0, the teal stadium seating forms large sections of stepped stands; the seats are arranged in repeated parallel rows, with gray stairs and passageways between sections, and the distant rows appear denser due to perspective.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00013",
+      "statement": "At frame 0, the stadium roof and trusses form a light-gray long-span canopy structure, with repeated trusses visible inside.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00014",
+      "statement": "At frame 0, the stadium roof and trusses form a light-gray long-span canopy structure; repeated grid-like trusses, some diagonal braces, and segmented roof panels are visible beneath the roof surface, and the roof edge extends along the stands.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00016",
+      "statement": "At frame 0, the stadium floodlight strip appears as bright white rows of lights and localized clusters of light.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00017",
+      "statement": "At frame 0, the stadium floodlight strip appears as bright white rows of lights and localized clusters of light; the light points are repeatedly arranged along the roof edge, and some bright points are overexposed and form halos around them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00019",
+      "statement": "At frame 0, the teal low sideline wall is a continuous solid wall strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00020",
+      "statement": "At frame 0, the teal low sideline wall appears as a continuous opaque wall strip; its upper edge forms a polyline in perspective, parts of the upper edge are lighter in color, light-colored rectangular markings are visible on the wall surface, and it extends along the lower edge of the seating.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00022",
+      "statement": "At frame 0, Object M is a tall, narrow framed gate with slender cyan-blue illuminated uprights and a white and pink-purple top.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00023",
+      "statement": "At frame 0, Object M is a tall, narrow framed gate; cyan-blue illuminated segments repeat at intervals along the slender uprights, the top consists of a wider white cap panel and a pink-purple frame edge, and a visible opening remains between the uprights.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00025",
+      "statement": "At frame 0, Object L is a white pentagonal thick-framed gate with a hollow doorway and a pink bottom support.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00026",
+      "statement": "At frame 0, Object L is a white pentagonal thick-framed gate; the sloping top, sides, and bottom enclose a hollow doorway, the bottom support area is pink, and a pink-purple illuminated edge is visible on the right inner edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00028",
+      "statement": "At frame 0, the visible entrance in the pink-purple illuminated racing gate set has the shape of a hollow rectangular frame, with pink-purple light emitted by the vertical edges on both sides and the upper horizontal edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00029",
+      "statement": "At frame 0, the visible entrance in the pink-purple illuminated racing gate set has the shape of a hollow rectangular frame; pink-purple illuminated edges run along the upright edges on both sides, the upper horizontal edge, and the connecting corners, enclosing a dark opening; part of the illuminated edge on the left is nearly white and very bright.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00031",
+      "statement": "At frame 0, the upper-level black display screen has a rectangular black screen surface and a bright light-colored pattern.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00032",
+      "statement": "At frame 0, the upper-level black display screen has a discernible rectangular outline and a dark screen surface; the screen bears bright light-colored text-like graphics and a nearly circular illuminated pattern, with localized overexposure; from the current viewing angle, the screen surface appears oblique in perspective.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00034",
+      "statement": "At frame 0, the green stadium turf appears as a broad, approximately flat green surface, extending from the lower part of the image toward Object L and the sideline in front of the seating behind it; its left edge converges toward slightly left of the center of the image; the visible area does not show continuous left and right bends defined by boundaries.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e004",
+        "video12_e006",
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00035",
+      "statement": "At frame 0, the green stadium turf appears as a broad, approximately flat green surface, with alternating broad light and dark stripes visible; the turf extends from the lower part of the image toward Object L and the sideline in front of the seating behind it, and its left edge converges toward slightly left of the center of the image; the visible area does not show continuous left and right bends defined by boundaries.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e004",
+        "video12_e006",
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00037",
+      "statement": "At frame 0, the gray sideline passageway is a long, narrow gray hard-surfaced roadway; its near section runs straight along the edge of the green stadium turf, while its far end connects near Object M to a wider road surface and to the entrance of the pink-purple illuminated racing gate set on the image-left; a short section of floor is visible inside the entrance, while the area farther away is occluded by the wall beside the gate.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e005",
+        "video12_e004",
+        "video12_e007",
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00038",
+      "statement": "At frame 0, the gray sideline passageway is a long, narrow gray hard-surfaced roadway with a visible yellow longitudinal line; its left side is close to the teal low sideline wall, and its right side adjoins the green stadium turf; its near section runs straight along the edge of the turf, while its far end connects near Object M to a wider road surface and to the entrance of the pink-purple illuminated racing gate set on the image-left; a short section of floor is visible inside the entrance, while the area farther away is occluded by the wall beside the gate.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e005",
+        "video12_e020",
+        "video12_e004",
+        "video12_e007",
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00040",
+      "statement": "At frame 58, the passageway floor appears as a gray, relatively smooth hard surface; its near end spreads across the lower-left and center of the image and narrows along the visible edges toward the narrow opening in the upper-right; the visible passage ahead turns at a wall corner, and the area farther away is occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00041",
+      "statement": "At frame 58, the passageway floor appears as a gray, relatively smooth hard surface, with a localized yellow edge line, an orange-yellow fan-shaped illuminated area, and purple reflections visible; its near end spreads across the lower-left and center of the image and narrows toward the opening in the upper-right; the passage ahead turns at a wall corner, and the area farther away is occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00043",
+      "statement": "At frame 58, the passageway walls are relatively light-colored solid surfaces that appear gray-purple and warm-colored under the purple-orange lighting, with a dark strip along the junction with the floor.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00044",
+      "statement": "At frame 58, the passageway walls are relatively light-colored solid surfaces that appear gray-purple and warm-colored under the purple-orange lighting; the dark strip along the junction with the floor turns continuously with the wall corner, the wall surfaces have bright and shadowed areas, and the wall corner occludes the passage farther away.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00049",
+      "statement": "At frame 58, the purple-orange passageway light fixture includes a purple linear light source and a localized orange-yellow light source.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00050",
+      "statement": "At frame 58, the purple-orange passageway light fixture includes a purple linear light source that forms a bright strip along the visible passageway edge, as well as a localized orange-yellow light source; the orange-yellow illumination forms a fan-shaped bright area, and the purple light tints adjacent surfaces brightly.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_restore00010",
+      "statement": "At frame 0, the teal stadium seating is on the far side of the green stadium turf and on the image-left, with the seating arranged upward in tiers; the stadium roof and trusses cover the seating and are located in the upper part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e002",
+        "video12_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_restore00014",
+      "statement": "At frame 0, the gray sideline passageway runs straight from nearby in the lower-left of the image along the edge of the green stadium turf to the vicinity of Object M ahead, and the road surface at the far end connects to the entrance of the pink-purple illuminated racing gate set on the image-left; the teal low sideline wall is on the image-left of the passageway, and the turf is on the right. The turf extends continuously from the lower part of the image toward the distant sideline, occupying the broad area from the center to the image-right.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e005",
+        "video12_e020",
+        "video12_e004",
+        "video12_e007",
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_restore00015",
+      "statement": "At frame 0, the visible entrance in the pink-purple illuminated racing gate set is on the image-left of Object M, and Object L is on the image-right of both, with its bottom in contact with the green stadium turf; all three gate structures have visible openings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e003",
+        "video12_e007",
+        "video12_e006",
+        "video12_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00051",
+      "statement": "At frame 0, the gray sideline passageway is on the image-left of the green stadium turf, with the teal low sideline wall to the left of the passageway; Object M is ahead, the entrance in the pink-purple illuminated racing gate set is on the image-left of Object M, and Object L is on the turf on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e005",
+        "video12_e020",
+        "video12_e004",
+        "video12_e007",
+        "video12_e003",
+        "video12_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_restore00016",
+      "statement": "At frame 58, the passageway floor extends from nearby in the lower-left and center of the image along the passage between the passageway walls toward the opening in the upper-right of the image and narrows; the passage ahead turns at a wall corner into the next visible short section, while the area farther away is occluded by the wall corner.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00052",
+      "statement": "At frame 58, the passageway floor occupies the lower-left through the center of the image and narrows toward the opening in the upper-right; the passageway walls turn along both sides of it, and light from the purple-orange passageway light fixture illuminates the adjacent floor and the bases of the walls.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013",
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_r00005",
+      "statement": "At frame 0, the camera is at low altitude near the boundary between the green stadium turf and the gray sideline passageway.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e004",
+        "video12_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00005",
+      "statement": "At frame 0, the camera is at low altitude near the boundary between the green stadium turf and the gray sideline passageway.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e004",
+        "video12_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_r00007",
+      "statement": "At frame 58, the camera is near a turn in the interior passageway, adjacent to the purple-orange illuminated area along the lower edge of the passageway wall.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        56,
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013",
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00007",
+      "statement": "At frame 58, the camera is near a turn in the interior passageway, adjacent to the purple-orange illuminated area along the lower edge of the passageway wall.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        56,
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013",
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_r00006",
+      "statement": "At frame 0, the camera faces Object M ahead and the entrance of the pink-purple illuminated racing gate set on its image-left.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e007",
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00006",
+      "statement": "At frame 0, the camera faces Object M ahead and the entrance of the pink-purple illuminated racing gate set on its image-left.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e007",
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_r00008",
+      "statement": "At frame 58, the camera faces the nearby passageway floor and the passageway opening ahead in the upper-right of the image.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00008",
+      "statement": "At frame 58, the camera faces the nearby passageway floor and the passageway opening ahead in the upper-right of the image.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_r00001",
+      "statement": "From frames 0 to 32, the camera advances forward and to the left at low altitude along the sideline, approaching and reaching the entrance of the pink-purple illuminated racing gate set to the left of Object M.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        16,
+        31,
+        32,
+        33
+      ],
+      "subject_ids": [
+        "video12_e005",
+        "video12_e007",
+        "video12_e003",
+        "video12_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00001",
+      "statement": "From frames 0 to 32, the camera advances forward and to the left at low altitude along the sideline, approaching and reaching the entrance of the pink-purple illuminated racing gate set to the left of Object M.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        16,
+        31,
+        32,
+        33
+      ],
+      "subject_ids": [
+        "video12_e005",
+        "video12_e007",
+        "video12_e003",
+        "video12_e020"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_r00002",
+      "statement": "From frames 33 to 58, the camera continues advancing forward, passes the side wall of the entrance, enters the interior passage enclosed by the passageway floor and passageway walls, and approaches the area illuminated by purple-orange light.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 33,
+      "end_frame": 58,
+      "evidence_frames": [
+        32,
+        33,
+        34,
+        35,
+        45,
+        49,
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013",
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00002",
+      "statement": "From frames 33 to 58, the camera continues advancing forward, passes the side wall of the entrance, enters the interior passage enclosed by the passageway floor and passageway walls, and approaches the area illuminated by purple-orange light.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 33,
+      "end_frame": 58,
+      "evidence_frames": [
+        32,
+        33,
+        34,
+        35,
+        45,
+        49,
+        58
+      ],
+      "subject_ids": [
+        "video12_e012",
+        "video12_e013",
+        "video12_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_r00003",
+      "statement": "From frames 0 to 33, the camera generally turns left, with the left tilt increasing in the latter part of the interval, and the framing shifts from the vicinity of Object M toward the entrance of the pink-purple illuminated racing gate set to its left.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 33,
+      "evidence_frames": [
+        0,
+        16,
+        31,
+        32,
+        33,
+        34
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e007",
+        "video12_e003",
+        "video12_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00003",
+      "statement": "From frames 0 to 33, the camera generally turns left, with the left tilt increasing in the latter part of the interval, and the framing shifts from the vicinity of Object M toward the entrance of the pink-purple illuminated racing gate set to its left.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 33,
+      "evidence_frames": [
+        0,
+        16,
+        31,
+        32,
+        33,
+        34
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e007",
+        "video12_e003",
+        "video12_e020"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_r00004",
+      "statement": "From frames 34 to 45, the camera continues turning left while maintaining a pronounced left tilt; the framing passes beyond the side wall of the entrance and turns toward the interior passage.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 45,
+      "evidence_frames": [
+        33,
+        34,
+        35,
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video12_e013",
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp010_r00004",
+      "statement": "From frames 34 to 45, the camera continues turning left while maintaining a pronounced left tilt; the framing passes beyond the side wall of the entrance and turns toward the interior passage.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 45,
+      "evidence_frames": [
+        33,
+        34,
+        35,
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video12_e013",
+        "video12_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp010_a008",
+      "statement": "Frames 0 to 58 are a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        16,
+        31,
+        32,
+        33,
+        34,
+        45,
+        58
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video12_cp010_a008",
+      "statement": "Frames 0 to 58 are a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        16,
+        31,
+        32,
+        33,
+        34,
+        45,
+        58
+      ],
+      "subject_ids": []
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    58
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "71c04f3f2ed1afbe26bd698d34e96463cfb3273d5b7bfe56a8e8ba5410cbe783"
+}

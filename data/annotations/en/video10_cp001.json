@@ -1,0 +1,2086 @@
+{
+  "clip_id": "video10_cp001",
+  "video_id": "video10",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 44,
+  "source_frame_offset": 24,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video10_e003",
+      "name": "queue of vehicles in traffic congestion",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A collection of background cars densely arrayed along the road, excluding Vehicle A and Vehicle B."
+    },
+    {
+      "source_entity_id": "video10_e004",
+      "name": "clear blue sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light blue sky above the vehicles, people, and distant treetops."
+    },
+    {
+      "source_entity_id": "video10_e005",
+      "name": "concrete guardrail",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous solid low wall along the outer edge of the left side of the road, distinct from the concrete median barrier on the right."
+    },
+    {
+      "source_entity_id": "video10_e006",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A turquoise-green car with a boxy front end, black grille, and round headlights."
+    },
+    {
+      "source_entity_id": "video10_e007",
+      "name": "Vehicle B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A dark red sedan with a curved roof, hood, and dark windows."
+    },
+    {
+      "source_entity_id": "video10_e011",
+      "name": "surrounding crowd",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A collection of other people between the vehicles and near the car roofs, not counting Person A, Person B, Person C, or Person D again."
+    },
+    {
+      "source_entity_id": "video10_e012",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A woman with short light-blond hair and a red top, mutually embracing and supporting Person B."
+    },
+    {
+      "source_entity_id": "video10_e017",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A bearded man wearing a loose mustard-yellow top and a red-and-white hat with a dark brim, interacting with Person A."
+    },
+    {
+      "source_entity_id": "video10_e021",
+      "name": "bridge deck roadway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light gray hard road surface visible between the vehicles and at the lower left of the image."
+    },
+    {
+      "source_entity_id": "video10_e022",
+      "name": "concrete median barrier",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The solid light gray-beige dividing wall to the right of Vehicle B, separating the vehicles on the two sides."
+    },
+    {
+      "source_entity_id": "video10_e023",
+      "name": "distant trees",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark green band of irregular treetops behind the distant group of vehicles on the right."
+    },
+    {
+      "source_entity_id": "video10_e024",
+      "name": "Person C",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A woman with short dark hair, wearing a blue short-sleeved garment, dark blue shorts, and black shoes."
+    },
+    {
+      "source_entity_id": "video10_e025",
+      "name": "Person D",
+      "numbered": true,
+      "first_appearance_frame": 30,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "The person who tumbles into the central foreground in the later part, wearing an olive-green top, with brown bottoms partially visible, and having dark hair."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video10_cp001_restore00013",
+      "statement": "At frame 0, Person A, Person B, and Person C are visible, along with multiple members of the surrounding crowd.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e012",
+        "video10_e017",
+        "video10_e024",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00014",
+      "statement": "At frame 0, two separate vehicles, Vehicle A and Vehicle B, are visible, along with multiple background vehicles in the queue of vehicles in traffic congestion.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00021",
+      "statement": "At frame 0, a sky region is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00025",
+      "statement": "At frame 0, Person A is partially visible in the lower center, Person B is in the central foreground, and Person C is on the left side of the image; the surrounding crowd is visible in the middle distance and background, and only the legs of the people on the car roofs are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e017",
+        "video10_e012",
+        "video10_e024",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00026",
+      "statement": "At frame 0, Vehicle A is partially visible at the left edge of the image, Vehicle B is right of center, and multiple white and blue cars in the queue of vehicles in traffic congestion are visible behind them and on the right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00027",
+      "statement": "At frame 0, the clear blue sky is in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00028",
+      "statement": "At frame 0, the concrete median barrier is on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00029",
+      "statement": "At frame 0, the bridge deck roadway is visible in the lower-left part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00030",
+      "statement": "At frame 0, the distant trees are on the right side of the image in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00032",
+      "statement": "At frame 22, Person A is left of center in the foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00035",
+      "statement": "At frame 22, Person B is right of center in the foreground, with the upper part cropped by the top edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video10_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00038",
+      "statement": "At frame 37, Person D is partially visible in the center of the image, with the body in an inverted, bent posture.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 37,
+      "end_frame": 37,
+      "evidence_frames": [
+        36,
+        37,
+        38
+      ],
+      "subject_ids": [
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00025",
+      "statement": "At frame 44, Person D is partially visible, along with multiple members of the surrounding crowd.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e025",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00026",
+      "statement": "At frame 44, Vehicle A and Vehicle B remain visible, along with multiple background vehicles in the queue of vehicles in traffic congestion.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        22,
+        44
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00030",
+      "statement": "At frame 44, the sky region occupies a large area in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00061",
+      "statement": "At frame 44, Person D is partially visible in the lower part of the image; multiple people in the surrounding crowd are visible in the middle distance and background.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e025",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00062",
+      "statement": "At frame 44, Vehicle A is on the left side of the image and Vehicle B is on the right side; multiple rows of light-colored and dark-colored cars in the queue of vehicles in traffic congestion are visible in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00063",
+      "statement": "At frame 44, the clear blue sky is in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00064",
+      "statement": "At frame 44, the concrete guardrail is in the distance on the left side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00065",
+      "statement": "At frame 44, the bridge deck roadway is visible at the lower left of the image and in narrow gaps in the center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00066",
+      "statement": "At frame 44, the distant trees are partially visible in the distance on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00003",
+      "statement": "At frame 0, Person B wears a loose mustard-yellow top and a red hat.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00004",
+      "statement": "At frame 0, Person B wears a loose mustard-yellow top and a red hat; the sleeves are rolled up to near the elbows, the brim is dark, and distinct fabric folds are visible on the back and sleeves.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00005",
+      "statement": "At frame 0, Person A's short light-colored hair, red sleeve, and part of the face are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00006",
+      "statement": "At frame 0, Person A's short light-colored hair, red sleeve, and part of the face are visible; the short hair has a fluffy outline, the arm is bent, and the head is tilted back.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00007",
+      "statement": "At frame 0, Person C wears a blue short-sleeved garment, dark blue shorts, and black shoes.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00008",
+      "statement": "At frame 0, Person C wears a blue short-sleeved garment, dark blue shorts, and black shoes; the short dark hair, lower hems of the shorts, both bare legs, and one bent knee are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00009",
+      "statement": "At frame 0, the surrounding crowd wears tops of various colors and bottoms of varying lightness.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00010",
+      "statement": "At frame 0, the surrounding crowd wears tops of various colors and bottoms of varying lightness; the outlines of some raised or extended arms are discernible, and the faces of people in the distance are relatively small.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00011",
+      "statement": "At frame 0, Vehicle A is a turquoise-green car with a visible boxy front end, relatively flat hood, and relatively upright windshield.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00012",
+      "statement": "At frame 0, Vehicle A is a turquoise-green car with a visible boxy front end, relatively flat hood, and relatively upright windshield; the black front grille, round headlights, and some angular window frames are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00013",
+      "statement": "At frame 0, Vehicle B is a dark red sedan with a visible curved roof, hood, and dark windows.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00014",
+      "statement": "At frame 0, Vehicle B is a dark red sedan with a visible curved roof, hood, and dark windows; the black trim around the windows, horizontal headlights, black grille, and hood seams are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00015",
+      "statement": "At frame 0, the queue of vehicles in traffic congestion includes multiple white, silver-gray, blue, and dark-colored cars.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00016",
+      "statement": "At frame 0, the queue of vehicles in traffic congestion includes multiple white, silver-gray, blue, and dark-colored cars; the vehicles decrease in size with distance, and dark windows, headlights of different shapes, roofs, and side mirrors are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00017",
+      "statement": "At frame 0, the clear blue sky appears as a large expanse of light blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00018",
+      "statement": "At frame 0, the clear blue sky appears as a large expanse of light blue; the color is lighter near the horizon and a deeper blue higher up.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00019",
+      "statement": "At frame 0, the concrete median barrier is a solid light gray-beige dividing wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00020",
+      "statement": "At frame 0, the concrete median barrier is a solid light gray-beige dividing wall; its long narrow top edge, continuous side surface, and shadows of people cast on the side are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00021",
+      "statement": "At frame 0, the bridge deck roadway is light gray and narrows from the lower left of the image toward the distance in the left-center.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00022",
+      "statement": "At frame 0, the bridge deck roadway is light gray and narrows from the lower left of the image toward the distance in the left-center; the vehicles divide the visible roadway into discontinuous gaps, shadows are visible, and farther away it is occluded by vehicle bodies.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00023",
+      "statement": "At frame 0, the distant trees appear as a dark green band.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00024",
+      "statement": "At frame 0, the distant trees appear as a dark green band; the treetops vary in height, with clustered edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00033",
+      "statement": "At frame 22, Person A has short light-blond hair and wears a red top.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00034",
+      "statement": "At frame 22, Person A has short light-blond hair and wears a red top; the hair is fluffy overall, and the red sleeve and bent arm are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00036",
+      "statement": "At frame 22, Person B wears a mustard-yellow top, with the sleeve and part of the face visible; the hat is not within the valid image area of this frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video10_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00037",
+      "statement": "At frame 22, Person B wears a mustard-yellow top, with the sleeve and part of the face visible; the sleeve is rolled up, and fabric folds and a dark beard are discernible; the hat is outside the valid image area of this frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video10_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00039",
+      "statement": "At frame 37, Person D's olive-green top and part of the brown bottoms are visible, with the body in an inverted, bent posture.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 37,
+      "end_frame": 37,
+      "evidence_frames": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "subject_ids": [
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00040",
+      "statement": "At frame 37, Person D's olive-green top and part of the brown bottoms are visible, with the body in an inverted, bent posture; the head is lower than the legs, the dark hair, bent legs, and light and dark folds in the top are discernible, and the face is blurred.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 37,
+      "end_frame": 37,
+      "evidence_frames": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "subject_ids": [
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00043",
+      "statement": "At frame 44, Person D's olive-green top and dark hair are partially visible in the lower part of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00044",
+      "statement": "At frame 44, Person D's olive-green top and dark hair are partially visible in the lower part of the image; most of the body is cropped by the bottom edge, and the hair and garment edges have pronounced motion blur.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00045",
+      "statement": "At frame 44, tops of various colors are partially visible among the surrounding crowd, with most people showing only their heads and shoulders or upper bodies.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00046",
+      "statement": "At frame 44, tops of various colors are partially visible among the surrounding crowd, with most people showing only their heads and shoulders or upper bodies; the outlines of some raised or extended arms are discernible, and distant faces are very small.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00047",
+      "statement": "At frame 44, Vehicle A is a turquoise-green car with a visible boxy front end, relatively flat hood, and relatively upright windshield.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00048",
+      "statement": "At frame 44, Vehicle A is a turquoise-green car with a visible boxy front end, relatively flat hood, and relatively upright windshield; the black front grille, round headlights, slender windshield wipers, and angular windows are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00049",
+      "statement": "At frame 44, Vehicle B's dark red curved roof, door frame, windshield, and dark side-window area are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00050",
+      "statement": "At frame 44, Vehicle B's dark red curved roof, door frame, windshield, and dark side-window area are visible; the side window is open, and the outline of a dark seat headrest inside the vehicle is discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00051",
+      "statement": "At frame 44, the queue of vehicles in traffic congestion includes multiple white, silver-gray, blue, and dark-colored cars.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00052",
+      "statement": "At frame 44, the queue of vehicles in traffic congestion includes multiple white, silver-gray, blue, and dark-colored cars; the projected sizes of the vehicles decrease with distance, roofs, dark window surfaces, and partial body outlines are discernible, and the vehicle bodies occlude one another.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00053",
+      "statement": "At frame 44, the clear blue sky appears as a large expanse of light blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00054",
+      "statement": "At frame 44, the clear blue sky appears as a large expanse of light blue; the color is lighter near the horizon and a deeper blue higher up.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00055",
+      "statement": "At frame 44, the concrete guardrail is a continuous light gray low wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00056",
+      "statement": "At frame 44, the concrete guardrail is a continuous light gray low wall; its straight top edge, solid side surface, and partial shadows are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00057",
+      "statement": "At frame 44, the light gray bridge deck is exposed at the lower left of the image and narrows along the gaps between vehicles toward the distance in the center of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00058",
+      "statement": "At frame 44, the light gray bridge deck is exposed at the lower left of the image and narrows along the gaps between vehicles toward the distance in the center of the image; the visible area is divided by vehicle bodies and people in the foreground, and alternating light and dark shadows appear on the surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00059",
+      "statement": "At frame 44, part of the distant trees appears as a dark green band.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00060",
+      "statement": "At frame 44, part of the distant trees appears as a dark green band; the exposed treetops vary in height, with clustered edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e023"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00015",
+      "statement": "At frame 0, Person B bends forward in the central foreground toward Person A, who is leaning back; Person A's head is lower than Person B, and Person A's arm is in contact with Person B's shoulder and back; both are in front of Vehicle B and occlude the front part of its body.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video10_e017",
+        "video10_e012",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00016",
+      "statement": "At frame 0, Person C is to the image-left of Person A and Person B and in front of Vehicle A, with the body occluding part of Vehicle A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e024",
+        "video10_e012",
+        "video10_e017",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00017",
+      "statement": "At frame 0, the surrounding crowd is distributed between the vehicles; people's feet are visible in contact with the upper surfaces of Vehicle B's roof and hood.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e011",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00018",
+      "statement": "At frame 0, Vehicle A is at the left edge of the image and cut off by the boundary, while Vehicle B is right of center, with the front ends of both vehicles facing the foreground; the queue of vehicles in traffic congestion is behind the two vehicles and on the right side of the image, arranged along the near-to-far direction and mutually occluding one another.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00019",
+      "statement": "At frame 0, the concrete median barrier is to the image-right of Vehicle B, separating the side containing Vehicle B from another line of vehicles on the right and occluding the lower portions of that other line of vehicles.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e022",
+        "video10_e007",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00020",
+      "statement": "At frame 0, the bridge deck roadway connects from the lower-left foreground of the image to the gap between Vehicle A and Vehicle B, and extends toward the distance in the left-center of the image; the visible passage narrows with perspective, and the distant roadway is occluded by vehicles and exposed in segments.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e021",
+        "video10_e006",
+        "video10_e007",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00022",
+      "statement": "At frame 0, the distant vegetation area is behind the group of vehicles on the right side of the image, with its bottom occluded by the vehicles.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e023",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00031",
+      "statement": "At frame 0, Person B bends forward close to Person A, who is leaning back, and both are in front of Vehicle B's hood; Person C is on the left side of the image, the concrete median barrier is to the right of Vehicle B, the distant trees are behind the queue of vehicles in traffic congestion, and the clear blue sky is above.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e017",
+        "video10_e012",
+        "video10_e024",
+        "video10_e007",
+        "video10_e003",
+        "video10_e004",
+        "video10_e022",
+        "video10_e023"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00023",
+      "statement": "At frame 22, Person A and Person B mutually embrace and support each other in the foreground, with Person A's arm around Person B's shoulder and neck and Person B's arm pressed against Person A's back; Person A is in front of and to the image-left of Person B, occluding part of Person B's torso, and both occlude part of the front of Vehicle B.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video10_e012",
+        "video10_e017",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00024",
+      "statement": "At frame 37, Person D is in the central foreground between Person A and Person B, with the body inverted and bent and the head lower than the legs, and occludes part of the image-left side of Vehicle B.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 37,
+      "end_frame": 37,
+      "evidence_frames": [
+        36,
+        37,
+        38
+      ],
+      "subject_ids": [
+        "video10_e025",
+        "video10_e012",
+        "video10_e017",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00027",
+      "statement": "At frame 44, Vehicle A is on the left side of the image and Vehicle B is on the right side, with the front ends of both vehicles facing the foreground; Person D is cropped by the bottom edge of the image and occludes part of the area between the two vehicles and part of the image-right side of Vehicle A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007",
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00028",
+      "statement": "At frame 44, Person A's head and torso have moved beyond the left edge of the image, and Person B's head and torso have moved beyond the right edge of the image; parts of arms remain in the foreground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        37,
+        38,
+        41,
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e012",
+        "video10_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00029",
+      "statement": "At frame 44, the queue of vehicles in traffic congestion is behind Vehicle A and Vehicle B, arranged along the near-to-far direction and mutually occluding one another; members of the surrounding crowd are partially exposed in gaps among the vehicles and above the line of car roofs.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e006",
+        "video10_e007",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00031",
+      "statement": "At frame 44, the concrete guardrail is behind and to the image-left of Vehicle A, and is partially occluded by Vehicle A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e005",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00032",
+      "statement": "At frame 44, the bridge deck roadway is exposed at the lower left of the image and extends through the gap between Vehicle A and Vehicle B toward the distance in the center of the image; the passage narrows with perspective, and part of the roadway is occluded by the vehicles and Person D.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e021",
+        "video10_e006",
+        "video10_e007",
+        "video10_e025",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_restore00033",
+      "statement": "At frame 44, the distant vegetation area is partially exposed behind the group of vehicles on the right side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e023",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00067",
+      "statement": "At frame 44, Vehicle A is on the left side of the image and Vehicle B is on the right side; Person D occludes part of the area between the two vehicles; the concrete guardrail is behind and to the left of Vehicle A, and the clear blue sky is above the vehicles.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e025",
+        "video10_e006",
+        "video10_e007",
+        "video10_e004",
+        "video10_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00001",
+      "statement": "At frame 0, the camera is near the front of Vehicle B, with the viewpoint above the hood.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00001",
+      "statement": "At frame 0, the camera is near the front of Vehicle B, with the viewpoint above the hood.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00041",
+      "statement": "At frame 44, the camera is in front of Vehicle A and Vehicle B, facing the gap between them, with the line of sight passing over partial foreground occlusion.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00041",
+      "statement": "At frame 44, the camera is in front of Vehicle A and Vehicle B, facing the gap between them, with the line of sight passing over partial foreground occlusion.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00002",
+      "statement": "At frame 0, the camera faces Person B and Person A, who are in contact with each other, and Vehicle B.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e017",
+        "video10_e012",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00002",
+      "statement": "At frame 0, the camera faces Person B and Person A, who are in contact with each other, and Vehicle B.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e017",
+        "video10_e012",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00042",
+      "statement": "At frame 44, the camera faces Vehicle A, Vehicle B, and the partially visible Person D in the foreground.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007",
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00042",
+      "statement": "At frame 44, the camera faces Vehicle A, Vehicle B, and the partially visible Person D in the foreground.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e007",
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00068",
+      "statement": "From frames 0 to 44, the camera moves forward and to the left along the horizontal plane relative to its orientation at the start of this interval.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        12,
+        22,
+        30,
+        44
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00068",
+      "statement": "From frames 0 to 44, the camera moves forward and to the left along the horizontal plane relative to its orientation at the start of this interval.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        12,
+        22,
+        30,
+        44
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00069",
+      "statement": "From frames 26 to 44, the camera pitches upward relative to its pose at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 44,
+      "evidence_frames": [
+        25,
+        26,
+        27,
+        35,
+        44
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00069",
+      "statement": "From frames 26 to 44, the camera pitches upward relative to its pose at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 44,
+      "evidence_frames": [
+        25,
+        26,
+        27,
+        35,
+        44
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_a017",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        44
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video10_cp001_a017",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        44
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video10_cp001_r00072",
+      "statement": "From frames 0 to 18, Person C moves in the foreground on the left side of the image and exits through the left edge; part of an arm is still visible at frame 17, and Person C is out of frame by frame 18.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "subject_ids": [
+        "video10_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00072",
+      "statement": "From frames 0 to 18, Person C moves in the foreground on the left side of the image and exits through the left edge; part of an arm is still visible at frame 17, and Person C is out of frame by frame 18.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "subject_ids": [
+        "video10_e024"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00071",
+      "statement": "From frames 24 to 43, Person A moves toward the left edge of the image and Person B moves toward the right edge of the image, with both gradually leaving the central foreground.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 43,
+      "evidence_frames": [
+        23,
+        24,
+        25,
+        30,
+        33,
+        37,
+        41,
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e012",
+        "video10_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00071",
+      "statement": "From frames 24 to 43, Person A moves toward the left edge of the image and Person B moves toward the right edge of the image, with both gradually leaving the central foreground.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 43,
+      "evidence_frames": [
+        23,
+        24,
+        25,
+        30,
+        33,
+        37,
+        41,
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e012",
+        "video10_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00073",
+      "statement": "From frames 30 to 44, Person D enters the central foreground from the upper edge of the image in the area above Vehicle B and descends while tumbling to the bottom edge of the image.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 30,
+      "end_frame": 44,
+      "evidence_frames": [
+        29,
+        30,
+        31,
+        32,
+        37,
+        40,
+        44
+      ],
+      "subject_ids": [
+        "video10_e025",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00073",
+      "statement": "From frames 30 to 44, Person D enters the central foreground from the upper edge of the image in the area above Vehicle B and descends while tumbling to the bottom edge of the image.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 30,
+      "end_frame": 44,
+      "evidence_frames": [
+        29,
+        30,
+        31,
+        32,
+        37,
+        40,
+        44
+      ],
+      "subject_ids": [
+        "video10_e025",
+        "video10_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00070",
+      "statement": "From frames 0 to 30, Person B embraces and supports Person A, who is leaning back; both gradually straighten their upper bodies and turn, then move their upper bodies apart.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 30,
+      "evidence_frames": [
+        0,
+        12,
+        15,
+        18,
+        22,
+        26,
+        29,
+        30,
+        31
+      ],
+      "subject_ids": [
+        "video10_e017",
+        "video10_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00070",
+      "statement": "From frames 0 to 30, Person B embraces and supports Person A, who is leaning back; both gradually straighten their upper bodies and turn, then move their upper bodies apart.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 30,
+      "evidence_frames": [
+        0,
+        12,
+        15,
+        18,
+        22,
+        26,
+        29,
+        30,
+        31
+      ],
+      "subject_ids": [
+        "video10_e017",
+        "video10_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp001_r00074",
+      "statement": "From frames 32 to 43, Person D bends the body and flips over, with both legs higher than the head at one point.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 43,
+      "evidence_frames": [
+        31,
+        32,
+        33,
+        35,
+        37,
+        38,
+        39,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp001_r00074",
+      "statement": "From frames 32 to 43, Person D bends the body and flips over, with both legs higher than the head at one point.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 43,
+      "evidence_frames": [
+        31,
+        32,
+        33,
+        35,
+        37,
+        38,
+        39,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video10_e025"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    22,
+    37,
+    44
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "bae345db63eb8143cb982583f50432eebeff6f008fe9611784a4e1f89b4c53cc"
+}

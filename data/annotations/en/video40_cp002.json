@@ -1,0 +1,3025 @@
+{
+  "clip_id": "video40_cp002",
+  "video_id": "video40",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 119,
+  "source_frame_offset": 155,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video40_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The long sniper rifle with a purple lightning pattern in the lower-right foreground, equipped with a long dark barrel and a large black scope."
+    },
+    {
+      "source_entity_id": "video40_e002",
+      "name": "gun-holding hand",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The partially visible hand and forearm below Weapon A, wearing a bright-green and gray-white paneled glove."
+    },
+    {
+      "source_entity_id": "video40_e003",
+      "name": "group of white cargo crates covered with teal tarps",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Multiple white compartmentalized crates in the area, with teal tarps covering their tops."
+    },
+    {
+      "source_entity_id": "video40_e004",
+      "name": "stone-paved area",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light-brown-gray stone-paved ground around the cargo crates, including irregular joints, regular paving blocks, and red ground markings."
+    },
+    {
+      "source_entity_id": "video40_e009",
+      "name": "group of fallen people",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The group of dark-clothed people lying horizontally beside the steps and, later in the clip, in front of the vehicle, excluding Person B."
+    },
+    {
+      "source_entity_id": "video40_e010",
+      "name": "outer road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The local section of road outside the low wall of the cargo-crate area where Vehicle A is located."
+    },
+    {
+      "source_entity_id": "video40_e011",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 108,
+      "identification": "The faded light-green, low, box-shaped sedan behind and to the left of the central cargo crate later in the clip."
+    },
+    {
+      "source_entity_id": "video40_e012",
+      "name": "low light-colored concrete wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The low off-white wall with a wide, flat coping along the edge of the cargo-crate area."
+    },
+    {
+      "source_entity_id": "video40_e014",
+      "name": "group of pale yellow-white flat-roofed buildings",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The pale-yellow and off-white flat-roofed buildings in the background, with small windows, openwork parapets, and mottled walls."
+    },
+    {
+      "source_entity_id": "video40_e015",
+      "name": "pale-blue sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous bright, pale-blue sky above the building roofs."
+    },
+    {
+      "source_entity_id": "video40_e016",
+      "name": "group of overhead power lines",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Multiple thin dark lines crossing the image above the roofs, some sagging slightly."
+    },
+    {
+      "source_entity_id": "video40_e017",
+      "name": "group of curved-top streetlights",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Slender dark streetlight poles along the street, with curled upper ends from which lamp heads hang."
+    },
+    {
+      "source_entity_id": "video40_e018",
+      "name": "green vegetation in the neighborhood",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Sparse green branches and leaves behind the wall and localized low grass at the foot of the wall."
+    },
+    {
+      "source_entity_id": "video40_e019",
+      "name": "group of light-blue cylindrical bagged containers",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light-blue-gray upright bag-like container against the wall at the far left at the beginning, partially cropped by the image."
+    },
+    {
+      "source_entity_id": "video40_e022",
+      "name": "group of gray upright poles",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The slender gray upright poles near the background roofs, some with horizontal supports."
+    },
+    {
+      "source_entity_id": "video40_e025",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The person whose dark head and shoulders are visible behind the low barrier to the left of the midground cargo crate at the beginning."
+    },
+    {
+      "source_entity_id": "video40_e026",
+      "name": "Weapon C",
+      "numbered": true,
+      "first_appearance_frame": 10,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "The slender dark firearm near Person B at the top edge of the barrier, separate from Weapon A in the foreground."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video40_cp002_restore00018",
+      "statement": "At frame 0, two people are distinguishable in the scene: one person from the group of fallen people lying horizontally, and Person B, whose head and shoulders are visible behind the low barrier.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e009",
+        "video40_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a010",
+      "statement": "At frame 0, the light-brown cracked stone-paved area is visible in the lower half of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a014",
+      "statement": "At frame 0, the group of white cargo crates covered with teal tarps is visible in the area.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a026",
+      "statement": "At frame 0, Weapon A, a long sniper rifle with a purple lightning pattern, is visible in the lower-right foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00001",
+      "statement": "At frame 0, the gun-holding hand wearing a bright-green and gray-white paneled glove is visible at the bottom of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00027",
+      "statement": "At frame 0, the group of pale yellow-white flat-roofed buildings is visible in the upper-middle portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00031",
+      "statement": "At frame 0, the pale-blue sky is visible in the upper portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00035",
+      "statement": "At frame 0, multiple overhead power lines are visible in the upper portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00039",
+      "statement": "At frame 0, curved-top streetlights are visible between the buildings.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00043",
+      "statement": "At frame 0, green vegetation is visible behind and beside the wall.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00047",
+      "statement": "At frame 0, gray upright poles are visible above the buildings.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00051",
+      "statement": "At frame 0, the low light-colored concrete wall is visible along the edge of the area.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00079",
+      "statement": "At frame 0, one person from the group of fallen people, wearing dark clothing and lying horizontally, is beside the steps on the image-left.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00095",
+      "statement": "At frame 0, part of a light-blue cylindrical bagged container is visible at the far left of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00099",
+      "statement": "At frame 0, Person B's dark head and shoulders are visible above the low barrier to the left of the midground cargo crate.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00031",
+      "statement": "At frame 23, one Weapon C is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video40_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00107",
+      "statement": "At frame 23, Weapon C, an inclined dark long gun, is visible near the top edge of the low barrier.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video40_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00028",
+      "statement": "At frame 119, one person from the group of fallen people is visible beside the curb in front of Vehicle A.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e009",
+        "video40_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a034",
+      "statement": "At frame 119, the light-brown-gray stone-paved area is visible in the lower half of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a038",
+      "statement": "At frame 119, the group of white cargo crates covered with teal tarps is visible in the area.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a058",
+      "statement": "At frame 119, Weapon A, a long sniper rifle with a purple lightning pattern, is visible in the lower-right foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00002",
+      "statement": "At frame 119, the gun-holding hand wearing a bright-green and gray-white paneled glove is visible at the bottom of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00055",
+      "statement": "At frame 119, the group of pale yellow-white flat-roofed buildings is visible in the upper-middle portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00059",
+      "statement": "At frame 119, the pale-blue sky is visible in the upper portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00063",
+      "statement": "At frame 119, multiple overhead power lines are visible in the upper portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00067",
+      "statement": "At frame 119, curved-top streetlights are visible between the buildings.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00071",
+      "statement": "At frame 119, green vegetation is visible behind and beside the wall.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00075",
+      "statement": "At frame 119, the low light-colored concrete wall is visible along the edge of the area.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00083",
+      "statement": "At frame 119, one dark-clothed person from the group of fallen people is lying horizontally beside the curb in front of Vehicle A's front end.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e009",
+        "video40_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00087",
+      "statement": "At frame 119, a section of the outer road's surface is visible outside the low wall of the cargo-crate area.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00091",
+      "statement": "At frame 119, Vehicle A, a faded light-green sedan, is visible beside the road on the image-left.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a015",
+      "statement": "At frame 0, the group of white cargo crates covered with teal tarps consists of white metal compartmentalized crates and teal top covers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a016",
+      "statement": "At frame 0, the group of white cargo crates covered with teal tarps consists of white metal compartmentalized crates and teal top covers; gray framing strips, panel seams, scuff marks, and localized small dark markings are visible, and the tarp edges hang down and have folds.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a027",
+      "statement": "At frame 0, Weapon A is a long sniper rifle with a long purple body, a light-purple lightning pattern, a slender dark barrel, and a large black scope.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00003",
+      "statement": "At frame 0, the stone-paved area is light brown-gray, with irregular light-colored joints on its surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00004",
+      "statement": "At frame 0, the gun-holding hand wears a predominantly bright-green glove with gray-white paneled protective sections.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00005",
+      "statement": "At frame 0, the stone-paved area is light brown-gray, with irregular light-colored stone joints on its surface; the stones vary in size, relatively straight light-colored boundary lines and light and dark patches are visible, and there is a red spray-painted arc near the cargo crates.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00006",
+      "statement": "At frame 0, Weapon A is a long sniper rifle with a long purple body, a light-purple lightning pattern, a slender dark barrel, and a large black scope; there is a yellow decal on the side of the scope tube, an adjustment knob on top, and a mount and rail visible below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00007",
+      "statement": "At frame 0, the gun-holding hand wears a glove paneled with bright-green and gray-white protective sections; the curved back of the hand, the contour near the thumb, dark dividing seams, and the wrist opening are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00028",
+      "statement": "At frame 0, the group of pale yellow-white flat-roofed buildings consists of off-white and pale-yellow plaster walls and flat roofs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00029",
+      "statement": "At frame 0, the group of pale yellow-white flat-roofed buildings has off-white and pale-yellow plaster walls and flat roofs; small windows, openwork rooftop parapets, and mottled wall surfaces are visible, the lower portion of the wall on the left has a faded green coating, and there is a low barrier in front of the central windowed wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00032",
+      "statement": "At frame 0, the sky is pale blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00033",
+      "statement": "At frame 0, the sky is pale blue, slightly bluer in the upper portion and lighter near the distant roofs, forming a continuous bright region.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00036",
+      "statement": "At frame 0, the overhead power lines are multiple thin black lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00037",
+      "statement": "At frame 0, the group of overhead power lines consists of multiple thin dark lines crossing the image approximately in parallel, some forming slightly sagging arcs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00040",
+      "statement": "At frame 0, the curved-top streetlights have slender dark poles and curled upper ends.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00041",
+      "statement": "At frame 0, the group of curved-top streetlights has slender dark poles whose upper ends curve into hook-like curls, with lighter-colored bell-shaped lamp heads attached below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00044",
+      "statement": "At frame 0, the green vegetation includes sparse branches and leaves and localized patches of grass.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00045",
+      "statement": "At frame 0, the green vegetation in the neighborhood includes sparse branches and leaves and localized patches of grass; extending leaves and a small number of thin branch outlines are distinguishable, and scattered thin grass is also present at the foot of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00048",
+      "statement": "At frame 0, the gray upright poles are slender and vertical.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00049",
+      "statement": "At frame 0, the group of gray upright poles has slender vertical gray shafts, with horizontal supports visible near the upper ends of some poles; the tops of the taller poles are partially occluded by the image interface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00052",
+      "statement": "At frame 0, the low light-colored concrete wall is a thick off-white wall with a flat coping on top.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00053",
+      "statement": "At frame 0, the low light-colored concrete wall is a thick off-white wall with a wide, flat coping on top; gray stains, light and dark patches, and uneven worn edges are visible on its side.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00080",
+      "statement": "At frame 0, the visible member of the group of fallen people wears dark clothing and lies horizontally against the ground.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00081",
+      "statement": "At frame 0, the visible member of the group of fallen people wears dark clothing and lies horizontally and level against the ground; the torso and the outline of the extending legs are distinguishable.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00096",
+      "statement": "At frame 0, the light-blue cylindrical bagged container has a light-blue-gray upright cylindrical form.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00097",
+      "statement": "At frame 0, the visible portion of the group of light-blue cylindrical bagged containers has a light-blue-gray upright cylindrical form, with a curved top rim and horizontal undulating lines visible; part of it is cut off by the image's left edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00100",
+      "statement": "At frame 0, only Person B's dark-gray head and shoulders are visible; the rest of the body is occluded by the low barrier.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00101",
+      "statement": "At frame 0, Person B's dark-gray head and shoulders are visible, the head outline is relatively round, and part of the shoulders rises above the barrier's top edge; the lower body is occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00113",
+      "statement": "At frame 10, Weapon A has a long purple body, a light-purple lightning pattern, a long dark barrel, and a large black scope, and a bright yellow-white flash appears in front of the muzzle.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 10,
+      "end_frame": 10,
+      "evidence_frames": [
+        10
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00114",
+      "statement": "At frame 10, Weapon A has a long purple body, a light-purple lightning pattern, a long dark barrel, and a large black scope; there is a yellow decal on the side of the scope tube, and a bright yellow-white mass of light appears in front of the muzzle.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 10,
+      "end_frame": 10,
+      "evidence_frames": [
+        10
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00108",
+      "statement": "At frame 23, Weapon C has the outline of a slender dark firearm, with its long axis slanting from the image's lower left toward the upper right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video40_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00109",
+      "statement": "At frame 23, Weapon C has the outline of a slender dark firearm, with its long axis slanting from the lower left toward the upper right; a thinner upper section and thicker lower section are visible, and the lower end overlaps the barrier's top edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video40_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00111",
+      "statement": "At frame 23, the group of pale yellow-white flat-roofed buildings has pale-yellow and off-white plaster walls and flat roofs; the pale-yellow wall above the low barrier to the left of the cargo crate has reddish-brown stains.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00112",
+      "statement": "At frame 23, the group of pale yellow-white flat-roofed buildings has off-white and pale-yellow plaster walls and flat roofs, with small windows, openwork rooftop parapets, and mottled wall surfaces visible; there are irregular reddish-brown stains on the wall to the left of the cargo crate and above the low barrier.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a039",
+      "statement": "At frame 119, the group of white cargo crates covered with teal tarps consists of white metal compartmentalized crates and teal top covers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a040",
+      "statement": "At frame 119, the group of white cargo crates covered with teal tarps consists of white metal compartmentalized crates and teal top covers; the crate walls have gray framing strips, seams, scuff marks, and black numbers, and the tarp edges hang down and have folds.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a059",
+      "statement": "At frame 119, Weapon A is a long sniper rifle with a long purple body, a light-purple lightning pattern, a slender dark barrel, and a large black scope.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00008",
+      "statement": "At frame 119, the stone-paved area is light brown-gray, with paving-block joints visible; relatively regular rectangular paving blocks predominate near the red marking.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00009",
+      "statement": "At frame 119, the gun-holding hand wears a predominantly bright-green glove with gray-white paneled protective sections.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00010",
+      "statement": "At frame 119, the stone-paved area is light brown-gray, with paving-block joints visible; relatively regular rectangular paving blocks predominate near the red marking, while the foreground also has irregular light-colored joints, the surface has light and dark patches, and to the right of the central cargo crate there is a red spray-painted arc with strokes inside it.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00011",
+      "statement": "At frame 119, Weapon A is a long sniper rifle with a long purple body, a light-purple lightning pattern, a slender dark barrel, and a large black scope; there is a yellow decal on the side of the scope tube, an adjustment knob on top, and a mount and rail visible below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00012",
+      "statement": "At frame 119, the gun-holding hand wears a glove paneled with bright-green and gray-white protective sections; the curved back of the hand and contour near the thumb, dark dividing seams, and part of the wrist opening are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00056",
+      "statement": "At frame 119, the group of pale yellow-white flat-roofed buildings consists of off-white and pale-yellow plaster walls and flat roofs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00057",
+      "statement": "At frame 119, the group of pale yellow-white flat-roofed buildings has off-white and pale-yellow plaster walls and flat roofs, with small windows, localized red shutters, openwork rooftop parapets, mottled wall surfaces, and faded wall signs visible; there are red shutters on both sides of the window opening below the wall sign at the upper right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00060",
+      "statement": "At frame 119, the sky is pale blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00061",
+      "statement": "At frame 119, the sky is pale blue, slightly bluer in the upper portion and lighter near the distant roofs, forming a continuous bright region.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00064",
+      "statement": "At frame 119, the overhead power lines are multiple thin black lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00065",
+      "statement": "At frame 119, the group of overhead power lines consists of multiple thin dark lines crossing the upper portion of the image approximately in parallel, some with slightly sagging arcs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00068",
+      "statement": "At frame 119, the curved-top streetlights have slender dark poles and curled upper ends.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00069",
+      "statement": "At frame 119, the group of curved-top streetlights has slender dark poles whose upper ends curve into hook-like curls, with lighter-colored bell-shaped lamp heads attached below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00072",
+      "statement": "At frame 119, the green vegetation includes sparse branches and leaves and localized patches of grass.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00073",
+      "statement": "At frame 119, the green vegetation in the neighborhood includes sparse branches and leaves and localized patches of grass; thin branches and extending leaves are distinguishable behind the wall on the left, and scattered thin grass is also present at the foot of the background wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00076",
+      "statement": "At frame 119, the low light-colored concrete wall is a thick off-white wall with a flat coping on top.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00077",
+      "statement": "At frame 119, the low light-colored concrete wall is a thick off-white wall with a wide, flat coping; gray stains, light and dark patches, and worn edges are visible on its side.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00084",
+      "statement": "At frame 119, the visible member of the group of fallen people wears dark clothing and has a low, horizontally lying posture.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00085",
+      "statement": "At frame 119, the visible member of the group of fallen people wears dark clothing and has a low horizontal outline against the ground, with irregular body edges partially affected by shadow.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00088",
+      "statement": "At frame 119, the visible section of the outer road is relatively even and appears blue-gray in shadow; it narrows from the wider area on the left toward the occluded area by the central cargo crate, and the visible section is approximately straight.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00089",
+      "statement": "At frame 119, the visible section of the outer road is relatively even and appears blue-gray in shadow; it narrows from the wider area on the left toward the occluded area by the central cargo crate, and the visible section is approximately straight, with a light-colored curb and pedestrian area beside it, while parts of the road surface are covered by darker shadow.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00092",
+      "statement": "At frame 119, Vehicle A is a low, box-shaped sedan with a faded light-green body and clearly defined front engine-compartment and passenger-compartment outlines.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00093",
+      "statement": "At frame 119, Vehicle A is a low, box-shaped sedan with a faded light-green body and front engine-compartment and passenger-compartment outlines; the windshield and side windows are relatively dark, and a horizontal grille, light-gray bumper, and rectangular light area are visible at the front.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00013",
+      "statement": "At frame 0, the stone-paved area extends from the foreground to the bases of the group of white cargo crates covered with teal tarps; the cargo crates are distributed right of center and on the right, with the crates on the right closer.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e004",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00014",
+      "statement": "At frame 0, Weapon A extends diagonally from the lower-right foreground toward the middle of the image, and the gun-holding hand is below it and in gripping contact with it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e001",
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00015",
+      "statement": "At frame 0, the background group of buildings is distributed in the upper-middle portion of the image, behind the group of objects in the area, and continues to the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00016",
+      "statement": "At frame 0, the sky region is above the background group of buildings and occupies the upper portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e015",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00017",
+      "statement": "At frame 0, the boundary wall of the area is on the image-left of the group of objects in the area and separates the area containing the objects from the outer area along the ground's edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e012",
+        "video40_e003",
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00019",
+      "statement": "At frame 0, Person B is on the image-left of the midground cargo crate and behind the low barrier; the head and shoulders are visible above the top edge, while the lower body is occluded.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e025",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00020",
+      "statement": "At frame 0, the background vegetation is distributed near the wall and buildings behind the area, with some visible from behind the wall's upper edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e018",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00032",
+      "statement": "At frame 0, one visible person from the group of fallen people lies horizontally beside the steps on the image-left and is in contact with the ground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a013",
+      "statement": "At frame 0, the stone-paved area extends from the image foreground to the bases of the group of white cargo crates covered with teal tarps.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e004",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a017",
+      "statement": "At frame 0, the group of white cargo crates covered with teal tarps is arranged in the center and on the right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00013",
+      "statement": "At frame 0, Weapon A extends diagonally from the lower-right foreground toward the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00014",
+      "statement": "At frame 0, the gun-holding hand grips Weapon A from below.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e002",
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00030",
+      "statement": "At frame 0, the group of pale yellow-white flat-roofed buildings is behind the cargo crates and extends to the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00034",
+      "statement": "At frame 0, the pale-blue sky is above the roofs of the group of pale yellow-white flat-roofed buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e015",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00038",
+      "statement": "At frame 0, the group of overhead power lines is near and above the roofs of the group of pale yellow-white flat-roofed buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e016",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00042",
+      "statement": "At frame 0, the group of curved-top streetlights stands in front of the buildings along the street, with parts of their lower sections occluded by scene objects.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e017",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00046",
+      "statement": "At frame 0, the green vegetation in the neighborhood is distributed behind the wall and near the group of pale yellow-white flat-roofed buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e018",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00050",
+      "statement": "At frame 0, the group of gray upright poles extends upward from near the roofs of the group of pale yellow-white flat-roofed buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e022",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00054",
+      "statement": "At frame 0, the low light-colored concrete wall extends along the edge of the cargo-crate area, separating the area from the region outside the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e012",
+        "video40_e003",
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00082",
+      "statement": "At frame 0, one visible member of the group of fallen people is beside the steps on the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00098",
+      "statement": "At frame 0, the light-blue cylindrical bagged container is beside the steps against the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00102",
+      "statement": "At frame 0, Person B is behind the low barrier on the image-left of the midground cargo crate, with the lower body occluded by the barrier.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video40_e025",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00034",
+      "statement": "At frame 23, Weapon C is on the image-left of the midground cargo crate, near the top edge of the low barrier where Person B was previously located; its lower end overlaps the barrier's edge, and it and Weapon A in the lower-right foreground occupy separate depth layers.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        9,
+        22,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video40_e026",
+        "video40_e025",
+        "video40_e001",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00110",
+      "statement": "At frame 23, Weapon C is on the image-left of the midground cargo crate, and it and Weapon A in the lower-right foreground occupy separate depth layers.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video40_e026",
+        "video40_e003",
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00021",
+      "statement": "At frame 119, the ground is in the lower portion of the image, extends around and supports the group of objects in the area; one of the objects occupies the center of the image, and the other visible portions of the group are on the image-right.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e004",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00022",
+      "statement": "At frame 119, Weapon A extends diagonally from the lower-right foreground toward the middle of the image, and the gun-holding hand is below it and in gripping contact with it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e001",
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00023",
+      "statement": "At frame 119, the background group of buildings is behind the central object in the area, occupies the upper-middle and right portions of the image, and is distributed outside the road visible on the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e003",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00024",
+      "statement": "At frame 119, the sky region is above the background group of buildings and occupies the visible region in the upper portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e015",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00025",
+      "statement": "At frame 119, the boundary wall of the area is in the lower-left foreground and separates the region containing the central object from the outer road on the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e012",
+        "video40_e003",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00026",
+      "statement": "At frame 119, the visible section of the outer road extends from the wider area on the left in front of Vehicle A toward the left edge of the central cargo crate and narrows in perspective; its far end is occluded by the cargo crate.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e010",
+        "video40_e003",
+        "video40_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00027",
+      "statement": "At frame 119, Vehicle A is at the road edge on the image-left and behind and to the left of the central cargo crate, with its front facing toward the image's lower left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e011",
+        "video40_e010",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00029",
+      "statement": "At frame 119, the background vegetation is behind the wall on the image-left and near the background buildings, with some vegetation visible from behind the wall's upper edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e018",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_restore00033",
+      "statement": "At frame 119, one visible person from the group of fallen people lies horizontally beside the curb outside Vehicle A's front end, is below and to the image-left of Vehicle A, and is in contact with the ground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e009",
+        "video40_e011",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_a037",
+      "statement": "At frame 119, the stone-paved area extends around the central cargo crate, and the red circular marking is on the visible ground to the right of that crate.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e004",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00015",
+      "statement": "At frame 119, one crate from the group of white cargo crates covered with teal tarps is in the center of the image and partially occludes the outer road behind and to its left.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00016",
+      "statement": "At frame 119, Weapon A extends diagonally from the lower-right foreground toward the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00017",
+      "statement": "At frame 119, the gun-holding hand is below Weapon A and grips Weapon A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e002",
+        "video40_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00058",
+      "statement": "At frame 119, the group of pale yellow-white flat-roofed buildings is behind the cargo crates and around the visible road on the left.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e003",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00062",
+      "statement": "At frame 119, the pale-blue sky is above the roofs of the group of pale yellow-white flat-roofed buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e015",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00066",
+      "statement": "At frame 119, the group of overhead power lines is near and above the roofs of the group of pale yellow-white flat-roofed buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e016",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00070",
+      "statement": "At frame 119, the group of curved-top streetlights stands in front of the buildings along the street, with parts of their lower sections occluded by the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e017",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00074",
+      "statement": "At frame 119, the green vegetation in the neighborhood is distributed behind the wall and near the group of pale yellow-white flat-roofed buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e018",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00078",
+      "statement": "At frame 119, the low light-colored concrete wall separates the cargo-crate area from the outer road, with the nearer wall surface in the lower-left of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e012",
+        "video40_e003",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00086",
+      "statement": "At frame 119, one visible member of the group of fallen people is beside the curb in front of Vehicle A's front end.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e009",
+        "video40_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00090",
+      "statement": "At frame 119, the outer road is outside the low light-colored concrete wall of the cargo-crate area; its visible section leads toward the buildings and is occluded by the central cargo crate.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e010",
+        "video40_e012",
+        "video40_e003",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00094",
+      "statement": "At frame 119, Vehicle A is parked beside the curb of the outer road on the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        110,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e011",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00018",
+      "statement": "At frame 0, the camera is on the open stone-paved area outside the group of cargo crates, with the cargo crates distributed in the middle and on the right of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00018",
+      "statement": "At frame 0, the camera is on the open stone-paved area outside the group of cargo crates, with the cargo crates distributed in the middle and on the right of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00019",
+      "statement": "At frame 119, the camera is on the stone-paved ground beside the central cargo crate, with the low wall near the lower-left of the image and the red ground marking in the lower-right.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e004",
+        "video40_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00019",
+      "statement": "At frame 119, the camera is on the stone-paved ground beside the central cargo crate, with the low wall near the lower-left of the image and the red ground marking in the lower-right.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e004",
+        "video40_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00020",
+      "statement": "At frame 0, the camera faces the teal-tarp-covered cargo crate right of center and the pale-yellow flat-roofed building behind it.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00020",
+      "statement": "At frame 0, the camera faces the teal-tarp-covered cargo crate right of center and the pale-yellow flat-roofed building behind it.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00021",
+      "statement": "At frame 119, the camera faces the front of the central teal-tarp-covered cargo crate, with the street visible on the image-left of the crate.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00021",
+      "statement": "At frame 119, the camera faces the front of the central teal-tarp-covered cargo crate, with the street visible on the image-left of the crate.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00022",
+      "statement": "From frames 35 to 65, the camera moves forward relative to its facing direction at the start of frame 35, approaching the teal-tarp-covered cargo crate ahead, while the viewing height remains approximately stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 35,
+      "end_frame": 65,
+      "evidence_frames": [
+        34,
+        35,
+        36,
+        54,
+        59,
+        64,
+        65,
+        66
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e004",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00022",
+      "statement": "From frames 35 to 65, the camera moves forward relative to its facing direction at the start of frame 35, approaching the teal-tarp-covered cargo crate ahead, while the viewing height remains approximately stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 35,
+      "end_frame": 65,
+      "evidence_frames": [
+        34,
+        35,
+        36,
+        54,
+        59,
+        64,
+        65,
+        66
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e004",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00023",
+      "statement": "From frames 65 to 119, the camera moves left relative to its facing direction at the start of frame 65, passing beside the nearby cargo crate as the street on the left is gradually revealed, while the viewing height remains approximately stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 119,
+      "evidence_frames": [
+        64,
+        65,
+        66,
+        75,
+        95,
+        108,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e012",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00023",
+      "statement": "From frames 65 to 119, the camera moves left relative to its facing direction at the start of frame 65, passing beside the nearby cargo crate as the street on the left is gradually revealed, while the viewing height remains approximately stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 119,
+      "evidence_frames": [
+        64,
+        65,
+        66,
+        75,
+        95,
+        108,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video40_e003",
+        "video40_e012",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00024",
+      "statement": "From frames 9 to 10, the camera briefly tilts upward once, causing the building roofs, power lines, and upright poles to move downward together in the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 9,
+      "end_frame": 10,
+      "evidence_frames": [
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e016",
+        "video40_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00024",
+      "statement": "From frames 9 to 10, the camera briefly tilts upward once, causing the building roofs, power lines, and upright poles to move downward together in the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 9,
+      "end_frame": 10,
+      "evidence_frames": [
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e016",
+        "video40_e022"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00026",
+      "statement": "From frames 17 to 35, the camera tilts downward relative to its facing direction at the start of frame 17, returning the line of sight to the cargo crates and the stone-paved area ahead.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 17,
+      "end_frame": 35,
+      "evidence_frames": [
+        16,
+        17,
+        20,
+        23,
+        24,
+        34,
+        35,
+        36
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00026",
+      "statement": "From frames 17 to 35, the camera tilts downward relative to its facing direction at the start of frame 17, returning the line of sight to the cargo crates and the stone-paved area ahead.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 17,
+      "end_frame": 35,
+      "evidence_frames": [
+        16,
+        17,
+        20,
+        23,
+        24,
+        34,
+        35,
+        36
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00025",
+      "statement": "From frames 19 to 61, the camera turns right overall; the original pale-yellow windowed wall moves out toward the image-left, while the building with the faded wall sign gradually enters at the upper right and moves toward the middle of the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 61,
+      "evidence_frames": [
+        17,
+        19,
+        20,
+        21,
+        35,
+        54,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00025",
+      "statement": "From frames 19 to 61, the camera turns right overall; the original pale-yellow windowed wall moves out toward the image-left, while the building with the faded wall sign gradually enters at the upper right and moves toward the middle of the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 61,
+      "evidence_frames": [
+        17,
+        19,
+        20,
+        21,
+        35,
+        54,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "subject_ids": [
+        "video40_e014",
+        "video40_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_a009",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        10,
+        23,
+        35,
+        65,
+        95,
+        119
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video40_cp002_a009",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        10,
+        23,
+        35,
+        65,
+        95,
+        119
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video40_cp002_r00116",
+      "statement": "From frames 10 to 23, Person B's previously visible head and shoulders gradually lower behind the low barrier and cannot be clearly distinguished by frame 23; new reddish-brown stains appear on the pale-yellow wall behind Person B.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 10,
+      "end_frame": 23,
+      "evidence_frames": [
+        9,
+        10,
+        12,
+        14,
+        16,
+        17,
+        20,
+        22,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video40_e025",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00116",
+      "statement": "From frames 10 to 23, Person B's previously visible head and shoulders gradually lower behind the low barrier and cannot be clearly distinguished by frame 23; new reddish-brown stains appear on the pale-yellow wall behind Person B.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 10,
+      "end_frame": 23,
+      "evidence_frames": [
+        9,
+        10,
+        12,
+        14,
+        16,
+        17,
+        20,
+        22,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video40_e025",
+        "video40_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video40_cp002_r00115",
+      "statement": "From frames 10 to 35, Weapon A fires once: a muzzle flash appears at frame 10, is relatively bright from frames 10 to 13, and weakens beginning at frame 14; the flash then fades, the weapon body rises and then gradually lowers, and the gun-holding hand moves with the weapon.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 10,
+      "end_frame": 35,
+      "evidence_frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        23,
+        34,
+        35,
+        36
+      ],
+      "subject_ids": [
+        "video40_e001",
+        "video40_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video40_cp002_r00115",
+      "statement": "From frames 10 to 35, Weapon A fires once: a muzzle flash appears at frame 10, is relatively bright from frames 10 to 13, and weakens beginning at frame 14; the flash then fades, the weapon body rises and then gradually lowers, and the gun-holding hand moves with the weapon.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 10,
+      "end_frame": 35,
+      "evidence_frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        23,
+        34,
+        35,
+        36
+      ],
+      "subject_ids": [
+        "video40_e001",
+        "video40_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    10,
+    23,
+    119
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "d42178c7921f404c563e4d96dee6fc9971f8bd67e65ba7e8bd3950f6b7bee547"
+}

@@ -1,0 +1,1438 @@
+{
+  "clip_id": "video10_cp003",
+  "video_id": "video10",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 22,
+  "source_frame_offset": 123,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video10_e001",
+      "name": "Person F",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A man with short black hair in the near foreground, wearing a white long-sleeved shirt, a loosely tied narrow red tie, and black trousers, located beside Vehicle A's open front door."
+    },
+    {
+      "source_entity_id": "video10_e003",
+      "name": "queue of vehicles in traffic congestion",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Multiple rows of densely arranged vehicles behind the two foreground vehicles, including white, silver-gray, yellow, blue, and other dark-colored vehicles, excluding Vehicle A and Vehicle D from being counted again."
+    },
+    {
+      "source_entity_id": "video10_e004",
+      "name": "clear blue sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A large expanse of light blue sky above the queue of vehicles and the crowd."
+    },
+    {
+      "source_entity_id": "video10_e005",
+      "name": "concrete guardrail",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A partially exposed gray, solid, low wall-like guardrail on the image-left side behind Vehicle A."
+    },
+    {
+      "source_entity_id": "video10_e006",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A boxy turquoise station wagon in the near foreground on the left, with a flat roof and dark windows; the near-side front door beside Person F is open."
+    },
+    {
+      "source_entity_id": "video10_e008",
+      "name": "Vehicle D",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A light gray-white sedan in the near foreground on the right, with a dark windshield, a light-colored hood, and a near-side exterior rearview mirror."
+    },
+    {
+      "source_entity_id": "video10_e011",
+      "name": "surrounding crowd",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Multiple background people between the rows of vehicles and near the vehicle windows, some with arms raised, excluding Person F and Person G from being counted again."
+    },
+    {
+      "source_entity_id": "video10_e021",
+      "name": "bridge deck roadway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A partially exposed light gray hard road surface in the narrow gap between the two vehicles on the image-right side of Person F."
+    },
+    {
+      "source_entity_id": "video10_e028",
+      "name": "Person G",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A woman with short curly orange hair behind and to the image-right of Person F, wearing a gray-green sleeveless top, with gray-brown trousers partially visible in frame 0, located near Vehicle D and a yellow background vehicle."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video10_cp003_restore00010",
+      "statement": "In frame 0, there is one Person F and one Person G, and multiple other people are visible in the surrounding crowd.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e028",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00011",
+      "statement": "In frame 0, there is one Vehicle A and one Vehicle D, and multiple other vehicles are visible in the queue of vehicles in traffic congestion.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e008",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00021",
+      "statement": "In frame 0, Person F is slightly right of image center; Person G is visible behind and to the image-right of Person F; multiple other people in the surrounding crowd are visible in the middle and far distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e028",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00022",
+      "statement": "In frame 0, Vehicle A is on the image-left side and Vehicle D is on the image-right side; multiple rows of white, gray, yellow, and dark-colored vehicles in the queue of vehicles in traffic congestion are visible behind them.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e008",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00023",
+      "statement": "In frame 0, the clear blue sky is in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00024",
+      "statement": "In frame 0, the concrete guardrail is partially visible at the image-left edge behind Vehicle A.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video10_e005",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00025",
+      "statement": "In frame 0, the bridge deck roadway is visible through a small gap between the two vehicles in the lower part of the image-right side of Person F.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video10_e021",
+        "video10_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00018",
+      "statement": "In frame 22, there is one Person F and one Person G, and multiple other people are visible in the surrounding crowd.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e028",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00019",
+      "statement": "In frame 22, there is one Vehicle A and one Vehicle D, and multiple other vehicles are visible in the queue of vehicles in traffic congestion.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e008",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00045",
+      "statement": "In frame 22, Person F is at image center; Person G is visible behind and to the image-right of Person F; multiple other people in the surrounding crowd are visible in the middle and far distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e028",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00046",
+      "statement": "In frame 22, Vehicle A is on the image-left side and Vehicle D is on the image-right side; multiple rows of white, gray, yellow, and dark-colored vehicles in the queue of vehicles in traffic congestion are visible behind them.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e008",
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00047",
+      "statement": "In frame 22, the clear blue sky is in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00048",
+      "statement": "In frame 22, the concrete guardrail is partially visible on the image-left side, above and behind Vehicle A.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video10_e005",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00003",
+      "statement": "In frame 0, Person F is a man with short black hair, wearing a white long-sleeved shirt and a narrow red tie, with black trousers visible at the waist and upper thighs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00004",
+      "statement": "In frame 0, Person F is a man with short black hair, wearing a white long-sleeved shirt, a narrow red tie, and partially visible black trousers; the collar is open, the tie is loosely tied, and wrinkles in the sleeves are discernible; the waist and upper thighs are visible, while the rest of the lower body is occluded by the door panel and the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00005",
+      "statement": "In frame 0, Person G is a woman with short curly orange hair, wearing a gray-green sleeveless top, with gray-brown trousers partially exposed below.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00006",
+      "statement": "In frame 0, Person G is a woman with short curly orange hair, wearing a gray-green sleeveless top; the fluffy curled ends of the hair and bare shoulders and arms are discernible, with gray-brown trousers partially exposed below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00007",
+      "statement": "In frame 0, yellow, green, gray, dark-colored, and other tops are visible on the surrounding crowd, and some dark-colored lower garments are visible; most lower bodies are occluded by vehicles.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00008",
+      "statement": "In frame 0, yellow, green, gray, dark-colored, and other tops are visible on the surrounding crowd, and some dark-colored lower garments are visible; most lower bodies are occluded by vehicles; the outlines of some raised or extended arms are discernible, and the facial details of people in the distance are unclear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00009",
+      "statement": "In frame 0, Vehicle A is a boxy turquoise station wagon with a flat roof and nearly vertical side windows; the near-side front door is open.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00010",
+      "statement": "In frame 0, Vehicle A is a boxy turquoise station wagon with a flat roof and nearly vertical side windows; the near-side front door is open; the roof edge, dark windshield and side windows, and turquoise door frame extending diagonally outward are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00011",
+      "statement": "In frame 0, Vehicle D is a light gray-white sedan with a relatively flat hood and a dark windshield.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00012",
+      "statement": "In frame 0, Vehicle D is a light gray-white sedan with a relatively flat hood and a dark windshield; the near-side exterior rearview mirror, the windshield wiper along the lower edge of the windshield, and part of a headlight at the bottom of the image are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00013",
+      "statement": "In frame 0, the queue of vehicles in traffic congestion includes white, silver-gray, yellow, blue, and other dark-colored vehicles, with multiple roofs and windshields visible in overlapping layers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00014",
+      "statement": "In frame 0, the queue of vehicles in traffic congestion includes white, silver-gray, yellow, blue, and other dark-colored vehicles, with multiple roofs and windshields visible in overlapping layers; the distant vehicles generally have smaller projected sizes, and dark windows and roof outlines at varying heights are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00015",
+      "statement": "In frame 0, the clear blue sky appears as a large expanse of light blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00016",
+      "statement": "In frame 0, the clear blue sky appears as a large expanse of light blue; the color is lighter near the horizon and a deeper blue higher up.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00017",
+      "statement": "In frame 0, the partially visible concrete guardrail appears as a gray low wall with a straight upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00018",
+      "statement": "In frame 0, the partially visible concrete guardrail appears as a gray low wall with a straight upper edge; the exposed solid side is darker, and the rest of the wall is occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00019",
+      "statement": "In frame 0, the bridge deck roadway appears as a light gray hard surface, exposed only through the narrow gap between the two vehicles on the image-right side of Person F.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e021",
+        "video10_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00020",
+      "statement": "In frame 0, the bridge deck roadway appears as a light gray hard surface, exposed only through the narrow gap between the two vehicles on the image-right side of Person F; the visible area is narrow and elongated, and its boundaries are occluded by the person and vehicle bodies.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e021",
+        "video10_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00029",
+      "statement": "In frame 22, Person F is a man with short black hair, wearing a white long-sleeved shirt and a narrow red tie.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00030",
+      "statement": "In frame 22, Person F is a man with short black hair, wearing a white long-sleeved shirt and a narrow red tie; the open collar, loosely tied tie, and large wrinkles in the sleeves are discernible, while the lower body lies beyond the bottom edge of the valid image area.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00031",
+      "statement": "In frame 22, Person G is a woman with short curly orange hair, wearing a gray-green sleeveless top.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00032",
+      "statement": "In frame 22, Person G is a woman with short curly orange hair, wearing a gray-green sleeveless top; the fluffy edges of the curly hair and bare shoulders and arms are discernible, while the lower garments are occluded by the foreground person and vehicles.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00033",
+      "statement": "In frame 22, yellow, green, dark-colored, and other tops are visible on the surrounding crowd; most people have only their heads and upper bodies exposed, and their lower garments are mostly occluded by vehicles.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00034",
+      "statement": "In frame 22, yellow, green, dark-colored, and other tops are visible on the surrounding crowd; most people have only their heads and upper bodies exposed, and their lower garments are mostly occluded by vehicles; the outlines of some raised or extended arms are discernible, and distant facial details are unclear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00035",
+      "statement": "In frame 22, Vehicle A is a boxy turquoise station wagon, with its flat roof and nearly vertical side windows visible; the near-side front door still has not been closed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00036",
+      "statement": "In frame 22, Vehicle A is a boxy turquoise station wagon, with its flat roof and nearly vertical side windows visible; the near-side front door still has not been closed; the roof edge, dark side windows, and turquoise door frame running diagonally across the front of Person F are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e006",
+        "video10_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00037",
+      "statement": "In frame 22, Vehicle D is a light gray-white sedan, with its light-colored roof, part of its hood, and dark windshield exposed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00038",
+      "statement": "In frame 22, Vehicle D is a light gray-white sedan, with its light-colored roof, part of its hood, and dark windshield exposed; the roof edge, side-window opening, front-windshield frame, and near-side exterior rearview mirror are discernible, while the front fascia is cropped by the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00039",
+      "statement": "In frame 22, the queue of vehicles in traffic congestion includes white, silver-gray, yellow, blue, and other dark-colored vehicles, with multiple roofs and windshields visible in overlapping layers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00040",
+      "statement": "In frame 22, the queue of vehicles in traffic congestion includes white, silver-gray, yellow, blue, and other dark-colored vehicles, with multiple roofs and windshields visible in overlapping layers; the distant vehicles generally have smaller projected sizes, and dark windows, roofs at varying heights, and a small number of partial light outlines are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00041",
+      "statement": "In frame 22, the clear blue sky appears as a large expanse of light blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00042",
+      "statement": "In frame 22, the clear blue sky appears as a large expanse of light blue; the color is lighter near the horizon and a deeper blue higher up.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00043",
+      "statement": "In frame 22, the partially visible concrete guardrail appears as a gray low wall with a straight upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00044",
+      "statement": "In frame 22, the partially visible concrete guardrail appears as a gray low wall with a straight upper edge; the exposed solid side is darker, and the rest of the wall is occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00012",
+      "statement": "In frame 0, Person F is in the gap between the two vehicles slightly right of image center, with Vehicle A on the image-left side of Person F and Vehicle D on the image-right side; Person G is behind and to the image-right of Person F, beside Vehicle D.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e028",
+        "video10_e006",
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00013",
+      "statement": "In frame 0, Vehicle A's near-side front door is open toward the gap between the two vehicles, with the door frame running across the front of Person F and the door panel occluding part of Person F's lower body; Person F's hand extended toward image-right grips the outer edge of the vehicle door.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00014",
+      "statement": "In frame 0, the queue of vehicles in traffic congestion is densely arranged in multiple rows behind Vehicle A and Vehicle D and extends into the distance; the surrounding crowd is distributed among these vehicles, with some people's lower bodies occluded by the vehicles.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e011",
+        "video10_e006",
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00015",
+      "statement": "In frame 0, the clear blue sky is above the queue of vehicles in traffic congestion and the surrounding crowd, occupying a large background area in the upper part of the valid image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e004",
+        "video10_e003",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00016",
+      "statement": "In frame 0, the concrete guardrail is partially exposed at the image-left edge behind Vehicle A, with the rest occluded by vehicles.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video10_e005",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00017",
+      "statement": "In frame 0, the bridge deck roadway is partially exposed on the image-right side of Person F through the narrow gap between Vehicle A and Vehicle D, and the boundaries of its visible area are limited by occlusion from the person and vehicle bodies.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video10_e021",
+        "video10_e001",
+        "video10_e006",
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00026",
+      "statement": "In frame 0, Vehicle A is on the image-left side of Person F, with its open front-door frame running across the front of Person F; Vehicle D is on the image-right side, and Person G is behind and to the image-right of Person F, beside Vehicle D. Farther away are the surrounding crowd and the queue of vehicles in traffic congestion, with the clear blue sky above.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e028",
+        "video10_e011",
+        "video10_e006",
+        "video10_e008",
+        "video10_e003",
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00020",
+      "statement": "In frame 22, Person F is in the gap between the two vehicles at image center, with Vehicle A occupying the foreground on the image-left side of Person F and Vehicle D occupying the foreground on the image-right side; Person G is behind and to the image-right of Person F, beside Vehicle D.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e028",
+        "video10_e006",
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00021",
+      "statement": "In frame 22, Vehicle A's near-side front door still has not been closed, and the diagonal door frame runs across the lower front of Person F; Person F's lower body lies mainly beyond the bottom edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00022",
+      "statement": "In frame 22, the queue of vehicles in traffic congestion is densely arranged in multiple rows behind Vehicle A and Vehicle D and extends into the distance; the surrounding crowd is distributed among these vehicles, with some people's lower bodies occluded by the vehicles.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e011",
+        "video10_e006",
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00023",
+      "statement": "In frame 22, the clear blue sky is above the queue of vehicles in traffic congestion and the surrounding crowd, occupying a large background area in the upper part of the valid image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e004",
+        "video10_e003",
+        "video10_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_restore00024",
+      "statement": "In frame 22, the concrete guardrail is partially visible on the image-left side in the area above and behind Vehicle A, with the rest occluded by vehicles.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video10_e005",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00049",
+      "statement": "In frame 22, Vehicle A is on the image-left side of Person F, with its front-door frame running diagonally across the lower front of Person F; Vehicle D is on the image-right side, and Person G is behind and to the image-right of Person F, beside Vehicle D. Farther away are the surrounding crowd and the queue of vehicles in traffic congestion, with the clear blue sky above.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e028",
+        "video10_e011",
+        "video10_e006",
+        "video10_e008",
+        "video10_e003",
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_r00001",
+      "statement": "In frame 0, the camera is near the front of Vehicle A and outside its open front door, with the viewpoint above the nearby vehicle roof, allowing Person F's upper body to be seen.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00001",
+      "statement": "In frame 0, the camera is near the front of Vehicle A and outside its open front door, with the viewpoint above the nearby vehicle roof, allowing Person F's upper body to be seen.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_r00027",
+      "statement": "In frame 22, the camera is near the outside of Vehicle A's open front door, with the viewpoint above the nearby vehicle roof, and Person F's upper body is at the center of the near foreground.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00027",
+      "statement": "In frame 22, the camera is near the outside of Vehicle A's open front door, with the viewpoint above the nearby vehicle roof, and Person F's upper body is at the center of the near foreground.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_r00002",
+      "statement": "In frame 0, the camera is directed toward Person F and Vehicle A's open turquoise front door in front of Person F.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00002",
+      "statement": "In frame 0, the camera is directed toward Person F and Vehicle A's open turquoise front door in front of Person F.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_r00028",
+      "statement": "In frame 22, the camera is directed toward Person F and the turquoise frame of Vehicle A's front door in front of Person F.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00028",
+      "statement": "In frame 22, the camera is directed toward Person F and the turquoise frame of Vehicle A's front door in front of Person F.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_r00050",
+      "statement": "From frames 0 to 22, the camera translates to the right; nearby Vehicle A moves toward image-left relative to the distant rows of vehicles, and the vehicle-body occlusion relationships change accordingly.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        5,
+        9,
+        13,
+        17,
+        22
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e006",
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00050",
+      "statement": "From frames 0 to 22, the camera translates to the right; nearby Vehicle A moves toward image-left relative to the distant rows of vehicles, and the vehicle-body occlusion relationships change accordingly.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        5,
+        9,
+        13,
+        17,
+        22
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e006",
+        "video10_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_r00051",
+      "statement": "From frames 5 to 22, the camera pans right relative to its orientation at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 5,
+      "end_frame": 22,
+      "evidence_frames": [
+        4,
+        5,
+        13,
+        17,
+        22
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00051",
+      "statement": "From frames 5 to 22, the camera pans right relative to its orientation at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 5,
+      "end_frame": 22,
+      "evidence_frames": [
+        4,
+        5,
+        13,
+        17,
+        22
+      ],
+      "subject_ids": [
+        "video10_e003",
+        "video10_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video10_cp003_a017",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        5,
+        9,
+        13,
+        17,
+        22
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video10_cp003_a017",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        5,
+        9,
+        13,
+        17,
+        22
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video10_cp003_r00053",
+      "statement": "From frames 0 to 22, Person F first looks toward image-right and grips the outer edge of Vehicle A's open front door; from frames 18 to 22, Person F gradually turns toward the front of the image, draws the arm on the door-holding side in toward the body, and the door frame swings toward image-left.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video10_cp003_r00053",
+      "statement": "From frames 0 to 22, Person F first looks toward image-right and grips the outer edge of Vehicle A's open front door; from frames 18 to 22, Person F gradually turns toward the front of the image, draws the arm on the door-holding side in toward the body, and the door frame swings toward image-left.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video10_e001",
+        "video10_e006"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    22
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "bae345db63eb8143cb982583f50432eebeff6f008fe9611784a4e1f89b4c53cc"
+}

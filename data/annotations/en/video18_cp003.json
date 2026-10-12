@@ -1,0 +1,1455 @@
+{
+  "clip_id": "video18_cp003",
+  "video_id": "video18",
+  "fps": 30.0,
+  "start_frame": 0,
+  "end_frame": 59,
+  "source_frame_offset": 245,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video18_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The upright person near the center wearing a light-colored sleeveless top, dark pants, and light-colored shoes, with a light-colored hat, dark long hair beside the shoulders, and a small dark object held in front of the body."
+    },
+    {
+      "source_entity_id": "video18_e002",
+      "name": "Animal A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The light-brown quadruped on the Light-Colored Bare Soil Patch to the image-right of Person A, with a low torso and outlines of thin legs beneath the body."
+    },
+    {
+      "source_entity_id": "video18_e003",
+      "name": "Golden Dry Grassland",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The broad yellow-brown short grassland covering the foreground and most of the middle ground, interspersed with light-colored bare soil."
+    },
+    {
+      "source_entity_id": "video18_e004",
+      "name": "Mixed Woodland Belt",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The woodland at the far end of the grassland, composed of interspersed dark green, tall, pointed crowns and yellow-green to brown-green, broad, rounded crowns."
+    },
+    {
+      "source_entity_id": "video18_e005",
+      "name": "Pale Blue Sky",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The pale blue sky area above the woodland, with a smooth tone and no obvious cloud patterns."
+    },
+    {
+      "source_entity_id": "video18_e006",
+      "name": "Light-Colored Bare Soil Patch",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The light grayish-yellow, low, flat, irregular-edged sparsely grassed ground patch beneath Person A and Animal A."
+    },
+    {
+      "source_entity_id": "video18_e008",
+      "name": "Open-Sided Shed",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The shed at the woodland edge behind and to the image-left of Person A, with a brown-gray gable roof, thin supports, and open space beneath the shed."
+    },
+    {
+      "source_entity_id": "video18_e013",
+      "name": "Open-Sided Shed with a Gray Roof",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Another shed partially visible from the left boundary in the final segment, with a light gray sloping roof surface and a small number of thin supports beneath it visible."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video18_cp003_restore00010",
+      "statement": "At frame 0, one Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00011",
+      "statement": "At frame 0, one Animal A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e002",
+        "video18_e001",
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a011",
+      "statement": "At frame 0, the Open-Sided Shed is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00001",
+      "statement": "At frame 0, Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00002",
+      "statement": "At frame 0, Animal A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00003",
+      "statement": "At frame 0, the Light-Colored Bare Soil Patch is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00004",
+      "statement": "At frame 0, the Golden Dry Grassland is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00005",
+      "statement": "At frame 0, the Mixed Woodland Belt is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00006",
+      "statement": "At frame 0, the Pale Blue Sky is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00015",
+      "statement": "At frame 59, one Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00016",
+      "statement": "At frame 59, one Animal A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e002",
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a031",
+      "statement": "At frame 59, the Open-Sided Shed is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00007",
+      "statement": "At frame 59, Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00008",
+      "statement": "At frame 59, Animal A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00009",
+      "statement": "At frame 59, the Light-Colored Bare Soil Patch is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00010",
+      "statement": "At frame 59, the Golden Dry Grassland is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00011",
+      "statement": "At frame 59, the Mixed Woodland Belt is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00012",
+      "statement": "At frame 59, the Pale Blue Sky is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00013",
+      "statement": "At frame 59, part of the Open-Sided Shed with a Gray Roof is visible at the left edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        58,
+        59
+      ],
+      "subject_ids": [
+        "video18_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a012",
+      "statement": "At frame 0, Person A has an upright human-shaped outline and is wearing a light-colored sleeveless top and dark pants.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a013",
+      "statement": "At frame 0, Person A has an upright human form and is wearing a light-colored sleeveless top, dark pants, and light-colored shoes; Person A is wearing a light-colored hat, with dark long hair hanging beside the shoulders, and is holding a small dark object in front of the body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a014",
+      "statement": "At frame 0, Animal A has the outline of a light-brown quadruped, with a low torso and relatively thin legs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a015",
+      "statement": "At frame 0, Animal A has the outline of a light-brown quadruped, with a low torso, a raised head, and parts of thin legs visible beneath the body; the leg outlines overlap.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a016",
+      "statement": "At frame 0, the Light-Colored Bare Soil Patch is light grayish-yellow, low, flat, and irregular-edged.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a017",
+      "statement": "At frame 0, the Light-Colored Bare Soil Patch is light grayish-yellow, low, flat, and irregular-edged; its surface is relatively smoother than the surrounding grassland, parts of its outline are nearly oval, and sparse grass patterns occur along its edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a018",
+      "statement": "At frame 0, the Golden Dry Grassland covers a broad area and consists overall of yellow-brown short grass.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a019",
+      "statement": "At frame 0, the Golden Dry Grassland covers a broad area and consists overall of yellow-brown short grass interspersed with scattered light-colored bare soil; nearby grass patterns are coarse and dense and locally form bands, while the texture gradually becomes finer with increasing distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a020",
+      "statement": "At frame 0, the Mixed Woodland Belt consists of dark green conifers and yellow-green to brown-green broadleaf trees, with crowns of varying heights.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a021",
+      "statement": "At frame 0, the Mixed Woodland Belt consists of interspersed dark green conifers and yellow-green to brown-green broadleaf trees, with crowns of varying heights; narrow, pointed tall crowns, broad rounded crowns, locally exposed trunks, and continuous dark understory shadows are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a022",
+      "statement": "At frame 0, the Pale Blue Sky is pale blue, with no obvious cloud layer.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a023",
+      "statement": "At frame 0, the Pale Blue Sky area has a smooth tone, with no discernible cloud patterns visible, and its edge is broken up by uneven treetops.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a024",
+      "statement": "At frame 0, the Open-Sided Shed has a brown-gray gable roof and an open post-and-frame structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a025",
+      "statement": "At frame 0, the Open-Sided Shed has a low brown-gray gable roof and an open post-and-frame structure; thin straight supports, horizontal crossbeams, and a darker yet open space beneath the roof are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a032",
+      "statement": "At frame 59, Person A has an upright human-shaped outline and is wearing a light-colored sleeveless top and dark pants.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a033",
+      "statement": "At frame 59, Person A has an upright human form and is wearing a light-colored sleeveless top, dark pants, and light-colored shoes; Person A is wearing a light-colored hat, with dark long hair hanging beside the shoulders, and is holding a small dark object in front of the body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a034",
+      "statement": "At frame 59, Animal A has the outline of a light-brown quadruped, with relatively thin legs beneath the torso and a long, thin tail-like outline behind the body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a035",
+      "statement": "At frame 59, Animal A has the outline of a light-brown quadruped, with relatively thin legs beneath the torso and a raised head; a long, thin tail-like outline extends toward the image-right behind the body, and some leg outlines overlap.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a036",
+      "statement": "At frame 59, the Light-Colored Bare Soil Patch is light grayish-yellow, low, flat, and irregular-edged.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a037",
+      "statement": "At frame 59, the Light-Colored Bare Soil Patch is light grayish-yellow, low, flat, and irregular-edged; its interior is relatively smoother than the surrounding grassland, parts of its outline are nearly oval, and sparse grass patterns occur along its edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a038",
+      "statement": "At frame 59, the Golden Dry Grassland covers a broad area and consists overall of yellow-brown short grass.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a039",
+      "statement": "At frame 59, the Golden Dry Grassland covers a broad area and consists overall of yellow-brown short grass interspersed with scattered light-colored bare soil; nearby grass patterns are coarse and dense and locally form bands, while the texture gradually becomes finer with increasing distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a040",
+      "statement": "At frame 59, the Mixed Woodland Belt consists of dark green conifers and yellow-green to brown-green broadleaf trees, with crowns of varying heights.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a041",
+      "statement": "At frame 59, the Mixed Woodland Belt consists of interspersed dark green conifers and yellow-green to brown-green broadleaf trees, with crowns of varying heights; narrow, pointed tall crowns, broad rounded crowns, locally exposed trunks, and continuous dark understory shadows are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a042",
+      "statement": "At frame 59, the Pale Blue Sky is pale blue, with no obvious cloud layer.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a043",
+      "statement": "At frame 59, the Pale Blue Sky area has a smooth tone, with no discernible cloud patterns visible, and its edge is broken up by uneven treetops.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a044",
+      "statement": "At frame 59, the Open-Sided Shed has a brown-gray gable roof and an open post-and-frame structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a045",
+      "statement": "At frame 59, the Open-Sided Shed has a low brown-gray gable roof and an open post-and-frame structure; thin straight supports, horizontal crossbeams, and a darker yet open space beneath the roof are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00014",
+      "statement": "At frame 59, the Open-Sided Shed with a Gray Roof at the left edge of the image reveals a light gray sloping roof surface and supports beneath it.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_r00015",
+      "statement": "At frame 59, part of the light gray sloping roof surface, thin supports beneath it, and the dark space beneath the shed of the Open-Sided Shed with a Gray Roof are visible at the left edge of the image; the remainder is cropped by the left boundary of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00012",
+      "statement": "At frame 0, the Light-Colored Bare Soil Patch is within the Golden Dry Grassland near the center of the image; Person A is toward the image-left side of the patch, and Animal A is nearby on the image-right of Person A, with a visible gap between them; both are in contact with and supported by the ground of the patch.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006",
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00013",
+      "statement": "At frame 0, the Golden Dry Grassland continuously covers the foreground and most of the middle ground and extends into the distance; the Mixed Woodland Belt stretches horizontally along the rear edge of the grassland, and the Pale Blue Sky is above the woodland belt.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e003",
+        "video18_e004",
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00014",
+      "statement": "At frame 0, the Open-Sided Shed is behind and toward the image-left of Person A, with the Mixed Woodland Belt immediately behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e008",
+        "video18_e001",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a026",
+      "statement": "At frame 0, Person A stands toward the image-left side of the Light-Colored Bare Soil Patch, and Animal A is nearby on the image-right of Person A; there is a visible gap between their body outlines, and both are in contact with the ground of the Light-Colored Bare Soil Patch.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a027",
+      "statement": "At frame 0, the Golden Dry Grassland occupies the lower part of the image and extends to the far end, the Mixed Woodland Belt stretches along the rear edge of the grassland, and the Pale Blue Sky is above the treetops.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e003",
+        "video18_e004",
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a028",
+      "statement": "At frame 0, the Open-Sided Shed is in the distance behind and toward the image-left of Person A, with the Mixed Woodland Belt immediately behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e008",
+        "video18_e001",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00017",
+      "statement": "At frame 59, the Light-Colored Bare Soil Patch is within the Golden Dry Grassland near the center of the image; Person A is toward the image-left side of the patch, and Animal A is nearby on the image-right of Person A, with a visible gap between them; both are in contact with and supported by the ground of the patch.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006",
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00018",
+      "statement": "At frame 59, the Golden Dry Grassland continuously covers the foreground and most of the middle ground and extends into the distance; the Mixed Woodland Belt stretches horizontally along the rear edge of the grassland, and the Pale Blue Sky is above the woodland belt.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e003",
+        "video18_e004",
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00019",
+      "statement": "At frame 59, the Open-Sided Shed is behind and toward the image-left of Person A, with the Mixed Woodland Belt immediately behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e008",
+        "video18_e001",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_restore00020",
+      "statement": "At frame 59, the Open-Sided Shed with a Gray Roof is partially within the image in front of the Mixed Woodland Belt and is on the image-left of the Open-Sided Shed; the remainder is cropped by the left boundary of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        58,
+        59
+      ],
+      "subject_ids": [
+        "video18_e013",
+        "video18_e008",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a046",
+      "statement": "At frame 59, Person A stands toward the image-left side of the Light-Colored Bare Soil Patch, and Animal A is nearby on the image-right of Person A; there is a visible gap between their body outlines, and both are in contact with the ground of the Light-Colored Bare Soil Patch.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a047",
+      "statement": "At frame 59, the Golden Dry Grassland occupies the lower part of the image and extends to the far end, the Mixed Woodland Belt stretches along the rear edge of the grassland, and the Pale Blue Sky is above the treetops.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e003",
+        "video18_e004",
+        "video18_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a048",
+      "statement": "At frame 59, the Open-Sided Shed is in the distance behind and toward the image-left of Person A, with the Mixed Woodland Belt immediately behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e008",
+        "video18_e001",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_a004",
+      "statement": "At frame 0, the camera is far away and diagonally above Person A, Animal A, and the Light-Colored Bare Soil Patch, with open Golden Dry Grassland separating the camera from this area.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006",
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a004",
+      "statement": "At frame 0, the camera is far away and diagonally above Person A, Animal A, and the Light-Colored Bare Soil Patch, with open Golden Dry Grassland separating the camera from this area.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006",
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_a006",
+      "statement": "At frame 59, the camera is far away and diagonally above Person A, Animal A, and the Light-Colored Bare Soil Patch, with open Golden Dry Grassland separating the camera from this area.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006",
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a006",
+      "statement": "At frame 59, the camera is far away and diagonally above Person A, Animal A, and the Light-Colored Bare Soil Patch, with open Golden Dry Grassland separating the camera from this area.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006",
+        "video18_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_a005",
+      "statement": "At frame 0, the camera is aimed at Person A, Animal A, and the Light-Colored Bare Soil Patch beneath their feet.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a005",
+      "statement": "At frame 0, the camera is aimed at Person A, Animal A, and the Light-Colored Bare Soil Patch beneath their feet.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_a007",
+      "statement": "At frame 59, the camera is aimed at Person A, Animal A, and the Light-Colored Bare Soil Patch beneath their feet.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a007",
+      "statement": "At frame 59, the camera is aimed at Person A, Animal A, and the Light-Colored Bare Soil Patch beneath their feet.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 59,
+      "end_frame": 59,
+      "evidence_frames": [
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_a001",
+      "statement": "From frame 0 through frame 59, relative to its orientation at frame 0, the camera moves smoothly, mainly toward the right, while the viewpoint height remains approximately stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 59,
+      "evidence_frames": [
+        0,
+        14,
+        29,
+        45,
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e003",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a001",
+      "statement": "From frame 0 through frame 59, relative to its orientation at frame 0, the camera moves smoothly, mainly toward the right, while the viewpoint height remains approximately stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 59,
+      "evidence_frames": [
+        0,
+        14,
+        29,
+        45,
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e003",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_a002",
+      "statement": "From frame 0 through frame 59, the camera continuously pans left, keeping Person A and Animal A near the center of the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 59,
+      "evidence_frames": [
+        0,
+        14,
+        29,
+        45,
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a002",
+      "statement": "From frame 0 through frame 59, the camera continuously pans left, keeping Person A and Animal A near the center of the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 59,
+      "evidence_frames": [
+        0,
+        14,
+        29,
+        45,
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e002",
+        "video18_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video18_cp003_a008",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 59,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video18_cp003_a008",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 59,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video18_cp003_a049",
+      "statement": "From frame 0 through frame 59, Person A remains within the same Light-Colored Bare Soil Patch throughout, with no obvious overall positional displacement relative to the patch visible.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 59,
+      "evidence_frames": [
+        0,
+        14,
+        29,
+        45,
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video18_cp003_a049",
+      "statement": "From frame 0 through frame 59, Person A remains within the same Light-Colored Bare Soil Patch throughout, with no obvious overall positional displacement relative to the patch visible.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 59,
+      "evidence_frames": [
+        0,
+        14,
+        29,
+        45,
+        59
+      ],
+      "subject_ids": [
+        "video18_e001",
+        "video18_e006"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    59
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "344989e932e99e9ae9791d0c30fefa592724022970fa34a448f32eadf950c191"
+}

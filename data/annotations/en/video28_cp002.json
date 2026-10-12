@@ -1,0 +1,1158 @@
+{
+  "clip_id": "video28_cp002",
+  "video_id": "video28",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 90,
+  "source_frame_offset": 90,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video28_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The dark gray-black handgun continuously visible in the lower-right foreground, with a short body and a square slide; the lower grip area is only partially visible."
+    },
+    {
+      "source_entity_id": "video28_e005",
+      "name": "group of metal barrels",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The two cylindrical metal barrels positioned side by side near the wall in the middle of the opening view, with horizontal bands around their bodies."
+    },
+    {
+      "source_entity_id": "video28_e013",
+      "name": "riveted metal wall panel",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The large cyan-gray to cyan-green rectangular wall panels forming the boundary of the turning passage, with dark rivets arranged near the panel seams."
+    },
+    {
+      "source_entity_id": "video28_e014",
+      "name": "metal floor",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The flat, slab-like gray to cyan-green floor beneath the passage, with a low-contrast mottled texture and panel seams."
+    },
+    {
+      "source_entity_id": "video28_e015",
+      "name": "dark-colored metal ceiling",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The dark gray to nearly black ceiling surface at the top of the passage, with multiple parallel layered trim strips visible along the tops of the walls."
+    },
+    {
+      "source_entity_id": "video28_e025",
+      "name": "indoor light fixture",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The partially exposed cyan-green glowing light fixture near the top of the wall in the upper-left of the opening view."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video28_cp002_restore00010",
+      "statement": "At frame 0, two distinguishable barrel bodies in the group of metal barrels are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_a004",
+      "statement": "At frame 0, Weapon A is visible in the lower-right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00001",
+      "statement": "At frame 0, two metal barrels are visible in the middle of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00015",
+      "statement": "At frame 0, a partially visible cyan-green light fixture is located in the upper-left of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00018",
+      "statement": "At frame 0, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00019",
+      "statement": "At frame 0, the metal floor is visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00020",
+      "statement": "At frame 0, the dark-colored metal ceiling is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_restore00017",
+      "statement": "At frame 90, the ceiling is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_a017",
+      "statement": "At frame 90, Weapon A is visible in the lower-right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00021",
+      "statement": "At frame 90, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00022",
+      "statement": "At frame 90, the metal floor is visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00023",
+      "statement": "At frame 90, the dark-colored metal ceiling is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_a007",
+      "statement": "At frame 0, Weapon A is a dark gray-black handgun with a short body and a square slide; the lower grip area is only partially visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00002",
+      "statement": "At frame 0, two silver-gray to cyan-gray cylindrical metal barrels are positioned side by side.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00003",
+      "statement": "At frame 0, two silver-gray to cyan-gray cylindrical metal barrels are positioned side by side, each with multiple horizontal bands around its body; the right side of the barrel on the right is noticeably darker.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00005",
+      "statement": "At frame 0, Weapon A is a dark gray-black handgun with a short body and a square slide; the lower grip area is only partially visible; the ridge along the top of the slide and the protrusion at its rear are discernible, and the grip area is cut off by the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00016",
+      "statement": "At frame 0, the indoor light fixture partially appears as a small cyan-green glowing surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00017",
+      "statement": "At frame 0, the indoor light fixture partially appears as a small cyan-green glowing surface, with a segment of its bright-colored edge exposed near the top of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00024",
+      "statement": "At frame 0, the riveted metal wall panel is cyan-green and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00025",
+      "statement": "At frame 0, the metal floor is gray to cyan-green.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00026",
+      "statement": "At frame 0, the dark-colored metal ceiling consists of dark gray panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00027",
+      "statement": "At frame 0, the riveted metal wall panel is cyan-green and consists of large rectangular panel surfaces; there are narrow dark seams between the panel surfaces, circular rivets are arranged along the edges of the seams, and layered trim is attached along the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00028",
+      "statement": "At frame 0, the metal floor is gray to cyan-green, with a relatively subdued mottled texture and panel seams on its surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00029",
+      "statement": "At frame 0, the dark-colored metal ceiling consists of dark gray panel surfaces, with multiple parallel trim strips distributed along the tops of the walls.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_a020",
+      "statement": "At frame 90, Weapon A is a dark gray-black handgun with a short body and a square slide; the lower grip area is only partially visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00006",
+      "statement": "At frame 90, Weapon A is a dark gray-black handgun with a short body and a square slide; the lower grip area is only partially visible; the ridge along the top of the slide and the protrusion at its rear are discernible, and the grip area is cut off by the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00030",
+      "statement": "At frame 90, the riveted metal wall panel is cyan-green and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00031",
+      "statement": "At frame 90, the metal floor is gray to cyan-green.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00032",
+      "statement": "At frame 90, the dark-colored metal ceiling consists of dark gray panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00033",
+      "statement": "At frame 90, the riveted metal wall panel is cyan-green and consists of large rectangular panel surfaces; there are narrow dark seams between the panel surfaces, circular rivets are arranged along the edges of the seams, and layered trim is attached along the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00034",
+      "statement": "At frame 90, the metal floor is gray to cyan-green, with a relatively subdued mottled texture and panel seams on its surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00035",
+      "statement": "At frame 90, the dark-colored metal ceiling consists of dark gray panel surfaces, with multiple parallel trim strips distributed along the tops of the walls.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_restore00011",
+      "statement": "At frame 0, the two barrel bodies in the group of metal barrels are side by side horizontally in the middle of the image, near the rear wall, with their bottoms in contact with and supported by the floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_restore00012",
+      "statement": "At frame 0, Weapon A is located in the lower-right foreground of the image; its lower grip area is cut off by the bottom edge of the image, and it occludes part of the wall on the right and part of the floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_restore00013",
+      "statement": "At frame 0, the floor extends forward from the lower foreground of the image and, on the image-left side of the group of metal barrels, joins a narrower passage that turns left around the nearby wall corner; the nearby walls on the left and right delimit the traversable space.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_restore00014",
+      "statement": "At frame 0, the ceiling covers the top of the visible indoor space and meets the upper edges of the walls on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00004",
+      "statement": "At frame 0, the two metal barrels are located in the middle of the image, near the riveted metal wall panel at the rear.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00036",
+      "statement": "At frame 0, Weapon A is located in the lower-right foreground of the image, occluding part of the wall panel on the right and part of the floor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_restore00015",
+      "statement": "At frame 90, Weapon A is located in the lower-right foreground of the image; its lower grip area is cut off by the bottom edge of the image, and it occludes part of the wall on the right and part of the floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_restore00016",
+      "statement": "At frame 90, the floor extends from the lower foreground of the image toward the distant wall; the walls on the left and right form a relatively narrow passage, and the wall ahead spans the visible end of the passage.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00037",
+      "statement": "At frame 90, Weapon A is located in the lower-right foreground of the image, occluding part of the wall panel on the right and part of the floor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_r00011",
+      "statement": "At frame 0, the camera is in the indoor passage in front of the metal barrels, near the wall corner on the image-right side.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00011",
+      "statement": "At frame 0, the camera is in the indoor passage in front of the metal barrels, near the wall corner on the image-right side.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_r00012",
+      "statement": "At frame 90, the camera is inside the narrow passage, with wall panels flanking the camera on the left and right and the wall panel at the end located ahead.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00012",
+      "statement": "At frame 90, the camera is inside the narrow passage, with wall panels flanking the camera on the left and right and the wall panel at the end located ahead.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_r00013",
+      "statement": "At frame 0, the camera faces the two metal barrels and the wall surface behind them.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00013",
+      "statement": "At frame 0, the camera faces the two metal barrels and the wall surface behind them.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_r00014",
+      "statement": "At frame 90, the camera faces the metal wall panel at the end of the narrow passage.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00014",
+      "statement": "At frame 90, the camera faces the metal wall panel at the end of the narrow passage.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 90,
+      "end_frame": 90,
+      "evidence_frames": [
+        90
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_r00009",
+      "statement": "From frames 0 to 60, the camera generally advances toward the left-front relative to its initial horizontal facing direction at frame 0, approaching and entering the narrow passage on the image-left side of the group of metal barrels, while its height remains generally stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 60,
+      "evidence_frames": [
+        0,
+        18,
+        23,
+        35,
+        38,
+        39,
+        52,
+        60
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00009",
+      "statement": "From frames 0 to 60, the camera generally advances toward the left-front relative to its initial horizontal facing direction at frame 0, approaching and entering the narrow passage on the image-left side of the group of metal barrels, while its height remains generally stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 60,
+      "evidence_frames": [
+        0,
+        18,
+        23,
+        35,
+        38,
+        39,
+        52,
+        60
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_r00010",
+      "statement": "From frames 60 to 90, the camera generally moves toward the right-front relative to its initial horizontal facing direction at frame 60, rounding the nearby wall corner and entering the next section of the narrow passage, while its height remains generally stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 90,
+      "evidence_frames": [
+        59,
+        60,
+        61,
+        62,
+        67,
+        69,
+        74,
+        75,
+        76,
+        89,
+        90
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00010",
+      "statement": "From frames 60 to 90, the camera generally moves toward the right-front relative to its initial horizontal facing direction at frame 60, rounding the nearby wall corner and entering the next section of the narrow passage, while its height remains generally stable.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 90,
+      "evidence_frames": [
+        59,
+        60,
+        61,
+        62,
+        67,
+        69,
+        74,
+        75,
+        76,
+        89,
+        90
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_r00007",
+      "statement": "From frames 11 to 53, while translating, the camera generally turns its view to the left, shifting from facing the area in front of the group of metal barrels to facing the narrow passage on their image-left side.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 11,
+      "end_frame": 53,
+      "evidence_frames": [
+        10,
+        11,
+        12,
+        18,
+        23,
+        35,
+        39,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00007",
+      "statement": "From frames 11 to 53, while translating, the camera generally turns its view to the left, shifting from facing the area in front of the group of metal barrels to facing the narrow passage on their image-left side.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 11,
+      "end_frame": 53,
+      "evidence_frames": [
+        10,
+        11,
+        12,
+        18,
+        23,
+        35,
+        39,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_r00008",
+      "statement": "From frames 56 to 90, the camera generally turns its view to the right, bringing the next section of the narrow passage and its far-end wall panel into the forward view while rounding the wall corner.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 56,
+      "end_frame": 90,
+      "evidence_frames": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        67,
+        69,
+        74,
+        76,
+        89,
+        90
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp002_r00008",
+      "statement": "From frames 56 to 90, the camera generally turns its view to the right, bringing the next section of the narrow passage and its far-end wall panel into the forward view while rounding the wall corner.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 56,
+      "end_frame": 90,
+      "evidence_frames": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        67,
+        69,
+        74,
+        76,
+        89,
+        90
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp002_a026",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 90,
+      "evidence_frames": [
+        0,
+        11,
+        23,
+        35,
+        47,
+        59,
+        71,
+        83,
+        90
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video28_cp002_a026",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 90,
+      "evidence_frames": [
+        0,
+        11,
+        23,
+        35,
+        47,
+        59,
+        71,
+        83,
+        90
+      ],
+      "subject_ids": []
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    90
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "61dee2d66a00fa2eed894aa2b3829cab5d7fd1d29248e23db966dd1f8caea1d5"
+}

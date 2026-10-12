@@ -1,0 +1,1462 @@
+{
+  "clip_id": "video43_cp003",
+  "video_id": "video43",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 22,
+  "source_frame_offset": 95,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video43_e001",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A box-shaped van in the right lane of the Two-lane highway, with a white upper section, a yellow lower section, a dark rear window, and its rear facing the camera."
+    },
+    {
+      "source_entity_id": "video43_e002",
+      "name": "Vehicle B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A light-colored compact passenger car ahead and to the image-left of Vehicle A in the left lane of the main road, with a dark rear window and a light-colored rear."
+    },
+    {
+      "source_entity_id": "video43_e003",
+      "name": "Group of vehicles in the distance on the main road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A group of distant vehicle silhouettes near the vanishing point of the main road, excluding Vehicle A and Vehicle B."
+    },
+    {
+      "source_entity_id": "video43_e004",
+      "name": "Two-lane highway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A dark, straight road converging toward the horizon at the center of the image, with two lanes separated by a dashed white center line, a yellow line on the left, and a white line on the right."
+    },
+    {
+      "source_entity_id": "video43_e006",
+      "name": "Sunset sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "An orange-pink and golden-yellow sky above the horizon, crossed by gray-purple cloud bands, with bright sunlight in the upper-right."
+    },
+    {
+      "source_entity_id": "video43_e007",
+      "name": "Distant mountains on the horizon",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Dark silhouettes of low mountains on the horizon, gentler on the left and with multiple undulating peaks on the right."
+    },
+    {
+      "source_entity_id": "video43_e008",
+      "name": "Group of vehicles on the parallel road on the left",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Small vehicle shapes and bright points spaced along the parallel road on the left, excluding vehicles on the main road."
+    },
+    {
+      "source_entity_id": "video43_e009",
+      "name": "Gravel and desert terrain on both sides of the highway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Gray gravel areas along the edges of the main road and yellowish-brown dry ground farther outward."
+    },
+    {
+      "source_entity_id": "video43_e010",
+      "name": "Dry grass and shrubs on both sides of the highway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Yellowish-brown patches of grass and low green shrubs on both sides of the road, forming irregular clusters of varying sizes."
+    },
+    {
+      "source_entity_id": "video43_e011",
+      "name": "Parallel road on the image-left",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A gray paved road strip to the left of the main road, extending from the image-left edge toward the upper-right and converging in the distance."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video43_cp003_restore00008",
+      "statement": "In frame 0, 1 Vehicle A, 1 Vehicle B, the Group of vehicles in the distance on the main road, and the Group of vehicles on the parallel road on the left are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002",
+        "video43_e003",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00002",
+      "statement": "In frame 0, Vehicle A, Vehicle B, the Group of vehicles in the distance on the main road, and the Group of vehicles on the parallel road on the left are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002",
+        "video43_e003",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00003",
+      "statement": "In frame 0, the Two-lane highway and the Parallel road on the image-left are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00004",
+      "statement": "In frame 0, the Gravel and desert terrain on both sides of the highway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00005",
+      "statement": "In frame 0, the Dry grass and shrubs on both sides of the highway are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00006",
+      "statement": "In frame 0, the Sunset sky is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00007",
+      "statement": "In frame 0, the Distant mountains on the horizon are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00015",
+      "statement": "In frame 22, 1 Vehicle A, 1 Vehicle B, the Group of vehicles in the distance on the main road, and the Group of vehicles on the parallel road on the left are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002",
+        "video43_e003",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00008",
+      "statement": "In frame 22, Vehicle A, Vehicle B, the Group of vehicles in the distance on the main road, and the Group of vehicles on the parallel road on the left are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002",
+        "video43_e003",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00009",
+      "statement": "In frame 22, the Two-lane highway and the Parallel road on the image-left are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00010",
+      "statement": "In frame 22, the Gravel and desert terrain on both sides of the highway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00011",
+      "statement": "In frame 22, the Dry grass and shrubs on both sides of the highway are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00012",
+      "statement": "In frame 22, the Sunset sky is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00013",
+      "statement": "In frame 22, the Distant mountains on the horizon are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a011",
+      "statement": "In frame 0, Vehicle A is a box-shaped van with a white upper body, a yellow lower body, and a dark rectangular window at the rear.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a012",
+      "statement": "In frame 0, Vehicle A is a box-shaped van with a white upper body and a yellow lower body; a rounded white roof, a yellow rear panel, a dark rectangular rear window, and a light-colored horizontal strip at the bottom of the rear are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a013",
+      "statement": "In frame 0, Vehicle B is a light-colored compact passenger car with a light-colored body and a dark rear window.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a014",
+      "statement": "In frame 0, Vehicle B is a light-colored compact passenger car; its light-colored roof and rear are discernible, and its dark rear window appears as a small horizontal area surrounded by light-colored body edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a017",
+      "statement": "In frame 0, the Sunset sky is orange-pink and golden-yellow and is crossed by gray-purple clouds; the Distant mountains on the horizon form a dark, low silhouette.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e006",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a018",
+      "statement": "In frame 0, the Sunset sky is orange-pink and golden-yellow and is crossed by multiple gray-purple cloud bands, with bright sunlight in the upper-right of the image and a warm glow below; the Distant mountains on the horizon form a dark, low silhouette, gentler on the left and with multiple undulating peaks on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e006",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a019",
+      "statement": "In frame 0, the Group of vehicles in the distance on the main road appears as small vehicle silhouettes near the vanishing point of the Two-lane highway; the Group of vehicles on the parallel road on the left appears as tiny vehicle shapes and bright points spaced apart.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e003",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a020",
+      "statement": "In frame 0, the Group of vehicles in the distance on the main road appears as tiny vehicle shapes near the vanishing point of the Two-lane highway, with small light and dark rectangular silhouettes discernible; the Group of vehicles on the parallel road on the left appears as tiny vehicle shapes, dark silhouettes, and scattered bright points spaced apart.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e003",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00014",
+      "statement": "In frame 0, the Two-lane highway is a straight, dark asphalt road; its near end is at the center of the bottom edge of the image, and its two sides gradually converge into the distance, meeting slightly left of the image center near the horizon. There is a yellow edge line on the image-left, a white edge line on the image-right, and two lanes separated by a dashed white center line.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00015",
+      "statement": "In frame 0, the Gravel and desert terrain on both sides of the highway appears as gray gravel slopes along the near road edges, with yellowish-brown dry ground farther outward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00016",
+      "statement": "In frame 0, the Dry grass and shrubs on both sides of the highway consist of yellowish-brown patches of dry grass and low green shrubs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00017",
+      "statement": "In frame 0, the Two-lane highway is a straight, dark asphalt road; its near end is at the center of the bottom edge of the effective image, and its two sides gradually converge into the distance, meeting slightly left of the image center near the horizon. There is a yellow edge line on the image-left, a white edge line on the image-right, and two lanes separated by a dashed white center line. The center dashes become denser and smaller toward the distance; gray paved shoulders and localized striped road-surface texture are visible outside the nearby edge lines, and the shoulder on the image-right is wider.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00018",
+      "statement": "In frame 0, the Gravel and desert terrain on both sides of the highway appears as gray gravel slopes along the near road edges, with yellowish-brown dry ground farther outward. The gray gravel slopes have a grainy, mottled texture, and the exposed ground farther outward appears as yellowish-brown patches of varying shades.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00019",
+      "statement": "In frame 0, the Dry grass and shrubs on both sides of the highway consist of yellowish-brown patches of dry grass and low green shrubs. The shrub clusters vary in size and have irregular outlines, with alternating dark and light greens, while the dry grass is sparsely distributed in fragmented patches. The shrubs near the roadside on the image-right are denser.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00028",
+      "statement": "In frame 0, the Parallel road on the image-left is a gray paved road strip; its near end enters the image from slightly below the middle of the image-left edge, and the gray road strip extends toward the upper-right of the image, gradually narrowing and converging toward a point slightly left of the image center near the horizon. The discernible section is generally straight.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00029",
+      "statement": "In frame 0, the Parallel road on the image-left is a gray paved road strip; its near end enters the image from slightly below the middle of the image-left edge, and the gray road strip extends toward the upper-right of the image, gradually narrowing and converging toward a point slightly left of the image center near the horizon. The discernible section is generally straight. The nearby road strip is wider and becomes a narrow strip in the distance; its edges are locally occluded by low vegetation, and the road strip gradually becomes indistinguishable near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a021",
+      "statement": "In frame 22, Vehicle A is a box-shaped van with a white upper body, a yellow lower body, and a dark rectangular window at the rear.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a022",
+      "statement": "In frame 22, Vehicle A is a box-shaped van with a white upper body and a yellow lower body; a rounded white roof, a yellow rear panel, a dark rectangular rear window, and a light-colored horizontal strip at the bottom of the rear are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a023",
+      "statement": "In frame 22, Vehicle B is a light-colored compact passenger car with a light-colored body and a dark rear window.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a024",
+      "statement": "In frame 22, Vehicle B is a light-colored compact passenger car; its light-colored roof and rear are discernible, and its dark rear window appears as a small horizontal area surrounded by light-colored body edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a027",
+      "statement": "In frame 22, the Sunset sky is orange-pink and golden-yellow and is crossed by gray-purple clouds; the Distant mountains on the horizon form a dark, low silhouette.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e006",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a028",
+      "statement": "In frame 22, the Sunset sky is orange-pink and golden-yellow and is crossed by multiple gray-purple cloud bands, with bright sunlight in the upper-right of the image and a warm glow below; the Distant mountains on the horizon form a dark, low silhouette, gentler on the left and with multiple undulating peaks on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e006",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a029",
+      "statement": "In frame 22, the Group of vehicles in the distance on the main road appears as small vehicle silhouettes near the vanishing point of the Two-lane highway; the Group of vehicles on the parallel road on the left appears as tiny vehicle shapes and bright points spaced apart.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e003",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a030",
+      "statement": "In frame 22, the Group of vehicles in the distance on the main road appears as tiny vehicle shapes near the vanishing point of the Two-lane highway, with small light and dark rectangular silhouettes discernible; the Group of vehicles on the parallel road on the left appears as tiny vehicle shapes, dark silhouettes, and scattered bright points spaced apart.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e003",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00020",
+      "statement": "In frame 22, the Two-lane highway is a straight, dark asphalt road; its near end is at the center of the bottom edge of the image, and its two sides gradually converge into the distance, meeting slightly left of the image center near the horizon. There is a yellow edge line on the image-left, a white edge line on the image-right, and two lanes separated by a dashed white center line.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00021",
+      "statement": "In frame 22, the Gravel and desert terrain on both sides of the highway appears as gray gravel slopes along the near road edges, with yellowish-brown dry ground farther outward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00022",
+      "statement": "In frame 22, the Dry grass and shrubs on both sides of the highway consist of yellowish-brown patches of dry grass and low green shrubs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00023",
+      "statement": "In frame 22, the Two-lane highway is a straight, dark asphalt road; its near end is at the center of the bottom edge of the effective image, and its two sides gradually converge into the distance, meeting slightly left of the image center near the horizon. There is a yellow edge line on the image-left, a white edge line on the image-right, and two lanes separated by a dashed white center line. The center dashes become denser and smaller toward the distance; gray paved shoulders and localized striped road-surface texture are visible outside the nearby edge lines, and the shoulder on the image-right is wider.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00024",
+      "statement": "In frame 22, the Gravel and desert terrain on both sides of the highway appears as gray gravel slopes along the near road edges, with yellowish-brown dry ground farther outward. The gray gravel slopes have a grainy, mottled texture, and the exposed ground farther outward appears as yellowish-brown patches of varying shades.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00025",
+      "statement": "In frame 22, the Dry grass and shrubs on both sides of the highway consist of yellowish-brown patches of dry grass and low green shrubs. The shrub clusters vary in size and have irregular outlines, with alternating dark and light greens, while the dry grass is sparsely distributed in fragmented patches. The shrubs near the roadside on the image-right are denser.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00030",
+      "statement": "In frame 22, the Parallel road on the image-left is a gray paved road strip; its near end enters the image from slightly below the middle of the image-left edge, and the gray road strip extends toward the upper-right of the image, gradually narrowing and converging toward a point slightly left of the image center near the horizon. The discernible section is generally straight.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00031",
+      "statement": "In frame 22, the Parallel road on the image-left is a gray paved road strip; its near end enters the image from slightly below the middle of the image-left edge, and the gray road strip extends toward the upper-right of the image, gradually narrowing and converging toward a point slightly left of the image center near the horizon. The discernible section is generally straight. The nearby road strip is wider and becomes a narrow strip in the distance; its edges are locally occluded by low vegetation, and the road strip gradually becomes indistinguishable near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00009",
+      "statement": "In frame 0, Vehicle A is on the road surface of the right lane of the Two-lane highway, near the center of the lower part of the image; Vehicle B is on the road surface of the left lane, above and to the image-left of Vehicle A and farther ahead along the road, while the Group of vehicles in the distance on the main road is closer to the road's vanishing point.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002",
+        "video43_e003",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00010",
+      "statement": "In frame 0, the Two-lane highway contains two side-by-side lanes, one on the left and one on the right, extending continuously and straight from the center of the bottom edge of the effective image to a point slightly left of center near the horizon, with the two sides of the road converging toward the far end as distance increases.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00011",
+      "statement": "In frame 0, the Parallel road on the image-left is on the image-left of the Two-lane highway, with the Gravel and desert terrain on both sides of the highway separating the two roads; this road extends from slightly below the middle of the image-left edge toward the upper-right, converging generally straight along its visible section to a point slightly left of center near the horizon, and the Group of vehicles on the parallel road on the left is distributed along this road.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e011",
+        "video43_e004",
+        "video43_e009",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00012",
+      "statement": "In frame 0, the Gravel and desert terrain on both sides of the highway directly adjoins the left and right edges of the Two-lane highway, spreads toward both sides of the image, and extends into the distance toward the horizon.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e009",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00013",
+      "statement": "In frame 0, the Dry grass and shrubs on both sides of the highway are distributed over the Gravel and desert terrain on both sides of the highway on the image-left and image-right sides of the Two-lane highway, locally occluding the edge of the Parallel road on the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e010",
+        "video43_e009",
+        "video43_e004",
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00014",
+      "statement": "In frame 0, the Sunset sky is in the upper part of the effective image, and the Distant mountains on the horizon span the horizon, below the Sunset sky and at the far ends of the Two-lane highway and the Gravel and desert terrain on both sides of the highway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e006",
+        "video43_e007",
+        "video43_e004",
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a031",
+      "statement": "In frame 0, Vehicle A is in the right lane of the Two-lane highway; Vehicle B is in the left lane, above and to the image-left of Vehicle A and farther ahead along the road, while the Group of vehicles in the distance on the main road is closer to the highway's vanishing point.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002",
+        "video43_e003",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a033",
+      "statement": "In frame 0, the Distant mountains on the horizon are below the Sunset sky, and the peaks on the right are at the lower edge of the area of bright sunlight.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e006",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00026",
+      "statement": "In frame 0, the Two-lane highway is at the center of the image, with the Gravel and desert terrain on both sides of the highway and the Dry grass and shrubs on both sides of the highway distributed on the image-left and image-right sides of the road. The Parallel road on the image-left is on the image-left of the main highway, and the Group of vehicles on the parallel road on the left is distributed along that road.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e009",
+        "video43_e010",
+        "video43_e008",
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00016",
+      "statement": "In frame 22, Vehicle A is on the road surface of the right lane of the Two-lane highway, near the center of the lower part of the image; Vehicle B is on the road surface of the left lane, above and to the image-left of Vehicle A and farther ahead along the road, while the Group of vehicles in the distance on the main road is closer to the road's vanishing point.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002",
+        "video43_e003",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00017",
+      "statement": "In frame 22, the Two-lane highway contains two side-by-side lanes, one on the left and one on the right, extending continuously and straight from the center of the bottom edge of the effective image to a point slightly left of center near the horizon, with the two sides of the road converging toward the far end as distance increases.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00018",
+      "statement": "In frame 22, the Parallel road on the image-left is on the image-left of the Two-lane highway, with the Gravel and desert terrain on both sides of the highway separating the two roads; this road extends from slightly below the middle of the image-left edge toward the upper-right, converging generally straight along its visible section to a point slightly left of center near the horizon, and the Group of vehicles on the parallel road on the left is distributed along this road.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e011",
+        "video43_e004",
+        "video43_e009",
+        "video43_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00019",
+      "statement": "In frame 22, the Gravel and desert terrain on both sides of the highway directly adjoins the left and right edges of the Two-lane highway, spreads toward both sides of the image, and extends into the distance toward the horizon.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e009",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00020",
+      "statement": "In frame 22, the Dry grass and shrubs on both sides of the highway are distributed over the Gravel and desert terrain on both sides of the highway on the image-left and image-right sides of the Two-lane highway, locally occluding the edge of the Parallel road on the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e010",
+        "video43_e009",
+        "video43_e004",
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_restore00021",
+      "statement": "In frame 22, the Sunset sky is in the upper part of the effective image, and the Distant mountains on the horizon span the horizon, below the Sunset sky and at the far ends of the Two-lane highway and the Gravel and desert terrain on both sides of the highway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e006",
+        "video43_e007",
+        "video43_e004",
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a034",
+      "statement": "In frame 22, Vehicle A is in the right lane of the Two-lane highway; Vehicle B is in the left lane, above and to the image-left of Vehicle A and farther ahead along the road, while the Group of vehicles in the distance on the main road is closer to the highway's vanishing point.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002",
+        "video43_e003",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a036",
+      "statement": "In frame 22, the Distant mountains on the horizon are below the Sunset sky, and the peaks on the right are at the lower edge of the area of bright sunlight.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e006",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00027",
+      "statement": "In frame 22, the Two-lane highway is at the center of the image, with the Gravel and desert terrain on both sides of the highway and the Dry grass and shrubs on both sides of the highway distributed on the image-left and image-right sides of the road. The Parallel road on the image-left is on the image-left of the main highway, and the Group of vehicles on the parallel road on the left is distributed along that road.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e009",
+        "video43_e010",
+        "video43_e008",
+        "video43_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_a004",
+      "statement": "In frame 0, the camera is at a high position above the Two-lane highway and above and behind Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a004",
+      "statement": "In frame 0, the camera is at a high position above the Two-lane highway and above and behind Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_a005",
+      "statement": "In frame 22, the camera remains at a high position above the Two-lane highway and above and behind Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a005",
+      "statement": "In frame 22, the camera remains at a high position above the Two-lane highway and above and behind Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_a006",
+      "statement": "In frame 0, the camera faces the far end of the Two-lane highway and the Distant mountains on the horizon.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a006",
+      "statement": "In frame 0, the camera faces the far end of the Two-lane highway and the Distant mountains on the horizon.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_a007",
+      "statement": "In frame 22, the camera faces the far end of the Two-lane highway and the Distant mountains on the horizon.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a007",
+      "statement": "In frame 22, the camera faces the far end of the Two-lane highway and the Distant mountains on the horizon.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_r00001",
+      "statement": "From frames 0 to 22, the camera viewpoint remains essentially fixed, with no obvious horizontal translation or ascent or descent visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e009",
+        "video43_e010",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_r00001",
+      "statement": "From frames 0 to 22, the camera viewpoint remains essentially fixed, with no obvious horizontal translation or ascent or descent visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e009",
+        "video43_e010",
+        "video43_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp003_a008",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        21,
+        22
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video43_cp003_a008",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        21,
+        22
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video43_cp003_a037",
+      "statement": "From frames 0 to 22, Vehicle A travels along the right lane and Vehicle B along the left lane, both toward the road's vanishing point, with the rears of both vehicles facing the camera.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp003_a037",
+      "statement": "From frames 0 to 22, Vehicle A travels along the right lane and Vehicle B along the left lane, both toward the road's vanishing point, with the rears of both vehicles facing the camera.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    22
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "96298e688d2ba085e82d1499fd6a6549ea17dcdaf5f72a12f856730fda2520cf"
+}

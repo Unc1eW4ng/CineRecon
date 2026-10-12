@@ -1,0 +1,2187 @@
+{
+  "clip_id": "video45_cp007",
+  "video_id": "video45",
+  "fps": 30.0,
+  "start_frame": 0,
+  "end_frame": 31,
+  "source_frame_offset": 269,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video45_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 2,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "A first-person person, with only the hands and parts of the forearms visible, wearing purple patterned gloves and holding Weapon A."
+    },
+    {
+      "source_entity_id": "video45_e002",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The light-gold handgun held by Person A, with a relatively long rectangular slide on top."
+    },
+    {
+      "source_entity_id": "video45_e009",
+      "name": "white locker group beside the doorway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A row of off-white tall cabinets to the image-left of the wide doorway with a white frame, with large red lettering and black graffiti on the cabinet doors."
+    },
+    {
+      "source_entity_id": "video45_e010",
+      "name": "wide doorway with a white frame",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The wide rectangular opening leading from the locker room to the gray corridor, with a white frame."
+    },
+    {
+      "source_entity_id": "video45_e012",
+      "name": "rear wall with skull graffiti",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light-gray wall to the right of the distant inner doorway, with black skull graffiti and purple letter-shaped graffiti on it."
+    },
+    {
+      "source_entity_id": "video45_e022",
+      "name": "light-colored locker-room wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light-beige wall behind the cabinet group and around the doorway, with a dark baseboard along parts of the wall base."
+    },
+    {
+      "source_entity_id": "video45_e024",
+      "name": "indoor metal grid ceiling",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The ceiling above the corridor beyond the doorway, composed of gray grating and exposed beams."
+    },
+    {
+      "source_entity_id": "video45_e025",
+      "name": "long overhead light fixture",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The long, narrow white illuminated light fixture below the ceiling beyond the doorway."
+    },
+    {
+      "source_entity_id": "video45_e029",
+      "name": "black hanging rod",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark rod mounted horizontally on the wall on the left side of the locker room."
+    },
+    {
+      "source_entity_id": "video45_e031",
+      "name": "gray corridor floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray-blue floor beyond the doorway, with a yellow zigzag boundary and a rectangular cover plate."
+    },
+    {
+      "source_entity_id": "video45_e032",
+      "name": "vertically striped corridor side wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray, vertically striped wall on the right side of the corridor beyond the doorway, with a vertical pipe by the wall."
+    },
+    {
+      "source_entity_id": "video45_e033",
+      "name": "green arrow sign",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The green horizontal rectangular sign on the right corridor wall, with a white right-pointing arrow."
+    },
+    {
+      "source_entity_id": "video45_e037",
+      "name": "white muzzle smoke",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The white-gray cloud of smoke that appears in front of Weapon A's muzzle and above the doorway after firing."
+    },
+    {
+      "source_entity_id": "video45_e042",
+      "name": "group of people at the distant doorway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The source IDs jointly refer to two dark-clad people at the distant inner doorway, with the person on the image-left closer and the person on the right farther away."
+    },
+    {
+      "source_entity_id": "video45_e044",
+      "name": "scattered white papers in the corridor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The white, flat pieces of paper on the gray corridor floor beyond the doorway."
+    },
+    {
+      "source_entity_id": "video45_e046",
+      "name": "light-colored cylinder in the corridor side room",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light-colored upright cylindrical object inside the bright opening on the right side of the corridor."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video45_cp007_restore00011",
+      "statement": "In frame 0, the visible count of Person A's hands in the image is 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video45_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00012",
+      "statement": "In frame 0, the visible count of Weapon A is 1, with only an extremely small part of its front end protruding from the bottom edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "subject_ids": [
+        "video45_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00007",
+      "statement": "In frame 0, the white locker group beside the doorway is visible on the image-left.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00010",
+      "statement": "In frame 0, the wide doorway with a white frame is visible on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00013",
+      "statement": "In frame 0, the light-colored locker-room wall is visible above the lockers and around the doorframe.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00016",
+      "statement": "In frame 0, the gray corridor floor is visible in the lower area beyond the doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e031"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00019",
+      "statement": "In frame 0, the vertically striped corridor side wall is visible beyond the doorway and on the right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e032"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00022",
+      "statement": "In frame 0, the green arrow sign is visible on the wall on the image-right side of the corridor.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e033"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00025",
+      "statement": "In frame 0, the indoor metal grid ceiling is visible in the upper part of the image beyond the doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00028",
+      "statement": "In frame 0, the long overhead light fixture is visible in the upper part of the image beyond the doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00059",
+      "statement": "In frame 0, the scattered white papers in the corridor are visible on the gray floor beyond the doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e044"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00062",
+      "statement": "In frame 0, the black hanging rod is visible on the wall at the far left of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00082",
+      "statement": "In frame 13, the two dark-clad people in the group of people at the distant doorway are visible near the distant inner doorway, with one on the image-left closer and one on the right farther away.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e042"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00085",
+      "statement": "In frame 13, the rear wall with skull graffiti is visible on the rear wall to the image-right of the distant inner doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00026",
+      "statement": "In frame 31, both of Person A's hands and parts of the forearms are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00033",
+      "statement": "In frame 31, the white locker group beside the doorway is visible on the image-left.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00036",
+      "statement": "In frame 31, the wide doorway with a white frame is visible on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00039",
+      "statement": "In frame 31, the light-colored locker-room wall is visible above the lockers and around the doorframe.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00042",
+      "statement": "In frame 31, the gray corridor floor is visible in the lower area beyond the doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e031"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00045",
+      "statement": "In frame 31, the vertically striped corridor side wall is visible beyond the doorway and on the right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e032"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00048",
+      "statement": "In frame 31, the green arrow sign is visible on the wall on the image-right side of the corridor.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e033"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00051",
+      "statement": "In frame 31, the indoor metal grid ceiling is visible in the upper part of the image beyond the doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00054",
+      "statement": "In frame 31, the long overhead light fixture is visible in the upper part of the image beyond the doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00065",
+      "statement": "In frame 31, both of Person A's purple-gloved hands and parts of the forearms are visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00068",
+      "statement": "In frame 31, Weapon A is visible in the foreground in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00072",
+      "statement": "In frame 31, the white muzzle smoke is visible in the upper part inside the doorway and in front of Weapon A's muzzle.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e037",
+        "video45_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00075",
+      "statement": "In frame 31, the rear wall with skull graffiti is visible in a narrow strip on the image-left beyond the doorway.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00078",
+      "statement": "In frame 31, the light-colored cylinder in the corridor side room is visible inside the bright opening on the image-right side of the corridor.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e046"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00008",
+      "statement": "In frame 0, the white locker group beside the doorway is a row of off-white tall cabinets, with large red lettering and black graffiti respectively on the cabinet doors.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00009",
+      "statement": "In frame 0, the white locker group beside the doorway is a row of off-white tall cabinets, with large red lettering and black graffiti respectively on the cabinet doors; the door faces have vertical divisions, rectangular latch areas, and small dark holes at the top, and the lower edge of the cabinets is cropped by the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00011",
+      "statement": "In frame 0, the wide doorway with a white frame is the wide white doorframe on the image-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00012",
+      "statement": "In frame 0, the wide doorway with a white frame is the wide white doorframe on the image-right. Its relatively thick top edge and left vertical frame are visible, with some edges close to the image boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00014",
+      "statement": "In frame 0, the light-colored locker-room wall is light beige, with a relatively smooth main surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00015",
+      "statement": "In frame 0, the light-colored locker-room wall is light beige, with a relatively smooth main surface; there are localized warm-colored bright patches, a dark horizontal baseboard is visible at the wall base, and there is a vertical structural boundary on the left.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00017",
+      "statement": "In frame 0, the gray corridor floor is gray-blue, with a yellow zigzag boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e031"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00018",
+      "statement": "In frame 0, the gray corridor floor is gray-blue, with a yellow zigzag boundary. A dark-gray rectangular access cover, seams, and localized faint reflections are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e031"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00020",
+      "statement": "In frame 0, the vertically striped corridor side wall consists of gray vertically striped wall panels.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e032"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00021",
+      "statement": "In frame 0, the vertically striped corridor side wall consists of gray vertically striped wall panels. There is a dark border along the wall base, and the panel seams and outline of the vertical pipe are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e032"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00023",
+      "statement": "In frame 0, the green arrow sign is a green horizontal rectangle with a white right-pointing arrow.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e033"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00024",
+      "statement": "In frame 0, the green arrow sign is a green horizontal rectangle with a white right-pointing arrow; the arrow is on the right part of the sign face, and there is another blurry white symbol on the left part.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e033"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00026",
+      "statement": "In frame 0, the indoor metal grid ceiling has a dark-gray grid structure with exposed crossbeams.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00027",
+      "statement": "In frame 0, the indoor metal grid ceiling has a dark-gray grid structure with exposed crossbeams. Dense parallel grating and thick supports intersecting horizontally and vertically are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00029",
+      "statement": "In frame 0, the long overhead light fixture appears as a long, narrow white bright strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00030",
+      "statement": "In frame 0, the long overhead light fixture appears as a long, narrow white bright strip, with its bright face extending diagonally across the image and a darker, narrow elongated outline visible around it.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00060",
+      "statement": "In frame 0, the scattered white papers in the corridor appear as white, flat pieces of paper close to the floor.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e044"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00061",
+      "statement": "In frame 0, the scattered white papers in the corridor appear as white, flat pieces of paper close to the floor; their projection in the image is an angled quadrilateral, and the bright surface contrasts with the gray floor.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e044"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00063",
+      "statement": "In frame 0, only the end of the dark horizontal rod of the black hanging rod is exposed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00064",
+      "statement": "In frame 0, only the end of the dark horizontal rod of the black hanging rod is exposed. The rod end forms a long, narrow dark strip against the light-colored wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00083",
+      "statement": "In frame 13, both people in the group of people at the distant doorway wear dark clothing; the image projection of the person on the left is larger, and that of the person on the right is smaller.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e042"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00084",
+      "statement": "In frame 13, both people in the group of people at the distant doorway wear dark clothing; the image projection of the person on the left is larger, and that of the person on the right is smaller; the outlines of both people's heads and shoulders, torsos, and legs are discernible, and the person on the left has their legs apart.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e042"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00086",
+      "statement": "In frame 13, the rear wall with skull graffiti is light gray, with a black skull outline and purple graffiti on the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00087",
+      "statement": "In frame 13, the rear wall with skull graffiti is light gray, with a black skull outline and purple graffiti on the wall. The skull has dark eye sockets and a tooth-like lower edge, and the rounded purple lettering below has a dark outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00034",
+      "statement": "In frame 31, the white locker group beside the doorway is a row of off-white tall cabinets, with large red lettering and black graffiti respectively on the cabinet doors.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00035",
+      "statement": "In frame 31, the white locker group beside the doorway is a row of off-white tall cabinets, with large red lettering and black graffiti respectively on the cabinet doors; the door faces have vertical divisions, rectangular latch areas, and small dark holes at the top, and parts of short support feet are visible below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00037",
+      "statement": "In frame 31, the wide doorway with a white frame is the wide white doorframe on the image-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00038",
+      "statement": "In frame 31, the wide doorway with a white frame is the wide white doorframe on the image-right. Its relatively thick top edge and left vertical frame are visible, with some edges close to the image boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00040",
+      "statement": "In frame 31, the light-colored locker-room wall is light beige, with a relatively smooth main surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00041",
+      "statement": "In frame 31, the light-colored locker-room wall is light beige, with a relatively smooth main surface; there are localized warm-colored bright patches, a dark horizontal baseboard is visible at the wall base, and there is a vertical structural boundary on the left.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00043",
+      "statement": "In frame 31, the gray corridor floor is gray-blue, with a yellow zigzag boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e031"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00044",
+      "statement": "In frame 31, the gray corridor floor is gray-blue, with a yellow zigzag boundary; part of a dark-gray rectangular cover plate and its seams are visible, and the floor has faint reflections.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e031"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00046",
+      "statement": "In frame 31, the vertically striped corridor side wall consists of gray vertically striped wall panels.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e032"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00047",
+      "statement": "In frame 31, the vertically striped corridor side wall consists of gray vertically striped wall panels. There is a dark border along the wall base, and the panel seams and outline of the vertical pipe are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e032"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00049",
+      "statement": "In frame 31, the green arrow sign is a green horizontal rectangle with a white right-pointing arrow.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e033"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00050",
+      "statement": "In frame 31, the green arrow sign is a green horizontal rectangle with a white right-pointing arrow; the arrow is on the right part of the sign face, and there is another blurry white symbol on the left part.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e033"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00052",
+      "statement": "In frame 31, the indoor metal grid ceiling has a dark-gray grid structure with exposed crossbeams.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00053",
+      "statement": "In frame 31, the indoor metal grid ceiling has a dark-gray grid structure with exposed crossbeams; parallel grating and thicker intersecting supports are discernible in the portions not obscured by smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00055",
+      "statement": "In frame 31, the long overhead light fixture appears as a long, narrow white bright strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00056",
+      "statement": "In frame 31, the long overhead light fixture appears as a long, narrow white bright strip; its bright face is visible extending diagonally across the image, and parts of the surrounding edges are obscured by smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00066",
+      "statement": "In frame 31, Person A's hands are covered by purple gloves, and the exposed forearms are warm brown.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00067",
+      "statement": "In frame 31, Person A's hands are covered by purple gloves, and the exposed forearms are warm brown; the gloves have small light-colored patterns, and part of a dark wristband is visible along the wrist edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00069",
+      "statement": "In frame 31, Weapon A is a light-gold handgun with a relatively long rectangular slide on top, and most of the grip is obscured by Person A's hands.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e002",
+        "video45_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00070",
+      "statement": "In frame 31, Weapon A is a light-gold handgun with a relatively long rectangular slide on top, and most of the grip is obscured by Person A's hands; the upper edge of the slide, the dark rear sight component, and the raised and recessed contours on the side are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e002",
+        "video45_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00073",
+      "statement": "In frame 31, the white muzzle smoke appears as a white-gray translucent cloud of smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e037"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00074",
+      "statement": "In frame 31, the white muzzle smoke appears as a white-gray translucent cloud of smoke, with uneven density and feathered, spreading edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e037"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00076",
+      "statement": "In frame 31, only the light-gray wall surface and parts of the black and purple graffiti on the rear wall with skull graffiti are exposed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00077",
+      "statement": "In frame 31, only the light-gray wall surface and parts of the black and purple graffiti on the rear wall with skull graffiti are exposed. The graffiti is partially obscured by the doorframe and smoke, and only parts of its outline are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00079",
+      "statement": "In frame 31, the light-colored cylinder in the corridor side room appears as a light-colored upright cylinder.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e046"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00080",
+      "statement": "In frame 31, the light-colored cylinder in the corridor side room appears as a light-colored upright cylinder, with a darker elliptical edge at the top; the outline of the side wall is curved and has variations in light and dark.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e046"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00013",
+      "statement": "In frame 0, the white locker group beside the doorway occupies the image-left, and the wide doorway with a white frame is to the image-right of the locker group; the light-colored locker-room wall is behind the locker group and extends above the locker group and around the doorway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010",
+        "video45_e022"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00014",
+      "statement": "In frame 0, the wide doorway with a white frame leads to the corridor behind it; the gray corridor floor extends from the doorway toward the image-left rear, and the vertically striped corridor side wall defines the image-right boundary of the passage.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e010",
+        "video45_e031",
+        "video45_e032"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00015",
+      "statement": "In frame 0, the indoor metal grid ceiling is above the corridor beyond the wide doorway with a white frame, and the long overhead light fixture is below the ceiling.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e024",
+        "video45_e025",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00031",
+      "statement": "In frame 0, the white locker group beside the doorway is to the image-left of the wide doorway with a white frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00032",
+      "statement": "In frame 0, the gray corridor floor is beyond the wide doorway with a white frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e031",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00016",
+      "statement": "In frame 13, both people in the group of people at the distant doorway are near the distant inner doorway beyond the wide doorway with a white frame and are to the image-left of the rear wall with skull graffiti; the person on the left is closer, and the person on the right is farther away.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e042",
+        "video45_e012",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00017",
+      "statement": "In frame 13, one of Person A's hands and a forearm extend into the image from the lower right; Weapon A is connected to the hand and is mainly to the upper left of the hand in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e001",
+        "video45_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00088",
+      "statement": "In frame 13, both people in the group of people at the distant doorway are to the image-left of the rear wall with skull graffiti.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 13,
+      "end_frame": 13,
+      "evidence_frames": [
+        13
+      ],
+      "subject_ids": [
+        "video45_e042",
+        "video45_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00018",
+      "statement": "In frame 18, both of Person A's hands jointly hold Weapon A in the lower part of the image; Weapon A is in front of and above the hands, its muzzle points toward the upper left of the image, and its projection falls in the upper part inside the wide doorway with a white frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video45_e001",
+        "video45_e002",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00019",
+      "statement": "In frame 31, the white locker group beside the doorway occupies the image-left, and the wide doorway with a white frame is to the image-right of the locker group; the light-colored locker-room wall is behind the locker group and extends above the locker group and around the doorway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010",
+        "video45_e022"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00020",
+      "statement": "In frame 31, the wide doorway with a white frame leads to the corridor behind it; the gray corridor floor extends from the doorway toward the image-left rear, and the vertically striped corridor side wall defines the image-right boundary of the passage.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e010",
+        "video45_e031",
+        "video45_e032"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00021",
+      "statement": "In frame 31, the indoor metal grid ceiling is above the corridor beyond the wide doorway with a white frame, and the long overhead light fixture is below the ceiling.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e024",
+        "video45_e025",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00022",
+      "statement": "In frame 31, Weapon A is in front of and above both of Person A's hands; the two hands meet at the holding area of Weapon A, and Weapon A is oriented toward the corridor beyond the wide doorway with a white frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e001",
+        "video45_e002",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00023",
+      "statement": "In frame 31, the white muzzle smoke is distributed in front of Weapon A's muzzle and in the upper part inside the wide doorway with a white frame, obscuring part of the background beyond the doorway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e037",
+        "video45_e002",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00024",
+      "statement": "In frame 31, the rear wall with skull graffiti is partially visible along the image-left edge of the opening of the wide doorway with a white frame; the rest is blocked by the left edge of the doorway, and part of the visible area is additionally obscured by the white muzzle smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e012",
+        "video45_e010",
+        "video45_e037"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_restore00025",
+      "statement": "In frame 31, the light-colored cylinder in the corridor side room is beyond the wide doorway with a white frame, inside the side-room opening on the image-right side of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e046",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00057",
+      "statement": "In frame 31, the white locker group beside the doorway is to the image-left of the wide doorway with a white frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00058",
+      "statement": "In frame 31, the gray corridor floor is beyond the wide doorway with a white frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e031",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00071",
+      "statement": "In frame 31, Person A's hands meet near Weapon A's grip, and Weapon A is in front of and above both hands.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e001",
+        "video45_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00081",
+      "statement": "In frame 31, the white muzzle smoke covers the upper part of the opening of the wide doorway with a white frame and the adjacent area on the left in the image, obscuring part of the background.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e037",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_r00003",
+      "statement": "In frame 0, the camera is inside the locker room, in front of the white locker group beside the doorway.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00003",
+      "statement": "In frame 0, the camera is inside the locker room, in front of the white locker group beside the doorway.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_r00005",
+      "statement": "In frame 31, the camera is inside the locker room, in front of the wide doorway with a white frame.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00005",
+      "statement": "In frame 31, the camera is inside the locker room, in front of the wide doorway with a white frame.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_r00004",
+      "statement": "In frame 0, the camera's central viewing direction falls on the area of black graffiti on the right part of the white locker group beside the doorway, and the wide doorway with a white frame is on the image-right.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00004",
+      "statement": "In frame 0, the camera's central viewing direction falls on the area of black graffiti on the right part of the white locker group beside the doorway, and the wide doorway with a white frame is on the image-right.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_r00006",
+      "statement": "In frame 31, the camera's central viewing direction falls near the strip of wall between the right end of the white locker group beside the doorway and the left side of the wide doorway with a white frame, and the gray corridor beyond the doorway is in the right part of the image.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00006",
+      "statement": "In frame 31, the camera's central viewing direction falls near the strip of wall between the right end of the white locker group beside the doorway and the left side of the wide doorway with a white frame, and the gray corridor beyond the doorway is in the right part of the image.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 31,
+      "end_frame": 31,
+      "evidence_frames": [
+        31
+      ],
+      "subject_ids": [
+        "video45_e009",
+        "video45_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_r00001",
+      "statement": "From frames 0 through 15, the camera rotates to the right relative to its pose at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 15,
+      "evidence_frames": [
+        0,
+        8,
+        13,
+        14,
+        15
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video45_cp007_r00001",
+      "statement": "From frames 0 through 15, the camera rotates to the right relative to its pose at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 15,
+      "evidence_frames": [
+        0,
+        8,
+        13,
+        14,
+        15
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video45_cp007_r00002",
+      "statement": "From frames 15 through 25, the camera rotates to the left relative to its pose at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 15,
+      "end_frame": 25,
+      "evidence_frames": [
+        15,
+        18,
+        20,
+        25
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video45_cp007_r00002",
+      "statement": "From frames 15 through 25, the camera rotates to the left relative to its pose at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 15,
+      "end_frame": 25,
+      "evidence_frames": [
+        15,
+        18,
+        20,
+        25
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video45_cp007_a004",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 31,
+      "evidence_frames": [
+        0,
+        8,
+        13,
+        16,
+        18,
+        25,
+        31
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video45_cp007_a004",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 31,
+      "evidence_frames": [
+        0,
+        8,
+        13,
+        16,
+        18,
+        25,
+        31
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video45_cp007_r00089",
+      "statement": "From frames 10 through 16, the closer person on the image-left in the group of people at the distant doorway takes steps near the distant inner doorway, with the leg posture changing continuously; as the viewing angle changes, the person's body is gradually obscured by the left edge of the wide doorway with a white frame, and by frame 17 the separate silhouette is no longer discernible.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 10,
+      "end_frame": 17,
+      "evidence_frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "subject_ids": [
+        "video45_e042"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00089",
+      "statement": "From frames 10 through 16, the closer person on the image-left in the group of people at the distant doorway takes steps near the distant inner doorway, with the leg posture changing continuously; as the viewing angle changes, the person's body is gradually obscured by the left edge of the wide doorway with a white frame, and by frame 17 the separate silhouette is no longer discernible.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 10,
+      "end_frame": 17,
+      "evidence_frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "subject_ids": [
+        "video45_e042"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_r00090",
+      "statement": "From frames 0 through 16, Weapon A is gradually raised from the bottom edge of the image; Person A rotates Weapon A with their own right hand, after which both hands come together near the grip.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9,
+        12,
+        13,
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video45_e001",
+        "video45_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00090",
+      "statement": "From frames 0 through 16, Weapon A is gradually raised from the bottom edge of the image; Person A rotates Weapon A with their own right hand, after which both hands come together near the grip.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9,
+        12,
+        13,
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video45_e001",
+        "video45_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video45_cp007_r00091",
+      "statement": "From frames 16 through 18, a bright flash appears at the muzzle of Weapon A held by Person A, and the muzzle rises; in frame 19, the bright flash disappears, after which the white muzzle smoke spreads in front of the muzzle and above the doorway, while Weapon A gradually lowers, with the process continuing through frame 31.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 31,
+      "evidence_frames": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        25,
+        30,
+        31
+      ],
+      "subject_ids": [
+        "video45_e001",
+        "video45_e002",
+        "video45_e037"
+      ]
+    },
+    {
+      "item_key": "L3:video45_cp007_r00091",
+      "statement": "From frames 16 through 18, a bright flash appears at the muzzle of Weapon A held by Person A, and the muzzle rises; in frame 19, the bright flash disappears, after which the white muzzle smoke spreads in front of the muzzle and above the doorway, while Weapon A gradually lowers, with the process continuing through frame 31.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 31,
+      "evidence_frames": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        25,
+        30,
+        31
+      ],
+      "subject_ids": [
+        "video45_e001",
+        "video45_e002",
+        "video45_e037"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    13,
+    18,
+    29,
+    31
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "dc84edeb0b20468add4f73dc36415b61e4075c75a3f2df8d8d4596ff07179849"
+}

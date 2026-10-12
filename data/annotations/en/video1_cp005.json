@@ -1,0 +1,1331 @@
+{
+  "clip_id": "video1_cp005",
+  "video_id": "video1",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 46,
+  "source_frame_offset": 198,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video1_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A backward-leaning person with short black hair and dark glasses, wearing an open black long coat, a close-fitting dark top, black pants, and knee-high black boots, with harness straps around the waist and thighs."
+    },
+    {
+      "source_entity_id": "video1_e012",
+      "name": "rooftop surface",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The flat grayish-brown paved surface below Person B, with straight seams between slabs visible in places."
+    },
+    {
+      "source_entity_id": "video1_e013",
+      "name": "low rooftop wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The low, light gray-beige wall in the upper part of the image at the beginning, with straight edges, corners, and faces of differing lightness."
+    },
+    {
+      "source_entity_id": "video1_e015",
+      "name": "smoke",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The expanses of white-gray smoke behind Person B, uneven in density and with soft, diffuse edges."
+    },
+    {
+      "source_entity_id": "video1_e016",
+      "name": "distant city buildings",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray buildings revealed through gaps in the smoke in the later portion, some of which have repeated horizontal light and dark bands."
+    },
+    {
+      "source_entity_id": "video1_e017",
+      "name": "projectile",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The small dark projectile visible near the trajectory, appearing in the final portion as a blurry small dot separated from Person B's outline."
+    },
+    {
+      "source_entity_id": "video1_e018",
+      "name": "translucent ring-shaped disturbance",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray-green translucent ring-shaped ripples arranged along an airborne path near Person B's upper body, locally distorting the background and clothing outlines."
+    },
+    {
+      "source_entity_id": "video1_e019",
+      "name": "sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light gray, low-texture area of sky above the buildings in the later portion."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video1_cp005_restore00010",
+      "statement": "In frame 0, 1 Person B is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00011",
+      "statement": "The rooftop surface is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00012",
+      "statement": "The low rooftop wall is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_a003",
+      "statement": "Backward-leaning Person B is visible in the foreground in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00005",
+      "statement": "The gray rooftop surface is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00011",
+      "statement": "A light-colored low wall is visible in the upper part of the image in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00015",
+      "statement": "The translucent ring-shaped disturbance is visible in frame 36.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 36,
+      "end_frame": 36,
+      "evidence_frames": [
+        35,
+        36,
+        37
+      ],
+      "subject_ids": [
+        "video1_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00023",
+      "statement": "The translucent ring-shaped disturbance is visible near Person B's upper body in frame 36.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 36,
+      "end_frame": 36,
+      "evidence_frames": [
+        35,
+        36,
+        37
+      ],
+      "subject_ids": [
+        "video1_e018",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00018",
+      "statement": "The same Person B is visible in the image in frame 46, and the number of people is 1.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        36,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00019",
+      "statement": "1 projectile is visible in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00020",
+      "statement": "The rooftop surface is visible in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00021",
+      "statement": "Smoke is visible in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00022",
+      "statement": "Distant city buildings are visible in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00023",
+      "statement": "The sky is visible in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_a012",
+      "statement": "Person B, leaning backward with the body arched, is visible in the foreground in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00008",
+      "statement": "The gray rooftop surface is visible in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00014",
+      "statement": "A large expanse of white-gray smoke is visible in the background in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00017",
+      "statement": "Distant city buildings are visible through gaps in the smoke in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00020",
+      "statement": "A light gray sky is visible in the upper part of the image in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00026",
+      "statement": "A small projectile is visible nearby toward the image upper-left of Person B's upper body in frame 46.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e017",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00006",
+      "statement": "In frame 0, the ground is grayish-brown and paved with flat slabs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00007",
+      "statement": "In frame 0, the rooftop surface is grayish-brown and paved with flat slabs; straight seams between the slabs are visible, and the surface has mottled variations in lightness.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00012",
+      "statement": "In frame 0, the low wall is light gray-beige, with a straight top edge and a right-angled corner.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00013",
+      "statement": "In frame 0, the low wall is light gray-beige; its straight top edge forms a right-angle turn in the upper part of the image, one side of the wall face is darker, and there are light-colored patches on top.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00029",
+      "statement": "In frame 0, Person B wears an open black long coat, a close-fitting dark top, black pants, and knee-high black boots, with wide straps around the waist and thighs; short black hair is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00030",
+      "statement": "In frame 0, Person B wears an open black long coat, a close-fitting dark top, black pants, and knee-high black boots, and short black hair is visible; there is a wide belt with a bright rectangular buckle at the waist and wide harness straps around the thighs, large sections of the coat tails are curled upward, and the hands extend beyond the cuffs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00024",
+      "statement": "In frame 36, the translucent ring-shaped disturbance appears as continuous, repeating gray-green translucent ring-shaped ripples.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 36,
+      "end_frame": 36,
+      "evidence_frames": [
+        36
+      ],
+      "subject_ids": [
+        "video1_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00025",
+      "statement": "In frame 36, the translucent ring-shaped disturbance appears as continuous, repeating gray-green translucent ring-shaped ripples arranged horizontally near Person B's upper body; parts of the ring edges overlap the background and clothing outlines, creating visible distortion.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 36,
+      "end_frame": 36,
+      "evidence_frames": [
+        35,
+        36,
+        37
+      ],
+      "subject_ids": [
+        "video1_e018",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00009",
+      "statement": "In frame 46, the ground is grayish-brown and paved with flat slabs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00010",
+      "statement": "In frame 46, the rooftop surface is grayish-brown and paved with flat slabs, and some straight seams between the slabs remain visible; fine surface texture is unclear because of blur.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00015",
+      "statement": "In frame 46, the white-gray smoke appears as a large expanse of translucent clouds.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00016",
+      "statement": "In frame 46, the smoke appears as a large expanse of white-gray translucent clouds, uneven in density and with soft, diffuse edges; the distant city buildings can be seen through thinner areas, while denser areas occlude parts of the buildings.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e015",
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00018",
+      "statement": "In frame 46, the buildings have gray rectangular outlines, and the image is relatively blurred.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00019",
+      "statement": "In frame 46, the distant city buildings have gray rectangular outlines, and the image is relatively blurred; repeated horizontal light and dark bands can be discerned on the buildings in the upper-left portion, and some edges are occluded by smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e016",
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00021",
+      "statement": "In frame 46, the sky is light gray.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00022",
+      "statement": "In frame 46, the sky is light gray; the visible area is relatively uniform in color and lacks clear texture, and its boundary with the smoke area is relatively indistinct.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00027",
+      "statement": "In frame 46, the projectile is very small and has a dark, dot-like outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00028",
+      "statement": "In frame 46, the projectile has a very small, dark, slightly oval, dot-like outline, with blurred edges and no discernible surface details.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00031",
+      "statement": "In frame 46, Person B wears an open black long coat, a close-fitting dark top, black pants, and knee-high black boots; the wide belt and thigh harness straps are visible, the boot shafts are visible, and the feet are cut off by the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00032",
+      "statement": "In frame 46, Person B wears an open black long coat, a close-fitting dark top, black pants, and knee-high black boots, and the wide belt and thigh harness straps are visible; the belt has a rectangular buckle, multiple horizontal straps and buckles are visible on the boot shaft on the image-left side, the boot shaft on the image-right side has a light-colored marking, the inside of the coat tails forms long folds, both hands are open, and the feet are cut off by the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00013",
+      "statement": "In frame 0, Person B is slightly left of the center of the image, with the body leaning backward and close above the rooftop surface, the head located to the image-left of the hips, both legs bent toward the image lower-right of the torso, and one arm extended toward the top edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00014",
+      "statement": "In frame 0, the low rooftop wall is behind Person B in the upper part of the image and adjoins the rooftop surface; the rooftop surface extends from below Person B outward in all directions and toward the bottom edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e013",
+        "video1_e002",
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00034",
+      "statement": "In frame 0, Person B's body is close above the rooftop surface, and the tails of the long coat are curled upward extensively behind and below Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00016",
+      "statement": "In frame 36, the translucent ring-shaped disturbance is near Person B's upper body, partially overlaps the upper-body outline, and extends horizontally toward the image-right edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 36,
+      "end_frame": 36,
+      "evidence_frames": [
+        35,
+        36,
+        37
+      ],
+      "subject_ids": [
+        "video1_e018",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00017",
+      "statement": "In frame 36, Person B's feet are apart and in contact with the rooftop surface, the bent legs support the backward-leaning torso, the chest and abdomen face upward, and the back is suspended above the ground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 36,
+      "end_frame": 36,
+      "evidence_frames": [
+        35,
+        36,
+        37
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00024",
+      "statement": "In frame 46, Person B occupies the lower-middle part of the image, with the upper body leaning backward and both legs apart and cut off by the bottom edge of the image; one arm extends toward the image-left, the other arm extends upward in the image, and most of the head is occluded by the torso.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00025",
+      "statement": "In frame 46, Person B is in front of the smoke and occludes part of the background behind; the smoke is in front of the distant city buildings and occludes parts of them, the buildings are revealed through gaps in the smoke in the upper-left part of the image, and the sky is above the buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e015",
+        "video1_e016",
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_restore00026",
+      "statement": "In frame 46, the projectile is nearby toward the image upper-left of Person B's upper body, with a visible gap between it and Person B's upper body.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e017",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00035",
+      "statement": "In frame 46, Person B is in front of the white-gray smoke, with the body occluding part of the background behind; the distant city buildings are partially revealed through gaps in the smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e015",
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00036",
+      "statement": "In frame 46, the small projectile is nearby toward the image upper-left of Person B's upper body, with a visible gap between it and the upper body.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e017",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_r00004",
+      "statement": "In frame 0, the camera is at close range, above and diagonally in front of Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00004",
+      "statement": "In frame 0, the camera is at close range, above and diagonally in front of Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_r00003",
+      "statement": "In frame 46, the camera is at a relatively low position in front of Person B's legs, viewing the waist, abdomen, and backward-leaning torso at close range.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        36,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00003",
+      "statement": "In frame 46, the camera is at a relatively low position in front of Person B's legs, viewing the waist, abdomen, and backward-leaning torso at close range.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        36,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_a002",
+      "statement": "In frame 0, the camera is directed toward Person B's backward-leaning upper body and raised arm.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_a002",
+      "statement": "In frame 0, the camera is directed toward Person B's backward-leaning upper body and raised arm.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_a011",
+      "statement": "In frame 46, the camera is directed toward Person B's backward-leaning, arched torso and outstretched arms.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_a011",
+      "statement": "In frame 46, the camera is directed toward Person B's backward-leaning, arched torso and outstretched arms.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_r00001",
+      "statement": "From frames 0 through 46, the camera moves along an arc from above and diagonally in front of Person B toward the front of Person B's legs, while lowering its position.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012",
+        "video1_e013",
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00001",
+      "statement": "From frames 0 through 46, the camera moves along an arc from above and diagonally in front of Person B toward the front of Person B's legs, while lowering its position.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012",
+        "video1_e013",
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_r00002",
+      "statement": "From frames 0 through 46, the camera pans left while moving around Person B and gradually reduces its downward viewing angle, remaining directed toward Person B's backward-leaning torso.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012",
+        "video1_e013",
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00002",
+      "statement": "From frames 0 through 46, the camera pans left while moving around Person B and gradually reduces its downward viewing angle, remaining directed toward Person B's backward-leaning torso.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012",
+        "video1_e013",
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_a025",
+      "statement": "Frames 0 through 46 form a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        46
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video1_cp005_a025",
+      "statement": "Frames 0 through 46 form a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        46
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video1_cp005_r00033",
+      "statement": "From frames 12 through 46, the projectile passes close by Person B's upper body, accompanied during the process by a translucent ring-shaped disturbance arranged along its airborne path; in the later portion, the ring-shaped ripples gradually move toward the image-right edge and are no longer clear in frames 45 through 46, at which time the projectile is visible above and to the image-left of Person B's upper body.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 12,
+      "end_frame": 46,
+      "evidence_frames": [
+        10,
+        11,
+        12,
+        13,
+        23,
+        24,
+        35,
+        36,
+        37,
+        41,
+        42,
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e017",
+        "video1_e018",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_r00033",
+      "statement": "From frames 12 through 46, the projectile passes close by Person B's upper body, accompanied during the process by a translucent ring-shaped disturbance arranged along its airborne path; in the later portion, the ring-shaped ripples gradually move toward the image-right edge and are no longer clear in frames 45 through 46, at which time the projectile is visible above and to the image-left of Person B's upper body.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 46,
+      "evidence_frames": [
+        10,
+        11,
+        12,
+        13,
+        23,
+        24,
+        35,
+        36,
+        37,
+        41,
+        42,
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e017",
+        "video1_e018",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp005_a024",
+      "statement": "From frames 0 through 46, Person B continues leaning backward with the torso arched; the arm that was initially near the coat tails gradually extends out to the side of the body and opens its hand, while the other arm remains extended upward in the image.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        1,
+        12,
+        23,
+        24,
+        35,
+        36,
+        37,
+        41,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp005_a024",
+      "statement": "From frames 0 through 46, Person B continues leaning backward with the torso arched; the arm that was initially near the coat tails gradually extends out to the side of the body and opens its hand, while the other arm remains extended upward in the image.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        1,
+        12,
+        23,
+        24,
+        35,
+        36,
+        37,
+        41,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    36,
+    46
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "9753f03058802602aabde81dae90ca192e2f5a27922ffa7f2c7e302e99ec27eb"
+}

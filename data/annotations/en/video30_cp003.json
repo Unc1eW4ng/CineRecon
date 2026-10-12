@@ -1,0 +1,2866 @@
+{
+  "clip_id": "video30_cp003",
+  "video_id": "video30",
+  "fps": 59.94005994005994,
+  "start_frame": 0,
+  "end_frame": 65,
+  "source_frame_offset": 145,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video30_e001",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "Dark blue open-wheel race car; the nose, front wheels, and suspension are visible in the first segment, and the cockpit and protective frame with a central pillar are visible after the cut."
+    },
+    {
+      "source_entity_id": "video30_e002",
+      "name": "gray paved racetrack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The broad gray paved surface ahead of Vehicle A, curving to the right, with a gentler curve in the later segment."
+    },
+    {
+      "source_entity_id": "video30_e004",
+      "name": "light blue sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light blue sky above the trees and racetrack facilities."
+    },
+    {
+      "source_entity_id": "video30_e005",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 19,
+      "identification": "The person in Vehicle A's driving position; only both hands wearing dark blue gloves and parts of the forearms are visible."
+    },
+    {
+      "source_entity_id": "video30_e006",
+      "name": "multi-button steering wheel",
+      "numbered": false,
+      "first_appearance_frame": 19,
+      "identification": "The black irregularly shaped steering wheel held by Person A, with colored buttons, circular knobs, and a silver-gray concave curved upper edge."
+    },
+    {
+      "source_entity_id": "video30_e008",
+      "name": "red-and-white curb",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The narrow, segmented off-white and pale red paved strip at the right edge of the road surface."
+    },
+    {
+      "source_entity_id": "video30_e009",
+      "name": "grass beside the racetrack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The low green grass strips and lawns outside the road."
+    },
+    {
+      "source_entity_id": "video30_e010",
+      "name": "trees beside the racetrack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The clusters and rows of green trees around the outside of the road."
+    },
+    {
+      "source_entity_id": "video30_e011",
+      "name": "racetrack safety barrier",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous low walls and protective sections around the outside of the road; the right side is mainly a light-colored wall, while the left side has a green advertising surface and a distant orange area."
+    },
+    {
+      "source_entity_id": "video30_e012",
+      "name": "racetrack metal mesh fence",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The fence around the outside of the road, composed of gray-black vertical posts, horizontal connecting lines, and fine mesh."
+    },
+    {
+      "source_entity_id": "video30_e015",
+      "name": "cross-track gantry",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The long, dark green gantry in the distance ahead and to the right, partially overlapping the nearer mesh fence."
+    },
+    {
+      "source_entity_id": "video30_e016",
+      "name": "racetrack sign",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The set of green rectangular advertising surfaces and upright rectangular large screens beside the road."
+    },
+    {
+      "source_entity_id": "video30_e021",
+      "name": "cockpit instrument display",
+      "numbered": false,
+      "first_appearance_frame": 19,
+      "identification": "The fixed black rectangular digital display above and behind the multi-button steering wheel, with indicator lights along its upper edge."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video30_cp003_restore00014",
+      "statement": "At frame 0, the front of Vehicle A is visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00018",
+      "statement": "At frame 0, a group of trees beside the road is visible in the distant view outside the road.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00020",
+      "statement": "At frame 0, a group of signs beside the road is visible in the distant view on the image-left, beyond the racetrack.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_a012",
+      "statement": "At frame 0, Vehicle A's dark blue pointed nose, two black front wheels, and black suspension occupy the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00002",
+      "statement": "At frame 0, the gray paved racetrack is visible ahead of Vehicle A in the middle-lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00005",
+      "statement": "At frame 0, the light blue sky occupies a large area in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00008",
+      "statement": "At frame 0, the red-and-white curb is at the inner edge of the racetrack on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00011",
+      "statement": "At frame 0, grass beside the racetrack is distributed on both sides of the racetrack.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00014",
+      "statement": "At frame 0, trees beside the racetrack are distributed in the distant view outside the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00017",
+      "statement": "At frame 0, the racetrack safety barrier extends along both sides of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00020",
+      "statement": "At frame 0, the racetrack metal mesh fence extends along the outside of the road and is taller on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00023",
+      "statement": "At frame 0, the racetrack sign is in the distant view on the image-left.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00071",
+      "statement": "At frame 19, Vehicle A's dark blue cockpit and black front wheels are in the lower part of the image, and a dark arched protective frame spans the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00074",
+      "statement": "At frame 19, Person A's two hands wearing blue gloves and parts of the forearms are in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        18,
+        19,
+        20
+      ],
+      "subject_ids": [
+        "video30_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00077",
+      "statement": "At frame 19, the multi-button steering wheel is in the lower center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00080",
+      "statement": "At frame 19, the cockpit instrument display is visible above and behind the steering wheel.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e021",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00085",
+      "statement": "At frame 19, the gray paved racetrack is visible ahead of Vehicle A, above the cockpit, and on both sides of the front wheels.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00088",
+      "statement": "At frame 19, the light blue sky is visible in the openings below the crossbar of Vehicle A's protective frame and on both sides of the central pillar.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00091",
+      "statement": "At frame 19, the red-and-white curb is at the inner edge of the racetrack on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00094",
+      "statement": "At frame 19, grass beside the racetrack is distributed on both sides of the racetrack.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00097",
+      "statement": "At frame 19, trees beside the racetrack are distributed in the distant view outside the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00100",
+      "statement": "At frame 19, the racetrack safety barrier extends along both sides of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00103",
+      "statement": "At frame 19, the racetrack metal mesh fence extends along the outside of the road and is taller on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00106",
+      "statement": "At frame 19, the racetrack sign is in the distant view on the image-left.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00030",
+      "statement": "At frame 65, a group of trees beside the road is visible around the outside of the road and in the distant view.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00032",
+      "statement": "At frame 65, a group of signs beside the road is visible beside the racetrack.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00028",
+      "statement": "At frame 65, Vehicle A's dark blue cockpit and black front wheels are in the lower part of the image, and a dark arched protective frame spans the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00031",
+      "statement": "At frame 65, Person A's two hands wearing blue gloves and parts of the forearms are in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00034",
+      "statement": "At frame 65, the multi-button steering wheel is in the lower center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00037",
+      "statement": "At frame 65, the cockpit instrument display is visible above and behind the steering wheel.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e021",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00042",
+      "statement": "At frame 65, the gray paved racetrack is visible ahead of Vehicle A, above the cockpit, and on both sides of the front wheels.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00045",
+      "statement": "At frame 65, the light blue sky is visible in the openings below the crossbar of Vehicle A's protective frame and on both sides of the central pillar.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00048",
+      "statement": "At frame 65, grass beside the racetrack is distributed outside the visible racetrack surface.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00051",
+      "statement": "At frame 65, trees beside the racetrack are around the outside of the road and in the distant view.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00054",
+      "statement": "At frame 65, the racetrack safety barrier is around the outside of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00057",
+      "statement": "At frame 65, the racetrack metal mesh fence is arranged along the outside of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00060",
+      "statement": "At frame 65, racetrack signs are distributed beside the racetrack.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00063",
+      "statement": "At frame 65, the red-and-white curb is at the road edge on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00066",
+      "statement": "At frame 65, the cross-track gantry spans above the racetrack in the distance on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        64,
+        65
+      ],
+      "subject_ids": [
+        "video30_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_a013",
+      "statement": "At frame 0, Vehicle A is a dark blue open-wheel race car with a long pointed nose, black exposed front wheels, and black front suspension visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00001",
+      "statement": "At frame 0, Vehicle A is a dark blue open-wheel race car with a long pointed nose, black exposed front wheels, and black front suspension visible; the sidewalls of the front tires have thin red rings, the nose has a light blue V-shaped decorative stripe and a slender central black rod, the curved components above the front wheels have a woven texture, and the outlines of the transverse suspension rods are clear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00003",
+      "statement": "At frame 0, the gray paved racetrack appears as a broad gray road surface, converging from the middle-lower part of the image toward the distance right of center, and is a right-hand curve in Vehicle A's direction of travel.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00004",
+      "statement": "At frame 0, the gray paved racetrack appears as a broad gray road surface, converging from the middle-lower part of the image toward the distance right of center, and is a right-hand curve in Vehicle A's direction of travel; the road surface has dark traces following the curve, the off-white and pale red curb on the right forms an arc along the grass, and beyond the grass are a light-colored wall and a tall mesh fence.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e008",
+        "video30_e009",
+        "video30_e011",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00006",
+      "statement": "At frame 0, the sky is light blue, with a paler color near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00007",
+      "statement": "At frame 0, the sky is light blue, with a paler color near the horizon and thin, light-colored cloud layers with soft edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00009",
+      "statement": "At frame 0, the red-and-white curb appears as a narrow strip of alternating red and white.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00010",
+      "statement": "At frame 0, the red-and-white curb appears as a narrow strip of alternating red and white; the segmented color blocks are arranged continuously along the right-hand curve, wide nearby and gradually narrowing into the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00012",
+      "statement": "At frame 0, grass beside the racetrack appears as low green grass strips and lawns.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00013",
+      "statement": "At frame 0, grass beside the racetrack appears as low green grass strips and lawns; the grass surface has variations in lightness, and the grass on the right converges into the distance along the inner edge of the curve.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00015",
+      "statement": "At frame 0, the crowns of the trees beside the racetrack are green and rounded or irregular in shape.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00016",
+      "statement": "At frame 0, the crowns of the trees beside the racetrack are green and rounded or irregular in shape; the crowns vary in height, and some slender trunks and gaps between the crowns are clear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00018",
+      "statement": "At frame 0, the racetrack safety barrier appears as a continuous low wall; the wall on the right is light gray-white, and part of the wall on the left is covered by a green advertising surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00019",
+      "statement": "At frame 0, the racetrack safety barrier is a light-colored continuous low wall; the wall on the right projects higher in the image, and part of the wall on the left has a green advertising surface attached.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00021",
+      "statement": "At frame 0, the racetrack metal mesh fence consists of gray-black vertical posts and metal mesh.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00022",
+      "statement": "At frame 0, the racetrack metal mesh fence consists of gray-black vertical posts and metal mesh; the vertical posts are regularly spaced, and a fine grid and multiple horizontal lines are visible on the mesh.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00024",
+      "statement": "At frame 0, the racetrack signs appear as green rectangular advertising boards and upright rectangular large screens.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00025",
+      "statement": "At frame 0, the racetrack signs appear as green rectangular advertising boards and upright rectangular large screens; the green board surfaces have light-colored markings, and the large screens have thin frames and supports.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00072",
+      "statement": "At frame 19, Vehicle A has a dark blue open cockpit, black front wheels, and a dark arched protective frame with a central pillar.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00073",
+      "statement": "At frame 19, Vehicle A has a dark blue open cockpit, black front wheels, and a dark arched protective frame with a central pillar; the blue upper edges on both sides of the cockpit have bright zigzag lines, the curved components above the front wheels have a woven texture, and there is white printed text at the center of the protective frame's crossbar.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00075",
+      "statement": "At frame 19, both of Person A's hands wear dark blue gloves, and the cuffs and forearm fabric with light blue areas are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00076",
+      "statement": "At frame 19, both of Person A's hands wear dark blue gloves, and the cuffs and forearm fabric with light blue areas are visible; the backs of the hands have white printed text, fine fabric texture and light-colored stitching are visible on the gloves, and light blue and silver-gray areas are visible on the sleeve surface on the image-left.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00078",
+      "statement": "At frame 19, the multi-button steering wheel has a black irregular outline and is tilted clockwise relative to the centered position, with the grip on the image-left higher than the grip on the image-right; multiple colored buttons and circular knobs are visible, and the upper edge is a concave curved edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00079",
+      "statement": "At frame 19, the multi-button steering wheel has a black irregular outline and is tilted clockwise relative to the centered position, with the grip on the image-left higher than the grip on the image-right; multiple colored buttons and circular knobs are visible, and the upper edge is a concave curved edge; the panel has red, yellow, green, blue, and purple controls and white characters, there is a circular graduated knob in the center, the upper edge has a silver-gray curved rim, and there are small blue controls near the grips.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00081",
+      "statement": "At frame 19, the cockpit instrument display is a black rectangular screen fixed at the center of the cockpit.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19,
+        20
+      ],
+      "subject_ids": [
+        "video30_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00082",
+      "statement": "At frame 19, the cockpit instrument display is a black rectangular screen fixed at the center of the cockpit; the screen contains small light-colored characters and colored bars below, and the large central numeral is \"4\".",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00086",
+      "statement": "At frame 19, the gray paved racetrack appears as a broad gray road surface, extending from the areas visible on both sides of Vehicle A and above the cockpit toward the distance right of center, and remains a right-hand curve in Vehicle A's direction of travel.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00087",
+      "statement": "At frame 19, the gray paved racetrack appears as a broad gray road surface, extending from the areas visible on both sides of Vehicle A and above the cockpit toward the distance right of center, and remains a right-hand curve in Vehicle A's direction of travel; the off-white curb on the right forms an arc, grass, a light-colored wall, and a tall mesh fence are visible in that order beyond the curb on the inside of the curve, and the mesh fence's vertical posts become denser into the distance in perspective.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e008",
+        "video30_e009",
+        "video30_e011",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00089",
+      "statement": "At frame 19, the sky is light blue, with a paler color near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00090",
+      "statement": "At frame 19, the sky is light blue, and the area near the horizon is paler, forming a soft brightness gradient.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00092",
+      "statement": "At frame 19, the red-and-white curb appears as a narrow strip of alternating red and white.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00093",
+      "statement": "At frame 19, the red-and-white curb appears as a narrow strip alternating between off-white and pale red; the visible portion extends along the right-hand curve and narrows into the distance, and a nearby section is occluded by Vehicle A's right front wheel.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00095",
+      "statement": "At frame 19, grass beside the racetrack appears as low green grass strips and lawns.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00096",
+      "statement": "At frame 19, grass beside the racetrack appears as low green grass strips and lawns; the grass surface has variations in lightness, and the grass on the right converges into the distance along the inner edge of the curve.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00098",
+      "statement": "At frame 19, the crowns of the trees beside the racetrack are green and rounded or irregular in shape.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00099",
+      "statement": "At frame 19, the crowns of the trees beside the racetrack are green and rounded or irregular in shape; the crowns vary in height, and some slender trunks and gaps between the crowns are clear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00101",
+      "statement": "At frame 19, the racetrack safety barrier appears as a continuous low wall; the wall on the right is light gray-white, and part of the wall on the left is covered by a green advertising surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00102",
+      "statement": "At frame 19, the racetrack safety barrier is a light-colored continuous low wall; the wall on the right projects higher in the image, and part of the wall on the left has a green advertising surface attached.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00104",
+      "statement": "At frame 19, the racetrack metal mesh fence consists of gray-black vertical posts and metal mesh.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00105",
+      "statement": "At frame 19, the racetrack metal mesh fence consists of gray-black vertical posts and metal mesh; the vertical posts are regularly spaced, and a fine grid and multiple horizontal lines are visible on the mesh.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00107",
+      "statement": "At frame 19, the racetrack signs appear as green rectangular advertising boards and upright rectangular large screens.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00108",
+      "statement": "At frame 19, the racetrack signs appear as green rectangular advertising boards and upright rectangular large screens; the green board surfaces have light-colored markings, and the large screens have thin frames and supports.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00029",
+      "statement": "At frame 65, Vehicle A has a dark blue open cockpit, black front wheels, and a dark arched protective frame with a central pillar.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00030",
+      "statement": "At frame 65, Vehicle A has a dark blue open cockpit, black front wheels, and a dark arched protective frame with a central pillar; the blue upper edges on both sides of the cockpit have bright zigzag lines, the curved components above the front wheels have a woven texture, and there is white printed text at the center of the protective frame's crossbar.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00032",
+      "statement": "At frame 65, both of Person A's hands wear dark blue gloves, and the cuffs and forearm fabric with light blue areas are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00033",
+      "statement": "At frame 65, both of Person A's hands wear dark blue gloves, and the cuffs and forearm fabric with light blue areas are visible; the backs of the hands have white printed text, the gloves have fine fabric texture and light-colored stitching, and light blue and silver-gray areas are visible on the sleeve surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00035",
+      "statement": "At frame 65, the multi-button steering wheel has a black irregular outline, with the left and right grips nearly level; multiple colored buttons and circular knobs are visible, and the upper edge is a concave curved edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00036",
+      "statement": "At frame 65, the multi-button steering wheel has a black irregular outline, with the left and right grips nearly level; multiple colored buttons and circular knobs are visible, and the upper edge is a concave curved edge; the panel has red, yellow, green, blue, and purple controls and white characters, there is a circular graduated knob in the center, the upper edge has a silver-gray curved rim, and there are small blue controls near the grips.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00038",
+      "statement": "At frame 65, the cockpit instrument display is a black rectangular screen fixed at the center of the cockpit.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        64,
+        65
+      ],
+      "subject_ids": [
+        "video30_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00039",
+      "statement": "At frame 65, the cockpit instrument display is a black rectangular screen fixed at the center of the cockpit; the screen contains small light-colored characters and colored bars below, and the large central numeral is \"5\".",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00043",
+      "statement": "At frame 65, the gray paved racetrack appears as a broad gray road surface, extending from above Vehicle A's cockpit and both sides of the front wheels toward the distance right of center; in Vehicle A's direction of travel, it is a gentler right-hand curve, and the road section can be seen becoming straight in the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00044",
+      "statement": "At frame 65, the gray paved racetrack appears as a broad gray road surface, extending from above Vehicle A's cockpit and both sides of the front wheels toward the distance right of center; in Vehicle A's direction of travel, it is a gentler right-hand curve, and the road section can be seen becoming straight in the distance; the curb on the right narrows into the distance, and outside the curb are a grass strip, a light-colored wall, and a tall mesh fence in that order, while the nearby road surface is occluded by Vehicle A's body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e008",
+        "video30_e009",
+        "video30_e011",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00046",
+      "statement": "At frame 65, the sky is light blue, with a paler color near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00047",
+      "statement": "At frame 65, the sky is light blue, and the area near the horizon is paler, forming a soft brightness gradient.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00049",
+      "statement": "At frame 65, grass beside the racetrack appears as a low green grass strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00050",
+      "statement": "At frame 65, grass beside the racetrack appears as a low green grass strip; the boundary of the grass extends in an arc with the road, and the surface has variations in lightness.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00052",
+      "statement": "At frame 65, trees beside the racetrack appear as green crowns and clustered rows of trees.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00053",
+      "statement": "At frame 65, trees beside the racetrack appear as green crowns and clustered rows of trees; the outer edges of the crowns are uneven, and trunks and gaps between the crowns are locally visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00055",
+      "statement": "At frame 65, the racetrack safety barrier is mainly a continuous light-colored low wall, with some protective sections on the left appearing green and an orange area in the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00056",
+      "statement": "At frame 65, the racetrack safety barrier mainly appears as a continuous light-colored low wall with straight boundaries between wall sections; green advertising surfaces and an orange area are visible on some protective sections on the left.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00058",
+      "statement": "At frame 65, the racetrack metal mesh fence consists of regularly spaced gray-black vertical posts and metal mesh.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00059",
+      "statement": "At frame 65, the racetrack metal mesh fence consists of regularly spaced gray-black vertical posts and metal mesh; the grid and horizontal connecting lines are discernible, and the vertical posts gradually become denser into the distance in the image perspective.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00061",
+      "statement": "At frame 65, the racetrack signs appear as rectangular signs and long advertising surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00062",
+      "statement": "At frame 65, the racetrack signs appear as rectangular signs and long advertising surfaces; green board surfaces with light-colored text or markings are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        64,
+        65
+      ],
+      "subject_ids": [
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00064",
+      "statement": "At frame 65, the red-and-white curb appears as a segmented strip of off-white and pale red.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00065",
+      "statement": "At frame 65, the red-and-white curb appears as a narrow segmented strip of off-white and pale red; the visible portion converges into the distance along the road edge on the right, and a nearby section is occluded by Vehicle A's right front wheel.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00067",
+      "statement": "At frame 65, the cross-track gantry appears as a slender dark green crossbeam.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00068",
+      "statement": "At frame 65, the cross-track gantry appears as a slender dark green crossbeam extending approximately horizontally; the crossbeam is partially occluded by the nearer vertical posts of the racetrack metal mesh fence, parts of the distant view below it are occluded by the racetrack safety barrier and Vehicle A's front wheel, and the complete shape of its supports is indiscernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        64,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e011",
+        "video30_e012",
+        "video30_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00015",
+      "statement": "At frame 0, the gray paved racetrack is ahead of Vehicle A, with its nearby portion occluded by Vehicle A; the visible road surface extends continuously from the middle-lower part of the image toward the distance right of center and curves to the right in Vehicle A's direction of travel.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00016",
+      "statement": "At frame 0, the sky area is above the distant ground scenery and occupies the upper part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00017",
+      "statement": "At frame 0, the curb is between the racetrack surface and the grass area beside the road on the image-right; the grass areas beside the road are distributed on both sides of the road surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e002",
+        "video30_e008",
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00019",
+      "statement": "At frame 0, the walls beside the road extend along both sides of the road, outside the grass areas; the outer fence is around the outside of the road, and the fence on the image-right is above the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e009",
+        "video30_e011",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00026",
+      "statement": "At frame 0, Vehicle A is in the foreground, the gray paved racetrack is ahead of Vehicle A, and the light blue sky is above the distant ground scenery.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00027",
+      "statement": "At frame 0, grass beside the racetrack is beyond the edge of the gray paved racetrack, and the racetrack metal mesh fence is farther outside the road surface.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e002",
+        "video30_e009",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00021",
+      "statement": "At frame 19, Vehicle A's cockpit occupies the lower part and both sides of the image; Vehicle A's protective frame spans the upper part of the image, and its central pillar occludes the distant view.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00022",
+      "statement": "At frame 19, Person A's two hands and parts of the forearms are visible inside Vehicle A's cockpit, with the two hands respectively holding both sides of the multi-button steering wheel; the steering wheel is in the lower center of the image, and the grip point on the image-left is visibly higher than that on the image-right.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e005",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00023",
+      "statement": "At frame 19, the gray paved racetrack is ahead of Vehicle A, with its nearby portion occluded by Vehicle A; the road surface visible on both sides of the vehicle body extends continuously toward the distance right of center and curves to the right in Vehicle A's direction of travel.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00083",
+      "statement": "At frame 19, the cockpit instrument display is above and behind the multi-button steering wheel, and the left and lower-left portions of the screen are occluded by the tilted rim of the steering wheel.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19,
+        20
+      ],
+      "subject_ids": [
+        "video30_e021",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00084",
+      "statement": "At frame 19, Person A's two hands respectively hold the grips on both sides of the multi-button steering wheel, and the multi-button steering wheel is at the center of Vehicle A's cockpit.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e005",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00109",
+      "statement": "At frame 19, Vehicle A is in the foreground, the gray paved racetrack is ahead of Vehicle A, and the light blue sky is above the distant ground scenery.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00110",
+      "statement": "At frame 19, grass beside the racetrack is beyond the edge of the gray paved racetrack, and the racetrack metal mesh fence is farther outside the road surface.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video30_e002",
+        "video30_e009",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00024",
+      "statement": "At frame 65, Vehicle A's cockpit occupies the lower part and both sides of the image; Vehicle A's protective frame spans the upper part of the image, and its central pillar occludes the distant view.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00025",
+      "statement": "At frame 65, Person A's two hands and parts of the forearms are visible inside Vehicle A's cockpit, with the two hands respectively holding both sides of the multi-button steering wheel; the steering wheel is in the lower center of the image, and the grip points on both sides are at similar heights, with the left slightly higher.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e005",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00026",
+      "statement": "At frame 65, the cockpit instrument display is above and behind the multi-button steering wheel, and the main display area within the screen is visible.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        64,
+        65
+      ],
+      "subject_ids": [
+        "video30_e021",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00027",
+      "statement": "At frame 65, the gray paved racetrack is ahead of Vehicle A, with its nearby portion occluded by Vehicle A; the visible road surface extends toward the distance right of center, follows a gentler right-hand curve in Vehicle A's direction of travel, becomes straight in the distance, and leads beneath the cross-track gantry.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00028",
+      "statement": "At frame 65, the light blue sky is above the distant ground scenery and is visible within the openings on both sides of the central pillar and below the crossbar of Vehicle A's protective frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00029",
+      "statement": "At frame 65, the curb is between the racetrack surface and the grass area beside the road on the image-right; the grass area beside the road is distributed outside the visible road surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e002",
+        "video30_e008",
+        "video30_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_restore00031",
+      "statement": "At frame 65, the wall beside the road and the outer fence are around the outside of the road; on the image-right, the grass area and wall occur in that order outward from the road, and the fence is above the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e009",
+        "video30_e011",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00040",
+      "statement": "At frame 65, the cockpit instrument display is above and behind the multi-button steering wheel, and the main display area within the screen is visible.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        64,
+        65
+      ],
+      "subject_ids": [
+        "video30_e021",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00041",
+      "statement": "At frame 65, Person A's two hands respectively hold the grips on both sides of the multi-button steering wheel, and the multi-button steering wheel is at the center of Vehicle A's cockpit.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e005",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00069",
+      "statement": "At frame 65, Vehicle A is in the foreground, the gray paved racetrack is ahead of Vehicle A, and the light blue sky is above the distant ground scenery.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00070",
+      "statement": "At frame 65, grass beside the racetrack is beyond the edge of the gray paved racetrack, and the racetrack metal mesh fence is farther outside the road surface.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e002",
+        "video30_e009",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_a010",
+      "statement": "At frame 0, the camera has an onboard view from the front of Vehicle A, with the viewpoint near the vehicle body's centerline and above the nose, and the left and right front wheels on opposite sides of the field of view.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_a010",
+      "statement": "At frame 0, the camera has an onboard view from the front of Vehicle A, with the viewpoint near the vehicle body's centerline and above the nose, and the left and right front wheels on opposite sides of the field of view.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_a019",
+      "statement": "At frame 65, the camera has a view from inside Vehicle A's cockpit, with the viewpoint behind the multi-button steering wheel and below the crossbar of the protective frame.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        64,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_a019",
+      "statement": "At frame 65, the camera has a view from inside Vehicle A's cockpit, with the viewpoint behind the multi-button steering wheel and below the crossbar of the protective frame.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        64,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_a011",
+      "statement": "At frame 0, from above Vehicle A's nose, the camera points forward in the direction of travel along the gray paved racetrack.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_a011",
+      "statement": "At frame 0, from above Vehicle A's nose, the camera points forward in the direction of travel along the gray paved racetrack.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_a020",
+      "statement": "At frame 65, from inside Vehicle A's cockpit, the camera points over the multi-button steering wheel toward the gray paved racetrack ahead.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_a020",
+      "statement": "At frame 65, from inside Vehicle A's cockpit, the camera points over the multi-button steering wheel toward the gray paved racetrack ahead.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 65,
+      "end_frame": 65,
+      "evidence_frames": [
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_r00111",
+      "statement": "From frames 0 to 18, the camera moves forward with Vehicle A along the right-hand curve; relative to the initial orientation at frame 0, its overall displacement is forward and to the right, with no obvious rise or descent visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        9,
+        18
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00111",
+      "statement": "From frames 0 to 18, the camera moves forward with Vehicle A along the right-hand curve; relative to the initial orientation at frame 0, its overall displacement is forward and to the right, with no obvious rise or descent visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        9,
+        18
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_r00112",
+      "statement": "From frames 19 to 65, the camera continues moving forward with Vehicle A along the right-hand curve; relative to the initial orientation at frame 19, its overall displacement is forward and to the right, with no obvious rise or descent visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 65,
+      "evidence_frames": [
+        19,
+        30,
+        42,
+        58,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00112",
+      "statement": "From frames 19 to 65, the camera continues moving forward with Vehicle A along the right-hand curve; relative to the initial orientation at frame 19, its overall displacement is forward and to the right, with no obvious rise or descent visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 65,
+      "evidence_frames": [
+        19,
+        30,
+        42,
+        58,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_r00113",
+      "statement": "From frames 0 to 18, the camera travels with Vehicle A along the right-hand curve, and its orientation turns overall to the right relative to frame 0.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        9,
+        18
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e012",
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00113",
+      "statement": "From frames 0 to 18, the camera travels with Vehicle A along the right-hand curve, and its orientation turns overall to the right relative to frame 0.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        9,
+        18
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e012",
+        "video30_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_r00114",
+      "statement": "From frames 19 to 65, the camera moves forward with Vehicle A, and its orientation continues turning overall to the right relative to frame 19, with the turning becoming gentler in the later segment.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 65,
+      "evidence_frames": [
+        19,
+        30,
+        42,
+        58,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00114",
+      "statement": "From frames 19 to 65, the camera moves forward with Vehicle A, and its orientation continues turning overall to the right relative to frame 19, with the turning becoming gentler in the later segment.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 65,
+      "evidence_frames": [
+        19,
+        30,
+        42,
+        58,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001",
+        "video30_e002",
+        "video30_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_a028",
+      "statement": "A total of 1 shot cut occurs from frames 0 to 65: between frames 18 and 19, the view switches from an exterior view at the front of Vehicle A to an interior view of Vehicle A's cockpit.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 65,
+      "evidence_frames": [
+        0,
+        18,
+        19,
+        20,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_a028",
+      "statement": "A total of 1 shot cut occurs from frames 0 to 65: between frames 18 and 19, the view switches from an exterior view at the front of Vehicle A to an interior view of Vehicle A's cockpit.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 65,
+      "evidence_frames": [
+        0,
+        18,
+        19,
+        20,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_r00115",
+      "statement": "From frames 0 to 18, Vehicle A travels forward along the right-hand curve.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        9,
+        18
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00115",
+      "statement": "From frames 0 to 18, Vehicle A travels forward along the right-hand curve.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        9,
+        18
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_r00116",
+      "statement": "From frames 19 to 65, Vehicle A continues moving forward along the right-hand curve and approaches a straighter section of road.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 65,
+      "evidence_frames": [
+        19,
+        30,
+        42,
+        58,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00116",
+      "statement": "From frames 19 to 65, Vehicle A continues moving forward along the right-hand curve and approaches a straighter section of road.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 65,
+      "evidence_frames": [
+        19,
+        30,
+        42,
+        58,
+        65
+      ],
+      "subject_ids": [
+        "video30_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_r00117",
+      "statement": "From frames 19 to 65, Person A holds the multi-button steering wheel with both hands throughout; in the first segment, the wheel maintains an obvious clockwise steering angle, then turns overall counterclockwise until nearly level, with small corrections in both directions in the later segment, and it remains slightly tilted clockwise in the final frame.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 65,
+      "evidence_frames": [
+        19,
+        27,
+        28,
+        29,
+        30,
+        42,
+        43,
+        44,
+        48,
+        49,
+        50,
+        58,
+        65
+      ],
+      "subject_ids": [
+        "video30_e005",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00117",
+      "statement": "From frames 19 to 65, Person A holds the multi-button steering wheel with both hands throughout; in the first segment, the wheel maintains an obvious clockwise steering angle, then turns overall counterclockwise until nearly level, with small corrections in both directions in the later segment, and it remains slightly tilted clockwise in the final frame.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 65,
+      "evidence_frames": [
+        19,
+        27,
+        28,
+        29,
+        30,
+        42,
+        43,
+        44,
+        48,
+        49,
+        50,
+        58,
+        65
+      ],
+      "subject_ids": [
+        "video30_e005",
+        "video30_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video30_cp003_r00118",
+      "statement": "From frames 56 to 57, the large central numeral on the cockpit instrument display changes from \"4\" to \"5\".",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 56,
+      "end_frame": 57,
+      "evidence_frames": [
+        56,
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video30_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video30_cp003_r00118",
+      "statement": "From frames 56 to 57, the large central numeral on the cockpit instrument display changes from \"4\" to \"5\".",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 56,
+      "end_frame": 57,
+      "evidence_frames": [
+        56,
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video30_e021"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    19,
+    65
+  ],
+  "evaluation_cut_frames": [
+    19
+  ],
+  "source_sha256": "a0e96b8d2823078cc489c74606f6a87a694f18d080e101b62b948e2d76078018"
+}

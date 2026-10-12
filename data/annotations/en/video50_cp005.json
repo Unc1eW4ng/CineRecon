@@ -1,0 +1,2994 @@
+{
+  "clip_id": "video50_cp005",
+  "video_id": "video50",
+  "fps": 59.94005994005994,
+  "start_frame": 0,
+  "end_frame": 100,
+  "source_frame_offset": 420,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video50_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A bald, powerfully built person in the left foreground, with their back to the camera; broad red markings run across their light-colored head and shoulders, and they wear brown leather protective gear."
+    },
+    {
+      "source_entity_id": "video50_e003",
+      "name": "Person C",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A short-haired person sitting astride the saddle on Animal A's back, wearing a light gray-blue top and dark pants."
+    },
+    {
+      "source_entity_id": "video50_e004",
+      "name": "Animal A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A large gray-brown horned quadruped in the right midground, with golden armor plates covering its head and back and Person C riding on its back."
+    },
+    {
+      "source_entity_id": "video50_e005",
+      "name": "Dark Red Tree Canopy",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Clusters of dark red and pink leaves and dark branching limbs at the top and upper left of the image."
+    },
+    {
+      "source_entity_id": "video50_e009",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The spear beside Person A on the image-right, angled toward the upper right, with a silver-gray pointed section visible and a long dark red cloth revealed later."
+    },
+    {
+      "source_entity_id": "video50_e011",
+      "name": "Weapon B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The long-handled axe on the image-right side of Person A's back, with a broad silver-gray axe head and a long brown handle."
+    },
+    {
+      "source_entity_id": "video50_e012",
+      "name": "Weapon C",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The partially exposed bow behind Person A's head and shoulders, with alternating dark and light patterns on its upper section and a thin diagonal string."
+    },
+    {
+      "source_entity_id": "video50_e013",
+      "name": "Stone-Framed Wooden-Stake Gate",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A gate in the background composed of a dark green-gray rectangular stone frame and orange-brown vertical wooden stakes inside it; in this clip, it is occluded by Person A, with only the stone lintel, frame edges, and portions of the interior exposed.",
+      "identity_context": [
+        {
+          "clip_id": "video50_cp002",
+          "frames": [
+            0,
+            80
+          ],
+          "purpose": "identity_only"
+        }
+      ]
+    },
+    {
+      "source_entity_id": "video50_e015",
+      "name": "Gray Stone Wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A gray to green-gray stone facade in the central to right background, with block-like structures and dark areas."
+    },
+    {
+      "source_entity_id": "video50_e016",
+      "name": "Gnarled Vines on the Wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Thick gray-brown roots, thin vines, and green clinging vegetation covering the background wall."
+    },
+    {
+      "source_entity_id": "video50_e017",
+      "name": "Courtyard Stone-Paved Ground",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Irregular blue-gray-green stone slabs, gravel, and a winding paved band of narrow reddish-brown strips in the lower half."
+    },
+    {
+      "source_entity_id": "video50_e018",
+      "name": "Ground Moss",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Green grass clumps, low moss-like ground cover, and a small number of broad leaves in the midground and between the stone slabs."
+    },
+    {
+      "source_entity_id": "video50_e019",
+      "name": "Courtyard Fungal Clusters",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Clusters of red-orange umbrella-shaped and funnel-shaped fungi on the ground, interspersed with smaller yellow-green caps."
+    },
+    {
+      "source_entity_id": "video50_e020",
+      "name": "Boxes, Baskets, and Containers by the Wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A group of objects at the base of the wall on the left, consisting of brown rectangular boxes and dark round-bellied containers."
+    },
+    {
+      "source_entity_id": "video50_e021",
+      "name": "Weapon D",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A long silver-gray curved blade slanting across Person A's back, with a dark brown wrapped grip at the upper end."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video50_cp005_restore00009",
+      "statement": "At frame 0, the two identifiable people in the image are Person A and Person C.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video50_e001",
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00002",
+      "statement": "At frame 0, Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00014",
+      "statement": "At frame 0, only part of Weapon A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        3,
+        10,
+        30,
+        60,
+        75,
+        100
+      ],
+      "subject_ids": [
+        "video50_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00018",
+      "statement": "At frame 0, Weapon B is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00022",
+      "statement": "At frame 0, the upper section and part of the thin string of Weapon C are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00026",
+      "statement": "At frame 0, part of the frame in the area of the Stone-Framed Wooden-Stake Gate is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00030",
+      "statement": "At frame 0, the Gray Stone Wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00034",
+      "statement": "At frame 0, the Gnarled Vines on the Wall are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00038",
+      "statement": "At frame 0, the Courtyard Stone-Paved Ground is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00042",
+      "statement": "At frame 0, the Ground Moss is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00046",
+      "statement": "At frame 0, the Courtyard Fungal Clusters are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00050",
+      "statement": "At frame 0, the Boxes, Baskets, and Containers by the Wall are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00054",
+      "statement": "At frame 0, Weapon D is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00124",
+      "statement": "At frame 0, Person C is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00128",
+      "statement": "At frame 0, Animal A is visible, with its rear portion occluded by Person A.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e004",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00131",
+      "statement": "At frame 0, the Dark Red Tree Canopy is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00114",
+      "statement": "At frame 45, Person C is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 45,
+      "end_frame": 45,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00020",
+      "statement": "At frame 100, the two identifiable people in the image are Person A and Person C.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        99,
+        100
+      ],
+      "subject_ids": [
+        "video50_e001",
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00059",
+      "statement": "At frame 100, Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00074",
+      "statement": "At frame 100, Weapon B is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00078",
+      "statement": "At frame 100, the upper section and part of the thin string of Weapon C are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00082",
+      "statement": "At frame 100, part of the frame in the area of the Stone-Framed Wooden-Stake Gate is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00086",
+      "statement": "At frame 100, the Gray Stone Wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00090",
+      "statement": "At frame 100, the Gnarled Vines on the Wall are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00094",
+      "statement": "At frame 100, the Courtyard Stone-Paved Ground is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00098",
+      "statement": "At frame 100, the Ground Moss is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00102",
+      "statement": "At frame 100, the Courtyard Fungal Clusters are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00106",
+      "statement": "At frame 100, the Boxes, Baskets, and Containers by the Wall are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00110",
+      "statement": "At frame 100, Weapon D is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00159",
+      "statement": "At frame 100, Person C is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00163",
+      "statement": "At frame 100, Animal A is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00166",
+      "statement": "At frame 100, the Dark Red Tree Canopy is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00169",
+      "statement": "At frame 100, the pointed tip, part of the shaft, and the dark red cloth of Weapon A are visible, while the lower section remains occluded.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        99,
+        100
+      ],
+      "subject_ids": [
+        "video50_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00122",
+      "statement": "At frame 0, Person A is bald, powerfully built, and broad across the shoulders and back; the light-colored head and neck and exposed shoulders and back bear broad red markings, and Person A wears brown leather protective gear.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00123",
+      "statement": "At frame 0, Person A is bald and powerfully built, with broad, muscular shoulders and back; the light-colored scalp, neck and shoulders, and bare shoulders bear broad red markings. The brown leather protective gear includes shoulder straps, dark fur-like edging, and a horizontal band across the waist and back, with metallic rivets and fasteners visible on the band.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00125",
+      "statement": "At frame 0, Person C has short hair and wears a light gray-blue top, a dark sash, and pants; one arm is raised and bent, with the hand near the shoulder and face.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00126",
+      "statement": "At frame 0, Person C has short hair close to the head and wears a light gray-blue top, a dark waist sash, and pants; the top has dark collar edging and diagonally crossing lapels, the forearm has dark protective gear, and the near pant leg hangs down along the side of the saddle. One arm is raised and bent, with the hand near the shoulder and face.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00129",
+      "statement": "At frame 0, Animal A is a large gray-brown quadruped with a thick torso, large curved horns on its head, golden armor plates covering its head and back, and saddle gear; it is in side view facing image-right, with its rear portion occluded by Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e004",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00130",
+      "statement": "At frame 0, Animal A is a large gray-brown quadruped with a thick torso, in side view facing right; its fur has dark stripes, its lower legs are darker, and a blue eye area and exposed teeth are visible beside its light-colored muzzle. The large curved horns on its head extend outward with upturned tips; the golden face armor has ridges, the back armor consists of a continuous row of pointed plates, and it is fitted with saddle gear, golden curved ornaments at the side of the saddle, and dark straps along its flank. A dark curved strap runs beneath the muzzle, and the rear portion and tail are occluded by Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e004",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00132",
+      "statement": "At frame 0, the appearance of the Dark Red Tree Canopy is as follows: it consists of large clusters of dark red and pink leaves and dark branching limbs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00133",
+      "statement": "At frame 0, the visible details of the Dark Red Tree Canopy are as follows: layers of dark red and pink leaf clusters overlap, the leaves have pointed tips, and some leaf edges have light highlights; slender dark brown branches fork repeatedly, with dark gaps visible among the branches and leaves.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00134",
+      "statement": "At frame 0, only a short, slender silver-gray pointed section of Weapon A is exposed, with most of it occluded by Person A and Weapon B.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e009",
+        "video50_e001",
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00135",
+      "statement": "At frame 0, only a short, slender silver-gray pointed section of Weapon A is exposed, forming a bright linear outline angled toward the upper right; most of it is occluded by Person A and Weapon B, and the lower section and dark red cloth cannot be clearly identified in this frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e009",
+        "video50_e001",
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00136",
+      "statement": "At frame 0, Weapon B is a long-handled axe with a broad silver-gray axe head and a brown long handle.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00137",
+      "statement": "At frame 0, Weapon B is a long-handled axe; its broad silver-gray axe head has a curved cutting edge, mottled light and dark textures, and dark cutouts near the axe neck; the brown long handle extends downward, with a metallic collar and a small golden component at the connection between the head and handle.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00138",
+      "statement": "At frame 0, Weapon C is a partially visible bow, with the slender upper section of the bow and a thin diagonal string exposed behind Person A's head and shoulders.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e012",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00139",
+      "statement": "At frame 0, Weapon C is a partially visible bow; the exposed slender upper section is nearly vertical and has diagonal wrapping patterns alternating between dark and light; the thin string extends diagonally down-left from the upper end, while the lower section is occluded by Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e012",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00140",
+      "statement": "At frame 0, the visible parts of the Stone-Framed Wooden-Stake Gate include a dark green-gray frame and portions of an orange-brown vertical structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00141",
+      "statement": "At frame 0, the dark green-gray horizontal stone lintel, parts of the vertical frame edges, and joints of the Stone-Framed Wooden-Stake Gate are visible; the orange-brown portion inside the frame is occluded by Person A and other foreground elements.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e013",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00142",
+      "statement": "At frame 0, the Gray Stone Wall is a gray to green-gray stone facade with a large dark area in the center, partially occluded by roots and foreground elements.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00143",
+      "statement": "At frame 0, the Gray Stone Wall is a gray to green-gray stone facade with block-like joints, thick stone edges, and a mottled surface exposed; the central area is dark and partially occluded by thick roots and foreground elements, while layered stone blocks and a curved outline are partially visible on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00144",
+      "statement": "At frame 0, the appearance of the Gnarled Vines on the Wall is as follows: they consist of thick light gray-brown tree roots, thin vines, and green clinging vegetation extending along the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00145",
+      "statement": "At frame 0, the visible details of the Gnarled Vines on the Wall are as follows: the thick roots are gray-brown, hanging vertically down the facade, branching diagonally, and twisting into knots, with grooves and light-and-dark ridges on their surfaces; thin vines weave among them, and small clusters of green leaves appear beside gaps between the roots.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00146",
+      "statement": "At frame 0, the appearance of the Courtyard Stone-Paved Ground is as follows: it consists of irregular blue-gray-green stone slabs and gravel, with a paved band of narrow reddish-brown strips winding through the midground.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00147",
+      "statement": "At frame 0, the visible details of the Courtyard Stone-Paved Ground are as follows: the blue-gray-green stone slabs vary in size and have cracks, chips, and misaligned edges, with small pieces of gravel scattered near the joints; the reddish-brown paved band consists of multiple narrow strips laid side by side and winds along the grassy area in the midground.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00148",
+      "statement": "At frame 0, the appearance of the Ground Moss is as follows: it forms broad areas of green grass clumps and low moss, interspersed with larger green leaves.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00149",
+      "statement": "At frame 0, the visible details of the Ground Moss are as follows: slender upright blades of grass grow densely in patches, with the darker ground visible in sparser areas; low moss lies close to the ground in patches, a small number of broader green leaves grow beside the stones, and the green vegetation varies in intensity.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00150",
+      "statement": "At frame 0, the appearance of the Courtyard Fungal Clusters is as follows: red-orange umbrella-shaped fungi distributed in clusters.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00151",
+      "statement": "At frame 0, the visible details of the Courtyard Fungal Clusters are as follows: the red-orange fungi have slender stems and open umbrella-shaped or funnel-shaped caps, clustered at varying heights; a small number of smaller yellow-green caps are visible in the clearer clusters.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00152",
+      "statement": "At frame 0, the appearance of the Boxes, Baskets, and Containers by the Wall is as follows: several brown rectangular boxes are visible, with straight edges and locally greenish top surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00154",
+      "statement": "At frame 0, Weapon D has a long silver-gray curved blade and a dark brown wrapped grip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00155",
+      "statement": "At frame 0, the dark brown grip at the upper end of Weapon D has segmented wrapping patterns and connects below to a long silver-gray curved blade; the blade surface has mottled bright patterns, its outer edge is curved, and its lower end forms a tapering, pointed curved outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00195",
+      "statement": "At frame 0, the visible details of the Boxes, Baskets, and Containers by the Wall are as follows: brown rectangular boxes of varying sizes are arranged along the wall, some stacked, with right-angled edges and dark sides visible; one slanted top surface is green-gray.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00192",
+      "statement": "At frame 45, Person C has short hair and wears a light gray-blue top, a dark belt, and pants; one hand is raised slightly below and beside the face, with the elbow bent.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 45,
+      "end_frame": 45,
+      "evidence_frames": [
+        45
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00193",
+      "statement": "At frame 45, Person C has short hair close to the head and wears a light gray-blue top, a dark belt, and pants; the top has dark collar edging and diagonally crossing lapels, the forearm bears dark protective gear, and the near pant leg hangs down along the side of the saddle. One hand is raised slightly below and beside the face, with the elbow bent.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 45,
+      "end_frame": 45,
+      "evidence_frames": [
+        45
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00157",
+      "statement": "At frame 100, Person A is bald, powerfully built, and broad across the shoulders and back; the light-colored head and neck and exposed shoulders and back bear broad red markings, and Person A wears brown leather protective gear.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00158",
+      "statement": "At frame 100, Person A is bald and powerfully built, with broad, muscular shoulders and back; the light-colored scalp, neck and shoulders, and bare shoulders bear broad red markings. The brown leather protective gear includes shoulder straps, dark fur-like edging, and a horizontal band across the waist and back, with metallic rivets and fasteners visible on the band.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00160",
+      "statement": "At frame 100, Person C has short hair and wears a light gray-blue top, a dark sash, and pants; one arm is bent in front of the body, with the hand near shoulder and face height.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00161",
+      "statement": "At frame 100, Person C has short hair close to the head and wears a light gray-blue top, a dark waist sash, and pants; the top has dark collar edging and diagonally crossing lapels, the forearm has dark protective gear, and the near pant leg hangs down along the side of the saddle. One arm is bent in front of the body, with the hand near shoulder and face height.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00164",
+      "statement": "At frame 100, Animal A is a large gray-brown quadruped with a thick torso, large curved horns on its head, golden armor plates covering its head and back, and saddle gear; it is in side view facing image-right, with its long tail extending toward the rear on the image-left.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00165",
+      "statement": "At frame 100, Animal A is a large gray-brown quadruped with a thick torso, in side view facing right, with its long tail extending toward the rear on the image-left; its fur has dark stripes, its lower legs are darker, and a blue eye area and exposed teeth are visible beside its light-colored muzzle. The large curved horns on its head extend outward with upturned tips; the golden face armor has multiple layers of ridges, the back armor consists of a continuous row of pointed plates, and it is fitted with saddle gear, golden curved ornaments at the side of the saddle, and dark straps along its flank, with a dark curved strap hanging beneath the muzzle.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00167",
+      "statement": "At frame 100, the appearance of the Dark Red Tree Canopy is as follows: it consists of large clusters of dark red and pink leaves and dark branching limbs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00168",
+      "statement": "At frame 100, the visible details of the Dark Red Tree Canopy are as follows: layers of dark red and pink leaf clusters overlap, the leaves have pointed tips, and some leaf edges have light highlights; slender dark brown branches fork repeatedly, with dark gaps visible among the branches and leaves.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00170",
+      "statement": "At frame 100, Weapon A is a partially visible spear, with a narrow elongated silver-gray point and thin shaft angled toward the upper right of the image, and a long dark red cloth tied beside the shaft and hanging down.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00171",
+      "statement": "At frame 100, Weapon A is a partially visible spear; the silver-gray point is narrow and elongated with a bright edge, and the thin shaft angles toward the upper right of the image; the long dark red cloth hangs beside the shaft, with vertical folds across its surface, and its lower portion extends downward along the image-right edge of Person A's back.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e009",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00172",
+      "statement": "At frame 100, Weapon B is a long-handled axe with a broad silver-gray axe head and a brown long handle.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00173",
+      "statement": "At frame 100, Weapon B is a long-handled axe; its broad silver-gray axe head has a curved cutting edge, mottled light and dark textures, and dark cutouts near the axe neck; the brown long handle extends downward, with a metallic collar and a small golden component at the connection between the head and handle.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00174",
+      "statement": "At frame 100, Weapon C is a partially visible bow, with the slender upper section of the bow and a thin diagonal string exposed behind Person A's head and shoulders.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e012",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00175",
+      "statement": "At frame 100, Weapon C is a partially visible bow; the exposed slender upper section is nearly vertical and has diagonal wrapping patterns alternating between dark and light; the thin string extends diagonally down-left from the upper end, while the lower section is occluded by Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e012",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00176",
+      "statement": "At frame 100, the visible parts of the Stone-Framed Wooden-Stake Gate include a dark green-gray frame and portions of an orange-brown vertical structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00177",
+      "statement": "At frame 100, the dark green-gray horizontal stone lintel and parts of the vertical frame edges of the Stone-Framed Wooden-Stake Gate are visible, while most of the orange-brown portion inside the frame is occluded by Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e013",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00178",
+      "statement": "At frame 100, the Gray Stone Wall is a gray to green-gray stone facade with a large dark area in the center, partially occluded by roots and foreground elements.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00179",
+      "statement": "At frame 100, the Gray Stone Wall is a gray to green-gray stone facade with block-like joints, thick stone edges, and a mottled surface exposed; the central area is dark and partially occluded by thick roots and foreground elements, while layered stone blocks and part of a curved outline are visible on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00180",
+      "statement": "At frame 100, the appearance of the Gnarled Vines on the Wall is as follows: they consist of thick light gray-brown tree roots, thin vines, and green clinging vegetation extending along the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00181",
+      "statement": "At frame 100, the visible details of the Gnarled Vines on the Wall are as follows: the thick roots are gray-brown, hanging vertically down the facade, branching diagonally, and twisting into knots, with grooves and light-and-dark ridges on their surfaces; thin vines weave among them, and small clusters of green leaves appear beside gaps between the roots.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00182",
+      "statement": "At frame 100, the appearance of the Courtyard Stone-Paved Ground is as follows: it consists of irregular blue-gray-green stone slabs and gravel, with a paved band of narrow reddish-brown strips winding through the midground.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00183",
+      "statement": "At frame 100, the visible details of the Courtyard Stone-Paved Ground are as follows: the blue-gray-green stone slabs vary in size and have cracks, chips, and misaligned edges, with small pieces of gravel scattered near the joints; the reddish-brown paved band consists of multiple narrow strips laid side by side and winds along the grassy area in the midground.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00184",
+      "statement": "At frame 100, the appearance of the Ground Moss is as follows: it forms broad areas of green grass clumps and low moss, interspersed with larger green leaves.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00185",
+      "statement": "At frame 100, the visible details of the Ground Moss are as follows: slender upright blades of grass grow densely in patches, with the darker ground visible in sparser areas; low moss lies close to the ground in patches, a small number of broader green leaves grow beside the stones, and the green vegetation varies in intensity.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00186",
+      "statement": "At frame 100, the appearance of the Courtyard Fungal Clusters is as follows: red-orange umbrella-shaped fungi distributed in clusters.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00187",
+      "statement": "At frame 100, the visible details of the Courtyard Fungal Clusters are as follows: the red-orange fungi have slender stems and open umbrella-shaped or funnel-shaped caps, clustered at varying heights; a small number of smaller yellow-green caps are visible in the clearer clusters.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00188",
+      "statement": "At frame 100, the appearance of the Boxes, Baskets, and Containers by the Wall is as follows: brown rectangular boxes and dark round-bellied containers are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00189",
+      "statement": "At frame 100, the visible details of the Boxes, Baskets, and Containers by the Wall are as follows: the brown boxes have right-angled outlines and are arranged against the wall; beside them, a large dark container has a relatively flat upper rim and a rounded, bulging belly; parts of the outlines are occluded by the image edge and Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e020",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00190",
+      "statement": "At frame 100, Weapon D has a long silver-gray curved blade and a dark brown wrapped grip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00191",
+      "statement": "At frame 100, the dark brown grip at the upper end of Weapon D has segmented wrapping patterns and connects below to a long silver-gray curved blade; the blade surface has mottled bright patterns, its outer edge is curved, and its lower end forms a tapering, pointed curved outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e021"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00010",
+      "statement": "At frame 0, Person A is in the left foreground with their back to the camera, and their body and the weapons carried on their back occlude part of Animal A's rear portion.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e001",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00011",
+      "statement": "At frame 0, Animal A is in the right midground in front of the Gray Stone Wall, in side view facing right; Person C sits astride the saddle on its back, with the near leg hanging down along the side of the saddle.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004",
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00012",
+      "statement": "At frame 0, Weapon B and Weapon D are visible on Person A's back: Weapon B is on the image-right side of the back, extending from near the shoulder toward the rear of the waist; Weapon D slants across the back from near the back of the neck toward the lower right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e011",
+        "video50_e021",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00013",
+      "statement": "At frame 0, the Dark Red Tree Canopy is distributed across the top and upper left of the image, above the area containing the Stone-Framed Wooden-Stake Gate.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e005",
+        "video50_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00014",
+      "statement": "At frame 0, the area containing the Stone-Framed Wooden-Stake Gate is in the left to central background and is partially occluded by Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e013",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00015",
+      "statement": "At frame 0, the Gray Stone Wall occupies the central to right background, with the central dark area on the image-left side of and behind Animal A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e015",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00016",
+      "statement": "At frame 0, the Gnarled Vines on the Wall cling to and cover part of the Gray Stone Wall's surface, distributed across the central to right background.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e016",
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00017",
+      "statement": "At frame 0, the Courtyard Stone-Paved Ground spreads across the lower half of the image, extending from the foreground to the midground where Animal A is located, and the ground there supports Animal A's planted feet.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e017",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00018",
+      "statement": "At frame 0, the Ground Moss is distributed close against the Courtyard Stone-Paved Ground and the ground between it, forming patches in the midground and scattered between the foreground slabs.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e018",
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00019",
+      "statement": "At frame 0, the Boxes, Baskets, and Containers by the Wall are placed on the ground along the base of the background wall on the image-left, behind Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e020",
+        "video50_e017",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00005",
+      "statement": "At frame 0, Person A is in the left foreground with their back to the camera, occluding part of the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00010",
+      "statement": "At frame 0, Animal A is in the right midground in front of the Gray Stone Wall, carrying Person C on its back.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e004",
+        "video50_e003",
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00013",
+      "statement": "At frame 0, the Dark Red Tree Canopy is distributed across the top and upper left of the image, above Person A, Person C, and the gate and wall in the background.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e005",
+        "video50_e001",
+        "video50_e003",
+        "video50_e013",
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00017",
+      "statement": "At frame 0, only a short diagonal section of Weapon A is exposed at the image-right edge of Person A's back, near Weapon B, and the exposed section extends toward the upper right; the rest is occluded.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        3,
+        10,
+        30,
+        60
+      ],
+      "subject_ids": [
+        "video50_e009",
+        "video50_e001",
+        "video50_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00021",
+      "statement": "At frame 0, Weapon B hangs on the image-right side of Person A's back, with the axe head near the shoulder and the long handle extending downward to the rear of the waist.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e011",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00025",
+      "statement": "At frame 0, Weapon C is behind Person A, with the upper section of the bow and the thin string exposed near Person A's head and shoulders, while the lower section is occluded.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e012",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00029",
+      "statement": "At frame 0, the area containing the Stone-Framed Wooden-Stake Gate is in the left to central background and is partially occluded by Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e013",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00033",
+      "statement": "At frame 0, the Gray Stone Wall occupies the central to right background, with the central dark area on the image-left side of and behind Animal A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e015",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00037",
+      "statement": "At frame 0, the Gnarled Vines on the Wall climb across the Gray Stone Wall's surface vertically and horizontally, behind Animal A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e016",
+        "video50_e015",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00041",
+      "statement": "At frame 0, the Courtyard Stone-Paved Ground spreads across the lower half of the image, extending from the foreground to the ground beneath Animal A in the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e017",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00045",
+      "statement": "At frame 0, the Ground Moss is distributed in the gaps of the Courtyard Stone-Paved Ground and in the earthen areas between the stone slabs in the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e018",
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00049",
+      "statement": "At frame 0, the Courtyard Fungal Clusters are distributed in clusters on the ground in the central lower part of the courtyard, with many clusters near the reddish-brown paved band in the Courtyard Stone-Paved Ground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e019",
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00053",
+      "statement": "At frame 0, the Boxes, Baskets, and Containers by the Wall are arranged along the base of the background wall on the image-left, behind Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e020",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00057",
+      "statement": "At frame 0, Weapon D slants across Person A's back, with the grip near the back of the neck and the silver-gray blade extending from the upper left toward the lower right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e021",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00127",
+      "statement": "At frame 0, Person C sits astride the saddle on Animal A's back, with the near leg hanging down along the side of the saddle and the far leg occluded.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00031",
+      "statement": "At frame 45, Person C sits astride the saddle on Animal A's back, with the near leg hanging down along the side of the saddle and the body supported by the saddle.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 45,
+      "end_frame": 45,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00117",
+      "statement": "At frame 45, Person C sits astride the saddle on Animal A's back, with the near leg hanging down along the side of the saddle and the far leg occluded.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 45,
+      "end_frame": 45,
+      "evidence_frames": [
+        44,
+        45,
+        46
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00021",
+      "statement": "At frame 100, Person A is in the left foreground with their back to the camera, and the lower body extends beyond the bottom edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00022",
+      "statement": "At frame 100, Animal A is in the right midground in front of the Gray Stone Wall, in side view facing right; Person C sits astride the saddle on its back, with the near leg hanging down along the side of the saddle.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004",
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00023",
+      "statement": "At frame 100, Weapon B and Weapon D are visible on Person A's back: Weapon B is on the image-right side of the back, extending from near the shoulder toward the rear of the waist; Weapon D slants across the back from near the back of the neck toward the lower right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e011",
+        "video50_e021",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00024",
+      "statement": "At frame 100, the Dark Red Tree Canopy is distributed across the top and upper left of the image, above the area containing the Stone-Framed Wooden-Stake Gate.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e005",
+        "video50_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00025",
+      "statement": "At frame 100, the area containing the Stone-Framed Wooden-Stake Gate is in the left to central background and is partially occluded by Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e013",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00026",
+      "statement": "At frame 100, the Gray Stone Wall occupies the central to right background, with the central dark area on the image-left side of and behind Animal A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e015",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00027",
+      "statement": "At frame 100, the Gnarled Vines on the Wall cling to and cover part of the Gray Stone Wall's surface, distributed across the central to right background.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e016",
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00028",
+      "statement": "At frame 100, the Courtyard Stone-Paved Ground spreads across the lower half of the image, extending from the foreground to the midground where Animal A is located, and the ground there supports Animal A's planted feet.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e017",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00029",
+      "statement": "At frame 100, the Ground Moss is distributed close against the Courtyard Stone-Paved Ground and the ground between it, forming patches in the midground and scattered between the foreground slabs.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e018",
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_restore00030",
+      "statement": "At frame 100, the Boxes, Baskets, and Containers by the Wall are placed on the ground along the base of the background wall on the image-left, behind Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e020",
+        "video50_e017",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00062",
+      "statement": "At frame 100, Person A is in the left foreground with their back to the camera, occluding part of the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00067",
+      "statement": "At frame 100, Animal A is in the right midground in front of the Gray Stone Wall, carrying Person C on its back.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e004",
+        "video50_e003",
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00070",
+      "statement": "At frame 100, the Dark Red Tree Canopy is distributed across the top and upper left of the image, above Person A, Person C, and the gate and wall in the background.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e005",
+        "video50_e001",
+        "video50_e003",
+        "video50_e013",
+        "video50_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00073",
+      "statement": "At frame 100, Weapon A projects diagonally toward the upper right in the foreground beside Person A on the image-right and is in front of Animal A; its lower section is occluded.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e009",
+        "video50_e001",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00077",
+      "statement": "At frame 100, Weapon B hangs on the image-right side of Person A's back, with the axe head near the shoulder and the long handle extending downward to the rear of the waist.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e011",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00081",
+      "statement": "At frame 100, Weapon C is behind Person A, with the upper section of the bow and the thin string exposed near Person A's head and shoulders, while the lower section is occluded.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e012",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00085",
+      "statement": "At frame 100, the area containing the Stone-Framed Wooden-Stake Gate is in the left to central background and is partially occluded by Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e013",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00089",
+      "statement": "At frame 100, the Gray Stone Wall occupies the central to right background, with the central dark area on the image-left side of and behind Animal A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e015",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00093",
+      "statement": "At frame 100, the Gnarled Vines on the Wall climb across the Gray Stone Wall's surface vertically and horizontally, behind Animal A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e016",
+        "video50_e015",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00097",
+      "statement": "At frame 100, the Courtyard Stone-Paved Ground spreads across the lower half of the image, extending from the foreground to the ground beneath Animal A in the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e017",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00101",
+      "statement": "At frame 100, the Ground Moss is distributed in the gaps of the Courtyard Stone-Paved Ground and in the earthen areas between the stone slabs in the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e018",
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00105",
+      "statement": "At frame 100, the Courtyard Fungal Clusters are distributed in clusters on the ground in the central lower part of the courtyard, with many clusters near the reddish-brown paved band in the Courtyard Stone-Paved Ground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e019",
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00109",
+      "statement": "At frame 100, the Boxes, Baskets, and Containers by the Wall are arranged along the base of the background wall on the image-left, behind Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e020",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00113",
+      "statement": "At frame 100, Weapon D slants across Person A's back, with the grip near the back of the neck and the silver-gray blade extending from the upper left toward the lower right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e021",
+        "video50_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00162",
+      "statement": "At frame 100, Person C sits astride the saddle on Animal A's back, with the near leg hanging down along the side of the saddle and the far leg occluded.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_r00001",
+      "statement": "At frame 0, the camera is positioned close behind Person A, viewing the farther courtyard midground from a viewpoint near shoulder-and-back height.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e001",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00001",
+      "statement": "At frame 0, the camera is positioned close behind Person A, viewing the farther courtyard midground from a viewpoint near shoulder-and-back height.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e001",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_r00058",
+      "statement": "At frame 100, the camera is positioned close behind Person A, viewing the farther courtyard midground from a viewpoint near shoulder-and-back height.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e001",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00058",
+      "statement": "At frame 100, the camera is positioned close behind Person A, viewing the farther courtyard midground from a viewpoint near shoulder-and-back height.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e001",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_r00121",
+      "statement": "At frame 0, the camera faces toward Animal A and Person C on its back in the courtyard.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00121",
+      "statement": "At frame 0, the camera faces toward Animal A and Person C on its back in the courtyard.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_r00156",
+      "statement": "At frame 100, the camera faces toward Animal A and Person C on its back in the courtyard.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00156",
+      "statement": "At frame 100, the camera faces toward Animal A and Person C on its back in the courtyard.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 100,
+      "end_frame": 100,
+      "evidence_frames": [
+        100
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_r00118",
+      "statement": "From frames 0 to 100, the camera pans right relative to its orientation at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 100,
+      "evidence_frames": [
+        0,
+        20,
+        45,
+        60,
+        75,
+        100
+      ],
+      "subject_ids": [
+        "video50_e013",
+        "video50_e015",
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00118",
+      "statement": "From frames 0 to 100, the camera pans right relative to its orientation at the start of this interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 100,
+      "evidence_frames": [
+        0,
+        20,
+        45,
+        60,
+        75,
+        100
+      ],
+      "subject_ids": [
+        "video50_e013",
+        "video50_e015",
+        "video50_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_r00194",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 100,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        100
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video50_cp005_r00194",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 100,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        100
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video50_cp005_r00119",
+      "statement": "From frames 0 to 100, Animal A walks toward image-right relative to the courtyard ground while carrying Person C.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 100,
+      "evidence_frames": [
+        0,
+        1,
+        20,
+        45,
+        60,
+        75,
+        99,
+        100
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00119",
+      "statement": "From frames 0 to 100, Animal A walks toward image-right relative to the courtyard ground while carrying Person C.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 100,
+      "evidence_frames": [
+        0,
+        1,
+        20,
+        45,
+        60,
+        75,
+        99,
+        100
+      ],
+      "subject_ids": [
+        "video50_e003",
+        "video50_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video50_cp005_r00120",
+      "statement": "From frames 0 to 100, Person C bends and extends one arm, with the hand changing position between near the shoulder and face and in front of the body.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 100,
+      "evidence_frames": [
+        0,
+        1,
+        20,
+        30,
+        44,
+        45,
+        46,
+        60,
+        75,
+        99,
+        100
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video50_cp005_r00120",
+      "statement": "From frames 0 to 100, Person C bends and extends one arm, with the hand changing position between near the shoulder and face and in front of the body.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 100,
+      "evidence_frames": [
+        0,
+        1,
+        20,
+        30,
+        44,
+        45,
+        46,
+        60,
+        75,
+        99,
+        100
+      ],
+      "subject_ids": [
+        "video50_e003"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    1,
+    5,
+    20,
+    45,
+    75,
+    100
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "d73724faf46ca886d320906691fad412cfe83c609d97323860e7fa63bb858358"
+}

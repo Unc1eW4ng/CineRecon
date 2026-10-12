@@ -1,0 +1,2315 @@
+{
+  "clip_id": "video14_cp009",
+  "video_id": "video14",
+  "fps": 29.97002997002997,
+  "start_frame": 0,
+  "end_frame": 48,
+  "source_frame_offset": 382,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video14_e003",
+      "name": "crowd of spectators along the route",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The background crowd of spectators behind the roadside barriers or walls along the track, primarily the dense crowd on the left; spectators on different sections of the route are not treated as the same group of individuals."
+    },
+    {
+      "source_entity_id": "video14_e005",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The rider in the first-person foreground, with black long sleeves, white gloves, and hands operating Vehicle A's handlebars visible."
+    },
+    {
+      "source_entity_id": "video14_e006",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The mountain bicycle operated by Person B, with a black flat handlebar, black front tire, red front components, and some silver controls visible."
+    },
+    {
+      "source_entity_id": "video14_e007",
+      "name": "track surface",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The narrow gray hard-surfaced road that runs basically straight downhill between residences, with a lighter paved edge strip along its right edge."
+    },
+    {
+      "source_entity_id": "video14_e008",
+      "name": "metal barriers along the route",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Gray tubular-frame mesh barrier panels arranged along the road, separating the spectators on the left; in the later section, some panels on the right are tilted and overlap."
+    },
+    {
+      "source_entity_id": "video14_e009",
+      "name": "wall beside the track",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The yellow-gray rough stone wall, light-colored wall base, and light yellow-gray plastered wall surface extending along the road on the right."
+    },
+    {
+      "source_entity_id": "video14_e010",
+      "name": "residential buildings along the route",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The group of residential buildings on both sides of the road and in the distance, with red, orange, light blue, light yellow, and pink exterior walls."
+    },
+    {
+      "source_entity_id": "video14_e011",
+      "name": "blue sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Small patches of blue sky visible through gaps between distant buildings and along the upper edge of the image."
+    },
+    {
+      "source_entity_id": "video14_e012",
+      "name": "vegetation along the route",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Green foliage and tree crowns visible atop the wall on the right and behind the residences."
+    },
+    {
+      "source_entity_id": "video14_e018",
+      "name": "strip of bare soil beside the road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The yellow-brown strip of soil between the hard road edge and the base of the wall on the right, with gravel and dried plant debris in places."
+    },
+    {
+      "source_entity_id": "video14_e023",
+      "name": "patterned ramp surface with a black background",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The black patterned surface below and in front of Vehicle A at the beginning, showing white-and-red lettering and portions of yellow-and-red graphics and connecting to the gray road."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video14_cp009_restore00016",
+      "statement": "At frame 0, residential buildings along the route appear in the upper-left part of the image and in the distance along the road.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00001",
+      "statement": "At frame 0, Person B's hands and black-sleeved arms appear in the foreground in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00004",
+      "statement": "At frame 0, Vehicle A's handlebars and front wheel appear in the foreground in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00007",
+      "statement": "At frame 0, the track surface extends from the lower part of the image into the middle distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00010",
+      "statement": "At frame 0, the crowd of spectators along the route appears as a group of multiple people in the near-middle ground on the left side of the image and extends into the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00013",
+      "statement": "At frame 0, metal barriers along the route appear on the left side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00016",
+      "statement": "At frame 0, a yellow-gray rough stone section of the wall beside the track appears on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00019",
+      "statement": "At frame 0, red and light-colored residences among the residential buildings along the route appear in the upper-left part of the image and in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00022",
+      "statement": "At frame 0, green leaf crowns and foliage of the vegetation along the route appear in the upper-right part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00025",
+      "statement": "At frame 0, the strip of bare soil beside the road appears beyond the road edge on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00028",
+      "statement": "At frame 0, the patterned ramp surface with a black background appears in the lower center of the image, partially occluded by Vehicle A.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e023",
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00034",
+      "statement": "At frame 24, Person B's hands and black-sleeved arms appear in the foreground in the lower part of the image, with the right side partially cropped.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        23,
+        24,
+        25
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00037",
+      "statement": "At frame 24, Vehicle A's handlebars and front wheel appear in the foreground in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00040",
+      "statement": "At frame 24, the track surface extends from the lower part of the image into the middle distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00043",
+      "statement": "At frame 24, the crowd of spectators along the route appears as a group of multiple people in the near-middle ground on the left side of the image and extends along the road into the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00046",
+      "statement": "At frame 24, metal barriers along the route appear along the roadside on the left and right sides of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00049",
+      "statement": "At frame 24, a yellow-brown stone wall and light-colored wall base belonging to the wall beside the track appear on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00052",
+      "statement": "At frame 24, orange and light-blue residences among the residential buildings along the route appear on both sides of the image, with additional residences in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00055",
+      "statement": "At frame 24, blue sky appears in a narrow distant gap in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00058",
+      "statement": "At frame 24, vegetation along the route appears behind the residence in the upper-right part of the image and near the upper edge.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        23,
+        24,
+        25
+      ],
+      "subject_ids": [
+        "video14_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00061",
+      "statement": "At frame 24, the strip of bare soil beside the road appears beyond the road edge on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00024",
+      "statement": "At frame 48, residential buildings along the route appear on both sides of the image and in the distance along the road.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00025",
+      "statement": "At frame 48, blue sky is visible through gaps between distant buildings in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00070",
+      "statement": "At frame 48, Person B's left hand and part of a black-sleeved arm appear in the foreground in the lower part of the image, while the right hand is outside the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        47,
+        48
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00073",
+      "statement": "At frame 48, part of Vehicle A's handlebars and front wheel appear in the foreground in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00076",
+      "statement": "At frame 48, the track surface extends from the lower part of the image into the middle distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00079",
+      "statement": "At frame 48, the crowd of spectators along the route appears as a group of multiple people in the near-middle ground on the left side of the image and in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00082",
+      "statement": "At frame 48, metal barriers along the route appear along the roadside on the left and right sides of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00085",
+      "statement": "At frame 48, the light yellow-gray surface of the wall beside the track appears on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00088",
+      "statement": "At frame 48, residential buildings along the route appear on both sides of the image and in the distance, with exterior walls in multiple colors.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00091",
+      "statement": "At frame 48, blue sky appears in a narrow distant gap in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00094",
+      "statement": "At frame 48, the strip of bare soil beside the road appears beyond the road edge on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00002",
+      "statement": "At frame 0, Person B's visible arms are clad in black long sleeves, and both hands wear white gloves.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00003",
+      "statement": "At frame 0, Person B's visible arms are clad in black long sleeves, and both hands wear white gloves; both arms extend from below the image toward the two ends of the handlebars, the edges of the hands are affected by motion blur, and the sleeved arms are cropped by the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00005",
+      "statement": "At frame 0, Vehicle A is a partially visible mountain bicycle with a black flat handlebar, black front wheel, and red front components.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00006",
+      "statement": "At frame 0, Vehicle A is a partially visible mountain bicycle with a black flat handlebar, black front wheel, and red front components; the two ends of the handlebar extend outward, the front tire forms a narrow strip-like outline ahead, some silver controls and cables are visible, and details are affected by motion blur.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00008",
+      "statement": "At frame 0, the track surface is a narrow, steep, gray downhill road, with its near end in the lower center of the image and its boundaries converging between the residences toward the upper-middle part; the visible section runs basically straight downhill.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00009",
+      "statement": "At frame 0, the track surface is a narrow, steep, gray downhill road, with its near end in the lower center of the image and its boundaries converging between the residences toward the upper-middle part; the visible section runs basically straight downhill; the surface has transverse dark shadows and locally lighter areas, while the barrier on the left and the stone wall on the right extend along the slope.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e007",
+        "video14_e008",
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00011",
+      "statement": "At frame 0, the crowd of spectators along the route wears everyday tops of varying lightness and stands densely packed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00012",
+      "statement": "At frame 0, the crowd of spectators along the route wears everyday tops of varying lightness and stands densely packed; short sleeves and bare arms are visible nearby, some arms are raised, and the people occlude one another.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00014",
+      "statement": "At frame 0, the metal barriers along the route consist of gray rectangular tubular-frame barrier panels arranged continuously along the road.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00015",
+      "statement": "At frame 0, the metal barriers along the route consist of gray rectangular tubular-frame barrier panels arranged continuously along the road; thinner rods are visible within the frames, and some panels are occluded by spectators and shadows.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00017",
+      "statement": "At frame 0, the wall beside the track on the right is a yellow-gray rough stone wall with an uneven surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00018",
+      "statement": "At frame 0, the wall beside the track on the right is a yellow-gray rough stone wall with an uneven surface; irregular stones and light-dark variations between the blocks are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00020",
+      "statement": "At frame 0, rectangular facades and window openings are visible on the residential buildings along the route; the exterior wall on the left is red, and blue-and-white residences are in the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00021",
+      "statement": "At frame 0, rectangular facades and window openings are visible on the residential buildings along the route; the exterior wall on the left is red, and blue-and-white residences are in the distance; the red wall on the left has white brick-joint-like lines, and some distant eaves are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00023",
+      "statement": "At frame 0, the vegetation along the route forms green leaf crowns and foliage of varying lightness.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00024",
+      "statement": "At frame 0, the vegetation along the route forms green leaf crowns and foliage of varying lightness; the outer contours of the foliage are uneven, with lighter and darker clustered areas inside.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00026",
+      "statement": "At frame 0, the strip of bare soil beside the road is a long yellow-brown strip, differing in color from the gray hard track surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00027",
+      "statement": "At frame 0, the strip of bare soil beside the road is a long yellow-brown strip, differing in color from the gray hard track surface; its surface has mottled light and dark areas and local unevenness, and its edge is irregular.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00029",
+      "statement": "At frame 0, the visible portion of the patterned ramp surface with a black background is black and nearly rectangular, with conspicuous white-and-red lettering and yellow-and-red graphics; it is below and in front of Vehicle A, joins the narrow gray road in the downhill direction, and its near portion is partially occluded by Vehicle A.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e023",
+        "video14_e006",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00030",
+      "statement": "At frame 0, the visible portion of the patterned ramp surface with a black background is black and nearly rectangular, with conspicuous white-and-red lettering and yellow-and-red graphics; it is below and in front of Vehicle A, joins the narrow gray road in the downhill direction, and its near portion is partially occluded by Vehicle A; the lettering and graphics are distributed horizontally across the image, and their outlines are divided by the handlebars and front components.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e023",
+        "video14_e006",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00035",
+      "statement": "At frame 24, Person B's visible sleeved arms are black, both hands wear white gloves, and the arm on the right is partially cropped.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00036",
+      "statement": "At frame 24, Person B's visible sleeved arms are black, both hands wear white gloves, and the arm on the right is partially cropped; there are red-and-black rectangular markings on the backs of the hands, the black cuff on the left is visible, some fingers grip the handlebar grip, and the index finger extends toward the brake lever.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00038",
+      "statement": "At frame 24, Vehicle A is a partially visible mountain bicycle with a black flat handlebar, black front wheel, and red front components.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00039",
+      "statement": "At frame 24, Vehicle A is a partially visible mountain bicycle with a black flat handlebar, black front wheel, and red front components; the front tire has a rough raised tread, and silver controls, a central clamping component, and curved black cables are discernible, while the rest of the bicycle is cropped by the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00041",
+      "statement": "At frame 24, the track surface is a narrow gray downhill road between residences, narrowing from the lower center of the image toward the upper-middle part, with its boundaries converging between the blue and light-colored residences ahead; the visible section runs basically straight downhill.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00042",
+      "statement": "At frame 24, the track surface is a narrow gray downhill road between residences, narrowing from the lower center of the image toward the upper-middle part, with its boundaries converging between the blue and light-colored residences ahead; the visible section runs basically straight downhill; the surface has crack-like lines, patches of color variation, and transverse light-dark boundaries, and a lighter narrow paved strip runs along the right edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00044",
+      "statement": "At frame 24, the crowd of spectators along the route wears everyday tops of varying lightness and stands densely packed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00045",
+      "statement": "At frame 24, the crowd of spectators along the route wears everyday tops of varying lightness and stands densely packed; short sleeves, bare forearms, and raised or extended arms are discernible nearby, and the people occlude one another from front to back.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00047",
+      "statement": "At frame 24, the metal barriers along the route consist of gray rectangular tubular frames with mesh inside, arranged along the road on the left, while some panels on the right are tilted.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00048",
+      "statement": "At frame 24, the metal barriers along the route consist of gray rectangular tubular-frame barrier panels, arranged along the road on the left, while some panels on the right are tilted; tubular frame edges, internal mesh, and some outward-projecting feet are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00050",
+      "statement": "At frame 24, the wall beside the track on the right includes a yellow-brown rough stone wall and a light-colored plastered wall surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00051",
+      "statement": "At frame 24, the wall beside the track on the right includes a yellow-brown rough stone wall and a light-colored plastered wall surface; the nearby stones are irregularly shaped, some wall edges are damaged, and light-colored steps and a platform edge are near the entrance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e009",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00053",
+      "statement": "At frame 24, the residential buildings along the route have an orange facade on the left and a long light-blue facade on the right, with rectangular doors, windows, and eaves visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00054",
+      "statement": "At frame 24, the residential buildings along the route have an orange facade on the left and a long light-blue facade on the right, with rectangular doors, windows, and eaves visible; some doors and windows have dark grilles, the exterior wall on the right has horizontal slat-like joints, and the entrance has steps and a metal handrail.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00056",
+      "statement": "At frame 24, the sky is blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00057",
+      "statement": "At frame 24, the sky is blue; the visible sky between the distant buildings is lighter, and there is another small, darker-blue patch along the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00059",
+      "statement": "At frame 24, the vegetation along the route forms green leaf crowns and foliage of varying lightness, some of which is behind the rooftops and cropped by the upper edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00060",
+      "statement": "At frame 24, the vegetation along the route forms green leaf crowns and foliage of varying lightness, some of which is behind the rooftops and cropped by the upper edge of the image; the outer edges of the foliage are irregular, with clustered light-dark variations inside.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00062",
+      "statement": "At frame 24, the strip of bare soil beside the road is a long yellow-brown strip, differing in color from the gray hard track surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00063",
+      "statement": "At frame 24, the strip of bare soil beside the road is a long yellow-brown strip, differing in color from the gray hard track surface; its surface has gravel, dried plant debris, and local unevenness, and the edge near the base of the wall is irregular.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00071",
+      "statement": "At frame 48, Person B's visible left arm is clad in a black long sleeve, and the left hand wears a white glove.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00072",
+      "statement": "At frame 48, Person B's visible left arm is clad in a black long sleeve, and the left hand wears a white glove; there is a red-and-black rectangular marking on the back of the left hand, the black cuff is visible, some fingers grip the handlebar, and the index finger extends toward the brake lever.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00074",
+      "statement": "At frame 48, Vehicle A is a partially visible mountain bicycle with a black flat handlebar, black front wheel, and red front components, and part of the handlebar is cropped by the lower edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00075",
+      "statement": "At frame 48, Vehicle A is a partially visible mountain bicycle with a black flat handlebar, black front wheel, and red front components, and part of the handlebar is cropped by the lower edge; the front tire's raised tread, some silver controls, and black cables are discernible, while the rest of the bicycle is outside the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00077",
+      "statement": "At frame 48, the track surface is a narrow gray hard downhill road, with its near end occupying the lower center of the image and narrowing between the residences toward the upper-middle part; the visible near and middle sections run basically straight downhill, while the more distant route is occluded by buildings.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00078",
+      "statement": "At frame 48, the track surface is a narrow gray hard downhill road, with its near end occupying the lower center and narrowing between the residences toward the upper-middle part; the visible near and middle sections run basically straight downhill, while the more distant route is occluded by buildings; nearby are the outline of a circular manhole cover, a transverse crack, and a rectangular joint area, and a lighter continuous paved edge strip runs along the right road edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00080",
+      "statement": "At frame 48, the crowd of spectators along the route wears everyday tops of varying lightness and stands densely packed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00081",
+      "statement": "At frame 48, the crowd of spectators along the route wears everyday tops of varying lightness and stands densely packed; short sleeves, bare forearms, and raised or extended arms are visible nearby, and the people occlude one another from front to back.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00083",
+      "statement": "At frame 48, the metal barriers along the route consist of gray rectangular tubular frames with mesh inside; the panels on the left are arranged along the road, while multiple panels on the right lean toward the strip of soil and partially overlap.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00084",
+      "statement": "At frame 48, the metal barriers along the route consist of gray rectangular tubular-frame barrier panels, arranged along the road on the left, while multiple panels on the right lean toward the strip of soil and partially overlap; nearby tubular frame edges, rectangular mesh, and outward-projecting feet are discernible, and the near-right panel is positioned low and at an angle.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00086",
+      "statement": "At frame 48, the wall beside the track on the right mainly consists of a light yellow-gray plastered wall surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00087",
+      "statement": "At frame 48, the wall beside the track on the right mainly consists of a light yellow-gray plastered wall surface; the surface has two conspicuous white, nearly rectangular painted areas, fine cracks, and a rough damaged area in the lower portion.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00089",
+      "statement": "At frame 48, the residential buildings along the route have rectangular facades, doors, and windows, with exterior walls including orange, light blue, light yellow, and pink.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00090",
+      "statement": "At frame 48, the residential buildings along the route have rectangular facades, doors, and windows, with exterior walls including orange, light blue, light yellow, and pink; some doors and windows have grilles, the eaves and upper-story outer edges are discernible, and there is a metal railing in front of the building in the upper-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00092",
+      "statement": "At frame 48, the sky is blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00093",
+      "statement": "At frame 48, the sky is blue; the visible area in the gap between distant buildings is relatively light, with an even lighter band in places.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00095",
+      "statement": "At frame 48, the strip of bare soil beside the road is a long yellow-brown strip, differing in color from the gray hard track surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00096",
+      "statement": "At frame 48, the strip of bare soil beside the road is a long yellow-brown strip, differing in color from the gray hard track surface; its surface has gravel, dried plant debris, and local unevenness, and it is partially occluded by tilted barriers.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00012",
+      "statement": "At frame 0, Person B's two hands respectively grip the two ends of Vehicle A's handlebars, and the arms and Vehicle A are in the foreground in the lower part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00013",
+      "statement": "At frame 0, the patterned ramp surface with a black background is below and in front of Vehicle A, its near portion is partially occluded by Vehicle A, and it joins the track surface ahead; the track surface runs basically straight downhill through the narrow passage and extends toward the distant residences in the upper-middle part.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        3
+      ],
+      "subject_ids": [
+        "video14_e023",
+        "video14_e007",
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00014",
+      "statement": "At frame 0, the crowd of spectators along the route consists of multiple people arranged along the roadside on the left side of the image, with the metal barriers along the route between the crowd and the track surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e003",
+        "video14_e008",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00015",
+      "statement": "At frame 0, the wall beside the track is on the right side of the image, and the strip of bare soil beside the road extends along the base of the wall, between the wall and the track surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e009",
+        "video14_e018",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00017",
+      "statement": "At frame 0, the vegetation along the route occupies the upper-right part of the image and is above the wall beside the track on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e012",
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00033",
+      "statement": "At frame 0, Person B's arms and Vehicle A's handlebars are in the foreground; the crowd of spectators and metal barriers along the route are on the left side of the image, while the wall beside the track and the vegetation along the route above it are on the right; the patterned ramp surface with a black background is below and in front of Vehicle A and joins the track surface ahead.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007",
+        "video14_e003",
+        "video14_e008",
+        "video14_e009",
+        "video14_e012",
+        "video14_e023"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00018",
+      "statement": "At frame 24, Person B's two hands respectively grip the two ends of Vehicle A's handlebars, and the arms and Vehicle A are in the foreground in the lower part of the image, with the right hand and right arm partially cropped by the lower edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        23,
+        24,
+        25
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00019",
+      "statement": "At frame 24, metal barriers along the route appear along the roadside on both sides of the image; some panels on the right are positioned at an angle on the strip of bare soil beside the road and near the entrance, on the road-facing side of the wall beside the track.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        23,
+        24,
+        25
+      ],
+      "subject_ids": [
+        "video14_e008",
+        "video14_e018",
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00069",
+      "statement": "At frame 24, Person B's visible arms and Vehicle A's handlebars are in the foreground; the crowd of spectators along the route is behind the metal barriers along the route on the left, the strip of bare soil beside the road and the wall beside the track are on the right, some barrier panels are positioned at an angle along the roadside on the right, and the track surface is in the middle.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007",
+        "video14_e003",
+        "video14_e008",
+        "video14_e009",
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00020",
+      "statement": "At frame 48, Person B's visible left hand grips Vehicle A's handlebar, and the left arm and Vehicle A are in the foreground in the lower part of the image and partially cropped by the lower edge, while the right hand is outside the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        47,
+        48
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00021",
+      "statement": "At frame 48, the track surface runs basically straight downhill from the lower center of the image through the narrow passage and extends between the residences on both sides toward the upper-middle part, while the more distant route is occluded by buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e007",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00022",
+      "statement": "At frame 48, the crowd of spectators along the route consists of multiple people arranged from the near-middle ground on the left side of the image into the distance, with the metal barriers along the route between the crowd and the track surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e003",
+        "video14_e008",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_restore00023",
+      "statement": "At frame 48, the wall beside the track extends along the right side of the image, and the strip of bare soil beside the road is between the base of the wall and the track surface; multiple metal barriers along the route lean toward the strip of soil and partially overlap, with a nearby panel occupying the lower-right part.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        47,
+        48
+      ],
+      "subject_ids": [
+        "video14_e008",
+        "video14_e009",
+        "video14_e018",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00099",
+      "statement": "At frame 48, Person B's visible left arm and part of Vehicle A's handlebars are in the foreground; the crowd of spectators along the route is arranged on the left behind the metal barriers along the route, tilted barrier panels are on the strip of bare soil beside the road at the base of the wall beside the track on the right, and the gray track surface is in the middle.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007",
+        "video14_e003",
+        "video14_e008",
+        "video14_e009",
+        "video14_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00031",
+      "statement": "At frame 0, the camera is above and behind Vehicle A's handlebars and above the track surface, looking down on Person B's hands and Vehicle A's handlebars and front wheel.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00031",
+      "statement": "At frame 0, the camera is above and behind Vehicle A's handlebars and above the track surface, looking down on Person B's hands and Vehicle A's handlebars and front wheel.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00067",
+      "statement": "At frame 24, the camera is above and behind Vehicle A's handlebars and above the track surface, looking down on parts of Person B's arms and Vehicle A's handlebars and front wheel.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00067",
+      "statement": "At frame 24, the camera is above and behind Vehicle A's handlebars and above the track surface, looking down on parts of Person B's arms and Vehicle A's handlebars and front wheel.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00097",
+      "statement": "At frame 48, the camera is above and behind Vehicle A's handlebars and above the track surface, looking down on Person B's left hand and part of Vehicle A's handlebars and front wheel.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00097",
+      "statement": "At frame 48, the camera is above and behind Vehicle A's handlebars and above the track surface, looking down on Person B's left hand and part of Vehicle A's handlebars and front wheel.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00032",
+      "statement": "At frame 0, the camera points toward Vehicle A's front wheel and the track surface that continues downhill between the residences beyond the patterned ramp surface with a black background.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e006",
+        "video14_e007",
+        "video14_e023",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00032",
+      "statement": "At frame 0, the camera points toward Vehicle A's front wheel and the track surface that continues downhill between the residences beyond the patterned ramp surface with a black background.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video14_e006",
+        "video14_e007",
+        "video14_e023",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00068",
+      "statement": "At frame 24, the camera points toward Vehicle A's front wheel and the straight downhill track surface leading toward the blue residence ahead.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e006",
+        "video14_e007",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00068",
+      "statement": "At frame 24, the camera points toward Vehicle A's front wheel and the straight downhill track surface leading toward the blue residence ahead.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video14_e006",
+        "video14_e007",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00098",
+      "statement": "At frame 48, the camera points toward Vehicle A's front wheel and the track surface continuing downhill into the distance beside the light-blue residence.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e006",
+        "video14_e007",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00098",
+      "statement": "At frame 48, the camera points toward Vehicle A's front wheel and the track surface continuing downhill into the distance beside the light-blue residence.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 48,
+      "evidence_frames": [
+        48
+      ],
+      "subject_ids": [
+        "video14_e006",
+        "video14_e007",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00100",
+      "statement": "From frames 0 to 48, the camera generally translates forward and downhill along the track surface between the residences, with its world height generally decreasing along the sloping road.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 48,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        24,
+        34,
+        48
+      ],
+      "subject_ids": [
+        "video14_e007",
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00100",
+      "statement": "From frames 0 to 48, the camera generally translates forward and downhill along the track surface between the residences, with its world height generally decreasing along the sloping road.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 48,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        24,
+        34,
+        48
+      ],
+      "subject_ids": [
+        "video14_e007",
+        "video14_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00101",
+      "statement": "From frames 0 to 12, the camera makes a clockwise roll adjustment, and the tilt of the building edges in the image gradually decreases.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 12,
+      "evidence_frames": [
+        0,
+        1,
+        6,
+        11,
+        12
+      ],
+      "subject_ids": [
+        "video14_e009",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00101",
+      "statement": "From frames 0 to 12, the camera makes a clockwise roll adjustment, and the tilt of the building edges in the image gradually decreases.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 12,
+      "evidence_frames": [
+        0,
+        1,
+        6,
+        11,
+        12
+      ],
+      "subject_ids": [
+        "video14_e009",
+        "video14_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_a030",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 48,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        48
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video14_cp009_a030",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 48,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        48
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video14_cp009_r00102",
+      "statement": "From frames 0 to 48, Person B and Vehicle A pass over the patterned ramp surface with a black background at the beginning of the clip, then travel basically straight downhill along the gray track surface between the residences.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 48,
+      "evidence_frames": [
+        0,
+        1,
+        3,
+        4,
+        24,
+        48
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e023",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00102",
+      "statement": "From frames 0 to 48, Person B and Vehicle A pass over the patterned ramp surface with a black background at the beginning of the clip, then travel basically straight downhill along the gray track surface between the residences.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 48,
+      "evidence_frames": [
+        0,
+        1,
+        3,
+        4,
+        24,
+        48
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006",
+        "video14_e023",
+        "video14_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video14_cp009_r00103",
+      "statement": "From frames 0 to 48, Person B travels downhill with Vehicle A and, in frames where both hands are visible, respectively grips the two ends of the handlebars, with the arm posture changing as the handlebars move up and down; during some intervals, the right hand or arm is cropped by the frame, and no assertion is made about its contact state outside the frame.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 48,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        17,
+        18,
+        19,
+        20,
+        24,
+        31,
+        32,
+        33,
+        34,
+        46,
+        47,
+        48
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video14_cp009_r00103",
+      "statement": "From frames 0 to 48, Person B travels downhill with Vehicle A and, in frames where both hands are visible, respectively grips the two ends of the handlebars, with the arm posture changing as the handlebars move up and down; during some intervals, the right hand or arm is cropped by the frame, and no assertion is made about its contact state outside the frame.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 48,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        17,
+        18,
+        19,
+        20,
+        24,
+        31,
+        32,
+        33,
+        34,
+        46,
+        47,
+        48
+      ],
+      "subject_ids": [
+        "video14_e005",
+        "video14_e006"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    24,
+    48
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "6b4ec362028ab0eabd4da6369975eb3486453ba4bbfe47ef7746ee18bdc2925b"
+}

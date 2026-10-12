@@ -1,0 +1,53 @@
+Autonomously reconstruct the provided reference video as a 3D video in Blender 5.2.
+
+Reference video:
+<VIDEO_PATH>
+
+Output directory:
+<OUTPUT_DIR>
+
+Core objective:
+Use simple geometric proxies to accurately preserve the main subjects, spatial relations, motion, interaction events, and camera changes in the reference, without pursuing realistic appearance detail.
+
+Modeling requirements:
+
+1. Represent the main subjects and environment using a small number of cubes, spheres, cylinders, cones, planes, or simple combinations. Do not approximate detailed modeling by stacking many tiny primitives.
+2. Preserve main-subject counts, persistent correspondence, coarse length/width/height proportions, relative size, positions, and orientations. Use simple materials to match major colors and color differences needed to distinguish subjects.
+3. Separate moving parts when necessary to express a pose, action, or interaction. Shape simplification is allowed, but do not replace all clearly visible articulated actions with whole-object rigid motion or lose key events through simplification.
+4. Do not create detailed category-specific shapes, facial features, detailed clothing, textures, or decorations. Simplified proxy appearance is not an error that requires correction.
+
+Execution requirements:
+
+1. Actually inspect and edit the scene through Blender MCP; do not provide only a plan or code.
+2. Analyze the reference video independently. You may use local video, image, and other auxiliary tools; choose your own analysis method and reference preparation.
+3. Accurately preserve the number and persistent correspondence of main subjects, spatial and occlusion relations, support and contact, entries and exits, motion directions, starts and stops, turns, interactions, and event order.
+4. Match the reference frame rate, frame count, duration, and timeline.
+5. Camera-induced composition, perspective, image motion, subject positions and sizes in the image, and shot transitions must align nearly completely with the reference. Do not replace necessary camera changes with incorrect subject translation or scaling.
+6. Construct the scene from editable 3D objects. Do not use the original video or reference frames as the final image, background, or projected image surfaces in place of 3D reconstruction.
+7. Render with Cycles on a CUDA GPU with denoising enabled. Use the reference resolution and aspect ratio for the final output; do not upscale a low-resolution render. Test renders may use a lower resolution.
+8. Do not call external asset or generation services. Do not read, reuse, or modify other tasks' outputs. Do not read evaluation-side annotations, ground truth, evaluation clips, question banks, or answers.
+9. Every reconstructed frame must correspond to the same time in the original video, matching the subject state, action phase, interaction, and camera composition at that moment. Do not hide discrepancies using temporal shifts, speed changes, frame interpolation, or repeated frames.
+10. Strictly match subjects' image-left/image-right positions, orientations, motion directions, and interactions. Distinguish image directions from subjects' anatomical directions and maintain correct correspondence across camera changes. Do not mirror or reverse left and right.
+
+Inspection and completion requirements:
+
+1. Call get_scene_info before starting. Inspect the scene and obtain screenshots after substantial changes.
+2. Select images or intervals covering all shots, main state changes, and key events; compare them with the original at the same time positions.
+3. Check subject counts, coarse proportions, positions, orientations, spatial relations, occlusions, main actions, interactions, camera composition, shot cuts, and timing.
+4. Correct errors within the above scope and compare again until requirements are met. Do not substitute lowered requirements, skipped checks, or statements of limitations for correction.
+5. End only after completing all requirements. Creating files, performing checks, or completing a certain number of rounds does not by itself mean completion.
+6. Finally call get_scene_info again and capture a screenshot. Confirm the scene meets the requirements, all deliverables exist and are nonempty, and the video decodes with the correct timeline.
+
+Required deliverables:
+
+- <OUTPUT_DIR>/scene.blend
+- <OUTPUT_DIR>/reconstruction.mp4
+- <OUTPUT_DIR>/comparison/original_vs_reconstruction.mp4
+- <OUTPUT_DIR>/comparison/original_vs_reconstruction_contact_sheet.jpg
+- <OUTPUT_DIR>/report.md
+
+Place the original video on the left and the reconstruction on the right in the comparison video. Synchronize their timelines, preserve aspect ratios without stretching, and label them ORIGINAL and RECONSTRUCTION.
+
+Briefly record the implementation, inspection evidence, revisions, and final verification in the report. The report cannot replace actual corrections or justify ending the task early.
+
+Do not ask the user for guidance or stop at planning. Complete all requirements autonomously before ending the task.

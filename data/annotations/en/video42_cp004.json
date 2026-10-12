@@ -1,0 +1,883 @@
+{
+  "clip_id": "video42_cp004",
+  "video_id": "video42",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 46,
+  "source_frame_offset": 154,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video42_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The person positioned above another person and leaning forward, with loose light-blond hair and darker roots, wearing an olive-green long-sleeved top; their arm is in contact with Person B's upper body."
+    },
+    {
+      "source_entity_id": "video42_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The person leaning against the sofa, with both legs extended toward the lower left of the image; wearing a light beige long-sleeved top and light-colored trousers, with light-colored hair; their face is initially occluded by Person A and is subsequently clearly revealed."
+    },
+    {
+      "source_entity_id": "video42_e009",
+      "name": "floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The brown indoor floor area beneath the people's feet and in front of the sofa."
+    },
+    {
+      "source_entity_id": "video42_e010",
+      "name": "scattered debris",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "A collection of light-colored, irregular fragments scattered across the floor, excluding furniture and clothing."
+    },
+    {
+      "source_entity_id": "video42_e011",
+      "name": "sofa",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The sitting and reclining furniture against which the indoor person is leaning, including the sofa itself, a light-brown cushion, a green rumpled cover, and a multicolored striped covering."
+    },
+    {
+      "source_entity_id": "video42_e013",
+      "name": "wooden storage cabinet",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The small brown cabinet/countertop against the wall, with a disc, cup, bottles and jars, and a lamp placed on it."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "S:video42_cp004_i0001",
+      "statement": "At frame 0, the identifiable people are Person A and Person B, 2 people in total.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0006",
+      "statement": "At frame 0, the floor is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0009",
+      "statement": "At frame 0, the scattered debris is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e010"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0012",
+      "statement": "At frame 0, the sofa is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0015",
+      "statement": "At frame 0, the wooden storage cabinet is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e013"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0024",
+      "statement": "At frame 46, the identifiable people are Person A and Person B, 2 people in total.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0029",
+      "statement": "At frame 46, the floor is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0032",
+      "statement": "At frame 46, the scattered debris is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e010"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0035",
+      "statement": "At frame 46, the sofa is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0002",
+      "statement": "At frame 0, Person A's loose light-blond hair, olive-green long-sleeved top, and dark-colored lower garment are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0003",
+      "statement": "At frame 0, Person A's loose light-blond hair, olive-green long-sleeved top, and dark-colored lower garment are visible. The roots are darker, the hair spreads forward while Person A leans forward, and the sleeves have bent creases.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0004",
+      "statement": "At frame 0, Person B is wearing a light beige long-sleeved top and light-colored trousers, and their head is partially occluded by Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e002",
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0005",
+      "statement": "At frame 0, Person B is wearing a light beige long-sleeved top and light-colored trousers, and their head is partially occluded by Person A. The visible trouser legs have longitudinal creases and creases at the bends.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e002",
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0007",
+      "statement": "At frame 0, the floor is a brown textured surface with repeated short diagonal lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0008",
+      "statement": "At frame 0, the floor is a brown textured surface with repeated short diagonal lines. The short-line patterns are arranged in groups oriented in different directions, with light-colored worn patches in some areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0010",
+      "statement": "At frame 0, the scattered debris consists of several light-colored, irregular small pieces on the floor.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e010",
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0011",
+      "statement": "At frame 0, the scattered debris consists of several light-colored, irregular small pieces on the floor. The fragment edges are jagged, and their sizes range from tiny bits to larger light-colored pieces.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e010",
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0013",
+      "statement": "At frame 0, the sofa has a light-brown cushion, a green cover, and a red, green, and brown striped covering.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0014",
+      "statement": "At frame 0, the sofa has a light-brown cushion, a green cover, and a red, green, and brown striped covering. The cushion is creased under the person's weight, the green cover is bunched up, and the edge of the striped covering hangs down.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0016",
+      "statement": "At frame 0, a brown portion of the wooden storage cabinet is visible in the upper-right corner of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e013"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0017",
+      "statement": "At frame 0, a brown portion of the wooden storage cabinet is visible in the upper-right corner of the image. The cabinet surface has clear straight edges, and a dark area inside forms a small recessed outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e013"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0025",
+      "statement": "At frame 46, Person A's loose light-blond hair and olive-green long-sleeved top are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0026",
+      "statement": "At frame 46, Person A's loose light-blond hair and olive-green long-sleeved top are visible. The roots are darker than the ends, and the sleeve forms multiple folds along the bent arm.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0027",
+      "statement": "At frame 46, Person B's light-colored, close-cropped hairstyle, light beige long-sleeved top, and light-colored trousers are visible, and their face is revealed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0028",
+      "statement": "At frame 46, Person B's light-colored, close-cropped hairstyle, light beige long-sleeved top, and light-colored trousers are visible, and their face is revealed. The top has overlapping front panels and a fold line at the collar, there are fine strands of hair over the forehead, and the sleeve on the lower side of the image has a thin red line near the cuff.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0030",
+      "statement": "At frame 46, the floor is a brown textured surface, and the repeated short diagonal lines are clear.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0031",
+      "statement": "At frame 46, the floor is a brown textured surface, and the repeated short diagonal lines are clear. Short lines oriented in different directions form a grouped, joined pattern, and the surface has small worn patches in some areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0033",
+      "statement": "At frame 46, the scattered debris consists of light-colored bits and irregular small pieces on the floor.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e010",
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0034",
+      "statement": "At frame 46, the scattered debris consists of light-colored bits and irregular small pieces on the floor. Larger fragments are scattered among the fine particles.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e010",
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0036",
+      "statement": "At frame 46, the sofa has a light-brown cushion, a green rumpled cover, and a multicolored striped covering.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0037",
+      "statement": "At frame 46, the sofa has a light-brown cushion, a green rumpled cover, and a multicolored striped covering. The cushion forms multiple long creases, the green fabric is folded into pointed corners, and red, green, and brown bands interweave in the covering.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0018",
+      "statement": "At frame 0, Person B's upper body leans back against the sofa cushion, with both legs extended toward the lower left of the image; Person A is above Person B and leaning forward.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0019",
+      "statement": "At frame 0, Person A's head and arm occlude part of Person B's upper body, and their bodies remain in contact.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0020",
+      "statement": "At frame 0, the scattered debris is on the floor to the image-left of the sofa.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e009",
+        "video42_e010",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0021",
+      "statement": "At frame 0, part of the wooden storage cabinet is to the image-upper-right of the sofa.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e011",
+        "video42_e013"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0038",
+      "statement": "At frame 46, Person B's back is supported by the sofa cushion, their face is oriented upward, and both legs extend toward the lower left of the image; Person A is to the image-upper-left of Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0039",
+      "statement": "At frame 46, one of Person A's hands is in contact near Person B's upper chest, and Person A's body is leaning forward; one of Person B's arms hangs down toward the bottom of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0040",
+      "statement": "At frame 46, Person A's arm lies across the front of Person B's upper body, partially occluding Person B's upper body.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0041",
+      "statement": "At frame 46, the scattered debris is distributed across the exposed floor to the left of the sofa.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e009",
+        "video42_e010",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0022",
+      "statement": "At frame 0, the camera is above the sofa and the two people, viewing them from a nearly vertical overhead angle.",
+      "category": "camera_position",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0042",
+      "statement": "At frame 46, the camera is above the sofa, still viewing the two people from a high overhead angle.",
+      "category": "camera_position",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0023",
+      "statement": "At frame 0, the camera is directed toward the two people on the sofa and the location where their upper bodies are in contact.",
+      "category": "camera_target",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0043",
+      "statement": "At frame 46, the camera is directed toward Person B's face and upper body and the location where Person A is in contact with Person B.",
+      "category": "camera_target",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0046",
+      "statement": "From frame 0 through frame 46, the number of cuts in this clip is 0.",
+      "category": "cut_count",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        23,
+        46
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "S:video42_cp004_i0044",
+      "statement": "From frame 0 through frame 16, Person B's upper body continues to lean back against the sofa cushion and gradually stabilizes, while Person A remains leaning forward; Person B's face emerges from behind the occlusion by Person A's head.",
+      "category": "action_event",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        8,
+        16
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp004_i0045",
+      "statement": "From frame 16 through frame 40, Person A's hand first lifts toward the side of Person B's head, then returns to near Person B's upper chest; Person B's head turns slightly with the contact.",
+      "category": "action_event",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 40,
+      "evidence_frames": [
+        16,
+        28,
+        40
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [],
+  "evaluation_cut_frames": [],
+  "source_sha256": "ca7d376a74fa4ae5cd882270619e25dc674014feb39eb758db4544838d80f9e5"
+}

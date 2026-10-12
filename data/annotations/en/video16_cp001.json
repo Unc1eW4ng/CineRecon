@@ -1,0 +1,1494 @@
+{
+  "clip_id": "video16_cp001",
+  "video_id": "video16",
+  "fps": 25.0,
+  "start_frame": 0,
+  "end_frame": 16,
+  "source_frame_offset": 0,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video16_e001",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The boxy taxi that is continuously followed, identifiable by its red body, beige illuminated roof, light-colored side panels, and white roof light."
+    },
+    {
+      "source_entity_id": "video16_e002",
+      "name": "longitudinal main road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray-brown multilane road surface extending through the frame, with visible white dashed lines, yellow crosswalk stripes, and road-surface seams."
+    },
+    {
+      "source_entity_id": "video16_e003",
+      "name": "line of roadside vehicles on the right",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The set of background vehicles arranged longitudinally along the curb on the right, excluding Vehicle A, Vehicle C, and Vehicle D."
+    },
+    {
+      "source_entity_id": "video16_e014",
+      "name": "building facades along the street",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The partially visible pinkish-brown vertical wall surface at the right edge, with dark openings and projecting horizontal components."
+    },
+    {
+      "source_entity_id": "video16_e017",
+      "name": "roadside sidewalk",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The long, narrow pedestrian pavement extending along the curb on the left side of the road, partially affected by cyan-blue illumination."
+    },
+    {
+      "source_entity_id": "video16_e019",
+      "name": "Vehicle C",
+      "numbered": true,
+      "first_appearance_frame": 6,
+      "identification": "The low blue-gray sedan in the lane to the image-left of Vehicle A, with a dark rear window, yellow rear plate, and curved taillights."
+    },
+    {
+      "source_entity_id": "video16_e020",
+      "name": "Vehicle D",
+      "numbered": true,
+      "first_appearance_frame": 9,
+      "identification": "The light-colored, boxy van in the lane on the left, with a warm-yellow illuminated roof, dark rectangular rear window, and yellow rear plate."
+    },
+    {
+      "source_entity_id": "video16_e028",
+      "name": "road sign with a white arrow on a blue background",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The blue road sign on the right side of the road, with a white arrow pointing toward the top of the sign face."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video16_cp001_restore00009",
+      "statement": "At frame 0, there is one Vehicle A in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a005",
+      "statement": "At frame 0, Vehicle A appears clearly in the lower-central part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a009",
+      "statement": "At frame 0, the longitudinal main road is clearly visible and occupies most of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00025",
+      "statement": "At frame 0, the roadside sidewalk is exposed as a narrow strip at the left edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00037",
+      "statement": "At frame 6, the road sign with a white arrow on a blue background is partially visible at the lower-right edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 6,
+      "end_frame": 6,
+      "evidence_frames": [
+        5,
+        6
+      ],
+      "subject_ids": [
+        "video16_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00042",
+      "statement": "At frame 6, the longitudinal main road is visible in the center and on both sides of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 6,
+      "end_frame": 6,
+      "evidence_frames": [
+        6
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00033",
+      "statement": "At frame 12, the rear and part of the side of Vehicle D are exposed at the left edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        11,
+        12
+      ],
+      "subject_ids": [
+        "video16_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00045",
+      "statement": "At frame 12, the longitudinal main road is visible in the center and on both sides of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00015",
+      "statement": "At frame 16, one Vehicle A and one Vehicle C are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00016",
+      "statement": "At frame 16, four vehicles in the line of roadside vehicles on the right are visible, of which the lowest one exposes only part of its roof.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video16_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00022",
+      "statement": "At frame 16, one Vehicle D is partially exposed at the left edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video16_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a015",
+      "statement": "At frame 16, Vehicle A appears clearly slightly below the center of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a019",
+      "statement": "At frame 16, the longitudinal main road appears clearly in the center and on the left side of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a023",
+      "statement": "At frame 16, the line of roadside vehicles on the right appears clearly at the right edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00014",
+      "statement": "At frame 16, Vehicle C is in the lower part of the frame, to the image-left of Vehicle A.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e019",
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00018",
+      "statement": "At frame 16, part of the wall surface of the building facades along the street appears at the right edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00029",
+      "statement": "At frame 16, the roadside sidewalk is exposed as a narrow strip at the left edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00001",
+      "statement": "At frame 0, Vehicle A is a boxy sedan with a red body, beige roof, and light-colored side panels; its rear faces the camera, and its front points toward the top of the frame and slightly to the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00002",
+      "statement": "At frame 0, Vehicle A is a boxy sedan whose red body, beige roof, and light-colored side panels form clearly distinct sections; its rear faces the camera, and its front points toward the top of the frame and slightly to the right. Its white roof light, dark rear window, yellow rear plate, red lights at both ends of the rear, black rear bumper, side mirror, and blue-green reflections are identifiable.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00010",
+      "statement": "At frame 0, the longitudinal main road has a broad, dark gray-brown surface, with yellow crosswalk stripes arranged transversely across the lanes. The lanes are visible extending in a straight line from the bottom edge of the frame toward the upper part and slightly to the right, and the straight road is cut off at the top edge of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00011",
+      "statement": "At frame 0, the longitudinal main road is a broad, dark gray-brown road surface; rows of thick yellow crosswalk stripes, short white dashed lane lines, longitudinal and transverse seams, and small light-colored dot markings are visible, and the whole road is illuminated by warm yellow light. The lanes extend in a straight line from the bottom edge of the frame toward the upper part and slightly to the right, and the straight road is cut off at the top edge of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00026",
+      "statement": "At frame 0, the visible part of the roadside sidewalk is a long, narrow, gray-toned pavement extending along the edge of the road, locally illuminated by cyan-blue light.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00027",
+      "statement": "At frame 0, the visible part of the roadside sidewalk is a long, narrow, gray-toned pavement extending along the edge of the road, locally illuminated by cyan-blue light; the side nearer the road adjoins the curb and a yellow edge line, while its outer side is cut off by the left edge of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00038",
+      "statement": "At frame 6, a white upward-pointing arrow is visible on the partially visible blue face of the road sign with a white arrow on a blue background, and the lower part of the sign face is cut off by the bottom edge of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 6,
+      "end_frame": 6,
+      "evidence_frames": [
+        6
+      ],
+      "subject_ids": [
+        "video16_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00039",
+      "statement": "At frame 6, the front face of the road sign with a white arrow on a blue background has a white vertical arrow on a blue background, with the arrow tip pointing toward the top of the sign face; the lower part of the sign face is cut off by the frame boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 6,
+      "end_frame": 6,
+      "evidence_frames": [
+        6
+      ],
+      "subject_ids": [
+        "video16_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00043",
+      "statement": "At frame 6, the longitudinal main road is a gray-brown multilane road surface with prominent white dashed lines; the lanes extend in a straight line from the bottom edge of the frame toward the upper part and slightly to the right, and both their near and far ends are cut off at the frame boundaries.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 6,
+      "end_frame": 6,
+      "evidence_frames": [
+        6
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00044",
+      "statement": "At frame 6, the longitudinal main road is a gray-brown asphalt surface; short white dashed lines, longitudinal seams, transverse illuminated color bands, and a yellow roadside edge line are identifiable. The lanes extend straight from the bottom edge of the frame toward the upper part and slightly to the right; the visible section is straight, and both its near and far ends terminate at the frame boundaries.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 6,
+      "end_frame": 6,
+      "evidence_frames": [
+        6
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00034",
+      "statement": "At frame 12, Vehicle D is a light-colored van with a relatively tall body and boxy outline, with its rear facing the camera.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video16_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00035",
+      "statement": "At frame 12, Vehicle D is a light-colored van with a relatively tall body and boxy outline, with its rear facing the camera; its beige-yellow illuminated roof, large dark rectangular rear window, yellow rear plate, and vertical taillight on the visible side are identifiable, and the image-left side of its body is cut off by the boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video16_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00046",
+      "statement": "At frame 12, the longitudinal main road is a gray-brown multilane road surface with prominent white dashed lines; the lanes extend in a straight line from the bottom edge of the frame toward the upper part and slightly to the right, and both their near and far ends are cut off at the frame boundaries.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00047",
+      "statement": "At frame 12, the longitudinal main road is a gray-brown multilane road surface; short white dashed lines, longitudinal seams, transverse illuminated color bands, and local cyan-blue reflections are visible, and there is also a partial yellow-green edge line along the curb on the right. The lanes extend straight from the bottom edge of the frame toward the upper part and slightly to the right; the visible section is straight, and both its near and far ends are cut off at the frame boundaries.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a016",
+      "statement": "At frame 16, Vehicle A is a boxy taxi with a red body, beige roof, and light-colored side panels illuminated by cyan light, with its rear facing the camera.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00003",
+      "statement": "At frame 16, Vehicle A is a boxy taxi with a red body, beige roof, and light-colored side panels illuminated by cyan light, with its rear facing the camera; its small white roof light, dark rear window, yellow rear plate, paired taillights, black rear bumper, and cyan reflections on the side of the vehicle are identifiable.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00004",
+      "statement": "At frame 16, the line of roadside vehicles on the right consists, arranged longitudinally, of a white passenger car at the top, a light-colored multipurpose passenger vehicle in the middle, a sedan with a red body and light-colored roof below, and, at the very bottom edge, a vehicle exposing only part of its cyan-blue illuminated roof.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00005",
+      "statement": "At frame 16, the line of roadside vehicles on the right consists from top to bottom of a white passenger car, a light-colored multipurpose passenger vehicle with its roof illuminated by cyan light, a sedan with a red body and light-colored roof, and a vehicle at the bottom edge exposing only part of its cyan-blue illuminated roof; dark rear windows and yellow rear plates are identifiable on all three upper vehicles, and the rear of the red sedan remains within the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00012",
+      "statement": "At frame 16, the longitudinal main road is a gray-brown multilane road surface, with prominent white dashed lines and large transverse light-colored bands. The lanes extend straight from the lower part of the frame toward the upper part and slightly to the right, continuing to the frame boundaries at both the top and bottom.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00013",
+      "statement": "At frame 16, the longitudinal main road is a gray-brown multilane road surface; rows of white dashed lines, large transverse light-colored bands, longitudinal seams, and blue-purple reflections are visible. The lanes extend straight from the lower part of the frame toward the upper part and slightly to the right, continuing to the frame boundaries at both the top and bottom.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00015",
+      "statement": "At frame 16, Vehicle C is a low blue-gray sedan with its rear facing the camera and its roof illuminated by warm yellow light.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00016",
+      "statement": "At frame 16, Vehicle C is a low blue-gray sedan with its rear facing the camera and its roof illuminated by warm yellow light; its dark rear window, yellow rear plate, curved taillights, side mirrors on both sides, and blue reflections on the body are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00019",
+      "statement": "At frame 16, the building facades along the street appear at the right edge of the frame as a vertical pinkish-brown wall surface with dark projecting components.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00020",
+      "statement": "At frame 16, the building facades along the street appear at the right edge as a vertical pinkish-brown wall surface, with partially visible dark openings and projecting horizontal components; some edges are illuminated by cyan light.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00030",
+      "statement": "At frame 16, the visible part of the roadside sidewalk is a long, narrow, gray-toned pavement extending along the edge of the road, locally illuminated by cyan-blue light.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00031",
+      "statement": "At frame 16, the visible part of the roadside sidewalk is a long, narrow, gray-toned pavement extending along the edge of the road, locally illuminated by cyan-blue light; the side nearer the road adjoins the curb and a yellow edge line, while its outer side is cut off by the left edge of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00010",
+      "statement": "At frame 0, Vehicle A is in the lower-central part of the frame and is supported by the longitudinal main road; the front of the vehicle enters the transverse crosswalk area, while its rear is image-below that area, with its front pointing toward the top of the frame and slightly to the right and its rear facing the camera.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00011",
+      "statement": "At frame 0, the longitudinal main road occupies the main part of the frame and extends continuously in a straight line from the bottom edge of the frame toward the upper part and slightly to the right, with both its near and far ends cut off at the frame boundaries.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00012",
+      "statement": "At frame 0, part of the roadside sidewalk is to the image-left of the longitudinal main road and is exposed at the upper-left edge of the frame, with its outer side cut off by the left edge of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e017",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a012",
+      "statement": "At frame 0, the longitudinal main road spreads beneath Vehicle A and extends toward the top of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00006",
+      "statement": "At frame 0, the front of Vehicle A extends into the yellow-striped area of the longitudinal main road, while its rear faces the camera and is image-below the striped area.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00028",
+      "statement": "At frame 0, the roadside sidewalk is to the image-left of the longitudinal main road.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e017",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00013",
+      "statement": "At frame 6, Vehicle A is slightly below the image center on the longitudinal main road; the rear part of the vehicle straddles the boundary between adjacent lanes, and its front points toward the top of the frame and slightly to the right.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 6,
+      "end_frame": 6,
+      "evidence_frames": [
+        6
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00014",
+      "statement": "At frame 12, Vehicle D, Vehicle C, and Vehicle A occupy three separate lanes from image-left to image-right on the longitudinal main road; Vehicle D is image-above and image-left of Vehicle C, and Vehicle C is image-above and image-left of Vehicle A. The rear of Vehicle D faces the camera, and part of its body is cut off by the left edge of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video16_e020",
+        "video16_e019",
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00036",
+      "statement": "At frame 12, Vehicle D is image-above and image-left of Vehicle C.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video16_e020",
+        "video16_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00017",
+      "statement": "At frame 16, Vehicle A and Vehicle C are supported by the longitudinal main road and occupy adjacent lanes; Vehicle A is image-above and image-right of Vehicle C and to the image-left of the line of roadside vehicles on the right. The fronts of both Vehicle A and Vehicle C point toward the top of the frame, and their rears face the camera.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e019",
+        "video16_e003",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00018",
+      "statement": "At frame 16, the line of roadside vehicles on the right is arranged longitudinally along the image-right edge of the longitudinal main road; only part of the roof of the lowest vehicle is exposed at the bottom edge of the frame, with most of its body outside the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video16_e003",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00019",
+      "statement": "At frame 16, the longitudinal main road spreads across the center and left side of the frame and extends continuously in a straight line from the bottom edge of the frame toward the upper part and slightly to the right, with both its near and far ends continuing to the frame boundaries.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00020",
+      "statement": "At frame 16, the building facades along the street are to the image-right of the line of roadside vehicles on the right, partially exposed at the right edge of the frame and cut off by that edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e014",
+        "video16_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_restore00021",
+      "statement": "At frame 16, part of the roadside sidewalk extends along the image-left side of the longitudinal main road and is exposed at the upper-left edge of the frame, with its outer side cut off by the left edge of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video16_e017",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00007",
+      "statement": "At frame 16, Vehicle A is to the image-right of Vehicle C and to the image-left of the line of roadside vehicles on the right, in the traffic lane between them.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e019",
+        "video16_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00008",
+      "statement": "At frame 16, the longitudinal main road spreads beneath Vehicle A, and the visible traffic lanes are to the image-left of the line of roadside vehicles on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e001",
+        "video16_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00009",
+      "statement": "At frame 16, the line of roadside vehicles on the right is arranged along the right edge of the longitudinal main road and is to the image-right of Vehicle A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e003",
+        "video16_e002",
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00017",
+      "statement": "At frame 16, Vehicle C and Vehicle A occupy adjacent lanes respectively, with Vehicle C on the image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e019",
+        "video16_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00021",
+      "statement": "At frame 16, the building facades along the street are to the image-right of the line of roadside vehicles on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e014",
+        "video16_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00032",
+      "statement": "At frame 16, the roadside sidewalk is to the image-left of the longitudinal main road.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e017",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_a003",
+      "statement": "At frame 0, the camera is positioned above the longitudinal main road and looks obliquely downward at the road; Vehicle A and the longitudinal main road are both within the field of view in front of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a003",
+      "statement": "At frame 0, the camera is positioned above the longitudinal main road and looks obliquely downward at the road; Vehicle A and the longitudinal main road are both within the field of view in front of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_a013",
+      "statement": "At frame 16, the camera is positioned above the longitudinal main road and looks obliquely downward at the road; Vehicle A and the longitudinal main road are both within the field of view in front of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a013",
+      "statement": "At frame 16, the camera is positioned above the longitudinal main road and looks obliquely downward at the road; Vehicle A and the longitudinal main road are both within the field of view in front of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_a004",
+      "statement": "At frame 0, the camera is aimed toward the area containing Vehicle A and the longitudinal main road.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a004",
+      "statement": "At frame 0, the camera is aimed toward the area containing Vehicle A and the longitudinal main road.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_a014",
+      "statement": "At frame 16, the camera is aimed toward the area containing Vehicle A and the longitudinal main road.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a014",
+      "statement": "At frame 16, the camera is aimed toward the area containing Vehicle A and the longitudinal main road.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 16,
+      "evidence_frames": [
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_r00041",
+      "statement": "From frame 0 through frame 16, the camera tilts upward relative to its orientation at the start of this interval, and the framing shifts along the longitudinal main road toward a more distant area.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        4,
+        6,
+        10,
+        12,
+        16
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00041",
+      "statement": "From frame 0 through frame 16, the camera tilts upward relative to its orientation at the start of this interval, and the framing shifts along the longitudinal main road toward a more distant area.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        4,
+        6,
+        10,
+        12,
+        16
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_a001",
+      "statement": "From frame 0 through frame 4, the camera noticeably zooms out; fixed road-surface markings such as the yellow crosswalk stripes decrease in image scale, and the field of view expands.",
+      "category": "camera_zoom",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 4,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        12,
+        16
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_a001",
+      "statement": "From frame 0 through frame 4, the camera noticeably zooms out; fixed road-surface markings such as the yellow crosswalk stripes decrease in image scale, and the field of view expands.",
+      "category": "camera_zoom",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 4,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        12,
+        16
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp001_a002",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video16_cp001_a002",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video16_cp001_r00040",
+      "statement": "From frame 0 through frame 16, Vehicle A drives forward along the longitudinal main road, passes through the yellow-striped area, and crosses one white dashed lane line toward the vehicle's own right side; by frame 11, it has entered the adjacent lane to the right of Vehicle C, and during the final segment it continues forward along that lane.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002",
+        "video16_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp001_r00040",
+      "statement": "From frame 0 through frame 16, Vehicle A drives forward along the longitudinal main road, passes through the yellow-striped area, and crosses one white dashed lane line toward the vehicle's own right side; by frame 11, it has entered the adjacent lane to the right of Vehicle C, and during the final segment it continues forward along that lane.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "subject_ids": [
+        "video16_e001",
+        "video16_e002",
+        "video16_e019"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    6,
+    12,
+    16
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "6e64254a6b8ba89369ccd7ddd9678e383d14a04eca349e0f30af7ac1a1685463"
+}

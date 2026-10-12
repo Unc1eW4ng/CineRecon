@@ -1,0 +1,1900 @@
+{
+  "clip_id": "video23_cp009",
+  "video_id": "video23",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 52,
+  "source_frame_offset": 721,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video23_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A gun-carrying person who continuously moves in the foreground, with short brown hair, wearing a dark blue-gray top and brown trousers, with a brown shoulder strap across the back."
+    },
+    {
+      "source_entity_id": "video23_e003",
+      "name": "shop stall with a red roller shutter",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The partially visible shop stall at the right edge of the opening frame, featuring a red panel, light-colored frame strips, and a partially visible gray roller shutter."
+    },
+    {
+      "source_entity_id": "video23_e005",
+      "name": "wet flagstone passageway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray-brown paved passageway in front of the steps and to the image-right of the market hall, with irregular dark patches and localized reflections on its surface."
+    },
+    {
+      "source_entity_id": "video23_e007",
+      "name": "group of people lying in front of the steps",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Uses the shared set ID, referring to the people lying beside the wooden-slat partition and near the blue-and-white steps."
+    },
+    {
+      "source_entity_id": "video23_e010",
+      "name": "blue-and-white steps",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The wide, multilevel steps connecting the lower passageway to the market platform, with small alternating blue and white square tiles arranged on the risers."
+    },
+    {
+      "source_entity_id": "video23_e013",
+      "name": "Weapon D",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The long gun held by Person A, with a dark gun body, a yellow-brown front section, and a clearly visible hanging sling at the rear."
+    },
+    {
+      "source_entity_id": "video23_e014",
+      "name": "wooden-slat partition",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The tall partition on the image-left in the opening frame, composed of yellow-brown horizontal slats, darker vertical framing, and open gaps between the slats."
+    },
+    {
+      "source_entity_id": "video23_e015",
+      "name": "raised market hall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The open market area above the blue-and-white steps, where light-colored square columns, dark counters, and goods are visible."
+    },
+    {
+      "source_entity_id": "video23_e022",
+      "name": "market container",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A set entity including the blue-green bucket at the lower left, the yellow bucket in front of the counter, and the blue-green container on the image-right of the upper passageway."
+    },
+    {
+      "source_entity_id": "video23_e034",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 20,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "The large dark vehicle approaching from the distant passageway on the image-right of the market hall, with its broad, thick front gradually emerging from behind the distant yellow-green wooden rack."
+    },
+    {
+      "source_entity_id": "video23_e035",
+      "name": "distant yellow-green wooden rack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The yellow-green strip-like frame in the distance on the image-right of the market hall, which gradually tilts and comes apart as Vehicle A advances."
+    },
+    {
+      "source_entity_id": "video23_e036",
+      "name": "distant collision smoke and dust",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray cloud appearing near Vehicle A and the distant yellow-green wooden rack."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video23_cp009_restore00011",
+      "statement": "At frame 0, Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00003",
+      "statement": "At frame 0, Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00006",
+      "statement": "At frame 0, the shop stall with a red roller shutter is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00009",
+      "statement": "At frame 0, the wet flagstone passageway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00012",
+      "statement": "At frame 0, two people in the group of people lying in front of the steps are clearly visible, lying beside the wooden-slat partition and near the blue-and-white steps, respectively.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e007",
+        "video23_e014",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00015",
+      "statement": "At frame 0, the blue-and-white steps are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00018",
+      "statement": "At frame 0, Weapon D held by Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video23_e013",
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00021",
+      "statement": "At frame 0, the wooden-slat partition is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00024",
+      "statement": "At frame 0, the raised market hall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00027",
+      "statement": "At frame 0, the blue-green bucket-shaped container among the market containers is visible beneath the wooden-slat partition.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e022",
+        "video23_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00020",
+      "statement": "At frame 52, Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00038",
+      "statement": "At frame 52, Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00041",
+      "statement": "At frame 52, the wet flagstone passageway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00044",
+      "statement": "At frame 52, one person in the group of people lying in front of the steps is partially visible at the lower-right corner of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        51,
+        52
+      ],
+      "subject_ids": [
+        "video23_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00047",
+      "statement": "At frame 52, the blue-and-white steps are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00050",
+      "statement": "At frame 52, Weapon D held by Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e013",
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00053",
+      "statement": "At frame 52, the raised market hall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00056",
+      "statement": "At frame 52, the yellow bucket in front of the counter and the blue-green bucket-shaped container at the upper-right side of the image among the market containers are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00059",
+      "statement": "At frame 52, Vehicle A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00062",
+      "statement": "At frame 52, the distant yellow-green wooden rack is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00065",
+      "statement": "At frame 52, the distant collision smoke and dust is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e036"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00004",
+      "statement": "At frame 0, Person A wears a dark blue-gray top and brown trousers, has a brown shoulder strap across the back, and steps forward with their back to the camera.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00005",
+      "statement": "At frame 0, Person A has short brown hair, wears a dark blue-gray top and brown trousers, has a brown shoulder strap across the back and a brown holster at the waist; the sleeves are rolled to near the elbows, both arms are bent in front of the body, and the body leans forward while stepping.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00007",
+      "statement": "At frame 0, part of the shop stall with a red roller shutter is in frame; a red panel, a light-colored border, and a small portion of the gray roller shutter at the right edge are visible, while the stall body is cropped by the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00008",
+      "statement": "At frame 0, part of the shop stall with a red roller shutter reveals a red panel and light-colored frame strips; the panel has mottled gray-green areas and a diagonal light-colored decorative strip. A small portion of the gray roller shutter enters the frame at the right edge, while the remainder of the stall body is cropped.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00010",
+      "statement": "At frame 0, the wet flagstone passageway is a gray-brown paved surface with irregular dark wet patches, extending from the lower part of the image to the blue-and-white steps.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00011",
+      "statement": "At frame 0, the wet flagstone passageway is gray-brown and extends from the foreground to the blue-and-white steps, with both sides occluded by the wooden-slat partition and the shop stall with a red roller shutter; some boundaries between paving sections, dark wet patches, and uneven bright patches are discernible on the ground.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e005",
+        "video23_e010",
+        "video23_e014",
+        "video23_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00013",
+      "statement": "At frame 0, the two clearly visible people in the group of people lying in front of the steps both wear gray clothing and trousers and dark vests, have red coverings on their heads, and are lying down.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00014",
+      "statement": "At frame 0, the two clearly visible people in the group of people lying in front of the steps wear gray clothing and trousers and dark vests, with red coverings on their heads; one lies prone and stretched crosswise beside the wooden-slat partition, while one lies diagonally on their side near the blue-and-white steps, with an arm bent beside the head.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e007",
+        "video23_e014",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00016",
+      "statement": "At frame 0, the blue-and-white steps are wide, multilevel steps with gray treads and alternating blue-and-white risers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00017",
+      "statement": "At frame 0, the blue-and-white steps extend horizontally, with multiple light-gray treads rising level by level; small light-blue and white square tiles are arranged on each riser, and the tile joints are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00019",
+      "statement": "At frame 0, Weapon D is a slender long gun; a dark barrel and yellow-brown front section are visible, while the rear is occluded by Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e013",
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00020",
+      "statement": "At frame 0, Weapon D has the outline of a slender long gun, with a dark barrel extending toward image-left and a yellow-brown front section visible near the gripping hand; the rear overlaps Person A's torso and both arms and cannot be fully discerned.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e013",
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00022",
+      "statement": "At frame 0, the wooden-slat partition is a tall partition composed of yellow-brown horizontal wooden slats.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00023",
+      "statement": "At frame 0, the wooden-slat partition is a relatively tall rectangular partition composed of darker vertical framing and yellow-brown horizontal slats; gaps between the slats allow the green area behind it to be seen through them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00025",
+      "statement": "At frame 0, the raised market hall is above the steps, with light-colored columns and a dark counter exposed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00026",
+      "statement": "At frame 0, the raised market hall is above the blue-and-white steps; light-colored square columns and a dark counter are visible. The square columns have a grid texture on their surfaces, and small warm-colored lights and hanging goods are visible behind the counter.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e015",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00028",
+      "statement": "At frame 0, the lower-left container among the market containers is blue-green and bucket-shaped, with a cylindrical bucket wall and an open top.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00029",
+      "statement": "At frame 0, the lower-left container among the market containers is blue-green and bucket-shaped, with a cylindrical bucket wall; the bucket opening appears elliptical with a darker rim, and part of the bucket body is cropped by the lower edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00039",
+      "statement": "At frame 52, Person A wears a dark blue-gray top and brown trousers, has a brown shoulder strap across the back, and leans forward near the steps.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00040",
+      "statement": "At frame 52, Person A has short brown hair, wears a dark blue-gray top and brown trousers, has a brown shoulder strap across the back and a brown holster at the waist; the sleeves are rolled to near the elbows, the body leans forward, both arms are bent in front of the body, and one leg is raised in front of a step.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00042",
+      "statement": "At frame 52, the wet flagstone passageway is gray-brown with irregular dark wet patches; nearby, it meets the blue-and-white steps, and the upper passageway extends into the distance along the image-right side.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00043",
+      "statement": "At frame 52, the wet flagstone passageway is gray-brown and meets the lowest step nearby; the upper passageway extends into the distance along the image-right side of the raised market hall, with irregular dark wet patches and localized reflections visible, while its far end is partially occluded by Vehicle A, the distant yellow-green wooden rack, and the distant collision smoke and dust.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e005",
+        "video23_e015",
+        "video23_e034",
+        "video23_e035",
+        "video23_e036"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00045",
+      "statement": "At frame 52, one person partially in frame from the group of people lying in front of the steps wears gray long sleeves and a dark vest, has a red covering on the head, and lies diagonally against the edge of the steps.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00046",
+      "statement": "At frame 52, one person partially in frame from the group of people lying in front of the steps lies diagonally against the edge of the steps, wearing gray long sleeves and a dark tactical vest; the head has a red covering, there is a green reflection at the eyes, an arm is bent beside the head, and the lower body is cropped by the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00048",
+      "statement": "At frame 52, the blue-and-white steps are wide, multilevel steps with gray treads and alternating blue-and-white risers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00049",
+      "statement": "At frame 52, the blue-and-white steps extend horizontally, with multiple light-gray treads rising level by level; small light-blue and white square tiles are arranged on each riser, and the tile joints are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00051",
+      "statement": "At frame 52, Weapon D is a slender long gun, with a dark-gray gun body and barrel, a yellow-brown front section, and a hanging sling visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00052",
+      "statement": "At frame 52, Weapon D has the outline of a slender long gun, with a dark-gray gun body and slender barrel and a yellow-brown front section visible; the brown sling hangs loosely in a loop beneath the gun body, while the rear overlaps Person A's arm and body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e013",
+        "video23_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00054",
+      "statement": "At frame 52, the light-colored columns and dark counter of the raised market hall occupy the upper part of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00055",
+      "statement": "At frame 52, the light-colored square columns and dark counter of the raised market hall are in the upper part of the image; small square tile joints are visible on the columns, goods are placed on the counter, and hanging objects are partially visible behind it.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00057",
+      "statement": "At frame 52, the market containers include an upright yellow bucket in front of the counter and a blue-green bucket-shaped container at the upper-right side of the image, both with bucket-shaped bodies.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00058",
+      "statement": "At frame 52, the yellow bucket in front of the counter among the market containers has an upright bucket shape and a thin arched handle; the blue-green container on the right has a cylindrical bucket wall, with part of its opening appearing elliptical and having a dark rim.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00060",
+      "statement": "At frame 52, Vehicle A is a large dark vehicle, exposing a broad, thick, nearly square front outline, with only part of the vehicle body visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00061",
+      "statement": "At frame 52, Vehicle A is a large dark vehicle, exposing a broad, thick, nearly square dark front with a few small light-colored bright points; the rest of the vehicle body is partially occluded by the distant yellow-green wooden rack and the distant collision smoke and dust, while the upper part is limited by the image boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e034",
+        "video23_e035",
+        "video23_e036"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00063",
+      "statement": "At frame 52, the distant yellow-green wooden rack is composed of slender strip-like components, is tilted overall, and has some components scattered.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00064",
+      "statement": "At frame 52, the distant yellow-green wooden rack has tilted and become scattered, with multiple slender wooden strips crossing at irregular angles and some separated from one another, distributed in front of Vehicle A and on the image-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e035",
+        "video23_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00066",
+      "statement": "At frame 52, the distant collision smoke and dust appears as a gray cloud-like mass.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e036"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00067",
+      "statement": "At frame 52, the distant collision smoke and dust appears as a gray cloud-like mass, distributed near Vehicle A and the distant yellow-green wooden rack, with diffuse edges and some translucent areas occluding the passageway behind.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e036",
+        "video23_e034",
+        "video23_e035"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00012",
+      "statement": "At frame 0, the wooden-slat partition is on the image-left and the shop stall with a red roller shutter is on the image-right; they are positioned on opposite sides of the passageway and are each cropped by the corresponding image edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e014",
+        "video23_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00013",
+      "statement": "At frame 0, the wet flagstone passageway leads from the bottom of the image, between the wooden-slat partition and the shop stall with a red roller shutter, to the blue-and-white steps; the blue-and-white steps rise level by level and connect to the platform containing the raised market hall, with the counter extending along the platform.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e005",
+        "video23_e010",
+        "video23_e014",
+        "video23_e003",
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00014",
+      "statement": "At frame 0, two people in the group of people lying in front of the steps are clearly visible, lying beside the wooden-slat partition and near the blue-and-white steps, respectively.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e007",
+        "video23_e014",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00015",
+      "statement": "At frame 0, Person A is on the image-right of the person beside the wooden-slat partition in the group of people lying in front of the steps, and the blue-and-white steps are farther from the camera than Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e007",
+        "video23_e014",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00016",
+      "statement": "At frame 0, Person A holds Weapon D with both hands; Weapon D is in front of the body and extends toward image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00017",
+      "statement": "At frame 0, the blue-green bucket-shaped container among the market containers is at the foot of the wooden-slat partition in the lower-left of the image and is supported by the ground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e022",
+        "video23_e014",
+        "video23_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00033",
+      "statement": "At frame 0, Person A holds Weapon D with both hands, with Weapon D positioned crosswise in front of the body.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00034",
+      "statement": "At frame 0, Person A is on the image-right of the person beside the wooden-slat partition in the group of people lying in front of the steps, and the blue-and-white steps are farther ahead of Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e007",
+        "video23_e014",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00035",
+      "statement": "At frame 0, the raised market hall is above the blue-and-white steps, with the counter extending along the edge of the platform.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e010",
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00018",
+      "statement": "At frame 36, Person A holds Weapon D with one hand, while the other hand is below and separate from Weapon D; the front end of Weapon D points toward the lower-right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 36,
+      "end_frame": 36,
+      "evidence_frames": [
+        35,
+        36,
+        37
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00019",
+      "statement": "At frame 36, Vehicle A is in the distant passageway on the image-right of the raised market hall; the distant yellow-green wooden rack is at the end of Vehicle A facing the camera and on its image-right, while the distant collision smoke and dust occludes part of the passageway behind.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 36,
+      "end_frame": 36,
+      "evidence_frames": [
+        35,
+        36,
+        37
+      ],
+      "subject_ids": [
+        "video23_e034",
+        "video23_e035",
+        "video23_e036",
+        "video23_e015",
+        "video23_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00021",
+      "statement": "At frame 52, Person A is near the blue-and-white steps, with their back to the camera and leaning forward toward the steps, one leg raised in front of a step; one person in the group of people lying in front of the steps is partially in frame on Person A's image-right and is cropped by the lower-right edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        51,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e007",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00022",
+      "statement": "At frame 52, the wet flagstone passageway meets the lowest level of the blue-and-white steps; the blue-and-white steps span the middle-lower part of the image and rise level by level toward the far side. The upper platform supports the raised market hall, and the passageway extends into the distance along its image-right side.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e005",
+        "video23_e010",
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00023",
+      "statement": "At frame 52, Person A holds Weapon D in front of the body with one hand, while the other hand is near and below the gun body; the front end of Weapon D points toward the lower-right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        50,
+        51,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00024",
+      "statement": "At frame 52, the yellow bucket among the market containers is in front of the counter of the raised market hall, while the blue-green bucket-shaped container is on the image-right of the upper passageway; both are supported by the ground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e022",
+        "video23_e015",
+        "video23_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_restore00025",
+      "statement": "At frame 52, Vehicle A is in the upper passageway on the image-right of the raised market hall, with its front end facing toward the near side; the distant yellow-green wooden rack is tilted and scattered at the front end of Vehicle A and on the image-right, occupying part of the passageway. The distant collision smoke and dust is near both of them and occludes part of the passageway behind.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        51,
+        52
+      ],
+      "subject_ids": [
+        "video23_e034",
+        "video23_e035",
+        "video23_e036",
+        "video23_e015",
+        "video23_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00068",
+      "statement": "At frame 52, Person A has reached the near side of the blue-and-white steps, and one person partially in frame from the group of people lying in front of the steps is on Person A's image-right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e010",
+        "video23_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00069",
+      "statement": "At frame 52, Person A holds Weapon D with one hand, while the other hand is near and below the gun body; the muzzle of Weapon D points diagonally toward the lower-right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        50,
+        51,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00070",
+      "statement": "At frame 52, Vehicle A and the toppled distant yellow-green wooden rack are in the distant passageway on the image-right of the raised market hall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e034",
+        "video23_e035",
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_r00001",
+      "statement": "At frame 0, the camera is above and behind Person A, on one side of the passageway below the blue-and-white steps, with the nearby group of people lying in front of the steps visible.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e007",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00001",
+      "statement": "At frame 0, the camera is above and behind Person A, on one side of the passageway below the blue-and-white steps, with the nearby group of people lying in front of the steps visible.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e007",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_r00036",
+      "statement": "At frame 52, the camera is above and behind Person A, near the lower steps of the blue-and-white steps, which span the middle-lower part of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00036",
+      "statement": "At frame 52, the camera is above and behind Person A, near the lower steps of the blue-and-white steps, which span the middle-lower part of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_r00002",
+      "statement": "At frame 0, the camera faces Person A holding Weapon D and the blue-and-white steps, with the counter of the raised market hall in the upper part of the image.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013",
+        "video23_e010",
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00002",
+      "statement": "At frame 0, the camera faces Person A holding Weapon D and the blue-and-white steps, with the counter of the raised market hall in the upper part of the image.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013",
+        "video23_e010",
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_r00037",
+      "statement": "At frame 52, the camera faces Person A and the raised market hall above the blue-and-white steps, with Vehicle A visible in the passageway at the upper-right of the image.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e010",
+        "video23_e015",
+        "video23_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00037",
+      "statement": "At frame 52, the camera faces Person A and the raised market hall above the blue-and-white steps, with Vehicle A visible in the passageway at the upper-right of the image.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 52,
+      "end_frame": 52,
+      "evidence_frames": [
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e010",
+        "video23_e015",
+        "video23_e034"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_r00071",
+      "statement": "From frames 0 to 52, the camera generally advances along its initial facing direction, following Person A as they approach the blue-and-white steps.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 52,
+      "evidence_frames": [
+        0,
+        26,
+        36,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e010",
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00071",
+      "statement": "From frames 0 to 52, the camera generally advances along its initial facing direction, following Person A as they approach the blue-and-white steps.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 52,
+      "evidence_frames": [
+        0,
+        26,
+        36,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e010",
+        "video23_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_a004",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 52,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        52
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video23_cp009_a004",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 52,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        52
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video23_cp009_r00072",
+      "statement": "From frames 0 to 52, Person A moves forward along the wet flagstone passageway from beside the group of people lying in front of the steps and reaches the near side of the blue-and-white steps.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 52,
+      "evidence_frames": [
+        0,
+        26,
+        36,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e007",
+        "video23_e005",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00072",
+      "statement": "From frames 0 to 52, Person A moves forward along the wet flagstone passageway from beside the group of people lying in front of the steps and reaches the near side of the blue-and-white steps.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 52,
+      "evidence_frames": [
+        0,
+        26,
+        36,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e007",
+        "video23_e005",
+        "video23_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_r00074",
+      "statement": "From frames 20 to 52, Vehicle A advances from the distance toward the blue-and-white steps along the passageway on the image-right of the raised market hall.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 20,
+      "end_frame": 52,
+      "evidence_frames": [
+        19,
+        20,
+        21,
+        22,
+        24,
+        28,
+        36,
+        44,
+        52
+      ],
+      "subject_ids": [
+        "video23_e034",
+        "video23_e015",
+        "video23_e010",
+        "video23_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00074",
+      "statement": "From frames 20 to 52, Vehicle A advances from the distance toward the blue-and-white steps along the passageway on the image-right of the raised market hall.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 20,
+      "end_frame": 52,
+      "evidence_frames": [
+        19,
+        20,
+        21,
+        22,
+        24,
+        28,
+        36,
+        44,
+        52
+      ],
+      "subject_ids": [
+        "video23_e034",
+        "video23_e015",
+        "video23_e010",
+        "video23_e035"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_r00075",
+      "statement": "From frames 23 to 52, Vehicle A advances and pushes the distant yellow-green wooden rack; the rack gradually topples, and some wooden strips separate. In the latter part, gray smoke and dust appears and spreads near Vehicle A and the rack.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 52,
+      "evidence_frames": [
+        22,
+        23,
+        24,
+        28,
+        35,
+        36,
+        37,
+        48,
+        52
+      ],
+      "subject_ids": [
+        "video23_e034",
+        "video23_e035",
+        "video23_e036"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00075",
+      "statement": "From frames 23 to 52, Vehicle A advances and pushes the distant yellow-green wooden rack; the rack gradually topples, and some wooden strips separate. In the latter part, gray smoke and dust appears and spreads near Vehicle A and the rack.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 52,
+      "evidence_frames": [
+        22,
+        23,
+        24,
+        28,
+        35,
+        36,
+        37,
+        48,
+        52
+      ],
+      "subject_ids": [
+        "video23_e034",
+        "video23_e035",
+        "video23_e036"
+      ]
+    },
+    {
+      "item_key": "L1:video23_cp009_r00073",
+      "statement": "From frames 26 to 52, Person A lowers Weapon D while advancing, and the muzzle turns toward the lower-right of the image; one hand holds the gun while the other moves beneath the gun body, and by the end of the clip, a return to a two-handed grip is still not clearly shown.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 52,
+      "evidence_frames": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        36,
+        43,
+        44,
+        45,
+        48,
+        50,
+        51,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video23_cp009_r00073",
+      "statement": "From frames 26 to 52, Person A lowers Weapon D while advancing, and the muzzle turns toward the lower-right of the image; one hand holds the gun while the other moves beneath the gun body, and by the end of the clip, a return to a two-handed grip is still not clearly shown.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 52,
+      "evidence_frames": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        36,
+        43,
+        44,
+        45,
+        48,
+        50,
+        51,
+        52
+      ],
+      "subject_ids": [
+        "video23_e001",
+        "video23_e013"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    36,
+    44,
+    48,
+    52
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "543cbabecff46017dfe321629e7cb6894059729dae95fac487782d9290096eb3"
+}

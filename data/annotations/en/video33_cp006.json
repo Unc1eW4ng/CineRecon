@@ -1,0 +1,1865 @@
+{
+  "clip_id": "video33_cp006",
+  "video_id": "video33",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 78,
+  "source_frame_offset": 900,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video33_e001",
+      "name": "Animal A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A white long-necked goose with an orange beak and webbed feet; at the beginning of the clip, its lower body is partially occluded by the rooftop chimney."
+    },
+    {
+      "source_entity_id": "video33_e002",
+      "name": "Object A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A light-yellow package-like object carried by Person A, with a rounded end face, two dark circular spots, and some blue markings visible."
+    },
+    {
+      "source_entity_id": "video33_e003",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A short brown-haired person wearing purple long sleeves, a burgundy sleeveless top, gray-brown pants, and black shoes, and carrying Object A."
+    },
+    {
+      "source_entity_id": "video33_e004",
+      "name": "gray street surface",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The broad, flat gray paved area where Person A and Animal A are located."
+    },
+    {
+      "source_entity_id": "video33_e008",
+      "name": "dark-gray tiled roof",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark-gray sloped roof in the foreground; staggered roof tiles are visible at the beginning of the clip, while only a small portion remains in the lower-left corner at the end of the clip."
+    },
+    {
+      "source_entity_id": "video33_e009",
+      "name": "rooftop chimney",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The chimney assembly on the foreground roof; in this clip, mainly a gray cover plate and two brown vent pipes with curved hooded tops are visible."
+    },
+    {
+      "source_entity_id": "video33_e010",
+      "name": "green median grass",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The flat green grassy area in the upper part of the image, separated from the street surface by the light-colored curb."
+    },
+    {
+      "source_entity_id": "video33_e011",
+      "name": "wooden bench",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The brown wooden-plank bench on the grass, with dark supports; the portion within the frame changes with the camera."
+    },
+    {
+      "source_entity_id": "video33_e017",
+      "name": "small light-blue seat-surface object",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The small light-blue object on the right end of the wooden bench's seat surface, with a slender middle section, wing-like pointed corners, and a protruding tail end."
+    },
+    {
+      "source_entity_id": "video33_e020",
+      "name": "light-colored curb",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The beige-gray, narrow, elongated segmented boundary separating the green median grass from the gray street surface."
+    },
+    {
+      "source_entity_id": "video33_e025",
+      "name": "thin gray upright pole",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The thin, long, straight gray pole in the grass on the image-right side of the wooden bench, with its upper end extending out of the frame."
+    },
+    {
+      "source_entity_id": "video33_e026",
+      "name": "white short-line prompt",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The three white radial short-line graphics above Animal A's head in the image."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video33_cp006_restore00009",
+      "statement": "In frame 0, there is one Person A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00010",
+      "statement": "In frame 0, there is one Animal A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00002",
+      "statement": "In frame 0, Animal A is visible in the image, with its lower body partially occluded.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00003",
+      "statement": "In frame 0, a small corner of Object A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video33_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00004",
+      "statement": "In frame 0, Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00005",
+      "statement": "In frame 0, the gray street surface is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00006",
+      "statement": "In frame 0, the dark-gray tiled roof is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00007",
+      "statement": "In frame 0, the upper assembly of the rooftop chimney is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00008",
+      "statement": "In frame 0, part of the green median grass is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00009",
+      "statement": "In frame 0, part of the wooden bench is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00010",
+      "statement": "In frame 0, the light-colored curb is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00011",
+      "statement": "In frame 0, the white short-line prompt is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00018",
+      "statement": "In frame 78, there is one Person A corresponding to the one in frame 0 in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        0,
+        24,
+        39,
+        60,
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00019",
+      "statement": "In frame 78, there is one Animal A corresponding to the one in frame 0 in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        0,
+        24,
+        39,
+        60,
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00034",
+      "statement": "In frame 78, Animal A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00035",
+      "statement": "In frame 78, part of Object A's end face is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00036",
+      "statement": "In frame 78, Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00037",
+      "statement": "In frame 78, the gray street surface is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00038",
+      "statement": "In frame 78, a small portion of the dark-gray tiled roof is visible in the lower-left corner of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00039",
+      "statement": "In frame 78, part of the rooftop chimney is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00040",
+      "statement": "In frame 78, the green median grass is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00041",
+      "statement": "In frame 78, part of the wooden bench is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00042",
+      "statement": "In frame 78, the small light-blue seat-surface object is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00043",
+      "statement": "In frame 78, the light-colored curb is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00044",
+      "statement": "In frame 78, the thin gray upright pole is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00045",
+      "statement": "In frame 78, the white short-line prompt is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00012",
+      "statement": "In frame 0, Animal A is a white long-necked goose with its neck raised and both wings spread outward; its lower body is partially occluded by the rooftop chimney.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00013",
+      "statement": "In frame 0, Animal A is a white long-necked goose with its long neck raised; the tip of its orange beak and a small dark eye spot are discernible. Both wings are spread outward, with separated feather-tip-like contours along the wing edges, and its lower body is partially occluded by the brown vent pipes of the rooftop chimney.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00014",
+      "statement": "In frame 0, most of Object A is occluded by Person A's body, with only a light-yellow corner exposed; its full outline is not visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video33_e002",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00015",
+      "statement": "In frame 0, most of Object A is occluded by Person A's body, with only a small light-yellow corner exposed on the image-right side of the body; its complete shape and surface markings are not discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video33_e002",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00016",
+      "statement": "In frame 0, Person A has short brown hair and wears purple long sleeves, a burgundy sleeveless top, gray-brown pants, and black shoes.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00017",
+      "statement": "In frame 0, Person A has short brown hair and wears purple long sleeves, a burgundy sleeveless top, gray-brown pants, and black low-cut shoes; there is a light-colored collar edge at the neck, and light-colored ankles are exposed below the pant legs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00018",
+      "statement": "In frame 0, the gray street surface is broad and flat, covering the area where the subjects are located.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00019",
+      "statement": "In frame 0, the gray street surface is broad and flat, forming a continuous gray pavement; the surface has localized variations in lightness, and soft cast shadows are visible near the subjects.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00020",
+      "statement": "In frame 0, the dark-gray tiled roof forms a dark-gray sloped surface with rows of tiles, creating a foreground occlusion in the lower-left part of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00021",
+      "statement": "In frame 0, the dark-gray tiled roof forms a dark-gray sloped surface, creating a foreground occlusion in the lower-left part of the image; its surface consists of rows of staggered, nearly rectangular tiles, with the tile seams discernible, and the upper edge of the roof forms a diagonal line.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00022",
+      "statement": "In frame 0, two brown upper vent pipes of the rooftop chimney and part of the gray cover plate beneath them are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00023",
+      "statement": "In frame 0, part of the rooftop chimney's gray cover plate and two brown vent pipes are visible; the tops of the vent pipes are curved and hood-like, with darker opening areas visible on their sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00024",
+      "statement": "In frame 0, the green median grass forms a flat green ground area, only part of which enters the frame from the top edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00025",
+      "statement": "In frame 0, only part of the green median grass is within the frame, forming a flat light-green ground area with patches of darker and lighter green on its surface; the side facing the street extends along a nearly straight curb.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00026",
+      "statement": "In frame 0, part of the wooden bench enters the frame at the upper-right edge of the image, with a brown seat board and dark supports visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00027",
+      "statement": "In frame 0, only a section of the wooden bench's long brown seat board and the black support beneath it are exposed at the upper-right edge of the image; the rest of the structure is cropped by the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00028",
+      "statement": "In frame 0, the light-colored curb is a narrow strip boundary enclosing the grass.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00029",
+      "statement": "In frame 0, the light-colored curb is a narrow beige-gray strip separating the grass from the street surface, formed by connected narrow, elongated segments, with the segment joints discernible; within the image, it mainly extends diagonally along a nearly straight line.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00030",
+      "statement": "In frame 0, the white short-line prompt consists of three white radial lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00031",
+      "statement": "In frame 0, the white short-line prompt consists of three white radial short lines, with the middle one nearly vertical and the two on the sides slanted, located above Animal A's head in the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e026",
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00046",
+      "statement": "In frame 78, Animal A is a white long-necked goose with its neck upright and both wings held close to its body, forming a compact outline; its orange beak and both feet are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00047",
+      "statement": "In frame 78, Animal A is a white long-necked goose with its neck upright and both wings held close to its body, forming a compact outline; its small orange beak and small dark eye spot are discernible, the wing contours along the side of its body overlap, and its two orange feet are staggered front to back.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00048",
+      "statement": "In frame 78, Object A exposes a light-yellow end face with rounded corners, while the rest is occluded by Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e002",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00049",
+      "statement": "In frame 78, Object A exposes a light-yellow end face with rounded corners and two dark circular spots on it; the rest is occluded by Person A, and the blue markings are not currently clearly exposed.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e002",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00050",
+      "statement": "In frame 78, Person A has short brown hair and wears purple long sleeves, a burgundy sleeveless top, gray-brown pants, and black shoes.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00051",
+      "statement": "In frame 78, Person A has short brown hair and wears purple long sleeves, a burgundy sleeveless top, gray-brown pants, and black low-cut shoes; there is a light-colored collar edge at the neck, and light-colored ankles are exposed below the pant legs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00052",
+      "statement": "In frame 78, the gray street surface is broad and flat, covering the area where the subjects are located.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00053",
+      "statement": "In frame 78, the gray street surface is broad and flat, forming a continuous gray pavement; the surface has localized variations in lightness, and soft cast shadows are visible near the subjects.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00054",
+      "statement": "In frame 78, only a small portion of the dark-gray tiled roof's dark-gray sloped surface is exposed in the lower-left corner of the image, creating a partial foreground occlusion.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00055",
+      "statement": "In frame 78, only a small portion of the dark-gray tiled roof's dark-gray sloped surface is exposed in the lower-left corner of the image, creating a partial foreground occlusion; its visible upper edge slopes toward the lower right of the image, and rows of tiles and tile seams cannot be reliably discerned in this portion.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00056",
+      "statement": "In frame 78, part of the rooftop chimney's upper section is exposed at the lower-left edge of the image, with two brown vent pipes and a small amount of the gray cover plate visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00057",
+      "statement": "In frame 78, two brown vent pipes and a small amount of the gray cover plate of the rooftop chimney are exposed at the lower-left edge of the image; the tops of the vent pipes are curved and hood-like, the side openings are darker, and the shafts are outside the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00058",
+      "statement": "In frame 78, the green median grass forms a flat green area, with a visible boundary that has polygonal turns; its upper portion is cropped by the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00059",
+      "statement": "In frame 78, the green median grass forms a flat light-green area, with a visible boundary that has polygonal turns; its surface has patches of darker and lighter green, part of the right edge has a finely serrated grass-blade outline, and its upper portion is cropped by the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00060",
+      "statement": "In frame 78, the wooden bench consists of brown wooden planks with dark supports.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00061",
+      "statement": "In frame 78, part of the wooden bench is within the frame; its long brown seat surface consists of parallel wooden planks, with the seams between the planks discernible, and black supports underneath; its upper portion is cropped by the top edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00062",
+      "statement": "In frame 78, the small light-blue seat-surface object is small in size, light blue overall, and has an outline with wing-like protrusions.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00063",
+      "statement": "In frame 78, the small light-blue seat-surface object is small overall and light blue, with a slender middle section, wing-like pointed corners extending to both sides, and a protruding tail-end outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00064",
+      "statement": "In frame 78, the light-colored curb is a narrow strip boundary enclosing the grass.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00065",
+      "statement": "In frame 78, the light-colored curb is a narrow beige-gray strip extending along the grass boundary, formed by connected narrow, elongated segments; the segment joints and the polygonal corner on the right side are clearly visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00066",
+      "statement": "In frame 78, the thin gray upright pole is a slender, upright gray pole.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00067",
+      "statement": "In frame 78, the thin gray upright pole is a slender, nearly upright gray pole with a straight outline; its lower end meets the green ground, and its upper section extends out of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00068",
+      "statement": "In frame 78, the white short-line prompt consists of three white radial lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00069",
+      "statement": "In frame 78, the white short-line prompt consists of three white radial short lines, with the middle one nearly vertical and the two on the sides slanted, located above Animal A's head in the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e026",
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00011",
+      "statement": "In frame 0, Object A is immediately adjacent to the image-right side of Person A's body; most of it is occluded by Person A, with only a light-colored edge exposed.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video33_e002",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00012",
+      "statement": "In frame 0, Animal A is to the lower right of Person A in the image, and the two subjects are adjacent.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00013",
+      "statement": "In frame 0, the gray street surface forms a broad, flat, continuous passage space in the area where Person A and Animal A are located, extending toward both the image-left and image-right sides; its upper side in the image is bounded by the light-colored curb, and its lower side is partially occluded by the dark-gray tiled roof.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e004",
+        "video33_e001",
+        "video33_e003",
+        "video33_e020",
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00014",
+      "statement": "In frame 0, the dark-gray tiled roof occupies the lower-left part of the image and extends to the bottom edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e008",
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00015",
+      "statement": "In frame 0, the rooftop chimney is on the dark-gray tiled roof, on the side of Animal A closer to the camera, and occludes part of Animal A's lower body.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video33_e009",
+        "video33_e008",
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00016",
+      "statement": "In frame 0, the green median grass is at the top edge of the image, and the light-colored curb continuously separates the two areas along the side of the grass facing the gray street surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e010",
+        "video33_e020",
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00017",
+      "statement": "In frame 0, the wooden bench is within the green median grass, is cut off by the frame at the upper-right edge of the image, and only part of it is within the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e011",
+        "video33_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00032",
+      "statement": "In frame 0, Animal A is to the lower right of Person A in the image, with its lower body partially occluded by the rooftop chimney; Object A is close to the image-right side of Person A's body and is mostly occluded. The white short-line prompt is above Animal A's head in the image; parts of the green median grass, light-colored curb, and wooden bench are at the top edge of the image, and the dark-gray tiled roof occludes the lower-left part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e002",
+        "video33_e003",
+        "video33_e008",
+        "video33_e009",
+        "video33_e010",
+        "video33_e011",
+        "video33_e020",
+        "video33_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00020",
+      "statement": "In frame 78, Object A is immediately adjacent to the image-right side of Person A's body, with part of it exposed beyond the body and the rest occluded by Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e002",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00021",
+      "statement": "In frame 78, Animal A is to the lower right of Person A in the image, with a visible gap between the two subjects.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00022",
+      "statement": "In frame 78, the gray street surface forms a broad, flat, continuous passage space in the area where Person A and Animal A are located, extending toward both the image-left and image-right sides; the light-colored curb is on the upper side of this area in the image, and part of the street surface at the lower-left edge is occluded by the dark-gray tiled roof.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e004",
+        "video33_e001",
+        "video33_e003",
+        "video33_e020",
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00023",
+      "statement": "In frame 78, part of the dark-gray tiled roof enters the frame at the lower-left edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00024",
+      "statement": "In frame 78, part of the upper section of the rooftop chimney enters the frame at the lower-left edge of the image, while its lower section is outside the frame; its cast shadow in the image is separate from Person A and Animal A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e009",
+        "video33_e001",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00025",
+      "statement": "In frame 78, the green median grass occupies the upper part of the image, and the light-colored curb continuously separates the two areas along its boundary facing the gray street surface, then turns toward the top edge in the upper-right part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e010",
+        "video33_e020",
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_restore00026",
+      "statement": "In frame 78, the wooden bench is within the green median grass, to the upper right of Person A and Animal A in the image, with its upper portion cut off by the top edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e011",
+        "video33_e010",
+        "video33_e001",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00070",
+      "statement": "In frame 78, Animal A is to the lower right of Person A in the image, and Object A protrudes from the image-right side of Person A's body; the white short-line prompt is above Animal A's head in the image. The wooden bench is to the upper right of the two subjects in the image, the small light-blue seat-surface object is at the right end of the visible seat surface, and the thin gray upright pole is on the image-right side of the wooden bench; the light-colored curb extends along the boundary of the green median grass, while the upper section of the rooftop chimney and part of the dark-gray tiled roof are at the lower-left edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e002",
+        "video33_e003",
+        "video33_e008",
+        "video33_e009",
+        "video33_e010",
+        "video33_e011",
+        "video33_e017",
+        "video33_e020",
+        "video33_e025",
+        "video33_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_r00001",
+      "statement": "In frame 0, the camera is diagonally above the gray street surface, viewing the street surface from a high angle.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00001",
+      "statement": "In frame 0, the camera is diagonally above the gray street surface, viewing the street surface from a high angle.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_r00033",
+      "statement": "In frame 78, the camera is diagonally above the gray street surface, viewing the street surface from a high angle.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_r00033",
+      "statement": "In frame 78, the camera is diagonally above the gray street surface, viewing the street surface from a high angle.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_a004",
+      "statement": "In frame 0, the camera faces the gray street surface, with Person A and Animal A as the main framing targets.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_a004",
+      "statement": "In frame 0, the camera faces the gray street surface, with Person A and Animal A as the main framing targets.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_a010",
+      "statement": "In frame 78, the camera faces the gray street surface, with Person A and Animal A traveling together as the main framing targets.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_a010",
+      "statement": "In frame 78, the camera faces the gray street surface, with Person A and Animal A traveling together as the main framing targets.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_a017",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 78,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        33,
+        39,
+        47,
+        59,
+        71,
+        78
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video33_cp006_a017",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 78,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        33,
+        39,
+        47,
+        59,
+        71,
+        78
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video33_cp006_a015",
+      "statement": "From frame 0 through frame 78, Person A carries Object A and travels together with Animal A along the gray street surface; relative to the static scene, both progress overall toward the image-right direction.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 78,
+      "evidence_frames": [
+        0,
+        24,
+        31,
+        39,
+        60,
+        78
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e002",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_a015",
+      "statement": "From frame 0 through frame 78, Person A carries Object A and travels together with Animal A along the gray street surface; relative to the static scene, both progress overall toward the image-right direction.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 78,
+      "evidence_frames": [
+        0,
+        24,
+        31,
+        39,
+        60,
+        78
+      ],
+      "subject_ids": [
+        "video33_e001",
+        "video33_e002",
+        "video33_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video33_cp006_a016",
+      "statement": "From frame 0 through frame 78, while moving, Animal A keeps both wings spread outward and changes their raised angle during the early and middle portions, then gradually draws both wings toward the sides of its body during the later portion, forming a more compact outline at the end of the clip.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 78,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        31,
+        33,
+        38,
+        39,
+        60,
+        67,
+        69,
+        73,
+        74,
+        76,
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video33_cp006_a016",
+      "statement": "From frame 0 through frame 78, while moving, Animal A keeps both wings spread outward and changes their raised angle during the early and middle portions, then gradually draws both wings toward the sides of its body during the later portion, forming a more compact outline at the end of the clip.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 78,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        31,
+        33,
+        38,
+        39,
+        60,
+        67,
+        69,
+        73,
+        74,
+        76,
+        77,
+        78
+      ],
+      "subject_ids": [
+        "video33_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    78
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "77bc7f0f13478cb56a45ad55271f818ec932cd3cf5cd2a2c145236706ecaad73"
+}

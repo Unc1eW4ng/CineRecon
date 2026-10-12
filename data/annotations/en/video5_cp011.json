@@ -1,0 +1,1586 @@
+{
+  "clip_id": "video5_cp011",
+  "video_id": "video5",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 23,
+  "source_frame_offset": 552,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video5_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A person wearing a heavy white extravehicular suit and carrying a large white rectangular backpack, with dark red bands around the legs, located on the image-left side of the silver-blue cylindrical module section and gripping a handrail."
+    },
+    {
+      "source_entity_id": "video5_e005",
+      "name": "planetary background",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The bright blue-white distant view in the upper part of the image, with white cloud-like textures and a locally visible pale-blue bright edge, partially occluded by Person A and the module section."
+    },
+    {
+      "source_entity_id": "video5_e006",
+      "name": "black outer-space background",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The nearly uniform deep-black background outside Person A, the planetary background, and the extravehicular structures."
+    },
+    {
+      "source_entity_id": "video5_e007",
+      "name": "gold foil-covered equipment assembly",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The gold reflective foil-covered equipment partially visible along the bottom edge of the image, adjacent to a dark support above, with its complete shape cropped by the bottom boundary."
+    },
+    {
+      "source_entity_id": "video5_e008",
+      "name": "silver-blue cylindrical module section",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The large cylindrical structure occupying the image-right side, with a dark blue-gray curved sidewall, a silver end face, and an orange-gold annular handrail."
+    },
+    {
+      "source_entity_id": "video5_e012",
+      "name": "gray-blue curved panel surface",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The gray-blue panel surface with a curved outer edge in the lower part of the image; rectangular subdivisions and dark and light patches become visible later, and it is partially occluded by both of Person A's legs."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video5_cp011_restore00010",
+      "statement": "At frame 0, one Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00011",
+      "statement": "At frame 0, one silver-blue cylindrical module section is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00012",
+      "statement": "At frame 0, the planetary background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00013",
+      "statement": "At frame 0, the black outer-space background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00014",
+      "statement": "At frame 0, the gold foil-covered equipment assembly is partially visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00015",
+      "statement": "At frame 0, the gray-blue curved panel surface is partially visible along the bottom edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video5_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a001",
+      "statement": "At frame 0, Person A is visible in the image, carrying a large white backpack.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a005",
+      "statement": "At frame 0, the silver-blue cylindrical module section is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a009",
+      "statement": "At frame 0, the planetary background is visible in the image, with its blue-white surface and part of its curved edge exposed.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a013",
+      "statement": "At frame 0, the black outer-space background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00023",
+      "statement": "At frame 0, the gold foil-covered equipment assembly is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00031",
+      "statement": "At frame 0, the gray-blue curved panel surface is partially visible along the bottom edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video5_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00021",
+      "statement": "At frame 23, Person A remains the only person subject in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00022",
+      "statement": "At frame 23, one silver-blue cylindrical module section is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00023",
+      "statement": "At frame 23, the planetary background is partially visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00024",
+      "statement": "At frame 23, the black outer-space background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00025",
+      "statement": "At frame 23, the gold foil-covered equipment assembly is partially visible along the bottom edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00026",
+      "statement": "At frame 23, the gray-blue curved panel surface is partially visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a019",
+      "statement": "At frame 23, Person A is visible in the image, carrying a large white backpack.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a023",
+      "statement": "At frame 23, the silver-blue cylindrical module section is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a027",
+      "statement": "At frame 23, a blue-white area of the planetary background is partially visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a031",
+      "statement": "At frame 23, the black outer-space background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00027",
+      "statement": "At frame 23, the gold foil-covered equipment assembly is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00035",
+      "statement": "At frame 23, the gray-blue curved panel surface is partially visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00002",
+      "statement": "At frame 0, Person A's backpack faces the camera. Person A wears a heavy white extravehicular suit with a large white rectangular backpack and dark red bands around the legs; a light-colored boot and its relatively thick sole are visible at the end of the leg extending toward the lower image-left.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00003",
+      "statement": "At frame 0, the silver-blue cylindrical module section has a dark blue-gray curved sidewall, a silver circular end face, and an orange-gold annular handrail.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00004",
+      "statement": "At frame 0, the planetary background is bright blue-white, with part of its surface and a pale-blue curved edge exposed behind Person A and the silver-blue cylindrical module section.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00005",
+      "statement": "At frame 0, the black outer-space background is nearly uniform deep black and is exposed in the gaps around Person A and the silver-blue cylindrical module section.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e006",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00006",
+      "statement": "At frame 0, Person A's backpack faces the camera. Person A wears a heavy white extravehicular suit with a large white rectangular backpack and dark red bands around the legs; a light-colored boot and relatively thick sole are visible at the lower image-left. The sleeves and legs have segmented folds; a rectangular panel, gray frame, light-colored strap-like fasteners, buckles, and a small dark panel are visible on the backpack; a light-colored box-like component and a dark lattice-like assembly are present on the side of the torso; and parts of a glove and the side of the helmet are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00007",
+      "statement": "At frame 0, the silver-blue cylindrical module section has a dark blue-gray curved sidewall, a silver circular end face, and an orange-gold annular handrail. The sidewall has rows of rivets and panel seams, and the handrail is supported by spaced mounts. The end face has parallel fine lines, a gold divider band, groups of circular fasteners, and light and dark reflections; the edge has a dark annular frame and light-colored components protruding outward.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00008",
+      "statement": "At frame 0, the planetary background is bright blue-white, with a pale-blue bright rim along part of its curved edge. White cloud bands and pale-blue areas are visible on the surface, which is partially occluded by Person A's backpack and the sidewall of the silver-blue cylindrical module section.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00009",
+      "statement": "At frame 0, the black outer-space background is nearly uniform deep black and is exposed beyond the bright edge of the planetary background and between both of Person A's legs and the end face of the silver-blue cylindrical module section; a very small number of faint bright points are locally visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e006",
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00024",
+      "statement": "At frame 0, the gold foil-covered equipment assembly is only partially visible, exposing a gold reflective surface and a dark support above it, while the rest is cropped by the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00025",
+      "statement": "At frame 0, the gold foil-covered equipment assembly is only partially visible. Its gold reflective surface has irregular wrinkles and light and dark facets, its top is adjacent to a dark support, and the rest is cropped by the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00032",
+      "statement": "At frame 0, the gray-blue curved panel surface exposes a narrow, small gray-blue curved segment along the bottom edge of the image; the rest is outside the image or occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00033",
+      "statement": "At frame 0, the gray-blue curved panel surface exposes a low, narrow, small gray-blue curved segment along the bottom edge. A few faint subdivision lines and dark and light patches are discernible on the surface; the image-right part is partially occluded by a light-colored protruding component beneath the silver-blue cylindrical module section, and the lower part is cropped by the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e012",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00010",
+      "statement": "At frame 23, Person A's backpack faces the camera. Person A wears a heavy white extravehicular suit with a large white rectangular backpack and dark red bands around the legs; both legs extend to the bottom boundary, with the feet cropped.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00011",
+      "statement": "At frame 23, the silver-blue cylindrical module section has a dark blue-gray curved sidewall, a silver circular end face, and an orange-gold annular handrail.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00012",
+      "statement": "At frame 23, a small amount of the bright blue-white surface of the planetary background is exposed behind Person A and the silver-blue cylindrical module section, and only a very short pale-blue bright edge remains on the image-left side of the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00013",
+      "statement": "At frame 23, the black outer-space background is nearly uniform deep black and is exposed in the gaps around Person A and the silver-blue cylindrical module section.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e006",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00014",
+      "statement": "At frame 23, Person A's backpack faces the camera. Person A wears a heavy white extravehicular suit with a large white rectangular backpack and dark red bands around the legs, with the feet cropped by the bottom boundary. The sleeves and legs have segmented folds; a rectangular panel, gray frame, light-colored strap-like fasteners, buckles, and a small dark panel are visible on the backpack; a light-colored box-like component and a dark lattice-like assembly are partially exposed on the side of the torso; and the glove at the handrail and the side of the helmet are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00015",
+      "statement": "At frame 23, the silver-blue cylindrical module section has a dark blue-gray curved sidewall, a silver circular end face, and an orange-gold annular handrail. The sidewall has rows of rivets and panel seams, and the handrail is supported by spaced mounts. The end face has parallel fine lines, a gold divider band, groups of circular fasteners, and light and dark reflections; the edge has a dark annular frame and light-colored components protruding outward.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00016",
+      "statement": "At frame 23, only a small amount of the bright blue-white surface of the planetary background is exposed, with white cloud-like bands and pale-blue areas visible, and a very short blue bright edge remaining on the image-left side of the upper edge. The rest of its visible extent is occluded by Person A and the sidewall of the silver-blue cylindrical module section or cropped by the top boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00017",
+      "statement": "At frame 23, the black outer-space background is nearly uniform deep black and is exposed on the image-left side, beyond the visible area of the planetary background, and in local gaps between Person A and the silver-blue cylindrical module section.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e006",
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00028",
+      "statement": "At frame 23, the gold foil-covered equipment assembly is only partially visible, with a gold reflective wrinkled surface and a dark support above it, while its main body extends downward out of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00029",
+      "statement": "At frame 23, the gold foil-covered equipment assembly is only partially visible. Its gold reflective surface has facets and wrinkles, with bright surfaces alternating with dark side surfaces; its top is adjacent to a black-gray mechanical support, and the rest of its main body extends beyond the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00036",
+      "statement": "At frame 23, the gray-blue curved panel surface exposes a relatively wide gray-blue curved surface behind both of Person A's legs, with a clearly defined curved outer edge and contiguous dark and light patches.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e012",
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00037",
+      "statement": "At frame 23, the gray-blue curved panel surface appears as a relatively wide gray-blue curved area, with its outer edge forming a clearly defined arc. The surface has dense small rectangular subdivisions and dark and light patches; it is partially occluded by both of Person A's legs and the protruding component beneath the silver-blue cylindrical module section.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e012",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00016",
+      "statement": "At frame 0, Person A's backpack faces the camera. Person A is close to the silver-blue cylindrical module section on its image-left side, with a hand gripping the adjacent handrail of the module section. One leg extends toward the image-left side to the left boundary, while the other leg is bent and extends toward the lower image-left to the bottom boundary. The module section occupies the right half of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00017",
+      "statement": "At frame 0, the planetary background is behind Person A and the silver-blue cylindrical module section, exposed in the upper part of the image and partially occluded by both.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00018",
+      "statement": "At frame 0, the black outer-space background is exposed on the image-left side and in the gaps between Person A and the silver-blue cylindrical module section.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e006",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00019",
+      "statement": "At frame 0, the gold foil-covered equipment assembly is located image-below the silver-blue cylindrical module section and partially enters the image from the bottom boundary.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e007",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00020",
+      "statement": "At frame 0, the gray-blue curved panel surface is partially exposed along the bottom edge of the image, located at the lower image-left of the silver-blue cylindrical module section, with its image-right part partially occluded by a light-colored protruding component beneath the module section.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e012",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a008",
+      "statement": "At frame 0, the silver end face and dark blue-gray sidewall of the silver-blue cylindrical module section are adjacent to Person A and located on Person A's image-right side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e008",
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a012",
+      "statement": "At frame 0, the planetary background is partially exposed in the upper part of the image, located behind Person A and the silver-blue cylindrical module section and partially occluded by both.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a016",
+      "statement": "At frame 0, the black outer-space background is exposed in the image gaps between and around Person A, the planetary background, and the silver-blue cylindrical module section.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e006",
+        "video5_e001",
+        "video5_e005",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00018",
+      "statement": "At frame 0, Person A is located on the image-left side of the silver-blue cylindrical module section, with a hand gripping the module section's handrail. One leg is extended straight toward the image-left side, while the other leg is bent and points toward the lower image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00026",
+      "statement": "At frame 0, the gold foil-covered equipment assembly is located image-below the end face of the silver-blue cylindrical module section and is partially exposed from the bottom edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e007",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00034",
+      "statement": "At frame 0, the gray-blue curved panel surface is located along the bottom edge of the image, at the lower image-left of the silver-blue cylindrical module section, with its image-right part partially occluded by a light-colored protruding component beneath the module section.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e012",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00027",
+      "statement": "At frame 23, Person A's backpack faces the camera. Person A is close to the silver-blue cylindrical module section on its image-left side, with a hand still gripping the module section's handrail. Both legs are bent and extend toward the bottom of the image, with the feet cropped by the bottom boundary. The module section occupies the right half of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00028",
+      "statement": "At frame 23, the planetary background is behind Person A and the silver-blue cylindrical module section, partially exposed in the upper part of the image and partially occluded by both.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00029",
+      "statement": "At frame 23, the black outer-space background is exposed on the image-left side and in the gaps between Person A and the silver-blue cylindrical module section.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e006",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00030",
+      "statement": "At frame 23, the gold foil-covered equipment assembly is located image-below the silver-blue cylindrical module section and partially enters the image from the bottom boundary, with part of its upper portion occluded by the edge of the module section's end face.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e007",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_restore00031",
+      "statement": "At frame 23, the gray-blue curved panel surface is behind both of Person A's legs and the silver-blue cylindrical module section, exposed in the lower image-left area and partially occluded by both legs and the protruding component beneath the module section.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e012",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a026",
+      "statement": "At frame 23, the silver end face and dark blue-gray sidewall of the silver-blue cylindrical module section are adjacent to Person A and located on Person A's image-right side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e008",
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a030",
+      "statement": "At frame 23, the planetary background is partially exposed in the upper part of the image, located behind Person A and the silver-blue cylindrical module section and partially occluded by both.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a034",
+      "statement": "At frame 23, the black outer-space background is exposed in the image gaps between and around Person A, the planetary background, and the silver-blue cylindrical module section.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e006",
+        "video5_e001",
+        "video5_e005",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00019",
+      "statement": "At frame 23, Person A remains on the image-left side of the silver-blue cylindrical module section and grips the handrail. Both legs are bent and point mainly toward the bottom of the image, with the feet cropped by the bottom boundary.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00030",
+      "statement": "At frame 23, the gold foil-covered equipment assembly is located image-below the end face of the silver-blue cylindrical module section, with its upper portion partially occluded by the edge of the end face.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e007",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00038",
+      "statement": "At frame 23, the gray-blue curved panel surface is located behind both of Person A's legs in the lower image-left area and is partially occluded by both legs.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e012",
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_a017",
+      "statement": "At frame 0, the camera is close to Person A on the backpack side, offset toward the lower body, and outside the silver-blue cylindrical module section.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a017",
+      "statement": "At frame 0, the camera is close to Person A on the backpack side, offset toward the lower body, and outside the silver-blue cylindrical module section.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_a035",
+      "statement": "At frame 23, the camera is close to Person A on the backpack side, offset toward the lower body, and outside the silver-blue cylindrical module section.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a035",
+      "statement": "At frame 23, the camera is close to Person A on the backpack side, offset toward the lower body, and outside the silver-blue cylindrical module section.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_a018",
+      "statement": "At frame 0, the camera points toward the area where Person A's hand meets the handrail of the silver-blue cylindrical module section, with the framing including both Person A's lower body and the module section's end face.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a018",
+      "statement": "At frame 0, the camera points toward the area where Person A's hand meets the handrail of the silver-blue cylindrical module section, with the framing including both Person A's lower body and the module section's end face.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_a036",
+      "statement": "At frame 23, the camera points toward the area where Person A's hand meets the handrail of the silver-blue cylindrical module section, with the framing including both Person A's lower body and the module section's end face.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_a036",
+      "statement": "At frame 23, the camera points toward the area where Person A's hand meets the handrail of the silver-blue cylindrical module section, with the framing including both Person A's lower body and the module section's end face.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_r00001",
+      "statement": "From frame 0 through frame 23, the camera rolls counterclockwise around the viewing axis relative to its orientation at frame 0.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video5_e008",
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00001",
+      "statement": "From frame 0 through frame 23, the camera rolls counterclockwise around the viewing axis relative to its orientation at frame 0.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video5_e008",
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_a041",
+      "statement": "Frames 0 through 23 are a continuous shot, with 0 shot cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        12,
+        17,
+        18,
+        22,
+        23
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video5_cp011_a041",
+      "statement": "Frames 0 through 23 are a continuous shot, with 0 shot cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        12,
+        17,
+        18,
+        22,
+        23
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video5_cp011_r00020",
+      "statement": "From frame 0 through frame 23, Person A keeps a hand in contact with the handrail of the silver-blue cylindrical module section, while the lower body swings around the grip point. The leg initially extending toward the image-left side gradually draws inward toward the lower image-right; in the final frame, both legs point mainly toward the bottom of the image, while the torso remains on the image-left side of the module section.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        12,
+        17,
+        18,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00020",
+      "statement": "From frame 0 through frame 23, Person A keeps a hand in contact with the handrail of the silver-blue cylindrical module section, while the lower body swings around the grip point. The leg initially extending toward the image-left side gradually draws inward toward the lower image-right; in the final frame, both legs point mainly toward the bottom of the image, while the torso remains on the image-left side of the module section.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        12,
+        17,
+        18,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp011_r00021",
+      "statement": "From frame 0 through frame 23, Person A continuously grips the orange-gold annular handrail of the silver-blue cylindrical module section and bends and swings both legs while gripping it.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        12,
+        17,
+        18,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp011_r00021",
+      "statement": "From frame 0 through frame 23, Person A continuously grips the orange-gold annular handrail of the silver-blue cylindrical module section and bends and swings both legs while gripping it.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        1,
+        11,
+        12,
+        17,
+        18,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e008"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    23
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "dc6097fcabcd8c5d6b40dda644bd896d172548c13db635c6763cebebede09621"
+}

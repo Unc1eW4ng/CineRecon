@@ -1,0 +1,5563 @@
+{
+  "dataset": "CineRecon",
+  "title": "CineRecon: Benchmarking Frontier Models for Agentic Cinematic Reconstruction",
+  "version": "0.2.0",
+  "counts": {
+    "videos": 50,
+    "clips": 360,
+    "unique_items": 35836,
+    "setting_checks": 49668
+  },
+  "checks_by_setting": {
+    "L1": 9647,
+    "L2": 20021,
+    "L3": 20000
+  },
+  "frame_convention": "Zero-based clip-local indices with inclusive end frame; source_frame_offset maps to the complete reference video.",
+  "annotation_provenance": "All evaluation clips and checklist statements were initially annotated by Codex powered by GPT-6, followed by multiple rounds of human review and refinement. Annotation and refinement are complete.",
+  "videos": [
+    {
+      "video_id": "video1",
+      "path": "media/reference/video1.mp4",
+      "sha256": "9753f03058802602aabde81dae90ca192e2f5a27922ffa7f2c7e302e99ec27eb",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video1_cp001",
+        "video1_cp002",
+        "video1_cp003",
+        "video1_cp004",
+        "video1_cp005",
+        "video1_cp006",
+        "video1_cp007"
+      ]
+    },
+    {
+      "video_id": "video2",
+      "path": "media/reference/video2.mp4",
+      "sha256": "da79dadc994ff34a92d3cd14a2ca3c669d58a85442d580b361487f880c42c87d",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video2_cp001",
+        "video2_cp002",
+        "video2_cp003",
+        "video2_cp004",
+        "video2_cp005",
+        "video2_cp006",
+        "video2_cp007",
+        "video2_cp008"
+      ]
+    },
+    {
+      "video_id": "video3",
+      "path": "media/reference/video3.mp4",
+      "sha256": "7d5ffe7039b08fa0f95cc578a69f38d92e5f8cc3411db9d516fb638f8b788e49",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video3_cp001",
+        "video3_cp002",
+        "video3_cp003",
+        "video3_cp004",
+        "video3_cp005",
+        "video3_cp006",
+        "video3_cp007",
+        "video3_cp008",
+        "video3_cp009",
+        "video3_cp010"
+      ]
+    },
+    {
+      "video_id": "video4",
+      "path": "media/reference/video4.mp4",
+      "sha256": "9ee40e9a23262b34b01036f3ca53b4f5abf099cd115aa71795e9017e3b385a02",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video4_cp001",
+        "video4_cp002",
+        "video4_cp003",
+        "video4_cp004",
+        "video4_cp005",
+        "video4_cp006",
+        "video4_cp007"
+      ]
+    },
+    {
+      "video_id": "video5",
+      "path": "media/reference/video5.mp4",
+      "sha256": "dc6097fcabcd8c5d6b40dda644bd896d172548c13db635c6763cebebede09621",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video5_cp001",
+        "video5_cp002",
+        "video5_cp003",
+        "video5_cp004",
+        "video5_cp005",
+        "video5_cp006",
+        "video5_cp007",
+        "video5_cp008",
+        "video5_cp009",
+        "video5_cp010",
+        "video5_cp011"
+      ]
+    },
+    {
+      "video_id": "video6",
+      "path": "media/reference/video6.mp4",
+      "sha256": "14d04cc38954ee617f125ab5a17aec64f17eb520ad4e9fee530491664385db58",
+      "fps": 29.97002997002997,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video6_cp001",
+        "video6_cp002",
+        "video6_cp003",
+        "video6_cp004",
+        "video6_cp005",
+        "video6_cp006",
+        "video6_cp007",
+        "video6_cp008",
+        "video6_cp009",
+        "video6_cp010",
+        "video6_cp011"
+      ]
+    },
+    {
+      "video_id": "video7",
+      "path": "media/reference/video7.mp4",
+      "sha256": "1f19243c5afcff2eab86d87bc20274a917e4d692e8bb29d9e64d01c251f44ad7",
+      "fps": 23.962,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video7_cp001",
+        "video7_cp002",
+        "video7_cp003",
+        "video7_cp004",
+        "video7_cp005",
+        "video7_cp006",
+        "video7_cp007"
+      ]
+    },
+    {
+      "video_id": "video8",
+      "path": "media/reference/video8.mp4",
+      "sha256": "317575e068e2f9cfe28f286140e0f843a5bdca8a0c8265b7131d399cb8e54f17",
+      "fps": 30.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video8_cp001",
+        "video8_cp002",
+        "video8_cp003",
+        "video8_cp004",
+        "video8_cp005"
+      ]
+    },
+    {
+      "video_id": "video9",
+      "path": "media/reference/video9.mp4",
+      "sha256": "502ce69aea91a9ac78b4a06f059f6d2d65ff8fef8eb727000a9191ea5852800b",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video9_cp001",
+        "video9_cp002",
+        "video9_cp003",
+        "video9_cp004",
+        "video9_cp005",
+        "video9_cp006",
+        "video9_cp007",
+        "video9_cp008",
+        "video9_cp009",
+        "video9_cp010",
+        "video9_cp011",
+        "video9_cp012",
+        "video9_cp013"
+      ]
+    },
+    {
+      "video_id": "video10",
+      "path": "media/reference/video10.mp4",
+      "sha256": "bae345db63eb8143cb982583f50432eebeff6f008fe9611784a4e1f89b4c53cc",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video10_cp001",
+        "video10_cp002",
+        "video10_cp003",
+        "video10_cp004",
+        "video10_cp005",
+        "video10_cp006",
+        "video10_cp007",
+        "video10_cp008",
+        "video10_cp009",
+        "video10_cp010",
+        "video10_cp011"
+      ]
+    },
+    {
+      "video_id": "video11",
+      "path": "media/reference/video11.mp4",
+      "sha256": "a2517ca2d8186f03f00b5c983627447cd154437847348c45fd3d266d64aeb402",
+      "fps": 29.97002997002997,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video11_cp001",
+        "video11_cp002",
+        "video11_cp003",
+        "video11_cp004",
+        "video11_cp005",
+        "video11_cp006",
+        "video11_cp007",
+        "video11_cp008",
+        "video11_cp009",
+        "video11_cp010",
+        "video11_cp011"
+      ]
+    },
+    {
+      "video_id": "video12",
+      "path": "media/reference/video12.mp4",
+      "sha256": "71c04f3f2ed1afbe26bd698d34e96463cfb3273d5b7bfe56a8e8ba5410cbe783",
+      "fps": 29.97002997002997,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video12_cp001",
+        "video12_cp002",
+        "video12_cp003",
+        "video12_cp004",
+        "video12_cp005",
+        "video12_cp006",
+        "video12_cp007",
+        "video12_cp008",
+        "video12_cp009",
+        "video12_cp010",
+        "video12_cp011",
+        "video12_cp012"
+      ]
+    },
+    {
+      "video_id": "video13",
+      "path": "media/reference/video13.mp4",
+      "sha256": "82263b2ba7e58af2a0fe6e5fceec65883d5671fc3104794074f2ec508bdc7f88",
+      "fps": 25.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video13_cp001",
+        "video13_cp002",
+        "video13_cp003",
+        "video13_cp004",
+        "video13_cp005",
+        "video13_cp006",
+        "video13_cp007"
+      ]
+    },
+    {
+      "video_id": "video14",
+      "path": "media/reference/video14.mp4",
+      "sha256": "6b4ec362028ab0eabd4da6369975eb3486453ba4bbfe47ef7746ee18bdc2925b",
+      "fps": 29.97002997002997,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video14_cp001",
+        "video14_cp002",
+        "video14_cp003",
+        "video14_cp004",
+        "video14_cp005",
+        "video14_cp006",
+        "video14_cp007",
+        "video14_cp008",
+        "video14_cp009"
+      ]
+    },
+    {
+      "video_id": "video15",
+      "path": "media/reference/video15.mp4",
+      "sha256": "a2f17f99470d460905421fdd7c35ce8c2106e196498199bb63ccaa3c4420c3d0",
+      "fps": 30.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video15_cp001",
+        "video15_cp002",
+        "video15_cp003",
+        "video15_cp004",
+        "video15_cp005",
+        "video15_cp006"
+      ]
+    },
+    {
+      "video_id": "video16",
+      "path": "media/reference/video16.mp4",
+      "sha256": "6e64254a6b8ba89369ccd7ddd9678e383d14a04eca349e0f30af7ac1a1685463",
+      "fps": 25.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video16_cp001",
+        "video16_cp002",
+        "video16_cp003",
+        "video16_cp004",
+        "video16_cp005"
+      ]
+    },
+    {
+      "video_id": "video17",
+      "path": "media/reference/video17.mp4",
+      "sha256": "f46b53e9dbd145a295a62fb0867becd750bc21feecec802ae83f08a9d4131d4e",
+      "fps": 30.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video17_cp001",
+        "video17_cp002",
+        "video17_cp003",
+        "video17_cp004",
+        "video17_cp005",
+        "video17_cp006"
+      ]
+    },
+    {
+      "video_id": "video18",
+      "path": "media/reference/video18.mp4",
+      "sha256": "344989e932e99e9ae9791d0c30fefa592724022970fa34a448f32eadf950c191",
+      "fps": 30.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video18_cp001",
+        "video18_cp002",
+        "video18_cp003",
+        "video18_cp004",
+        "video18_cp005"
+      ]
+    },
+    {
+      "video_id": "video19",
+      "path": "media/reference/video19.mp4",
+      "sha256": "913a896d1944bae9eb5a12b36e0bebb4c3f7f2b95d6cda8d9a96fff78c833078",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video19_cp001",
+        "video19_cp002",
+        "video19_cp003",
+        "video19_cp004"
+      ]
+    },
+    {
+      "video_id": "video20",
+      "path": "media/reference/video20.mp4",
+      "sha256": "99607015e8be9396af277fb27aebe60121d44d25fbb49c9f4452f55e555a9a9f",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video20_cp001",
+        "video20_cp002",
+        "video20_cp003",
+        "video20_cp004",
+        "video20_cp005",
+        "video20_cp006",
+        "video20_cp007"
+      ]
+    },
+    {
+      "video_id": "video21",
+      "path": "media/reference/video21.mp4",
+      "sha256": "778f9cc793b889cef7350a6d8a2009fb0b05c966238212e6540d65d938284cdf",
+      "fps": 24.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video21_cp001",
+        "video21_cp002",
+        "video21_cp003",
+        "video21_cp004"
+      ]
+    },
+    {
+      "video_id": "video22",
+      "path": "media/reference/video22.mp4",
+      "sha256": "f21a54d03f5952154c3230ca223bd89b6b7f52800cefeabfca8fd50ead9a593f",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video22_cp001",
+        "video22_cp002",
+        "video22_cp003",
+        "video22_cp004",
+        "video22_cp005",
+        "video22_cp006",
+        "video22_cp007",
+        "video22_cp008",
+        "video22_cp009",
+        "video22_cp010",
+        "video22_cp011",
+        "video22_cp012",
+        "video22_cp013"
+      ]
+    },
+    {
+      "video_id": "video23",
+      "path": "media/reference/video23.mp4",
+      "sha256": "543cbabecff46017dfe321629e7cb6894059729dae95fac487782d9290096eb3",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video23_cp001",
+        "video23_cp002",
+        "video23_cp003",
+        "video23_cp004",
+        "video23_cp005",
+        "video23_cp006",
+        "video23_cp007",
+        "video23_cp008",
+        "video23_cp009"
+      ]
+    },
+    {
+      "video_id": "video24",
+      "path": "media/reference/video24.mp4",
+      "sha256": "c281cc91d4c29b94864e1515853e5564b264bef14dd82243a5f8f3c596447d24",
+      "fps": 29.97002997002997,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video24_cp001",
+        "video24_cp002",
+        "video24_cp003",
+        "video24_cp004",
+        "video24_cp005",
+        "video24_cp006",
+        "video24_cp007",
+        "video24_cp008",
+        "video24_cp009",
+        "video24_cp010",
+        "video24_cp011",
+        "video24_cp012",
+        "video24_cp013"
+      ]
+    },
+    {
+      "video_id": "video25",
+      "path": "media/reference/video25.mp4",
+      "sha256": "f0c79e1f6597c0b9430d265c42d519269df525fd7d2f37fc8b4becfc215a90f0",
+      "fps": 59.94005994005994,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video25_cp001",
+        "video25_cp002",
+        "video25_cp003",
+        "video25_cp004",
+        "video25_cp005",
+        "video25_cp006",
+        "video25_cp007",
+        "video25_cp008",
+        "video25_cp009",
+        "video25_cp010"
+      ]
+    },
+    {
+      "video_id": "video26",
+      "path": "media/reference/video26.mp4",
+      "sha256": "9c30c461c488e279d54d5962768f8dbedb363c1a5664568b79ff986762446d44",
+      "fps": 30.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video26_cp001",
+        "video26_cp002",
+        "video26_cp003",
+        "video26_cp004",
+        "video26_cp005"
+      ]
+    },
+    {
+      "video_id": "video27",
+      "path": "media/reference/video27.mp4",
+      "sha256": "f4d815f968090c92a2b5710c67de3ca0545ee7391c6117f89b995e4b919058f2",
+      "fps": 24.8825,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video27_cp001",
+        "video27_cp002",
+        "video27_cp003",
+        "video27_cp004",
+        "video27_cp005",
+        "video27_cp006",
+        "video27_cp007",
+        "video27_cp008"
+      ]
+    },
+    {
+      "video_id": "video28",
+      "path": "media/reference/video28.mp4",
+      "sha256": "61dee2d66a00fa2eed894aa2b3829cab5d7fd1d29248e23db966dd1f8caea1d5",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video28_cp001",
+        "video28_cp002",
+        "video28_cp003",
+        "video28_cp004",
+        "video28_cp005",
+        "video28_cp006",
+        "video28_cp007",
+        "video28_cp008",
+        "video28_cp009",
+        "video28_cp010",
+        "video28_cp011"
+      ]
+    },
+    {
+      "video_id": "video29",
+      "path": "media/reference/video29.mp4",
+      "sha256": "697df4c31b4e32a1360fefe494e2ed531e8a49889d43d6b04f0c903d4a2bdf36",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video29_cp001",
+        "video29_cp002",
+        "video29_cp003",
+        "video29_cp004"
+      ]
+    },
+    {
+      "video_id": "video30",
+      "path": "media/reference/video30.mp4",
+      "sha256": "a0e96b8d2823078cc489c74606f6a87a694f18d080e101b62b948e2d76078018",
+      "fps": 59.94005994005994,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video30_cp001",
+        "video30_cp002",
+        "video30_cp003",
+        "video30_cp004",
+        "video30_cp005",
+        "video30_cp006",
+        "video30_cp007",
+        "video30_cp008"
+      ]
+    },
+    {
+      "video_id": "video31",
+      "path": "media/reference/video31.mp4",
+      "sha256": "62fb90d39715a06792a921c994c5d0290b78a1fd62da61a783137cc820a9e426",
+      "fps": 60,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video31_cp001",
+        "video31_cp002",
+        "video31_cp003",
+        "video31_cp004",
+        "video31_cp005",
+        "video31_cp006",
+        "video31_cp007"
+      ]
+    },
+    {
+      "video_id": "video32",
+      "path": "media/reference/video32.mp4",
+      "sha256": "4ce11eedb217355b807bdafe692b2809ff04277924279885cd887e264fcb8070",
+      "fps": 30.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video32_cp001",
+        "video32_cp002",
+        "video32_cp003"
+      ]
+    },
+    {
+      "video_id": "video33",
+      "path": "media/reference/video33.mp4",
+      "sha256": "77bc7f0f13478cb56a45ad55271f818ec932cd3cf5cd2a2c145236706ecaad73",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video33_cp001",
+        "video33_cp002",
+        "video33_cp003",
+        "video33_cp004",
+        "video33_cp005",
+        "video33_cp006",
+        "video33_cp007"
+      ]
+    },
+    {
+      "video_id": "video34",
+      "path": "media/reference/video34.mp4",
+      "sha256": "0ab958b29dcce38cbbfa5179db2f2f24c1e95e2358532a57cf8e05640de76511",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video34_cp001",
+        "video34_cp002",
+        "video34_cp003",
+        "video34_cp004"
+      ]
+    },
+    {
+      "video_id": "video35",
+      "path": "media/reference/video35.mp4",
+      "sha256": "a9d0c26565d99158d141f979e8df4035bdf18adcf5d277324a4457bced0e452f",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video35_cp001",
+        "video35_cp002",
+        "video35_cp003",
+        "video35_cp004",
+        "video35_cp005"
+      ]
+    },
+    {
+      "video_id": "video36",
+      "path": "media/reference/video36.mp4",
+      "sha256": "a3c2c95e7d4b7a3a5231c1a4634dfaa539ab7cdb6c5b558aefa461134d54551d",
+      "fps": 23.912,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video36_cp001",
+        "video36_cp002",
+        "video36_cp003",
+        "video36_cp004",
+        "video36_cp005",
+        "video36_cp006",
+        "video36_cp007"
+      ]
+    },
+    {
+      "video_id": "video37",
+      "path": "media/reference/video37.mp4",
+      "sha256": "7603d63f3c4b870c5ae9c68ded1795c7a29360d0bd1011c4913c799301a8bb56",
+      "fps": 23.963,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video37_cp001",
+        "video37_cp002",
+        "video37_cp003"
+      ]
+    },
+    {
+      "video_id": "video38",
+      "path": "media/reference/video38.mp4",
+      "sha256": "fc1d9ba10853f83ae9b8dd178861ac8c63097ea57f08c2cf943de16062846f83",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video38_cp001",
+        "video38_cp002",
+        "video38_cp003",
+        "video38_cp004",
+        "video38_cp005",
+        "video38_cp006"
+      ]
+    },
+    {
+      "video_id": "video39",
+      "path": "media/reference/video39.mp4",
+      "sha256": "658811e8470406e6ab6e5a4e8ca12e664d9924244360ec218ab0b03bbdff5859",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video39_cp001",
+        "video39_cp002",
+        "video39_cp003",
+        "video39_cp004"
+      ]
+    },
+    {
+      "video_id": "video40",
+      "path": "media/reference/video40.mp4",
+      "sha256": "d42178c7921f404c563e4d96dee6fc9971f8bd67e65ba7e8bd3950f6b7bee547",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video40_cp001",
+        "video40_cp002",
+        "video40_cp003"
+      ]
+    },
+    {
+      "video_id": "video41",
+      "path": "media/reference/video41.mp4",
+      "sha256": "f9320460062653ca75d18fd1cd2f4b8bfb585b351c1666f77dc9c639a916450c",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video41_cp001",
+        "video41_cp002",
+        "video41_cp003"
+      ]
+    },
+    {
+      "video_id": "video42",
+      "path": "media/reference/video42.mp4",
+      "sha256": "ca7d376a74fa4ae5cd882270619e25dc674014feb39eb758db4544838d80f9e5",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video42_cp001",
+        "video42_cp002",
+        "video42_cp003",
+        "video42_cp004",
+        "video42_cp005",
+        "video42_cp006"
+      ]
+    },
+    {
+      "video_id": "video43",
+      "path": "media/reference/video43.mp4",
+      "sha256": "96298e688d2ba085e82d1499fd6a6549ea17dcdaf5f72a12f856730fda2520cf",
+      "fps": 23.976023976023978,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video43_cp001",
+        "video43_cp002",
+        "video43_cp003"
+      ]
+    },
+    {
+      "video_id": "video44",
+      "path": "media/reference/video44.mp4",
+      "sha256": "4695276504359033209c1d8adcd3e929ccef85bccc8e645fc916c511e8b49064",
+      "fps": 24.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video44_cp001",
+        "video44_cp002",
+        "video44_cp003",
+        "video44_cp004",
+        "video44_cp005",
+        "video44_cp006"
+      ]
+    },
+    {
+      "video_id": "video45",
+      "path": "media/reference/video45.mp4",
+      "sha256": "dc84edeb0b20468add4f73dc36415b61e4075c75a3f2df8d8d4596ff07179849",
+      "fps": 30.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video45_cp001",
+        "video45_cp002",
+        "video45_cp003",
+        "video45_cp004",
+        "video45_cp005",
+        "video45_cp006",
+        "video45_cp007",
+        "video45_cp008",
+        "video45_cp009"
+      ]
+    },
+    {
+      "video_id": "video46",
+      "path": "media/reference/video46.mp4",
+      "sha256": "af254bfe49208f6a766a448f59c744a894e2200c0e48fa5b490ac87209697118",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video46_cp001",
+        "video46_cp002",
+        "video46_cp003",
+        "video46_cp004",
+        "video46_cp005",
+        "video46_cp006"
+      ]
+    },
+    {
+      "video_id": "video47",
+      "path": "media/reference/video47.mp4",
+      "sha256": "91ad8eea5aca4a914cece1a3752a4ba0266a69ae6be29cc91a952cde69330214",
+      "fps": 59.94005994005994,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video47_cp001",
+        "video47_cp002",
+        "video47_cp003",
+        "video47_cp004",
+        "video47_cp005"
+      ]
+    },
+    {
+      "video_id": "video48",
+      "path": "media/reference/video48.mp4",
+      "sha256": "1058a2863f20df6d1094b9a034237c596430fceb87ef7bb539c855d2b98b8fbf",
+      "fps": 59.94005994005994,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video48_cp001",
+        "video48_cp002",
+        "video48_cp003",
+        "video48_cp004",
+        "video48_cp005",
+        "video48_cp006",
+        "video48_cp007",
+        "video48_cp008",
+        "video48_cp009",
+        "video48_cp010",
+        "video48_cp011",
+        "video48_cp012"
+      ]
+    },
+    {
+      "video_id": "video49",
+      "path": "media/reference/video49.mp4",
+      "sha256": "104aef8fbce30f6583fd431359b6ba2e398c3df6ca8b6b916e2c4e6c88930801",
+      "fps": 60.0,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video49_cp001",
+        "video49_cp002",
+        "video49_cp003",
+        "video49_cp004",
+        "video49_cp005",
+        "video49_cp006"
+      ]
+    },
+    {
+      "video_id": "video50",
+      "path": "media/reference/video50.mp4",
+      "sha256": "d73724faf46ca886d320906691fad412cfe83c609d97323860e7fa63bb858358",
+      "fps": 59.94005994005994,
+      "source_url": null,
+      "redistribution_status": "pending_author_rights_review",
+      "clip_ids": [
+        "video50_cp001",
+        "video50_cp002",
+        "video50_cp003",
+        "video50_cp004",
+        "video50_cp005",
+        "video50_cp006",
+        "video50_cp007",
+        "video50_cp008"
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "clip_id": "video1_cp001",
+      "video_id": "video1",
+      "source_frame_offset": 0,
+      "end_frame": 42,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video1_cp001.json"
+      },
+      "sha256": {
+        "en": "d217adc2355cfc9d6903ede98ed6d1b7a3a643c273c0703a240ccd830e7c3ec5"
+      }
+    },
+    {
+      "clip_id": "video1_cp002",
+      "video_id": "video1",
+      "source_frame_offset": 43,
+      "end_frame": 29,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video1_cp002.json"
+      },
+      "sha256": {
+        "en": "cf75c50fee5383ad857aa9796a6bfea1d7a78ac6ade1294a018945bb40846c2c"
+      }
+    },
+    {
+      "clip_id": "video1_cp003",
+      "video_id": "video1",
+      "source_frame_offset": 84,
+      "end_frame": 36,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video1_cp003.json"
+      },
+      "sha256": {
+        "en": "711db3e535a8d72a0035a91f40767536c2255cb55d557571211dcfc7f8d12c54"
+      }
+    },
+    {
+      "clip_id": "video1_cp004",
+      "video_id": "video1",
+      "source_frame_offset": 132,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video1_cp004.json"
+      },
+      "sha256": {
+        "en": "d39c29a4d7a2a0795f12398f1421a17207582351d4669a284f07c52b555eb2b3"
+      }
+    },
+    {
+      "clip_id": "video1_cp005",
+      "video_id": "video1",
+      "source_frame_offset": 198,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video1_cp005.json"
+      },
+      "sha256": {
+        "en": "24c0943f2572a773a7251e99e4b5f0f9df52b1237d21c9e8b7e5ee5de629e513"
+      }
+    },
+    {
+      "clip_id": "video1_cp006",
+      "video_id": "video1",
+      "source_frame_offset": 297,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video1_cp006.json"
+      },
+      "sha256": {
+        "en": "c94dcea314d341057f22b95144833c4ddba51490f587a6091104e9e2c85ecf8c"
+      }
+    },
+    {
+      "clip_id": "video1_cp007",
+      "video_id": "video1",
+      "source_frame_offset": 342,
+      "end_frame": 41,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video1_cp007.json"
+      },
+      "sha256": {
+        "en": "5ac55976925ad68854bd055cd36faf8f286236b008cc24523df7d9a8acbf1c14"
+      }
+    },
+    {
+      "clip_id": "video2_cp001",
+      "video_id": "video2",
+      "source_frame_offset": 12,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video2_cp001.json"
+      },
+      "sha256": {
+        "en": "f530282bb1407153ab444842ce63c44c5a681eb380863edf87d488f016da7359"
+      }
+    },
+    {
+      "clip_id": "video2_cp002",
+      "video_id": "video2",
+      "source_frame_offset": 58,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video2_cp002.json"
+      },
+      "sha256": {
+        "en": "861e4872cabeafb7f849127f3239891054bf84d34ea8d778697b3c33b5a6218a"
+      }
+    },
+    {
+      "clip_id": "video2_cp003",
+      "video_id": "video2",
+      "source_frame_offset": 104,
+      "end_frame": 41,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video2_cp003.json"
+      },
+      "sha256": {
+        "en": "f23717bf97de57c4417fb00823830c2a630bbf58ea665b838841dbfac3af8903"
+      }
+    },
+    {
+      "clip_id": "video2_cp004",
+      "video_id": "video2",
+      "source_frame_offset": 188,
+      "end_frame": 34,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video2_cp004.json"
+      },
+      "sha256": {
+        "en": "c3b8b556cd9d6b1bd4818ef38e35b1f0468b10acab79e735f7589d7ba6a92628"
+      }
+    },
+    {
+      "clip_id": "video2_cp005",
+      "video_id": "video2",
+      "source_frame_offset": 214,
+      "end_frame": 36,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video2_cp005.json"
+      },
+      "sha256": {
+        "en": "efc50dc77e8966cae5bdea2cff9f6d2e6042075569737cd495ce2649966f5462"
+      }
+    },
+    {
+      "clip_id": "video2_cp006",
+      "video_id": "video2",
+      "source_frame_offset": 246,
+      "end_frame": 32,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video2_cp006.json"
+      },
+      "sha256": {
+        "en": "023650e7b2657ce0746aa199bdfd84dee7bfca2d40f17167c64295bc059033b1"
+      }
+    },
+    {
+      "clip_id": "video2_cp007",
+      "video_id": "video2",
+      "source_frame_offset": 286,
+      "end_frame": 44,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video2_cp007.json"
+      },
+      "sha256": {
+        "en": "a88c0cc23460981f107bbdc74c272bdf85583fe21f1b796f20b45d9ea6012a6d"
+      }
+    },
+    {
+      "clip_id": "video2_cp008",
+      "video_id": "video2",
+      "source_frame_offset": 388,
+      "end_frame": 32,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video2_cp008.json"
+      },
+      "sha256": {
+        "en": "0d8f3ca8c25b06be9a12838910bd6f2b969e4d0c95e294c5d2767614254e25d9"
+      }
+    },
+    {
+      "clip_id": "video3_cp001",
+      "video_id": "video3",
+      "source_frame_offset": 0,
+      "end_frame": 24,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp001.json"
+      },
+      "sha256": {
+        "en": "4c632fa9b0b515f483f29648d9d1f9861292f9c2c3f784d8ebeaef250f1ded38"
+      }
+    },
+    {
+      "clip_id": "video3_cp002",
+      "video_id": "video3",
+      "source_frame_offset": 31,
+      "end_frame": 27,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp002.json"
+      },
+      "sha256": {
+        "en": "396fb746830d27d1dde0ef990ce3d3147147529cf5fe2cb49ead19658ce88908"
+      }
+    },
+    {
+      "clip_id": "video3_cp003",
+      "video_id": "video3",
+      "source_frame_offset": 66,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp003.json"
+      },
+      "sha256": {
+        "en": "e0293bfd57c219a39ccfbc9935466641d5c29d5b92ab3a273c6d16b792cc7af6"
+      }
+    },
+    {
+      "clip_id": "video3_cp004",
+      "video_id": "video3",
+      "source_frame_offset": 113,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp004.json"
+      },
+      "sha256": {
+        "en": "ba8a09c9a7660423fa86464b65412d784bd586aea3cb10d11bf2855c86a90558"
+      }
+    },
+    {
+      "clip_id": "video3_cp005",
+      "video_id": "video3",
+      "source_frame_offset": 180,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp005.json"
+      },
+      "sha256": {
+        "en": "c52c04c0ed26e170862ef5255d99ca1d9f8fc9c057fc19e9a75025cd4f0aa4f6"
+      }
+    },
+    {
+      "clip_id": "video3_cp006",
+      "video_id": "video3",
+      "source_frame_offset": 262,
+      "end_frame": 44,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp006.json"
+      },
+      "sha256": {
+        "en": "bad087f46e25019a2de5ce849f9f8215c8e811b5e19be8720c31f6f12a0132a0"
+      }
+    },
+    {
+      "clip_id": "video3_cp007",
+      "video_id": "video3",
+      "source_frame_offset": 330,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp007.json"
+      },
+      "sha256": {
+        "en": "072458c184e0931314d42429040f1850cb33011e13f70c1c20928919c42e5724"
+      }
+    },
+    {
+      "clip_id": "video3_cp008",
+      "video_id": "video3",
+      "source_frame_offset": 377,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp008.json"
+      },
+      "sha256": {
+        "en": "28610f73f4c0ea5d5b6f61a1b6df49f5be04c7a91e3dfe5c31c3faeb40e85851"
+      }
+    },
+    {
+      "clip_id": "video3_cp009",
+      "video_id": "video3",
+      "source_frame_offset": 424,
+      "end_frame": 36,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp009.json"
+      },
+      "sha256": {
+        "en": "e1a82b821a90cd5b749204a8ba0a6cbac190325d24c58a64a1d1d30ad5784f79"
+      }
+    },
+    {
+      "clip_id": "video3_cp010",
+      "video_id": "video3",
+      "source_frame_offset": 461,
+      "end_frame": 39,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video3_cp010.json"
+      },
+      "sha256": {
+        "en": "ed6fdf09740602a0a93323d0d9aa2aa320c2f2a0c40cca0fc7f81a44802ccb3a"
+      }
+    },
+    {
+      "clip_id": "video4_cp001",
+      "video_id": "video4",
+      "source_frame_offset": 0,
+      "end_frame": 35,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video4_cp001.json"
+      },
+      "sha256": {
+        "en": "b6e668c4a5c78e74378807f1821b98f5b713cf0484596d463d3aab89d6b530ed"
+      }
+    },
+    {
+      "clip_id": "video4_cp002",
+      "video_id": "video4",
+      "source_frame_offset": 126,
+      "end_frame": 44,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video4_cp002.json"
+      },
+      "sha256": {
+        "en": "39305e9769c07e3073e0397894f90825b9fb3a1d7e581692de7b856c4cae963b"
+      }
+    },
+    {
+      "clip_id": "video4_cp003",
+      "video_id": "video4",
+      "source_frame_offset": 171,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video4_cp003.json"
+      },
+      "sha256": {
+        "en": "ad618974661bb48e5e385be56501cd928c615c8133b803d0125343208c1b4f8f"
+      }
+    },
+    {
+      "clip_id": "video4_cp004",
+      "video_id": "video4",
+      "source_frame_offset": 270,
+      "end_frame": 40,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video4_cp004.json"
+      },
+      "sha256": {
+        "en": "2352b4c9356a615cff4c567815a0d13bf7d021425f8fc0f99363c3b84bc6a5ec"
+      }
+    },
+    {
+      "clip_id": "video4_cp005",
+      "video_id": "video4",
+      "source_frame_offset": 416,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video4_cp005.json"
+      },
+      "sha256": {
+        "en": "34a08b6d859bae63d033ffaa8fd695ee3bd8a88daf2d7d22a0d773cef17b1555"
+      }
+    },
+    {
+      "clip_id": "video4_cp006",
+      "video_id": "video4",
+      "source_frame_offset": 474,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video4_cp006.json"
+      },
+      "sha256": {
+        "en": "00255e8d3d303eaaf0adfbc6235bacda54538e4cc6349a9d6c4a00f821ec7fc9"
+      }
+    },
+    {
+      "clip_id": "video4_cp007",
+      "video_id": "video4",
+      "source_frame_offset": 529,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video4_cp007.json"
+      },
+      "sha256": {
+        "en": "bd41b01c908acc0cc230f978b6a1d0eb591d94b1ff436d45d1b1e81faaf66da9"
+      }
+    },
+    {
+      "clip_id": "video5_cp001",
+      "video_id": "video5",
+      "source_frame_offset": 0,
+      "end_frame": 20,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp001.json"
+      },
+      "sha256": {
+        "en": "917ae933193aaa7705e408ed46ff78c4ef7c05566aef19f01e00a3527b6cc9a3"
+      }
+    },
+    {
+      "clip_id": "video5_cp002",
+      "video_id": "video5",
+      "source_frame_offset": 41,
+      "end_frame": 18,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp002.json"
+      },
+      "sha256": {
+        "en": "554ed5e831231630feac2bbe883d2c8abb2eb9e9e63167bc110de7b35876c4d8"
+      }
+    },
+    {
+      "clip_id": "video5_cp003",
+      "video_id": "video5",
+      "source_frame_offset": 88,
+      "end_frame": 22,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp003.json"
+      },
+      "sha256": {
+        "en": "4abcee182d4a3a210f09f2ae0a3f30c6c9a96abf1c0cfbae7b5a57afa36449f8"
+      }
+    },
+    {
+      "clip_id": "video5_cp004",
+      "video_id": "video5",
+      "source_frame_offset": 126,
+      "end_frame": 28,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp004.json"
+      },
+      "sha256": {
+        "en": "2165595fc9c522301ea96c624bf03d53a790e20cc66a93c653f38f7501886370"
+      }
+    },
+    {
+      "clip_id": "video5_cp005",
+      "video_id": "video5",
+      "source_frame_offset": 205,
+      "end_frame": 20,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp005.json"
+      },
+      "sha256": {
+        "en": "91a3799f2caf3ef88d83f7df1cbaaed5dd7609b38f565a0af7a250de6ba4bfde"
+      }
+    },
+    {
+      "clip_id": "video5_cp006",
+      "video_id": "video5",
+      "source_frame_offset": 276,
+      "end_frame": 30,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp006.json"
+      },
+      "sha256": {
+        "en": "4a0e775bec20a5a011bccc923ec7828831d7001b7984b32a2371e2e2afe17b16"
+      }
+    },
+    {
+      "clip_id": "video5_cp007",
+      "video_id": "video5",
+      "source_frame_offset": 348,
+      "end_frame": 24,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp007.json"
+      },
+      "sha256": {
+        "en": "d88eadfe4ce194de592ad4c80e59c6f21e212648a30d0c09ffb12e4200861c9a"
+      }
+    },
+    {
+      "clip_id": "video5_cp008",
+      "video_id": "video5",
+      "source_frame_offset": 445,
+      "end_frame": 23,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp008.json"
+      },
+      "sha256": {
+        "en": "34115c1f580d9e353bcc3fe20e5de28d9a0800096dcc470305f939aed9eb18eb"
+      }
+    },
+    {
+      "clip_id": "video5_cp009",
+      "video_id": "video5",
+      "source_frame_offset": 475,
+      "end_frame": 21,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp009.json"
+      },
+      "sha256": {
+        "en": "e8b9d1ed496ac6698fbcdd7ea7747254de2c87bc59d022ab6701c326aba8e9a4"
+      }
+    },
+    {
+      "clip_id": "video5_cp010",
+      "video_id": "video5",
+      "source_frame_offset": 518,
+      "end_frame": 22,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp010.json"
+      },
+      "sha256": {
+        "en": "33768e98cb95bce2fb636112b524a1b9621c62e679a4da286e1d3d6b958819dc"
+      }
+    },
+    {
+      "clip_id": "video5_cp011",
+      "video_id": "video5",
+      "source_frame_offset": 552,
+      "end_frame": 23,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video5_cp011.json"
+      },
+      "sha256": {
+        "en": "3e291978ffdf99f9b2e12c8a7e5a4d73498ae8bf101ad4411d6b354a14cf6934"
+      }
+    },
+    {
+      "clip_id": "video6_cp001",
+      "video_id": "video6",
+      "source_frame_offset": 0,
+      "end_frame": 40,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp001.json"
+      },
+      "sha256": {
+        "en": "52cb1b9c6c9367b9aea3f40e98f0ea0dc95ca74323b96ad984fb89e4a8bd18f1"
+      }
+    },
+    {
+      "clip_id": "video6_cp002",
+      "video_id": "video6",
+      "source_frame_offset": 100,
+      "end_frame": 40,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp002.json"
+      },
+      "sha256": {
+        "en": "96f9add3d64e1cd946863baf2b4268df36a8f4e17f40d3e687ced1eb958ca4b9"
+      }
+    },
+    {
+      "clip_id": "video6_cp003",
+      "video_id": "video6",
+      "source_frame_offset": 220,
+      "end_frame": 50,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp003.json"
+      },
+      "sha256": {
+        "en": "b7a9a36a303bfe868810071f261dd4b8089c10d773320280f01e96043ef79ff1"
+      }
+    },
+    {
+      "clip_id": "video6_cp004",
+      "video_id": "video6",
+      "source_frame_offset": 280,
+      "end_frame": 50,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp004.json"
+      },
+      "sha256": {
+        "en": "7251fe43383ddb03abb8903c588544b76dbcb965454561ad735bd58908a14913"
+      }
+    },
+    {
+      "clip_id": "video6_cp005",
+      "video_id": "video6",
+      "source_frame_offset": 331,
+      "end_frame": 49,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp005.json"
+      },
+      "sha256": {
+        "en": "5598641497cdf6d4440ded0a6185894582ee846a567f8cc15a36a283f37010c9"
+      }
+    },
+    {
+      "clip_id": "video6_cp006",
+      "video_id": "video6",
+      "source_frame_offset": 400,
+      "end_frame": 40,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp006.json"
+      },
+      "sha256": {
+        "en": "d6b8ae11b2887c6e5afd0e22471a7578cff7826e2b9f158683edc2c4697349c5"
+      }
+    },
+    {
+      "clip_id": "video6_cp007",
+      "video_id": "video6",
+      "source_frame_offset": 455,
+      "end_frame": 45,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp007.json"
+      },
+      "sha256": {
+        "en": "a083fdea14a9496ad9fcb3cf074d65332a71edd9112ee4fe6c959a7c5b7176eb"
+      }
+    },
+    {
+      "clip_id": "video6_cp008",
+      "video_id": "video6",
+      "source_frame_offset": 520,
+      "end_frame": 51,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp008.json"
+      },
+      "sha256": {
+        "en": "1ac2edaca0eb73db583990ad736664647b71dfc3a593e3a11b05253d43402ed7"
+      }
+    },
+    {
+      "clip_id": "video6_cp009",
+      "video_id": "video6",
+      "source_frame_offset": 571,
+      "end_frame": 49,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp009.json"
+      },
+      "sha256": {
+        "en": "fab42d34ef104e9e04444df997437b17cea332894fd12245441b01a2f149e0f6"
+      }
+    },
+    {
+      "clip_id": "video6_cp010",
+      "video_id": "video6",
+      "source_frame_offset": 640,
+      "end_frame": 40,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp010.json"
+      },
+      "sha256": {
+        "en": "8bf393f47e53e8e3497e911e61fe5769172d0249438f09944242809b8a991c97"
+      }
+    },
+    {
+      "clip_id": "video6_cp011",
+      "video_id": "video6",
+      "source_frame_offset": 680,
+      "end_frame": 39,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video6_cp011.json"
+      },
+      "sha256": {
+        "en": "95f0ce13db4fba304d35beabb71f619f9ee0be7a98fc0112960e928254f8f682"
+      }
+    },
+    {
+      "clip_id": "video7_cp001",
+      "video_id": "video7",
+      "source_frame_offset": 0,
+      "end_frame": 30,
+      "fps": 23.962,
+      "annotations": {
+        "en": "data/annotations/en/video7_cp001.json"
+      },
+      "sha256": {
+        "en": "a68d9c1f2968963f1ccedab44992fcf05693b3e639c30d9311cdc6875856f2e5"
+      }
+    },
+    {
+      "clip_id": "video7_cp002",
+      "video_id": "video7",
+      "source_frame_offset": 75,
+      "end_frame": 40,
+      "fps": 23.962,
+      "annotations": {
+        "en": "data/annotations/en/video7_cp002.json"
+      },
+      "sha256": {
+        "en": "2385c231113353a41d2fe28f145eb865aa2177a890aef6292cfb0411d98fd4cf"
+      }
+    },
+    {
+      "clip_id": "video7_cp003",
+      "video_id": "video7",
+      "source_frame_offset": 163,
+      "end_frame": 46,
+      "fps": 23.962,
+      "annotations": {
+        "en": "data/annotations/en/video7_cp003.json"
+      },
+      "sha256": {
+        "en": "3787aa3b2f43fcb58c041b91c280a90bc91dd5eca8a9a513f2f48b7fdb14a7f2"
+      }
+    },
+    {
+      "clip_id": "video7_cp004",
+      "video_id": "video7",
+      "source_frame_offset": 261,
+      "end_frame": 46,
+      "fps": 23.962,
+      "annotations": {
+        "en": "data/annotations/en/video7_cp004.json"
+      },
+      "sha256": {
+        "en": "42270ea9a0183356e78419f59bdd8100cc4b15ab9e95e546d1db39259fb58a2b"
+      }
+    },
+    {
+      "clip_id": "video7_cp005",
+      "video_id": "video7",
+      "source_frame_offset": 343,
+      "end_frame": 46,
+      "fps": 23.962,
+      "annotations": {
+        "en": "data/annotations/en/video7_cp005.json"
+      },
+      "sha256": {
+        "en": "b8f7358cfdaeafe9e5d998223903a12912eed7bdf7427e9e084d4ce869c57519"
+      }
+    },
+    {
+      "clip_id": "video7_cp006",
+      "video_id": "video7",
+      "source_frame_offset": 447,
+      "end_frame": 46,
+      "fps": 23.962,
+      "annotations": {
+        "en": "data/annotations/en/video7_cp006.json"
+      },
+      "sha256": {
+        "en": "20309fc93749187c7d1d640100cbbea47012e3160ff409e5a0a68f58c8feb745"
+      }
+    },
+    {
+      "clip_id": "video7_cp007",
+      "video_id": "video7",
+      "source_frame_offset": 529,
+      "end_frame": 46,
+      "fps": 23.962,
+      "annotations": {
+        "en": "data/annotations/en/video7_cp007.json"
+      },
+      "sha256": {
+        "en": "609d1486403d59a55792babf49ff54aaf76fab100977409e8531c77548ce8472"
+      }
+    },
+    {
+      "clip_id": "video8_cp001",
+      "video_id": "video8",
+      "source_frame_offset": 0,
+      "end_frame": 44,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video8_cp001.json"
+      },
+      "sha256": {
+        "en": "d1ef253e7d10adb42701d34dcf2845dcac3dfab1f5f27bd50d4c960a82ac0fdb"
+      }
+    },
+    {
+      "clip_id": "video8_cp002",
+      "video_id": "video8",
+      "source_frame_offset": 70,
+      "end_frame": 40,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video8_cp002.json"
+      },
+      "sha256": {
+        "en": "8170671a59227966b64edc7c334a0727b1267074fd8f01182efaff51d322e5d4"
+      }
+    },
+    {
+      "clip_id": "video8_cp003",
+      "video_id": "video8",
+      "source_frame_offset": 185,
+      "end_frame": 45,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video8_cp003.json"
+      },
+      "sha256": {
+        "en": "e05feaeaa866a38b9511edcae3defa380d9e09b69a58beca6dd4a38149c95ec2"
+      }
+    },
+    {
+      "clip_id": "video8_cp004",
+      "video_id": "video8",
+      "source_frame_offset": 276,
+      "end_frame": 39,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video8_cp004.json"
+      },
+      "sha256": {
+        "en": "d6a6526f055c77f2614b75174ea0c98b355230193296199bb48f45fe32c0953f"
+      }
+    },
+    {
+      "clip_id": "video8_cp005",
+      "video_id": "video8",
+      "source_frame_offset": 330,
+      "end_frame": 29,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video8_cp005.json"
+      },
+      "sha256": {
+        "en": "06e6cf9e607d5f5695b80cb3558468a12a893a16c9ea19d39e1b3804bf4d11a1"
+      }
+    },
+    {
+      "clip_id": "video9_cp001",
+      "video_id": "video9",
+      "source_frame_offset": 1,
+      "end_frame": 23,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp001.json"
+      },
+      "sha256": {
+        "en": "42e650f6bb49831cb5598bb3812907aa07e02038d467f3cf71c946956b172ddf"
+      }
+    },
+    {
+      "clip_id": "video9_cp002",
+      "video_id": "video9",
+      "source_frame_offset": 38,
+      "end_frame": 23,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp002.json"
+      },
+      "sha256": {
+        "en": "55a13dc2eca693643d8a12085000d97e213fe9f87fa7c125da9d15c4501f18a9"
+      }
+    },
+    {
+      "clip_id": "video9_cp003",
+      "video_id": "video9",
+      "source_frame_offset": 65,
+      "end_frame": 25,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp003.json"
+      },
+      "sha256": {
+        "en": "214a64bc24addff2e9dcb3ec94a2c1e623136d12841e99dc404557ca18de7fe2"
+      }
+    },
+    {
+      "clip_id": "video9_cp004",
+      "video_id": "video9",
+      "source_frame_offset": 83,
+      "end_frame": 27,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp004.json"
+      },
+      "sha256": {
+        "en": "7efae0de85cd9ae6e70400659d26d6d85c4485218929db38b7d10592880fb1c0"
+      }
+    },
+    {
+      "clip_id": "video9_cp005",
+      "video_id": "video9",
+      "source_frame_offset": 158,
+      "end_frame": 30,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp005.json"
+      },
+      "sha256": {
+        "en": "5b423b575367e6bc39cc6ee1066d8edbda11954767a4f8178fb6d344491aaf8c"
+      }
+    },
+    {
+      "clip_id": "video9_cp006",
+      "video_id": "video9",
+      "source_frame_offset": 236,
+      "end_frame": 34,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp006.json"
+      },
+      "sha256": {
+        "en": "6de85a6597ed59cd2d3acd7a07b338f147af24fca08a97d6bba8d6bddb1e804e"
+      }
+    },
+    {
+      "clip_id": "video9_cp007",
+      "video_id": "video9",
+      "source_frame_offset": 318,
+      "end_frame": 24,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp007.json"
+      },
+      "sha256": {
+        "en": "241e3b6767e6baade552e1b8b517b1442e27676794fb3015ce3ecb4ccdb3e275"
+      }
+    },
+    {
+      "clip_id": "video9_cp008",
+      "video_id": "video9",
+      "source_frame_offset": 338,
+      "end_frame": 28,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp008.json"
+      },
+      "sha256": {
+        "en": "2b95b844902ca6e635198a565c65358863cdc93a0d194d06a85e283d6d4eb2fd"
+      }
+    },
+    {
+      "clip_id": "video9_cp009",
+      "video_id": "video9",
+      "source_frame_offset": 372,
+      "end_frame": 26,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp009.json"
+      },
+      "sha256": {
+        "en": "5e86addfeaa93194e0760795ed3735994cef429ee9ba391d552c56a58d92d0b7"
+      }
+    },
+    {
+      "clip_id": "video9_cp010",
+      "video_id": "video9",
+      "source_frame_offset": 400,
+      "end_frame": 25,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp010.json"
+      },
+      "sha256": {
+        "en": "cb2317043bd443d775f9f9331a8596ad47aa192dd20c57347ca8990334b9bbc5"
+      }
+    },
+    {
+      "clip_id": "video9_cp011",
+      "video_id": "video9",
+      "source_frame_offset": 421,
+      "end_frame": 26,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp011.json"
+      },
+      "sha256": {
+        "en": "9aa8b1cab2e5e1d9df72b7ab1645a16e6214dec9ce467840c6194083ef0971c4"
+      }
+    },
+    {
+      "clip_id": "video9_cp012",
+      "video_id": "video9",
+      "source_frame_offset": 483,
+      "end_frame": 31,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp012.json"
+      },
+      "sha256": {
+        "en": "9475c9c6dba9c12b25cb1e6dd2bb23a85f8ed10428c848c55ae702e8dc8d705e"
+      }
+    },
+    {
+      "clip_id": "video9_cp013",
+      "video_id": "video9",
+      "source_frame_offset": 548,
+      "end_frame": 26,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video9_cp013.json"
+      },
+      "sha256": {
+        "en": "67959d62f7f7cf0dbe6441ca0ad72d412fd2fffdc75fd3e26cc978bdf6376c39"
+      }
+    },
+    {
+      "clip_id": "video10_cp001",
+      "video_id": "video10",
+      "source_frame_offset": 24,
+      "end_frame": 44,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp001.json"
+      },
+      "sha256": {
+        "en": "5d9d1988fece67b99901a9e9c0badc6aef09ebce9ac8b183cd6d47cee68bc2ab"
+      }
+    },
+    {
+      "clip_id": "video10_cp002",
+      "video_id": "video10",
+      "source_frame_offset": 88,
+      "end_frame": 34,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp002.json"
+      },
+      "sha256": {
+        "en": "94543344a99e9a5efc1dfcc646c1f8e3b662cff5d648ec4e03d8270313d7773b"
+      }
+    },
+    {
+      "clip_id": "video10_cp003",
+      "video_id": "video10",
+      "source_frame_offset": 123,
+      "end_frame": 22,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp003.json"
+      },
+      "sha256": {
+        "en": "8bee44de679cbbd2c6ac01f8ef05aad8b62cb9fb0bd6fcdeb29478cbe8baceb9"
+      }
+    },
+    {
+      "clip_id": "video10_cp004",
+      "video_id": "video10",
+      "source_frame_offset": 190,
+      "end_frame": 38,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp004.json"
+      },
+      "sha256": {
+        "en": "3f1f9a89343577fc1a57c4bbbe8f9794f5c1b0837fbc994fa9e5cccd03d12229"
+      }
+    },
+    {
+      "clip_id": "video10_cp005",
+      "video_id": "video10",
+      "source_frame_offset": 242,
+      "end_frame": 28,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp005.json"
+      },
+      "sha256": {
+        "en": "d6ff2bf7ae14e68ac438d2151ab1eb397d98894874f1d0d90f4eb3643d5c7b43"
+      }
+    },
+    {
+      "clip_id": "video10_cp006",
+      "video_id": "video10",
+      "source_frame_offset": 271,
+      "end_frame": 23,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp006.json"
+      },
+      "sha256": {
+        "en": "7acb3fe79ffa9c87d3bb4189919f727589e88e04427760c8dc603fedc56f5b4b"
+      }
+    },
+    {
+      "clip_id": "video10_cp007",
+      "video_id": "video10",
+      "source_frame_offset": 408,
+      "end_frame": 30,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp007.json"
+      },
+      "sha256": {
+        "en": "1e54d2ecc665ea4f9b5a707df69918365fad095194f6824b60132fc6aba558c1"
+      }
+    },
+    {
+      "clip_id": "video10_cp008",
+      "video_id": "video10",
+      "source_frame_offset": 438,
+      "end_frame": 43,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp008.json"
+      },
+      "sha256": {
+        "en": "780de4f266117e0ac09373b8f32a380421223c7a511dfac9e25668f4807dbbdb"
+      }
+    },
+    {
+      "clip_id": "video10_cp009",
+      "video_id": "video10",
+      "source_frame_offset": 482,
+      "end_frame": 38,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp009.json"
+      },
+      "sha256": {
+        "en": "ff4e349306efa49384a8cb423019da9caecef03a49b1b5c082a9f3c835d7b23f"
+      }
+    },
+    {
+      "clip_id": "video10_cp010",
+      "video_id": "video10",
+      "source_frame_offset": 521,
+      "end_frame": 32,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp010.json"
+      },
+      "sha256": {
+        "en": "20ff05fb955e488d79505216acf7204487e6be1d5bd4000817c0164d22286520"
+      }
+    },
+    {
+      "clip_id": "video10_cp011",
+      "video_id": "video10",
+      "source_frame_offset": 554,
+      "end_frame": 21,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video10_cp011.json"
+      },
+      "sha256": {
+        "en": "f6605bcb9028ea9c7775f7b309f689aa76271ed76894da45729f0b37cfe42008"
+      }
+    },
+    {
+      "clip_id": "video11_cp001",
+      "video_id": "video11",
+      "source_frame_offset": 0,
+      "end_frame": 42,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp001.json"
+      },
+      "sha256": {
+        "en": "7b6d0fdf7042c7f1daed13bf1332254faf796b2e5365fdfee20527a165d14211"
+      }
+    },
+    {
+      "clip_id": "video11_cp002",
+      "video_id": "video11",
+      "source_frame_offset": 145,
+      "end_frame": 33,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp002.json"
+      },
+      "sha256": {
+        "en": "571bc7b0ca5005cd49f97a8ac0bfd4e8da6eadbc874a9d4a40ab6a9504044c3a"
+      }
+    },
+    {
+      "clip_id": "video11_cp003",
+      "video_id": "video11",
+      "source_frame_offset": 179,
+      "end_frame": 26,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp003.json"
+      },
+      "sha256": {
+        "en": "e060136c962cd66c9f34136c13db4da28e27712c5957c20749360b9ee96698a0"
+      }
+    },
+    {
+      "clip_id": "video11_cp004",
+      "video_id": "video11",
+      "source_frame_offset": 245,
+      "end_frame": 35,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp004.json"
+      },
+      "sha256": {
+        "en": "c704070749b12eb9a37a25dc4120452e0362ff6c71e02bc31c4c181abc19586d"
+      }
+    },
+    {
+      "clip_id": "video11_cp005",
+      "video_id": "video11",
+      "source_frame_offset": 348,
+      "end_frame": 34,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp005.json"
+      },
+      "sha256": {
+        "en": "1d1a4cf7e62ca7d51bc33dce5dab481665be9b259dfe4f44acb761ae59814aa1"
+      }
+    },
+    {
+      "clip_id": "video11_cp006",
+      "video_id": "video11",
+      "source_frame_offset": 383,
+      "end_frame": 37,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp006.json"
+      },
+      "sha256": {
+        "en": "3944d8dda4646470692bcf9b18e9bd007fe44103d504afc308bb7efb69db32bb"
+      }
+    },
+    {
+      "clip_id": "video11_cp007",
+      "video_id": "video11",
+      "source_frame_offset": 421,
+      "end_frame": 29,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp007.json"
+      },
+      "sha256": {
+        "en": "850cecf03a70a1adfd3e91d91c500711d83b87ea8441bbefda7fff0093748698"
+      }
+    },
+    {
+      "clip_id": "video11_cp008",
+      "video_id": "video11",
+      "source_frame_offset": 497,
+      "end_frame": 35,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp008.json"
+      },
+      "sha256": {
+        "en": "8200f74b7b7bc27bef63afa63731336b1320e03e75b2bed7d43f0bb6f0e001aa"
+      }
+    },
+    {
+      "clip_id": "video11_cp009",
+      "video_id": "video11",
+      "source_frame_offset": 574,
+      "end_frame": 56,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp009.json"
+      },
+      "sha256": {
+        "en": "4ed08c2ae7c0b76ab999854f4146fa022cd13fa67dc098e19a9b5f61db261a9f"
+      }
+    },
+    {
+      "clip_id": "video11_cp010",
+      "video_id": "video11",
+      "source_frame_offset": 623,
+      "end_frame": 35,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp010.json"
+      },
+      "sha256": {
+        "en": "5f768433f12cd91bc1fdd270a91bd0b4bd215db3071fc8bef6535bd6f11322cb"
+      }
+    },
+    {
+      "clip_id": "video11_cp011",
+      "video_id": "video11",
+      "source_frame_offset": 686,
+      "end_frame": 33,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video11_cp011.json"
+      },
+      "sha256": {
+        "en": "62edbbb1792e61052020d4062093a176904be34e4a464bde51bf855a4dba93aa"
+      }
+    },
+    {
+      "clip_id": "video12_cp001",
+      "video_id": "video12",
+      "source_frame_offset": 0,
+      "end_frame": 50,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp001.json"
+      },
+      "sha256": {
+        "en": "1fff8116eaa9c43939c011e47b09ffce6fe3b7fbe0e33d1ccae73f5020721b15"
+      }
+    },
+    {
+      "clip_id": "video12_cp002",
+      "video_id": "video12",
+      "source_frame_offset": 60,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp002.json"
+      },
+      "sha256": {
+        "en": "207391f767cca1f988d0a0c316a1728532a7259f12ebff461df18805c9970d49"
+      }
+    },
+    {
+      "clip_id": "video12_cp003",
+      "video_id": "video12",
+      "source_frame_offset": 120,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp003.json"
+      },
+      "sha256": {
+        "en": "2ecc96b197bf533404f68bf7f8181f0681e812b46990c14d0743d3749d200c9b"
+      }
+    },
+    {
+      "clip_id": "video12_cp004",
+      "video_id": "video12",
+      "source_frame_offset": 198,
+      "end_frame": 31,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp004.json"
+      },
+      "sha256": {
+        "en": "8a1ba875751ff584e4f6140bba099755a00ec8955569857bd7c7ee905def2128"
+      }
+    },
+    {
+      "clip_id": "video12_cp005",
+      "video_id": "video12",
+      "source_frame_offset": 222,
+      "end_frame": 41,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp005.json"
+      },
+      "sha256": {
+        "en": "51e98ba882c065b58bce05ae4b405333af4cbc0964eb3e00ade7de3a47299215"
+      }
+    },
+    {
+      "clip_id": "video12_cp006",
+      "video_id": "video12",
+      "source_frame_offset": 280,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp006.json"
+      },
+      "sha256": {
+        "en": "8e24f67c0aff599fec46a1ef568df2407f3cdd4f5692b62a66a7769facb6f53e"
+      }
+    },
+    {
+      "clip_id": "video12_cp007",
+      "video_id": "video12",
+      "source_frame_offset": 340,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp007.json"
+      },
+      "sha256": {
+        "en": "13569670882d543427331085630b8645ac948a42e4fe421b7413dcb4f9e8fbcf"
+      }
+    },
+    {
+      "clip_id": "video12_cp008",
+      "video_id": "video12",
+      "source_frame_offset": 421,
+      "end_frame": 47,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp008.json"
+      },
+      "sha256": {
+        "en": "569b8c561e215975db5d1c797c054908cef6e527033cde173819da6fb9970309"
+      }
+    },
+    {
+      "clip_id": "video12_cp009",
+      "video_id": "video12",
+      "source_frame_offset": 490,
+      "end_frame": 55,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp009.json"
+      },
+      "sha256": {
+        "en": "ae31d00480647bb327cf093304fbb724d7ed9d963b8e4fae159b5b468e345082"
+      }
+    },
+    {
+      "clip_id": "video12_cp010",
+      "video_id": "video12",
+      "source_frame_offset": 561,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp010.json"
+      },
+      "sha256": {
+        "en": "249932c62fcb7fd0589ca6725da452f19b56afa4cc8c26df5d06d63a2055a010"
+      }
+    },
+    {
+      "clip_id": "video12_cp011",
+      "video_id": "video12",
+      "source_frame_offset": 620,
+      "end_frame": 41,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp011.json"
+      },
+      "sha256": {
+        "en": "1092ed59b6f234f724e4581e9dbe4f8762eef9d89702497e607c6efe86c86734"
+      }
+    },
+    {
+      "clip_id": "video12_cp012",
+      "video_id": "video12",
+      "source_frame_offset": 675,
+      "end_frame": 44,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video12_cp012.json"
+      },
+      "sha256": {
+        "en": "be3f46c62e5fd2556108db45491629616e6cc0f5c426b4bd6dfa24fcc975e0fd"
+      }
+    },
+    {
+      "clip_id": "video13_cp001",
+      "video_id": "video13",
+      "source_frame_offset": 96,
+      "end_frame": 49,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video13_cp001.json"
+      },
+      "sha256": {
+        "en": "e2bb4936d215e05b5766229a855e4cf974521b91ac25a1faf4c477334a932a3c"
+      }
+    },
+    {
+      "clip_id": "video13_cp002",
+      "video_id": "video13",
+      "source_frame_offset": 146,
+      "end_frame": 44,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video13_cp002.json"
+      },
+      "sha256": {
+        "en": "02b37cc26c54f594569a2df78a8f99e4a5a083801fac186f0b83cba872e50281"
+      }
+    },
+    {
+      "clip_id": "video13_cp003",
+      "video_id": "video13",
+      "source_frame_offset": 282,
+      "end_frame": 30,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video13_cp003.json"
+      },
+      "sha256": {
+        "en": "b12814823454b59714010027f3f42ada50b79259706d787a1565300e9b8e3212"
+      }
+    },
+    {
+      "clip_id": "video13_cp004",
+      "video_id": "video13",
+      "source_frame_offset": 322,
+      "end_frame": 28,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video13_cp004.json"
+      },
+      "sha256": {
+        "en": "a6bf9a8320514e0e31d694d2f70122d1a98eb36fa35c7f84dda23ee4b564d716"
+      }
+    },
+    {
+      "clip_id": "video13_cp005",
+      "video_id": "video13",
+      "source_frame_offset": 351,
+      "end_frame": 27,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video13_cp005.json"
+      },
+      "sha256": {
+        "en": "2e2bd7eb0f46c1451f7e8c31c116212fd5a21851c2c54bc240f9c6c4dfda635f"
+      }
+    },
+    {
+      "clip_id": "video13_cp006",
+      "video_id": "video13",
+      "source_frame_offset": 379,
+      "end_frame": 47,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video13_cp006.json"
+      },
+      "sha256": {
+        "en": "b4905f2fa0880a532235feb13f64cbeb09209a776ef27e7181567c0e9bfcfc7d"
+      }
+    },
+    {
+      "clip_id": "video13_cp007",
+      "video_id": "video13",
+      "source_frame_offset": 427,
+      "end_frame": 17,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video13_cp007.json"
+      },
+      "sha256": {
+        "en": "fd721948d6786cac8c2a2fc08479b376b14aa6ac7ca8c8b8d2f2d29f353fece7"
+      }
+    },
+    {
+      "clip_id": "video14_cp001",
+      "video_id": "video14",
+      "source_frame_offset": 10,
+      "end_frame": 30,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp001.json"
+      },
+      "sha256": {
+        "en": "bf5f66f384563e17f1e185fc71dc6e1b80e39679f6107eeab6272bb9796dcc59"
+      }
+    },
+    {
+      "clip_id": "video14_cp002",
+      "video_id": "video14",
+      "source_frame_offset": 41,
+      "end_frame": 29,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp002.json"
+      },
+      "sha256": {
+        "en": "d14d45c96e648ec1055d463633204ed2906d06e204cf7128e1a6e753ab218d56"
+      }
+    },
+    {
+      "clip_id": "video14_cp003",
+      "video_id": "video14",
+      "source_frame_offset": 92,
+      "end_frame": 30,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp003.json"
+      },
+      "sha256": {
+        "en": "acb785a4d588c14907c4cb7d929c61846dd18a26183ca2546637653fd2331f4d"
+      }
+    },
+    {
+      "clip_id": "video14_cp004",
+      "video_id": "video14",
+      "source_frame_offset": 150,
+      "end_frame": 38,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp004.json"
+      },
+      "sha256": {
+        "en": "b358d5b11779ba161ad2801021fe67b28eede660120b65f83665713ca8e444c2"
+      }
+    },
+    {
+      "clip_id": "video14_cp005",
+      "video_id": "video14",
+      "source_frame_offset": 215,
+      "end_frame": 30,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp005.json"
+      },
+      "sha256": {
+        "en": "88fa73d2d20cc72015f3a9a5b0ef9395135a9e1717945ac81a2fd92e6290429c"
+      }
+    },
+    {
+      "clip_id": "video14_cp006",
+      "video_id": "video14",
+      "source_frame_offset": 252,
+      "end_frame": 34,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp006.json"
+      },
+      "sha256": {
+        "en": "01cf26629f8383f0d702d0eae04808634bd64642bfe4158bf95618447f7922cf"
+      }
+    },
+    {
+      "clip_id": "video14_cp007",
+      "video_id": "video14",
+      "source_frame_offset": 310,
+      "end_frame": 34,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp007.json"
+      },
+      "sha256": {
+        "en": "1d432d8dd272b03bb3caf1ec7098ad5d53dcd42da137114ef453602f56ce68b4"
+      }
+    },
+    {
+      "clip_id": "video14_cp008",
+      "video_id": "video14",
+      "source_frame_offset": 345,
+      "end_frame": 36,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp008.json"
+      },
+      "sha256": {
+        "en": "3c27eec0d9cbadf7ac3346a030e8b5894c211fec6192ec7d85fce8bd348e1b65"
+      }
+    },
+    {
+      "clip_id": "video14_cp009",
+      "video_id": "video14",
+      "source_frame_offset": 382,
+      "end_frame": 48,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video14_cp009.json"
+      },
+      "sha256": {
+        "en": "017201a1a69cac055b6e87ff8212000017b3a2020ca0d285fe0e23e30fdfa6e6"
+      }
+    },
+    {
+      "clip_id": "video15_cp001",
+      "video_id": "video15",
+      "source_frame_offset": 0,
+      "end_frame": 45,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video15_cp001.json"
+      },
+      "sha256": {
+        "en": "635946ccc4e5cf05d6fe0b99e36c05f6ef1fe32070d3cdbf7468a4aa957c9c23"
+      }
+    },
+    {
+      "clip_id": "video15_cp002",
+      "video_id": "video15",
+      "source_frame_offset": 96,
+      "end_frame": 49,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video15_cp002.json"
+      },
+      "sha256": {
+        "en": "0a0ee87240a014a478d95ffb0114cc2a8374fdffdf030104d3aa49d87250aca3"
+      }
+    },
+    {
+      "clip_id": "video15_cp003",
+      "video_id": "video15",
+      "source_frame_offset": 190,
+      "end_frame": 44,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video15_cp003.json"
+      },
+      "sha256": {
+        "en": "96f4f0a698c7839015ff4b57d9fce222dbd8b64eef25eebc7005340bd7bafd92"
+      }
+    },
+    {
+      "clip_id": "video15_cp004",
+      "video_id": "video15",
+      "source_frame_offset": 244,
+      "end_frame": 56,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video15_cp004.json"
+      },
+      "sha256": {
+        "en": "5ca1faef755c5bda9179b8b4dac147b6887236cf5ea065b21bb7bb9ab03862fd"
+      }
+    },
+    {
+      "clip_id": "video15_cp005",
+      "video_id": "video15",
+      "source_frame_offset": 330,
+      "end_frame": 53,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video15_cp005.json"
+      },
+      "sha256": {
+        "en": "bb48259e6dd417a31bce8ba4b55dce341e4335963bc6f17e355e35bb2ab08a92"
+      }
+    },
+    {
+      "clip_id": "video15_cp006",
+      "video_id": "video15",
+      "source_frame_offset": 390,
+      "end_frame": 59,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video15_cp006.json"
+      },
+      "sha256": {
+        "en": "a0f4801718547040c51113b75370225c62075fcd7defe525ef7b464c5756739b"
+      }
+    },
+    {
+      "clip_id": "video16_cp001",
+      "video_id": "video16",
+      "source_frame_offset": 0,
+      "end_frame": 16,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video16_cp001.json"
+      },
+      "sha256": {
+        "en": "4bd324b08265d01ed89cbde08d5adfe7f312365d6f4154b3264a21a1c074bf78"
+      }
+    },
+    {
+      "clip_id": "video16_cp002",
+      "video_id": "video16",
+      "source_frame_offset": 19,
+      "end_frame": 15,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video16_cp002.json"
+      },
+      "sha256": {
+        "en": "b328f56d359eaf5001df43886dde37d20190e7c171c80540f22220a65776b5c2"
+      }
+    },
+    {
+      "clip_id": "video16_cp003",
+      "video_id": "video16",
+      "source_frame_offset": 40,
+      "end_frame": 16,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video16_cp003.json"
+      },
+      "sha256": {
+        "en": "1a2fbde90647e365061438cd7ec45809e048e8610064f519a8f9cc9420dd6e2f"
+      }
+    },
+    {
+      "clip_id": "video16_cp004",
+      "video_id": "video16",
+      "source_frame_offset": 60,
+      "end_frame": 28,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video16_cp004.json"
+      },
+      "sha256": {
+        "en": "e2595b403d6c0c9c6fafacfaebaae60aeaca84f1ca857e150f4e41b919b2c36e"
+      }
+    },
+    {
+      "clip_id": "video16_cp005",
+      "video_id": "video16",
+      "source_frame_offset": 92,
+      "end_frame": 40,
+      "fps": 25.0,
+      "annotations": {
+        "en": "data/annotations/en/video16_cp005.json"
+      },
+      "sha256": {
+        "en": "e629c66be8d31e79a256f5e998e568032213cfa1f34483cc4815043a56ff0ec5"
+      }
+    },
+    {
+      "clip_id": "video17_cp001",
+      "video_id": "video17",
+      "source_frame_offset": 0,
+      "end_frame": 30,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video17_cp001.json"
+      },
+      "sha256": {
+        "en": "7d05f9a719fff3749960923dad297e7b3b92e7cbfcae80661cb4f6041e82e9a9"
+      }
+    },
+    {
+      "clip_id": "video17_cp002",
+      "video_id": "video17",
+      "source_frame_offset": 180,
+      "end_frame": 40,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video17_cp002.json"
+      },
+      "sha256": {
+        "en": "eca7d53b5c3a7b295b17a5bb5e20650a15a42032d375da5af5d716a44ef61ab3"
+      }
+    },
+    {
+      "clip_id": "video17_cp003",
+      "video_id": "video17",
+      "source_frame_offset": 225,
+      "end_frame": 33,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video17_cp003.json"
+      },
+      "sha256": {
+        "en": "d2c4556649d35a91adafb9cca41f03e08ef95ab7c040b3ec80fc7ae12328814c"
+      }
+    },
+    {
+      "clip_id": "video17_cp004",
+      "video_id": "video17",
+      "source_frame_offset": 304,
+      "end_frame": 28,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video17_cp004.json"
+      },
+      "sha256": {
+        "en": "03a2c7bfe502eaaf763c79e6512e8d9b15c0993a87c9826e9eca879381dadb05"
+      }
+    },
+    {
+      "clip_id": "video17_cp005",
+      "video_id": "video17",
+      "source_frame_offset": 390,
+      "end_frame": 40,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video17_cp005.json"
+      },
+      "sha256": {
+        "en": "12bf29617cef9a063382251fded8afdf96ab4adecb043107464e06580d177c3d"
+      }
+    },
+    {
+      "clip_id": "video17_cp006",
+      "video_id": "video17",
+      "source_frame_offset": 541,
+      "end_frame": 41,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video17_cp006.json"
+      },
+      "sha256": {
+        "en": "bf3d9f668ce35162d7f3fec9fe5df5b0a4b3c0f7b0e23ea4934c6cd4b79bfb40"
+      }
+    },
+    {
+      "clip_id": "video18_cp001",
+      "video_id": "video18",
+      "source_frame_offset": 0,
+      "end_frame": 44,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video18_cp001.json"
+      },
+      "sha256": {
+        "en": "9e076eaf58a07818e8970fa72f11649996878a324cec8777ce7413366ea959de"
+      }
+    },
+    {
+      "clip_id": "video18_cp002",
+      "video_id": "video18",
+      "source_frame_offset": 140,
+      "end_frame": 45,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video18_cp002.json"
+      },
+      "sha256": {
+        "en": "5dbc914848af6e3d771608e69612ff8fda84ccc0967152e5b3a9d869972c3182"
+      }
+    },
+    {
+      "clip_id": "video18_cp003",
+      "video_id": "video18",
+      "source_frame_offset": 245,
+      "end_frame": 59,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video18_cp003.json"
+      },
+      "sha256": {
+        "en": "3da7282d6424f8bc32e4a7db2c60e6f4ca7215f7ae6c1c1b19fa07c39e7ab971"
+      }
+    },
+    {
+      "clip_id": "video18_cp004",
+      "video_id": "video18",
+      "source_frame_offset": 445,
+      "end_frame": 45,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video18_cp004.json"
+      },
+      "sha256": {
+        "en": "f9d4d05bf413ada5bc20dffdcce1e093b46e8ce744704186cba66d35fd00c816"
+      }
+    },
+    {
+      "clip_id": "video18_cp005",
+      "video_id": "video18",
+      "source_frame_offset": 660,
+      "end_frame": 59,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video18_cp005.json"
+      },
+      "sha256": {
+        "en": "a5b95c09501f259b2997177c0bd9f9840f1bc320c240dc6fe908af8172bf76db"
+      }
+    },
+    {
+      "clip_id": "video19_cp001",
+      "video_id": "video19",
+      "source_frame_offset": 36,
+      "end_frame": 21,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video19_cp001.json"
+      },
+      "sha256": {
+        "en": "c096c7fa4c064af2efb29e1be20d223d4cc4993e8bb1bf13d069a741031d04cb"
+      }
+    },
+    {
+      "clip_id": "video19_cp002",
+      "video_id": "video19",
+      "source_frame_offset": 57,
+      "end_frame": 28,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video19_cp002.json"
+      },
+      "sha256": {
+        "en": "42a0f5324b2bbb87bfff16dfb9d099c590faf47016b688d5d7b6f781c1e22708"
+      }
+    },
+    {
+      "clip_id": "video19_cp003",
+      "video_id": "video19",
+      "source_frame_offset": 85,
+      "end_frame": 35,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video19_cp003.json"
+      },
+      "sha256": {
+        "en": "2798af51efd52a4eec93ef581fd9f1ddde2f577e6180c381c6d2e3ed539fecdd"
+      }
+    },
+    {
+      "clip_id": "video19_cp004",
+      "video_id": "video19",
+      "source_frame_offset": 120,
+      "end_frame": 19,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video19_cp004.json"
+      },
+      "sha256": {
+        "en": "9506fdef2e37583b7bb57193bd837b76332bbc1b634e7272eb65dbbf73b1d788"
+      }
+    },
+    {
+      "clip_id": "video20_cp001",
+      "video_id": "video20",
+      "source_frame_offset": 0,
+      "end_frame": 78,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video20_cp001.json"
+      },
+      "sha256": {
+        "en": "b17ee1b312d86a3b2380f91495230a0298b86e0e46493165f386811ddfba40b7"
+      }
+    },
+    {
+      "clip_id": "video20_cp002",
+      "video_id": "video20",
+      "source_frame_offset": 78,
+      "end_frame": 102,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video20_cp002.json"
+      },
+      "sha256": {
+        "en": "a4ae07bc82ee68619bbfe3f1eda211d91979588bdd0f6cbd14a0967937acb006"
+      }
+    },
+    {
+      "clip_id": "video20_cp003",
+      "video_id": "video20",
+      "source_frame_offset": 260,
+      "end_frame": 80,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video20_cp003.json"
+      },
+      "sha256": {
+        "en": "d73f6fea4e96d3db0b9b7c614b3bd1c26a4097883176b92df6577a9f6860dda6"
+      }
+    },
+    {
+      "clip_id": "video20_cp004",
+      "video_id": "video20",
+      "source_frame_offset": 390,
+      "end_frame": 80,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video20_cp004.json"
+      },
+      "sha256": {
+        "en": "9a7f6c1c498e86cd9ef92ffd8e4e21b927570a91ee2b664a0e15a0ec0d18e959"
+      }
+    },
+    {
+      "clip_id": "video20_cp005",
+      "video_id": "video20",
+      "source_frame_offset": 470,
+      "end_frame": 80,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video20_cp005.json"
+      },
+      "sha256": {
+        "en": "8db0bc1a0a2f64fee43bd38afc43b7b591aacc9f7cc727cebd40dc174e233718"
+      }
+    },
+    {
+      "clip_id": "video20_cp006",
+      "video_id": "video20",
+      "source_frame_offset": 551,
+      "end_frame": 69,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video20_cp006.json"
+      },
+      "sha256": {
+        "en": "596c10aa844a8dbbbdda161fe7b2f4956064eaea5bcbad10fbdf2921bee0a8a0"
+      }
+    },
+    {
+      "clip_id": "video20_cp007",
+      "video_id": "video20",
+      "source_frame_offset": 650,
+      "end_frame": 111,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video20_cp007.json"
+      },
+      "sha256": {
+        "en": "5b69063f7e876334954a59e206bb1d5084dbe26fbb165e40c5551378fc036c6b"
+      }
+    },
+    {
+      "clip_id": "video21_cp001",
+      "video_id": "video21",
+      "source_frame_offset": 37,
+      "end_frame": 36,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video21_cp001.json"
+      },
+      "sha256": {
+        "en": "1f8dd7f478e6531b01479a759cf96bfcbef005e5532445b4ef6f1abf1fc06e79"
+      }
+    },
+    {
+      "clip_id": "video21_cp002",
+      "video_id": "video21",
+      "source_frame_offset": 74,
+      "end_frame": 22,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video21_cp002.json"
+      },
+      "sha256": {
+        "en": "b285bd7fd67ab849c463f2dbc4ba1b58b605bdebc65a7a495efca15a4b4e571c"
+      }
+    },
+    {
+      "clip_id": "video21_cp003",
+      "video_id": "video21",
+      "source_frame_offset": 132,
+      "end_frame": 24,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video21_cp003.json"
+      },
+      "sha256": {
+        "en": "de966e10ebd2bb057946d1ea51f81b5f064287a01edf34f2834afb568031eb08"
+      }
+    },
+    {
+      "clip_id": "video21_cp004",
+      "video_id": "video21",
+      "source_frame_offset": 204,
+      "end_frame": 47,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video21_cp004.json"
+      },
+      "sha256": {
+        "en": "212381923028d97cfdfc44d0d3ee42a93c56f6a5506a2cf8b3bcca6cc9f84e88"
+      }
+    },
+    {
+      "clip_id": "video22_cp001",
+      "video_id": "video22",
+      "source_frame_offset": 0,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp001.json"
+      },
+      "sha256": {
+        "en": "6b56b36efaa4e6e01f041f69bea472762f58e6f75e9de708ba9e346bfd2d9830"
+      }
+    },
+    {
+      "clip_id": "video22_cp002",
+      "video_id": "video22",
+      "source_frame_offset": 120,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp002.json"
+      },
+      "sha256": {
+        "en": "2094e4033de08c1999fa9a600e25a2d44b26b7e358101b73097688c06f4f3845"
+      }
+    },
+    {
+      "clip_id": "video22_cp003",
+      "video_id": "video22",
+      "source_frame_offset": 255,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp003.json"
+      },
+      "sha256": {
+        "en": "589fbdd4405d6dba8e32777988681293f6ef4c498136e0d7463db3ef409de5a6"
+      }
+    },
+    {
+      "clip_id": "video22_cp004",
+      "video_id": "video22",
+      "source_frame_offset": 385,
+      "end_frame": 115,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp004.json"
+      },
+      "sha256": {
+        "en": "d196271cdaa837f759f5085aaf1feaf95e2daf34c51f70d9ddc24dd289239220"
+      }
+    },
+    {
+      "clip_id": "video22_cp005",
+      "video_id": "video22",
+      "source_frame_offset": 470,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp005.json"
+      },
+      "sha256": {
+        "en": "9e98809932de26576696c7858f06f69e97abbf22bd1b5458a478896689945871"
+      }
+    },
+    {
+      "clip_id": "video22_cp006",
+      "video_id": "video22",
+      "source_frame_offset": 581,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp006.json"
+      },
+      "sha256": {
+        "en": "6166d251484dd1286ce1bdd7d7c2e1821c29c00ba82738966d0fcc5033f9a102"
+      }
+    },
+    {
+      "clip_id": "video22_cp007",
+      "video_id": "video22",
+      "source_frame_offset": 780,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp007.json"
+      },
+      "sha256": {
+        "en": "480f7e9cd0ed923385696120142e9ccbdfa1e79408773ec18f64fcbdc7febd59"
+      }
+    },
+    {
+      "clip_id": "video22_cp008",
+      "video_id": "video22",
+      "source_frame_offset": 902,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp008.json"
+      },
+      "sha256": {
+        "en": "207f9d21250d6802f9c596021ae83f70813bef8416a007868f38baaf86f1240c"
+      }
+    },
+    {
+      "clip_id": "video22_cp009",
+      "video_id": "video22",
+      "source_frame_offset": 1022,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp009.json"
+      },
+      "sha256": {
+        "en": "7dd92d8b4c89b7914555bc75df3dddd2ffb7c013809be347effa569790122508"
+      }
+    },
+    {
+      "clip_id": "video22_cp010",
+      "video_id": "video22",
+      "source_frame_offset": 1141,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp010.json"
+      },
+      "sha256": {
+        "en": "240630edeb76a0370d5c44f19a4c1ac0c6897bdcdac9c09a607fbea2b50ed7dd"
+      }
+    },
+    {
+      "clip_id": "video22_cp011",
+      "video_id": "video22",
+      "source_frame_offset": 1261,
+      "end_frame": 59,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp011.json"
+      },
+      "sha256": {
+        "en": "2f87ca8918f821b1656da1d6fd923a458852fa37af6c2ef4a45a3e4ab5ef99cb"
+      }
+    },
+    {
+      "clip_id": "video22_cp012",
+      "video_id": "video22",
+      "source_frame_offset": 1321,
+      "end_frame": 60,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp012.json"
+      },
+      "sha256": {
+        "en": "c0a0cc2b8d8deaf3f59a721f142ffbefa454ee894cbedf9c4c20b38bddf181cb"
+      }
+    },
+    {
+      "clip_id": "video22_cp013",
+      "video_id": "video22",
+      "source_frame_offset": 1382,
+      "end_frame": 57,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video22_cp013.json"
+      },
+      "sha256": {
+        "en": "e8a65d9e5014d1cbdaf090ead831798a8e1f6d69389bbcf62cf70d7fa666bbf5"
+      }
+    },
+    {
+      "clip_id": "video23_cp001",
+      "video_id": "video23",
+      "source_frame_offset": 0,
+      "end_frame": 90,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp001.json"
+      },
+      "sha256": {
+        "en": "5589429d197c0ec4450853ec84285e75499b29be396cbd4273ada50a991d7dea"
+      }
+    },
+    {
+      "clip_id": "video23_cp002",
+      "video_id": "video23",
+      "source_frame_offset": 91,
+      "end_frame": 89,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp002.json"
+      },
+      "sha256": {
+        "en": "4df13d7c6c9daf65d1e082d960ee314acd318536391531b194a6531470137b15"
+      }
+    },
+    {
+      "clip_id": "video23_cp003",
+      "video_id": "video23",
+      "source_frame_offset": 181,
+      "end_frame": 89,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp003.json"
+      },
+      "sha256": {
+        "en": "631f5f899fdcff9f90f14bfcd43e26b15800ff5eebe109c9e3109a4771cd09dc"
+      }
+    },
+    {
+      "clip_id": "video23_cp004",
+      "video_id": "video23",
+      "source_frame_offset": 330,
+      "end_frame": 80,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp004.json"
+      },
+      "sha256": {
+        "en": "48e2e7901bb4097f89cc35ab67da5afc8ad06993b3a6ec510e9ced9368821afd"
+      }
+    },
+    {
+      "clip_id": "video23_cp005",
+      "video_id": "video23",
+      "source_frame_offset": 411,
+      "end_frame": 74,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp005.json"
+      },
+      "sha256": {
+        "en": "7d1ade6bd998a0a0ac6c0fe8d2b70087089e64716f7964cd31a3b746eaf20ad9"
+      }
+    },
+    {
+      "clip_id": "video23_cp006",
+      "video_id": "video23",
+      "source_frame_offset": 486,
+      "end_frame": 64,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp006.json"
+      },
+      "sha256": {
+        "en": "236d79312e219197ba2a13dc9f9f7bb2411fab3883fdd3242a7bcb16a80dca30"
+      }
+    },
+    {
+      "clip_id": "video23_cp007",
+      "video_id": "video23",
+      "source_frame_offset": 551,
+      "end_frame": 89,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp007.json"
+      },
+      "sha256": {
+        "en": "fff9fbbf930ab90a7b17f7a583185103ed5cf545d52903f5a64c3effd3a64655"
+      }
+    },
+    {
+      "clip_id": "video23_cp008",
+      "video_id": "video23",
+      "source_frame_offset": 641,
+      "end_frame": 79,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp008.json"
+      },
+      "sha256": {
+        "en": "a7711e39766fd86dbbc7786f1d9fcc8a2cb7984bad1a7a3d0cc1dac7c68957e4"
+      }
+    },
+    {
+      "clip_id": "video23_cp009",
+      "video_id": "video23",
+      "source_frame_offset": 721,
+      "end_frame": 52,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video23_cp009.json"
+      },
+      "sha256": {
+        "en": "94d7a5bf1de1c7b9b7ad0a7440d9ba6f629526ef23129c75c027e91988e6203d"
+      }
+    },
+    {
+      "clip_id": "video24_cp001",
+      "video_id": "video24",
+      "source_frame_offset": 0,
+      "end_frame": 40,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp001.json"
+      },
+      "sha256": {
+        "en": "8ce5bebfaf2ae8af295ebffb716f96e409694777d121b822afdb6b4143a0ba35"
+      }
+    },
+    {
+      "clip_id": "video24_cp002",
+      "video_id": "video24",
+      "source_frame_offset": 35,
+      "end_frame": 51,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp002.json"
+      },
+      "sha256": {
+        "en": "bd87cb2998f0c4f52999fcb558c9cebc60ee9b47f0cd858cefbea34e4c9de749"
+      }
+    },
+    {
+      "clip_id": "video24_cp003",
+      "video_id": "video24",
+      "source_frame_offset": 87,
+      "end_frame": 43,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp003.json"
+      },
+      "sha256": {
+        "en": "3672b56bc196ffcfc77fd43e78157eaf8fb580dbaece7023b4087dfe45b28662"
+      }
+    },
+    {
+      "clip_id": "video24_cp004",
+      "video_id": "video24",
+      "source_frame_offset": 145,
+      "end_frame": 56,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp004.json"
+      },
+      "sha256": {
+        "en": "f17fd00a51d13718358269cdf52ec18c711657994a037f5758fba647ee4f99a3"
+      }
+    },
+    {
+      "clip_id": "video24_cp005",
+      "video_id": "video24",
+      "source_frame_offset": 211,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp005.json"
+      },
+      "sha256": {
+        "en": "5233d75fe826e14382cc42006d86911e899c173253abda65b9d8fee573f54002"
+      }
+    },
+    {
+      "clip_id": "video24_cp006",
+      "video_id": "video24",
+      "source_frame_offset": 270,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp006.json"
+      },
+      "sha256": {
+        "en": "5e1c1c33c5c456bea07cb84caa8a5d01779df7d89256611adf67cc7fbafeea6c"
+      }
+    },
+    {
+      "clip_id": "video24_cp007",
+      "video_id": "video24",
+      "source_frame_offset": 324,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp007.json"
+      },
+      "sha256": {
+        "en": "ef075b4f9fea7ac16b16f8cb50d28b0d6968d35242e7f2ec687ca2872265f620"
+      }
+    },
+    {
+      "clip_id": "video24_cp008",
+      "video_id": "video24",
+      "source_frame_offset": 377,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp008.json"
+      },
+      "sha256": {
+        "en": "daa3a3f390387f893630eec2645da8a5bf7043fb415e47cbfa3ec5fb95aa28c7"
+      }
+    },
+    {
+      "clip_id": "video24_cp009",
+      "video_id": "video24",
+      "source_frame_offset": 435,
+      "end_frame": 54,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp009.json"
+      },
+      "sha256": {
+        "en": "5017ae525c64d456b3db2a851a288b98c2592100af72685c989d910794bfa467"
+      }
+    },
+    {
+      "clip_id": "video24_cp010",
+      "video_id": "video24",
+      "source_frame_offset": 499,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp010.json"
+      },
+      "sha256": {
+        "en": "b1e6e281a75088c75b7520d149d202b2262190d890c151994a28a0f6a459de20"
+      }
+    },
+    {
+      "clip_id": "video24_cp011",
+      "video_id": "video24",
+      "source_frame_offset": 551,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp011.json"
+      },
+      "sha256": {
+        "en": "39a8fb4d8d1b62036499f5e752365eb199a1e616ece799c5b1f54c0ff1fdf8a0"
+      }
+    },
+    {
+      "clip_id": "video24_cp012",
+      "video_id": "video24",
+      "source_frame_offset": 610,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp012.json"
+      },
+      "sha256": {
+        "en": "96a796a94207a3d70757a04cb801ebbc1898db7627f302910d7359d7a01b45da"
+      }
+    },
+    {
+      "clip_id": "video24_cp013",
+      "video_id": "video24",
+      "source_frame_offset": 661,
+      "end_frame": 58,
+      "fps": 29.97002997002997,
+      "annotations": {
+        "en": "data/annotations/en/video24_cp013.json"
+      },
+      "sha256": {
+        "en": "7836d1e3a834290bbe0a351c245ccde73ac6b2ce76464a5ad36948ee08d61026"
+      }
+    },
+    {
+      "clip_id": "video25_cp001",
+      "video_id": "video25",
+      "source_frame_offset": 0,
+      "end_frame": 90,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp001.json"
+      },
+      "sha256": {
+        "en": "6091118a206915cdfd4f17fefe3b58cf22448d46b5c8d0a3bddd2ede88d53c64"
+      }
+    },
+    {
+      "clip_id": "video25_cp002",
+      "video_id": "video25",
+      "source_frame_offset": 300,
+      "end_frame": 110,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp002.json"
+      },
+      "sha256": {
+        "en": "23d9d737b1b9060db0cc8797dfb7ea0a624020cbac1a4153e2d328333615f3eb"
+      }
+    },
+    {
+      "clip_id": "video25_cp003",
+      "video_id": "video25",
+      "source_frame_offset": 620,
+      "end_frame": 98,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp003.json"
+      },
+      "sha256": {
+        "en": "10417fb23cd0e1d98103126a60e6a2f102791e6871b777567d86d4b0dcc992fa"
+      }
+    },
+    {
+      "clip_id": "video25_cp004",
+      "video_id": "video25",
+      "source_frame_offset": 719,
+      "end_frame": 106,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp004.json"
+      },
+      "sha256": {
+        "en": "a209a9110c9f7b6e427c77dea29c31a6d41df96f8f651c5bf6053a648e916b3a"
+      }
+    },
+    {
+      "clip_id": "video25_cp005",
+      "video_id": "video25",
+      "source_frame_offset": 930,
+      "end_frame": 115,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp005.json"
+      },
+      "sha256": {
+        "en": "4b996cda3174cdf4f424f46be59e4b4c3c456ebf843361a8baeb5156bc0b5759"
+      }
+    },
+    {
+      "clip_id": "video25_cp006",
+      "video_id": "video25",
+      "source_frame_offset": 1046,
+      "end_frame": 94,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp006.json"
+      },
+      "sha256": {
+        "en": "c35eb1b7cc3ee2eef717a1f21aa8958a9148bba4de20c28d9b5c0c6bd2ac3b42"
+      }
+    },
+    {
+      "clip_id": "video25_cp007",
+      "video_id": "video25",
+      "source_frame_offset": 1141,
+      "end_frame": 94,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp007.json"
+      },
+      "sha256": {
+        "en": "43cf806116e045f0b87dde973a855499944ca03b9e6d2c437bf9b3fcf637dbb9"
+      }
+    },
+    {
+      "clip_id": "video25_cp008",
+      "video_id": "video25",
+      "source_frame_offset": 1255,
+      "end_frame": 35,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp008.json"
+      },
+      "sha256": {
+        "en": "4a2d351a0114a1fb0f2f51fa766039f140017643eae42ddefeceb4fb7d38d47c"
+      }
+    },
+    {
+      "clip_id": "video25_cp009",
+      "video_id": "video25",
+      "source_frame_offset": 1291,
+      "end_frame": 94,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp009.json"
+      },
+      "sha256": {
+        "en": "450b19bb22c9642cb21e1cacb24cc78764b48f3a3447a8f09fcf293bb43babd3"
+      }
+    },
+    {
+      "clip_id": "video25_cp010",
+      "video_id": "video25",
+      "source_frame_offset": 1366,
+      "end_frame": 72,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video25_cp010.json"
+      },
+      "sha256": {
+        "en": "e7f9f3d9e0b8d41cdcc460b94d4e080721711d51264ffdd8b83cd28a01a9d58f"
+      }
+    },
+    {
+      "clip_id": "video26_cp001",
+      "video_id": "video26",
+      "source_frame_offset": 0,
+      "end_frame": 45,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video26_cp001.json"
+      },
+      "sha256": {
+        "en": "be1fa60761292ac36995903338567abcb56c78ebefa48cb2a7112ce3867fcd37"
+      }
+    },
+    {
+      "clip_id": "video26_cp002",
+      "video_id": "video26",
+      "source_frame_offset": 46,
+      "end_frame": 42,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video26_cp002.json"
+      },
+      "sha256": {
+        "en": "dd30e0bab7d46564e6785385406932151be5a1053f9806280dc25e9e563193b2"
+      }
+    },
+    {
+      "clip_id": "video26_cp003",
+      "video_id": "video26",
+      "source_frame_offset": 109,
+      "end_frame": 59,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video26_cp003.json"
+      },
+      "sha256": {
+        "en": "22346ee37ae9f58eb4371eaba762ce332b9125a1f35ea84703b5a03fbc9c4d46"
+      }
+    },
+    {
+      "clip_id": "video26_cp004",
+      "video_id": "video26",
+      "source_frame_offset": 188,
+      "end_frame": 53,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video26_cp004.json"
+      },
+      "sha256": {
+        "en": "f5f467c330007b5bc4bb90f305be8cfc7dff93480b9f08d4bfc82fd9a1b243fa"
+      }
+    },
+    {
+      "clip_id": "video26_cp005",
+      "video_id": "video26",
+      "source_frame_offset": 268,
+      "end_frame": 58,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video26_cp005.json"
+      },
+      "sha256": {
+        "en": "66bde55f56d03a3cfc3009a54b28c07895d4bbe93f1128c55afe148fa2001485"
+      }
+    },
+    {
+      "clip_id": "video27_cp001",
+      "video_id": "video27",
+      "source_frame_offset": 0,
+      "end_frame": 36,
+      "fps": 24.8825,
+      "annotations": {
+        "en": "data/annotations/en/video27_cp001.json"
+      },
+      "sha256": {
+        "en": "667e2a8262b9b4f03e97b4f3675197b937c42e4c174f4b2cc7b995e8e8e40be2"
+      }
+    },
+    {
+      "clip_id": "video27_cp002",
+      "video_id": "video27",
+      "source_frame_offset": 84,
+      "end_frame": 48,
+      "fps": 24.8825,
+      "annotations": {
+        "en": "data/annotations/en/video27_cp002.json"
+      },
+      "sha256": {
+        "en": "382a449ff155d45cb9d7e294af11511e5b1a825ba0bdff1d1323737cf1922e1c"
+      }
+    },
+    {
+      "clip_id": "video27_cp003",
+      "video_id": "video27",
+      "source_frame_offset": 145,
+      "end_frame": 36,
+      "fps": 24.8825,
+      "annotations": {
+        "en": "data/annotations/en/video27_cp003.json"
+      },
+      "sha256": {
+        "en": "87cdc120491f1207a8da0040e97be10b201757e9f0afcf335611fdda1be4d0bd"
+      }
+    },
+    {
+      "clip_id": "video27_cp004",
+      "video_id": "video27",
+      "source_frame_offset": 182,
+      "end_frame": 48,
+      "fps": 24.8825,
+      "annotations": {
+        "en": "data/annotations/en/video27_cp004.json"
+      },
+      "sha256": {
+        "en": "90d5e6e080a49027656d5d831f7b5db0f61200d44fd3b654aafb649db1fa186c"
+      }
+    },
+    {
+      "clip_id": "video27_cp005",
+      "video_id": "video27",
+      "source_frame_offset": 279,
+      "end_frame": 48,
+      "fps": 24.8825,
+      "annotations": {
+        "en": "data/annotations/en/video27_cp005.json"
+      },
+      "sha256": {
+        "en": "20bc8382e38bfecf606ce7f2380bbaacb2411aaf24e2a1392fa8701501a17205"
+      }
+    },
+    {
+      "clip_id": "video27_cp006",
+      "video_id": "video27",
+      "source_frame_offset": 327,
+      "end_frame": 48,
+      "fps": 24.8825,
+      "annotations": {
+        "en": "data/annotations/en/video27_cp006.json"
+      },
+      "sha256": {
+        "en": "7349830716ae9bc35747ddb45937316493a10112512d5c44ea78c5243409fc40"
+      }
+    },
+    {
+      "clip_id": "video27_cp007",
+      "video_id": "video27",
+      "source_frame_offset": 376,
+      "end_frame": 48,
+      "fps": 24.8825,
+      "annotations": {
+        "en": "data/annotations/en/video27_cp007.json"
+      },
+      "sha256": {
+        "en": "b82d6267f8f864590c60c95b57489db7a7fa26cab6889dd3d8174f2aca72a6e2"
+      }
+    },
+    {
+      "clip_id": "video27_cp008",
+      "video_id": "video27",
+      "source_frame_offset": 425,
+      "end_frame": 42,
+      "fps": 24.8825,
+      "annotations": {
+        "en": "data/annotations/en/video27_cp008.json"
+      },
+      "sha256": {
+        "en": "5cd8cbf976bf388d560bedcc696d7ef01cc40a045f2c6579891a52b7c5c7086a"
+      }
+    },
+    {
+      "clip_id": "video28_cp001",
+      "video_id": "video28",
+      "source_frame_offset": 0,
+      "end_frame": 75,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp001.json"
+      },
+      "sha256": {
+        "en": "3f1a22490ea8c9b8e44dae194f798508e1842fa2de65178970fb1f07175b21f1"
+      }
+    },
+    {
+      "clip_id": "video28_cp002",
+      "video_id": "video28",
+      "source_frame_offset": 90,
+      "end_frame": 90,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp002.json"
+      },
+      "sha256": {
+        "en": "69edd2e9ba4da40078455b7ab3db3d2e4a91eb201ab86ffe82cd2f866617930d"
+      }
+    },
+    {
+      "clip_id": "video28_cp003",
+      "video_id": "video28",
+      "source_frame_offset": 290,
+      "end_frame": 115,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp003.json"
+      },
+      "sha256": {
+        "en": "41c57bf42bfe58ef6d9c59adcc433f27a51a7733503fbac3d905e4156eb76cd1"
+      }
+    },
+    {
+      "clip_id": "video28_cp004",
+      "video_id": "video28",
+      "source_frame_offset": 470,
+      "end_frame": 88,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp004.json"
+      },
+      "sha256": {
+        "en": "6200d82f6f3840907351a42d3fbb5ac25196d18595a33cb8fcc2f4cd9f53e069"
+      }
+    },
+    {
+      "clip_id": "video28_cp005",
+      "video_id": "video28",
+      "source_frame_offset": 559,
+      "end_frame": 81,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp005.json"
+      },
+      "sha256": {
+        "en": "07b7a693f938d5ad65ec7a5c8d1c340c9f4610bee37f060252cf2a5b44135556"
+      }
+    },
+    {
+      "clip_id": "video28_cp006",
+      "video_id": "video28",
+      "source_frame_offset": 641,
+      "end_frame": 79,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp006.json"
+      },
+      "sha256": {
+        "en": "1a0a391cde02c3668a9527615382702f6d6a474d19bd105019069955b8597b7d"
+      }
+    },
+    {
+      "clip_id": "video28_cp007",
+      "video_id": "video28",
+      "source_frame_offset": 721,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp007.json"
+      },
+      "sha256": {
+        "en": "0e5c43adc09662b51d24aa87c86cd09e3739eb136f3924f707058b6981cb50f7"
+      }
+    },
+    {
+      "clip_id": "video28_cp008",
+      "video_id": "video28",
+      "source_frame_offset": 870,
+      "end_frame": 90,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp008.json"
+      },
+      "sha256": {
+        "en": "329852f7aa6b93309efc6b6533b74ae2412a70d8f38027cc05c798bb8982b36f"
+      }
+    },
+    {
+      "clip_id": "video28_cp009",
+      "video_id": "video28",
+      "source_frame_offset": 961,
+      "end_frame": 99,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp009.json"
+      },
+      "sha256": {
+        "en": "8c7ee6002f0a83aba416e9fc2cb3297920944c5fcd2a3fe6dac5e9f527ae0e54"
+      }
+    },
+    {
+      "clip_id": "video28_cp010",
+      "video_id": "video28",
+      "source_frame_offset": 1061,
+      "end_frame": 79,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp010.json"
+      },
+      "sha256": {
+        "en": "2066b62d583269e5b89f94fc77784a215b22988cb94852b5da43a66b6bab1c58"
+      }
+    },
+    {
+      "clip_id": "video28_cp011",
+      "video_id": "video28",
+      "source_frame_offset": 1180,
+      "end_frame": 73,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video28_cp011.json"
+      },
+      "sha256": {
+        "en": "f8f7318279a5bf00137b804495b8a4e62aaf851dc058af2039efd8aab5acc250"
+      }
+    },
+    {
+      "clip_id": "video29_cp001",
+      "video_id": "video29",
+      "source_frame_offset": 0,
+      "end_frame": 43,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video29_cp001.json"
+      },
+      "sha256": {
+        "en": "43d3f5057e0e5065c98e15e69e9591373adf4040f28ad8880b681c139668ffef"
+      }
+    },
+    {
+      "clip_id": "video29_cp002",
+      "video_id": "video29",
+      "source_frame_offset": 44,
+      "end_frame": 24,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video29_cp002.json"
+      },
+      "sha256": {
+        "en": "f45b1f7a89aaf1bec3fad8081b9b6aee8c47019da7f8260ba8b697bf89988c43"
+      }
+    },
+    {
+      "clip_id": "video29_cp003",
+      "video_id": "video29",
+      "source_frame_offset": 69,
+      "end_frame": 31,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video29_cp003.json"
+      },
+      "sha256": {
+        "en": "be19425217afd191bfdd3c9b54ddbdcf678b44d2e31881c7db92000c020f0abb"
+      }
+    },
+    {
+      "clip_id": "video29_cp004",
+      "video_id": "video29",
+      "source_frame_offset": 154,
+      "end_frame": 33,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video29_cp004.json"
+      },
+      "sha256": {
+        "en": "545f55084a56857c85e61d64e072d09c5b85776baef182647f6bf1db5030c5f2"
+      }
+    },
+    {
+      "clip_id": "video30_cp001",
+      "video_id": "video30",
+      "source_frame_offset": 0,
+      "end_frame": 60,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video30_cp001.json"
+      },
+      "sha256": {
+        "en": "06bf9b3ad0056f6558716997674aa3b3d147faf9315ae3b91c9e4d57f2e30eb3"
+      }
+    },
+    {
+      "clip_id": "video30_cp002",
+      "video_id": "video30",
+      "source_frame_offset": 75,
+      "end_frame": 55,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video30_cp002.json"
+      },
+      "sha256": {
+        "en": "b2f215c0644bfa8ca61722f8efd229b7a826f00de50f18ba25104fdbfe5eb4c4"
+      }
+    },
+    {
+      "clip_id": "video30_cp003",
+      "video_id": "video30",
+      "source_frame_offset": 145,
+      "end_frame": 65,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video30_cp003.json"
+      },
+      "sha256": {
+        "en": "8f28d672d376ccb3e41ddf9ba575dcb3f8315f857e28f7a2292ed67f1b564a20"
+      }
+    },
+    {
+      "clip_id": "video30_cp004",
+      "video_id": "video30",
+      "source_frame_offset": 215,
+      "end_frame": 55,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video30_cp004.json"
+      },
+      "sha256": {
+        "en": "384acda8743735ea1c68539fd6019e9761b195f72c8d5f98f01252b6e1e44139"
+      }
+    },
+    {
+      "clip_id": "video30_cp005",
+      "video_id": "video30",
+      "source_frame_offset": 300,
+      "end_frame": 60,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video30_cp005.json"
+      },
+      "sha256": {
+        "en": "aa0dfae8765c7d4050619a25013c8586024afdc06397237547a6dd7e586c8cd8"
+      }
+    },
+    {
+      "clip_id": "video30_cp006",
+      "video_id": "video30",
+      "source_frame_offset": 405,
+      "end_frame": 75,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video30_cp006.json"
+      },
+      "sha256": {
+        "en": "0415a6c8645fc95723294ee11b27321eca3069e75e5a92a0e50d443e43562f12"
+      }
+    },
+    {
+      "clip_id": "video30_cp007",
+      "video_id": "video30",
+      "source_frame_offset": 505,
+      "end_frame": 50,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video30_cp007.json"
+      },
+      "sha256": {
+        "en": "827048247071cd53c387efaa3c77c157d1ff53c1dc837484c4299a38af49243d"
+      }
+    },
+    {
+      "clip_id": "video30_cp008",
+      "video_id": "video30",
+      "source_frame_offset": 556,
+      "end_frame": 43,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video30_cp008.json"
+      },
+      "sha256": {
+        "en": "2cbe5d708f8ae4c52426f0545571ec04c6d42b29645730af25c3293d8c5d08a1"
+      }
+    },
+    {
+      "clip_id": "video31_cp001",
+      "video_id": "video31",
+      "source_frame_offset": 0,
+      "end_frame": 75,
+      "fps": 60,
+      "annotations": {
+        "en": "data/annotations/en/video31_cp001.json"
+      },
+      "sha256": {
+        "en": "bd3445d37a5585dbe1594a3255fc2f6c6e0371239ab7a415b4ff9f6ea714d336"
+      }
+    },
+    {
+      "clip_id": "video31_cp002",
+      "video_id": "video31",
+      "source_frame_offset": 76,
+      "end_frame": 50,
+      "fps": 60,
+      "annotations": {
+        "en": "data/annotations/en/video31_cp002.json"
+      },
+      "sha256": {
+        "en": "a6d252750680fd34335c611072db04d5ad9f02db087c41610790de2623e21553"
+      }
+    },
+    {
+      "clip_id": "video31_cp003",
+      "video_id": "video31",
+      "source_frame_offset": 120,
+      "end_frame": 85,
+      "fps": 60,
+      "annotations": {
+        "en": "data/annotations/en/video31_cp003.json"
+      },
+      "sha256": {
+        "en": "dd7f03636a36fc09d20733d9d2d0b9ad9f3da94b89232fab38e9ee3a0b09de70"
+      }
+    },
+    {
+      "clip_id": "video31_cp004",
+      "video_id": "video31",
+      "source_frame_offset": 200,
+      "end_frame": 53,
+      "fps": 60,
+      "annotations": {
+        "en": "data/annotations/en/video31_cp004.json"
+      },
+      "sha256": {
+        "en": "3998ac14657124811ca40ef826c21505a9628bfe729eb9a76685c8df65ceb536"
+      }
+    },
+    {
+      "clip_id": "video31_cp005",
+      "video_id": "video31",
+      "source_frame_offset": 254,
+      "end_frame": 61,
+      "fps": 60,
+      "annotations": {
+        "en": "data/annotations/en/video31_cp005.json"
+      },
+      "sha256": {
+        "en": "fb80d5c601d48889da7c4d7eb73ecbd978f4208e315773e452f7e414b7f406a4"
+      }
+    },
+    {
+      "clip_id": "video31_cp006",
+      "video_id": "video31",
+      "source_frame_offset": 315,
+      "end_frame": 60,
+      "fps": 60,
+      "annotations": {
+        "en": "data/annotations/en/video31_cp006.json"
+      },
+      "sha256": {
+        "en": "8e6006560c8e78ab4ada97a237b93bb0536c9150724297e68a74bd494f87e3e5"
+      }
+    },
+    {
+      "clip_id": "video31_cp007",
+      "video_id": "video31",
+      "source_frame_offset": 450,
+      "end_frame": 59,
+      "fps": 60,
+      "annotations": {
+        "en": "data/annotations/en/video31_cp007.json"
+      },
+      "sha256": {
+        "en": "562a06861a25ba0521e5719ffae3483e586353938acc9f01586eb47d35b6a2a2"
+      }
+    },
+    {
+      "clip_id": "video32_cp001",
+      "video_id": "video32",
+      "source_frame_offset": 0,
+      "end_frame": 24,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video32_cp001.json"
+      },
+      "sha256": {
+        "en": "10559ff220ae4c9d1d74720ded26b7e829ee1e38d1417523361cd9c101c2c0f3"
+      }
+    },
+    {
+      "clip_id": "video32_cp002",
+      "video_id": "video32",
+      "source_frame_offset": 48,
+      "end_frame": 40,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video32_cp002.json"
+      },
+      "sha256": {
+        "en": "8311b56471ee6e362875b1f4beb7fd8721fd7e76a3909d719dc8d55d0136099f"
+      }
+    },
+    {
+      "clip_id": "video32_cp003",
+      "video_id": "video32",
+      "source_frame_offset": 96,
+      "end_frame": 50,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video32_cp003.json"
+      },
+      "sha256": {
+        "en": "b6cd18f4d8c079759cb2076cd222043a69c348593ea08ad426571debf3dda217"
+      }
+    },
+    {
+      "clip_id": "video33_cp001",
+      "video_id": "video33",
+      "source_frame_offset": 0,
+      "end_frame": 90,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video33_cp001.json"
+      },
+      "sha256": {
+        "en": "e3349e2af9763de390b758d2ac6386d1467275da2fb55a95a90845a8107bb0a4"
+      }
+    },
+    {
+      "clip_id": "video33_cp002",
+      "video_id": "video33",
+      "source_frame_offset": 360,
+      "end_frame": 90,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video33_cp002.json"
+      },
+      "sha256": {
+        "en": "10eb3b47f6c688058f647a6e51b25858a529ff556a8d1c63f8f63311cbd42c8f"
+      }
+    },
+    {
+      "clip_id": "video33_cp003",
+      "video_id": "video33",
+      "source_frame_offset": 600,
+      "end_frame": 107,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video33_cp003.json"
+      },
+      "sha256": {
+        "en": "2ffc36964e359d3d864a06609e41ee08cd4791e6a8a8269f586c3ebd12f414f6"
+      }
+    },
+    {
+      "clip_id": "video33_cp004",
+      "video_id": "video33",
+      "source_frame_offset": 708,
+      "end_frame": 60,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video33_cp004.json"
+      },
+      "sha256": {
+        "en": "aab3746720d03d2dab5036126303b8d05210042d17859afb66a206cddb7ea214"
+      }
+    },
+    {
+      "clip_id": "video33_cp005",
+      "video_id": "video33",
+      "source_frame_offset": 780,
+      "end_frame": 60,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video33_cp005.json"
+      },
+      "sha256": {
+        "en": "024ec18fd39fe476696e172017656e5d842351bb9e20a639280b422b02f2ed3e"
+      }
+    },
+    {
+      "clip_id": "video33_cp006",
+      "video_id": "video33",
+      "source_frame_offset": 900,
+      "end_frame": 78,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video33_cp006.json"
+      },
+      "sha256": {
+        "en": "2f110c69e8b220777372b7aa94e80ff6fcfc82e05cfdc933d647a7a0ae33e8d5"
+      }
+    },
+    {
+      "clip_id": "video33_cp007",
+      "video_id": "video33",
+      "source_frame_offset": 1035,
+      "end_frame": 65,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video33_cp007.json"
+      },
+      "sha256": {
+        "en": "5ac9e5990d77e133f287751c59105be44810734e6e0d4d4d237e36a0e0ee968a"
+      }
+    },
+    {
+      "clip_id": "video34_cp001",
+      "video_id": "video34",
+      "source_frame_offset": 0,
+      "end_frame": 75,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video34_cp001.json"
+      },
+      "sha256": {
+        "en": "bdd9172049255da334f1d0193f54050d4aef49dc0290e822a208b340aec08158"
+      }
+    },
+    {
+      "clip_id": "video34_cp002",
+      "video_id": "video34",
+      "source_frame_offset": 135,
+      "end_frame": 104,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video34_cp002.json"
+      },
+      "sha256": {
+        "en": "3202d3cd28d9c91fd452278baf61d5a4dc65d7b0b8bd33f27fddfa277510278a"
+      }
+    },
+    {
+      "clip_id": "video34_cp003",
+      "video_id": "video34",
+      "source_frame_offset": 270,
+      "end_frame": 60,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video34_cp003.json"
+      },
+      "sha256": {
+        "en": "1cab7baf69ba13873a1f06177e108581e254fc3a81ded631ad5ab41aee8df325"
+      }
+    },
+    {
+      "clip_id": "video34_cp004",
+      "video_id": "video34",
+      "source_frame_offset": 354,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video34_cp004.json"
+      },
+      "sha256": {
+        "en": "9a4ad162bf34b2811307dd5ac6d10a6f93572ac2e9cfc559e781ba47bc543e5d"
+      }
+    },
+    {
+      "clip_id": "video35_cp001",
+      "video_id": "video35",
+      "source_frame_offset": 45,
+      "end_frame": 105,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video35_cp001.json"
+      },
+      "sha256": {
+        "en": "c6eb2eeef9e2b72de2ce4969bac8873a62bb1f75d2747164c71bea14efd93798"
+      }
+    },
+    {
+      "clip_id": "video35_cp002",
+      "video_id": "video35",
+      "source_frame_offset": 165,
+      "end_frame": 105,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video35_cp002.json"
+      },
+      "sha256": {
+        "en": "bb702bd6a3dc25294ee66dbd34b581530781f66f66dda5b6ecf8ef7f61089214"
+      }
+    },
+    {
+      "clip_id": "video35_cp003",
+      "video_id": "video35",
+      "source_frame_offset": 270,
+      "end_frame": 80,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video35_cp003.json"
+      },
+      "sha256": {
+        "en": "8e2168ff4504eb1497f20af3574a217c65b5f43e9f86f076cb02fd5c33aa3706"
+      }
+    },
+    {
+      "clip_id": "video35_cp004",
+      "video_id": "video35",
+      "source_frame_offset": 350,
+      "end_frame": 50,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video35_cp004.json"
+      },
+      "sha256": {
+        "en": "b557ea4d5077f57a087ce6df703778165667f9321e711266a8280c61d4a801f5"
+      }
+    },
+    {
+      "clip_id": "video35_cp005",
+      "video_id": "video35",
+      "source_frame_offset": 400,
+      "end_frame": 61,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video35_cp005.json"
+      },
+      "sha256": {
+        "en": "4bc5ba47b0f19892709dd6625fcdc2025b3abe238f15356aaef1c2466339aae6"
+      }
+    },
+    {
+      "clip_id": "video36_cp001",
+      "video_id": "video36",
+      "source_frame_offset": 0,
+      "end_frame": 30,
+      "fps": 23.912,
+      "annotations": {
+        "en": "data/annotations/en/video36_cp001.json"
+      },
+      "sha256": {
+        "en": "336ea1cef52940614b996ba308478ced2966c5a9aac7bc6c958013521e7e5049"
+      }
+    },
+    {
+      "clip_id": "video36_cp002",
+      "video_id": "video36",
+      "source_frame_offset": 31,
+      "end_frame": 27,
+      "fps": 23.912,
+      "annotations": {
+        "en": "data/annotations/en/video36_cp002.json"
+      },
+      "sha256": {
+        "en": "542140e164a8e114a131d350193ed4b26cd7fb8ea24c9dc1325a4f7cf453bd54"
+      }
+    },
+    {
+      "clip_id": "video36_cp003",
+      "video_id": "video36",
+      "source_frame_offset": 82,
+      "end_frame": 26,
+      "fps": 23.912,
+      "annotations": {
+        "en": "data/annotations/en/video36_cp003.json"
+      },
+      "sha256": {
+        "en": "41e995e189a3c72fc5e416492e3d8e4ba02664e88c73a7001d87c0a316f13d6a"
+      }
+    },
+    {
+      "clip_id": "video36_cp004",
+      "video_id": "video36",
+      "source_frame_offset": 109,
+      "end_frame": 28,
+      "fps": 23.912,
+      "annotations": {
+        "en": "data/annotations/en/video36_cp004.json"
+      },
+      "sha256": {
+        "en": "62defcdafe882f0230755b454a9805b922048a93cf411823e0aa718d6f861c5f"
+      }
+    },
+    {
+      "clip_id": "video36_cp005",
+      "video_id": "video36",
+      "source_frame_offset": 138,
+      "end_frame": 35,
+      "fps": 23.912,
+      "annotations": {
+        "en": "data/annotations/en/video36_cp005.json"
+      },
+      "sha256": {
+        "en": "bd26e43381a411b6eb74ca745648cdbe6707e08bc337425513c246f7baa97ae2"
+      }
+    },
+    {
+      "clip_id": "video36_cp006",
+      "video_id": "video36",
+      "source_frame_offset": 174,
+      "end_frame": 21,
+      "fps": 23.912,
+      "annotations": {
+        "en": "data/annotations/en/video36_cp006.json"
+      },
+      "sha256": {
+        "en": "03a32e0050fc49ca0994d2e4c8015ab99aed31bc46afa1f1cc0156ddeb72b4ff"
+      }
+    },
+    {
+      "clip_id": "video36_cp007",
+      "video_id": "video36",
+      "source_frame_offset": 196,
+      "end_frame": 9,
+      "fps": 23.912,
+      "annotations": {
+        "en": "data/annotations/en/video36_cp007.json"
+      },
+      "sha256": {
+        "en": "aa61348970de7d183bfde7f938ab78ab54f17bb69025fb9820303b29c9c696e9"
+      }
+    },
+    {
+      "clip_id": "video37_cp001",
+      "video_id": "video37",
+      "source_frame_offset": 0,
+      "end_frame": 30,
+      "fps": 23.963,
+      "annotations": {
+        "en": "data/annotations/en/video37_cp001.json"
+      },
+      "sha256": {
+        "en": "10f6017534f48c15eaa77b9b92d39bbafcf6a956dbc75bf478fde47fcdd506e4"
+      }
+    },
+    {
+      "clip_id": "video37_cp002",
+      "video_id": "video37",
+      "source_frame_offset": 316,
+      "end_frame": 32,
+      "fps": 23.963,
+      "annotations": {
+        "en": "data/annotations/en/video37_cp002.json"
+      },
+      "sha256": {
+        "en": "c8a7a4f0a9315d25afb59976e5e3ed9208ad92e79b736e0248fbbe52053893fa"
+      }
+    },
+    {
+      "clip_id": "video37_cp003",
+      "video_id": "video37",
+      "source_frame_offset": 349,
+      "end_frame": 46,
+      "fps": 23.963,
+      "annotations": {
+        "en": "data/annotations/en/video37_cp003.json"
+      },
+      "sha256": {
+        "en": "a5f557662f70d93967ccc9985f49da8be783c6cd8090b75c79b609edb1db46e4"
+      }
+    },
+    {
+      "clip_id": "video38_cp001",
+      "video_id": "video38",
+      "source_frame_offset": 0,
+      "end_frame": 23,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video38_cp001.json"
+      },
+      "sha256": {
+        "en": "5c5f3a433cd44d34a19e0aff62bdd88efe0adf97a80a0d08d6ea6b72d8bf69da"
+      }
+    },
+    {
+      "clip_id": "video38_cp002",
+      "video_id": "video38",
+      "source_frame_offset": 24,
+      "end_frame": 30,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video38_cp002.json"
+      },
+      "sha256": {
+        "en": "302e5c1b61b1c8d2e493a801ee66bb2980651b9c91d33bbb7fd9f6a5c76ec309"
+      }
+    },
+    {
+      "clip_id": "video38_cp003",
+      "video_id": "video38",
+      "source_frame_offset": 108,
+      "end_frame": 27,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video38_cp003.json"
+      },
+      "sha256": {
+        "en": "dff1ee15f146fb7e1c76f601312e98e7e028814021d60c8c34f7f80af1513282"
+      }
+    },
+    {
+      "clip_id": "video38_cp004",
+      "video_id": "video38",
+      "source_frame_offset": 144,
+      "end_frame": 30,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video38_cp004.json"
+      },
+      "sha256": {
+        "en": "c05fc47f75bf5a06e48015ab2c5ef1f76e3a3da7279551e56cfc5e635efa2b01"
+      }
+    },
+    {
+      "clip_id": "video38_cp005",
+      "video_id": "video38",
+      "source_frame_offset": 218,
+      "end_frame": 29,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video38_cp005.json"
+      },
+      "sha256": {
+        "en": "fb7e6ca670b81ee834641690cf94ae426f54403c0ac429581b9efd51442a46a4"
+      }
+    },
+    {
+      "clip_id": "video38_cp006",
+      "video_id": "video38",
+      "source_frame_offset": 256,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video38_cp006.json"
+      },
+      "sha256": {
+        "en": "00dd8157c303edfc82cfd7d8c10b79bf1402c7db8fe49dc13d658808078cf51b"
+      }
+    },
+    {
+      "clip_id": "video39_cp001",
+      "video_id": "video39",
+      "source_frame_offset": 90,
+      "end_frame": 59,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video39_cp001.json"
+      },
+      "sha256": {
+        "en": "6b10210c83faa4afc17fcd6858184aa0ba7f01a35be87792b7194a9fb802c584"
+      }
+    },
+    {
+      "clip_id": "video39_cp002",
+      "video_id": "video39",
+      "source_frame_offset": 150,
+      "end_frame": 59,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video39_cp002.json"
+      },
+      "sha256": {
+        "en": "4062a007a8d11e35b5be923d1558f27e919e500a761459eff5fbac9704bf8a67"
+      }
+    },
+    {
+      "clip_id": "video39_cp003",
+      "video_id": "video39",
+      "source_frame_offset": 210,
+      "end_frame": 59,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video39_cp003.json"
+      },
+      "sha256": {
+        "en": "340474e355cd6ef780285506962c25febb8566cb7ddd8599555977cab425071c"
+      }
+    },
+    {
+      "clip_id": "video39_cp004",
+      "video_id": "video39",
+      "source_frame_offset": 500,
+      "end_frame": 59,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video39_cp004.json"
+      },
+      "sha256": {
+        "en": "00a20f0f0d140cb8101c7d6cdf89c1d972ecfc0cdb07f5ec4bca9880ad8830ac"
+      }
+    },
+    {
+      "clip_id": "video40_cp001",
+      "video_id": "video40",
+      "source_frame_offset": 50,
+      "end_frame": 75,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video40_cp001.json"
+      },
+      "sha256": {
+        "en": "3f84c351ecc560cafa46d99fcb6c82a3662c26c6834aa193dfa83ded48f024e7"
+      }
+    },
+    {
+      "clip_id": "video40_cp002",
+      "video_id": "video40",
+      "source_frame_offset": 155,
+      "end_frame": 119,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video40_cp002.json"
+      },
+      "sha256": {
+        "en": "0fc40c2488b4da77202cee190c68d48c1ee2cf0688c38d845b03ea71100132b5"
+      }
+    },
+    {
+      "clip_id": "video40_cp003",
+      "video_id": "video40",
+      "source_frame_offset": 330,
+      "end_frame": 71,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video40_cp003.json"
+      },
+      "sha256": {
+        "en": "27dd861d79ab808a1881556b2e372a431f33693a36504a7cfc1b9d80db342e7f"
+      }
+    },
+    {
+      "clip_id": "video41_cp001",
+      "video_id": "video41",
+      "source_frame_offset": 24,
+      "end_frame": 36,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video41_cp001.json"
+      },
+      "sha256": {
+        "en": "c049f61f6cf2d9828502b5df85b6a2fa73f62c46451b064e51d712d959f4440e"
+      }
+    },
+    {
+      "clip_id": "video41_cp002",
+      "video_id": "video41",
+      "source_frame_offset": 112,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video41_cp002.json"
+      },
+      "sha256": {
+        "en": "3f4c4108420dc9edbe8eeb5fc3467d10dd56a306ba75a6796e3b5f0d32776883"
+      }
+    },
+    {
+      "clip_id": "video41_cp003",
+      "video_id": "video41",
+      "source_frame_offset": 164,
+      "end_frame": 26,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video41_cp003.json"
+      },
+      "sha256": {
+        "en": "912d5e59d4fc39ef829cebd01520e6c9f9e800adb7f536581e621fbc3da7187e"
+      }
+    },
+    {
+      "clip_id": "video42_cp001",
+      "video_id": "video42",
+      "source_frame_offset": 0,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video42_cp001.json"
+      },
+      "sha256": {
+        "en": "b5d46521a4d27d69bbbb9b353c2be9b30f24449c791d5d6e5e09271db99829e7"
+      }
+    },
+    {
+      "clip_id": "video42_cp002",
+      "video_id": "video42",
+      "source_frame_offset": 48,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video42_cp002.json"
+      },
+      "sha256": {
+        "en": "a2840ddbf7f53e965aebde727a969f214a00ef72c061791ddb4966133227ac63"
+      }
+    },
+    {
+      "clip_id": "video42_cp003",
+      "video_id": "video42",
+      "source_frame_offset": 107,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video42_cp003.json"
+      },
+      "sha256": {
+        "en": "7a583704ee1fe95991b282ae748ed1e65595f2f6de8f526635cbab0982adc554"
+      }
+    },
+    {
+      "clip_id": "video42_cp004",
+      "video_id": "video42",
+      "source_frame_offset": 154,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video42_cp004.json"
+      },
+      "sha256": {
+        "en": "8488b6c75e5c5dae94683b2f6bd0d4e015159e0667460ea7f097798cd4549a83"
+      }
+    },
+    {
+      "clip_id": "video42_cp005",
+      "video_id": "video42",
+      "source_frame_offset": 229,
+      "end_frame": 46,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video42_cp005.json"
+      },
+      "sha256": {
+        "en": "277a8543ba1ffcf29fb4034ace060cd735b3d909140fa8fb00d79a1c334d3fb1"
+      }
+    },
+    {
+      "clip_id": "video42_cp006",
+      "video_id": "video42",
+      "source_frame_offset": 278,
+      "end_frame": 16,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video42_cp006.json"
+      },
+      "sha256": {
+        "en": "f41c9ae1e7f32319ad82cad2514dc12ed07753f3511065168257c33381df956c"
+      }
+    },
+    {
+      "clip_id": "video43_cp001",
+      "video_id": "video43",
+      "source_frame_offset": 0,
+      "end_frame": 18,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video43_cp001.json"
+      },
+      "sha256": {
+        "en": "00206d0f13ff99b8d7b9eeb01538d38ae32ab61443bd9b93f68a8cf87ed539cb"
+      }
+    },
+    {
+      "clip_id": "video43_cp002",
+      "video_id": "video43",
+      "source_frame_offset": 24,
+      "end_frame": 24,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video43_cp002.json"
+      },
+      "sha256": {
+        "en": "866c1632fb3d60c111178e9204f0e614d3c969838e8b1d778bb5f856ceb50e79"
+      }
+    },
+    {
+      "clip_id": "video43_cp003",
+      "video_id": "video43",
+      "source_frame_offset": 95,
+      "end_frame": 22,
+      "fps": 23.976023976023978,
+      "annotations": {
+        "en": "data/annotations/en/video43_cp003.json"
+      },
+      "sha256": {
+        "en": "c35d49acd3fced195c18f8cf6d39e5c4cb31dd8fae5e9b84023c42728f559338"
+      }
+    },
+    {
+      "clip_id": "video44_cp001",
+      "video_id": "video44",
+      "source_frame_offset": 54,
+      "end_frame": 30,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video44_cp001.json"
+      },
+      "sha256": {
+        "en": "e0a07024c89fb5af795745dd6b23f062f3a821d816213a46aa72b1f315f1f550"
+      }
+    },
+    {
+      "clip_id": "video44_cp002",
+      "video_id": "video44",
+      "source_frame_offset": 94,
+      "end_frame": 12,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video44_cp002.json"
+      },
+      "sha256": {
+        "en": "92bdef8e4b08e34a97fa9701d03277ce017655f2519c10e4d33d73b30a8dbcf4"
+      }
+    },
+    {
+      "clip_id": "video44_cp003",
+      "video_id": "video44",
+      "source_frame_offset": 107,
+      "end_frame": 46,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video44_cp003.json"
+      },
+      "sha256": {
+        "en": "aff6d4d6ba49fcc364f1f19fa595c725c0cc656ffbae76bd84f747c5ae4cc554"
+      }
+    },
+    {
+      "clip_id": "video44_cp004",
+      "video_id": "video44",
+      "source_frame_offset": 184,
+      "end_frame": 32,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video44_cp004.json"
+      },
+      "sha256": {
+        "en": "497924c9a93e22e34d64494f912cecfa816b9ad3760d4e2d831cdad98c2c5384"
+      }
+    },
+    {
+      "clip_id": "video44_cp005",
+      "video_id": "video44",
+      "source_frame_offset": 297,
+      "end_frame": 13,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video44_cp005.json"
+      },
+      "sha256": {
+        "en": "ef3bbc92f737bd60e52d3a53594856808df4939ef66422adc62956d09469549f"
+      }
+    },
+    {
+      "clip_id": "video44_cp006",
+      "video_id": "video44",
+      "source_frame_offset": 369,
+      "end_frame": 43,
+      "fps": 24.0,
+      "annotations": {
+        "en": "data/annotations/en/video44_cp006.json"
+      },
+      "sha256": {
+        "en": "23296d04551a30a212f3d5eb726ecb1a653145363bb282129f4eee308fc4e94d"
+      }
+    },
+    {
+      "clip_id": "video45_cp001",
+      "video_id": "video45",
+      "source_frame_offset": 0,
+      "end_frame": 24,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp001.json"
+      },
+      "sha256": {
+        "en": "5b59258cc8ae8fbfa3a83878b83e86e4895a0be1f00bafd9679a9e5b999a725b"
+      }
+    },
+    {
+      "clip_id": "video45_cp002",
+      "video_id": "video45",
+      "source_frame_offset": 80,
+      "end_frame": 48,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp002.json"
+      },
+      "sha256": {
+        "en": "7549bf509e7aeafe0c52ffc59eb7e2b974fe9ef8c7aeb1b1b66f927462e2c9bb"
+      }
+    },
+    {
+      "clip_id": "video45_cp003",
+      "video_id": "video45",
+      "source_frame_offset": 135,
+      "end_frame": 25,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp003.json"
+      },
+      "sha256": {
+        "en": "8ae33f6a9b0ad651562ba0827a5a0d9dea345e559f11cb795f583e05877a6dbc"
+      }
+    },
+    {
+      "clip_id": "video45_cp004",
+      "video_id": "video45",
+      "source_frame_offset": 168,
+      "end_frame": 32,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp004.json"
+      },
+      "sha256": {
+        "en": "e4712d6ddd2916ca48db0e183cd44b766a0e7591795eec823f60ef2c4f6be572"
+      }
+    },
+    {
+      "clip_id": "video45_cp005",
+      "video_id": "video45",
+      "source_frame_offset": 201,
+      "end_frame": 27,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp005.json"
+      },
+      "sha256": {
+        "en": "89ca484501bfee5deb050c97ce7862ede6b4002ce4c28583477ecdd44bc1f262"
+      }
+    },
+    {
+      "clip_id": "video45_cp006",
+      "video_id": "video45",
+      "source_frame_offset": 240,
+      "end_frame": 28,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp006.json"
+      },
+      "sha256": {
+        "en": "86b971e4777d4695357768f061e492196993c60203bc52ff9a1371a5f611c3b7"
+      }
+    },
+    {
+      "clip_id": "video45_cp007",
+      "video_id": "video45",
+      "source_frame_offset": 269,
+      "end_frame": 31,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp007.json"
+      },
+      "sha256": {
+        "en": "3a506ceb0217f2992fb9c9f969a04cf06d2b04ea2cc1e8c877451dd7a7f8e157"
+      }
+    },
+    {
+      "clip_id": "video45_cp008",
+      "video_id": "video45",
+      "source_frame_offset": 317,
+      "end_frame": 49,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp008.json"
+      },
+      "sha256": {
+        "en": "00a0f0bdb297d42be665fd1c57ab9f28d1980158e2e654dc68d5e12dddb63629"
+      }
+    },
+    {
+      "clip_id": "video45_cp009",
+      "video_id": "video45",
+      "source_frame_offset": 376,
+      "end_frame": 40,
+      "fps": 30.0,
+      "annotations": {
+        "en": "data/annotations/en/video45_cp009.json"
+      },
+      "sha256": {
+        "en": "97e7422ad5d7dd5a38d642293edeae72deeffb02bab9c348b2e888fcf9e739d1"
+      }
+    },
+    {
+      "clip_id": "video46_cp001",
+      "video_id": "video46",
+      "source_frame_offset": 29,
+      "end_frame": 94,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video46_cp001.json"
+      },
+      "sha256": {
+        "en": "38216fef5a4af647de55f23fcb53cc458fc637c007effaa7e76156914efdb266"
+      }
+    },
+    {
+      "clip_id": "video46_cp002",
+      "video_id": "video46",
+      "source_frame_offset": 145,
+      "end_frame": 58,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video46_cp002.json"
+      },
+      "sha256": {
+        "en": "f5db1daaf468a443e43230f5e74ac294f01fe80367200ca4e9bb401d226f94f0"
+      }
+    },
+    {
+      "clip_id": "video46_cp003",
+      "video_id": "video46",
+      "source_frame_offset": 193,
+      "end_frame": 110,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video46_cp003.json"
+      },
+      "sha256": {
+        "en": "7369d8ca2848ef57440c1240d201f827af54db17bde1ee8c882046f2c7e55ba3"
+      }
+    },
+    {
+      "clip_id": "video46_cp004",
+      "video_id": "video46",
+      "source_frame_offset": 357,
+      "end_frame": 68,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video46_cp004.json"
+      },
+      "sha256": {
+        "en": "35c4619581d689b41763c8dfda076c9f0f55bebee345ac38e5e9c523c3f181f5"
+      }
+    },
+    {
+      "clip_id": "video46_cp005",
+      "video_id": "video46",
+      "source_frame_offset": 505,
+      "end_frame": 65,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video46_cp005.json"
+      },
+      "sha256": {
+        "en": "ca53887152311b66fddbd2ace2597b8310d159502ec31338df367a8426e704b2"
+      }
+    },
+    {
+      "clip_id": "video46_cp006",
+      "video_id": "video46",
+      "source_frame_offset": 585,
+      "end_frame": 50,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video46_cp006.json"
+      },
+      "sha256": {
+        "en": "daea70f9888d5008fa07ca7b3ffbe1ed912c380153da55f760fac91a92f67304"
+      }
+    },
+    {
+      "clip_id": "video47_cp001",
+      "video_id": "video47",
+      "source_frame_offset": 40,
+      "end_frame": 70,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video47_cp001.json"
+      },
+      "sha256": {
+        "en": "4cd9decb56e8c2246479f0c4f94db1fafde7267273f78a722ad82eb50e5fe795"
+      }
+    },
+    {
+      "clip_id": "video47_cp002",
+      "video_id": "video47",
+      "source_frame_offset": 185,
+      "end_frame": 113,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video47_cp002.json"
+      },
+      "sha256": {
+        "en": "e48f057ea8be0110bbd0bb6ddd8724a9fdb70aa57545e04a94b6bf7d1bbbdd3d"
+      }
+    },
+    {
+      "clip_id": "video47_cp003",
+      "video_id": "video47",
+      "source_frame_offset": 289,
+      "end_frame": 67,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video47_cp003.json"
+      },
+      "sha256": {
+        "en": "d8bddbbbc30bba5240f417dcff80da0094db39ba6e2b17c0b9f2d0b42fd04754"
+      }
+    },
+    {
+      "clip_id": "video47_cp004",
+      "video_id": "video47",
+      "source_frame_offset": 390,
+      "end_frame": 75,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video47_cp004.json"
+      },
+      "sha256": {
+        "en": "97da009deaac112981d5212ab585010f095202b0eb0cee891a45e8dc75c095b0"
+      }
+    },
+    {
+      "clip_id": "video47_cp005",
+      "video_id": "video47",
+      "source_frame_offset": 520,
+      "end_frame": 70,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video47_cp005.json"
+      },
+      "sha256": {
+        "en": "e1b782a2051db3c8b510c5693618889504e84872a32636669c12afdb2ec467cc"
+      }
+    },
+    {
+      "clip_id": "video48_cp001",
+      "video_id": "video48",
+      "source_frame_offset": 0,
+      "end_frame": 45,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp001.json"
+      },
+      "sha256": {
+        "en": "41df0230e6485f979ade16e22c80de37c73034783ef417636b75352b8e55b38f"
+      }
+    },
+    {
+      "clip_id": "video48_cp002",
+      "video_id": "video48",
+      "source_frame_offset": 60,
+      "end_frame": 49,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp002.json"
+      },
+      "sha256": {
+        "en": "62fb53dff4737624d1d4e3ffe7c82a1ea21ad43b9077ab5bb161981ef2edfe8a"
+      }
+    },
+    {
+      "clip_id": "video48_cp003",
+      "video_id": "video48",
+      "source_frame_offset": 110,
+      "end_frame": 104,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp003.json"
+      },
+      "sha256": {
+        "en": "18b9ffb12422c5d55080794c9652017e2e7466330c0158c439483181bf59faea"
+      }
+    },
+    {
+      "clip_id": "video48_cp004",
+      "video_id": "video48",
+      "source_frame_offset": 215,
+      "end_frame": 58,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp004.json"
+      },
+      "sha256": {
+        "en": "c77a73cfd2314f086083524a74540e9370eef89c2a611033cf08ce718eca44e3"
+      }
+    },
+    {
+      "clip_id": "video48_cp005",
+      "video_id": "video48",
+      "source_frame_offset": 274,
+      "end_frame": 56,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp005.json"
+      },
+      "sha256": {
+        "en": "ed6bb0023b9d4002d0d6e226d06f2904e2631893e9d5f7bb0a7f1a41917d1aea"
+      }
+    },
+    {
+      "clip_id": "video48_cp006",
+      "video_id": "video48",
+      "source_frame_offset": 331,
+      "end_frame": 58,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp006.json"
+      },
+      "sha256": {
+        "en": "f027b53efb558fbe1b1a035880fead473d7ec593bf65d5364b2dae9ceb30e8d2"
+      }
+    },
+    {
+      "clip_id": "video48_cp007",
+      "video_id": "video48",
+      "source_frame_offset": 390,
+      "end_frame": 65,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp007.json"
+      },
+      "sha256": {
+        "en": "3aed0fcf0c313441ed48403b0499db9b0406b38ca40ec0e67ddebdf63babdbef"
+      }
+    },
+    {
+      "clip_id": "video48_cp008",
+      "video_id": "video48",
+      "source_frame_offset": 456,
+      "end_frame": 70,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp008.json"
+      },
+      "sha256": {
+        "en": "72bec990ed19951ca0051606244c74ec2a0b01136cafc148470c8c5b1c95b34e"
+      }
+    },
+    {
+      "clip_id": "video48_cp009",
+      "video_id": "video48",
+      "source_frame_offset": 527,
+      "end_frame": 48,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp009.json"
+      },
+      "sha256": {
+        "en": "27ca291d797bcebc74b78b18fdd788f3b0ab4b5b34ff2bffb679a41c88c0e4b8"
+      }
+    },
+    {
+      "clip_id": "video48_cp010",
+      "video_id": "video48",
+      "source_frame_offset": 576,
+      "end_frame": 59,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp010.json"
+      },
+      "sha256": {
+        "en": "3bee72af6e5b73caf038f0496fc1bd67054e7220924f798a7c79b9ba31e99f64"
+      }
+    },
+    {
+      "clip_id": "video48_cp011",
+      "video_id": "video48",
+      "source_frame_offset": 636,
+      "end_frame": 49,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp011.json"
+      },
+      "sha256": {
+        "en": "d498179eb9bce077f9ae4797107daaf72a11cb871d19f3e3c244872e5ad91341"
+      }
+    },
+    {
+      "clip_id": "video48_cp012",
+      "video_id": "video48",
+      "source_frame_offset": 686,
+      "end_frame": 79,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video48_cp012.json"
+      },
+      "sha256": {
+        "en": "2ef1d8634870c0481e574d06e9a3fd71fcbff282ad95e31118865cdeb9293c28"
+      }
+    },
+    {
+      "clip_id": "video49_cp001",
+      "video_id": "video49",
+      "source_frame_offset": 0,
+      "end_frame": 72,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video49_cp001.json"
+      },
+      "sha256": {
+        "en": "560fdac916a0c38f973b4662b4ee891ec8ef0d8302f4398147b1bd6afecfbda4"
+      }
+    },
+    {
+      "clip_id": "video49_cp002",
+      "video_id": "video49",
+      "source_frame_offset": 100,
+      "end_frame": 50,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video49_cp002.json"
+      },
+      "sha256": {
+        "en": "e96e94ae913ae7933acfcb8ce63fc485537905c9be2514943c74f82fd47741fe"
+      }
+    },
+    {
+      "clip_id": "video49_cp003",
+      "video_id": "video49",
+      "source_frame_offset": 155,
+      "end_frame": 70,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video49_cp003.json"
+      },
+      "sha256": {
+        "en": "52b5644e18f70533e9a64c5ef7f680614f2d0056f05944cdf38e211665e94681"
+      }
+    },
+    {
+      "clip_id": "video49_cp004",
+      "video_id": "video49",
+      "source_frame_offset": 228,
+      "end_frame": 32,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video49_cp004.json"
+      },
+      "sha256": {
+        "en": "77c6760f81995ba43eedb509600edbd37b538496445d3da3e7a6930c993717f4"
+      }
+    },
+    {
+      "clip_id": "video49_cp005",
+      "video_id": "video49",
+      "source_frame_offset": 280,
+      "end_frame": 60,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video49_cp005.json"
+      },
+      "sha256": {
+        "en": "cf375641851bbd1cbdaec6197f5cb415056d701849d051530bae493568be02fd"
+      }
+    },
+    {
+      "clip_id": "video49_cp006",
+      "video_id": "video49",
+      "source_frame_offset": 341,
+      "end_frame": 36,
+      "fps": 60.0,
+      "annotations": {
+        "en": "data/annotations/en/video49_cp006.json"
+      },
+      "sha256": {
+        "en": "cf0c8a43cd78b44c6cc3b50d23a69f419e5bf54b1dfc51ffe59c87734942fc0a"
+      }
+    },
+    {
+      "clip_id": "video50_cp001",
+      "video_id": "video50",
+      "source_frame_offset": 0,
+      "end_frame": 80,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video50_cp001.json"
+      },
+      "sha256": {
+        "en": "74923df5d2e0729521dfa2b3423d72781bf8d87666bd8b1b52cd00ef855f813b"
+      }
+    },
+    {
+      "clip_id": "video50_cp002",
+      "video_id": "video50",
+      "source_frame_offset": 100,
+      "end_frame": 80,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video50_cp002.json"
+      },
+      "sha256": {
+        "en": "41fdb66745bdef16ab70911d8ca22bcfadcf9a4850cc55d829a83b3cb0b57175"
+      }
+    },
+    {
+      "clip_id": "video50_cp003",
+      "video_id": "video50",
+      "source_frame_offset": 181,
+      "end_frame": 59,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video50_cp003.json"
+      },
+      "sha256": {
+        "en": "7103129576f35897e6f8d826392c2a14770f165a2aaf1c1a1f25a4cb9108d239"
+      }
+    },
+    {
+      "clip_id": "video50_cp004",
+      "video_id": "video50",
+      "source_frame_offset": 241,
+      "end_frame": 79,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video50_cp004.json"
+      },
+      "sha256": {
+        "en": "83f23cc0b4aac29ff28ba346a74717b4ec0e9b120b610cecacedea70d2536fdc"
+      }
+    },
+    {
+      "clip_id": "video50_cp005",
+      "video_id": "video50",
+      "source_frame_offset": 420,
+      "end_frame": 100,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video50_cp005.json"
+      },
+      "sha256": {
+        "en": "6aa2e49e339567a7c024d89549da2eb49b8e7c26702460d5281c44231b3987d6"
+      }
+    },
+    {
+      "clip_id": "video50_cp006",
+      "video_id": "video50",
+      "source_frame_offset": 640,
+      "end_frame": 70,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video50_cp006.json"
+      },
+      "sha256": {
+        "en": "bee54f09d29fe7f89896af19bfdd368a0425d7f4218bd5f8574f6bfcc6c04114"
+      }
+    },
+    {
+      "clip_id": "video50_cp007",
+      "video_id": "video50",
+      "source_frame_offset": 711,
+      "end_frame": 79,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video50_cp007.json"
+      },
+      "sha256": {
+        "en": "85ea68d8b149a64e925e30fc389b001b391788d9942973580e6dd7068367dffd"
+      }
+    },
+    {
+      "clip_id": "video50_cp008",
+      "video_id": "video50",
+      "source_frame_offset": 830,
+      "end_frame": 90,
+      "fps": 59.94005994005994,
+      "annotations": {
+        "en": "data/annotations/en/video50_cp008.json"
+      },
+      "sha256": {
+        "en": "e22f4157f0c76a9ce651dac2b676649d575c3cc74881acdcb25782ae12befccf"
+      }
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,1135 @@
+{
+  "clip_id": "video5_cp003",
+  "video_id": "video5",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 22,
+  "source_frame_offset": 88,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video5_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The person in a white extravehicular suit in the right foreground in frame 0, with a face visible inside the transparent visor, a control assembly on the chest, and a large light-colored backpack partly visible behind the shoulders."
+    },
+    {
+      "source_entity_id": "video5_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The person in a white extravehicular suit leaning into view from the left in frame 0, with a rectangular attachment on top of the helmet, a relatively dark face, a circular shoulder patch, and the upper body and backpack cropped by the left edge."
+    },
+    {
+      "source_entity_id": "video5_e004",
+      "name": "silver-gray gridded metal panel assembly",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The silver-gray segmented panel-like assembly initially visible between Person A and Person B, with a dark outer frame and an orange-yellow side rod."
+    },
+    {
+      "source_entity_id": "video5_e005",
+      "name": "planetary background",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The large blue-and-white distant view behind the people and equipment, with a blue underlying surface, white cloud masses, and fine cloud patterns."
+    },
+    {
+      "source_entity_id": "video5_e011",
+      "name": "black-gray angular equipment box",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The angular box-like equipment in the lower-left foreground in frame 0, with a light-gray slanted top surface, a large dark side surface, and light-colored edges."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video5_cp003_restore00009",
+      "statement": "In frame 0, there are a total of 2 people in the image, namely Person A and Person B.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00010",
+      "statement": "In frame 0, the silver-gray gridded metal panel assembly is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00011",
+      "statement": "In frame 0, the planetary background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00012",
+      "statement": "In frame 0, the black-gray angular equipment box is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a001",
+      "statement": "In frame 0, Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a005",
+      "statement": "In frame 0, Person B is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video5_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a013",
+      "statement": "In frame 0, the planetary background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a017",
+      "statement": "In frame 0, the black-gray angular equipment box is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00003",
+      "statement": "In frame 0, the silver-gray gridded metal panel assembly is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00016",
+      "statement": "In frame 22, there is a total of 1 visible person in the image, namely Person A.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00017",
+      "statement": "In frame 22, the silver-gray gridded metal panel assembly is partially visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00018",
+      "statement": "In frame 22, the planetary background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a023",
+      "statement": "In frame 22, Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        18,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a031",
+      "statement": "In frame 22, the planetary background is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00004",
+      "statement": "In frame 22, the silver-gray gridded metal panel assembly is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00005",
+      "statement": "In frame 0, Person A wears a thick white extravehicular suit; the face is visible inside the transparent domed visor, there is a light-colored control assembly on the chest, and part of a large light-colored backpack is visible behind the shoulders.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00006",
+      "statement": "In frame 0, Person B's upper body in a thick white extravehicular suit, transparent domed visor with a light-colored outer cover, and part of a white backpack are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00007",
+      "statement": "In frame 0, the silver-gray gridded metal panel assembly shows a rectangular silver-gray panel surface, a dark outer frame, and panel segmentation.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00008",
+      "statement": "In frame 0, the partially visible surface of the planetary background has a blue underlying surface with white cloud patterns distributed across it.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00009",
+      "statement": "In frame 0, the black-gray angular equipment box has a dark flat side surface, a light-gray slanted top surface, and light-colored edges, with an angular overall form.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00010",
+      "statement": "In frame 0, Person A wears a thick, wrinkled white extravehicular suit, with part of a large light-colored backpack visible behind the shoulders; the transparent domed visor has a light-colored outer cover, gray edges, and side connectors, the face is discernible inside the visor, and there is a striped shoulder patch; the light-colored control assembly on the chest has a dark circular component, a rectangular light-colored panel, and cables and connectors along its lower edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00011",
+      "statement": "In frame 0, Person B's upper body in a thick, wrinkled white extravehicular suit, circular shoulder patch, and part of a white backpack are visible; the helmet has a light-gray outer cover, a transparent curved surface, and a rectangular attachment on top, and the face inside the visor is in shadow; dark patches and a short red marking are visible on the exposed part of the backpack.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00012",
+      "statement": "In frame 0, the silver-gray gridded metal panel assembly shows a rectangular, segmented silver-gray panel surface, a dark outer frame, rows of dot-like fastening marks, and small rectangular covers, with a thin orange-yellow rod on the right side of the image; part of the panel surface is occluded by Person A and Person B.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e004",
+        "video5_e001",
+        "video5_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00013",
+      "statement": "In frame 0, the exposed surface of the planetary background is blue, with irregular white cloud masses and fine, wispy, light-colored clouds distributed across it; a brighter cloud region and blue gaps are visible above Person A and Person B.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00014",
+      "statement": "In frame 0, the black-gray angular equipment box is composed of flat folded surfaces and has a light-gray slanted top surface, a large dark side surface, and light-colored edges; the ridge lines between surfaces are clear, and some edges are reflective.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00015",
+      "statement": "In frame 22, Person A is wearing a thick white extravehicular suit and is oriented nearly horizontally; the transparent helmet visor, chest assembly, large light-colored backpack, and parts of the bent lower limbs are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00016",
+      "statement": "In frame 22, a silver panel surface, black edge, and orange side rod of the silver-gray gridded metal panel assembly are partially visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00017",
+      "statement": "In frame 22, the planetary background shows a blue surface and white cloud bands.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00018",
+      "statement": "In frame 22, Person A wears a thick white extravehicular suit and is oriented nearly horizontally, with the chest and shoulders brightly illuminated; wrinkles on the sleeve and a circular shoulder patch are discernible, and a white glove adjoins a gray wrist connection area; the edge of the transparent helmet visor has a blue-green reflection, and the light-colored chest assembly has a dark circular component, a small rectangular panel, and connecting wires; a large light-colored backpack with a gray frame is visible above, and parts of a bent lower limb and a light-colored boot are visible on the left.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00019",
+      "statement": "In frame 22, the silver-gray gridded metal panel assembly shows a narrow section of silver panel surface, a dark outer frame, edge fastening points, and a thin orange rod; the rest is occluded by Person A or extends beyond the left edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e004",
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00020",
+      "statement": "In frame 22, the partially visible surface of the planetary background is blue, with irregular white cloud masses, finer wispy clouds, and blue gaps distributed across it.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00013",
+      "statement": "In frame 0, Person A occupies the foreground slightly right of center in the image and faces the camera, with the lower body extending to the bottom edge; the silver-gray gridded metal panel assembly is behind Person A and Person B and is visible between them, with its right portion in the image occluded by Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e002",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00014",
+      "statement": "In frame 0, Person B is on the image-left side of Person A, with the body cut off by the left edge; the black-gray angular equipment box is in the lower-left foreground, below Person B's visible arm in the image, and occludes the lower-left portion of the silver-gray gridded metal panel assembly.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e002",
+        "video5_e001",
+        "video5_e011",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00015",
+      "statement": "In frame 0, the planetary background is behind Person A, Person B, and the silver-gray gridded metal panel assembly, and is visible at the top of the image and through the gaps between the main subjects.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e002",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a004",
+      "statement": "In frame 0, Person A is close to the camera and occludes the right portion of the silver-gray gridded metal panel assembly in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a008",
+      "statement": "In frame 0, Person B appears only partially on the image-left side of Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e002",
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a016",
+      "statement": "In frame 0, the planetary background is behind Person A, Person B, and the silver-gray gridded metal panel assembly.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e002",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a020",
+      "statement": "In frame 0, the black-gray angular equipment box is below Person B's visible arm in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e011",
+        "video5_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00021",
+      "statement": "In frame 0, the silver-gray gridded metal panel assembly is behind Person A and Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e004",
+        "video5_e001",
+        "video5_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00020",
+      "statement": "In frame 22, Person A extends across the foreground from the center to the right side of the image, with the head near the lower right and the torso extending toward the upper left; part of a lower limb is visible on the image-left side of the torso; Person A occludes the silver-gray gridded metal panel assembly, which is only partially visible at the left edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        18,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_restore00021",
+      "statement": "In frame 22, the planetary background is behind Person A and the silver-gray gridded metal panel assembly, and is visible mainly in the upper-left part of the image and below Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a026",
+      "statement": "In frame 22, Person A extends across the image at close range and occludes most of the planetary background and the silver-gray gridded metal panel assembly.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e005",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a034",
+      "statement": "In frame 22, the planetary background is partially visible behind Person A and the silver-gray gridded metal panel assembly.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e005",
+        "video5_e001",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00022",
+      "statement": "In frame 22, the silver-gray gridded metal panel assembly is partially visible behind Person A at the left edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e004",
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_r00001",
+      "statement": "In frame 0, the camera is close in front of Person A, while the silver-gray gridded metal panel assembly is farther away behind Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00001",
+      "statement": "In frame 0, the camera is close in front of Person A, while the silver-gray gridded metal panel assembly is farther away behind Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_r00002",
+      "statement": "In frame 22, the camera is close in front of Person A's chest assembly and visor.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00002",
+      "statement": "In frame 22, the camera is close in front of Person A's chest assembly and visor.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_a022",
+      "statement": "In frame 0, the camera is directed toward Person A's helmet, chest control assembly, and upper body.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a022",
+      "statement": "In frame 0, the camera is directed toward Person A's helmet, chest control assembly, and upper body.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_a036",
+      "statement": "In frame 22, the camera is directed toward Person A's helmet, chest control assembly, and upper body.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_a036",
+      "statement": "In frame 22, the camera is directed toward Person A's helmet, chest control assembly, and upper body.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_r00025",
+      "statement": "From frame 0 through frame 22, the camera rolls counterclockwise around the viewing axis relative to its orientation in frame 0.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        11,
+        16,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e004",
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00025",
+      "statement": "From frame 0 through frame 22, the camera rolls counterclockwise around the viewing axis relative to its orientation in frame 0.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        11,
+        16,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e004",
+        "video5_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_a040",
+      "statement": "Frames 0 through 22 form a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        11,
+        12,
+        14,
+        15,
+        18,
+        21,
+        22
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video5_cp003_a040",
+      "statement": "Frames 0 through 22 form a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        11,
+        12,
+        14,
+        15,
+        18,
+        21,
+        22
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video5_cp003_r00023",
+      "statement": "From frame 0 through frame 22, Person A moves toward image-right relative to the silver-gray gridded metal panel assembly.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        11,
+        16,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00023",
+      "statement": "From frame 0 through frame 22, Person A moves toward image-right relative to the silver-gray gridded metal panel assembly.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        11,
+        16,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e001",
+        "video5_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video5_cp003_r00024",
+      "statement": "From frame 0 through frame 22, Person A's orientation in the image changes clockwise, gradually shifting from a head-up orientation to a nearly horizontal orientation with the head toward image-right; a bent arm is visible in the later portion.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        6,
+        11,
+        16,
+        18,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video5_cp003_r00024",
+      "statement": "From frame 0 through frame 22, Person A's orientation in the image changes clockwise, gradually shifting from a head-up orientation to a nearly horizontal orientation with the head toward image-right; a bent arm is visible in the later portion.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        6,
+        11,
+        16,
+        18,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video5_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    22
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "dc6097fcabcd8c5d6b40dda644bd896d172548c13db635c6763cebebede09621"
+}

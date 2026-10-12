@@ -1,0 +1,1385 @@
+{
+  "clip_id": "video48_cp003",
+  "video_id": "video48",
+  "fps": 59.94005994005994,
+  "start_frame": 0,
+  "end_frame": 104,
+  "source_frame_offset": 110,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video48_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The main person wearing a red-and-blue skintight suit with the head covered, swinging above the street between the buildings."
+    },
+    {
+      "source_entity_id": "video48_e002",
+      "name": "Gray overcast sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A cloudy-sky background behind the Cluster of city buildings, gray to blue-gray with soft variations in light and shade."
+    },
+    {
+      "source_entity_id": "video48_e004",
+      "name": "Cluster of city buildings",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Buildings with dark window bands on both sides of the street and in the distance, along with gray-brown and reddish-brown multistory buildings."
+    },
+    {
+      "source_entity_id": "video48_e005",
+      "name": "City street",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A gray road extending into the distance between the buildings, with curbs and intersections visible along it."
+    },
+    {
+      "source_entity_id": "video48_e006",
+      "name": "Neighborhood trees",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Groups of green and yellow-green tree crowns distributed on both sides of the road and in open spaces between the buildings."
+    },
+    {
+      "source_entity_id": "video48_e007",
+      "name": "Street vehicles",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A background group of cars on the City street, with light- and dark-colored body shapes visible, not split into separate identifiers."
+    },
+    {
+      "source_entity_id": "video48_e009",
+      "name": "Thin line pulled by the person",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A slender, linear interactive object above Person A and extending out of frame, with neither its material nor its off-screen anchor point specified."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video48_cp003_restore00011",
+      "statement": "At frame 0, 1 main person is visible in the image, namely Person A.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00003",
+      "statement": "At frame 0, Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00007",
+      "statement": "At frame 0, the Gray overcast sky is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00011",
+      "statement": "At frame 0, the Cluster of city buildings is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00015",
+      "statement": "At frame 0, the City street is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00019",
+      "statement": "At frame 0, the Neighborhood trees are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00023",
+      "statement": "At frame 0, the Street vehicles are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00017",
+      "statement": "At frame 104, the same Person A is visible, and the number of main people in the image is 1.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00029",
+      "statement": "At frame 104, Person A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00033",
+      "statement": "At frame 104, the Gray overcast sky is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00037",
+      "statement": "At frame 104, the Cluster of city buildings is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00041",
+      "statement": "At frame 104, the Thin line pulled by the person is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00004",
+      "statement": "At frame 0, Person A wears a red-and-blue skintight suit with the head covered, both arms raised, one knee lifted, and the other leg extended downward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00005",
+      "statement": "At frame 0, Person A wears a red-and-blue skintight suit with the head covered, both arms raised, one knee lifted, and the other leg extended downward; the head is red, the legs are predominantly blue, and the lifted knee protrudes toward image-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00008",
+      "statement": "At frame 0, the Gray overcast sky: the sky is gray, and clouds cover the visible sky area.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00009",
+      "statement": "At frame 0, the Gray overcast sky: the sky is gray, and clouds cover the visible sky area; light and dark cloud masses alternate, with darker gray masses interspersed among light-gray cloud layers and soft boundaries.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00012",
+      "statement": "At frame 0, the Cluster of city buildings: on the left and right are high-rises with bands of glass windows and gray-brown and reddish-brown buildings.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00013",
+      "statement": "At frame 0, the Cluster of city buildings: on the left and right are high-rises with bands of glass windows and gray-brown and reddish-brown buildings; the building on the left has dark horizontal bands, orderly rectangular reflective windows, and arched entrances at the bottom; the exterior wall of the nearby building on the right is mottled, its openings vary in brightness, and the high-rise behind it has densely arranged square windows.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00016",
+      "statement": "At frame 0, the City street is a long, narrow gray road surface extending from the lower center of the image into the distance between the buildings and gradually narrowing in perspective.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00017",
+      "statement": "At frame 0, the City street is a long, narrow gray road surface extending from the lower center of the image into the distance between the buildings and gradually narrowing in perspective; the curbs on both sides converge with depth, part of the nearby road surface is occluded by tree crowns, and the distant section remains visible within the narrow area between the buildings.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00020",
+      "statement": "At frame 0, the Neighborhood trees: the trees have contiguous green and yellow-green crowns.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00021",
+      "statement": "At frame 0, the Neighborhood trees: the trees have contiguous green and yellow-green crowns; the crown outlines are rounded and irregular, clusters of leaves in different shades are visible, and the nearby crowns are larger.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00024",
+      "statement": "At frame 0, the Street vehicles: multiple cars have small rectangular outlines and light- and dark-colored bodies.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00025",
+      "statement": "At frame 0, the Street vehicles: multiple cars have small rectangular outlines and light- and dark-colored bodies; roof shapes in different light and dark shades are discernible, and the vehicles are arranged one behind another on the road.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00030",
+      "statement": "At frame 104, Person A forms a dark, compact, curved human-shaped silhouette, with the arms extending toward the top of the image and the legs lifted close to the torso.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00031",
+      "statement": "At frame 104, Person A forms a dark, compact, curved human-shaped silhouette, with the arms extending toward the top of the image and the legs lifted close to the torso; a narrow gap of sky remains between the arms, and the lower-body outline is relatively rounded.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00034",
+      "statement": "At frame 104, the Gray overcast sky is gray to blue-gray overall, with large gray cloud layers covering most of the visible sky.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00035",
+      "statement": "At frame 104, the Gray overcast sky is gray to blue-gray overall, with large gray cloud layers covering most of the visible sky; light and dark cloud layers alternate, with dark-gray masses interspersed among lighter cloud layers, soft boundaries, and a lighter blue-gray base color showing through locally.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00038",
+      "statement": "At frame 104, partial views of two multistory buildings in the Cluster of city buildings are visible: the building along the top edge has a gray-black gridded-window facade, while the building on the right is dark reddish-brown; both extend diagonally into the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00039",
+      "statement": "At frame 104, partial views of two multistory buildings in the Cluster of city buildings are visible: the building along the top edge has a gray-black gridded-window facade, while the building on the right is dark reddish-brown; both extend diagonally into the image. The building along the top edge has densely arranged dark horizontal and vertical window frames, while the building facade on the right has multiple rows of light-colored rectangular windows and darker openings.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00042",
+      "statement": "At frame 104, the Thin line pulled by the person is slender and linear, located above Person A, and extends diagonally toward the upper right of the image and out of frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e009",
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00043",
+      "statement": "At frame 104, the Thin line pulled by the person is slender and linear, located above Person A, and extends diagonally toward the upper right of the image and out of frame; discernible portions appear as a thin gray line with locally bright whitish segments, some sections are relatively faint, and the off-screen endpoint is not visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e009",
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00012",
+      "statement": "At frame 0, Person A is airborne in the middle of the image, between the buildings on the left and right and above the City street surface and the crowns of the nearby Neighborhood trees.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004",
+        "video48_e005",
+        "video48_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00013",
+      "statement": "At frame 0, the Gray overcast sky is distributed above the Cluster of city buildings in the image and in the gaps between the buildings, behind the buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e002",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00014",
+      "statement": "At frame 0, the Cluster of city buildings is arrayed on the left and right of the image, while the City street extends in an approximately straight line from the lower center of the image into the distance; the curbs on both sides converge with depth in the image, and part of the nearby road surface is occluded by the Neighborhood trees.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e004",
+        "video48_e005",
+        "video48_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00015",
+      "statement": "At frame 0, the Neighborhood trees are distributed on both sides of the road in the lower part of the image and in open spaces between the buildings, with nearby tree crowns occupying the area slightly right of center in the lower part.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e006",
+        "video48_e005",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00016",
+      "statement": "At frame 0, multiple Street vehicles are distributed over the visible road surface of the City street, arranged one behind another along the road's depth.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e007",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00006",
+      "statement": "At frame 0, Person A is located at the center of the image, between the buildings on both sides and above the crowns of the Neighborhood trees.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004",
+        "video48_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00010",
+      "statement": "At frame 0, the Gray overcast sky is located above the Cluster of city buildings in the image and in the gaps between the buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e002",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00014",
+      "statement": "At frame 0, the Cluster of city buildings leaves a street gap in the middle that extends into the distance.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00018",
+      "statement": "At frame 0, the City street is below Person A and between the buildings on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e005",
+        "video48_e001",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00022",
+      "statement": "At frame 0, the Neighborhood trees are distributed on both sides of the road in the lower part of the image and in open spaces between the buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e006",
+        "video48_e005",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00026",
+      "statement": "At frame 0, the Street vehicles are distributed over the visible road surface of the City street.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e007",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00018",
+      "statement": "At frame 104, Person A is airborne in the middle of the image, in front of the Gray overcast sky and within the gap between the nearby buildings along the top edge and on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e002",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00019",
+      "statement": "At frame 104, the Gray overcast sky occupies most of the image, while the visible portions of two nearby buildings extend into the image from the top edge and the right, respectively, enclosing a central gap of sky.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e002",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_restore00020",
+      "statement": "At frame 104, the visible portion of the Thin line pulled by the person is in the sky area above Person A and extends toward the top edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e009",
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00032",
+      "statement": "At frame 104, Person A is at the center of the image, in front of the Gray overcast sky and within the visible gap between two nearby buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e002",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00036",
+      "statement": "At frame 104, the Gray overcast sky occupies the main part of the image, extending between the corners of the buildings along the top edge and on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e002",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00044",
+      "statement": "At frame 104, the visible portion of the Thin line pulled by the person is in the sky area above Person A and extends toward the top edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e009",
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_r00001",
+      "statement": "At frame 0, the camera is above the City street and the crowns of the Neighborhood trees, and below the tops of the high-rises on both sides.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e004",
+        "video48_e005",
+        "video48_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00001",
+      "statement": "At frame 0, the camera is above the City street and the crowns of the Neighborhood trees, and below the tops of the high-rises on both sides.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e004",
+        "video48_e005",
+        "video48_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_r00027",
+      "statement": "At frame 104, the camera is between two nearby buildings, with the viewpoint below the airborne Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        95,
+        103,
+        104
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00027",
+      "statement": "At frame 104, the camera is between two nearby buildings, with the viewpoint below the airborne Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        95,
+        103,
+        104
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_r00002",
+      "statement": "At frame 0, the camera faces the airborne Person A between the two buildings and the City street below Person A.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00002",
+      "statement": "At frame 0, the camera faces the airborne Person A between the two buildings and the City street below Person A.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_r00028",
+      "statement": "At frame 104, the camera looks steeply upward at Person A in the sky, while the corners of nearby buildings extend into the image along the top edge and from the right.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00028",
+      "statement": "At frame 104, the camera looks steeply upward at Person A in the sky, while the corners of nearby buildings extend into the image along the top edge and from the right.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 104,
+      "end_frame": 104,
+      "evidence_frames": [
+        104
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_r00045",
+      "statement": "From frames 0 to 54, relative to its initial orientation at frame 0, the camera moves forward and descends along the street between the buildings.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 54,
+      "evidence_frames": [
+        0,
+        27,
+        43,
+        53,
+        54
+      ],
+      "subject_ids": [
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00045",
+      "statement": "From frames 0 to 54, relative to its initial orientation at frame 0, the camera moves forward and descends along the street between the buildings.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 54,
+      "evidence_frames": [
+        0,
+        27,
+        43,
+        53,
+        54
+      ],
+      "subject_ids": [
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_r00046",
+      "statement": "From frames 54 to 104, relative to its orientation at frame 54, the camera continuously tilts upward, with the field of view gradually shifting from the street between the buildings to the sky and partial views of nearby buildings moving to the edges of the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 54,
+      "end_frame": 104,
+      "evidence_frames": [
+        53,
+        54,
+        55,
+        65,
+        74,
+        79,
+        95,
+        104
+      ],
+      "subject_ids": [
+        "video48_e004",
+        "video48_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00046",
+      "statement": "From frames 54 to 104, relative to its orientation at frame 54, the camera continuously tilts upward, with the field of view gradually shifting from the street between the buildings to the sky and partial views of nearby buildings moving to the edges of the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 54,
+      "end_frame": 104,
+      "evidence_frames": [
+        53,
+        54,
+        55,
+        65,
+        74,
+        79,
+        95,
+        104
+      ],
+      "subject_ids": [
+        "video48_e004",
+        "video48_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_a035",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 104,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59,
+        60,
+        71,
+        72,
+        83,
+        84,
+        95,
+        96,
+        104
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video48_cp003_a035",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 104,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59,
+        60,
+        71,
+        72,
+        83,
+        84,
+        95,
+        96,
+        104
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video48_cp003_r00047",
+      "statement": "From frames 0 to 44, Person A generally moves forward and descends above the City street between the buildings, approaching the low point of the swinging path near the end of this interval.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        1,
+        27,
+        43,
+        44,
+        45
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00047",
+      "statement": "From frames 0 to 44, Person A generally moves forward and descends above the City street between the buildings, approaching the low point of the swinging path near the end of this interval.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        1,
+        27,
+        43,
+        44,
+        45
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_r00048",
+      "statement": "From frames 45 to 104, Person A continues swinging forward above the street, with the path gradually curving upward; in the later portion, Person A's image projection enters the sky area above the distant rooftop outlines.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 45,
+      "end_frame": 104,
+      "evidence_frames": [
+        44,
+        45,
+        46,
+        54,
+        65,
+        74,
+        79,
+        95,
+        104
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00048",
+      "statement": "From frames 45 to 104, Person A continues swinging forward above the street, with the path gradually curving upward; in the later portion, Person A's image projection enters the sky area above the distant rooftop outlines.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 45,
+      "end_frame": 104,
+      "evidence_frames": [
+        44,
+        45,
+        46,
+        54,
+        65,
+        74,
+        79,
+        95,
+        104
+      ],
+      "subject_ids": [
+        "video48_e001",
+        "video48_e004",
+        "video48_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video48_cp003_r00049",
+      "statement": "From frames 45 to 104, Person A changes leg posture while keeping the arms raised: first bending the knees and lifting the legs, with one leg extending upward during this interval; near the end, the image projection of the extended leg shortens, and the body shape becomes more compact.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 45,
+      "end_frame": 104,
+      "evidence_frames": [
+        43,
+        44,
+        45,
+        46,
+        54,
+        64,
+        65,
+        66,
+        73,
+        74,
+        75,
+        78,
+        79,
+        80,
+        95,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video48_cp003_r00049",
+      "statement": "From frames 45 to 104, Person A changes leg posture while keeping the arms raised: first bending the knees and lifting the legs, with one leg extending upward during this interval; near the end, the image projection of the extended leg shortens, and the body shape becomes more compact.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 45,
+      "end_frame": 104,
+      "evidence_frames": [
+        43,
+        44,
+        45,
+        46,
+        54,
+        64,
+        65,
+        66,
+        73,
+        74,
+        75,
+        78,
+        79,
+        80,
+        95,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "subject_ids": [
+        "video48_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    104
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "1058a2863f20df6d1094b9a034237c596430fceb87ef7bb539c855d2b98b8fbf"
+}

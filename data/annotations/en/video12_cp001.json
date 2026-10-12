@@ -1,0 +1,648 @@
+{
+  "clip_id": "video12_cp001",
+  "video_id": "video12",
+  "fps": 29.97002997002997,
+  "start_frame": 0,
+  "end_frame": 50,
+  "source_frame_offset": 0,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video12_e001",
+      "name": "teal stadium seating",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A large expanse of teal seats arranged in stepped tiers, divided into sections by gray passageways, with light-colored side walls and railings visible in places."
+    },
+    {
+      "source_entity_id": "video12_e002",
+      "name": "stadium roof and trusses",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The canopy edge and light-colored beams partially visible along the upper edge of the opening image; the complete roof outline is cropped out."
+    },
+    {
+      "source_entity_id": "video12_e019",
+      "name": "illuminated direction marker",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A set of strip-shaped and angled illuminated markers near the route through the stands; in the final frame, the two bright foreground shapes are pink-purple and yellow-orange, respectively."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video12_cp001_restore00008",
+      "statement": "In frame 0, a seating area in the stands composed of teal stadium seating is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a009",
+      "statement": "In frame 0, teal stadium seating is visible in the middle-lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a012",
+      "statement": "In frame 0, only part of the canopy edge and beam structure of the stadium roof and trusses enters the upper edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        6
+      ],
+      "subject_ids": [
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_restore00011",
+      "statement": "In frame 50, a seating area in the stands composed of teal stadium seating is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_restore00012",
+      "statement": "In frame 50, there are two corresponding foreground route markers.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        47,
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video12_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a019",
+      "statement": "In frame 50, teal stadium seating is visible from the center to the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_r00003",
+      "statement": "In frame 50, illuminated direction markers are visible right of center and at the lower right of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        47,
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video12_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a010",
+      "statement": "In frame 0, the teal stadium seating is arranged across a large area in stepped tiers and is separated by gray passageways.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a011",
+      "statement": "In frame 0, the teal stadium seating forms dense rows across a large area in stepped tiers and is divided into sections by gray passageways; bands of repeated seating rows are discernible within each section, while the side edges of the passageways and the entrance side walls are a brighter, light color.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a013",
+      "statement": "In frame 0, the stadium roof and trusses are only partially visible, appearing as a light-gray edge, light-colored beams, and darker undersides between them; the complete canopy outline is cropped by the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a014",
+      "statement": "In frame 0, only part of the stadium roof and trusses enters the upper edge of the image, with a light-gray edge, light-colored beams, and darker undersides between them visible; some beams are distributed in nearly vertical or diagonal orientations, and the complete canopy outline is cropped out.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a020",
+      "statement": "In frame 50, the teal stadium seating is arranged across a large area in stepped tiers and is separated by gray passageways.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a021",
+      "statement": "In frame 50, the teal stadium seating forms dense rows across a large area in stepped tiers and is divided into sections by gray stepped passageways; repeated seat-back outlines, dark gaps between rows, thin light-colored railings on both sides of the passageways, and a light-colored low wall along the upper edge of the stands are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_r00004",
+      "statement": "In frame 50, the two foreground illuminated direction markers are pink-purple and yellow-orange, respectively, and are composed of short strip-shaped or angled bright forms.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_r00005",
+      "statement": "In frame 50, the two foreground illuminated direction markers are pink-purple and yellow-orange, respectively, and overall consist of short strip-shaped or angled bright forms; adjacent short bright strips are discernible in the pink-purple bright form, while the yellow-orange bright form has an angled outline. Both have partially white, highly luminous cores, are surrounded by halos of the same color, and have edges affected by motion blur.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_restore00010",
+      "statement": "In frame 0, the seating area in the stands occupies the middle-lower part of the image. The section-dividing passageways extend from nearby in the lower part of the image toward the distant upper part and ascend along the stands, with seats distributed on both sides of the passageways; at their upper ends, the passageways connect to a horizontal circulation area that extends toward image-left and image-right along the upper edge of the seating area.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a018",
+      "statement": "In frame 0, the teal stadium seating occupies the middle-lower part of the image, while the partially visible edge and beams of the stadium roof and trusses are above it along the upper edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_restore00014",
+      "statement": "In frame 50, the seating area in the stands occupies the center to the lower part of the image. A section-dividing passageway extends from the near lower right toward the distant upper left of the image, with seats distributed on both sides of the passageway; the two foreground route markers are projected right of center over the seating area and at the lower-right edge of the image, respectively.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_r00002",
+      "statement": "In frame 50, the teal stadium seating occupies the center to the lower part of the image; the two foreground illuminated direction markers are projected right of center over the seating area and at the lower-right edge of the image, respectively.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_a004",
+      "statement": "In frame 0, the camera is above the inner side of the stands, with the teal stadium seating ahead and below, lower than the stadium roof and trusses partially visible along the upper edge of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        6
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a004",
+      "statement": "In frame 0, the camera is above the inner side of the stands, with the teal stadium seating ahead and below, lower than the stadium roof and trusses partially visible along the upper edge of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        6
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_a006",
+      "statement": "In frame 50, the camera is above the teal stadium seating, has approached the upper edge of the stands and the passageway on the right, and can look down on the seating and the section-dividing steps.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a006",
+      "statement": "In frame 50, the camera is above the teal stadium seating, has approached the upper edge of the stands and the passageway on the right, and can look down on the seating and the section-dividing steps.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_a005",
+      "statement": "In frame 0, the camera faces the tiered teal stadium seating ahead and the horizontal circulation level between the tiers.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a005",
+      "statement": "In frame 0, the camera faces the tiered teal stadium seating ahead and the horizontal circulation level between the tiers.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_r00001",
+      "statement": "In frame 50, the camera faces the rows of seats extending diagonally ahead and the illuminated direction marker at the lower right.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_r00001",
+      "statement": "In frame 50, the camera faces the rows of seats extending diagonally ahead and the illuminated direction marker at the lower right.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 50,
+      "end_frame": 50,
+      "evidence_frames": [
+        50
+      ],
+      "subject_ids": [
+        "video12_e001",
+        "video12_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_a001",
+      "statement": "From frames 0 through 50, the camera generally moves forward toward the teal stadium seating and rises as it sweeps toward a higher area of the stands, approaching the upper edge of the stands and the passageway on the right during the later portion.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 50,
+      "evidence_frames": [
+        0,
+        12,
+        18,
+        24,
+        25,
+        26,
+        35,
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a001",
+      "statement": "From frames 0 through 50, the camera generally moves forward toward the teal stadium seating and rises as it sweeps toward a higher area of the stands, approaching the upper edge of the stands and the passageway on the right during the later portion.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 50,
+      "evidence_frames": [
+        0,
+        12,
+        18,
+        24,
+        25,
+        26,
+        35,
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_a002",
+      "statement": "From frames 0 through 50, as the camera approaches the stands, it generally turns to the right and makes roll adjustments, overall developing a clockwise tilt during the middle and later portions.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 50,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        18,
+        25,
+        35,
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video12_cp001_a002",
+      "statement": "From frames 0 through 50, as the camera approaches the stands, it generally turns to the right and makes roll adjustments, overall developing a clockwise tilt during the middle and later portions.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 50,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        18,
+        25,
+        35,
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video12_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video12_cp001_a008",
+      "statement": "Frames 0 through 50 are a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 50,
+      "evidence_frames": [
+        0,
+        12,
+        25,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        49,
+        50
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video12_cp001_a008",
+      "statement": "Frames 0 through 50 are a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 50,
+      "evidence_frames": [
+        0,
+        12,
+        25,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        49,
+        50
+      ],
+      "subject_ids": []
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    50
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "71c04f3f2ed1afbe26bd698d34e96463cfb3273d5b7bfe56a8e8ba5410cbe783"
+}

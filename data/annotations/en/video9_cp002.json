@@ -1,0 +1,2217 @@
+{
+  "clip_id": "video9_cp002",
+  "video_id": "video9",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 23,
+  "source_frame_offset": 38,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video9_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The man in the center with a small mustache and side-parted brown hair, wearing a dark purple tailcoat, white shirt, black bow tie, light gray waistcoat, and trousers, and holding an open small booklet."
+    },
+    {
+      "source_entity_id": "video9_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The young man closely following at the image-right rear of Person A, wearing a dark purple stand-collar uniform and a cylindrical hat of the same color."
+    },
+    {
+      "source_entity_id": "video9_e004",
+      "name": "red patterned carpet",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The red and light pink carpeting in the lobby passage and seating area, with light-colored borders and repeating patterns."
+    },
+    {
+      "source_entity_id": "video9_e005",
+      "name": "large potted palm",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The group of tall plants on the left side of the lobby, with dark green, outward-spreading pinnate leaves."
+    },
+    {
+      "source_entity_id": "video9_e008",
+      "name": "Person C",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The man initially on the left side of Person A, with longer dark hair, wearing a dark long coat and holding a small light-colored rectangular object."
+    },
+    {
+      "source_entity_id": "video9_e009",
+      "name": "Person E",
+      "numbered": true,
+      "first_appearance_frame": 9,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "The man holding an ivory-white bouquet on the left side of the image, wearing a long purple uniform and a dark tall hat, with bright-colored buttons on his chest."
+    },
+    {
+      "source_entity_id": "video9_e020",
+      "name": "cream-pink wall and arched niche",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light warm-colored walls on the right side and in the depth of the lobby, with rectangular sections, light-colored borders, and arched areas."
+    },
+    {
+      "source_entity_id": "video9_e021",
+      "name": "golden-brown stone-faced column",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The tall golden-brown column on the left side of the passage, with light and dark surface textures, vertical dividing lines, and a dark base."
+    },
+    {
+      "source_entity_id": "video9_e022",
+      "name": "warm-white globe lights and wall lights",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The groups of warm-white globe lights hanging above the lobby, as well as the light fixtures on the walls and along the arch edges."
+    },
+    {
+      "source_entity_id": "video9_e023",
+      "name": "wood-framed upholstered chair in the lobby",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The groups of dark wood-framed armchairs in the seating area on the right, with light beige to brown upholstery."
+    },
+    {
+      "source_entity_id": "video9_e024",
+      "name": "small round table in the lobby",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The small dark round tables in front of or between the seats on the right, with cups and saucers on the tabletops."
+    },
+    {
+      "source_entity_id": "video9_e025",
+      "name": "guests and staff in the background",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The group of people standing or seated in the distance and on the right side of the lobby, excluding Person A, Person B, Person C, and Person E."
+    },
+    {
+      "source_entity_id": "video9_e028",
+      "name": "metallic round flowerpot",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The cylindrical container beneath the palm, brown-and-gold in color and with glossy reflections."
+    },
+    {
+      "source_entity_id": "video9_e029",
+      "name": "light-colored bouquet held by the attendant",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The bouquet held in front of Person E's chest, composed of ivory-white flowers and dark green leaves."
+    },
+    {
+      "source_entity_id": "video9_e034",
+      "name": "light-colored ceiling",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light warm-colored ceiling above the lobby, with flat panels, rectangular sections, and decorative lines along the edges."
+    },
+    {
+      "source_entity_id": "video9_e035",
+      "name": "geometric-patterned floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The flooring area exposed beyond the edge of the red carpet, with a light-colored base and dark repeating geometric patterns."
+    },
+    {
+      "source_entity_id": "video9_e038",
+      "name": "cups and saucers on the tabletop",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light-colored cups and saucers and small glossy reflective vessels on the small round table on the right."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video9_cp002_restore00009",
+      "statement": "At frame 0, one each of Person A, Person B, and Person C is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a003",
+      "statement": "At frame 0, Person A, Person B, and Person C are visible in the foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00004",
+      "statement": "At frame 0, the cream-pink wall and arched niche are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00005",
+      "statement": "At frame 0, the golden-brown stone-faced column is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00006",
+      "statement": "At frame 0, the warm-white globe lights and wall lights are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00007",
+      "statement": "At frame 0, the light-colored ceiling is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00008",
+      "statement": "At frame 0, the red patterned carpet is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00009",
+      "statement": "At frame 0, the geometric-patterned floor is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00010",
+      "statement": "At frame 0, the large potted palm is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00012",
+      "statement": "At frame 0, the wood-framed upholstered chair in the lobby is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00013",
+      "statement": "At frame 0, the small round table in the lobby is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00014",
+      "statement": "At frame 0, guests and staff in the background are visible in the image, with some standing and some seated.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00015",
+      "statement": "At frame 0, the cups and saucers on the tabletop are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e038"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00019",
+      "statement": "At frame 23, one each of Person A, Person B, Person C, and Person E is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e008",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a013",
+      "statement": "At frame 23, Person A, Person B, and Person E are visible in the foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00016",
+      "statement": "At frame 23, the cream-pink wall and arched niche are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00017",
+      "statement": "At frame 23, the golden-brown stone-faced column is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00018",
+      "statement": "At frame 23, the warm-white globe lights and wall lights are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00019",
+      "statement": "At frame 23, the light-colored ceiling is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00020",
+      "statement": "At frame 23, the red patterned carpet is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00021",
+      "statement": "At frame 23, the geometric-patterned floor is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00022",
+      "statement": "At frame 23, the large potted palm is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00023",
+      "statement": "At frame 23, the metallic round flowerpot is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video9_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00024",
+      "statement": "At frame 23, the wood-framed upholstered chair in the lobby is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00025",
+      "statement": "At frame 23, the small round table in the lobby is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00026",
+      "statement": "At frame 23, guests and staff in the background are visible in the image, with some standing and some seated.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00027",
+      "statement": "At frame 23, the cups and saucers on the tabletop are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e038"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00028",
+      "statement": "At frame 23, the light-colored bouquet held by the attendant is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a004",
+      "statement": "At frame 0, Person A has a small mustache, wears a dark purple tailcoat, white shirt, black bow tie, light gray waistcoat, and trousers, and holds a small booklet with light-colored inner pages; Person B wears a dark purple stand-collar uniform and a cylindrical hat of the same color; Person C has longer dark hair and wears a dark long coat.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a005",
+      "statement": "At frame 0, Person A has side-parted brown hair and a thin small mustache, wears a dark purple tailcoat with narrow reddish edging, a pointed-collar white shirt, black bow tie, light gray waistcoat, and trousers, has a small light and bright-colored emblem ornament on the lapel, holds a small booklet with a dark cover and light-colored inner pages, and holds a thin pen in the right hand; Person B wears a dark purple stand-collar uniform and a straight-sided cylindrical hat of the same color, with a small light-colored marking on the side of the hat, and long sleeves and light-colored cuffs are exposed; Person C has longer dark hair combed backward, wears a dark long coat with lapels, and holds a small light-colored rectangular object.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00029",
+      "statement": "At frame 0, the cream-pink wall and arched niche are light and warm-colored, and the wall is divided into rectangular and curved areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00030",
+      "statement": "At frame 0, the golden-brown stone-faced column is tall, with a golden-yellow and brown surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00031",
+      "statement": "At frame 0, the warm-white globe lights and wall lights include groups of hanging spherical lampshades and fixtures on the walls and along the arch edges; they emit warm-white light and are distributed above the lobby and along the arch edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00032",
+      "statement": "At frame 0, the light-colored ceiling has flat, light warm-colored panels with rectangular sections and covers the area above the lobby.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00033",
+      "statement": "At frame 0, the red patterned carpet has a red base, a light pink rectangular area, and light-colored borders.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00034",
+      "statement": "At frame 0, the geometric-patterned floor consists of a light-colored base and dark repeating patterns.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00035",
+      "statement": "At frame 0, the large potted palm has dark green, outward-spreading pinnate leaves.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00037",
+      "statement": "At frame 0, the wood-framed upholstered chair in the lobby has a dark wood frame and light-colored upholstery.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00038",
+      "statement": "At frame 0, the small round table in the lobby has a dark circular tabletop.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00039",
+      "statement": "At frame 0, adults wearing dark clothing are visible among the guests and staff in the background.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00040",
+      "statement": "At frame 0, the cups and saucers on the tabletop are small and are light-colored and metallic reflective colors.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e038"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00041",
+      "statement": "At frame 0, the cream-pink wall and arched niche are light and warm-colored, and the wall is divided into rectangular and curved areas; a light-colored border surrounds the niche, and thin decorative lines divide the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00042",
+      "statement": "At frame 0, the golden-brown stone-faced column is tall, with a golden-yellow and brown surface; the stone facing has irregular light and dark textures, and vertical dark lines divide the facing.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00043",
+      "statement": "At frame 0, the warm-white globe lights and wall lights emit warm-white light, and the groups of lights are distributed above and along the arch edges; spherical lampshades hang at different heights, and small light bulbs are arranged along the arch edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00044",
+      "statement": "At frame 0, the light-colored ceiling has flat, light warm-colored panels and covers the area above the lobby; straight borders delineate rectangular sections, and the edges have layered decorative lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00045",
+      "statement": "At frame 0, the red patterned carpet has a red base, a light pink rectangular area, and light-colored borders; the light pink area contains rows of short horizontal patterns, and the red edges have repeating fine patterns.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00046",
+      "statement": "At frame 0, the geometric-patterned floor consists of a light-colored base and dark repeating patterns; the patterns form continuously arranged grids and small curved motifs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00047",
+      "statement": "At frame 0, the large potted palm has dark green, outward-spreading pinnate leaves; narrow, elongated leaflets are densely arranged on both sides of the leaf axes, and the leaves overlap and cross.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00049",
+      "statement": "At frame 0, the wood-framed upholstered chair in the lobby has a dark wood frame and light-colored upholstery; the edges of the backrest and armrests are slightly curved, and some slender chair legs are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00050",
+      "statement": "At frame 0, the small round table in the lobby has a dark circular tabletop that appears as a flattened oval in perspective, with a relatively thin edge, and part of the tabletop is occluded by the cups and saucers.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00051",
+      "statement": "At frame 0, adults wearing dark clothing are visible among the guests and staff in the background; those visible are mainly distributed in the distant passage and on the right side of the image, and some wear white shirts with dark coats.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00052",
+      "statement": "At frame 0, the cups and saucers on the tabletop are small and are light-colored and metallic reflective colors; the outline of a small light-colored cup, the edge of a flat round light-colored saucer, and a small glossy vessel are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e038"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a014",
+      "statement": "At frame 23, Person A has a small mustache, wears a dark purple tailcoat, white shirt, black bow tie, light gray waistcoat, and trousers, and holds a small booklet with light-colored inner pages; Person B wears a dark purple stand-collar uniform and a cylindrical hat of the same color; Person E wears a long purple uniform and a dark tall hat and holds a light-colored bouquet in front of the chest.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a015",
+      "statement": "At frame 23, Person A has side-parted brown hair and a thin small mustache, wears a dark purple tailcoat with narrow reddish edging, a pointed-collar white shirt, black bow tie, light gray waistcoat, and trousers, has a small light and bright-colored emblem ornament on the lapel, and holds in the left hand a small booklet with a dark exterior and light-colored inner pages; Person B wears a dark purple stand-collar uniform and a straight-sided cylindrical hat of the same color, with two rows of light golden text visible on the front of the hat, and light-colored shirt sleeves are exposed at the cuffs; Person E wears a long purple uniform with a long, straight lower hem and bright-colored buttons on the chest, wears a dark tall hat with a decorative hatband, and holds a bouquet composed of ivory-white flowers and dark green leaves.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00053",
+      "statement": "At frame 23, the cream-pink wall and arched niche are light and warm-colored, and the wall is divided into rectangular and curved areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00054",
+      "statement": "At frame 23, the golden-brown stone-faced column is tall, with a golden-yellow and brown surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00055",
+      "statement": "At frame 23, the warm-white globe lights and wall lights include groups of hanging spherical lampshades and fixtures on the walls and along the arch edges; they emit warm-white light and are distributed above the lobby and along the arch edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00056",
+      "statement": "At frame 23, the light-colored ceiling has flat, light warm-colored panels with rectangular sections and covers the area above the lobby.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00057",
+      "statement": "At frame 23, the red patterned carpet has a red base, light-colored flower-like patterns, and borders, with another light pink rectangular area in the background.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00058",
+      "statement": "At frame 23, the geometric-patterned floor consists of a light-colored base and dark repeating patterns.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00059",
+      "statement": "At frame 23, the large potted palm has dark green, outward-spreading pinnate leaves.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00060",
+      "statement": "At frame 23, the metallic round flowerpot is brown-and-gold and cylindrical.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00061",
+      "statement": "At frame 23, the wood-framed upholstered chair in the lobby has a dark wood frame and light beige to brown upholstery.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00062",
+      "statement": "At frame 23, the small round table in the lobby has a dark circular tabletop.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00063",
+      "statement": "At frame 23, adults wearing dark clothing are visible among the guests and staff in the background.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00064",
+      "statement": "At frame 23, the cups and saucers on the tabletop are small and are light-colored and metallic reflective colors.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e038"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00065",
+      "statement": "At frame 23, the light-colored bouquet held by the attendant consists of clustered ivory-white flowers and dark green leaves.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00066",
+      "statement": "At frame 23, the cream-pink wall and arched niche are light and warm-colored, and the wall is divided into rectangular and curved areas; a light-colored border surrounds the niche, and thin decorative lines divide the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00067",
+      "statement": "At frame 23, the golden-brown stone-faced column is tall, with a golden-yellow and brown surface; the stone facing has irregular light and dark textures, and vertical dark lines divide the facing.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00068",
+      "statement": "At frame 23, the warm-white globe lights and wall lights emit warm-white light, and the groups of lights are distributed above and along the arch edges; spherical lampshades hang at different heights, and small light bulbs are arranged along the arch edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00069",
+      "statement": "At frame 23, the light-colored ceiling has flat, light warm-colored panels and covers the area above the lobby; straight borders delineate rectangular sections, and the edges have layered decorative lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e034"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00070",
+      "statement": "At frame 23, the red patterned carpet has a red base, light-colored flower-like patterns, and borders, with another light pink rectangular area in the background; rows of short horizontal patterns are visible in the light pink area, the red carpet borders contain repeating fine patterns, and the light-colored flower-like patterns in the foreground are clustered.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00071",
+      "statement": "At frame 23, the geometric-patterned floor consists of a light-colored base and dark repeating patterns; the patterns form continuously arranged grids and small curved motifs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e035"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00072",
+      "statement": "At frame 23, the large potted palm has dark green, outward-spreading pinnate leaves; narrow, elongated leaflets are densely arranged on both sides of the leaf axes, and the leaves overlap and cross.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00073",
+      "statement": "At frame 23, the metallic round flowerpot is brown-and-gold and cylindrical, with light-colored reflections on the pot wall; a horizontal border line is visible on the portion of the pot wall exposed in the lower-left corner, and the pot opening is partially occluded by the foliage and people.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video9_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00074",
+      "statement": "At frame 23, the wood-framed upholstered chair in the lobby has a dark wood frame and light beige to brown upholstery; the edges of the backrest and armrests are slightly curved, and some slender chair legs are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00075",
+      "statement": "At frame 23, the small round table in the lobby has a dark circular tabletop that appears as a flattened oval in perspective, with a relatively thin edge, and part of the tabletop is occluded by the cups and saucers and people.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00076",
+      "statement": "At frame 23, adults wearing dark clothing are visible among the guests and staff in the background; those visible are mainly distributed in the distant passage and on the right side of the image, and some wear white shirts with dark coats.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00077",
+      "statement": "At frame 23, the cups and saucers on the tabletop are small and are light-colored and metallic reflective colors; the outline of a small light-colored cup, the edge of a flat round light-colored saucer, and a small glossy vessel are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e038"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00078",
+      "statement": "At frame 23, the light-colored bouquet held by the attendant consists of clustered ivory-white flowers and dark green leaves; the light-colored, rounded clusters of flower heads press against one another, and the surrounding leaves form a dark outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e029"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00010",
+      "statement": "At frame 0, Person A is in the central foreground of the image, Person C is immediately adjacent on the image-left side of Person A, and Person B is at the image-right rear of Person A and is partially occluded by Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00011",
+      "statement": "At frame 0, the cream-pink wall and arched niche are behind Person A, forming the spatial boundary on the right side of the image and in the depth of the lobby.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e020",
+        "video9_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00012",
+      "statement": "At frame 0, the golden-brown stone-faced columns are distributed on the left side of the image; the nearest column occupies the left foreground and occludes part of the space behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e021"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00013",
+      "statement": "At frame 0, the warm-white globe lights and wall lights are above and behind Person A and are distributed along the depth of the lobby.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e022",
+        "video9_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00014",
+      "statement": "At frame 0, the light-colored ceiling covers the area above Person A and the lobby passage.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e034",
+        "video9_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00015",
+      "statement": "At frame 0, the red patterned carpet covers the passage occupied by Person A and Person B, extending from the lower part of the image into the depth of the lobby; the geometric-patterned floor is visible beyond the carpet edges.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e004",
+        "video9_e035",
+        "video9_e001",
+        "video9_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00016",
+      "statement": "At frame 0, the large potted palm is behind Person C and beside the golden-brown stone-faced column, occupying the area at the side of the passage.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e005",
+        "video9_e008",
+        "video9_e021"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00017",
+      "statement": "At frame 0, the wood-framed upholstered chairs in the lobby are at the image-right rear of Person A, at the side of the passage; the small round tables in the lobby are in front of or between the seats, and the tables and chairs are placed on the red patterned carpet in the seating area.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e023",
+        "video9_e024",
+        "video9_e004",
+        "video9_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00018",
+      "statement": "At frame 0, one of the guests and staff in the background stands beside the passage on the right side of the image, while another is in the more distant table-and-chair area and is seated on a wood-framed upholstered chair in the lobby.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e025",
+        "video9_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a006",
+      "statement": "At frame 0, Person C is on the image-left side of Person A, and Person B is at the image-right rear of Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00079",
+      "statement": "At frame 0, the cream-pink wall and arched niche are behind Person A and Person B; the red patterned carpet covers the passage occupied by the two people and extends toward the background; the wood-framed upholstered chairs in the lobby are distributed beside the passage, and the small round tables in the lobby are in front of or between the seats.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e020",
+        "video9_e004",
+        "video9_e023",
+        "video9_e024"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00020",
+      "statement": "At frame 23, Person A is in the central foreground of the image, Person B is immediately adjacent at the image-right rear of Person A and is partially occluded by Person A, and Person C is at the image-left rear of Person A; Person E is in the image-left foreground of Person A, and Person A's head and raised right hand are directed toward Person E.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e008",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00021",
+      "statement": "At frame 23, the cream-pink wall and arched niche are behind Person A, forming the spatial boundary on the right side of the image and in the depth of the lobby.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e020",
+        "video9_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00022",
+      "statement": "At frame 23, the golden-brown stone-faced column is on the left side of the image; the foreground column is behind Person E and lies in the horizontal image area between Person E and Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e021",
+        "video9_e001",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00023",
+      "statement": "At frame 23, the warm-white globe lights and wall lights are above and behind Person A and are distributed along the depth of the lobby.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e022",
+        "video9_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00024",
+      "statement": "At frame 23, the light-colored ceiling covers the area above Person A and the lobby passage.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e034",
+        "video9_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00025",
+      "statement": "At frame 23, the red patterned carpet covers the passage occupied by Person A and Person B, extending from the lower part of the image into the depth of the lobby; the geometric-patterned floor is visible beyond the carpet edges.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e004",
+        "video9_e035",
+        "video9_e001",
+        "video9_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00026",
+      "statement": "At frame 23, large potted palms are located behind Person E and Person C, respectively; the metallic round flowerpot is visible beneath the midground palm, and the pot is placed on the carpeted area of the red patterned carpet.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video9_e005",
+        "video9_e028",
+        "video9_e004",
+        "video9_e008",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00027",
+      "statement": "At frame 23, the wood-framed upholstered chairs in the lobby are at the image-right rear of Person A, at the side of the passage; the small round tables in the lobby are in front of or between the seats, and the tables and chairs are placed on the red patterned carpet in the seating area.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e023",
+        "video9_e024",
+        "video9_e004",
+        "video9_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00028",
+      "statement": "At frame 23, one of the guests and staff in the background stands beside the passage on the right side of the image, while another is in the table-and-chair area at the image-right rear of that person and is seated on a wood-framed upholstered chair in the lobby.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e025",
+        "video9_e023"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_restore00029",
+      "statement": "At frame 23, the light-colored bouquet held by the attendant is in front of Person E's chest and is in contact with Person E's hands holding the bouquet.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e029",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a016",
+      "statement": "At frame 23, Person E is on the image-left side of Person A, and Person B is at the image-right rear of Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00080",
+      "statement": "At frame 23, the cream-pink wall and arched niche are behind Person A and Person B; the red patterned carpet covers the passage occupied by the two people and extends toward the background; the wood-framed upholstered chairs in the lobby are distributed beside the passage, and the small round tables in the lobby are in front of or between the seats.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e020",
+        "video9_e004",
+        "video9_e023",
+        "video9_e024"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_r00002",
+      "statement": "At frame 0, the camera is in the passage with the red patterned carpet, in front of Person A and Person B, facing into the depth of the lobby.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e020",
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00002",
+      "statement": "At frame 0, the camera is in the passage with the red patterned carpet, in front of Person A and Person B, facing into the depth of the lobby.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e020",
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_r00003",
+      "statement": "At frame 23, the camera is in the passage with the red patterned carpet, in front of Person A and Person B, facing into the depth of the lobby.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e020",
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00003",
+      "statement": "At frame 23, the camera is in the passage with the red patterned carpet, in front of Person A and Person B, facing into the depth of the lobby.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e020",
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_a002",
+      "statement": "At frame 0, the camera is aimed primarily at Person A and Person B, whose upper bodies are in the middle of the image, with the indoor lobby behind them.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a002",
+      "statement": "At frame 0, the camera is aimed primarily at Person A and Person B, whose upper bodies are in the middle of the image, with the indoor lobby behind them.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_a012",
+      "statement": "At frame 23, the camera is aimed primarily at Person A and Person B, whose upper bodies are in the middle of the image, with the indoor lobby behind them.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a012",
+      "statement": "At frame 23, the camera is aimed primarily at Person A and Person B, whose upper bodies are in the middle of the image, with the indoor lobby behind them.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 23,
+      "end_frame": 23,
+      "evidence_frames": [
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_r00001",
+      "statement": "From frames 0 to 23, the camera translates backward along the lobby passage, with its height remaining basically stable, continuously tracking Person A and Person B from the front as they walk forward.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        5,
+        11,
+        18,
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e020",
+        "video9_e021",
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_r00001",
+      "statement": "From frames 0 to 23, the camera translates backward along the lobby passage, with its height remaining basically stable, continuously tracking Person A and Person B from the front as they walk forward.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        5,
+        11,
+        18,
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002",
+        "video9_e020",
+        "video9_e021",
+        "video9_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_a026",
+      "statement": "The number of shot cuts in this clip is 0.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        5,
+        11,
+        18,
+        23
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video9_cp002_a026",
+      "statement": "The number of shot cuts in this clip is 0.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        5,
+        11,
+        18,
+        23
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video9_cp002_a024",
+      "statement": "From frames 0 to 23, Person A and Person B walk toward the camera along the lengthwise passage with the red patterned carpet, gradually moving away from the arched wall and table-and-chair area behind them.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        5,
+        11,
+        18,
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a024",
+      "statement": "From frames 0 to 23, Person A and Person B walk toward the camera along the lengthwise passage with the red patterned carpet, gradually moving away from the arched wall and table-and-chair area behind them.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        5,
+        11,
+        18,
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video9_cp002_a025",
+      "statement": "From frames 4 to 23, Person A moves the right hand from beside the small booklet toward image-left and raises it, then extends the index finger; in the later portion, Person A turns the index finger toward Person E on image-left and still maintains the pointing gesture at frame 23.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 4,
+      "end_frame": 23,
+      "evidence_frames": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        12,
+        16,
+        17,
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video9_cp002_a025",
+      "statement": "From frames 4 to 23, Person A moves the right hand from beside the small booklet toward image-left and raises it, then extends the index finger; in the later portion, Person A turns the index finger toward Person E on image-left and still maintains the pointing gesture at frame 23.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 4,
+      "end_frame": 23,
+      "evidence_frames": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        12,
+        16,
+        17,
+        23
+      ],
+      "subject_ids": [
+        "video9_e001",
+        "video9_e009"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    23
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "502ce69aea91a9ac78b4a06f059f6d2d65ff8fef8eb727000a9191ea5852800b"
+}

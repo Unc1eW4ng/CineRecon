@@ -1,0 +1,915 @@
+{
+  "clip_id": "video43_cp001",
+  "video_id": "video43",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 18,
+  "source_frame_offset": 0,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video43_e001",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 4,
+      "identification": "A box-shaped van with a white roof and upper half, a yellow lower half, and a dark rectangular rear window."
+    },
+    {
+      "source_entity_id": "video43_e004",
+      "name": "Two-lane highway",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A straight, dark asphalt road with two lanes separated by a central dashed white line, a yellow edge line on the image-left, a white edge line on the image-right, and rumble strips on both sides."
+    },
+    {
+      "source_entity_id": "video43_e009",
+      "name": "Gravel and desert terrain on both sides of the highway",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The gray gravel strips outside the road shoulders, as well as the exposed yellowish-brown dry ground farther out."
+    },
+    {
+      "source_entity_id": "video43_e010",
+      "name": "Dry grass and shrubs on both sides of the highway",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "Groups of roadside vegetation composed of yellowish-brown dry grass and low green shrubs."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video43_cp001_restore00010",
+      "statement": "In frame 0, part of the roadside vegetation is visible at the upper-left edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00011",
+      "statement": "In frame 0, Vehicle A has not yet entered the image, and the number of vehicles in the image is 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00002",
+      "statement": "In frame 0, the Two-lane highway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00003",
+      "statement": "In frame 0, the Gravel and desert terrain on both sides of the highway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00004",
+      "statement": "In frame 0, dry grass is visible at the upper-left edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00012",
+      "statement": "In frame 5, part of 1 Vehicle A is visible near the image-right side of the bottom edge, while the rest is outside the bottom boundary of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 5,
+      "end_frame": 5,
+      "evidence_frames": [
+        4,
+        5,
+        6
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00013",
+      "statement": "In frame 18, there is 1 fully visible Vehicle A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00005",
+      "statement": "In frame 18, Vehicle A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00006",
+      "statement": "In frame 18, the Two-lane highway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00007",
+      "statement": "In frame 18, the Gravel and desert terrain on both sides of the highway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00008",
+      "statement": "In frame 18, the Dry grass and shrubs on both sides of the highway is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00009",
+      "statement": "In frame 0, the Two-lane highway is a straight, dark asphalt road; its near end spans the center of the bottom edge of the image, the two sides of the road converge from the lower-left and lower-right, respectively, toward the upper center, and its far end exits the image at the center of the top edge. There is a yellow edge line on the image-left, a white edge line on the image-right, and the two lanes are separated by a central dashed white line.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00010",
+      "statement": "In frame 0, the Gravel and desert terrain on both sides of the highway appears as gray gravel strips on the image-left and image-right sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00011",
+      "statement": "In frame 0, yellowish-brown dry grass is exposed at the upper-left edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00012",
+      "statement": "In frame 0, the Two-lane highway is a straight, dark asphalt road; its near end spans the center of the bottom edge of the image, the two sides of the road converge from the lower-left and lower-right, respectively, toward the upper center, and its far end exits the image at the center of the top edge. There is a yellow edge line on the image-left, a white edge line on the image-right, and the two lanes are separated by a central dashed white line. Light-colored cracks and transverse joints, faded irregular road-surface marks, and dense striped rumble strips outside the edge lines on both sides are also visible nearby.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00013",
+      "statement": "In frame 0, the Gravel and desert terrain on both sides of the highway appears as gray gravel strips on the image-left and image-right sides. The gravel strips have a coarse, mottled texture, and their boundary with the paved shoulders is slightly irregular.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00014",
+      "statement": "In frame 0, yellowish-brown dry grass is exposed at the upper-left edge of the image; the edge of the grass is finely fragmented and irregular, and the interior has alternating light and dark yellowish-brown textures.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_a013",
+      "statement": "In frame 18, Vehicle A is a box-shaped van with a white roof and upper half, a yellow lower half, and a dark rectangular rear window.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_a014",
+      "statement": "In frame 18, Vehicle A is a box-shaped van with a white roof and upper half, a yellow lower half, and a dark rectangular rear window. The roof corners are rounded, there is a light-colored body frame around the rear window, vertical dark-red taillights are visible on both sides of the rear, there is a light-colored rectangular license-plate area at the lower center, and there is a light-colored rear bumper at the bottom.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00015",
+      "statement": "In frame 18, the Two-lane highway is a straight, dark asphalt road; its near end spans the center of the bottom edge of the image, the two sides of the road converge from the lower-left and lower-right, respectively, toward the upper center, and its far end exits the image at the center of the top edge. There is a yellow edge line on the image-left, a white edge line on the image-right, and the two lanes are separated by a central dashed white line.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00016",
+      "statement": "In frame 18, the Gravel and desert terrain on both sides of the highway appears as gray gravel strips along the near edges of the road, with yellowish-brown dry ground farther out.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00017",
+      "statement": "In frame 18, the Dry grass and shrubs on both sides of the highway consists of patches of yellowish-brown dry grass and low green shrubs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00018",
+      "statement": "In frame 18, the Two-lane highway is a straight, dark asphalt road; its near end spans the center of the bottom edge of the image, the two sides of the road converge from the lower-left and lower-right, respectively, toward the upper center, and its far end exits the image at the center of the top edge. There is a yellow edge line on the image-left, a white edge line on the image-right, and the two lanes are separated by a central dashed white line. Light-colored linear and irregular road-surface marks are visible nearby; outside the edge lines on both sides are dark, strip-like rumble strips whose transverse stripes are relatively blurred, and the gray paved shoulder on the image-right is relatively wide.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00019",
+      "statement": "In frame 18, the Gravel and desert terrain on both sides of the highway appears as gray gravel strips along the near edges of the road, with yellowish-brown dry ground farther out. The gray gravel strips have a granular, mottled texture, and the exposed ground farther out appears as yellowish-brown patches of varying shades.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00020",
+      "statement": "In frame 18, the Dry grass and shrubs on both sides of the highway consists of patches of yellowish-brown dry grass and low green shrubs. The shrub clusters vary in size and have irregular outlines, with interspersed dark and light greens, while the dry grass is sparsely distributed in small fragments.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00008",
+      "statement": "In frame 0, the road occupies the center of the image, with the two lanes adjacent side by side; the near end of the road spreads across the center of the bottom edge of the image and extends continuously and straight toward the top of the image to the top edge, while its two boundaries converge from near to far within the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00009",
+      "statement": "In frame 0, the ground on the two sides of the road is located on the image-left and image-right of the road, respectively, immediately outside the shoulders, and extends to the side edges of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e009",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00021",
+      "statement": "In frame 0, the Two-lane highway is located in the center of the image, with the Gravel and desert terrain on both sides of the highway distributed on the image-left and image-right of the road; the Dry grass and shrubs on both sides of the highway is only partially in the image, with dry grass visible at the upper-left edge and a small amount of green vegetation visible at the upper-right edge.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e009",
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00014",
+      "statement": "In frame 18, the road occupies the center of the image, with the two lanes adjacent side by side; the near end of the road spreads across the center of the bottom edge of the image and extends continuously and straight toward the top of the image to the top edge, while its two boundaries converge from near to far within the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00015",
+      "statement": "In frame 18, the ground on both sides of the road is located outside the shoulders on the image-left and image-right sides of the road and extends along the road toward the distance at the top of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e009",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00016",
+      "statement": "In frame 18, the roadside vegetation is distributed on the ground on the image-left and image-right sides of the road, outside the shoulders.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e010",
+        "video43_e009",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_restore00017",
+      "statement": "In frame 18, Vehicle A is in the right lane, slightly image-right of the lower-middle portion of the image, between the road centerline and the image-right road boundary; its front faces the far end of the road toward the top of the image, and its rear faces the camera.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        17,
+        18
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_a020",
+      "statement": "In frame 18, Vehicle A is in the right lane of the Two-lane highway, with its rear facing the camera.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00022",
+      "statement": "In frame 18, the Two-lane highway is located in the center of the image, while the Gravel and desert terrain on both sides of the highway and the Dry grass and shrubs on both sides of the highway are distributed on the image-left and image-right sides of the road.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e009",
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_a002",
+      "statement": "In frame 0, the camera is positioned high above the Two-lane highway.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_a002",
+      "statement": "In frame 0, the camera is positioned high above the Two-lane highway.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_a003",
+      "statement": "In frame 18, the camera is above the Two-lane highway and behind and above Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_a003",
+      "statement": "In frame 18, the camera is above the Two-lane highway and behind and above Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_a004",
+      "statement": "In frame 0, the camera is aimed at the nearby road surface of the Two-lane highway.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_a004",
+      "statement": "In frame 0, the camera is aimed at the nearby road surface of the Two-lane highway.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_a005",
+      "statement": "In frame 18, the camera is aimed at Vehicle A and the Two-lane highway ahead of it.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_a005",
+      "statement": "In frame 18, the camera is aimed at Vehicle A and the Two-lane highway ahead of it.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 18,
+      "end_frame": 18,
+      "evidence_frames": [
+        18
+      ],
+      "subject_ids": [
+        "video43_e001",
+        "video43_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_r00001",
+      "statement": "From frames 0 to 18, the camera continuously tilts upward, gradually bringing more distant portions of the highway and the terrain on both sides into the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17,
+        18
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e009",
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_r00001",
+      "statement": "From frames 0 to 18, the camera continuously tilts upward, gradually bringing more distant portions of the highway and the terrain on both sides into the image.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17,
+        18
+      ],
+      "subject_ids": [
+        "video43_e004",
+        "video43_e009",
+        "video43_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video43_cp001_a006",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video43_cp001_a006",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 18,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video43_cp001_a022",
+      "statement": "From frames 4 to 18, Vehicle A enters from the bottom edge slightly to the image-right, travels toward the far end of the road along the right lane of the Two-lane highway, and moves in the image from the lower portion slightly to the image-right to the lower-middle portion slightly to the image-right.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 4,
+      "end_frame": 18,
+      "evidence_frames": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        17,
+        18
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video43_cp001_a022",
+      "statement": "From frames 4 to 18, Vehicle A enters from the bottom edge slightly to the image-right, travels toward the far end of the road along the right lane of the Two-lane highway, and moves in the image from the lower portion slightly to the image-right to the lower-middle portion slightly to the image-right.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 4,
+      "end_frame": 18,
+      "evidence_frames": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        17,
+        18
+      ],
+      "subject_ids": [
+        "video43_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    18
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "96298e688d2ba085e82d1499fd6a6549ea17dcdaf5f72a12f856730fda2520cf"
+}

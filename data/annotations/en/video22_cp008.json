@@ -1,0 +1,1724 @@
+{
+  "clip_id": "video22_cp008",
+  "video_id": "video22",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 119,
+  "source_frame_offset": 902,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video22_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The slender, dark long gun held by Person A, with a long barrel, a protruding front-sight structure, and a prominently mottled light-colored surface."
+    },
+    {
+      "source_entity_id": "video22_e003",
+      "name": "muddy shell-cratered ground",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark, uneven muddy ground extending from the foreground to the midground, scattered with bricks, stones, and broken wood, with wet, bright reflections in some areas."
+    },
+    {
+      "source_entity_id": "video22_e004",
+      "name": "cluster of ruined walls and rubble",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The nearby ruined wall with a rectangular opening, mottled covering, and broken brick-and-stone edges, as well as the lower wall section behind it."
+    },
+    {
+      "source_entity_id": "video22_e005",
+      "name": "cluster of dead trees",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The cluster of vegetation among the ruins, consisting of gray-black leafless trunks, short branches, and broken stumps."
+    },
+    {
+      "source_entity_id": "video22_e006",
+      "name": "smoke-cloud-filled sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The smoke clouds and sky beyond the ruined wall, initially tending toward gray-white and gray-black, and tending toward yellow-green on the right in the final frame."
+    },
+    {
+      "source_entity_id": "video22_e007",
+      "name": "orange point of fire",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The bright orange-yellow flame area among the ruins; in the final frame, only a distant small bright point is partially visible."
+    },
+    {
+      "source_entity_id": "video22_e012",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The first-person figure holding a gun, with only part of a dark glove and the gripping outline visible; the face and full body are out of frame."
+    },
+    {
+      "source_entity_id": "video22_e014",
+      "name": "ruins smoke cloud",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray-white smoke covering the low areas among the ruins and fading the outlines behind it."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video22_cp008_restore00009",
+      "statement": "In frame 0, one Weapon A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00010",
+      "statement": "In frame 0, part of Person A's hand holding the gun is visible, corresponding to one person.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a001",
+      "statement": "In frame 0, Weapon A is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a005",
+      "statement": "In frame 0, the muddy shell-cratered ground is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a009",
+      "statement": "In frame 0, the cluster of ruined walls and rubble is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a013",
+      "statement": "In frame 0, the cluster of dead trees is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a017",
+      "statement": "In frame 0, the smoke-cloud-filled sky is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a021",
+      "statement": "In frame 0, the orange point of fire is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00001",
+      "statement": "In frame 0, part of Person A's dark-gloved hand holding the gun is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00004",
+      "statement": "In frame 0, the ruins smoke cloud is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00018",
+      "statement": "In frame 119, one Weapon A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00019",
+      "statement": "In frame 119, part of Person A's hand holding the gun is visible, corresponding to one person.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a027",
+      "statement": "In frame 119, Weapon A is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a031",
+      "statement": "In frame 119, the muddy shell-cratered ground is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a035",
+      "statement": "In frame 119, the cluster of ruined walls and rubble is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a039",
+      "statement": "In frame 119, the cluster of dead trees is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a043",
+      "statement": "In frame 119, the smoke-cloud-filled sky is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a047",
+      "statement": "In frame 119, the orange point of fire is only partially visible as a distant small bright spot.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00007",
+      "statement": "In frame 119, part of Person A's dark-gloved hand holding the gun is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00010",
+      "statement": "In frame 119, the ruins smoke cloud is clearly visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a002",
+      "statement": "In frame 0, Weapon A is a slender, dark gray-black long gun with a long barrel and a wider rear body, and its surface has prominent light-colored mottling.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a003",
+      "statement": "In frame 0, Weapon A is a slender, dark gray-black long gun with a long barrel and a wider rear body; the gun body has dense light-colored mottling, an upward-protruding front-sight structure is visible at the front, and some edges are bright silver.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a006",
+      "statement": "In frame 0, the muddy shell-cratered ground is dark black-brown, with a muddy, uneven surface mixed with a large amount of gray rubble.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a007",
+      "statement": "In frame 0, the muddy shell-cratered ground is dark black-brown, with a muddy, uneven surface and irregular depressions, mixed with a large amount of gray rubble, brick-and-stone pieces of varying sizes, and broken wood; there are wet, bright reflections in a low area on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a010",
+      "statement": "In frame 0, the cluster of ruined walls and rubble consists of damaged gray-black brick-and-stone walls; the nearby wall has an incomplete outline and a mottled surface, and retains a conspicuous rectangular window opening.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a011",
+      "statement": "In frame 0, the cluster of ruined walls and rubble consists of damaged gray-black brick-and-stone walls; the nearby wall has an incomplete outline, jagged edges, a mottled covering, and large areas of peeling, with masonry blocks exposed at the breaks; the interior of the rectangular window opening is brighter, and short broken fragments remain on the window frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a014",
+      "statement": "In frame 0, the cluster of dead trees consists mainly of numerous slender gray-black leafless trunks, some retaining short branches or broken tops.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a015",
+      "statement": "In frame 0, the cluster of dead trees consists mainly of a large number of slender gray-black leafless trunks of varying thicknesses and heights; some trunks retain short branches and snapped tips, and the slender trunks on the left overlap densely in the smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a018",
+      "statement": "In frame 0, the smoke-cloud-filled sky is covered by extensive gray-white to gray-black smoke clouds, darker on the left and brighter on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a019",
+      "statement": "In frame 0, the smoke-cloud-filled sky is predominantly gray-white to gray-black over a large area, darker on the left and brighter on the right; the clouds and smoke form soft masses of layered light and dark tones, with their edges gradually fading into the distant haze.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a022",
+      "statement": "In frame 0, the orange point of fire appears as conspicuous orange-yellow open flame, contrasting with the gray-black ruins.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a023",
+      "statement": "In frame 0, the orange point of fire appears as conspicuous orange-yellow open flame, with an irregular flame outline forming slender, pointed tongues of flame upward, brighter areas inside, and scattered bright points and gray smoke visible nearby.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00002",
+      "statement": "In frame 0, the partially exposed hand of Person A holding the gun wears a dark glove.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00005",
+      "statement": "In frame 0, the ruins smoke cloud is thin gray-white smoke close to the ground.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00006",
+      "statement": "In frame 0, the ruins smoke cloud is thin gray-white smoke close to the ground, with soft edges, a semitransparent appearance, and uneven density, and it fades the outlines of the ground and wall sections behind it.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a028",
+      "statement": "In frame 119, Weapon A is a slender, dark gray-black long gun with a long barrel and a wider rear body, and its surface has prominent light-colored mottling and bright silver areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a029",
+      "statement": "In frame 119, Weapon A is a slender, dark gray-black long gun with a long barrel and a wider rear body; its surface is densely covered with light-colored mottling, the front has a protruding front-sight structure, and the upper rear has a broad, bright silver curved surface and bright edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a032",
+      "statement": "In frame 119, the muddy shell-cratered ground is dark gray-black-brown, with an uneven surface, scattered gray rubble, and localized wet, bright areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a033",
+      "statement": "In frame 119, the muddy shell-cratered ground is dark gray-black-brown and uneven, scattered with gray rubble, brick-and-stone pieces, and slender pieces of broken wood; the ground within the opening on the left has a light-colored wet, bright patch, and a rubble slope is visible behind the central window opening.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a036",
+      "statement": "In frame 119, the cluster of ruined walls and rubble has the appearance of damaged gray-black brick-and-stone walls; the nearby wall has a mottled surface and retains a floor-level doorway on the left and a central rectangular window opening.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a037",
+      "statement": "In frame 119, the cluster of ruined walls and rubble has the appearance of damaged gray-black brick-and-stone walls; the nearby wall has a floor-level doorway on the left and a central rectangular window opening, with jagged edges, a wall-surface covering bearing pale repeated patterns, and large areas of peeling; layered masonry blocks are exposed at vertical breaks, and short broken fragments remain within the window frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a040",
+      "statement": "In frame 119, the cluster of dead trees consists mainly of slender gray-black leafless trunks interspersed with thick, short broken stumps, and some trunks are conspicuously tilted.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a041",
+      "statement": "In frame 119, the cluster of dead trees consists mainly of slender gray-black leafless trunks interspersed with thick, short broken stumps; some slender trunks are tilted and bear short branches, the tops of the broken stumps are pointed and split, and the outlines of distant trunks are faded by smoke occlusion.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a044",
+      "statement": "In frame 119, the smoke-cloud-filled sky has an appearance covered by gray-white and yellow-green smoke, with the yellow-green most conspicuous on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a045",
+      "statement": "In frame 119, the smoke-cloud-filled sky has an appearance covered by gray-white and yellow-green smoke; the right side tends toward yellow-green and has relatively uniform brightness, while the area behind the opening tends toward gray-white, with color and brightness transitioning gradually through soft haze.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a048",
+      "statement": "In frame 119, the orange point of fire appears as a very small orange-yellow bright spot, partially obscured by gray haze.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00008",
+      "statement": "In frame 119, Person A's exposed hand holding the gun wears a dark glove.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00009",
+      "statement": "In frame 119, Person A's visible hand wears a dark glove, with the fingers forming a curved gripping outline; the glove has soft gray-bright reflections in some areas and is partially occluded by Weapon A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e012",
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00011",
+      "statement": "In frame 119, the ruins smoke cloud is thin gray-white smoke close to the ground.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_r00012",
+      "statement": "In frame 119, the ruins smoke cloud is thin gray-white smoke close to the ground, with soft edges, a semitransparent appearance, and a density gradient, fading the outlines of the ground behind the opening and the low area on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00011",
+      "statement": "In frame 0, Person A's visible hand holds Weapon A in the lower part of the image; Weapon A is in the lower foreground and extends from the lower right toward the depth of the scene in the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video22_e001",
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00012",
+      "statement": "In frame 0, the muddy shell-cratered ground is in the lower part of the image, extending from the foreground into the midground on both sides of the nearby ruined wall, and is partially occluded by the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00013",
+      "statement": "In frame 0, the nearby wall in the cluster of ruined walls and rubble occupies the middle-right portion of the image, with the window opening revealing the scene behind it, and another lower wall section at the lower right; more distant wall sections are distributed in the left background.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00014",
+      "statement": "In frame 0, the cluster of dead trees is distributed behind both sides of the nearby ruined wall, with some trunks occluded by the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00015",
+      "statement": "In frame 0, the smoke-cloud-filled sky is above the distant cluster of dead trees and is visible in the upper part of the image on both the left and right sides of the nearby ruined wall, partially occluded by the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006",
+        "video22_e004",
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00016",
+      "statement": "In frame 0, the orange point of fire is among the more distant ruins on the left side of the image, close to the ground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00017",
+      "statement": "In frame 0, the ruins smoke cloud is distributed above the ground on both sides of the nearby ruined wall, fading the outlines of parts of the ground behind it and the more distant wall sections.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e014",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a004",
+      "statement": "In frame 0, Weapon A is in the lower foreground of the image, extending from the lower right toward the depth of the scene in the middle.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a008",
+      "statement": "In frame 0, the muddy shell-cratered ground is in the lower half of the image and extends from the foreground to the midground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a012",
+      "statement": "In frame 0, the nearby wall in the cluster of ruined walls and rubble occupies the center-right, with another low wall at the lower right; more distant wall sections are behind the ground on the left.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a016",
+      "statement": "In frame 0, the cluster of dead trees is distributed behind the left and right sides of the nearby ruined wall, with some trunks occluded by the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e005",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a020",
+      "statement": "In frame 0, the smoke-cloud-filled sky is in the upper part of the image, exposed on both sides of the nearby ruined wall, and forms the background behind the distant cluster of dead trees.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e006",
+        "video22_e004",
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a024",
+      "statement": "In frame 0, the orange point of fire is among the more distant ruined walls and rubble on the left side of the image, close to the ground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00020",
+      "statement": "In frame 119, Person A holds Weapon A in the lower part of the image; Weapon A is in front of the nearby ruined wall and points from the lower right toward the central window opening, with the muzzle directed toward the scene behind the opening.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e001",
+        "video22_e012",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00021",
+      "statement": "In frame 119, the muddy shell-cratered ground is in the lower part of the image and extends behind the ruined wall through the floor-level opening on the left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00022",
+      "statement": "In frame 119, the nearby wall in the cluster of ruined walls and rubble occupies the center and upper part of the image; a wall separates the floor-level opening on the left from the window opening right of center, the lower edge of the window opening is above the ground, and both openings reveal the scene behind them.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00023",
+      "statement": "In frame 119, the cluster of dead trees is mainly on the right side of the image behind the nearby ruined wall, with some trunks occluded by the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00024",
+      "statement": "In frame 119, the smoke-cloud-filled sky is visible on the right side of the nearby ruined wall and behind the wall openings, serving as the background above and behind the distant ground and cluster of dead trees.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006",
+        "video22_e004",
+        "video22_e003",
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00025",
+      "statement": "In frame 119, the orange point of fire is partially visible near the distant ground to the right of the nearby ruined wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_restore00026",
+      "statement": "In frame 119, the ruins smoke cloud is behind the nearby ruined wall, visible within the floor-level opening on the left and above the ground in the right background, fading the outlines of parts of the distant ground.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e014",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a030",
+      "statement": "In frame 119, Weapon A is in the lower foreground of the image and in front of the nearby wall, with its muzzle facing the central window opening and the scene behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e001",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a034",
+      "statement": "In frame 119, the muddy shell-cratered ground is partially visible in the lower part of the image and extends behind the nearby wall through the floor-level opening on the left; rubble-covered ground is also exposed within the central window opening.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a038",
+      "statement": "In frame 119, the nearby wall in the cluster of ruined walls and rubble occupies the center and upper part of the image, and the doorway on the left and the central window opening reveal the ground behind them and more distant wall sections.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004",
+        "video22_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a042",
+      "statement": "In frame 119, the cluster of dead trees is mainly behind the right side of the nearby wall, and some slender trunks can also be seen through the central window opening.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e005",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a046",
+      "statement": "In frame 119, the smoke-cloud-filled sky is exposed on the right side of the nearby wall and behind the door and window openings, forming the bright background behind the cluster of dead trees.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e006",
+        "video22_e004",
+        "video22_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a050",
+      "statement": "In frame 119, the orange point of fire is partially visible near the distant ground behind the right side of the nearby wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video22_e007",
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_a025",
+      "statement": "In frame 0, the camera is above the muddy shell-cratered ground and immediately adjacent to the nearby wall in the cluster of ruined walls and rubble; the nearby wall is ahead and to the right, and rubble is scattered across the nearby ground.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a025",
+      "statement": "In frame 0, the camera is above the muddy shell-cratered ground and immediately adjacent to the nearby wall in the cluster of ruined walls and rubble; the nearby wall is ahead and to the right, and rubble is scattered across the nearby ground.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_a051",
+      "statement": "In frame 119, the camera is above the muddy shell-cratered ground and in front of the door and window openings of the nearby ruined wall, with the wall surface occupying the center of the image at close range.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a051",
+      "statement": "In frame 119, the camera is above the muddy shell-cratered ground and in front of the door and window openings of the nearby ruined wall, with the wall surface occupying the center of the image at close range.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_a026",
+      "statement": "In frame 0, the camera is directed mainly toward the nearby ruined wall with a rectangular window opening in the cluster of ruined walls and rubble, while also including the mid-to-distant ruins to its left.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a026",
+      "statement": "In frame 0, the camera is directed mainly toward the nearby ruined wall with a rectangular window opening in the cluster of ruined walls and rubble, while also including the mid-to-distant ruins to its left.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_a052",
+      "statement": "In frame 119, the camera is directed toward the rectangular window opening in the nearby ruined wall within the cluster of ruined walls and rubble, with a rubble slope visible behind the opening.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a052",
+      "statement": "In frame 119, the camera is directed toward the rectangular window opening in the nearby ruined wall within the cluster of ruined walls and rubble, with a rubble slope visible behind the opening.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_a053",
+      "statement": "From frames 0 to 119, the camera moves forward close to the nearby wall in the cluster of ruined walls and rubble, gradually approaching the damaged wall edge and adjacent opening from the left side of the wall in the initial image.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        24,
+        35,
+        59,
+        69,
+        98,
+        110,
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a053",
+      "statement": "From frames 0 to 119, the camera moves forward close to the nearby wall in the cluster of ruined walls and rubble, gradually approaching the damaged wall edge and adjacent opening from the left side of the wall in the initial image.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        24,
+        35,
+        59,
+        69,
+        98,
+        110,
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_a054",
+      "statement": "From frames 0 to 119, the camera turns slightly left during the early portion to open up the view to the left of the nearby wall, then turns right; from frames 99 to 110, the rightward turn noticeably accelerates, ultimately facing the nearby wall's door and window.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        24,
+        35,
+        59,
+        98,
+        99,
+        100,
+        106,
+        110,
+        111,
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a054",
+      "statement": "From frames 0 to 119, the camera turns slightly left during the early portion to open up the view to the left of the nearby wall, then turns right; from frames 99 to 110, the rightward turn noticeably accelerates, ultimately facing the nearby wall's door and window.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        24,
+        35,
+        59,
+        98,
+        99,
+        100,
+        106,
+        110,
+        111,
+        119
+      ],
+      "subject_ids": [
+        "video22_e003",
+        "video22_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video22_cp008_a056",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        35,
+        69,
+        98,
+        99,
+        100,
+        106,
+        110,
+        119
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video22_cp008_a056",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        35,
+        69,
+        98,
+        99,
+        100,
+        106,
+        110,
+        119
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video22_cp008_a057",
+      "statement": "From frames 69 to 90, Person A raises Weapon A from a low position toward the lower left, then draws it inward to the right and steadies it in a forward gun-holding posture.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 69,
+      "end_frame": 90,
+      "evidence_frames": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        77,
+        78,
+        79,
+        83,
+        84,
+        89,
+        90,
+        91
+      ],
+      "subject_ids": [
+        "video22_e001",
+        "video22_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video22_cp008_a057",
+      "statement": "From frames 69 to 90, Person A raises Weapon A from a low position toward the lower left, then draws it inward to the right and steadies it in a forward gun-holding posture.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 69,
+      "end_frame": 90,
+      "evidence_frames": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        77,
+        78,
+        79,
+        83,
+        84,
+        89,
+        90,
+        91
+      ],
+      "subject_ids": [
+        "video22_e001",
+        "video22_e012"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    119
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "f21a54d03f5952154c3230ca223bd89b6b7f52800cefeabfca8fd50ead9a593f"
+}

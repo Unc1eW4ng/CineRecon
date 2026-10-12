@@ -1,0 +1,997 @@
+{
+  "clip_id": "video20_cp005",
+  "video_id": "video20",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 80,
+  "source_frame_offset": 470,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video20_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A dark heavy firearm continuously visible in the lower part of the image, with its central front end pointing forward and segmented belt-like structures curving outward on both sides."
+    },
+    {
+      "source_entity_id": "video20_e002",
+      "name": "Snow-Covered Rocky Battlefield",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A ground surface composed of dark broken rocks, fractured rock platforms, and discontinuous white snow cover."
+    },
+    {
+      "source_entity_id": "video20_e003",
+      "name": "Upper Smoke-Cloud Background",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Smoke and a dark background in the upper part of the image, appearing yellow-orange, gray-purple, or blue-gray depending on the lighting, with occlusion by dark smoke masses."
+    },
+    {
+      "source_entity_id": "video20_e007",
+      "name": "Robot B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A bipedal mechanical body near the rock platform right of center; in the early part, its outline is obscured by intense red-white light, while in the later part, its dark body, jointed legs, and red ring-shaped light around the upper body are visible."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video20_cp005_a005",
+      "statement": "At frame 0, Weapon A is clearly visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a009",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield covers the middle and lower parts of the image, and the Upper Smoke-Cloud Background covers the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a013",
+      "statement": "At frame 0, Robot B appears near the rock platform right of center in the image, with part of its outline obscured by intense light.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a005",
+      "statement": "At frame 0, Weapon A is clearly visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a009",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield covers the middle and lower parts of the image, and the Upper Smoke-Cloud Background covers the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a013",
+      "statement": "At frame 0, Robot B appears near the rock platform right of center in the image, with part of its outline obscured by intense light.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a019",
+      "statement": "At frame 80, Weapon A is clearly visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a023",
+      "statement": "At frame 80, the Snow-Covered Rocky Battlefield covers the middle and lower parts of the image, and the Upper Smoke-Cloud Background covers the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a027",
+      "statement": "At frame 80, Robot B is suspended in the air right of center in the image, above the adjacent rock platform.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a019",
+      "statement": "At frame 80, Weapon A is clearly visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a023",
+      "statement": "At frame 80, the Snow-Covered Rocky Battlefield covers the middle and lower parts of the image, and the Upper Smoke-Cloud Background covers the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a027",
+      "statement": "At frame 80, Robot B is suspended in the air right of center in the image, above the adjacent rock platform.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a006",
+      "statement": "At frame 0, Weapon A is a dark gray-black heavy firearm with a broad, thick body, a central front end extending forward, and one belt-like structure curving outward on each side.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a007",
+      "statement": "At frame 0, Weapon A is a dark gray-black heavy firearm with a broad, thick body, a central front end extending forward, and one belt-like structure curving outward on each side; a raised aiming component on top, segmented metal shell plates, and dense transverse segmentation patterns on the belt-like structures on both sides are discernible, and parts of the surface reflect orange firelight.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a010",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield consists of dark gray rocks and irregular patches of white snow; the Upper Smoke-Cloud Background is dominated by yellow-orange smoke illuminated by firelight, while the upper-right portion is darker and gray-purple.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a011",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield consists of dark gray rocks and irregular patches of white snow, with fractured rock slabs, gaps between broken rocks, and uneven snow edges discernible; the Upper Smoke-Cloud Background is dominated by yellow-orange smoke illuminated by firelight, while the upper-right portion is darker and gray-purple, and there is also a darker vertical smoke mass left of center.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a014",
+      "statement": "At frame 0, Robot B has the rough outline of a bipedal mechanical body, with parts of its dark body surrounded by intense red-white light and some limb boundaries unclear.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a015",
+      "statement": "At frame 0, Robot B has the rough outline of a bipedal mechanical body, with parts of its dark body surrounded by intense red-white light and some limb boundaries unclear; the red glowing outline forms irregular curved lines, and there are saturated white bright spots near the head, shoulders, and torso.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a020",
+      "statement": "At frame 80, Weapon A is a dark gray-black heavy firearm with a broad, thick body, a central front end extending forward, and one belt-like structure curving outward on each side.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a021",
+      "statement": "At frame 80, Weapon A is a dark gray-black heavy firearm with a broad, thick body, a central front end extending forward, and one belt-like structure curving outward on each side; a raised aiming component on top, segmented metal shell plates, and dense transverse segmentation patterns on the belt-like structures on both sides are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a024",
+      "statement": "At frame 80, the Snow-Covered Rocky Battlefield consists of dark rocks and patches of white snow; the Upper Smoke-Cloud Background is blue-gray, with dense black-gray smoke masses on the left and right of center.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a025",
+      "statement": "At frame 80, the Snow-Covered Rocky Battlefield consists of dark rocks and patches of white snow, with fractured rock slabs, gaps between broken rocks, steep rock-platform faces, and irregular snow edges discernible; the Upper Smoke-Cloud Background is blue-gray, with dense black-gray smoke masses on the left and right of center, whose edges have clustered undulations and adjoin thinner, lighter mist.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a028",
+      "statement": "At frame 80, Robot B is a dark bipedal mechanical body with bright red ring-shaped light around its upper body; a long weapon-like object and a small component, both already separated from the body, are visible beside it.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a029",
+      "statement": "At frame 80, Robot B is a dark bipedal mechanical body with bright red ring-shaped light around its upper body; a long weapon-like object and a small component, both already separated from the body, are visible beside it; a block-like torso, two jointed legs, and relatively wide foot ends are discernible, the red light around the upper body forms adjacent curved loops, the long object is nearly vertical at the upper left, and the small component is on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a008",
+      "statement": "At frame 0, Weapon A is in the lower foreground of the image in front of the Snow-Covered Rocky Battlefield, with its front end pointing toward the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a012",
+      "statement": "At frame 0, the Upper Smoke-Cloud Background is above the Snow-Covered Rocky Battlefield in the image, and the edge of the distant slope is partially obscured by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a016",
+      "statement": "At frame 0, Robot B is forward and to the right of Weapon A, visible near the upper edge of a raised rock platform on the Snow-Covered Rocky Battlefield.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a008",
+      "statement": "At frame 0, Weapon A is in the lower foreground of the image in front of the Snow-Covered Rocky Battlefield, with its front end pointing toward the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a012",
+      "statement": "At frame 0, the Upper Smoke-Cloud Background is above the Snow-Covered Rocky Battlefield in the image, and the edge of the distant slope is partially obscured by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a016",
+      "statement": "At frame 0, Robot B is forward and to the right of Weapon A, visible near the upper edge of a raised rock platform on the Snow-Covered Rocky Battlefield.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a022",
+      "statement": "At frame 80, Weapon A is in the lower foreground of the image in front of the Snow-Covered Rocky Battlefield, with its front end pointing toward the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a026",
+      "statement": "At frame 80, the Upper Smoke-Cloud Background is above the Snow-Covered Rocky Battlefield in the image, and the edge of the distant slope is partially obscured by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a030",
+      "statement": "At frame 80, Robot B is forward and to the right of Weapon A and is suspended above an adjacent rock platform on the Snow-Covered Rocky Battlefield.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a022",
+      "statement": "At frame 80, Weapon A is in the lower foreground of the image in front of the Snow-Covered Rocky Battlefield, with its front end pointing toward the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a026",
+      "statement": "At frame 80, the Upper Smoke-Cloud Background is above the Snow-Covered Rocky Battlefield in the image, and the edge of the distant slope is partially obscured by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a030",
+      "statement": "At frame 80, Robot B is forward and to the right of Weapon A and is suspended above an adjacent rock platform on the Snow-Covered Rocky Battlefield.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a003",
+      "statement": "At frame 0, the camera is above and behind Weapon A, looking over the nearby rock platform toward the Snow-Covered Rocky Battlefield, with Weapon A occupying the lower part of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a003",
+      "statement": "At frame 0, the camera is above and behind Weapon A, looking over the nearby rock platform toward the Snow-Covered Rocky Battlefield, with Weapon A occupying the lower part of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a017",
+      "statement": "At frame 80, the camera is above and behind Weapon A, looking over the nearby rock platform toward the Snow-Covered Rocky Battlefield, with Weapon A occupying the lower part of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a017",
+      "statement": "At frame 80, the camera is above and behind Weapon A, looking over the nearby rock platform toward the Snow-Covered Rocky Battlefield, with Weapon A occupying the lower part of the image.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a004",
+      "statement": "At frame 0, the camera is directed toward Robot B near the rock platform right of center.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a004",
+      "statement": "At frame 0, the camera is directed toward Robot B near the rock platform right of center.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a018",
+      "statement": "At frame 80, the camera is directed toward Robot B, which is right of center in the image and suspended above the rock platform.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a018",
+      "statement": "At frame 80, the camera is directed toward Robot B, which is right of center in the image and suspended above the rock platform.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a001",
+      "statement": "From frames 0 to 80, the camera's viewing position remains generally stable, with no clear sustained translation; the image exhibits brief vertical and horizontal shaking.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        5,
+        6,
+        14,
+        30,
+        40,
+        52,
+        64,
+        80
+      ],
+      "subject_ids": [
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a001",
+      "statement": "From frames 0 to 80, the camera's viewing position remains generally stable, with no clear sustained translation; the image exhibits brief vertical and horizontal shaking.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        5,
+        6,
+        14,
+        30,
+        40,
+        52,
+        64,
+        80
+      ],
+      "subject_ids": [
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a031",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        14,
+        27,
+        40,
+        53,
+        64,
+        80
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video20_cp005_a031",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        14,
+        27,
+        40,
+        53,
+        64,
+        80
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video20_cp005_a032",
+      "statement": "From frames 40 to 80, Robot B gradually moves upward and rotates from a sideways-tilted posture near the edge of the rock platform right of center, with both legs gradually spreading apart and hanging downward; in the final frame, it is suspended above the rock platform.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 80,
+      "evidence_frames": [
+        39,
+        40,
+        41,
+        43,
+        54,
+        64,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a032",
+      "statement": "From frames 40 to 80, Robot B gradually moves upward and rotates from a sideways-tilted posture near the edge of the rock platform right of center, with both legs gradually spreading apart and hanging downward; in the final frame, it is suspended above the rock platform.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 80,
+      "evidence_frames": [
+        39,
+        40,
+        41,
+        43,
+        54,
+        64,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp005_a033",
+      "statement": "From frames 36 to 80, white flashes, sparks, and smoke-dust appear intermittently around Robot B, while the red light on its upper body varies in brightness; by frame 80, the long weapon-like object above and the small component on the right have separated from the body.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 36,
+      "end_frame": 80,
+      "evidence_frames": [
+        35,
+        36,
+        37,
+        38,
+        43,
+        53,
+        54,
+        63,
+        64,
+        65,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp005_a033",
+      "statement": "From frames 36 to 80, white flashes, sparks, and smoke-dust appear intermittently around Robot B, while the red light on its upper body varies in brightness; by frame 80, the long weapon-like object above and the small component on the right have separated from the body.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 36,
+      "end_frame": 80,
+      "evidence_frames": [
+        35,
+        36,
+        37,
+        38,
+        43,
+        53,
+        54,
+        63,
+        64,
+        65,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    80
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "99607015e8be9396af277fb27aebe60121d44d25fbb49c9f4452f55e555a9a9f"
+}

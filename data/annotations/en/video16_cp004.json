@@ -1,0 +1,1835 @@
+{
+  "clip_id": "video16_cp004",
+  "video_id": "video16",
+  "fps": 25.0,
+  "start_frame": 0,
+  "end_frame": 28,
+  "source_frame_offset": 60,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video16_e002",
+      "name": "longitudinal main road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A road extending into the distance between buildings, with lane markings, arrows, and intersection cross stripes visible."
+    },
+    {
+      "source_entity_id": "video16_e005",
+      "name": "group of hanging signs",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Rectangular horizontal signs spanning above the road or extending from the roadside over it, separate from the illuminated signs along the street."
+    },
+    {
+      "source_entity_id": "video16_e006",
+      "name": "group of buildings in the near view",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Relatively near dark gray, beige, and pinkish-brown buildings on both sides of the road, with rows of windows, projecting balconies, and terraces visible."
+    },
+    {
+      "source_entity_id": "video16_e007",
+      "name": "distant high-rise skyline",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Dense high-rise buildings of varying heights behind the group of buildings in the near view, with colored window lights, vertical light strips, and dome-shaped illuminated tops."
+    },
+    {
+      "source_entity_id": "video16_e008",
+      "name": "foreground elevated roadway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The bridge deck extending diagonally across the lower-right part of the frame, with adjacent traffic areas for opposite directions and guardrails along the roadway."
+    },
+    {
+      "source_entity_id": "video16_e009",
+      "name": "tree canopy beside the elevated roadway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A contiguous area of dark green tree canopy behind the elevated roadway and in front of the light pink low-rise building on the right."
+    },
+    {
+      "source_entity_id": "video16_e011",
+      "name": "Vehicle G",
+      "numbered": true,
+      "first_appearance_frame": 23,
+      "identification": "A box truck in the near-side lane of the elevated roadway, with a turquoise cab, a blue rectangular cargo box, and a light pink cargo-box roof, its front facing toward the lower left of the frame."
+    },
+    {
+      "source_entity_id": "video16_e014",
+      "name": "building facades along the street",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Narrow facades arranged along the longitudinal main road, including walls, windows, horizontal lines between floors, and projecting elements, excluding freestanding signs and pedestrians."
+    },
+    {
+      "source_entity_id": "video16_e015",
+      "name": "illuminated signs along the street",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Vertical and horizontal illuminated signs and signs with red-and-white circular patterns on both sides of the street, excluding the separately listed group of hanging signs."
+    },
+    {
+      "source_entity_id": "video16_e016",
+      "name": "group of pedestrians on the left sidewalk",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Multiple small-scale pedestrians beside the intersection and storefronts on the left side of the road, excluding Person C and any other separately listed persons."
+    },
+    {
+      "source_entity_id": "video16_e017",
+      "name": "roadside sidewalk",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The long, narrow pedestrian pavement between the outer edge of the lane on the left side of the longitudinal main road and the building facades along the street."
+    },
+    {
+      "source_entity_id": "video16_e018",
+      "name": "roadside metal guardrail",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A low guardrail of thin bars along the lane-side edge of the sidewalk at the intersection."
+    },
+    {
+      "source_entity_id": "video16_e023",
+      "name": "night sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark blue area of sky visible above the high-rises and in the background between the buildings."
+    },
+    {
+      "source_entity_id": "video16_e025",
+      "name": "metal guardrail of the elevated roadway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Gray bar-like guardrails extending along the outer edges of the elevated roadway deck and between the traffic areas for opposite directions."
+    },
+    {
+      "source_entity_id": "video16_e027",
+      "name": "Person C",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A single dark-clothed person on the road surface in the lower center of frame 0, to the right of the group of pedestrians on the left sidewalk, with another cyan-blue human figure to the right."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video16_cp004_restore00012",
+      "statement": "In frame 0, the group of pedestrians on the left sidewalk, consisting of multiple pedestrians, is visible beside the storefront at the intersection toward the lower left of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a006",
+      "statement": "In frame 0, the longitudinal main road appears clearly in the long, narrow central area of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a014",
+      "statement": "In frame 0, the group of buildings in the near view appears clearly in the foreground on the left and right sides of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00001",
+      "statement": "In frame 0, the building facades along the street appear left of center in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00013",
+      "statement": "In frame 0, the illuminated signs along the street are densely distributed between the buildings in the middle of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00023",
+      "statement": "In frame 0, the group of hanging signs is visible in the lower-middle part of the street.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00026",
+      "statement": "In frame 0, the roadside sidewalk is partially visible on the image-left side of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00035",
+      "statement": "In frame 0, the group of pedestrians on the left sidewalk is visible near the intersection toward the lower left of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00038",
+      "statement": "In frame 0, Person C is visible on the road surface in the lower center of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video16_e027"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00041",
+      "statement": "In frame 0, the roadside metal guardrail is partially visible along the edge of the intersection in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00022",
+      "statement": "In frame 28, the separately listed Vehicle G is visible in the lower-right corner of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a020",
+      "statement": "In frame 28, the longitudinal main road appears clearly from the lower left of the frame into the central depth.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a024",
+      "statement": "In frame 28, the distant high-rise skyline appears clearly in the upper half of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a028",
+      "statement": "In frame 28, the foreground elevated roadway appears clearly in the lower-right part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a032",
+      "statement": "In frame 28, the tree canopy beside the elevated roadway appears clearly in the lower part of the frame, right of center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a036",
+      "statement": "In frame 28, Vehicle G appears clearly in the lower-right corner of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00017",
+      "statement": "In frame 28, the illuminated signs along the street are visible on both sides of the street in the middle-depth area of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00020",
+      "statement": "In frame 28, the building facades along the street are visible on both sides of the road from the lower left to the middle of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00029",
+      "statement": "In frame 28, the group of hanging signs is visible above the street in the middle of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00032",
+      "statement": "In frame 28, the roadside sidewalk is partially visible on the image-left side of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00044",
+      "statement": "In frame 28, the night sky is visible between the clusters of buildings at the top of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00048",
+      "statement": "In frame 28, the metal guardrail of the elevated roadway is visible in the lower-right part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a015",
+      "statement": "In frame 0, the group of buildings in the near view consists of tall dark gray, beige, and pinkish-brown buildings, with broad facades bearing rows of windows and some projecting balconies, enclosing the street scene from both sides of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a016",
+      "statement": "In frame 0, the group of buildings in the near view encloses the street scene from both sides with tall dark gray, beige, and pinkish-brown facades; the darker building on the left has rows of windows and projecting balconies, while the beige building on the right has rectangular windows, dark terraces, some vertical pipes, and a pinkish-brown wall in its lower portion.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00002",
+      "statement": "In frame 0, the building facades along the street consist of continuous narrow building faces, with layered walls and projecting awnings and other elements, arranged along the street.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00003",
+      "statement": "In frame 0, the building facades along the street consist of continuous narrow building faces and layered walls, with projecting awnings and projecting elements with railings; their surfaces are illuminated by pink, cyan, red, and white light, and some narrow windows and horizontal lines between floors are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00007",
+      "statement": "In frame 0, the longitudinal main road is a long grayish-brown strip of road surface with lane arrows and intersection cross stripes, extending in an approximately straight line from the lower center of the frame toward the upper right between the buildings; parts of the road are occluded by the group of buildings in the near view and the group of hanging signs, and its far end ceases to be visible between the illuminated signs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e006",
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00008",
+      "statement": "In frame 0, the longitudinal main road is a long grayish-brown strip of road surface, with white lane arrows, dashed lines, yellow intersection cross stripes in the lower portion, distant red and white vehicle lights, and blue-green illuminated areas visible; the road extends in an approximately straight line from the lower center of the frame toward the upper right between the buildings, is partially occluded by the group of buildings in the near view and the group of hanging signs, and ceases to be visible at its far end between the illuminated signs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e006",
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00014",
+      "statement": "In frame 0, the illuminated signs along the street include bright vertical light boxes and signs with red-and-white circular patterns.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00015",
+      "statement": "In frame 0, the illuminated signs along the street include bright, slender vertical light boxes, pink, cyan, and white rectangular illuminated signs, signs with red-and-white circular patterns, and multiple small horizontal signs; the colored borders and bright internal patterns of the nearer signs are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00024",
+      "statement": "In frame 0, the group of hanging signs consists of long, flat rectangular signs spanning above the lanes or extending into them from the roadside.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00025",
+      "statement": "In frame 0, the group of hanging signs consists of long, flat rectangular horizontal signs above the road; a horizontal sign with a blue-green background and large orange-red characters, as well as some thin horizontal bars, is discernible, and the sign faces occlude part of the road surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00027",
+      "statement": "In frame 0, the roadside sidewalk forms a long, narrow strip along the street-facing building facades.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00028",
+      "statement": "In frame 0, the roadside sidewalk forms a long, narrow strip along the street-facing building facades, with a brighter thin strip near the curb illuminated by cyan-white light; part of it is occluded by roadside elements.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00036",
+      "statement": "In frame 0, the group of pedestrians on the left sidewalk appears as several small upright human figures, with cyan-lit and dark areas on their clothing.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00037",
+      "statement": "In frame 0, the group of pedestrians on the left sidewalk appears as several small upright human figures, with cyan-lit and dark areas on their clothing; the outlines of the heads, torsos, and legs of some people are discernible, and they are clustered beside the storefront at the intersection, partially occluding one another.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00039",
+      "statement": "In frame 0, Person C wears relatively dark clothing and appears as a tiny upright human figure.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e027"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00040",
+      "statement": "In frame 0, Person C wears relatively dark clothing and appears as a tiny upright human figure; a small head and narrow, elongated torso are discernible, and the lower outline connects with a dark shadow on the road surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e027"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00042",
+      "statement": "In frame 0, the roadside metal guardrail is a low railing composed of thin vertical bars and horizontal bars.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00043",
+      "statement": "In frame 0, the roadside metal guardrail is a low railing composed of thin vertical bars and horizontal bars, extending along the street-facing edge of the sidewalk; some bars are illuminated by cyan light and are occluded by people and roadside elements.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a025",
+      "statement": "In frame 28, the distant high-rise skyline presents a nighttime skyline formed by dense high-rise buildings, with prominent window lights and vertical light strips.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a026",
+      "statement": "In frame 28, the distant high-rise skyline consists of dense dark gray and blue-gray high-rise buildings of varying heights, with prominent window lights and vertical light strips; cyan-blue window grids, yellow-orange vertical light strips, dome-shaped illuminated tops, and scattered red and white points of light are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a033",
+      "statement": "In frame 28, the tree canopy beside the elevated roadway appears as a large area of dark green tree canopy surrounding the elevated roadway and the low-rise building.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a034",
+      "statement": "In frame 28, the tree canopy beside the elevated roadway is a large area of dark green tree canopy beside the elevated roadway and the low-rise building, forming contiguous undulating masses; bright and dark clusters of leaves are visible, with some portions illuminated by warm-colored streetlights.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a037",
+      "statement": "In frame 28, Vehicle G is a box truck with a turquoise cab and a blue rectangular cargo box, whose roof is light pink.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a038",
+      "statement": "In frame 28, Vehicle G is a box truck with a turquoise cab, a blue rectangular cargo box, a light pink cargo-box roof, and dark windows; partial dark wheel outlines are visible beneath the body, and part of the vehicle is occluded by the guardrail.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00009",
+      "statement": "In frame 28, the longitudinal main road is a lightly illuminated multi-lane road surface, with vehicle-light trails arranged along its depth; the road extends in an approximately straight line from the lower left of the frame toward the left-of-center middle, its far end lies to the right of its near end, and it ceases to be visible between dense buildings and illuminated signs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00010",
+      "statement": "In frame 28, the longitudinal main road is a lightly illuminated multi-lane road surface, with thin white lane lines, red and white light trails, and some intersection cross stripes visible, and small illuminated signs on both sides; the road extends in an approximately straight line from the lower left of the frame toward the left-of-center middle, its far end lies to the right of its near end, and it ceases to be visible between dense buildings and illuminated signs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00011",
+      "statement": "In frame 28, the foreground elevated roadway has a gray bridge deck with guardrails on both sides, and the lanes for opposite directions are clear. The bridge deck extends diagonally in a straight line from right of center along the bottom edge toward the upper right, with its right end extending out of the frame; the visible section is a straight two-way road.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        23,
+        24,
+        27,
+        28
+      ],
+      "subject_ids": [
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00012",
+      "statement": "In frame 28, the foreground elevated roadway has a gray bridge deck, adjacent lanes for opposite directions, and parallel metal guardrails on both sides, with some streetlight poles visible; the bridge deck extends diagonally in a straight line from right of center along the bottom edge toward the upper right, with its right end extending out of the frame, and the visible section is a straight two-way road.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        23,
+        24,
+        27,
+        28
+      ],
+      "subject_ids": [
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00018",
+      "statement": "In frame 28, the illuminated signs along the street appear as dense small white, cyan, and pink illuminated signs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00019",
+      "statement": "In frame 28, the illuminated signs along the street appear as dense small white, cyan, and pink illuminated signs; slender vertical illuminated signs and horizontal blue-and-white light boxes are discernible, while the distant sign faces are densely arranged among one another.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00021",
+      "statement": "In frame 28, the building facades along the street consist of continuous narrow building faces arranged on both sides of the road, with dark projecting elements nearby.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00022",
+      "statement": "In frame 28, the building facades along the street consist of continuous narrow building faces, with dark projecting elements nearby; dim gray walls, narrow windows, and horizontal lines between floors are partially visible, their surfaces are illuminated by white and cyan light, and some are occluded by the group of buildings in the near view.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e014",
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00030",
+      "statement": "In frame 28, the group of hanging signs consists of long, flat rectangular signs spanning above the lanes or extending into them from the roadside.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00031",
+      "statement": "In frame 28, the group of hanging signs still consists of long, flat rectangular horizontal signs above the road; the horizontal sign with a blue-green background and orange-red character blocks has shrunk into a slender colored strip, while the overall boundary of the sign face remains discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00033",
+      "statement": "In frame 28, the roadside sidewalk forms a long, narrow strip along the street-facing building facades.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00034",
+      "statement": "In frame 28, the roadside sidewalk forms a long, narrow strip along the street-facing building facades, with a brighter thin strip near the curb illuminated by cyan-white light; some areas are occluded by roadside elements.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00045",
+      "statement": "In frame 28, the night sky appears as a dark blue background.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00046",
+      "statement": "In frame 28, the night sky appears as a dark blue background, forming a connected area of sky between the tops of the high-rises, with some darker variations in brightness.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00049",
+      "statement": "In frame 28, the metal guardrail of the elevated roadway consists of thin gray railings extending along both sides of the bridge deck and between the lanes.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00050",
+      "statement": "In frame 28, the metal guardrail of the elevated roadway consists of thin gray railings extending along both sides of the bridge deck and between the lanes, with continuous parallel horizontal bars and spaced vertical bars, arranged diagonally along the elevated roadway and partially illuminated by streetlights.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00007",
+      "statement": "In frame 0, the longitudinal main road lies between the group of buildings in the near view on the left and right, extending in an approximately straight line from the lower center of the frame toward the upper right; parts of the road are occluded by buildings and the group of hanging signs, and its far end ceases to be visible between the buildings and signs.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e006",
+        "video16_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00008",
+      "statement": "In frame 0, the building facades along the street are arranged on both sides of the longitudinal main road; a section left of center is relatively prominent, and some facades are occluded by the group of buildings in the near view.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e014",
+        "video16_e002",
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00009",
+      "statement": "In frame 0, the group of hanging signs is above the longitudinal main road in the lower-middle part of the frame and occludes part of the road surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e005",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00010",
+      "statement": "In frame 0, the illuminated signs along the street are distributed between the buildings in the middle of the frame and arranged along the building facades on both sides of the longitudinal main road.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e015",
+        "video16_e014",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00011",
+      "statement": "In frame 0, the roadside sidewalk lies between the outer edge of the lane on the image-left side of the longitudinal main road and the building facades along the street.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e017",
+        "video16_e002",
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00013",
+      "statement": "In frame 0, Person C, as a separately listed person, is on the road surface of the longitudinal main road in the lower center of the frame, to the image-right of the group of pedestrians on the left sidewalk.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video16_e027",
+        "video16_e002",
+        "video16_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a009",
+      "statement": "In frame 0, the longitudinal main road lies between the group of buildings in the near view and extends toward the upper part of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00006",
+      "statement": "In frame 0, the building facades along the street are arranged along both sides of the longitudinal main road and are partially occluded by the group of buildings in the near view.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e014",
+        "video16_e002",
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00016",
+      "statement": "In frame 0, the illuminated signs along the street are arranged along the building facades along the street.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e015",
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00014",
+      "statement": "In frame 28, the longitudinal main road passes from the lower-left part of the frame between the group of buildings in the near view and extends in an approximately straight line toward its far end left of center in the middle of the frame; the far end lies to the right of the near end, the near end extends beyond the bottom edge, and the far end ceases to be visible between dense buildings and signs.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00015",
+      "statement": "In frame 28, the distant high-rise skyline occupies the upper half of the frame, behind the group of buildings in the near view and above the visible far end of the longitudinal main road in the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e007",
+        "video16_e006",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00016",
+      "statement": "In frame 28, the building facades along the street lie on both sides of the longitudinal main road from the lower left to the middle of the frame, and some are occluded by the group of buildings in the near view.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e014",
+        "video16_e002",
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00017",
+      "statement": "In frame 28, the illuminated signs along the street are distributed along the building facades on both sides of the longitudinal main road and are concentrated in the middle-depth area of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e015",
+        "video16_e014",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00018",
+      "statement": "In frame 28, the group of hanging signs is above the longitudinal main road in the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e005",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00019",
+      "statement": "In frame 28, the roadside sidewalk appears partially on the image-left side of the longitudinal main road, between the outer edge of the lane and the building facades along the street.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e017",
+        "video16_e002",
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00020",
+      "statement": "In frame 28, the foreground elevated roadway crosses diagonally through the lower-right part of the frame, extending in an approximately straight line from right of center along the bottom edge toward a higher position on the right side of the frame and reaching the right edge, with the traffic areas for the two directions adjacent to each other; the metal guardrail of the elevated roadway extends along the outer edges of the road surface and between the traffic areas for the two directions.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        23,
+        24,
+        27,
+        28
+      ],
+      "subject_ids": [
+        "video16_e008",
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00021",
+      "statement": "In frame 28, the tree canopy beside the elevated roadway is in the lower part of the frame, right of center, behind the foreground elevated roadway and in front of the low-rise building on the right side of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e009",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00023",
+      "statement": "In frame 28, the night sky appears at the top of the frame, in the background above the tops of the distant high-rise skyline and in the gaps between the buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e023",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_restore00024",
+      "statement": "In frame 28, Vehicle G is in the near-side lane of the foreground elevated roadway, with its front facing toward the lower left of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e011",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a023",
+      "statement": "In frame 28, the longitudinal main road extends from the lower left of the frame toward the area below the distant high-rise skyline.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a027",
+      "statement": "In frame 28, the distant high-rise skyline is above the visible far end of the longitudinal main road in the frame and behind the group of buildings in the near view.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e007",
+        "video16_e002",
+        "video16_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a031",
+      "statement": "In frame 28, the foreground elevated roadway is in front of the tree canopy beside the elevated roadway and crosses diagonally through the lower-right part of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e008",
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a035",
+      "statement": "In frame 28, the tree canopy beside the elevated roadway is behind the foreground elevated roadway and in front of the pink low-rise building on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e009",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a039",
+      "statement": "In frame 28, Vehicle G is in the near-side lane of the foreground elevated roadway.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e011",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00047",
+      "statement": "In frame 28, the night sky is in the background above the distant high-rise skyline in the frame and between the rooftops.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e023",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00051",
+      "statement": "In frame 28, the metal guardrail of the elevated roadway is arranged along the edges of the foreground elevated roadway and between the lanes.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e025",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_r00004",
+      "statement": "In frame 0, the camera is at an elevated urban position above the longitudinal main road, looking down at the road, with both the longitudinal main road and the building facades along the street in the field of view in front of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00004",
+      "statement": "In frame 0, the camera is at an elevated urban position above the longitudinal main road, looking down at the road, with both the longitudinal main road and the building facades along the street in the field of view in front of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_a018",
+      "statement": "In frame 28, the camera is at an elevated urban position above the longitudinal main road, looking down at the road, with both the longitudinal main road and the distant high-rise skyline in the field of view in front of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a018",
+      "statement": "In frame 28, the camera is at an elevated urban position above the longitudinal main road, looking down at the road, with both the longitudinal main road and the distant high-rise skyline in the field of view in front of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_r00005",
+      "statement": "In frame 0, the camera is aimed toward the area containing the longitudinal main road and the building facades along the street.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_r00005",
+      "statement": "In frame 0, the camera is aimed toward the area containing the longitudinal main road and the building facades along the street.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_a019",
+      "statement": "In frame 28, the camera is aimed toward the area containing the longitudinal main road and the distant high-rise skyline.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a019",
+      "statement": "In frame 28, the camera is aimed toward the area containing the longitudinal main road and the distant high-rise skyline.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_a002",
+      "statement": "From frames 0 through 28, the camera continuously zooms out, with the field of view gradually expanding to include more of the road and surrounding urban scenery.",
+      "category": "camera_zoom",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 28,
+      "evidence_frames": [
+        0,
+        7,
+        14,
+        21,
+        28
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp004_a002",
+      "statement": "From frames 0 through 28, the camera continuously zooms out, with the field of view gradually expanding to include more of the road and surrounding urban scenery.",
+      "category": "camera_zoom",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 28,
+      "evidence_frames": [
+        0,
+        7,
+        14,
+        21,
+        28
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp004_a003",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 28,
+      "evidence_frames": [
+        0,
+        7,
+        14,
+        21,
+        28
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video16_cp004_a003",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 28,
+      "evidence_frames": [
+        0,
+        7,
+        14,
+        21,
+        28
+      ],
+      "subject_ids": []
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    28
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "6e64254a6b8ba89369ccd7ddd9678e383d14a04eca349e0f30af7ac1a1685463"
+}

@@ -1,0 +1,1644 @@
+{
+  "clip_id": "video31_cp003",
+  "video_id": "video31",
+  "fps": 60,
+  "start_frame": 0,
+  "end_frame": 85,
+  "source_frame_offset": 120,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video31_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The dark blue-black long gun in the lower-right foreground, with a box-shaped body, a wide flat top cover, and a light-colored border."
+    },
+    {
+      "source_entity_id": "video31_e002",
+      "name": "layered rock wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The tall greenish-brown rock walls enclosing the passage, with horizontal dark and light layers and protruding angled corners."
+    },
+    {
+      "source_entity_id": "video31_e003",
+      "name": "gray-green passage floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray-green, low-texture ground between the rock walls on both sides, with a transverse step-like folded surface in the front-middle section."
+    },
+    {
+      "source_entity_id": "video31_e005",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The only fully visible person in the passage, with short black hair and a light-colored face, wearing a dark blue-black top, long pants, and black boot-like shoes."
+    },
+    {
+      "source_entity_id": "video31_e006",
+      "name": "Weapon B",
+      "numbered": true,
+      "first_appearance_frame": 3,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "The black compact short gun by Person A's hand, which subsequently separates from the hand and falls on the image-left side of Person A."
+    },
+    {
+      "source_entity_id": "video31_e007",
+      "name": "white cloud of smoke",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The grayish-white cloud-like effect near Person A's shoulder on the image-left side, with soft edges and mottled light and dark areas inside."
+    },
+    {
+      "source_entity_id": "video31_e012",
+      "name": "muzzle flash",
+      "numbered": false,
+      "first_appearance_frame": 7,
+      "identification": "The yellow-white irregular bright mass at the front end of Weapon A."
+    },
+    {
+      "source_entity_id": "video31_e013",
+      "name": "light-colored sparks",
+      "numbered": false,
+      "first_appearance_frame": 7,
+      "identification": "The scattered white-yellow bright points in front of the rock walls around Person A, mostly shaped like short lines or pointed fragments."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video31_cp003_restore00013",
+      "statement": "At frame 0, one Person A is visible in the passage.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a006",
+      "statement": "At frame 0, the dark long gun Weapon A is visible in the lower-right foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a014",
+      "statement": "At frame 0, the gray-green passage floor is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a018",
+      "statement": "At frame 0, Person A wearing dark clothing is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00001",
+      "statement": "At frame 0, the layered rock wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00029",
+      "statement": "At frame 20, a yellow-white muzzle flash is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video31_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a044",
+      "statement": "At frame 60, the black short gun Weapon B is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00033",
+      "statement": "At frame 60, a group of scattered light-colored sparks is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00021",
+      "statement": "At frame 85, one Person A is visible in the passage.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a024",
+      "statement": "At frame 85, the dark long gun Weapon A is visible in the lower-right foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a032",
+      "statement": "At frame 85, the gray-green passage floor is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a036",
+      "statement": "At frame 85, Person A wearing dark clothing is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a040",
+      "statement": "At frame 85, the white cloud of smoke is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00002",
+      "statement": "At frame 85, the layered rock wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a019",
+      "statement": "At frame 0, Person A has short black hair and a light-colored face and is wearing a dark blue-black long-sleeved top, long pants, and black boot-like shoes.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a020",
+      "statement": "At frame 0, Person A has short black hair and a light-colored face in profile and is wearing a dark blue-black long-sleeved top, long pants, and black boot-like shoes; a small number of gray-blue bright patterns are visible on the top, the pant legs are long and narrow, and the outlines of the shoes protrude outward.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00003",
+      "statement": "At frame 0, Weapon A is a dark blue-black long gun with a heavy box-shaped body, a wide flat top cover, and a slender front section extending toward the center of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00004",
+      "statement": "At frame 0, tall greenish-brown rock walls enclose a narrow passage from both sides, with horizontal layers and protruding angled corners on their surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00005",
+      "statement": "At frame 0, the gray-green passage floor has a relatively flat surface with relatively little texture and leads from the lower center of the image, across a transverse step-like edge, to beneath Person A's feet.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e003",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00006",
+      "statement": "At frame 0, Weapon A is a dark blue-black long gun with a heavy box-shaped body, outward-projecting edges on its wide flat top cover, and a slender front section extending toward the center of the image; a silver-gray angular border, long recessed patterns, and several small light-colored dots are visible on its side.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00007",
+      "statement": "At frame 0, tall greenish-brown rock walls enclose a narrow passage from both sides and have protruding polygonal angled corners, horizontally undulating dark and light layers, and mottled textures.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00008",
+      "statement": "At frame 0, the gray-green passage floor has a relatively flat surface with relatively little texture and leads from the lower center of the image, across a transverse step-like edge, to beneath Person A's feet; the near end is brighter and the far end is darker, and its boundaries on both sides are defined by protruding layered rock walls.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e003",
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00030",
+      "statement": "At frame 20, the muzzle flash appears as an irregular bright yellow-white mass.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video31_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00031",
+      "statement": "At frame 20, the muzzle flash appears as an irregular bright yellow-white mass, with a nearly white center, a yellow periphery, branching edges, and fine bright speckles, radiating outward overall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video31_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00009",
+      "statement": "At frame 60, Weapon B is a black compact short gun with an overall angular outline, with a thin, short rod-like protrusion extending beside the thicker main body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00010",
+      "statement": "At frame 60, Weapon B is a black compact short gun positioned diagonally overall; the thicker main body and slender protruding section form an angular outline, there is a thin, short rod-like projection on the side, and there is a small protrusion along the upper edge of the main body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00034",
+      "statement": "At frame 60, the sparks consist of multiple scattered white-yellow bright points.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00035",
+      "statement": "At frame 60, the light-colored sparks consist of multiple scattered white-yellow bright points of varying sizes, mostly shaped like short lines or small pointed fragments, distributed against a darker background.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00011",
+      "statement": "At frame 85, Weapon A is a dark blue-black long gun with a heavy box-shaped body, a wide flat top cover, and a slender front section extending toward the center of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00012",
+      "statement": "At frame 85, tall greenish-brown rock walls enclose a narrow passage from both sides, with horizontal layers and protruding angled corners on their surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00013",
+      "statement": "At frame 85, the gray-green passage floor has relatively little surface texture and extends from the bottom of the image to beneath Person A's feet and into the narrow area behind Person A.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e003",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00014",
+      "statement": "At frame 85, Person A has short black hair and a light-colored face, is wearing a dark blue-black top, long pants, and black boot-like shoes, and has both arms bent in front of the body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00015",
+      "statement": "At frame 85, the cloud of smoke is grayish-white and nearly elliptical, and is visibly brighter than the surrounding rock walls.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00016",
+      "statement": "At frame 85, Weapon A is a dark blue-black long gun with a heavy box-shaped body, outward-projecting edges on its wide flat top cover, and a slender front section extending toward the center of the image; a silver-gray angular border, long recessed patterns, and several small light-colored dots are visible on its side.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00017",
+      "statement": "At frame 85, tall greenish-brown rock walls enclose a narrow passage from both sides and have protruding polygonal angled corners, horizontally undulating dark and light layers, and mottled textures; a small number of small black dots and short dark lines are visible on the rock surface beside Person A's shoulder.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00018",
+      "statement": "At frame 85, the gray-green passage floor extends from the bottom of the image to beneath Person A's feet and into the narrow area behind Person A; its surface has relatively little texture and uneven light and dark areas, and part of the nearby floor is occluded by Weapon A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e003",
+        "video31_e005",
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00019",
+      "statement": "At frame 85, Person A has short black hair and a light-colored face and hands and is wearing a dark blue-black top, slender long pants, and black boot-like shoes, with both arms bent in front of the body; a gray vertical band and a horizontal waist band are visible on the front of the top, and a small red area is exposed behind the space between the legs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00020",
+      "statement": "At frame 85, the white cloud of smoke is grayish-white, visibly brighter than the surrounding rock walls, and has an irregular, nearly elliptical outline, with soft, relatively faint edges and a mottled granular texture of light and dark areas inside.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00014",
+      "statement": "At frame 0, Weapon A extends into the lower-right foreground from the bottom edge of the image, with its front end angled toward the central depth of the image, and occludes part of the nearby floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e001",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00015",
+      "statement": "At frame 0, the layered rock walls on the image-left and image-right sides form a narrow passage, and the gray-green passage floor connects from the lower center of the image, across a transverse step-like folded surface, to beneath Person A's feet and continues behind Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00016",
+      "statement": "At frame 0, Person A is deep between the layered rock walls on both sides, slightly image-left of center, with the feet close to the gray-green passage floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video31_e005",
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a009",
+      "statement": "At frame 0, Weapon A is in the lower-right foreground and points diagonally toward the center of the passage.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e001",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a017",
+      "statement": "At frame 0, the gray-green passage floor is between the layered rock walls and extends into the depth of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e003",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a021",
+      "statement": "At frame 0, Person A is in the gray-green passage floor area between the layered rock walls on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e005",
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00021",
+      "statement": "At frame 0, the layered rock walls enclose the gray-green passage floor from the image-left and image-right sides.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00017",
+      "statement": "At frame 20, the muzzle flash is immediately adjacent to the front end of Weapon A and is above and to the image-left of Weapon A's main body in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video31_e012",
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00032",
+      "statement": "At frame 20, the yellow-white muzzle flash is immediately adjacent to the front end of Weapon A in the lower-right foreground and is above and to the image-left of Weapon A's barrel in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video31_e012",
+        "video31_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00018",
+      "statement": "At frame 40, Weapon B is immediately adjacent to Person A's hand extended toward image-left and is on the image-left side of Person A's upper body.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40,
+        41
+      ],
+      "subject_ids": [
+        "video31_e006",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00019",
+      "statement": "At frame 60, Weapon B is on the image-left side of Person A, separated from Person A's hand, and suspended above the gray-green passage floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e006",
+        "video31_e005",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00020",
+      "statement": "At frame 60, the light-colored sparks are distributed above Person A's head and on the image-right side of the body, in front of the layered rock wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e013",
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00022",
+      "statement": "At frame 60, Weapon B is on Person A's image-left side, separated from Person A's hand, and above the gray-green passage floor below.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e006",
+        "video31_e005",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00036",
+      "statement": "At frame 60, the light-colored sparks are distributed above Person A's head and on the image-right side of the body, in front of the layered rock wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video31_e013",
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00022",
+      "statement": "At frame 85, Weapon A extends into the lower-right foreground from the bottom edge of the image, with its front end angled toward the central depth of the image, and occludes part of the nearby floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e001",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00023",
+      "statement": "At frame 85, the layered rock walls on the image-left and image-right sides form a narrow passage, and the gray-green passage floor connects from the bottom of the image to beneath Person A's feet and extends between the two walls behind Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00024",
+      "statement": "At frame 85, Person A is in the floor area between the layered rock walls on both sides, with the body occupying the lower-central area of the image and the feet close to the bottom edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e005",
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_restore00025",
+      "statement": "At frame 85, the white cloud of smoke is in front of the layered rock wall on the image-left side and immediately adjacent to Person A's shoulder on the image-left side.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e007",
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a027",
+      "statement": "At frame 85, Weapon A is in the lower-right foreground and points diagonally toward the center of the passage.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e001",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a035",
+      "statement": "At frame 85, the gray-green passage floor is between the layered rock walls and extends into the depth of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e003",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a039",
+      "statement": "At frame 85, Person A is in the gray-green passage floor area between the layered rock walls on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e005",
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a043",
+      "statement": "At frame 85, the white cloud of smoke is in front of the layered rock wall on the image-left side, near Person A's shoulder on the image-left side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e007",
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00023",
+      "statement": "At frame 85, the layered rock walls enclose the gray-green passage floor from the image-left and image-right sides.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_a004",
+      "statement": "At frame 0, the camera is within the narrow passage enclosed by the layered rock walls and above the gray-green passage floor.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a004",
+      "statement": "At frame 0, the camera is within the narrow passage enclosed by the layered rock walls and above the gray-green passage floor.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_a022",
+      "statement": "At frame 85, the camera is within the narrow passage enclosed by the layered rock walls and above the gray-green passage floor.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a022",
+      "statement": "At frame 85, the camera is within the narrow passage enclosed by the layered rock walls and above the gray-green passage floor.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_a005",
+      "statement": "At frame 0, the camera faces Person A in the distance between the layered rock walls.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a005",
+      "statement": "At frame 0, the camera faces Person A in the distance between the layered rock walls.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_a023",
+      "statement": "At frame 85, the camera faces the nearby upper body of Person A.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a023",
+      "statement": "At frame 85, the camera faces the nearby upper body of Person A.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 85,
+      "end_frame": 85,
+      "evidence_frames": [
+        85
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_a001",
+      "statement": "From frames 0 through 85, the camera generally translates forward along the passage, gradually approaching Person A, with slight vertical undulation in the image.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 85,
+      "evidence_frames": [
+        0,
+        20,
+        40,
+        60,
+        85
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_a001",
+      "statement": "From frames 0 through 85, the camera generally translates forward along the passage, gradually approaching Person A, with slight vertical undulation in the image.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 85,
+      "evidence_frames": [
+        0,
+        20,
+        40,
+        60,
+        85
+      ],
+      "subject_ids": [
+        "video31_e002",
+        "video31_e003",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_a052",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 85,
+      "evidence_frames": [
+        0,
+        20,
+        40,
+        60,
+        85
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video31_cp003_a052",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 85,
+      "evidence_frames": [
+        0,
+        20,
+        40,
+        60,
+        85
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video31_cp003_r00024",
+      "statement": "From frames 48 through 79, Weapon B moves down and toward image-left on Person A's image-left side, descending from beside the upper body to the bottom edge of the image and gradually being cropped by the bottom edge.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 48,
+      "end_frame": 79,
+      "evidence_frames": [
+        47,
+        48,
+        49,
+        60,
+        75,
+        77,
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video31_e006",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00024",
+      "statement": "From frames 48 through 79, Weapon B moves down and toward image-left on Person A's image-left side, descending from beside the upper body to the bottom edge of the image and gradually being cropped by the bottom edge.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 48,
+      "end_frame": 79,
+      "evidence_frames": [
+        47,
+        48,
+        49,
+        60,
+        75,
+        77,
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video31_e006",
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_r00025",
+      "statement": "From frames 7 through 31, Weapon A fires continuously, with a bright yellow-white muzzle flash repeatedly appearing at its front end.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 7,
+      "end_frame": 31,
+      "evidence_frames": [
+        6,
+        7,
+        8,
+        20,
+        30,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video31_e001",
+        "video31_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00025",
+      "statement": "From frames 7 through 31, Weapon A fires continuously, with a bright yellow-white muzzle flash repeatedly appearing at its front end.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 7,
+      "end_frame": 31,
+      "evidence_frames": [
+        6,
+        7,
+        8,
+        20,
+        30,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video31_e001",
+        "video31_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_r00037",
+      "statement": "From frames 7 through 80, the light-colored sparks in front of the layered rock wall flicker and scatter outward; the bright points gradually decrease in number during the final part, and at frame 80 one bright point still remains above Person A's head.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 7,
+      "end_frame": 80,
+      "evidence_frames": [
+        6,
+        7,
+        40,
+        60,
+        73,
+        74,
+        79,
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video31_e013",
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00037",
+      "statement": "From frames 7 through 80, the light-colored sparks in front of the layered rock wall flicker and scatter outward; the bright points gradually decrease in number during the final part, and at frame 80 one bright point still remains above Person A's head.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 7,
+      "end_frame": 80,
+      "evidence_frames": [
+        6,
+        7,
+        40,
+        60,
+        73,
+        74,
+        79,
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video31_e013",
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_r00027",
+      "statement": "From frames 33 through 85, Person A bends down, twists the upper body, and swings both arms, then raises the upper body again.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 33,
+      "end_frame": 85,
+      "evidence_frames": [
+        32,
+        33,
+        34,
+        40,
+        44,
+        48,
+        60,
+        75,
+        84,
+        85
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00027",
+      "statement": "From frames 33 through 85, Person A bends down, twists the upper body, and swings both arms, then raises the upper body again.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 33,
+      "end_frame": 85,
+      "evidence_frames": [
+        32,
+        33,
+        34,
+        40,
+        44,
+        48,
+        60,
+        75,
+        84,
+        85
+      ],
+      "subject_ids": [
+        "video31_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_r00026",
+      "statement": "From frames 40 through 50, Person A's hand extended toward image-left and Weapon B gradually separate, and by frame 48 a gap between them is visible.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 50,
+      "evidence_frames": [
+        39,
+        40,
+        41,
+        44,
+        47,
+        48,
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video31_e005",
+        "video31_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00026",
+      "statement": "From frames 40 through 50, Person A's hand extended toward image-left and Weapon B gradually separate, and by frame 48 a gap between them is visible.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 50,
+      "evidence_frames": [
+        39,
+        40,
+        41,
+        44,
+        47,
+        48,
+        49,
+        50
+      ],
+      "subject_ids": [
+        "video31_e005",
+        "video31_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video31_cp003_r00028",
+      "statement": "From frames 71 through 85, a grayish-white cloud of smoke is visible near Person A's shoulder and in front of the layered rock wall; the cloud's outline and internal light and dark areas change over time.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 71,
+      "end_frame": 85,
+      "evidence_frames": [
+        71,
+        72,
+        75,
+        84,
+        85
+      ],
+      "subject_ids": [
+        "video31_e007",
+        "video31_e005",
+        "video31_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video31_cp003_r00028",
+      "statement": "From frames 71 through 85, a grayish-white cloud of smoke is visible near Person A's shoulder and in front of the layered rock wall; the cloud's outline and internal light and dark areas change over time.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 71,
+      "end_frame": 85,
+      "evidence_frames": [
+        71,
+        72,
+        75,
+        84,
+        85
+      ],
+      "subject_ids": [
+        "video31_e007",
+        "video31_e005",
+        "video31_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    20,
+    40,
+    44,
+    48,
+    50,
+    60,
+    72,
+    85
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "62fb90d39715a06792a921c994c5d0290b78a1fd62da61a783137cc820a9e426"
+}

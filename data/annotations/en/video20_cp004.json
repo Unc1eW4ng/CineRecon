@@ -1,0 +1,974 @@
+{
+  "clip_id": "video20_cp004",
+  "video_id": "video20",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 80,
+  "source_frame_offset": 390,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video20_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A heavy, dark mechanical firearm continuously visible at the lower center of the frame, with a central body extending forward and curved tube- or belt-like components on both sides."
+    },
+    {
+      "source_entity_id": "video20_e002",
+      "name": "Snow-Covered Rocky Battlefield",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The ground surface composed of dark rock fragments, fractured rock platforms, depressions, and discontinuous patches of light-colored snow."
+    },
+    {
+      "source_entity_id": "video20_e003",
+      "name": "Upper Smoke-Cloud Background",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The smoke and sky background above the distant terrain, usually blue-gray, and appearing extensively orange-yellow or gray-brown when illuminated by explosions."
+    },
+    {
+      "source_entity_id": "video20_e004",
+      "name": "Explosion and Smoke-Dust",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A collection of white-yellow and orange flames, radial sparks, flying debris, and expanding columns of smoke that repeatedly appear near the ground surface."
+    },
+    {
+      "source_entity_id": "video20_e007",
+      "name": "Robot B",
+      "numbered": true,
+      "first_appearance_frame": 74,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "The humanoid mechanical body revealed near the upper edge of the rock platform right of center at the end of the clip, with its torso visibly covered by intense red-white light."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video20_cp004_restore00010",
+      "statement": "At frame 0, 1 Weapon A is visible in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a006",
+      "statement": "At frame 0, Weapon A appears at the lower center of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a010",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield covers the middle and lower portions of the frame, and the Upper Smoke-Cloud Background covers the upper portion of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a014",
+      "statement": "At frame 0, a black-gray smoke column from the Explosion and Smoke-Dust appears above the ground surface left of center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00014",
+      "statement": "At frame 80, 1 Weapon A is visible in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00017",
+      "statement": "At frame 80, 1 Robot B is discernible right of center.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a020",
+      "statement": "At frame 80, Weapon A appears at the lower center of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a024",
+      "statement": "At frame 80, the Snow-Covered Rocky Battlefield covers the middle and lower portions of the frame, and the Upper Smoke-Cloud Background covers the upper portion of the frame, with parts occluded by the intense light of explosions.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a028",
+      "statement": "At frame 80, Robot B is revealed near the upper edge of the rock platform right of center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a007",
+      "statement": "At frame 0, Weapon A has a heavy dark gray-black mechanical gun body, with a central body extending forward and a thick tube- or belt-like component curving outward on each side.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a008",
+      "statement": "At frame 0, Weapon A has a heavy dark gray-black mechanical gun body, with a central body extending forward and a thick tube- or belt-like component curving outward on each side; a small protrusion on top, segmented seams on the gun body, parallel groove lines on the upper right side, and continuous transverse segmentation on the curved components are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a011",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield is composed of dark rock fragments, undulating rock platforms, and patches of white snow; the Upper Smoke-Cloud Background is predominantly dark blue-gray, mixed with black-gray smoke-dust and localized yellow-brown smoke-dust.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a012",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield is composed of dark rock fragments, undulating rock platforms, and patches of white snow, with fractured platform edges, gaps between rocks, depressions, and irregular snow edges discernible; the Upper Smoke-Cloud Background is predominantly dark blue-gray, mixed with black-gray and localized yellow-brown smoke-dust, with the smoke forming clumps of varying darkness.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a015",
+      "statement": "At frame 0, the Explosion and Smoke-Dust forms a black-gray smoke column expanded at the top, with orange points of flame near the lower portion and radial bright sparks on the right near the ground surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a016",
+      "statement": "At frame 0, the Explosion and Smoke-Dust forms a black-gray smoke column expanded at the top, with orange points of flame near the lower portion and radial bright sparks on the right near the ground surface; the edges of the smoke column curl irregularly, the sparks appear as thin straight bright lines of varying lengths, and a small amount of dark debris is visible around them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a021",
+      "statement": "At frame 80, Weapon A has a heavy dark gray-black mechanical gun body, with a central body extending forward and a thick tube- or belt-like component curving outward on each side; parts of its surface are illuminated by warm-colored firelight.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a022",
+      "statement": "At frame 80, Weapon A has a heavy dark gray-black mechanical gun body, with a central body extending forward and a thick tube- or belt-like component curving outward on each side; parts of its surface are illuminated by warm-colored firelight, and a small protrusion on top, segmented casing seams, parallel groove lines on the upper right side, and continuous transverse segmentation on the curved components are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a025",
+      "statement": "At frame 80, the Snow-Covered Rocky Battlefield is composed of dark rock fragments, undulating rock platforms, and patches of light-colored snow; the Upper Smoke-Cloud Background is illuminated by explosions across a large area to an orange-yellow color, is gray-brown in the upper right, and has a darker smoke clump visible left of center.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a026",
+      "statement": "At frame 80, the Snow-Covered Rocky Battlefield is composed of dark rock fragments, undulating rock platforms, and patches of light-colored snow, with the fractured upper edge of the central rock platform, the steep wall on the right, gaps between rocks, and irregular snow edges discernible; the Upper Smoke-Cloud Background is illuminated across a large area to an orange-yellow color, is gray-brown in the upper right, and has a dark smoke clump with blurred edges left of center.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a029",
+      "statement": "At frame 80, Robot B has an upright humanoid mechanical silhouette, with its torso covered by intense red-white light and surrounded by a red halo, while its lower portion is partially occluded by the rock platform.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a030",
+      "statement": "At frame 80, Robot B has an upright humanoid mechanical silhouette, with its torso covered by intense red-white light and surrounded by a red halo, while its lower portion is partially occluded by the rock platform; a bright area on the head, a relatively broad torso outline, and bent limb-like structures on both sides are discernible, while most of the internal structure is overwhelmed by the intense light.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00011",
+      "statement": "At frame 0, Weapon A is in the foreground at the lower center of the frame, occluding part of the Snow-Covered Rocky Battlefield behind it and pointing toward the ground-surface area in the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00012",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield occupies the middle and lower portions of the frame and extends from nearby into the distance; the central foreground rock platform is higher than the adjacent depression to its image-right, and the Upper Smoke-Cloud Background is above the distant ground surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00013",
+      "statement": "At frame 0, the Explosion and Smoke-Dust is located mainly in front of Weapon A near the ground surface from left of center to the center; the smoke column extends upward and occludes part of the Snow-Covered Rocky Battlefield and Upper Smoke-Cloud Background behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e004",
+        "video20_e001",
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a009",
+      "statement": "At frame 0, Weapon A is in the lower foreground of the frame in front of the Snow-Covered Rocky Battlefield and points toward the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a013",
+      "statement": "At frame 0, the Upper Smoke-Cloud Background is above the Snow-Covered Rocky Battlefield, and the distant slope meets the background under occlusion by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a017",
+      "statement": "At frame 0, the smoke column from the Explosion and Smoke-Dust is in front of Weapon A near the ground surface left of center and occludes part of the distant terrain.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e004",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00015",
+      "statement": "At frame 80, Weapon A is in the foreground at the lower center of the frame, occluding part of the Snow-Covered Rocky Battlefield behind it and pointing toward the rock-platform area in the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00016",
+      "statement": "At frame 80, the Snow-Covered Rocky Battlefield occupies the middle and lower portions of the frame and extends into the distance; the central foreground rock platform is higher than the adjacent depression to its image-right, and the Upper Smoke-Cloud Background is above the distant ground surface.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00018",
+      "statement": "At frame 80, Robot B is ahead of and to the image-right of Weapon A; its visible torso is above the upper edge of the rock platform right of center, while its lower portion is occluded by the rock platform.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_restore00019",
+      "statement": "At frame 80, the Explosion and Smoke-Dust is distributed near the ground surface on the image-left side and above left of center, in front of Weapon A and to the image-left of Robot B, and occludes part of the Snow-Covered Rocky Battlefield and Upper Smoke-Cloud Background behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e004",
+        "video20_e001",
+        "video20_e002",
+        "video20_e003",
+        "video20_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a023",
+      "statement": "At frame 80, Weapon A is in the lower foreground of the frame in front of the Snow-Covered Rocky Battlefield and points toward the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a027",
+      "statement": "At frame 80, the Upper Smoke-Cloud Background is above the Snow-Covered Rocky Battlefield, and the distant slope is partially occluded by smoke and bright explosion light.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a031",
+      "statement": "At frame 80, Robot B is ahead of and to the image-right of Weapon A; its visible torso is above the upper edge of the raised rock platform right of center, while its lower portion is occluded by the rock platform.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_a004",
+      "statement": "At frame 0, the camera looks over Weapon A from above and behind it toward the Snow-Covered Rocky Battlefield; the viewpoint is higher than the visible ground surface ahead, and Weapon A occupies the lower portion of the frame.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a004",
+      "statement": "At frame 0, the camera looks over Weapon A from above and behind it toward the Snow-Covered Rocky Battlefield; the viewpoint is higher than the visible ground surface ahead, and Weapon A occupies the lower portion of the frame.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_a018",
+      "statement": "At frame 80, the camera looks over Weapon A from above and behind it toward the Snow-Covered Rocky Battlefield; the viewpoint is higher than the visible ground surface ahead, and Weapon A occupies the lower portion of the frame.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a018",
+      "statement": "At frame 80, the camera looks over Weapon A from above and behind it toward the Snow-Covered Rocky Battlefield; the viewpoint is higher than the visible ground surface ahead, and Weapon A occupies the lower portion of the frame.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_a005",
+      "statement": "At frame 0, the camera faces the rock platform ahead and the nearby Explosion and Smoke-Dust; the smoke column is left of center, and the impact sparks are near the center of the frame.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a005",
+      "statement": "At frame 0, the camera faces the rock platform ahead and the nearby Explosion and Smoke-Dust; the smoke column is left of center, and the impact sparks are near the center of the frame.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_a019",
+      "statement": "At frame 80, the camera faces the rock platform ahead and Robot B right of center on it.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a019",
+      "statement": "At frame 80, the camera faces the rock platform ahead and Robot B right of center on it.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 80,
+      "end_frame": 80,
+      "evidence_frames": [
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_a002",
+      "statement": "From frames 0 through 80, the camera undergoes slight pitching oscillations and, overall, tilts upward during the latter half.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        40,
+        41,
+        48,
+        53,
+        60,
+        61,
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a002",
+      "statement": "From frames 0 through 80, the camera undergoes slight pitching oscillations and, overall, tilts upward during the latter half.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        40,
+        41,
+        48,
+        53,
+        60,
+        61,
+        80
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_a032",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video20_cp004_a032",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video20_cp004_a033",
+      "statement": "From frames 74 through 80, more of Robot B's torso is gradually revealed near the upper edge of the rock platform right of center; its visible silhouette moves toward the top of the frame and shifts slightly to the image-left.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 74,
+      "end_frame": 80,
+      "evidence_frames": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a033",
+      "statement": "From frames 74 through 80, more of Robot B's torso is gradually revealed near the upper edge of the rock platform right of center; its visible silhouette moves toward the top of the frame and shifts slightly to the image-left.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 74,
+      "end_frame": 80,
+      "evidence_frames": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e007",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp004_a034",
+      "statement": "From frames 0 through 80, white-yellow and orange explosion flames repeatedly appear at multiple locations across the Snow-Covered Rocky Battlefield, accompanied by sparks, flying debris, and smoke-dust spreading upward.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        20,
+        21,
+        49,
+        50,
+        51,
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e004",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp004_a034",
+      "statement": "From frames 0 through 80, white-yellow and orange explosion flames repeatedly appear at multiple locations across the Snow-Covered Rocky Battlefield, accompanied by sparks, flying debris, and smoke-dust spreading upward.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 80,
+      "evidence_frames": [
+        0,
+        20,
+        21,
+        49,
+        50,
+        51,
+        78,
+        79,
+        80
+      ],
+      "subject_ids": [
+        "video20_e004",
+        "video20_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    80
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "99607015e8be9396af277fb27aebe60121d44d25fbb49c9f4452f55e555a9a9f"
+}

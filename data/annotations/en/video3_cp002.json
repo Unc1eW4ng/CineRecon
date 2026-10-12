@@ -1,0 +1,1349 @@
+{
+  "clip_id": "video3_cp002",
+  "video_id": "video3",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 27,
+  "source_frame_offset": 31,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video3_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "An adult man with short hair combed back, wearing a black coat; in the first frame, his head, part of his upper body, and a small amount of white shirt collar are visible, after which he passes behind the foreground vertical post."
+    },
+    {
+      "source_entity_id": "video3_e002",
+      "name": "Brick-and-stone wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A gray to grayish-brown masonry wall surface in the background of the passage, with irregular masonry blocks, joints, and local areas of light-colored plaster."
+    },
+    {
+      "source_entity_id": "video3_e003",
+      "name": "Wooden post-and-beam frame",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A dark wooden component in the foreground; in this clip, a broad, thick vertical post is mainly discernible, and Person A passes behind it."
+    },
+    {
+      "source_entity_id": "video3_e010",
+      "name": "Light-colored inclined surface by the window",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A grayish-brown inclined surface area near the lower part of the window opening, with a diagonal boundary and darker patches."
+    },
+    {
+      "source_entity_id": "video3_e012",
+      "name": "Window opening in the wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A deep opening in the Brick-and-stone wall, with a light-colored thick window edge, a vertical side wall, and the lower windowsill edge visible."
+    },
+    {
+      "source_entity_id": "video3_e014",
+      "name": "Green vegetation outside the window",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A distant green band-like area visible through the Window opening in the wall, with alternating dark and light green and blurred details."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video3_cp002_restore00009",
+      "statement": "In frame 0, 1 Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00010",
+      "statement": "In frame 0, the Brick-and-stone wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00011",
+      "statement": "In frame 0, the foreground vertical post of the Wooden post-and-beam frame is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00012",
+      "statement": "In frame 0, the Light-colored inclined surface by the window is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video3_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00013",
+      "statement": "In frame 0, the Window opening in the wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00014",
+      "statement": "In frame 0, the Green vegetation outside the window is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a003",
+      "statement": "In frame 0, 1 Person A is visible in the lower part of the image, slightly right of center and on the image-right side of the foreground vertical post of the Wooden post-and-beam frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a007",
+      "statement": "In frame 0, the Brick-and-stone wall is visible in the background on the image-right side.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a011",
+      "statement": "In frame 0, the thick vertical post of the Wooden post-and-beam frame is visible in the foreground on the image-left side.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00005",
+      "statement": "In frame 0, the Light-colored inclined surface by the window is visible on the image-left side.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video3_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00009",
+      "statement": "In frame 0, the Window opening in the wall is visible on the image-left side.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00013",
+      "statement": "In frame 0, the Green vegetation outside the window is visible in the distance in the upper-left part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00019",
+      "statement": "In frame 27, 1 Person A is visible in the image and is the same person as in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        0,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00020",
+      "statement": "In frame 27, the Brick-and-stone wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00021",
+      "statement": "In frame 27, the foreground vertical post of the Wooden post-and-beam frame is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00022",
+      "statement": "In frame 27, the Window opening in the wall is partially visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a021",
+      "statement": "In frame 27, 1 Person A is visible, with their head and part of their upper body emerging from the image-left side of the central vertical post of the Wooden post-and-beam frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        22,
+        23,
+        26,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a025",
+      "statement": "In frame 27, the Brick-and-stone wall is visible in the background on the image-left and image-right sides.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a029",
+      "statement": "In frame 27, the thick vertical post of the Wooden post-and-beam frame is visible in the central foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00017",
+      "statement": "In frame 27, the Window opening in the wall is visible slightly right of the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a004",
+      "statement": "In frame 0, Person A has short light brownish-gray hair and wears a black coat, with a small amount of white shirt collar visible at the side of the neck; the image includes only the head and part of the upper body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a005",
+      "statement": "In frame 0, Person A has short light brownish-gray hair, combed back with a visible part on top, leaving much of the forehead exposed; Person A wears a black coat, with a small amount of white shirt collar visible at the side of the neck, and the image includes only the head and part of the upper body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a008",
+      "statement": "In frame 0, the Brick-and-stone wall is gray to grayish-brown, covers a large area, and has rough, uneven masonry-block surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a009",
+      "statement": "In frame 0, the Brick-and-stone wall is gray to grayish-brown, covers a large area, and is rough and uneven; the masonry-block edges are irregular, there are dark joints between the blocks, and the surface has dark and light mottling.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a012",
+      "statement": "In frame 0, the Wooden post-and-beam frame mainly reveals a broad, thick vertical post that is dark brown to nearly black, has a roughly vertical elongated outline, and extends beyond the upper and lower boundaries of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a013",
+      "statement": "In frame 0, the Wooden post-and-beam frame mainly reveals a broad, thick vertical post that is dark brown to nearly black, is roughly vertical and elongated, and extends beyond the upper and lower image boundaries; the middle of the post surface has a brighter longitudinal brown band, with darker areas on both sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00006",
+      "statement": "In frame 0, the Light-colored inclined surface by the window is a light grayish-brown inclined plane.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00007",
+      "statement": "In frame 0, the Light-colored inclined surface by the window is a light grayish-brown inclined plane, with a diagonal straight edge and uneven dark patches discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00010",
+      "statement": "In frame 0, the Window opening in the wall is an opening with a light-colored thick window edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00011",
+      "statement": "In frame 0, the Window opening in the wall is an opening with a light-colored thick window edge, with the vertical window wall and diagonal windowsill discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00014",
+      "statement": "In frame 0, the Green vegetation outside the window appears as a blurred narrow green band.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00015",
+      "statement": "In frame 0, the Green vegetation outside the window appears as a blurred narrow green band, with alternating dark and light green areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a022",
+      "statement": "In frame 27, Person A has short brownish-gray hair and wears a black coat, with the head and part of the upper body emerging from the image-left side of the wooden post; most of the neck and chest are in shadow and occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a023",
+      "statement": "In frame 27, Person A has short brownish-gray hair combed back, leaving much of the forehead exposed; Person A wears a black coat, with the head and part of the upper body emerging from the image-left side of the wooden post, while most of the neck and chest are in shadow and occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a026",
+      "statement": "In frame 27, the Brick-and-stone wall is gray to grayish-brown, covers a large area, and has rough, uneven masonry-block surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a027",
+      "statement": "In frame 27, the Brick-and-stone wall is gray to grayish-brown, covers a large area, and is rough and uneven; the masonry-block edges are irregular, the joints between blocks and dark and light mottling are discernible, and a darker irregular fissure is also visible in the upper-left part.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a030",
+      "statement": "In frame 27, the Wooden post-and-beam frame mainly reveals a broad, thick vertical post that is dark brown to nearly black, has a roughly vertical elongated outline, and extends beyond the upper and lower boundaries of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a031",
+      "statement": "In frame 27, the Wooden post-and-beam frame mainly reveals a broad, thick vertical post that is dark brown to nearly black, is roughly vertical and elongated, and extends beyond the upper and lower image boundaries; the middle of the post surface has a brighter longitudinal brown band, with darker areas on both sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00018",
+      "statement": "In frame 27, only part of the light-colored thick window edge and windowsill of the Window opening in the wall is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00019",
+      "statement": "In frame 27, only part of the light-colored thick window edge and windowsill of the Window opening in the wall is visible; the plaster along the edge is rough, and light and dark areas on the inner wall are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00015",
+      "statement": "In frame 0, Person A is in the lower part of the image, on the image-right side of the foreground vertical post of the Wooden post-and-beam frame, with the head and upper body visible and the lower body cut off by the bottom boundary of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00016",
+      "statement": "In frame 0, the vertical post of the Wooden post-and-beam frame is in the foreground on the image-left side, while the Brick-and-stone wall is behind it and extends to the image-right side; Person A is in the passage between the vertical post and the wall behind.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        20
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e002",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00017",
+      "statement": "In frame 0, the Window opening in the wall is on the image-left side; the Light-colored inclined surface by the window is in the lower part of this window opening, and the Green vegetation outside the window is visible in the distance at the upper left of the opening.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video3_e010",
+        "video3_e012",
+        "video3_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a006",
+      "statement": "In frame 0, Person A is in the lower part of the image, slightly right of center and on the image-right side of the foreground vertical post of the Wooden post-and-beam frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a010",
+      "statement": "In frame 0, the Brick-and-stone wall is in the background on the image-right side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a014",
+      "statement": "In frame 0, the main visible vertical post of the Wooden post-and-beam frame is in the foreground on the image-left side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        20
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00008",
+      "statement": "In frame 0, the Light-colored inclined surface by the window is in the lower area of the Window opening in the wall on the image-left side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video3_e010",
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00012",
+      "statement": "In frame 0, the Window opening in the wall is on the image-left side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00016",
+      "statement": "In frame 0, the Green vegetation outside the window is in the distance in the upper-left part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00018",
+      "statement": "In frame 20, Person A is behind the foreground vertical post of the Wooden post-and-beam frame, with the head occluded by the vertical post and part of the upper body visible on the image-right side of the vertical post.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00023",
+      "statement": "In frame 27, Person A's head and part of the upper body are on the image-left side of the central vertical post of the Wooden post-and-beam frame, with part of the body occluded by the vertical post and the lower body cut off by the bottom boundary of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        26,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_restore00024",
+      "statement": "In frame 27, the vertical post of the Wooden post-and-beam frame occupies the central foreground, with the Brick-and-stone wall distributed across the background on the image-left and image-right sides; the Window opening in the wall is on the image-right side of the vertical post, with its left portion occluded by the post.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e002",
+        "video3_e003",
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a024",
+      "statement": "In frame 27, Person A's head and part of the upper body are on the image-left side of the image and on the image-left side of the central vertical post of the Wooden post-and-beam frame, with the body still partially occluded by the post.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        26,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a028",
+      "statement": "In frame 27, the Brick-and-stone wall is in the background on the image-left and image-right sides.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a032",
+      "statement": "In frame 27, the main visible vertical post of the Wooden post-and-beam frame is in the central foreground.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00020",
+      "statement": "In frame 27, the Window opening in the wall is slightly right of the center of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        27
+      ],
+      "subject_ids": [
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_a001",
+      "statement": "In frame 0, the camera is positioned above Person A's head, on one side of the foreground vertical post of the Wooden post-and-beam frame, looking down into the narrow passage.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a001",
+      "statement": "In frame 0, the camera is positioned above Person A's head, on one side of the foreground vertical post of the Wooden post-and-beam frame, looking down into the narrow passage.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_a019",
+      "statement": "In frame 27, the camera is still positioned above Person A's head, on one side of the foreground vertical post of the Wooden post-and-beam frame.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        26,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a019",
+      "statement": "In frame 27, the camera is still positioned above Person A's head, on one side of the foreground vertical post of the Wooden post-and-beam frame.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        26,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_a002",
+      "statement": "In frame 0, the camera looks down toward Person A beside the vertical post of the Wooden post-and-beam frame and the Brick-and-stone wall behind Person A.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e002",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a002",
+      "statement": "In frame 0, the camera looks down toward Person A beside the vertical post of the Wooden post-and-beam frame and the Brick-and-stone wall behind Person A.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e002",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_a020",
+      "statement": "In frame 27, the camera looks down toward Person A, who is emerging from the image-left side of the central vertical post of the Wooden post-and-beam frame.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        26,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_a020",
+      "statement": "In frame 27, the camera looks down toward Person A, who is emerging from the image-left side of the central vertical post of the Wooden post-and-beam frame.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 27,
+      "end_frame": 27,
+      "evidence_frames": [
+        26,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_r00001",
+      "statement": "From frames 0 to 27, the camera pans left, and the vertical post of the Wooden post-and-beam frame and the Window opening in the wall shift as a whole toward the image-right side.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 27,
+      "evidence_frames": [
+        0,
+        6,
+        13,
+        20,
+        27
+      ],
+      "subject_ids": [
+        "video3_e002",
+        "video3_e003",
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00001",
+      "statement": "From frames 0 to 27, the camera pans left, and the vertical post of the Wooden post-and-beam frame and the Window opening in the wall shift as a whole toward the image-right side.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 27,
+      "evidence_frames": [
+        0,
+        6,
+        13,
+        20,
+        27
+      ],
+      "subject_ids": [
+        "video3_e002",
+        "video3_e003",
+        "video3_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_r00002",
+      "statement": "From frame 0 to frame 27, the number of shot cuts in this clip is 0.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 27,
+      "evidence_frames": [
+        0,
+        6,
+        13,
+        20,
+        27
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video3_cp002_r00002",
+      "statement": "From frame 0 to frame 27, the number of shot cuts in this clip is 0.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 27,
+      "evidence_frames": [
+        0,
+        6,
+        13,
+        20,
+        27
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video3_cp002_r00003",
+      "statement": "From frames 0 to 27, Person A passes from the image-right side of the foreground vertical post of the Wooden post-and-beam frame behind the post, then gradually emerges from the image-left side of the vertical post; in frames 19 and 20, the head is occluded by the vertical post.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 27,
+      "evidence_frames": [
+        0,
+        14,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00003",
+      "statement": "From frames 0 to 27, Person A passes from the image-right side of the foreground vertical post of the Wooden post-and-beam frame behind the post, then gradually emerges from the image-left side of the vertical post; in frames 19 and 20, the head is occluded by the vertical post.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 27,
+      "evidence_frames": [
+        0,
+        14,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        27
+      ],
+      "subject_ids": [
+        "video3_e001",
+        "video3_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video3_cp002_r00004",
+      "statement": "Within frames 0 to 14, while moving, Person A first lowers their head slightly, then raises it, with the face continuously oriented toward the image-left side.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 14,
+      "evidence_frames": [
+        0,
+        1,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video3_cp002_r00004",
+      "statement": "Within frames 0 to 14, while moving, Person A first lowers their head slightly, then raises it, with the face continuously oriented toward the image-left side.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 14,
+      "evidence_frames": [
+        0,
+        1,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video3_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    27
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "7d5ffe7039b08fa0f95cc578a69f38d92e5f8cc3411db9d516fb638f8b788e49"
+}

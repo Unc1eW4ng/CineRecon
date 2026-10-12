@@ -1,0 +1,1417 @@
+{
+  "clip_id": "video28_cp007",
+  "video_id": "video28",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 119,
+  "source_frame_offset": 721,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video28_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A handgun that remains in the lower-right foreground, with a short body and an angular slide; it appears dark green, nearly black, at the beginning and dark gray-black at the end."
+    },
+    {
+      "source_entity_id": "video28_e013",
+      "name": "riveted metal wall panel",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Large rectangular indoor wall panels ranging from gray to blue-gray, with rows of dark-colored rivets near the seams."
+    },
+    {
+      "source_entity_id": "video28_e014",
+      "name": "metal floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A gray-brown to dark gray indoor floor assembled from rectangular panels, with a repeated fine grid texture on the surface."
+    },
+    {
+      "source_entity_id": "video28_e015",
+      "name": "dark-colored metal ceiling",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark-colored upper surface indoors, with multiple parallel layered trim strips at the wall-ceiling junction."
+    },
+    {
+      "source_entity_id": "video28_e019",
+      "name": "hatch guardrail",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Dark gray to black angled guardrails on both sides of the hatch; in frame 0 of this clip, only parts of them are exposed at the lower left and lower right edges, with the passage floor between them.",
+      "identity_context": [
+        {
+          "clip_id": "video28_cp004",
+          "frames": [
+            84,
+            85,
+            86,
+            88
+          ],
+          "purpose": "identity_only"
+        }
+      ]
+    },
+    {
+      "source_entity_id": "video28_e023",
+      "name": "gray fragments",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A group of gray irregular panel-like fragments distributed near the base of the wall at the rear of the passage, including long narrow pieces and sharp-cornered pieces."
+    },
+    {
+      "source_entity_id": "video28_e024",
+      "name": "yellow stain",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Irregular yellow patches on the passage floor and at the base of the wall, accompanied by scattered small spots around them."
+    },
+    {
+      "source_entity_id": "video28_e025",
+      "name": "indoor light fixture",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Rectangular light fixtures on the ceiling, with gray outer frames and blue-white or warm-white illuminated surfaces."
+    },
+    {
+      "source_entity_id": "video28_e027",
+      "name": "yellow-and-black marked horizontal barrier",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A dark-colored elongated component inside an opening in the wall, with spaced yellow short blocks and parallel gray strip-like edges visible below."
+    },
+    {
+      "source_entity_id": "video28_e028",
+      "name": "dark red rectangular panel",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A partially exposed dark red rectangular surface in the upper part of the opening on the left, with a dark-colored vertical strip on its right edge."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video28_cp007_restore00015",
+      "statement": "In frame 0, Weapon A is visible, with a count of one.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_a004",
+      "statement": "In frame 0, Weapon A is visible in the lower-right foreground of the image and is a handgun that appears dark green, nearly black, in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00001",
+      "statement": "In frame 0, parts of the hatch guardrail are visible on both the left and right sides of the lower edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00004",
+      "statement": "In frame 0, two rectangular light fixtures are visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00019",
+      "statement": "In frame 0, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00020",
+      "statement": "In frame 0, the metal floor is visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00021",
+      "statement": "In frame 0, the dark-colored metal ceiling is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00022",
+      "statement": "In frame 0, gray fragments are visible at the rear of the passage.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00023",
+      "statement": "In frame 0, yellow stains are visible on the passage floor and at the base of the wall.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00017",
+      "statement": "In frame 86, part of the yellow-and-black marked horizontal barrier is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 86,
+      "end_frame": 86,
+      "evidence_frames": [
+        85,
+        86,
+        87
+      ],
+      "subject_ids": [
+        "video28_e027"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00007",
+      "statement": "In frame 86, the yellow-and-black marked horizontal barrier is visible inside the opening on the left side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 86,
+      "end_frame": 86,
+      "evidence_frames": [
+        85,
+        86,
+        87
+      ],
+      "subject_ids": [
+        "video28_e027"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00010",
+      "statement": "In frame 86, part of the dark red rectangular panel is visible in the upper-left part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 86,
+      "end_frame": 86,
+      "evidence_frames": [
+        85,
+        86,
+        87
+      ],
+      "subject_ids": [
+        "video28_e028"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00016",
+      "statement": "In frame 119, Weapon A is visible, with a count of one.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_a017",
+      "statement": "In frame 119, Weapon A is a dark gray-black handgun visible in the lower-right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00024",
+      "statement": "In frame 119, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00025",
+      "statement": "In frame 119, the metal floor is visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00026",
+      "statement": "In frame 119, the dark-colored metal ceiling is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_a007",
+      "statement": "In frame 0, Weapon A is a short-bodied handgun with a visible angular elongated slide, and appears dark green, nearly black, overall in the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_a008",
+      "statement": "In frame 0, Weapon A is a short-bodied handgun with a visible angular elongated slide, and appears dark green, nearly black, overall in the image; the top of the slide has a brighter ridge line, and an elongated dark groove is visible on the side.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00002",
+      "statement": "In frame 0, the visible parts of the hatch guardrail are dark gray to black, with angled contours.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00003",
+      "statement": "In frame 0, the hatch guardrail is dark gray to black; the visible parts have straight edges that form angles; the passage floor is exposed between the two parts on the left and right, and the lower portions of the components are cut off by the lower edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00005",
+      "statement": "In frame 0, the two rectangular light fixtures are one near and one far, emitting blue-white light and warm-white light, respectively.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00006",
+      "statement": "In frame 0, the two rectangular indoor light fixtures are one near and one far; the near light emits blue-white light, and the far light emits warm-white light; the outer edges of the illuminated surfaces have protruding dark gray frames, and the light fixtures are arranged along the top of the passage.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00027",
+      "statement": "In frame 0, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00028",
+      "statement": "In frame 0, the metal floor is gray-brown to dark gray and is assembled from rectangular panels with repeated surface textures.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00029",
+      "statement": "In frame 0, the dark-colored metal ceiling is a dark gray, dark-greenish panel-like ceiling surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00030",
+      "statement": "In frame 0, a large number of gray fragments are shaped like irregular panel pieces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00031",
+      "statement": "In frame 0, the yellow stains are irregular patches.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00032",
+      "statement": "In frame 0, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces; there are narrow dark-colored gaps between the panel surfaces, round rivets are arranged along the edges of the seams, and layered trim strips adjoin the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00033",
+      "statement": "In frame 0, the metal floor is gray-brown to dark gray and is assembled from rectangular panels; the surface has a repeated fine square-grid embossed texture, and relatively straight seams are visible between the panels.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00034",
+      "statement": "In frame 0, the dark-colored metal ceiling is a dark gray, dark-greenish panel-like ceiling surface, with multiple parallel layered trim strips distributed along the wall-ceiling junction.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00035",
+      "statement": "In frame 0, a large number of gray fragments are shaped like irregular panel pieces, including long narrow pieces and sharp-cornered pieces, overlapping one another and clustered near the base of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00036",
+      "statement": "In frame 0, the yellow stains are irregular patches, with scattered small splatter spots along their edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00008",
+      "statement": "In frame 86, the yellow-and-black marked horizontal barrier is a dark-colored elongated strip with yellow markings on its surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 86,
+      "end_frame": 86,
+      "evidence_frames": [
+        86
+      ],
+      "subject_ids": [
+        "video28_e027"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00009",
+      "statement": "In frame 86, the yellow-and-black marked horizontal barrier is a dark-colored elongated strip, with short yellow blocks arranged at intervals; parallel gray strip-like edges are visible on the lower side, and its left part is occluded by the nearby wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 86,
+      "end_frame": 86,
+      "evidence_frames": [
+        85,
+        86,
+        87
+      ],
+      "subject_ids": [
+        "video28_e027"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00011",
+      "statement": "In frame 86, part of the dark red rectangular panel is visible, with a dark-colored vertical strip on the right edge of the red surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 86,
+      "end_frame": 86,
+      "evidence_frames": [
+        85,
+        86,
+        87
+      ],
+      "subject_ids": [
+        "video28_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00012",
+      "statement": "In frame 86, part of the dark red rectangular panel is visible, with a dark-colored vertical strip on the right edge of the red surface; the red surface has a light-to-dark gradient, and its left part is occluded by the nearby wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 86,
+      "end_frame": 86,
+      "evidence_frames": [
+        85,
+        86,
+        87
+      ],
+      "subject_ids": [
+        "video28_e028"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_a020",
+      "statement": "In frame 119, Weapon A is a dark gray-black short-bodied handgun with a visible angular elongated slide.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_a021",
+      "statement": "In frame 119, Weapon A is a dark gray-black short-bodied handgun with a visible angular elongated slide; the top of the slide has a brighter ridge line, an elongated dark groove is visible on the side, and there is a small protrusion on the upper rear portion.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00037",
+      "statement": "In frame 119, the riveted metal wall panel is blue-gray to dark blue-gray and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00038",
+      "statement": "In frame 119, the metal floor is dark gray and is assembled from rectangular panels with repeated surface textures.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00039",
+      "statement": "In frame 119, the dark-colored metal ceiling is nearly black, and only a narrow strip of the ceiling surface is visible above.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00040",
+      "statement": "In frame 119, the riveted metal wall panel is blue-gray to dark blue-gray and consists of large rectangular panel surfaces; there are narrow dark-colored gaps between the panel surfaces, round rivets are arranged along the edges of the seams, and layered trim strips adjoin the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00041",
+      "statement": "In frame 119, the metal floor is dark gray and is assembled from rectangular panels; the fine square-grid texture on the surface is still discernible, and there are relatively straight seams between the panels.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00042",
+      "statement": "In frame 119, the dark-colored metal ceiling is nearly black, and only a narrow strip of the ceiling surface is visible above; multiple parallel layered trim strips are visible along the wall-ceiling junction.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00008",
+      "statement": "In frame 0, the passage floor extends from nearby in the lower part of the image toward the rear in the middle, meeting the wall at its visible end; walls enclose the passage on the left and right sides, and the ceiling is above the floor and meets the upper edges of the walls.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00009",
+      "statement": "In frame 0, the hatch guardrail partially enters the image on the left and right sides of the lower edge, with the passage floor visible between the two parts.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00010",
+      "statement": "In frame 0, the gray fragments are on the floor at the base of the wall at the rear of the passage, with some fragments stacked on one another.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e023",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00011",
+      "statement": "In frame 0, Weapon A is in the lower-right foreground of the image, with its front end pointing toward the upper left of the image, occluding parts of the wall and floor behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00043",
+      "statement": "In frame 0, Weapon A is in the lower-right foreground of the image, occluding part of the riveted metal wall panel and metal floor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00044",
+      "statement": "In frame 0, the gray fragments are mainly concentrated on the floor at the base of the wall at the rear of the passage; the yellow stains are distributed across the passage floor and along the bases of the walls on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e023",
+        "video28_e024",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00012",
+      "statement": "In frame 86, the opening in the wall is on the left side of the image, the yellow-and-black marked horizontal barrier is above the floor, and its left part is occluded by the nearby wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 86,
+      "end_frame": 86,
+      "evidence_frames": [
+        85,
+        86,
+        87
+      ],
+      "subject_ids": [
+        "video28_e027",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00013",
+      "statement": "In frame 119, the floor is in the lower part of the image and meets the base of the rear wall in the middle; the ceiling is above and connects to the upper edge of the wall; the nearby wall occupies the right side of the image, occluding the indoor area behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_restore00014",
+      "statement": "In frame 119, Weapon A is in the lower-right foreground of the image, with its front end pointing toward the upper left of the image, occluding part of the nearby wall behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00045",
+      "statement": "In frame 119, Weapon A is in the lower-right foreground of the image, occluding part of the nearby riveted metal wall panel on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_r00015",
+      "statement": "In frame 0, the camera is inside the riveted metal interior and is in front of the gray fragments and yellow stains.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015",
+        "video28_e023",
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00015",
+      "statement": "In frame 0, the camera is inside the riveted metal interior and is in front of the gray fragments and yellow stains.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015",
+        "video28_e023",
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_r00016",
+      "statement": "In frame 119, the camera is in a darker riveted metal passage area, immediately adjacent to the nearby wall on the right, with the rear wall and metal floor visible ahead.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        110,
+        111,
+        112,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00016",
+      "statement": "In frame 119, the camera is in a darker riveted metal passage area, immediately adjacent to the nearby wall on the right, with the rear wall and metal floor visible ahead.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        110,
+        111,
+        112,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_r00017",
+      "statement": "In frame 0, the camera faces the gray fragments and yellow stains and the metal passage area where they are located.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e023",
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00017",
+      "statement": "In frame 0, the camera faces the gray fragments and yellow stains and the metal passage area where they are located.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e023",
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_r00018",
+      "statement": "In frame 119, the camera faces the riveted metal wall panel in the darker passage area.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00018",
+      "statement": "In frame 119, the camera faces the riveted metal wall panel in the darker passage area.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 119,
+      "end_frame": 119,
+      "evidence_frames": [
+        119
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_r00013",
+      "statement": "From frames 0 to 119, the camera first moves forward along the passage, approaching the area containing the gray fragments and yellow stains; in the later portion, it moves toward the opening on the right, rounds the corner of the wall, and reaches a darker passage area; in the final portion, it tends to come to a stop near the wall.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        34,
+        35,
+        36,
+        52,
+        65,
+        86,
+        101,
+        102,
+        103,
+        104,
+        105,
+        109,
+        110,
+        111,
+        112,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e023",
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00013",
+      "statement": "From frames 0 to 119, the camera first moves forward along the passage, approaching the area containing the gray fragments and yellow stains; in the later portion, it moves toward the opening on the right, rounds the corner of the wall, and reaches a darker passage area; in the final portion, it tends to come to a stop near the wall.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        34,
+        35,
+        36,
+        52,
+        65,
+        86,
+        101,
+        102,
+        103,
+        104,
+        105,
+        109,
+        110,
+        111,
+        112,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e023",
+        "video28_e024"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_r00014",
+      "statement": "From frames 0 to 119, the camera initially bobs up and down, then turns to the right and downward to look at the stained floor and the opening on the right; from approximately frames 67 to 88, it sweeps back to the left and raises its view; starting at approximately frame 89, it turns right again toward the darker passage, and its orientation tends to stabilize in the final portion.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        12,
+        34,
+        52,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        101,
+        104,
+        109,
+        112,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp007_r00014",
+      "statement": "From frames 0 to 119, the camera initially bobs up and down, then turns to the right and downward to look at the stained floor and the opening on the right; from approximately frames 67 to 88, it sweeps back to the left and raises its view; starting at approximately frame 89, it turns right again toward the darker passage, and its orientation tends to stabilize in the final portion.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        12,
+        34,
+        52,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        101,
+        104,
+        109,
+        112,
+        118,
+        119
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp007_a026",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59,
+        60,
+        71,
+        72,
+        83,
+        84,
+        95,
+        96,
+        107,
+        108,
+        119
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video28_cp007_a026",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 119,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59,
+        60,
+        71,
+        72,
+        83,
+        84,
+        95,
+        96,
+        107,
+        108,
+        119
+      ],
+      "subject_ids": []
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    86,
+    119
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "61dee2d66a00fa2eed894aa2b3829cab5d7fd1d29248e23db966dd1f8caea1d5"
+}

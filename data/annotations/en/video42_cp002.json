@@ -1,0 +1,1125 @@
+{
+  "clip_id": "video42_cp002",
+  "video_id": "video42",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 46,
+  "source_frame_offset": 48,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video42_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The person who is below the other person in the image in frame 0 and has an arm extended toward the lower right of the image; loose light-blond hair, dark roots, and an olive-green long-sleeved top are discernible. After passing behind the foreground occlusion, this person is still below Person B in the image in the final frame."
+    },
+    {
+      "source_entity_id": "video42_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The person who is above Person A in the image in frame 0, with light-colored hair and part of a light beige top visible; after being occluded, the light-colored head and sleeve reappear in the upper left of the image, consistent with the continuous correspondence to Person A."
+    },
+    {
+      "source_entity_id": "video42_e003",
+      "name": "stairs",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The continuous steps extending toward the top of the image at the beginning."
+    },
+    {
+      "source_entity_id": "video42_e004",
+      "name": "wall surface",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The stairs and the fixed wall surfaces on both sides of the interior, including the green-gray, brownish-tan, and bluish-gray wall-surface areas in the image."
+    },
+    {
+      "source_entity_id": "video42_e007",
+      "name": "glowing strip",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The long pale cyan-white light source by the wall in the current image; this refers only to the visible glowing strip and does not include the white panel or table lamp."
+    },
+    {
+      "source_entity_id": "video42_e008",
+      "name": "foreground railing",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The thick black beam and thin railing that are higher than the people and close to the camera, moving across the field of view as the camera moves."
+    },
+    {
+      "source_entity_id": "video42_e009",
+      "name": "floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The brown indoor floor area beneath the people's feet and in front of the sofa."
+    },
+    {
+      "source_entity_id": "video42_e010",
+      "name": "scattered debris",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The collection of light-colored, irregular debris distributed across the floor, excluding furniture and clothing."
+    },
+    {
+      "source_entity_id": "video42_e011",
+      "name": "sofa",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The furniture for sitting or reclining on which the people indoors lean, including its main body, light-brown cushion, green wrinkled cover cloth, and multicolored striped covering."
+    },
+    {
+      "source_entity_id": "video42_e012",
+      "name": "circular unit panel",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "first_appearance_rule": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; local frame numbering starts at 0.",
+      "identification": "The rectangular panel with a white base surface and black circular units inside a wooden frame; the device's function is not a scoring criterion."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "S:video42_cp002_i0001",
+      "statement": "In frame 0, the identifiable people are Person A and Person B, 2 people in total.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0006",
+      "statement": "In frame 0, the wall surface is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e004"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0009",
+      "statement": "In frame 0, the glowing strip is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e007"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0012",
+      "statement": "In frame 0, the foreground railing is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e008"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_reviewadd001",
+      "statement": "In frame 0, part of the stairs remains visible in the upper-left portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e003"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0019",
+      "statement": "In frame 46, the identifiable people are Person A and Person B, 2 people in total.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0024",
+      "statement": "In frame 46, the glowing strip is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e007"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0027",
+      "statement": "In frame 46, the foreground railing is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e008"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0030",
+      "statement": "In frame 46, the floor is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0033",
+      "statement": "In frame 46, the scattered debris is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e010"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0036",
+      "statement": "In frame 46, the sofa is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0039",
+      "statement": "In frame 46, the circular unit panel is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e012"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0042",
+      "statement": "In frame 46, the wall surface is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e004"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0002",
+      "statement": "In frame 0, Person A's loose light-blond hair and olive-green long-sleeved top are visible, with the sleeve extending along the outstretched arm.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0003",
+      "statement": "In frame 0, Person A's loose light-blond hair and olive-green long-sleeved top are visible, with the sleeve extending along the outstretched arm. The roots are darker, the locks on top of the head are curled and spread apart, and the sleeve surface has continuous folds.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0004",
+      "statement": "In frame 0, Person B's light-colored hair and part of the light-colored upper body are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0005",
+      "statement": "In frame 0, Person B's light-colored hair and part of the light-colored upper body are visible. The hair and shoulder form a brighter area above Person A in the image, while the rest of the body is occluded.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e002",
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0007",
+      "statement": "In frame 0, the wall surface is green-gray and surrounds the narrow space around the stairwell entrance.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e004",
+        "video42_e003"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0008",
+      "statement": "In frame 0, the wall surface is green-gray and surrounds the narrow space around the stairwell entrance. Irregular peeling and patches of varying lightness and darkness are visible on the surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e004",
+        "video42_e003"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0010",
+      "statement": "In frame 0, the glowing strip is a long pale cyan-white strip with intersecting vertical and horizontal segments.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e007"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0011",
+      "statement": "In frame 0, the glowing strip is a long pale cyan-white strip with intersecting vertical and horizontal segments. The strip's edges are bright and continuous, and the junction forms a right-angle turn.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e007"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0013",
+      "statement": "In frame 0, the foreground railing includes a thick black vertical component and part of a large diagonal beam on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e008"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0014",
+      "statement": "In frame 0, the foreground railing includes a thick black vertical component and part of a large diagonal beam on the right. The edges of the nearby components are clear, and some thinner black rods overlap the thick beam.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e008"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_reviewadd002",
+      "statement": "In frame 0, the stairs appear as part of a continuous series of dim gray steps in the upper-left portion of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e003"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_reviewadd003",
+      "statement": "In frame 0, the stairs appear as part of a continuous series of dim gray steps in the upper-left portion of the image; the horizontal front edges form repeated layers, and scattered light-colored patches are visible on the surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e003"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0020",
+      "statement": "In frame 46, Person A's light-blond hair, olive-green long-sleeved top, and dark-colored lower body are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0021",
+      "statement": "In frame 46, Person A's light-blond hair, olive-green long-sleeved top, and dark-colored lower body are visible. The roots on top of the head are darker, and the top forms folds near the bent elbow.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0022",
+      "statement": "In frame 46, Person B's light-colored hair, light-colored upper body, and part of an arm are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0023",
+      "statement": "In frame 46, Person B's light-colored hair, light-colored upper body, and part of an arm are visible. The light-colored locks of hair and sleeve are in the upper-left portion of the image, and part of the outline is interrupted by the nearby railing.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0025",
+      "statement": "In frame 46, a segment of the glowing strip is visible by the wall on the left as a horizontal pale cyan-white bright strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e007"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0026",
+      "statement": "In frame 46, a segment of the glowing strip is visible by the wall on the left as a horizontal pale cyan-white bright strip. The bright strip is interrupted by a foreground component, while the remaining edge is still continuously bright.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e007"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0028",
+      "statement": "In frame 46, the foreground railing consists of thick black beams and multiple slender rods.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e008"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0029",
+      "statement": "In frame 46, the foreground railing consists of thick black beams and multiple slender rods. A thick beam runs diagonally across the upper portion of the image, and the thin rods form vertical lines in the middle of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e008"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0031",
+      "statement": "In frame 46, the floor is brownish-tan and has a dense, short-striped texture.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0032",
+      "statement": "In frame 46, the floor is brownish-tan and has a dense, short-striped texture. The joined stripes form a pattern of diagonal lines that repeatedly change direction.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0034",
+      "statement": "In frame 46, the scattered debris consists of multiple small, light-colored, irregular pieces on the floor.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e010",
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0035",
+      "statement": "In frame 46, the scattered debris consists of multiple small, light-colored, irregular pieces on the floor. The pieces vary in shape and size, forming scattered bright spots on the dark floor.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e010",
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0037",
+      "statement": "In frame 46, part of the sofa has a light-brown cushion, a green cover cloth, and a striped covering in alternating red, green, and brown.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0038",
+      "statement": "In frame 46, part of the sofa has a light-brown cushion, a green cover cloth, and a striped covering in alternating red, green, and brown. The cushion surface has strip-like folds, the green fabric is heaped up, and the multicolored covering has zigzag bands.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0040",
+      "statement": "In frame 46, the circular unit panel has a white rectangular base surface and several dark circular units, with a brown frame around the outside.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e012"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0041",
+      "statement": "In frame 46, the circular unit panel has a white rectangular base surface and several dark circular units, with a brown frame around the outside. The circular units differ in size, and the larger dark circle contains a small light-colored marking.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e012"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0043",
+      "statement": "In frame 46, part of a greenish-gray vertical section of the wall surface is visible on the left side of the interior.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e004"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0044",
+      "statement": "In frame 46, part of a greenish-gray vertical section of the wall surface is visible on the left side of the interior. The surface has irregular light-colored patches, and its edge is adjacent to the glowing strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e004"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0015",
+      "statement": "In frame 0, Person A is below Person B in the image, and one of Person A's arms extends toward the lower right of the image; their bodies are close together.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0016",
+      "statement": "In frame 0, the foreground railing lies in front of the wall surface and glowing strip, occluding parts of the areas behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e008",
+        "video42_e004",
+        "video42_e007"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0045",
+      "statement": "In frame 46, Person A is below Person B in the image and has turned around; the two remain within close range of each other.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0046",
+      "statement": "In frame 46, the foreground railing runs across in front of Person A and Person B, respectively occluding their heads and parts of their upper bodies.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e008"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0047",
+      "statement": "In frame 46, Person A and Person B are to the image-left of the sofa, and the sofa is to their right.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0048",
+      "statement": "In frame 46, the scattered debris is dispersed across the floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e009",
+        "video42_e010"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0049",
+      "statement": "In frame 46, the circular unit panel is above and to the image-left of the sofa, with the floor visible between them.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e011",
+        "video42_e012",
+        "video42_e009"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0017",
+      "statement": "In frame 0, the camera is above Person A and Person B, with the nearby railing between the camera and the two people.",
+      "category": "camera_position",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e004",
+        "video42_e008"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0050",
+      "statement": "In frame 46, the camera looks down from a high position indoors at the two people and the area in front of the sofa, with the railing in the foreground.",
+      "category": "camera_position",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e009",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0018",
+      "statement": "In frame 0, the camera faces the two people at the stairwell entrance and the adjacent wall area.",
+      "category": "camera_target",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e004",
+        "video42_e008",
+        "video42_e003"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0051",
+      "statement": "In frame 46, the camera faces the two people indoors and the floor beside the sofa.",
+      "category": "camera_target",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 46,
+      "end_frame": 46,
+      "evidence_frames": [
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e009",
+        "video42_e011"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0052",
+      "statement": "From frames 0 through 46, the camera's viewing area moves from the stairwell entrance toward the interior where the sofa is located, while the foreground railing continuously crosses the framing.",
+      "category": "camera_translation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        23,
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e008",
+        "video42_e011",
+        "video42_e003"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0055",
+      "statement": "From frames 0 through 46, the number of shot cuts in this clip is 0.",
+      "category": "cut_count",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        23,
+        46
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "S:video42_cp002_i0053",
+      "statement": "From frames 0 through 46, Person A and Person B move from the stairwell entrance toward the interior, entering the space to the image-left of the sofa by the end of the interval.",
+      "category": "object_motion",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        23,
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002",
+        "video42_e011",
+        "video42_e003"
+      ]
+    },
+    {
+      "item_key": "S:video42_cp002_i0054",
+      "statement": "From frames 0 through 46, Person A and Person B change the orientation of their upper bodies while in close contact, and one of Person A's arms changes from extending outward to being close to the space between the two people.",
+      "category": "action_event",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 46,
+      "evidence_frames": [
+        0,
+        23,
+        46
+      ],
+      "subject_ids": [
+        "video42_e001",
+        "video42_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [],
+  "evaluation_cut_frames": [],
+  "source_sha256": "ca7d376a74fa4ae5cd882270619e25dc674014feb39eb758db4544838d80f9e5"
+}

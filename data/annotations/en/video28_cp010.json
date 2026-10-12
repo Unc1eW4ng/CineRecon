@@ -1,0 +1,1056 @@
+{
+  "clip_id": "video28_cp010",
+  "video_id": "video28",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 79,
+  "source_frame_offset": 1061,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video28_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The dark gray-black handgun in the lower right of the first-person view, with a relatively squared-off upper outline and the lower part of the gun body cut off by the edge of the frame."
+    },
+    {
+      "source_entity_id": "video28_e012",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The older man facing the camera, with gray-white hair puffed out toward both sides and a gray-white mustache on his upper lip, wearing a long white coat, a blue shirt, a red-and-blue tie, and khaki pants."
+    },
+    {
+      "source_entity_id": "video28_e013",
+      "name": "riveted metal wall panel",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The large light gray to blue-gray wall panels behind Person A and on both sides of the frame, with seams along the panel edges and rows of dark-colored rivets."
+    },
+    {
+      "source_entity_id": "video28_e014",
+      "name": "metal floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The extremely small patch of gray-brown floor area visible near the base of the wall along the bottom edge of the frame."
+    },
+    {
+      "source_entity_id": "video28_e015",
+      "name": "dark-colored metal ceiling",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The portion of the dark gray ceiling along the top edge of the frame, with layered trim visible along the top of the wall."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video28_cp010_restore00007",
+      "statement": "At frame 0, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00010",
+      "statement": "At frame 0, Weapon A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00011",
+      "statement": "At frame 0, one person is visible in the frame, namely Person A.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a004",
+      "statement": "At frame 0, Weapon A is a black handgun, visible in the lower-right foreground of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a010",
+      "statement": "At frame 0, Person A is clearly visible in the central area of the frame, with gray-white hair and a white coat visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00004",
+      "statement": "At frame 0, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00005",
+      "statement": "At frame 0, a small portion of the metal floor is visible along the bottom edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00006",
+      "statement": "At frame 0, the dark-colored metal ceiling is visible in the upper part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00012",
+      "statement": "At frame 79, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00014",
+      "statement": "At frame 79, Weapon A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        78,
+        79
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00015",
+      "statement": "At frame 79, one person is visible in the frame, namely Person A.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        78,
+        79
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a017",
+      "statement": "At frame 79, Weapon A is a black handgun, visible in the lower-right foreground of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        78,
+        79
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a023",
+      "statement": "At frame 79, Person A is clearly visible in the central area of the frame, with gray-white hair and a white coat visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        78,
+        79
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00007",
+      "statement": "At frame 79, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00008",
+      "statement": "At frame 79, the dark-colored metal ceiling is visible in the upper part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a007",
+      "statement": "At frame 0, Weapon A is a dark gray-black handgun with a short gun body and a relatively squared-off upper slide outline; the lower part of the gun body is cut off by the bottom edge of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a008",
+      "statement": "At frame 0, Weapon A is a dark gray-black handgun with a short gun body and a relatively squared-off upper slide outline, and the lower part of the gun body is cut off by the bottom edge of the frame; the ridge line on top of the slide and the outline of the front end of the gun body are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a011",
+      "statement": "At frame 0, Person A is an older man with gray-white hair, standing facing the camera and wearing a long white coat, a blue shirt, a red-and-blue tie, and khaki pants; only the upper part of the pants is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a012",
+      "statement": "At frame 0, Person A is an older man with gray-white hair, standing facing the camera and wearing a long white coat, a blue shirt, a red-and-blue tie, and khaki pants, with only the upper part of the pants visible; his hair puffs out toward both sides, he has a gray-white mustache on his upper lip, the tie has diagonal stripes, there is a rectangular name badge on the left side of his chest, and the coat lapels are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00009",
+      "statement": "At frame 0, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00010",
+      "statement": "At frame 0, the portion of the metal floor exposed along the bottom edge of the frame is gray-brown, and the visible area is very small.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00011",
+      "statement": "At frame 0, the dark-colored metal ceiling consists of dark gray panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00012",
+      "statement": "At frame 0, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces; there are narrow dark-colored gaps along the panel edges, dark-colored rivets are arranged along the seam edges, and the upper edge connects to layered trim.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00013",
+      "statement": "At frame 0, the visible portion of the metal floor is gray-brown and is exposed only as a very narrow patch along the bottom edge of the frame; only rough variations in light and dark can be discerned, and the specific embossed pattern is unclear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00014",
+      "statement": "At frame 0, the dark-colored metal ceiling consists of dark gray panel surfaces, with multiple parallel strips of trim distributed along the top of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a020",
+      "statement": "At frame 79, Weapon A is a dark gray-black handgun with a short gun body and a relatively squared-off upper slide outline; the lower part of the gun body is cut off by the bottom edge of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        78,
+        79
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a021",
+      "statement": "At frame 79, Weapon A is a dark gray-black handgun with a short gun body and a relatively squared-off upper slide outline, and the lower part of the gun body is cut off by the bottom edge of the frame; the ridge line on top of the slide and the outline of the front end of the gun body are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        78,
+        79
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a024",
+      "statement": "At frame 79, Person A is an older man with gray-white hair, remaining standing facing the camera and wearing a long white coat, a blue shirt, a red-and-blue tie, and khaki pants; only the upper part of the pants is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a025",
+      "statement": "At frame 79, Person A is an older man with gray-white hair, remaining standing facing the camera and wearing a long white coat, a blue shirt, a red-and-blue tie, and khaki pants, with only the upper part of the pants visible; his hair puffs out toward both sides, he has a gray-white mustache on his upper lip, the tie has diagonal stripes, there is a rectangular name badge on the left side of his chest, and the coat lapels are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00015",
+      "statement": "At frame 79, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00016",
+      "statement": "At frame 79, the dark-colored metal ceiling consists of dark gray panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00017",
+      "statement": "At frame 79, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces; there are narrow dark-colored gaps along the panel edges, dark-colored rivets are arranged along the seam edges, and the upper edge connects to layered trim.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00018",
+      "statement": "At frame 79, the dark-colored metal ceiling consists of dark gray panel surfaces, with multiple parallel strips of trim distributed along the top of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00008",
+      "statement": "At frame 0, the partially visible area of the metal floor is located along the bottom edge of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00009",
+      "statement": "At frame 0, the dark-colored metal ceiling is located along the top edge of the frame and adjoins the riveted metal wall panels on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00016",
+      "statement": "At frame 0, Weapon A is located in the lower-right foreground of the frame, to the image-right of Person A and closer to the camera, occluding part of the riveted metal wall panel behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e012",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00017",
+      "statement": "At frame 0, Person A is located in the central area of the frame, facing the camera directly; the riveted metal wall panels are distributed behind Person A and on the image-left and image-right sides of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e012",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00019",
+      "statement": "At frame 0, Weapon A is located in the lower-right foreground of the frame, occluding part of the riveted metal wall panel behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00020",
+      "statement": "At frame 0, Person A is located in the central area of the frame inside the riveted metal interior.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e012",
+        "video28_e013",
+        "video28_e014",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00013",
+      "statement": "At frame 79, the dark-colored metal ceiling is located along the top edge of the frame and adjoins the riveted metal wall panels on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e015",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00018",
+      "statement": "At frame 79, Weapon A is located in the lower-right foreground of the frame, to the image-right of Person A and closer to the camera, occluding part of the riveted metal wall panel behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e012",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_restore00019",
+      "statement": "At frame 79, Person A is located in the central area of the frame, facing the camera directly; the riveted metal wall panels are distributed behind Person A and on the image-left and image-right sides of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e012",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00021",
+      "statement": "At frame 79, Weapon A is located in the lower-right foreground of the frame, occluding part of the riveted metal wall panel behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00022",
+      "statement": "At frame 79, Person A is located in the central area of the frame inside the riveted metal interior.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e012",
+        "video28_e013",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_r00002",
+      "statement": "At frame 0, the camera is located inside the riveted metal interior and in front of Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015",
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00002",
+      "statement": "At frame 0, the camera is located inside the riveted metal interior and in front of Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015",
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_r00003",
+      "statement": "At frame 79, the camera is located inside the riveted metal interior and in front of Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e015",
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00003",
+      "statement": "At frame 79, the camera is located inside the riveted metal interior and in front of Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e015",
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_a002",
+      "statement": "At frame 0, the camera is pointed toward Person A and the metal interior area where Person A is located.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a002",
+      "statement": "At frame 0, the camera is pointed toward Person A and the metal interior area where Person A is located.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_a015",
+      "statement": "At frame 79, the camera is pointed toward Person A and the metal interior area where Person A is located.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_a015",
+      "statement": "At frame 79, the camera is pointed toward Person A and the metal interior area where Person A is located.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 79,
+      "end_frame": 79,
+      "evidence_frames": [
+        79
+      ],
+      "subject_ids": [
+        "video28_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_r00001",
+      "statement": "From frame 0 through frame 79, the camera remains essentially in place relative to the riveted metal wall panel, with no obvious translation visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 79,
+      "evidence_frames": [
+        0,
+        16,
+        17,
+        18,
+        23,
+        24,
+        25,
+        41,
+        42,
+        43,
+        44,
+        78,
+        79
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp010_r00001",
+      "statement": "From frame 0 through frame 79, the camera remains essentially in place relative to the riveted metal wall panel, with no obvious translation visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 79,
+      "evidence_frames": [
+        0,
+        16,
+        17,
+        18,
+        23,
+        24,
+        25,
+        41,
+        42,
+        43,
+        44,
+        78,
+        79
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp010_a030",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 79,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59,
+        60,
+        71,
+        72,
+        79
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video28_cp010_a030",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 79,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59,
+        60,
+        71,
+        72,
+        79
+      ],
+      "subject_ids": []
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    79
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "61dee2d66a00fa2eed894aa2b3829cab5d7fd1d29248e23db966dd1f8caea1d5"
+}

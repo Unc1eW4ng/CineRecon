@@ -1,0 +1,2059 @@
+{
+  "clip_id": "video24_cp010",
+  "video_id": "video24",
+  "fps": 29.97002997002997,
+  "start_frame": 0,
+  "end_frame": 58,
+  "source_frame_offset": 499,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video24_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "Person A in frame 0 of this clip is nearby on the left. A person with short dark hair, wearing a blue-gray rolled-sleeve top, tan-brown pants, and brown crossed shoulder straps; tracked by clothing and continuous movement, and the position may change with the camera view."
+    },
+    {
+      "source_entity_id": "video24_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The other person who continuously interacts with Person A in this clip. A person with relatively short gray-brown hair, wearing a dark crew-neck short-sleeve top and dark long pants; does not have Person A's crossed shoulder straps and continuously interacts with Person A while holding a sword."
+    },
+    {
+      "source_entity_id": "video24_e003",
+      "name": "Sword A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The sword held by Person A, identified by its holding relationship with Person A and continuous movement; a long curved blade and a metal guard near the hand are visible."
+    },
+    {
+      "source_entity_id": "video24_e004",
+      "name": "Sword B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The sword held by Person B, identified by its holding relationship with Person B and continuous movement; its designation does not change based on being at the top or bottom of the image or on momentary reflections."
+    },
+    {
+      "source_entity_id": "video24_e005",
+      "name": "Wooden Plank Floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous wooden-plank surface beneath the people's feet and between the two people, with seams extending into the distance; excludes the stairs above, the Pillar, and scattered metal objects."
+    },
+    {
+      "source_entity_id": "video24_e006",
+      "name": "Metal Debris on the Ground",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A collection of disc-shaped and irregular small metal objects scattered and piled on the Wooden Plank Floor; individual pieces are not numbered, and Sparks from Clashing Swords in the air are excluded."
+    },
+    {
+      "source_entity_id": "video24_e007",
+      "name": "Pillar",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A thick upright columnar structural component indoors, visible at the side and in the background; defined separately from the closely spaced rods of the Grating."
+    },
+    {
+      "source_entity_id": "video24_e008",
+      "name": "Background Wall Rack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A background structure composed of large dark wall surfaces, frame edges, and elevated beams behind the people, excluding the separately defined Pillar, Grating, Background Stairs, and Box."
+    },
+    {
+      "source_entity_id": "video24_e010",
+      "name": "Background Stairs",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Stairs in the background composed of several horizontal steps rising level by level, located behind the people and excluding ordinary floorboard seams."
+    },
+    {
+      "source_entity_id": "video24_e011",
+      "name": "Box",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A collection of low rectangular box-shaped containers in the background, with square frames, metal edges, and open or tilted lid surfaces visible; only the areas visible in this clip are counted."
+    },
+    {
+      "source_entity_id": "video24_e012",
+      "name": "Flames",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Orange-yellow tongues of fire visible near the Pillar, wall rack, and background edges; excludes the white flashes and brief sparks that appear when the swords clash."
+    },
+    {
+      "source_entity_id": "video24_e013",
+      "name": "Sparks from Clashing Swords",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Bright specks and short streaks that briefly scatter near where the two swords meet, appearing and dissipating with the sword-clashing action; excludes stationary Metal Debris on the Ground and ambient Flames."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "video24_cp010_a0001",
+      "statement": "In frame 0, the corresponding people are Person A and Person B, two people in total.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0002",
+      "statement": "In frame 0, the subject or region corresponding to Sword A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e003"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0003",
+      "statement": "In frame 0, Sword A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e003"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0004",
+      "statement": "In frame 0, the subject or region corresponding to Sword B is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0005",
+      "statement": "In frame 0, Sword B is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0006",
+      "statement": "In frame 0, the subject or region corresponding to the Wooden Plank Floor is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0007",
+      "statement": "In frame 0, the Wooden Plank Floor is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0008",
+      "statement": "In frame 0, the subject or region corresponding to the Metal Debris on the Ground is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0009",
+      "statement": "In frame 0, the Metal Debris on the Ground is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0010",
+      "statement": "In frame 0, the subject or region corresponding to the Pillar is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0011",
+      "statement": "In frame 0, the Pillar is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0012",
+      "statement": "In frame 0, the subject or region corresponding to the Background Wall Rack is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0013",
+      "statement": "In frame 0, the Background Wall Rack is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0014",
+      "statement": "In frame 0, the subject or region corresponding to the Background Stairs is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0015",
+      "statement": "In frame 0, the Background Stairs are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0016",
+      "statement": "In frame 0, the subject or region corresponding to the Box is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0017",
+      "statement": "In frame 0, the Box is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0018",
+      "statement": "In frame 0, the subject or region corresponding to the Flames is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0019",
+      "statement": "In frame 0, the Flames are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0105",
+      "statement": "In frame 12, the subject or region corresponding to the Sparks from Clashing Swords is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video24_e013"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0106",
+      "statement": "In frame 12, the Sparks from Clashing Swords are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video24_e013"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0053",
+      "statement": "In frame 58, the corresponding people are Person A and Person B, two people in total.",
+      "category": "object_presence",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0054",
+      "statement": "In frame 58, the subject or region corresponding to Sword A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e003"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0055",
+      "statement": "In frame 58, Sword A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e003"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0056",
+      "statement": "In frame 58, the subject or region corresponding to Sword B is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0057",
+      "statement": "In frame 58, Sword B is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0058",
+      "statement": "In frame 58, the subject or region corresponding to the Wooden Plank Floor is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0059",
+      "statement": "In frame 58, the Wooden Plank Floor is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0060",
+      "statement": "In frame 58, the subject or region corresponding to the Metal Debris on the Ground is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0061",
+      "statement": "In frame 58, the Metal Debris on the Ground is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0062",
+      "statement": "In frame 58, the subject or region corresponding to the Pillar is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0063",
+      "statement": "In frame 58, the Pillar is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0064",
+      "statement": "In frame 58, the subject or region corresponding to the Background Wall Rack is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0065",
+      "statement": "In frame 58, the Background Wall Rack is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0066",
+      "statement": "In frame 58, the subject or region corresponding to the Background Stairs is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0067",
+      "statement": "In frame 58, the Background Stairs are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0068",
+      "statement": "In frame 58, the subject or region corresponding to the Box is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0069",
+      "statement": "In frame 58, the Box is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0070",
+      "statement": "In frame 58, the subject or region corresponding to the Flames is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0071",
+      "statement": "In frame 58, the Flames are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0020",
+      "statement": "In frame 0, Person A has visible short dark hair, a blue-gray rolled-sleeve top, and brown shoulder straps.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0021",
+      "statement": "In frame 0, Person A has visible short dark hair, a blue-gray rolled-sleeve top, and brown shoulder straps; the brown shoulder straps cross on the back and extend along the shoulders, and the sleeve cuffs and back of the top have folds.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0022",
+      "statement": "In frame 0, Person B has visible short gray-brown hair and a dark crew-neck short-sleeve top, with the forearms exposed beyond the sleeve openings and dark long pants visible on the lower body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0023",
+      "statement": "In frame 0, Person B has visible short gray-brown hair and a dark crew-neck short-sleeve top, with the forearms exposed beyond the sleeve openings and dark long pants visible on the lower body; the boundary between the short-sleeve edges and the bare arms is discernible, and the fabric has folds near the shoulders and upper arms.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0024",
+      "statement": "In frame 0, the exposed blade of Sword A appears as a slender dark strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e003"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0025",
+      "statement": "In frame 0, the exposed blade of Sword A appears as a slender dark strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e003"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0026",
+      "statement": "In frame 0, the exposed blade of Sword B appears as a slender gray-silver strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0027",
+      "statement": "In frame 0, the exposed blade of Sword B appears as a slender gray-silver strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0028",
+      "statement": "In frame 0, the Wooden Plank Floor consists of continuous tan-brown long wooden planks laid side by side, with the plank seams forming a clear direction extending from near to far.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0029",
+      "statement": "In frame 0, the Wooden Plank Floor consists of continuous tan-brown long wooden planks laid side by side; dark plank seams, some short joints, and uneven light and dark mottling are visible, and the plank surface extends into the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0030",
+      "statement": "In frame 0, the Metal Debris on the Ground includes numerous golden-yellow and silver-gray disc-shaped small objects mixed with irregular metal pieces, scattered or piled in patches.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0031",
+      "statement": "In frame 0, the Metal Debris on the Ground includes golden-yellow and silver-gray discs and irregular metal pieces; the nearby discs vary in size, some overlap one another, and their edges and surfaces have differences in bright and dark reflections.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0032",
+      "statement": "In frame 0, the Pillar is a thick dark-brown columnar structure extending vertically, partially illuminated by orange firelight.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0033",
+      "statement": "In frame 0, the Pillar is a thick dark-brown vertical structure, with relatively straight long edges and locally raised framing visible; its surface has uneven brightness, with the side facing the firelight brighter.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0034",
+      "statement": "In frame 0, the Background Wall Rack consists of large dark-brown to black wall surfaces, vertical and horizontal frame edges, and beam-like structures, partially illuminated by firelight.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0035",
+      "statement": "In frame 0, the Background Wall Rack consists of large dark-brown to black surfaces and vertical and horizontal frame edges; repeated rectangular outlines, some narrow-edge ornamentation, and irregular edges highlighted by firelight are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0036",
+      "statement": "In frame 0, the Background Stairs consist of several horizontal steps rising level by level, are dark brown overall, and have step edges illuminated by orange-yellow light.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0037",
+      "statement": "In frame 0, the Background Stairs have continuous tiered horizontal treads, front edges, and risers, with dark step surfaces alternating with narrow edges illuminated by firelight.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0038",
+      "statement": "In frame 0, the Box is a low rectangular box-shaped structure, tan-brown overall, with brighter framing and a block-like lid surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0039",
+      "statement": "In frame 0, the Box has a block-like tan-brown body and framing, some visible surfaces are divided into rectangular sections, and the lid surface forms an angle with the box body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0040",
+      "statement": "In frame 0, the Flames appear as irregular orange-yellow to bright-yellow tongues and masses of fire attached near the surrounding structures.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0041",
+      "statement": "In frame 0, the Flames consist of bright yellow-white inner edges and orange-yellow outer edges; the tongues of fire fork and curl, with irregular boundaries interspersed with small bright points.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0107",
+      "statement": "In frame 12, the Sparks from Clashing Swords are bright white-yellow specks and short streaks distributed in small clusters.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video24_e013"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0108",
+      "statement": "In frame 12, the Sparks from Clashing Swords appear as white-yellow specks and short streaks of varying lengths and orientations; some bright points have short trails, with faint bright halos around them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video24_e013"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0072",
+      "statement": "In frame 58, Person A has visible short dark hair, a blue-gray rolled-sleeve top, and brown shoulder straps.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0073",
+      "statement": "In frame 58, Person A has visible short dark hair, a blue-gray rolled-sleeve top, and brown shoulder straps; the brown shoulder straps cross on the back and extend along the shoulders, and the sleeve cuffs and back of the top have folds.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0074",
+      "statement": "In frame 58, Person B has visible short gray-brown hair and a dark crew-neck short-sleeve top, with the forearms exposed beyond the sleeve openings, and wears dark long pants and dark shoes on the lower body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0075",
+      "statement": "In frame 58, Person B has visible short gray-brown hair and a dark crew-neck short-sleeve top, with the forearms exposed beyond the sleeve openings, and wears dark long pants and dark shoes on the lower body; the boundary between the short-sleeve edges and the bare arms is discernible, and the fabric has folds near the shoulders and upper arms.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0076",
+      "statement": "In frame 58, the exposed portion of Sword A is a slender dark blade segment.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e003"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0077",
+      "statement": "In frame 58, the exposed portion of Sword A is a slender dark blade segment.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e003"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0078",
+      "statement": "In frame 58, the exposed portion of Sword B is a slender dark blade segment.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0079",
+      "statement": "In frame 58, the exposed portion of Sword B is a slender dark blade segment.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0080",
+      "statement": "In frame 58, the Wooden Plank Floor consists of continuous tan-brown long wooden planks laid side by side, with the plank seams forming a clear direction extending from near to far.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0081",
+      "statement": "In frame 58, the Wooden Plank Floor consists of continuous tan-brown long wooden planks laid side by side; dark plank seams, some short joints, and uneven light and dark mottling are visible, and the plank surface extends into the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0082",
+      "statement": "In frame 58, the Metal Debris on the Ground includes numerous golden-yellow and silver-gray disc-shaped small objects mixed with irregular metal pieces, scattered or piled in patches.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0083",
+      "statement": "In frame 58, the Metal Debris on the Ground includes golden-yellow and silver-gray discs and irregular metal pieces; the nearby discs vary in size, some overlap one another, and their edges and surfaces have differences in bright and dark reflections.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0084",
+      "statement": "In frame 58, the Pillar is a thick dark-brown columnar structure extending vertically, partially illuminated by orange firelight.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0085",
+      "statement": "In frame 58, the Pillar is a thick dark-brown vertical structure, with relatively straight long edges and locally raised framing visible; its surface has uneven brightness, with the side facing the firelight brighter.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0086",
+      "statement": "In frame 58, the Background Wall Rack consists of large dark-brown to black wall surfaces, vertical and horizontal frame edges, and beam-like structures, partially illuminated by firelight.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0087",
+      "statement": "In frame 58, the Background Wall Rack consists of large dark-brown to black surfaces and vertical and horizontal frame edges; repeated rectangular outlines, some narrow-edge ornamentation, and irregular edges highlighted by firelight are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0088",
+      "statement": "In frame 58, the Background Stairs consist of several horizontal steps rising level by level, are dark brown overall, and have step edges illuminated by orange-yellow light.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0089",
+      "statement": "In frame 58, the Background Stairs have continuous tiered horizontal treads, front edges, and risers, with dark step surfaces alternating with narrow edges illuminated by firelight.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0090",
+      "statement": "In frame 58, the Box is a low rectangular box-shaped structure, tan-brown overall, with brighter framing and a block-like lid surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0091",
+      "statement": "In frame 58, the Box has a block-like tan-brown body and framing, some visible surfaces are divided into rectangular sections, and the lid surface forms an angle with the box body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0092",
+      "statement": "In frame 58, the Flames appear as irregular orange-yellow to bright-yellow tongues and masses of fire attached near the surrounding structures.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0093",
+      "statement": "In frame 58, the Flames consist of bright yellow-white inner edges and orange-yellow outer edges; the tongues of fire fork and curl, with irregular boundaries interspersed with small bright points.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0042",
+      "statement": "In frame 0, Person A is nearby on the left, while Person B is in the center-right facing Person A, extending the sword-holding arm in a lunge stance.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0043",
+      "statement": "In frame 0, the Wooden Plank Floor is beneath Person A and Person B and extends from the foreground toward the background; the Metal Debris on the Ground is scattered across its surface and partially occludes the planks.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005",
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0044",
+      "statement": "In frame 0, Person A and Person B are on the same Wooden Plank Floor, which connects the areas where Person A and Person B stand.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0045",
+      "statement": "In frame 0, Sword A is near Person A's sword-holding hand, with its visible portion remaining connected to that hand; Sword B is near Person B's sword-holding hand, with its visible portion remaining connected to that hand.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e003",
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0046",
+      "statement": "In frame 0, the Pillar is behind Person A and Person B, rising vertically above the Wooden Plank Floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005",
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0047",
+      "statement": "In frame 0, the Background Wall Rack is behind Person A and Person B and is partially occluded by the bodies of Person A and Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0048",
+      "statement": "In frame 0, the Background Stairs are behind Person A and Person B, rising level by level above the Wooden Plank Floor along the depth of the scene.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005",
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0049",
+      "statement": "In frame 0, the Box is behind or diagonally behind Person A and Person B, near the Wooden Plank Floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005",
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0050",
+      "statement": "In frame 0, the Flames are distributed around the area occupied by Person A and Person B and are separate from the bodies of Person A and Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0109",
+      "statement": "In frame 12, the Sparks from Clashing Swords are in front of Person B's chest and abdomen, with part of the region occluding Person B's upper body; this region is to the image-right of Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        12
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e013"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0094",
+      "statement": "In frame 58, Person A is in the foreground on the image-left, while Person B is in the center extending an arm toward Person A, with the upper body tilted and the rear leg extending toward the image's lower right.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0095",
+      "statement": "In frame 58, the Wooden Plank Floor is beneath Person A and Person B and extends from the foreground toward the background; the Metal Debris on the Ground is scattered across its surface and partially occludes the planks.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005",
+        "video24_e006"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0096",
+      "statement": "In frame 58, Person A and Person B are on the same Wooden Plank Floor, which connects the areas where Person A and Person B stand.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0097",
+      "statement": "In frame 58, Sword A is near Person A's sword-holding hand, with its visible portion remaining connected to that hand; Sword B is near Person B's sword-holding hand, with its visible portion remaining connected to that hand.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e003",
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0098",
+      "statement": "In frame 58, the Pillar is behind Person A and Person B, rising vertically above the Wooden Plank Floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005",
+        "video24_e007"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0099",
+      "statement": "In frame 58, the Background Wall Rack is behind Person A and Person B and is partially occluded by the bodies of Person A and Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e008"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0100",
+      "statement": "In frame 58, the Background Stairs are behind Person A and Person B, rising level by level above the Wooden Plank Floor along the depth of the scene.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005",
+        "video24_e010"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0101",
+      "statement": "In frame 58, the Box is behind or diagonally behind Person A and Person B, near the Wooden Plank Floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005",
+        "video24_e011"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0102",
+      "statement": "In frame 58, the Flames are distributed around the area occupied by Person A and Person B and are separate from the bodies of Person A and Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0051",
+      "statement": "In frame 0, the camera is nearby behind and to the side of Person A, looking slightly downward at Person B and the wooden-plank area underfoot.",
+      "category": "camera_position",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0103",
+      "statement": "In frame 58, the camera is behind and to the side of Person A, looking slightly downward, with the bodies of Person A and Person B and the central area of the floor all visible.",
+      "category": "camera_position",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e005"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0052",
+      "statement": "In frame 0, the camera's line of sight is directed toward the interaction area between Person A and Person B while retaining the relative positions between Person A and Person B.",
+      "category": "camera_target",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0104",
+      "statement": "In frame 58, the camera's line of sight is directed toward the interaction area between Person A and Person B while retaining the relative positions between Person A and Person B.",
+      "category": "camera_target",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0113",
+      "statement": "From frame 0 through frame 58, the number of shot cuts is 0, and the image remains one continuous shot.",
+      "category": "cut_count",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        29,
+        58
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "video24_cp010_a0110",
+      "statement": "From frame 0 through frame 58, Person B continuously changes the direction of the sword swings, and Person A raises Sword A to block each time; the blades of Sword A and Sword B meet twice between their upper bodies and then separate.",
+      "category": "action_event",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        9,
+        19,
+        34,
+        44,
+        58
+      ],
+      "subject_ids": [
+        "video24_e001",
+        "video24_e002",
+        "video24_e003",
+        "video24_e004"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0112",
+      "statement": "From frame 0 through frame 58, the tongues of the surrounding Flames continuously curl and move, while the boundaries of some masses of fire continually expand and contract.",
+      "category": "action_event",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        29,
+        58
+      ],
+      "subject_ids": [
+        "video24_e012"
+      ]
+    },
+    {
+      "item_key": "video24_cp010_a0111",
+      "statement": "From frame 9 through frame 47, Sword A and Sword B meet twice; Sparks from Clashing Swords appear near each meeting, then scatter and fade.",
+      "category": "action_event",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "start_frame": 9,
+      "end_frame": 47,
+      "evidence_frames": [
+        9,
+        12,
+        20,
+        34,
+        40,
+        47
+      ],
+      "subject_ids": [
+        "video24_e003",
+        "video24_e004",
+        "video24_e013"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    58
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "c281cc91d4c29b94864e1515853e5564b264bef14dd82243a5f8f3c596447d24"
+}

@@ -1,0 +1,1491 @@
+{
+  "clip_id": "video49_cp005",
+  "video_id": "video49",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 60,
+  "source_frame_offset": 280,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video49_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 8,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "First-person gun holder, with a beige sleeve, a brown glove with dark padding, and fingers partially visible."
+    },
+    {
+      "source_entity_id": "video49_e008",
+      "name": "light-brown courtyard road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Light-brown to gray-brown paved ground in the courtyard, with a curb, wear, and scattered debris."
+    },
+    {
+      "source_entity_id": "video49_e009",
+      "name": "high-walled building with blue-gray trim",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "High-walled beige building on the image-left, with a wide blue-gray band, small upper arched windows, and a rounded projecting wall corner."
+    },
+    {
+      "source_entity_id": "video49_e010",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "Dilapidated light blue-gray sedan on the image-left, with a rusted body and openings at the windows and side exposing the interior."
+    },
+    {
+      "source_entity_id": "video49_e011",
+      "name": "pile of bag-like bundles and light-colored wooden crates",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Multiple layers of brown rectangular bundles stacked on worn light-colored wooden crates, with the edges of the bundles slightly bulging."
+    },
+    {
+      "source_entity_id": "video49_e012",
+      "name": "Vehicle B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "Old brown vehicle behind the canopy and metal mesh on the image-right, with only part of the body visible."
+    },
+    {
+      "source_entity_id": "video49_e013",
+      "name": "courtyard wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Beige courtyard wall at center-right, with light-colored papers attached, scattered dark bullet-mark-like spots, and coils of wire along the top."
+    },
+    {
+      "source_entity_id": "video49_e015",
+      "name": "Weapon B",
+      "numbered": true,
+      "first_appearance_frame": 5,
+      "identification": "Black long rifle held from the first-person perspective, with a long top rail, ring-shaped rear sight, upright front sight, and gray-white mottling."
+    },
+    {
+      "source_entity_id": "video49_e016",
+      "name": "arched courtyard side gate",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Narrow arched doorway behind and toward the image-right of the stacked objects, with steps in front of the doorway."
+    },
+    {
+      "source_entity_id": "video49_e017",
+      "name": "yellow human-shaped outline marker",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Multiple glowing human-shaped outlines in the projected area on the image-left wall, colored yellow-orange."
+    },
+    {
+      "source_entity_id": "video49_e018",
+      "name": "blue trajectory line",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Bright blue curved line extending toward the upper image-right from near the stacked objects and doorway."
+    },
+    {
+      "source_entity_id": "video49_e020",
+      "name": "overhead power lines",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Multiple thin dark lines crossing and extending through the air above the canopy at the upper image-right."
+    },
+    {
+      "source_entity_id": "video49_e023",
+      "name": "wall-top trees",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Background vegetation group composed of dark green broadleaf canopies and yellow-green palm fronds visible behind the wall."
+    },
+    {
+      "source_entity_id": "video49_e024",
+      "name": "sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Light blue to nearly white sky visible between the buildings, wall, and tree canopies."
+    },
+    {
+      "source_entity_id": "video49_e026",
+      "name": "low courtyard canopy",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Dark low canopy above the opening on the image-right, with crossbeams and metal mesh in front."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video49_cp005_restore00008",
+      "statement": "At frame 0, the visible count of Person A's hands in the image is 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00009",
+      "statement": "At frame 0, the visible count of Weapon B in the image is 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00001",
+      "statement": "At frame 0, the light-brown courtyard road is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00002",
+      "statement": "At frame 0, the high-walled building with blue-gray trim is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00003",
+      "statement": "At frame 0, Vehicle A is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00004",
+      "statement": "At frame 0, the pile of bag-like bundles and light-colored wooden crates is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00005",
+      "statement": "At frame 0, Vehicle B is partially visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00006",
+      "statement": "At frame 0, the courtyard wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00007",
+      "statement": "At frame 0, the branches and leaves of the wall-top trees are visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00008",
+      "statement": "At frame 0, the sky is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00009",
+      "statement": "At frame 0, the arched courtyard side gate is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00010",
+      "statement": "At frame 0, the yellow human-shaped outline marker is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00011",
+      "statement": "At frame 0, the blue trajectory line is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00012",
+      "statement": "At frame 0, the overhead power lines are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00037",
+      "statement": "At frame 0, the low courtyard canopy is visible on the image-right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00021",
+      "statement": "At frame 60, the visible count of both Vehicle A and Vehicle B in the image is 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e010",
+        "video49_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00013",
+      "statement": "At frame 60, the high-walled building with blue-gray trim is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00014",
+      "statement": "At frame 60, the pile of bag-like bundles and light-colored wooden crates is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00015",
+      "statement": "At frame 60, the courtyard wall is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00016",
+      "statement": "At frame 60, the branches and leaves of the wall-top trees are visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00017",
+      "statement": "At frame 60, the sky is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00018",
+      "statement": "At frame 60, the arched courtyard side gate is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00019",
+      "statement": "At frame 60, the yellow human-shaped outline marker is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00020",
+      "statement": "At frame 60, the blue trajectory line is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00021",
+      "statement": "At frame 60, Person A's left hand and forearm are visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00022",
+      "statement": "At frame 60, Weapon B is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00040",
+      "statement": "At frame 60, the nearby ground of the light-brown courtyard road is visible around the pile of bag-like bundles and light-colored wooden crates and in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00023",
+      "statement": "At frame 0, the light-brown courtyard road is a broad paved surface; the high-walled building with blue-gray trim has beige walls, a wide blue-gray horizontal band, and a rounded wall corner. Vehicle A is light blue-gray, with a low sedan body and a dilapidated appearance; the pile of bag-like bundles and light-colored wooden crates consists of multiple layers of brown bundles and light-colored wooden crates underneath and is near the arched courtyard side gate with steps. The courtyard wall on the image-right is beige with light-colored papers attached, and part of the old brown body of Vehicle B is exposed. The wall-top trees and sky are visible above, and the overhead power lines are thin dark lines; the yellow human-shaped outline marker is a glowing human shape, and the blue trajectory line is a bright blue curved line.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e009",
+        "video49_e010",
+        "video49_e011",
+        "video49_e012",
+        "video49_e013",
+        "video49_e023",
+        "video49_e024",
+        "video49_e016",
+        "video49_e017",
+        "video49_e018",
+        "video49_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00024",
+      "statement": "At frame 0, the light-brown courtyard road is a broad paved surface; the high-walled building with blue-gray trim has beige walls, a wide blue-gray horizontal band, and a rounded wall corner. Vehicle A is light blue-gray, with a low sedan body and a dilapidated appearance; the pile of bag-like bundles and light-colored wooden crates consists of multiple layers of brown bundles and light-colored wooden crates underneath and is near the arched courtyard side gate with steps. The courtyard wall on the image-right is beige with light-colored papers attached, and part of the old brown body of Vehicle B is exposed. The wall-top trees and sky are visible above, and the overhead power lines are thin dark lines; the yellow human-shaped outline marker is a glowing human shape, and the blue trajectory line is a bright blue curved line. The road curb extends diagonally, and the ground has stains and scattered scraps of paper; there are small arched windows on the upper part of the building. Vehicle A has visibly glassless windows, side openings exposing the interior, and rust spots on the body; the edges of the upper bundles are slightly bulging, with creases and small light-colored labels, while the wooden crates underneath have wear and black markings. The edges of the papers on the courtyard wall are uneven, dark bullet-mark-like spots are scattered around them, and coils of wire run along the top of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e009",
+        "video49_e010",
+        "video49_e011",
+        "video49_e012",
+        "video49_e013",
+        "video49_e023",
+        "video49_e024",
+        "video49_e016",
+        "video49_e017",
+        "video49_e018",
+        "video49_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00029",
+      "statement": "At frame 0, the wall-top trees expose dark green canopies and yellow-green palm fronds.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00030",
+      "statement": "At frame 0, the wall-top trees expose dark green canopies and yellow-green palm fronds. The edges of the branches and leaves form irregularly branching or feather-like outlines.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00031",
+      "statement": "At frame 0, the sky is light blue and occupies an open area in the upper part of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00032",
+      "statement": "At frame 0, the sky is light blue and occupies an open area in the upper part of the image; the brighter portions transition toward nearly white.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00038",
+      "statement": "At frame 0, the low courtyard canopy is dark and spans above the opening on the image-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00039",
+      "statement": "At frame 0, the low courtyard canopy is dark and spans above the opening on the image-right. Crossbeams are visible beneath the canopy roof, with diamond-pattern metal mesh in front.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a018",
+      "statement": "At frame 60, part of Person A's beige left sleeve and brown glove is visible, and the left hand supports Weapon B; Weapon B is a long black rifle with a long body and sights on top, and its rear extends out of the image toward the lower image-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e001",
+        "video49_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a019",
+      "statement": "At frame 60, part of Person A's beige left sleeve and brown glove is visible, and the left hand supports Weapon B; Weapon B is a long black rifle with a long body and sights on top, and its rear extends out of the image toward the lower image-right. Weapon B has a long top rail, a ring-shaped rear sight, and an upright front sight; the body has gray-white mottling and a small orange marking, and a section of a gray cylindrical connecting component is visible at the rear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e001",
+        "video49_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00025",
+      "statement": "At frame 60, the pile of bag-like bundles and light-colored wooden crates consists of multiple nearby layers of brown bundles stacked on light-colored wooden crates; behind it, the high-walled building with blue-gray trim exposes a beige rounded wall corner and part of the blue-gray trim, beside which are the arched courtyard side gate and the beige courtyard wall with light-colored papers attached. The wall-top trees and light blue sky are exposed above the top of the wall; yellow human-shaped outline markers are distributed across the image-left wall area, and the bright blue trajectory line extends from the image-right of the crate pile toward the upper image-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e009",
+        "video49_e011",
+        "video49_e013",
+        "video49_e023",
+        "video49_e024",
+        "video49_e016",
+        "video49_e017",
+        "video49_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00026",
+      "statement": "At frame 60, the pile of bag-like bundles and light-colored wooden crates consists of multiple nearby layers of brown bundles stacked on light-colored wooden crates; behind it, the high-walled building with blue-gray trim exposes a beige rounded wall corner and part of the blue-gray trim, beside which are the arched courtyard side gate and the beige courtyard wall with light-colored papers attached. The wall-top trees and light blue sky are exposed above the top of the wall; yellow human-shaped outline markers are distributed across the image-left wall area, and the bright blue trajectory line extends from the image-right of the crate pile toward the upper image-right. The upper bundles have gaps between layers, bulging edges, creases, small white labels, and light-colored markings; the wooden crates underneath have vertical plank seams, wood grain, stains, hole-like dark spots, black printed text, and upward arrows. The base of the building wall is damaged, bullet-mark-like dark spots are scattered around the papers attached to the courtyard wall, and coils of wire run along the top of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e009",
+        "video49_e011",
+        "video49_e013",
+        "video49_e023",
+        "video49_e024",
+        "video49_e016",
+        "video49_e017",
+        "video49_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00033",
+      "statement": "At frame 60, the wall-top trees expose dark green canopies and parts of yellow-green palm fronds, with the upper part of the canopy cropped by the image edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00034",
+      "statement": "At frame 60, the wall-top trees expose dark green canopies and parts of yellow-green palm fronds, with the upper part of the canopy cropped by the image edge; the visible edges of the branches and leaves branch irregularly, and parts of the palm fronds have feather-like outlines.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00035",
+      "statement": "At frame 60, the sky is light blue and is exposed between the buildings and tree canopies in the upper part of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00036",
+      "statement": "At frame 60, the sky is light blue and is exposed between the buildings and tree canopies in the upper part of the image; the brighter portions transition toward nearly white.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00041",
+      "statement": "At frame 60, the visible ground of the light-brown courtyard road has a gray-brown paved appearance, extending from the bottom edge of the image to the pile of bag-like bundles and light-colored wooden crates and the base of the courtyard wall, and is partially occluded by Person A's left forearm and Weapon B.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e011",
+        "video49_e013",
+        "video49_e001",
+        "video49_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00042",
+      "statement": "At frame 60, the visible ground of the light-brown courtyard road has a gray-brown paved appearance, extending from the bottom edge of the image to the pile of bag-like bundles and light-colored wooden crates and the base of the courtyard wall, and is partially occluded by Person A's left forearm and Weapon B. The road surface has gray-white wear, dark shadows, and scattered gravel; at the far end, the visible ground meets the base of the wall and the steps in front of the arched courtyard side gate.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e011",
+        "video49_e013",
+        "video49_e001",
+        "video49_e015",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00010",
+      "statement": "At frame 0, the light-brown courtyard road occupies the lower part of the image, extending continuously from the foreground to the front of the pile of bag-like bundles and light-colored wooden crates and connecting to the entrance area of the arched courtyard side gate on the image-right of the pile.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e011",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00011",
+      "statement": "At frame 0, the high-walled building with blue-gray trim occupies the image-left part of the image, and 1 Vehicle A is at the lower image-left in front of the building, parked at the edge of the ground, with part of its body extending beyond the image-left edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e009",
+        "video49_e010",
+        "video49_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00012",
+      "statement": "At frame 0, the pile of bag-like bundles and light-colored wooden crates is in front of the high-walled building with blue-gray trim, slightly image-left of center; the wooden crates underneath contact the ground and support the bundles above. The arched courtyard side gate is behind the pile toward the image-right and is partially occluded, and the steps in front of the gate connect upward from the light-brown courtyard road to the entrance.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e016",
+        "video49_e009",
+        "video49_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00013",
+      "statement": "At frame 0, the courtyard wall is on the image-right of the pile of bag-like bundles and light-colored wooden crates, and its right end adjoins the opening covered by the low courtyard canopy; 1 Vehicle B is partially visible beneath the canopy inside that opening.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e013",
+        "video49_e011",
+        "video49_e012",
+        "video49_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00014",
+      "statement": "At frame 0, the wall-top trees are behind the courtyard wall and rise above the top of the wall in the upper-middle part of the image, with their lower portions occluded by the courtyard wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e023",
+        "video49_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00015",
+      "statement": "At frame 0, the sky is exposed in the upper part of the image, distributed between the high-walled building with blue-gray trim, the upper edge of the courtyard wall, and the wall-top trees.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e024",
+        "video49_e009",
+        "video49_e013",
+        "video49_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00027",
+      "statement": "At frame 0, Vehicle A is at the lower image-left, the pile of bag-like bundles and light-colored wooden crates is slightly image-left of center and occludes part of the arched courtyard side gate, the courtyard wall and Vehicle B are on the image-right, and the blue trajectory line crosses diagonally from the side-gate area to the upper image-right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e010",
+        "video49_e011",
+        "video49_e012",
+        "video49_e013",
+        "video49_e016",
+        "video49_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00016",
+      "statement": "At frame 60, the light-brown courtyard road is exposed in the lower part of the image and on both sides of the pile of bag-like bundles and light-colored wooden crates, extending from the foreground to the bottom of the pile and the base of the courtyard wall, and connecting on the image-right of the pile to the steps in front of the arched courtyard side gate.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e011",
+        "video49_e013",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00017",
+      "statement": "At frame 60, the pile of bag-like bundles and light-colored wooden crates occupies the nearby area slightly image-left of center and is in front of the high-walled building with blue-gray trim; the wooden crates underneath contact the ground and support the bundles above. The arched courtyard side gate behind and toward the image-right is partially occluded by the pile, and the courtyard wall extends from the image-right of the gate entrance to the image-right edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e009",
+        "video49_e016",
+        "video49_e013",
+        "video49_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00018",
+      "statement": "At frame 60, the wall-top trees rise above the top of the courtyard wall in the upper image-right, with their lower portions occluded by the courtyard wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e023",
+        "video49_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00019",
+      "statement": "At frame 60, the sky is in the upper part of the image, exposed above the upper edge of the high-walled building with blue-gray trim and around the wall-top trees.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e024",
+        "video49_e009",
+        "video49_e023"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_restore00020",
+      "statement": "At frame 60, Person A's left hand and forearm are visible in the lower part of the image, and the left hand supports the front of 1 Weapon B; Weapon B extends from the lower image-right foreground toward the area of the arched courtyard side gate on the image-right of the pile of bag-like bundles and light-colored wooden crates, and occludes part of the light-brown courtyard road at the lower image-right.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e001",
+        "video49_e015",
+        "video49_e011",
+        "video49_e016",
+        "video49_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a020",
+      "statement": "At frame 60, Weapon B extends from the lower image-right foreground toward the area of the arched courtyard side gate on the image-right of the pile of bag-like bundles and light-colored wooden crates, and Person A's visible left hand supports the front of Weapon B.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        59,
+        60
+      ],
+      "subject_ids": [
+        "video49_e001",
+        "video49_e015",
+        "video49_e011",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_r00028",
+      "statement": "At frame 60, the pile of bag-like bundles and light-colored wooden crates occupies the area slightly image-left of center and partially occludes the arched courtyard side gate; the courtyard wall is on its image-right, the wall-top trees and sky are above the top of the wall, and the blue trajectory line extends toward the upper image-right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e013",
+        "video49_e023",
+        "video49_e024",
+        "video49_e016",
+        "video49_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_a005",
+      "statement": "At frame 0, the camera is on the light-brown courtyard road, with a stretch of ground separating it from the pile of bag-like bundles and light-colored wooden crates ahead; Vehicle A is at the lower image-left of the camera's field of view.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e010",
+        "video49_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a005",
+      "statement": "At frame 0, the camera is on the light-brown courtyard road, with a stretch of ground separating it from the pile of bag-like bundles and light-colored wooden crates ahead; Vehicle A is at the lower image-left of the camera's field of view.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e010",
+        "video49_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_a011",
+      "statement": "At frame 60, the camera has moved close to the side of the pile of bag-like bundles and light-colored wooden crates facing the courtyard, with the arched courtyard side gate and courtyard wall behind and toward the image-right of the crate pile.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        0,
+        60
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e013",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a011",
+      "statement": "At frame 60, the camera has moved close to the side of the pile of bag-like bundles and light-colored wooden crates facing the courtyard, with the arched courtyard side gate and courtyard wall behind and toward the image-right of the crate pile.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        0,
+        60
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e013",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_a006",
+      "statement": "At frame 0, the camera faces the image-right edge of the pile of bag-like bundles and light-colored wooden crates and the area of the arched courtyard side gate behind it.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a006",
+      "statement": "At frame 0, the camera faces the image-right edge of the pile of bag-like bundles and light-colored wooden crates and the area of the arched courtyard side gate behind it.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_a012",
+      "statement": "At frame 60, the camera faces the front surfaces of the upper bundles in the pile of bag-like bundles and light-colored wooden crates, with the central reticle resting on one of the lower bundle layers; the arched courtyard side gate is to the image-right of the reticle.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a012",
+      "statement": "At frame 60, the camera faces the front surfaces of the upper bundles in the pile of bag-like bundles and light-colored wooden crates, with the central reticle resting on one of the lower bundle layers; the arched courtyard side gate is to the image-right of the reticle.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 60,
+      "end_frame": 60,
+      "evidence_frames": [
+        60
+      ],
+      "subject_ids": [
+        "video49_e011",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_a001",
+      "statement": "From frames 0 to 60, the camera advances along the light-brown courtyard road toward the pile of bag-like bundles and light-colored wooden crates.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 60,
+      "evidence_frames": [
+        0,
+        24,
+        35,
+        51,
+        60
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e010",
+        "video49_e011",
+        "video49_e013",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a001",
+      "statement": "From frames 0 to 60, the camera advances along the light-brown courtyard road toward the pile of bag-like bundles and light-colored wooden crates.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 60,
+      "evidence_frames": [
+        0,
+        24,
+        35,
+        51,
+        60
+      ],
+      "subject_ids": [
+        "video49_e008",
+        "video49_e010",
+        "video49_e011",
+        "video49_e013",
+        "video49_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video49_cp005_a004",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 60,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video49_cp005_a004",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 60,
+      "evidence_frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video49_cp005_a021",
+      "statement": "From frames 5 to 50, Person A raises Weapon B into the image from the bottom edge and tilts it upright; after the left hand shifts position near the body of the weapon, it opens and then reaches toward the front to support it. By frame 50, Weapon B is lowered into a forward-holding posture.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 5,
+      "end_frame": 50,
+      "evidence_frames": [
+        4,
+        5,
+        6,
+        8,
+        12,
+        24,
+        35,
+        40,
+        44,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "subject_ids": [
+        "video49_e001",
+        "video49_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video49_cp005_a021",
+      "statement": "From frames 5 to 50, Person A raises Weapon B into the image from the bottom edge and tilts it upright; after the left hand shifts position near the body of the weapon, it opens and then reaches toward the front to support it. By frame 50, Weapon B is lowered into a forward-holding posture.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 5,
+      "end_frame": 50,
+      "evidence_frames": [
+        4,
+        5,
+        6,
+        8,
+        12,
+        24,
+        35,
+        40,
+        44,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "subject_ids": [
+        "video49_e001",
+        "video49_e015"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    60
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "104aef8fbce30f6583fd431359b6ba2e398c3df6ca8b6b916e2c4e6c88930801"
+}

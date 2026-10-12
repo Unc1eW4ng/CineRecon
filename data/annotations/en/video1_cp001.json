@@ -1,0 +1,1706 @@
+{
+  "clip_id": "video1_cp001",
+  "video_id": "video1",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 42,
+  "source_frame_offset": 0,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video1_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A person with short brown hair and narrow, elongated reddish-brown glasses, wearing a dark grayish-brown suit, white shirt, and black tie, and holding a gun in one hand."
+    },
+    {
+      "source_entity_id": "video1_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 16,
+      "identification": "A person with short black hair and narrow, elongated dark glasses, wearing a long black trench coat, dark top, black pants, and black boots, with wide straps and fasteners around the waist and legs."
+    },
+    {
+      "source_entity_id": "video1_e003",
+      "name": "handgun A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The black handgun held in one hand by Person A and raised forward and upward."
+    },
+    {
+      "source_entity_id": "video1_e004",
+      "name": "handgun group B",
+      "numbered": true,
+      "first_appearance_frame": 16,
+      "identification": "The two black handguns initially held separately in Person B's two hands and subsequently released and falling, recorded continuously as one object group."
+    },
+    {
+      "source_entity_id": "video1_e005",
+      "name": "glass-curtain-wall high-rise",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The high-rise facade behind Person A, with grayish-cyan, green-tinged reflective glass, wide light-colored columns, and rectangular window panes."
+    },
+    {
+      "source_entity_id": "video1_e008",
+      "name": "brown rooftop equipment structure",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The tall, dark brown rectangular equipment structure on the image-left side of Person B, with a grid-like exterior and pipes and red components along its right edge."
+    },
+    {
+      "source_entity_id": "video1_e012",
+      "name": "rooftop surface",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The grayish-brown rooftop surface beside Person B's feet and behind Person B, with flat slabs and straight seams."
+    },
+    {
+      "source_entity_id": "video1_e015",
+      "name": "smoke",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray-white smoke distributed in patches across the rooftop, with uneven density and irregular boundaries."
+    },
+    {
+      "source_entity_id": "video1_e016",
+      "name": "distant city buildings",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light gray city buildings of varying heights behind Person B, with parallel rows of windows visible on some high-rises."
+    },
+    {
+      "source_entity_id": "video1_e019",
+      "name": "sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light gray-blue sky outside the building and above the city buildings, lacking clearly defined cloud boundaries."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video1_cp001_restore00012",
+      "statement": "One Person A is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00014",
+      "statement": "Part of handgun A is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        7
+      ],
+      "subject_ids": [
+        "video1_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00016",
+      "statement": "The glass-curtain-wall high-rise is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00017",
+      "statement": "The sky is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a009",
+      "statement": "Person A is visible in the foreground of the image in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a010",
+      "statement": "The glass-curtain-wall high-rise is visible at the rear of the image in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00010",
+      "statement": "The sky is visible on the image-left side in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00019",
+      "statement": "Part of handgun A is visible in the lower portion of the image in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        7
+      ],
+      "subject_ids": [
+        "video1_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00019",
+      "statement": "One Person B is visible in frame 24.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00021",
+      "statement": "Two handguns are visible in handgun group B in frame 24.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00023",
+      "statement": "One brown rooftop equipment structure is visible in frame 24.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00025",
+      "statement": "The rooftop surface is visible in frame 24.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00026",
+      "statement": "Smoke is visible in frame 24.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00028",
+      "statement": "The distant city buildings are visible in frame 24.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00029",
+      "statement": "The sky is visible in frame 24.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00022",
+      "statement": "Two handguns are visible in handgun group B in frame 24.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00031",
+      "statement": "One Person B is visible in frame 34.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00032",
+      "statement": "Two handguns are visible in handgun group B in frame 34.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        33,
+        34,
+        35
+      ],
+      "subject_ids": [
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00025",
+      "statement": "The two handguns in handgun group B are visible in frame 34, in the process of falling after leaving the hands.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        33,
+        34,
+        35
+      ],
+      "subject_ids": [
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00034",
+      "statement": "One Person B is visible in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00037",
+      "statement": "One brown rooftop equipment structure is visible in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00039",
+      "statement": "The rooftop surface is visible in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00040",
+      "statement": "Smoke is visible in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00042",
+      "statement": "The distant city buildings are visible in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00043",
+      "statement": "The sky is visible in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a018",
+      "statement": "Person B is visible at the center of the rooftop image in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a020",
+      "statement": "The brown rooftop equipment structure is visible on the image-left side in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00004",
+      "statement": "Smoke is visible around Person B in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00007",
+      "statement": "The distant city buildings are visible in the background in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00013",
+      "statement": "The sky is visible in the upper portion of the image in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00016",
+      "statement": "The rooftop surface is visible at the bottom of the image in frame 42.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a011",
+      "statement": "In frame 0, Person A wears a dark grayish-brown suit, white shirt, and black tie, wears narrow, elongated reddish-brown glasses, and has short brown hair.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a013",
+      "statement": "In frame 0, the glass-curtain-wall high-rise has a grayish-cyan, green-tinged reflective facade divided by wide light-colored columns, with a regular window-grid pattern on its surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00011",
+      "statement": "The sky is light gray-blue in frame 0.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00012",
+      "statement": "In frame 0, the sky is light gray-blue, with gradual overall variation in brightness and no clearly defined cloud boundaries visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00020",
+      "statement": "In frame 0, the visible portion of handgun A has a black, slender outline and is under pronounced motion blur.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00021",
+      "statement": "In frame 0, the visible portion of handgun A has a black, slender outline, is partially occluded by Person A's hand, has pronounced motion blur along its edges, and has part of the gun body cropped by the lower image boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e003",
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00028",
+      "statement": "In frame 0, Person A has short brown hair, wears narrow, elongated reddish-brown glasses, and wears a dark grayish-brown suit, white shirt, and black tie; the suit has visible notch lapels and sleeve creases, and a silver tie clip lies horizontally across the tie.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00033",
+      "statement": "In frame 0, the glass-curtain-wall high-rise has a grayish-cyan, green-tinged reflective facade divided by wide light-colored columns; thin vertical mullions and horizontal dividing lines form a regular grid of rectangular window panes, and building reflections of varying darkness are visible in parts of the glass.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00023",
+      "statement": "In frame 24, both handguns in handgun group B are black, with their muzzles facing the camera, and the gun bodies appear short and compact from the frontal view.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00024",
+      "statement": "In frame 24, both handguns in handgun group B are black, with short, compact frontal outlines and relatively straight upper gun-body edges; their muzzles face the camera, and their lower grip areas are respectively enclosed and occluded by Person B's two hands.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e004",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00026",
+      "statement": "In frame 34, both handguns in handgun group B are black and are located from near the two sides of Person B's waist to near the upper thighs, with the gun bodies visibly extending generally downward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video1_e004",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00027",
+      "statement": "In frame 34, both handguns in handgun group B are black and are located from near the two sides of Person B's waist to near the upper thighs, with the gun bodies visibly extending generally downward and showing pronounced motion blur; one is angled below the hand on the image-left side, while the other extends downward in front of the thigh on the image-right side.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video1_e004",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a021",
+      "statement": "In frame 42, Person B wears a long black trench coat, dark top, black pants, and black boots, wears narrow, elongated dark glasses, and has wide straps and fasteners around the waist and legs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a025",
+      "statement": "In frame 42, the brown rooftop equipment structure is a tall, dark brown rectangular structure whose facade is divided by horizontal and vertical framing.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00005",
+      "statement": "In frame 42, the smoke is gray-white, distributed in patches across the middle and lower portions of the image, and partially translucent.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00006",
+      "statement": "In frame 42, the smoke is gray-white and distributed in patches across the middle and lower portions of the image, including denser gray-white masses, translucent thin layers, and irregular curling edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00008",
+      "statement": "In frame 42, the distant city buildings are light gray and consist of rectangular buildings of varying heights.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00009",
+      "statement": "In frame 42, the distant city buildings are light gray and consist of rectangular buildings of varying heights, including high-rises with parallel rows of windows and densely packed low-rise buildings, with some outlines occluded by smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e016",
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00014",
+      "statement": "In frame 42, the sky is light gray-blue and covers the area above the city buildings.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00015",
+      "statement": "In frame 42, the sky is light gray-blue and covers the area above the city buildings; the area near the distant city buildings is slightly brighter, and its boundary with the distant haze is indistinct.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e019",
+        "video1_e016",
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00017",
+      "statement": "In frame 42, the rooftop surface is grayish-brown and paved with flat slabs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00018",
+      "statement": "In frame 42, the rooftop surface is grayish-brown and paved with flat slabs, with straight seams visible between the slabs and parts of the surface occluded by smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e012",
+        "video1_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00029",
+      "statement": "In frame 42, Person B has short black hair combed back, wears narrow, elongated dark glasses, and wears a long black trench coat, a close-fitting dark top, black pants, and black boots; the trench coat has wide lapels and broad, long tails, and rectangular metallic fasteners are visible on the wide straps around the waist and thighs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00034",
+      "statement": "In frame 42, the brown rooftop equipment structure is a tall, dark brown rectangular structure whose facade is divided into rectangular sections by horizontal and vertical framing; its surface has mottled light and dark areas and vertical stains, and thin pipes and small red components are visible along its right edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00013",
+      "statement": "In frame 0, Person A is slightly right of the image center, faces the viewer frontally, has the lower body extending beyond the lower image boundary, and occludes the area slightly right of center in the middle and lower portions of the glass-curtain-wall high-rise.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001",
+        "video1_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00015",
+      "statement": "In frame 0, handgun A is connected to Person A's hand extended toward the image-left foreground and is located below Person A's chest; the gun body is visibly extending toward the bottom of the image and is partially cropped by the lower boundary.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video1_e003",
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00018",
+      "statement": "In frame 0, the glass-curtain-wall high-rise occupies most of the background image, while the sky is on its image-left side and extends along the left image boundary.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e005",
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a015",
+      "statement": "In frame 0, Person A is in front of the glass-curtain-wall high-rise and occludes some of the high-rise's window panes in the lower-right portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001",
+        "video1_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00020",
+      "statement": "In frame 24, Person B is at the center of the image, faces the viewer frontally, and the body extends from the upper portion of the image to the lower boundary; the rooftop surface is below Person B and extends behind Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00022",
+      "statement": "In frame 24, the two handguns in handgun group B are held respectively by Person B's hands on the image-left and image-right sides, both positioned in front of the upper chest with their muzzles facing the viewer.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e004",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00024",
+      "statement": "In frame 24, the brown rooftop equipment structure is on Person B's image-left side, with its upper portion extending beyond the upper image boundary.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e008",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00027",
+      "statement": "In frame 24, smoke is distributed on both sides in the middle and lower portions of the image, occluding the lower portion of the brown rooftop equipment structure and part of the rooftop surface; the outline of Person B's upper body occludes the smoke behind Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e015",
+        "video1_e008",
+        "video1_e012",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00030",
+      "statement": "In frame 24, the distant city buildings are behind Person B, with the main visible area distributed on Person B's image-right side, and the lower portions of some buildings occluded by smoke; the sky is above the buildings and covers the upper-right portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video1_e016",
+        "video1_e002",
+        "video1_e015",
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00033",
+      "statement": "In frame 34, within handgun group B, one handgun is below the hand on Person B's image-left side and outside the torso outline, while the other is below the hand on the image-right side and overlaps the upper thigh on that side; the gun bodies are visibly extending generally downward, with the handgun on the image-left side angled.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        33,
+        34,
+        35
+      ],
+      "subject_ids": [
+        "video1_e004",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00035",
+      "statement": "In frame 42, Person B is at the center of the image and faces the viewer frontally; the boot on the image-right side is immediately adjacent to the lower boundary and is partially cropped; the rooftop surface extends from the lower edge of the image to beside Person B's feet and behind Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        41,
+        42
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00036",
+      "statement": "In frame 42, neither of Person B's hands is holding handgun group B; the hand on the image-left side is below the waist, and the hand on the image-right side is in front of the abdomen.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        34,
+        35,
+        41,
+        42
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00038",
+      "statement": "In frame 42, the brown rooftop equipment structure is on Person B's image-left side, with its upper portion extending beyond the upper image boundary.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e008",
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00041",
+      "statement": "In frame 42, the outline of Person B's upper body occludes the smoke behind Person B; smoke is also distributed on both sides of Person B, occluding part of the rooftop surface near the legs and the lower portion of the brown rooftop equipment structure.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e015",
+        "video1_e012",
+        "video1_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_restore00044",
+      "statement": "In frame 42, the distant city buildings are behind Person B, with the main visible area distributed on Person B's image-right side, and the lower portions of some buildings occluded by smoke; the sky is above the buildings and covers the upper-right portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e016",
+        "video1_e002",
+        "video1_e015",
+        "video1_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a028",
+      "statement": "In frame 42, the brown rooftop equipment structure is on Person B's image-left side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00003",
+      "statement": "In frame 42, Person B's upper body is in front of the smoke behind Person B, while the smoke occludes part of the rooftop surface near Person B's legs.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e015",
+        "video1_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_a007",
+      "statement": "In frame 0, the camera is slightly low and directly in front of Person A, framing Person A at a relatively close scale from the waist up.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a007",
+      "statement": "In frame 0, the camera is slightly low and directly in front of Person A, framing Person A at a relatively close scale from the waist up.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_a016",
+      "statement": "In frame 42, the camera is directly in front of Person B, framing Person B at a nearly full-body scale.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a016",
+      "statement": "In frame 42, the camera is directly in front of Person B, framing Person B at a nearly full-body scale.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_a008",
+      "statement": "In frame 0, the camera is directed toward Person A's upper body and face.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a008",
+      "statement": "In frame 0, the camera is directed toward Person A's upper body and face.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video1_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_a017",
+      "statement": "In frame 42, the camera is directed toward Person B, with the framing covering the head, torso, both legs, and the area around the feet, with the feet partially cropped at the lower edge.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a017",
+      "statement": "In frame 42, the camera is directed toward Person B, with the framing covering the head, torso, both legs, and the area around the feet, with the feet partially cropped at the lower edge.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_r00002",
+      "statement": "From frames 16 to 42, with the brown rooftop equipment structure, distant city buildings, and rooftop surface seams as references, no obvious continuous camera translation or vertical movement is visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 42,
+      "evidence_frames": [
+        16,
+        17,
+        24,
+        29,
+        34,
+        42
+      ],
+      "subject_ids": [
+        "video1_e008",
+        "video1_e012",
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00002",
+      "statement": "From frames 16 to 42, with the brown rooftop equipment structure, distant city buildings, and rooftop surface seams as references, no obvious continuous camera translation or vertical movement is visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 42,
+      "evidence_frames": [
+        16,
+        17,
+        24,
+        29,
+        34,
+        42
+      ],
+      "subject_ids": [
+        "video1_e008",
+        "video1_e012",
+        "video1_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_a031",
+      "statement": "The number of shot cuts from frames 0 to 42 is 1.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        15,
+        16,
+        42
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video1_cp001_a031",
+      "statement": "The number of shot cuts from frames 0 to 42 is 1.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        15,
+        16,
+        42
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video1_cp001_r00032",
+      "statement": "From frames 34 to 39, the two handguns in handgun group B fall toward the bottom of the image from near the two sides of Person B's waist, first descending to the legs and then to near the lower image edge; during the final portion, parts of their outlines are occluded by smoke and the coat tails.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 39,
+      "evidence_frames": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00032",
+      "statement": "From frames 34 to 39, the two handguns in handgun group B fall toward the bottom of the image from near the two sides of Person B's waist, first descending to the legs and then to near the lower image edge; during the final portion, parts of their outlines are occluded by smoke and the coat tails.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 39,
+      "evidence_frames": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_a029",
+      "statement": "From frames 0 to 15, Person A raises the hand holding handgun A forward and upward from in front of the waist and adjusts the muzzle to face the camera; during the later portion, Person A maintains the forward-extended gun-holding pose.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 15,
+      "evidence_frames": [
+        0,
+        1,
+        7,
+        9,
+        15
+      ],
+      "subject_ids": [
+        "video1_e001",
+        "video1_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_a029",
+      "statement": "From frames 0 to 15, Person A raises the hand holding handgun A forward and upward from in front of the waist and adjusts the muzzle to face the camera; during the later portion, Person A maintains the forward-extended gun-holding pose.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 15,
+      "evidence_frames": [
+        0,
+        1,
+        7,
+        9,
+        15
+      ],
+      "subject_ids": [
+        "video1_e001",
+        "video1_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_r00030",
+      "statement": "From frames 26 to 42, Person B lowers both forward-extended arms; during the earlier portion, both hands gradually descend to near the waist, and after releasing the guns, the hand on the image-left side continues to hang down below the waist while the hand on the image-right side draws back in front of the waist and abdomen.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 42,
+      "evidence_frames": [
+        25,
+        26,
+        27,
+        33,
+        36,
+        37,
+        39,
+        41,
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00030",
+      "statement": "From frames 26 to 42, Person B lowers both forward-extended arms; during the earlier portion, both hands gradually descend to near the waist, and after releasing the guns, the hand on the image-left side continues to hang down below the waist while the hand on the image-right side draws back in front of the waist and abdomen.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 42,
+      "evidence_frames": [
+        25,
+        26,
+        27,
+        33,
+        36,
+        37,
+        39,
+        41,
+        42
+      ],
+      "subject_ids": [
+        "video1_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video1_cp001_r00031",
+      "statement": "From frames 33 to 35, Person B gradually releases the two handguns in handgun group B; by frame 35, both handguns have left the two hands.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 33,
+      "end_frame": 35,
+      "evidence_frames": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video1_cp001_r00031",
+      "statement": "From frames 33 to 35, Person B gradually releases the two handguns in handgun group B; by frame 35, both handguns have left the two hands.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 33,
+      "end_frame": 35,
+      "evidence_frames": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "subject_ids": [
+        "video1_e002",
+        "video1_e004"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    24,
+    34,
+    42
+  ],
+  "evaluation_cut_frames": [
+    16
+  ],
+  "source_sha256": "9753f03058802602aabde81dae90ca192e2f5a27922ffa7f2c7e302e99ec27eb"
+}

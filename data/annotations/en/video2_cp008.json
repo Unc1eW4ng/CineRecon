@@ -1,0 +1,1723 @@
+{
+  "clip_id": "video2_cp008",
+  "video_id": "video2",
+  "fps": 23.976023976023978,
+  "start_frame": 0,
+  "end_frame": 32,
+  "source_frame_offset": 388,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video2_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The tall, slim person on the left with a crew cut, wearing a dark zip-up jacket and dark trousers."
+    },
+    {
+      "source_entity_id": "video2_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The person on the right wearing a dark knit cap, a loose dark leather jacket, a light-colored turtleneck top, and light-colored trousers, with the elbow nearer the center of the image resting on the railing."
+    },
+    {
+      "source_entity_id": "video2_e003",
+      "name": "Person D",
+      "numbered": true,
+      "first_appearance_frame": 13,
+      "identification": "The person entering from the left edge, wearing a dark knit cap, a thick coat with a broad light-colored hood-collar and light-colored trim, and camouflage trousers."
+    },
+    {
+      "source_entity_id": "video2_e006",
+      "name": "multistory buildings along the street",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous multistory buildings on both sides of the background and the spired building in the distant center."
+    },
+    {
+      "source_entity_id": "video2_e007",
+      "name": "city road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The street at a lower level behind the people, situated between the buildings on both sides and converging toward the distant center."
+    },
+    {
+      "source_entity_id": "video2_e009",
+      "name": "sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light gray sky visible between the buildings in the upper part of the image."
+    },
+    {
+      "source_entity_id": "video2_e012",
+      "name": "dark metal railing",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark top rail extending horizontally above the parapet and the spaced vertical posts."
+    },
+    {
+      "source_entity_id": "video2_e013",
+      "name": "stone parapet",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The horizontal parapet in the lower part of the image, with a broad dark top edge and a mottled light gray wall surface."
+    },
+    {
+      "source_entity_id": "video2_e015",
+      "name": "streetlights along the street",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light fixture in the left background with a broad, flat, dark lamp head and a slender vertical pole."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video2_cp008_restore00011",
+      "statement": "At frame 0, Person A and Person B are visible in the image, for a total of two people.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00018",
+      "statement": "At frame 0, a streetlight along the street is visible in the left background.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a007",
+      "statement": "At frame 0, Person A appears in the left foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a008",
+      "statement": "At frame 0, Person B appears in the right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00012",
+      "statement": "At frame 0, multistory buildings along the street are distributed on both sides of the image and in the distant center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00015",
+      "statement": "At frame 0, the visible road surface of the city road is in the central background of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00021",
+      "statement": "At frame 0, the sky is visible through gaps between the buildings in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00027",
+      "statement": "At frame 0, the dark lamp head and pole of the streetlight along the street are visible in the left background.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00030",
+      "statement": "At frame 0, the dark metal railing spans the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00033",
+      "statement": "At frame 0, the stone parapet extends horizontally across the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00019",
+      "statement": "At frame 32, Person A, Person B, and Person D are visible in the image, for a total of three people.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00027",
+      "statement": "At frame 32, only part of the edge of the streetlight's lamp head is visible behind Person D.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        24,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e015",
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a023",
+      "statement": "At frame 32, Person A appears in the left foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a024",
+      "statement": "At frame 32, Person B appears in the right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a037",
+      "statement": "At frame 32, Person D appears in the foreground at the left edge of the image, with part of the body cropped by the image boundary.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00036",
+      "statement": "At frame 32, multistory buildings along the street are distributed on both sides of the image and in the distant center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00039",
+      "statement": "At frame 32, the visible road surface of the city road is in the central background of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00045",
+      "statement": "At frame 32, the sky is visible through gaps between the buildings in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00051",
+      "statement": "At frame 32, part of the broad dark lamp head of the streetlight along the street is visible behind Person D, while the pole is occluded.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        24,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e015",
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00054",
+      "statement": "At frame 32, the dark metal railing spans the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00057",
+      "statement": "At frame 32, the stone parapet extends horizontally across the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a011",
+      "statement": "At frame 0, Person A is tall and slim, has a crew cut, and wears a dark zip-up jacket and dark trousers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a012",
+      "statement": "At frame 0, Person A is tall and slim, has a crew cut, and wears a dark zip-up jacket and dark trousers; the jacket has a central zipper, a short upright collar, and a gathered hem, both hands are inserted at the side pockets, and a small section of a bright inner layer is visible at the neckline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a013",
+      "statement": "At frame 0, Person B wears a dark knit cap, a loose dark leather jacket, a light-colored turtleneck sweatshirt, and light-colored trousers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a014",
+      "statement": "At frame 0, Person B wears a dark knit cap, a loose dark leather jacket, a light-colored turtleneck sweatshirt, and light-colored trousers; the jacket has thick dark lapels, wide sleeves, and a zipper edge along the front opening, and two dark bands, slightly angled with the clothing folds, are visible across the chest and abdomen of the inner layer.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00013",
+      "statement": "At frame 0, the multistory buildings along the street in the shallow-depth-of-field background are arrayed on both sides of the image, with the outline of a spire in the distant center.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00014",
+      "statement": "At frame 0, the multistory buildings along the street in the shallow-depth-of-field background are arrayed on both sides of the image and appear as blocks of dark and light gray; repeating rectangular window openings, horizontal balcony floor lines, and a spire in the distant center can be discerned, while details of the building facades have softened outlines.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00016",
+      "statement": "At frame 0, the visible section of the city road forms a long, narrow corridor converging in an approximately straight line toward the distant center, with its near end occluded by Person A, Person B, and the stone parapet.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e007",
+        "video2_e001",
+        "video2_e002",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00017",
+      "statement": "At frame 0, the visible section of the city road converges in an approximately straight line from the lower-central part of the image toward the distant center, with the streetscapes on both sides enclosing a long, narrow perspective corridor; the near end is occluded by Person A, Person B, and the stone parapet, the road surface in the distant section appears as a blurred gray area, and the road edges and markings are indiscernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e007",
+        "video2_e001",
+        "video2_e002",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00022",
+      "statement": "At frame 0, the sky is light gray.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00023",
+      "statement": "At frame 0, the sky is light gray, brightness changes in the gaps between the buildings are gradual, and no clear cloud texture is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00028",
+      "statement": "At frame 0, the streetlight along the street consists of a slender pole and a lamp head at the top.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00029",
+      "statement": "At frame 0, the streetlight along the street has a slender dark pole and a horizontally broad, slightly flat-disk-shaped lamp head at the top, with its edges softened by the shallow depth of field.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00031",
+      "statement": "At frame 0, the dark metal railing consists of a horizontal top rail and spaced vertical posts.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00032",
+      "statement": "At frame 0, the dark metal railing has a straight horizontal top rail and spaced vertical posts, with the lower ends of the vertical posts connecting to the top edge of the parapet; Person A and Person B occlude portions of the rails and posts.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e012",
+        "video2_e013",
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00034",
+      "statement": "At frame 0, the stone parapet has a broad dark coping and a light gray wall below.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00035",
+      "statement": "At frame 0, the stone parapet has a broad dark coping, and irregular small speckles and stains are visible on the light gray wall surface below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a027",
+      "statement": "At frame 32, Person A is tall and slim, has a crew cut, and wears a dark zip-up jacket and dark trousers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a028",
+      "statement": "At frame 32, Person A is tall and slim, has a crew cut, and wears a dark zip-up jacket and dark trousers; the jacket has a central zipper, a short upright collar, and a gathered hem, both hands are inserted at the side pockets, a bright inner layer is visible at the neckline, and part of the sleeve on the image-left side is occluded by Person D.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a029",
+      "statement": "At frame 32, Person B wears a dark knit cap, a loose dark leather jacket, a light-colored turtleneck sweatshirt, and light-colored trousers.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a030",
+      "statement": "At frame 32, Person B wears a dark knit cap, a loose dark leather jacket, a light-colored turtleneck sweatshirt, and light-colored trousers; the jacket has thick dark lapels, wide sleeves, and a zipper edge along the front opening, and two dark bands, slightly angled with the clothing folds, are visible across the chest and abdomen of the inner layer.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a038",
+      "statement": "At frame 32, Person D wears a dark knit cap, a heavy dark coat, and camouflage trousers, with a broad light-colored hood-collar around the neck and shoulders and light-colored trim at the cuffs and hem.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a039",
+      "statement": "At frame 32, Person D wears a dark knit cap, a heavy dark coat, and camouflage trousers; the top of the cap is cropped by the upper boundary, there is a broad light-colored hood-collar around the neck and shoulders, light-colored fleece-like trim is visible at the cuffs and hem, and the trousers have an irregular camouflage pattern of dark and light patches.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00037",
+      "statement": "At frame 32, the multistory buildings along the street in the shallow-depth-of-field background are arrayed on both sides of the image, with the outline of a spire in the distant center.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00038",
+      "statement": "At frame 32, the multistory buildings along the street in the shallow-depth-of-field background are arrayed on both sides of the image and appear as blocks of dark and light gray; repeating rectangular window openings, horizontal balcony floor lines, and a spire in the distant center can be discerned, while details of the building facades have softened outlines.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00040",
+      "statement": "At frame 32, the visible section of the city road forms a long, narrow corridor converging in an approximately straight line toward the distant center, with its near end occluded by Person A, Person B, and the stone parapet.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e007",
+        "video2_e001",
+        "video2_e002",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00041",
+      "statement": "At frame 32, the visible section of the city road converges in an approximately straight line from the lower-central part of the image toward the distant center, with the streetscapes on both sides enclosing a long, narrow perspective corridor; the near end is occluded by Person A, Person B, and the stone parapet, the road surface in the distant section appears as a blurred gray area, and the road edges and markings are indiscernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e007",
+        "video2_e001",
+        "video2_e002",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00046",
+      "statement": "At frame 32, the sky is light gray.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00047",
+      "statement": "At frame 32, the sky is light gray, brightness changes in the gaps between the buildings are gradual, and no clear cloud texture is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00052",
+      "statement": "At frame 32, only part of the broad dark lamp head of the streetlight along the street is visible, while the vertical pole is occluded by Person D.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        24,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e015",
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00053",
+      "statement": "At frame 32, only a small section of the edge of the broad dark lamp head of the streetlight along the street is visible, its outline is incomplete because of defocus and occlusion, and the vertical pole is occluded by Person D.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        24,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e015",
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00055",
+      "statement": "At frame 32, the dark metal railing consists of a horizontal top rail and spaced vertical posts.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00056",
+      "statement": "At frame 32, the dark metal railing has a straight horizontal top rail and spaced vertical posts, with the lower ends of the vertical posts connecting to the top edge of the parapet; Person A, Person B, and Person D occlude portions of the rails and posts.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e012",
+        "video2_e013",
+        "video2_e001",
+        "video2_e002",
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00058",
+      "statement": "At frame 32, the stone parapet has a broad dark coping and a light gray wall below.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00059",
+      "statement": "At frame 32, the stone parapet has a broad dark coping, and irregular small speckles and stains are visible on the light gray wall surface below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00012",
+      "statement": "At frame 0, Person A is on the left side of the image and Person B is on the right side of the image, both in front of the dark metal railing and stone parapet; Person B's elbow on the side nearer the center of the image rests on the railing.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00013",
+      "statement": "At frame 0, the dark metal railing is above the stone parapet, and both span the lower part of the image, with the city road and multistory buildings along the street behind them.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e012",
+        "video2_e013",
+        "video2_e007",
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00014",
+      "statement": "At frame 0, the city road is at a lower level behind the area occupied by Person A and Person B and converges in an approximately straight line from the lower-central part of the image toward the distant center; multistory buildings along the street are arrayed on both sides of the road, and the near end of the road is occluded by Person A, Person B, and the stone parapet.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e007",
+        "video2_e006",
+        "video2_e001",
+        "video2_e002",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00016",
+      "statement": "At frame 0, the sky is in the upper part of the image and is visible above and through gaps between the multistory buildings along the street.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e009",
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00008",
+      "statement": "At frame 0, Person A is on the left side of the image and Person B is on the right side of the image, and both are in front of the dark metal railing and stone parapet.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00009",
+      "statement": "At frame 0, the dark metal railing and stone parapet horizontally separate the foreground area occupied by Person A and Person B from the city road and multistory buildings along the street behind them.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e012",
+        "video2_e013",
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00020",
+      "statement": "At frame 32, Person A is on the left side of the image and Person B is on the right side of the image, both in front of the dark metal railing and stone parapet; Person B's elbow on the side nearer the center of the image rests on the railing.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00021",
+      "statement": "At frame 32, the dark metal railing is above the stone parapet, and both span the lower part of the image, with the city road and multistory buildings along the street behind them.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e012",
+        "video2_e013",
+        "video2_e007",
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00022",
+      "statement": "At frame 32, Person D is at the left edge of the image and in front of Person A and Person B, facing image-right; the body is cropped by the left boundary and occludes part of Person A's arm on the image-left side.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e003",
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00023",
+      "statement": "At frame 32, the city road is at a lower level behind the area occupied by Person A and Person B and converges in an approximately straight line from the lower-central part of the image toward the distant center; multistory buildings along the street are arrayed on both sides of the road, and the near end of the road is occluded by Person A, Person B, and the stone parapet.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e007",
+        "video2_e006",
+        "video2_e001",
+        "video2_e002",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_restore00025",
+      "statement": "At frame 32, the sky is in the upper part of the image and is visible above and through gaps between the multistory buildings along the street.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e009",
+        "video2_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a040",
+      "statement": "At frame 32, Person D is at the left edge of the image and in front of Person A and Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e003",
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00010",
+      "statement": "At frame 32, Person A is on the left side of the image and Person B is on the right side of the image, and both are in front of the dark metal railing and stone parapet.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00011",
+      "statement": "At frame 32, the dark metal railing and stone parapet horizontally separate the foreground area occupied by Person A, Person B, and Person D from the city road and multistory buildings along the street behind them.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e012",
+        "video2_e013",
+        "video2_e001",
+        "video2_e002",
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_r00004",
+      "statement": "At frame 0, the camera is at a high position above the city road and in front of Person A and Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00004",
+      "statement": "At frame 0, the camera is at a high position above the city road and in front of Person A and Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_r00005",
+      "statement": "At frame 32, the camera is at a high position above the city road and in front of Person A and Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00005",
+      "statement": "At frame 32, the camera is at a high position above the city road and in front of Person A and Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_r00006",
+      "statement": "At frame 0, the camera faces Person A and Person B in the foreground, as well as the city road extending into the distance between them.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e006",
+        "video2_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00006",
+      "statement": "At frame 0, the camera faces Person A and Person B in the foreground, as well as the city road extending into the distance between them.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e006",
+        "video2_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_r00007",
+      "statement": "At frame 32, the camera still faces Person A and Person B in the foreground, as well as the city road extending into the distance between them; Person D enters the left foreground.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e003",
+        "video2_e006",
+        "video2_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00007",
+      "statement": "At frame 32, the camera still faces Person A and Person B in the foreground, as well as the city road extending into the distance between them; Person D enters the left foreground.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 32,
+      "end_frame": 32,
+      "evidence_frames": [
+        32
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002",
+        "video2_e003",
+        "video2_e006",
+        "video2_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_r00001",
+      "statement": "From frames 0 to 32, the camera has no discernible horizontal or vertical translation.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        16,
+        32
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00001",
+      "statement": "From frames 0 to 32, the camera has no discernible horizontal or vertical translation.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        16,
+        32
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_r00002",
+      "statement": "From frames 0 to 16, the camera tilts slightly downward.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        10,
+        12,
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00002",
+      "statement": "From frames 0 to 16, the camera tilts slightly downward.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 16,
+      "evidence_frames": [
+        0,
+        10,
+        12,
+        15,
+        16
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_r00003",
+      "statement": "From frames 16 to 32, the camera tilts slightly upward, returning the composition to a position close to that at frame 0.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 16,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        16,
+        17,
+        20,
+        24,
+        32
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_r00003",
+      "statement": "From frames 16 to 32, the camera tilts slightly upward, returning the composition to a position close to that at frame 0.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 16,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        16,
+        17,
+        20,
+        24,
+        32
+      ],
+      "subject_ids": [
+        "video2_e006",
+        "video2_e007",
+        "video2_e012",
+        "video2_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_a043",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        12,
+        16,
+        24,
+        32
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video2_cp008_a043",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        12,
+        16,
+        24,
+        32
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video2_cp008_a041",
+      "statement": "From frames 13 to 32, Person D gradually enters from the left edge of the image and moves toward image-right; the hand is visible first, followed by more of the upper body and trousers entering the image.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 13,
+      "end_frame": 32,
+      "evidence_frames": [
+        12,
+        13,
+        14,
+        16,
+        19,
+        24,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a041",
+      "statement": "From frames 13 to 32, Person D gradually enters from the left edge of the image and moves toward image-right; the hand is visible first, followed by more of the upper body and trousers entering the image.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 13,
+      "end_frame": 32,
+      "evidence_frames": [
+        12,
+        13,
+        14,
+        16,
+        19,
+        24,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video2_cp008_a042",
+      "statement": "From frames 0 to 32, Person A's head gradually straightens from a slight sideways tilt; starting at approximately frame 18, Person B raises the chin, shifts the gaze toward the upper part of the image, and continues looking upward until the end of the clip.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        10,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video2_cp008_a042",
+      "statement": "From frames 0 to 32, Person A's head gradually straightens from a slight sideways tilt; starting at approximately frame 18, Person B raises the chin, shifts the gaze toward the upper part of the image, and continues looking upward until the end of the clip.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 32,
+      "evidence_frames": [
+        0,
+        10,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video2_e001",
+        "video2_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    32
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "da79dadc994ff34a92d3cd14a2ca3c669d58a85442d580b361487f880c42c87d"
+}

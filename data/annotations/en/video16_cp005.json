@@ -1,0 +1,1796 @@
+{
+  "clip_id": "video16_cp005",
+  "video_id": "video16",
+  "fps": 25.0,
+  "start_frame": 0,
+  "end_frame": 40,
+  "source_frame_offset": 92,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video16_e002",
+      "name": "longitudinal main road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "An urban road extending from the lower left of the frame into the depth between buildings, with an illuminated multi-lane road surface, vehicles, and road markings."
+    },
+    {
+      "source_entity_id": "video16_e007",
+      "name": "distant high-rise skyline",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A dense cluster of buildings of varying heights in the background, with cyan-blue window lights, golden-yellow vertical light strips, and dome-shaped bright sections."
+    },
+    {
+      "source_entity_id": "video16_e008",
+      "name": "foreground elevated roadway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A long gray elevated roadway running diagonally across the lower part of the frame, with lanes in both directions, a solid central divider, and guardrails along the bridge edges."
+    },
+    {
+      "source_entity_id": "video16_e009",
+      "name": "tree canopy beside the elevated roadway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Expanses of green canopy around the elevated roadway and low-rise facilities, including a brighter yellow-green tree canopy in the lower right in the later part."
+    },
+    {
+      "source_entity_id": "video16_e011",
+      "name": "Vehicle G",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A long box truck in the near-side lane of the elevated roadway, with a turquoise cab connected to a blue rectangular cargo box and a pale pink cargo-box roof."
+    },
+    {
+      "source_entity_id": "video16_e012",
+      "name": "building with white strip windows on the right side of the frame",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A large white building visible at the right edge in the later part, with multiple rows of dark cyan horizontal window strips on its facade."
+    },
+    {
+      "source_entity_id": "video16_e023",
+      "name": "night sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A deep-blue to nearly black sky background above the buildings, with a fairly large expanse of dim gray clouds visible in the later part."
+    },
+    {
+      "source_entity_id": "video16_e024",
+      "name": "distant dark mountain ridge",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gently undulating outline of a dark mountain behind the buildings, with a small number of warm-colored bright points scattered nearby."
+    },
+    {
+      "source_entity_id": "video16_e025",
+      "name": "metal guardrail of the elevated roadway",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Gray thin-rod railings extending along both edges of the elevated roadway deck, with parallel horizontal rails and spaced vertical posts."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video16_cp005_restore00014",
+      "statement": "At frame 0, Vehicle G is visible in the frame, with a count of one vehicle.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a006",
+      "statement": "At frame 0, the longitudinal main road is clearly present from the lower left of the frame into the central depth.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a010",
+      "statement": "At frame 0, the distant high-rise skyline is clearly present in the upper half of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a014",
+      "statement": "At frame 0, the foreground elevated roadway is clearly present in the lower right of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a018",
+      "statement": "At frame 0, the tree canopy beside the elevated roadway is clearly present slightly right of center in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a026",
+      "statement": "At frame 0, Vehicle G is clearly present in the lower right of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00001",
+      "statement": "At frame 0, the night sky is present at the top of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00010",
+      "statement": "At frame 0, the distant dark mountain ridge is partially visible behind the rooftops in the upper right of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00026",
+      "statement": "At frame 0, the metal guardrail of the elevated roadway is visible along the bridge deck in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00022",
+      "statement": "At frame 40, Vehicle G is visible in the frame, with a count of one vehicle.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a032",
+      "statement": "At frame 40, the longitudinal main road is clearly present from the lower left of the frame into the middle depth.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a036",
+      "statement": "At frame 40, the distant high-rise skyline is clearly present in the upper-middle part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a040",
+      "statement": "At frame 40, the foreground elevated roadway is clearly present in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a044",
+      "statement": "At frame 40, the tree canopy beside the elevated roadway is clearly present in the lower-middle and lower-right parts of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a052",
+      "statement": "At frame 40, Vehicle G is clearly present slightly right of center in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a056",
+      "statement": "At frame 40, the building with white strip windows on the right side of the frame is clearly present on the right side of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video16_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00005",
+      "statement": "At frame 40, the night sky is present in the upper part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00014",
+      "statement": "At frame 40, the distant dark mountain ridge is visible behind the buildings in the upper part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00030",
+      "statement": "At frame 40, the metal guardrail of the elevated roadway is visible along the bridge deck in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a011",
+      "statement": "At frame 0, the distant high-rise skyline appears as a dense arrangement of high-rises at night, with prominent cyan-blue window lights and golden-yellow vertical light strips.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a012",
+      "statement": "At frame 0, the distant high-rise skyline consists of dense dark towers of varying heights, with prominent cyan-blue window lights in regular window grids; two rows of golden-yellow vertical light strips, a dome-shaped illuminated roof, and distant red and blue points of light are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a019",
+      "statement": "At frame 0, the tree canopy beside the elevated roadway appears as expanses of dense, dark green tree canopy covering the low-rise area.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a020",
+      "statement": "At frame 0, the tree canopy beside the elevated roadway is an expanse of dense, dark green canopy covering the low-rise area; the outlines of canopy masses, light and dark leaf clusters, and locally warmer illuminated edges are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a027",
+      "statement": "At frame 0, Vehicle G is a long box truck, with a turquoise cab connected to a blue rectangular cargo box and a pale pink cargo-box roof.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a028",
+      "statement": "At frame 0, Vehicle G is a long box truck with a turquoise cab, a blue rectangular cargo box, and a pale pink cargo-box roof; dark windows, some dark wheel areas, and a blurred red marking on the side of the cargo box are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00002",
+      "statement": "At frame 0, the night sky appears as a deep-blue to nearly black background above the buildings.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00003",
+      "statement": "At frame 0, the night sky is deep blue to nearly black, continuously visible above and between the rooftops, with subtle dim gray tonal variation.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00011",
+      "statement": "At frame 0, the distant dark mountain ridge appears as a low, undulating, nearly black outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00012",
+      "statement": "At frame 0, the distant dark mountain ridge appears as a low, nearly black, undulating outline, partially visible in the upper right of the frame; a small number of warm-colored points of light are scattered near the outline, and its lower part is occluded by high-rises.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00018",
+      "statement": "At frame 0, red and white vehicle-light trails are arranged into the depth on the brightly lit multi-lane surface of the longitudinal main road. The main road extends in an approximately straight line from the lower left of the frame toward the upper part, slightly to the right, and ends at the last discernible road surface after entering the dense buildings; its near end exits the frame at the bottom edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00019",
+      "statement": "At frame 0, the longitudinal main road appears as a pale, bright multi-lane road surface, with thin lane lines, red and white light trails extending into the depth, yellow intersection cross-stripes, and blue illuminated roadside signs visible. The main road extends in an approximately straight line from the lower left of the frame toward the upper part, slightly to the right, and ends at the last discernible road surface after entering the dense buildings; its near end exits the frame at the bottom edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00022",
+      "statement": "At frame 0, the foreground elevated roadway appears as a long gray bridge deck, with lanes in both directions and slender guardrails extending along the bridge edges. The bridge deck is visible extending approximately straight and diagonally from slightly right of center at the bottom edge of the frame toward the upper right, with its far end exiting the frame at the right edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00023",
+      "statement": "At frame 0, the foreground elevated roadway appears as a long gray bridge deck, with lanes in both directions and a solid central divider; slender metal guardrails and streetlight poles are visible along the bridge edges, and parts beneath the bridge are darker. The bridge deck extends approximately straight and diagonally from slightly right of center at the bottom edge of the frame toward the upper right, with its far end exiting the frame at the right edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00027",
+      "statement": "At frame 0, the metal guardrail of the elevated roadway appears as a gray thin-rod structure extending along both edges of the elevated roadway deck.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00028",
+      "statement": "At frame 0, the metal guardrail of the elevated roadway is a gray thin-rod structure extending diagonally along both edges of the bridge deck; multiple parallel horizontal rails, spaced vertical posts, and locally bright edges are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a037",
+      "statement": "At frame 40, the distant high-rise skyline appears as dense high-rises filling the nighttime skyline, with prominent cyan-blue window lights and golden-yellow vertical light strips.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a038",
+      "statement": "At frame 40, the distant high-rise skyline consists of densely layered dark gray and blue-gray towers, with various window lights and light strips clearly visible; cyan-blue window grids, golden-yellow vertical light strips, a green spire, dome-shaped bright sections, and tiny distant points of light are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a045",
+      "statement": "At frame 40, expanses of the tree canopy beside the elevated roadway cluster around the elevated roadway and low-rise facilities, predominantly dark green overall, with a larger expanse in the lower right appearing brighter yellow-green.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a046",
+      "statement": "At frame 40, the predominantly dark green tree canopy beside the elevated roadway forms expanses clustered around the elevated roadway and low-rise facilities, creating continuous masses; light and dark leaf clusters, the yellow-green canopy in the lower right, and locally illuminated bright edges are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a053",
+      "statement": "At frame 40, Vehicle G is a long box truck, with a turquoise cab connected to a blue rectangular cargo box and a pale pink cargo-box roof.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a054",
+      "statement": "At frame 40, Vehicle G is a long box truck with a turquoise cab, a blue rectangular cargo box, a pale pink cargo-box roof, and a dark windshield.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video16_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a057",
+      "statement": "At frame 40, the building with white strip windows on the right side of the frame appears as a large white building with regular dark cyan horizontal window strips.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a058",
+      "statement": "At frame 40, the building with white strip windows on the right side of the frame is a large white building, with a rectangular facade, multiple rows of regular dark cyan narrow horizontal window strips, a roofline varying in height, and horizontal cornice lines visible; its lower part is partially occluded by the tree canopy, and its right side is outside the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00006",
+      "statement": "At frame 40, the night sky is deep blue to nearly black, stretching across above the buildings, with a large expanse of dim gray clouds.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00007",
+      "statement": "At frame 40, the night sky is deep blue to nearly black, stretching across above the buildings; a large expanse of dim gray clouds has uneven light and dark tones, with brighter cloud masses in the upper part of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00015",
+      "statement": "At frame 40, the distant dark mountain ridge appears as a low, dark outline extending horizontally.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00016",
+      "statement": "At frame 40, the distant dark mountain ridge appears as a horizontally extending, low, gently undulating dark outline, with sparse small warm-colored points of light near the outline; parts of the mountain are occluded by the distant high-rises.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00020",
+      "statement": "At frame 40, the longitudinal main road appears as a gray, bright multi-lane road surface extending along the buildings on the left side of the frame, with streetlights and scattered vehicles forming bright points and short bright trails. The main road extends approximately straight from the lower left toward the upper part, slightly to the right, gradually narrows between the buildings, and ends in the distance where it is occluded by dense illuminated signs and buildings.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00021",
+      "statement": "At frame 40, the longitudinal main road appears as a gray, bright multi-lane road surface, with streetlights and scattered vehicles forming bright points and short bright trails; yellow intersection cross-stripes, red and white vehicle-light points, blue roadside storefront lights, and road-edge lines are visible. The main road extends approximately straight from the lower left of the frame toward the upper part, slightly to the right, gradually narrows between the buildings, and ends in the distance where it is occluded by dense illuminated signs and buildings.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00024",
+      "statement": "At frame 40, the foreground elevated roadway appears as a long gray bridge structure, with lanes in both directions and slender guardrails extending along the edges of the bridge deck. The bridge deck is visible extending in an approximately straight diagonal line from left of center at the bottom edge of the frame toward the lower-middle part of the right side, with its right end occluded by the building with white strip windows on the right side of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e008",
+        "video16_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00025",
+      "statement": "At frame 40, the foreground elevated roadway appears as a long gray bridge structure, with lanes in both directions and a solid central divider; metal guardrails and streetlight poles are visible along the bridge edges, while bridge piers and the strip-shaped canopy roofs of adjacent low-rise facilities are visible beneath the bridge. The bridge deck extends approximately straight and diagonally from left of center at the bottom edge of the frame toward the lower-middle part of the right side, with its right end occluded by the building with white strip windows on the right side of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e008",
+        "video16_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00031",
+      "statement": "At frame 40, the metal guardrail of the elevated roadway appears as a gray thin-rod structure extending along both edges of the elevated roadway deck.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00032",
+      "statement": "At frame 40, the metal guardrail of the elevated roadway is a gray thin-rod structure extending diagonally along both edges of the bridge deck; multiple parallel horizontal rails, spaced vertical posts, and locally bright edges are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00008",
+      "statement": "At frame 0, the longitudinal main road enters from the bottom edge in the lower left of the frame, extends in an approximately straight line between the buildings on both sides toward the upper part of the frame, slightly to the right, and is occluded in the distance by buildings between the other buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00009",
+      "statement": "At frame 0, the distant high-rise skyline occupies the upper half of the frame as a group and is above the far end of the longitudinal main road in the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e007",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00010",
+      "statement": "At frame 0, the foreground elevated roadway extends diagonally from slightly right of center at the bottom edge of the frame toward the upper right to the right edge, with the bridge deck above the ground area below; the lanes in both directions are arranged side by side along the bridge, with a solid divider between them, and the metal guardrail of the elevated roadway extends along both edges of the bridge deck.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e008",
+        "video16_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00011",
+      "statement": "At frame 0, the tree canopy beside the elevated roadway is distributed in groups slightly right of center in the lower part of the frame, behind the foreground elevated roadway and between it and the low-rise buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e009",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00012",
+      "statement": "At frame 0, the night sky is at the top of the frame and above the distant high-rise skyline.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e023",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00013",
+      "statement": "At frame 0, the distant dark mountain ridge is partially visible behind the rooftops in the upper right of the frame, below the night sky, and is partially occluded by the distant high-rise skyline.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e024",
+        "video16_e007",
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00015",
+      "statement": "At frame 0, Vehicle G is in the near-side lane of the foreground elevated roadway in the lower right of the frame, supported by the bridge deck, with its front facing toward the lower left of the frame, and is in front of the tree canopy beside the elevated roadway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e011",
+        "video16_e008",
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a009",
+      "statement": "At frame 0, the longitudinal main road extends from the lower left of the frame toward a position below the distant high-rise skyline in the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a013",
+      "statement": "At frame 0, the distant high-rise skyline is above the far end of the longitudinal main road in the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e007",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a017",
+      "statement": "At frame 0, the foreground elevated roadway passes in front of the tree canopy beside the elevated roadway and is below the distant high-rise skyline in the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e008",
+        "video16_e009",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a021",
+      "statement": "At frame 0, the tree canopy beside the elevated roadway is behind the foreground elevated roadway and between it and the low-rise buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e009",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a029",
+      "statement": "At frame 0, Vehicle G is in the near-side lane of the foreground elevated roadway and in front of the tree canopy beside the elevated roadway.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e011",
+        "video16_e008",
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00004",
+      "statement": "At frame 0, the night sky is above the distant high-rise skyline in the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e023",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00013",
+      "statement": "At frame 0, the distant dark mountain ridge is behind the distant high-rise skyline and below the night sky.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e024",
+        "video16_e007",
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00029",
+      "statement": "At frame 0, the metal guardrail of the elevated roadway is arranged along both edges of the bridge deck of the foreground elevated roadway.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video16_e025",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00016",
+      "statement": "At frame 40, the longitudinal main road enters from the bottom edge in the lower left of the frame, extends in an approximately straight line between the buildings on both sides toward the upper part of the frame, slightly to the right, and is occluded in the distance by buildings between the other buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00017",
+      "statement": "At frame 40, the distant high-rise skyline is distributed as a group in the upper-middle part of the frame and is above the far end of the longitudinal main road in the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e007",
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00018",
+      "statement": "At frame 40, the foreground elevated roadway extends diagonally from left of center at the bottom edge of the frame toward the lower-middle part of the right side, with its right end occluded by the building with white strip windows on the right side of the frame and the bridge deck above the ground; the lanes in both directions are arranged side by side along the bridge, with a solid divider between them, and the metal guardrail of the elevated roadway extends along both edges of the bridge deck.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video16_e008",
+        "video16_e025",
+        "video16_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00019",
+      "statement": "At frame 40, the tree canopy beside the elevated roadway is distributed in groups on both sides of the foreground elevated roadway; one expanse in the lower-middle part of the frame is behind the elevated roadway, while another expanse in the lower-right corner of the frame is on the near side of the elevated roadway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e009",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00020",
+      "statement": "At frame 40, the night sky stretches across the upper part of the frame and is above the distant high-rise skyline.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e023",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00021",
+      "statement": "At frame 40, the distant dark mountain ridge is below the night sky and behind the distant high-rise skyline, partially visible between the buildings and behind the rooftops, with the remaining parts occluded by the buildings.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e024",
+        "video16_e007",
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00023",
+      "statement": "At frame 40, Vehicle G is in the near-side lane of the foreground elevated roadway slightly right of center in the lower part of the frame, supported by the bridge deck, with its front facing toward the lower left of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e011",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_restore00024",
+      "statement": "At frame 40, the building with white strip windows on the right side of the frame occupies the right side of the frame and is immediately adjacent to the right edge, in front of the distant high-rise skyline and occluding part of it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e012",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a035",
+      "statement": "At frame 40, the longitudinal main road extends from the lower left of the frame toward a position below the distant high-rise skyline in the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a043",
+      "statement": "At frame 40, the foreground elevated roadway is below the distant high-rise skyline in the frame and passes in front of the expanse of tree canopy beside the elevated roadway in the lower-middle part of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e008",
+        "video16_e007",
+        "video16_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a047",
+      "statement": "At frame 40, the tree canopy beside the elevated roadway is distributed on both sides of the foreground elevated roadway; one expanse in the lower-middle part is behind the elevated roadway, and one expanse in the lower-right part is on the near side of the elevated roadway.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e009",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a055",
+      "statement": "At frame 40, Vehicle G is in the near-side lane of the foreground elevated roadway.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e011",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a059",
+      "statement": "At frame 40, the building with white strip windows on the right side of the frame is in front of the distant high-rise skyline and immediately adjacent to the right edge of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e012",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00008",
+      "statement": "At frame 40, the night sky is above the distant high-rise skyline in the frame and forms the farthest background.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e023",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00009",
+      "statement": "At frame 40, the distant high-rise skyline is above the far end of the longitudinal main road in the frame, below the night sky, and in front of the distant dark mountain ridge.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e007",
+        "video16_e002",
+        "video16_e023",
+        "video16_e024"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00017",
+      "statement": "At frame 40, the distant dark mountain ridge is behind the distant high-rise skyline and below the night sky.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e024",
+        "video16_e007",
+        "video16_e023"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_r00033",
+      "statement": "At frame 40, the metal guardrail of the elevated roadway is arranged along both edges of the bridge deck of the foreground elevated roadway.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        39,
+        40
+      ],
+      "subject_ids": [
+        "video16_e025",
+        "video16_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_a004",
+      "statement": "At frame 0, the camera is at an elevated urban position above the road, looking diagonally downward at the longitudinal main road, with both the longitudinal main road and the distant high-rise skyline in the forward field of view.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a004",
+      "statement": "At frame 0, the camera is at an elevated urban position above the road, looking diagonally downward at the longitudinal main road, with both the longitudinal main road and the distant high-rise skyline in the forward field of view.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_a030",
+      "statement": "At frame 40, the camera is at an elevated urban position above the road, looking diagonally downward at the longitudinal main road, with both the longitudinal main road and the distant high-rise skyline in the forward field of view.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a030",
+      "statement": "At frame 40, the camera is at an elevated urban position above the road, looking diagonally downward at the longitudinal main road, with both the longitudinal main road and the distant high-rise skyline in the forward field of view.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_a005",
+      "statement": "At frame 0, the camera is aimed toward the area containing the longitudinal main road and the distant high-rise skyline.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a005",
+      "statement": "At frame 0, the camera is aimed toward the area containing the longitudinal main road and the distant high-rise skyline.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_a031",
+      "statement": "At frame 40, the camera is aimed toward the area containing the longitudinal main road and the distant high-rise skyline.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a031",
+      "statement": "At frame 40, the camera is aimed toward the area containing the longitudinal main road and the distant high-rise skyline.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 40,
+      "end_frame": 40,
+      "evidence_frames": [
+        40
+      ],
+      "subject_ids": [
+        "video16_e002",
+        "video16_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_a001",
+      "statement": "From frame 0 to frame 40, the camera pans right, and the stationary city buildings continuously shift left within the frame.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 40,
+      "evidence_frames": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "subject_ids": [
+        "video16_e007",
+        "video16_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a001",
+      "statement": "From frame 0 to frame 40, the camera pans right, and the stationary city buildings continuously shift left within the frame.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 40,
+      "evidence_frames": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "subject_ids": [
+        "video16_e007",
+        "video16_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_a002",
+      "statement": "From frame 0 to frame 40, the camera continuously zooms out, with the field of view gradually expanding to include more of the roads and surrounding urban scenery.",
+      "category": "camera_zoom",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 40,
+      "evidence_frames": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video16_cp005_a002",
+      "statement": "From frame 0 to frame 40, the camera continuously zooms out, with the field of view gradually expanding to include more of the roads and surrounding urban scenery.",
+      "category": "camera_zoom",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 40,
+      "evidence_frames": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "subject_ids": [
+        "video16_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video16_cp005_a003",
+      "statement": "The clip is a continuous shot, with a cut count of 0.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 40,
+      "evidence_frames": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video16_cp005_a003",
+      "statement": "The clip is a continuous shot, with a cut count of 0.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 40,
+      "evidence_frames": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "subject_ids": []
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    40
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "6e64254a6b8ba89369ccd7ddd9678e383d14a04eca349e0f30af7ac1a1685463"
+}

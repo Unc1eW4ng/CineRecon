@@ -1,0 +1,2059 @@
+{
+  "clip_id": "video27_cp008",
+  "video_id": "video27",
+  "fps": 24.8825,
+  "start_frame": 0,
+  "end_frame": 42,
+  "source_frame_offset": 425,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video27_e001",
+      "name": "Gray Racetrack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray paved road surface extending forward from the lower part of the main view and curving right between the slopes on both sides."
+    },
+    {
+      "source_entity_id": "video27_e002",
+      "name": "Metal Guardrail",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The silver-gray guardrails with multiple horizontal beam-like rails extending along both sides of the racetrack."
+    },
+    {
+      "source_entity_id": "video27_e003",
+      "name": "Red-and-White Curb",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The curved strip with alternating red and white sections between the road surface and the guardrail on the right side of the main view."
+    },
+    {
+      "source_entity_id": "video27_e005",
+      "name": "Blue Sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The blue background between the tops of the slopes on both sides, also revealed in the final section through the small opening below and to the right of the Distant Gray Structure."
+    },
+    {
+      "source_entity_id": "video27_e012",
+      "name": "Distant Gray Structure",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The thick, slab-like gray structure between the slopes on both sides ahead, with an angular lower edge and a dark underside."
+    },
+    {
+      "source_entity_id": "video27_e013",
+      "name": "Vehicle C",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The low, bright yellow vehicle partially visible at the lower left of the main view, with black tires and silver wheel rims."
+    },
+    {
+      "source_entity_id": "video27_e014",
+      "name": "Racing Interface Overlay",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The orange text, top rear-view frame, lower-left route map, lower-right gauge, and green symbols on the right, all fixed in screen position."
+    },
+    {
+      "source_entity_id": "video27_e016",
+      "name": "Slope Beside the Racetrack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The raised, steep slopes and locally exposed rock and soil flanking both sides of the racetrack, excluding the vegetation on their surfaces."
+    },
+    {
+      "source_entity_id": "video27_e017",
+      "name": "Slope and Roadside Vegetation",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark and light green covering on the slopes and the uneven tree-like silhouettes along the top of the left slope."
+    },
+    {
+      "source_entity_id": "video27_e019",
+      "name": "Vehicle B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The closer, broader-looking image of a silver-white vehicle in the top rear-view image."
+    },
+    {
+      "source_entity_id": "video27_e020",
+      "name": "Vehicle D",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The low vehicle image that is farther away and smaller in scale than Vehicle B in the top rear-view image; it is relatively dark in frame 0, while a light-colored upper portion and dark lower edge are discernible in the final frame."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video27_cp008_restore00014",
+      "statement": "In frame 0, the sky area is visible between the tops of the slopes on both sides in the upper part of the main view.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00005",
+      "statement": "In frame 0, the Gray Racetrack is visible from the lower to the middle part of the main view.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00008",
+      "statement": "In frame 0, Metal Guardrails are visible on both sides of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00011",
+      "statement": "In frame 0, the Red-and-White Curb is visible along the inside edge of the bend on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00014",
+      "statement": "In frame 0, the Blue Sky is visible between the two slopes in the upper part of the main view.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00017",
+      "statement": "In frame 0, the Distant Gray Structure is visible in the upper area between the two slopes ahead.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00020",
+      "statement": "In frame 0, Vehicle C is visible at the lower left of the main view.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video27_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00023",
+      "statement": "In frame 0, the Racing Interface Overlay is visible around the edges and at the top center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00026",
+      "statement": "In frame 0, the Slope Beside the Racetrack is visible on both sides of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00029",
+      "statement": "In frame 0, the Slope and Roadside Vegetation is visible on the slope surfaces and slope tops.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00032",
+      "statement": "In frame 0, Vehicle B is visible in the middle of the top rear-view image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video27_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00035",
+      "statement": "In frame 0, Vehicle D is visible farther away in the top rear-view image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video27_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00072",
+      "statement": "The Racing Interface Overlay is visible in frame 19.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00081",
+      "statement": "In frame 19, the Gray Racetrack is visible from the lower to the middle part of the main view.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00075",
+      "statement": "The Racing Interface Overlay is visible in frame 20.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00084",
+      "statement": "In frame 20, the Gray Racetrack is visible from the lower to the middle part of the main view.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00020",
+      "statement": "In frame 21, Vehicle C is outside the main view, and the number of visible vehicle bodies within the main view is 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 21,
+      "end_frame": 21,
+      "evidence_frames": [
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video27_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00027",
+      "statement": "In frame 42, the number of visible vehicle bodies within the main view is 0.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00041",
+      "statement": "In frame 42, the Gray Racetrack is visible from the lower to the middle part of the main view.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00044",
+      "statement": "In frame 42, Metal Guardrails are visible on both sides of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00047",
+      "statement": "In frame 42, the Red-and-White Curb is visible along the inside edge of the bend on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00050",
+      "statement": "In frame 42, the Blue Sky is visible in the upper part of the main view and through the distant opening below the Distant Gray Structure.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00053",
+      "statement": "In frame 42, the Distant Gray Structure is visible above the road ahead.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00056",
+      "statement": "In frame 42, the Racing Interface Overlay is visible around the edges and at the top center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00059",
+      "statement": "In frame 42, the Slope Beside the Racetrack is visible on both sides of the road.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00062",
+      "statement": "In frame 42, the Slope and Roadside Vegetation is visible on the slope surfaces and at the top of the left slope.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00065",
+      "statement": "In frame 42, Vehicle B is visible slightly left of center in the top rear-view image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        41,
+        42
+      ],
+      "subject_ids": [
+        "video27_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00068",
+      "statement": "In frame 42, Vehicle D is visible at the far right of the top rear-view image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        30,
+        41,
+        42
+      ],
+      "subject_ids": [
+        "video27_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00006",
+      "statement": "In frame 0, the Gray Racetrack is a gray, paved, strip-like road surface that narrows from the lower part of the main view toward the right of center, curving right along the Red-and-White Curb on the right into the valley; the visible route ends where it is occluded by the foot of the right slope.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00007",
+      "statement": "In frame 0, the Gray Racetrack is a gray, paved, strip-like road surface that narrows from the lower part of the main view toward the right of center, curving right along the Red-and-White Curb on the right into the valley; the Red-and-White Curb and white edge line on the right extend along the guardrail on the inside of the bend, while the guardrail on the outside of the bend on the left follows the curve; the road surface has light-gray longitudinal streaks; the visible route ends where it is occluded by the foot of the right slope.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00009",
+      "statement": "In frame 0, the Metal Guardrails are located on both sides of the road and appear as long silver-gray structures composed of multiple horizontal beams.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00010",
+      "statement": "In frame 0, the Metal Guardrails are located on both sides of the road and appear as long silver-gray structures; they are composed of multiple horizontal beams and spaced posts and diminish in perspective along the road edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00012",
+      "statement": "In frame 0, the Red-and-White Curb is located along the inside edge of the bend on the right side of the image and is a curved strip with alternating red and white sections.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00013",
+      "statement": "In frame 0, the Red-and-White Curb is located along the inside edge of the bend on the right side of the image and is a curved strip with alternating red and white sections; continuously alternating short rectangular color sections are visible, turning along the road edge and diminishing into the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00015",
+      "statement": "In frame 0, the Blue Sky is located between the two slopes in the upper part of the main view and is blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00016",
+      "statement": "In frame 0, the Blue Sky is located between the two slopes in the upper part of the main view and is blue, with a gradient transitioning from deeper blue to lighter blue; the boundary of the visible area is formed by the tops of the slopes on both sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00018",
+      "statement": "In frame 0, the Distant Gray Structure is located in the upper area between the two slopes ahead, with a thick, slab-like gray silhouette exposed.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00019",
+      "statement": "In frame 0, the Distant Gray Structure is located in the upper area between the two slopes ahead, with a thick, slab-like gray silhouette exposed; the angular edge of its gray surface and a dark area underneath are visible, and part of its silhouette is occluded by the slopes.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00021",
+      "statement": "In frame 0, Vehicle C is located at the lower left of the main view, with a low, bright yellow body, black tire, and silver wheel rim visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00022",
+      "statement": "In frame 0, Vehicle C is located at the lower left of the main view, with a low, bright yellow body, black tire, and silver wheel rim visible; mainly the front side and one wheel are exposed, the coarse spoke silhouette of the wheel rim is discernible, and the body has a wheel arch and angular side lines, while the rest of the body is cropped by the left edge, with a small dark portion additionally exposed along the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00024",
+      "statement": "In frame 0, the Racing Interface Overlay includes orange text, a horizontal rear-view frame at the top, a white route map at the lower left, and a circular gauge at the lower right; the upper left displays “2/2” and “2nd,” while the lower right shows gear “3” and a speed of “130 km/h.”",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00025",
+      "statement": "In frame 0, the Racing Interface Overlay includes orange text, a horizontal rear-view frame at the top, a white route map at the lower left, and a circular gauge at the lower right; the upper left displays “2/2” and “2nd,” while the lower right shows gear “3” and a speed of “130 km/h”; the total time is “2:44.456,” the current lap time is “1:10.691,” and the right side shows “Best Lap,” “1:33.765,” and “201.48km/h”; the gauge has white circular tick marks, black numerals, a red needle, and red high-rpm markings, and there are also two sets of green square brackets on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00027",
+      "statement": "In frame 0, the Slope Beside the Racetrack is located on both sides of the road, forming raised, steep slope surfaces and slope feet.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00028",
+      "statement": "In frame 0, the Slope Beside the Racetrack is located on both sides of the road, forming raised, steep slope surfaces and slope feet; the silhouettes vary in height, and local areas of rock and soil appear as rough gray-brown patches.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00030",
+      "statement": "In frame 0, the Slope and Roadside Vegetation appears as dark and light green covering on the slope surfaces and uneven tree-like silhouettes along the top of the left slope.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00031",
+      "statement": "In frame 0, the Slope and Roadside Vegetation appears as dark and light green covering on the slope surfaces and uneven tree-like silhouettes along the top of the left slope; the slope covering has mottled, irregular green textures, and the slope-top silhouette varies in height.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00033",
+      "statement": "In frame 0, Vehicle B is located in the middle of the top rear-view image and appears as a silver-white image of the front of a low and relatively wide vehicle.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00034",
+      "statement": "In frame 0, Vehicle B is located in the middle of the top rear-view image and appears as a silver-white image of the front of a low and relatively wide vehicle; the front has a light-colored bright surface, with dark areas along the upper portion and lower edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00036",
+      "statement": "In frame 0, Vehicle D is located farther away in the top rear-view image; the vehicle image is smaller in scale and has a low, overall relatively dark silhouette.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00037",
+      "statement": "In frame 0, Vehicle D is located farther away in the top rear-view image; the vehicle image is smaller in scale and has a low, overall relatively dark silhouette; there is a small amount of light-colored area on the upper portion.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00073",
+      "statement": "In frame 19, the Racing Interface Overlay retains the orange text, top rear-view frame, lower-left route map, and lower-right circular gauge, and the position display at the upper left reads “2nd.”",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00074",
+      "statement": "In frame 19, the Racing Interface Overlay retains the orange text, top rear-view frame, lower-left route map, and lower-right circular gauge, and the position display at the upper left reads “2nd”; the lower right shows gear “3” and a speed of “133 km/h.”",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00082",
+      "statement": "In frame 19, the Gray Racetrack is a gray, paved, strip-like road surface that narrows from the lower part of the main view toward the right of center, continues to curve gently right, and extends toward the passage beneath the Distant Gray Structure; the visible route ends where it is occluded by the foot of the right slope below that structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00083",
+      "statement": "In frame 19, the Gray Racetrack is a gray, paved, strip-like road surface that narrows from the lower part of the main view toward the right of center, continues to curve gently right, and extends toward the passage beneath the Distant Gray Structure; the Red-and-White Curb, white edge line, and multiple guardrail beams on the right diminish along the same arc, while the guardrail on the left follows the outside of the bend; the road surface has thin, elongated gray streaks; the visible route ends where it is occluded by the foot of the right slope below that structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 19,
+      "evidence_frames": [
+        19
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00076",
+      "statement": "In frame 20, the Racing Interface Overlay retains the orange text, top rear-view frame, lower-left route map, and lower-right circular gauge, and the position display at the upper left reads “1st.”",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00077",
+      "statement": "In frame 20, the Racing Interface Overlay retains the orange text, top rear-view frame, lower-left route map, and lower-right circular gauge, and the position display at the upper left reads “1st”; the lower right shows gear “3” and a speed of “133 km/h.”",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00085",
+      "statement": "In frame 20, the Gray Racetrack is a gray, paved, strip-like road surface that narrows from the lower part of the main view toward the right of center, continues to curve gently right, and extends toward the passage beneath the Distant Gray Structure; the visible route ends where it is occluded by the foot of the right slope below that structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00086",
+      "statement": "In frame 20, the Gray Racetrack is a gray, paved, strip-like road surface that narrows from the lower part of the main view toward the right of center, continues to curve gently right, and extends toward the passage beneath the Distant Gray Structure; the Red-and-White Curb, white edge line, and multiple guardrail beams on the right diminish along the same arc, while the guardrail on the left follows the outside of the bend; the road surface has thin, elongated gray streaks; the visible route ends where it is occluded by the foot of the right slope below that structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        20
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00042",
+      "statement": "In frame 42, the Gray Racetrack is a gray, paved, strip-like road surface that narrows from the lower part of the main view toward the right of center, continues to curve gently right, and extends toward the passage beneath the Distant Gray Structure; the visible route ends where it is occluded by the foot of the right slope below that structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00043",
+      "statement": "In frame 42, the Gray Racetrack is a gray, paved, strip-like road surface that narrows from the lower part of the main view toward the right of center, continues to curve gently right, and extends toward the passage beneath the Distant Gray Structure; the Red-and-White Curb, white edge line, and multiple guardrail beams on the right diminish along the same arc, while the guardrail on the left follows the outside of the bend; the road surface has thin, elongated gray streaks; the visible route ends where it is occluded by the foot of the right slope below that structure.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00045",
+      "statement": "In frame 42, the Metal Guardrails are located on both sides of the road and appear as long silver-gray structures composed of multiple horizontal beams.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00046",
+      "statement": "In frame 42, the Metal Guardrails are located on both sides of the road and appear as long silver-gray structures; they are composed of multiple horizontal beams and spaced posts and diminish in perspective along the road edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00048",
+      "statement": "In frame 42, the Red-and-White Curb is located along the inside edge of the bend on the right side of the image and is a curved strip with alternating red and white sections.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00049",
+      "statement": "In frame 42, the Red-and-White Curb is located along the inside edge of the bend on the right side of the image and is a curved strip with alternating red and white sections; continuously alternating short rectangular color sections are visible, turning along the road edge and diminishing into the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00051",
+      "statement": "In frame 42, the Blue Sky is located in the upper part of the main view and in the distant opening below the Distant Gray Structure, and is blue.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00052",
+      "statement": "In frame 42, the Blue Sky is located in the upper part of the main view and in the distant opening below the Distant Gray Structure, and is blue with a gradient of lighter and darker shades; the upper area is enclosed by the tops of the slopes on both sides, while the small patch of sky below is enclosed by the Distant Gray Structure and the slopes.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00054",
+      "statement": "In frame 42, the Distant Gray Structure is located above the road ahead and has a thick, slab-like gray silhouette spanning the slopes on both sides, with a dark opening underneath.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00055",
+      "statement": "In frame 42, the Distant Gray Structure is located above the road ahead and has a thick, slab-like gray silhouette spanning the slopes on both sides, with a dark opening underneath; the lower edge of its gray exterior surface has diagonal and angular segments, its underside is nearly black, and blue sky shows through the distant opening below and to the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00057",
+      "statement": "In frame 42, the Racing Interface Overlay includes orange text, a horizontal rear-view frame at the top, a white route map at the lower left, and a circular gauge at the lower right; the upper left displays “2/2” and “1st,” while the lower right shows gear “3” and a speed of “136 km/h.”",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00058",
+      "statement": "In frame 42, the Racing Interface Overlay includes orange text, a horizontal rear-view frame at the top, a white route map at the lower left, and a circular gauge at the lower right; the upper left displays “2/2” and “1st,” while the lower right shows gear “3” and a speed of “136 km/h”; the total time is “2:46.130,” the current lap time is “1:12.365,” and the right side shows “Best Lap,” “1:33.765,” and “201.48km/h”; the gauge has white circular tick marks, black numerals, a red needle, and red high-rpm markings, and there are also two sets of green square brackets on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00060",
+      "statement": "In frame 42, the Slope Beside the Racetrack is located on both sides of the road, forming raised, steep slope surfaces and slope feet.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00061",
+      "statement": "In frame 42, the Slope Beside the Racetrack is located on both sides of the road, forming raised, steep slope surfaces and slope feet; the silhouettes vary in height, and local areas of rock and soil appear as rough gray-brown patches.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00063",
+      "statement": "In frame 42, the Slope and Roadside Vegetation appears as dark and light green covering on the slope surfaces and uneven tree-like silhouettes along the top of the left slope.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00064",
+      "statement": "In frame 42, the Slope and Roadside Vegetation appears as dark and light green covering on the slope surfaces and uneven tree-like silhouettes along the top of the left slope; the slope covering has mottled, irregular green textures, and the slope-top silhouette varies in height.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00066",
+      "statement": "In frame 42, Vehicle B is located slightly left of center in the top rear-view image and appears as a silver-white image of the front of a low and relatively wide vehicle.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00067",
+      "statement": "In frame 42, Vehicle B is located slightly left of center in the top rear-view image and appears as a silver-white image of the front of a low and relatively wide vehicle; the front has a light-colored bright surface, with dark areas along the upper portion and lower edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00069",
+      "statement": "In frame 42, Vehicle D is located at the far right of the top rear-view image; the vehicle image is smaller in scale and has a low silhouette, with a relatively light-colored upper portion and a relatively dark lower edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00070",
+      "statement": "In frame 42, Vehicle D is located at the far right of the top rear-view image; the vehicle image is smaller in scale and has a low silhouette, with a relatively light-colored upper portion and a relatively dark lower edge; the light-colored upper portion and dark lower edge form discernible light and dark regions, while the boundaries of specific components are unclear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e020"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00012",
+      "statement": "In frame 0, the racetrack surface extends from the lower part of the main view toward the right of center and curves right between the slopes on both sides; the curb on the right is between the road surface and the right guardrail, while the left guardrail extends along the other side of the road, and the visible road section is occluded at the foot of the right slope.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e002",
+        "video27_e003",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00013",
+      "statement": "In frame 0, the slopes on both sides occupy the left and right sides of the main view and rise above the valley floor in the middle, with vegetation covering the slope surfaces and distributed along the slope tops.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e016",
+        "video27_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00015",
+      "statement": "In frame 0, the Distant Gray Structure is located in the upper area between the slopes on both sides ahead, with part of its silhouette occluded by the slopes.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e012",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00016",
+      "statement": "In frame 0, Vehicle C occupies the near foreground at the lower left of the main view; the lower edge of the visible tire contacts the road surface, and part of the vehicle body extends beyond the left edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e013",
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00017",
+      "statement": "In frame 0, the rear-view area of the overlay is located at the top center of the image, while the other interface areas are distributed along the left and right edges and in the two lower corners, overlaid in front of the main scene.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00018",
+      "statement": "In frame 0, 2 vehicle bodies are visible within the top rear-view area; Vehicle B is closer in the middle of that area, while Vehicle D is farther away.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video27_e019",
+        "video27_e020",
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00038",
+      "statement": "In frame 0, the visible front portion of Vehicle C is at the lower left of the main view; the Red-and-White Curb and Metal Guardrail on the right are arranged along the inside bend of the Gray Racetrack; part of the Distant Gray Structure is located between the slopes on both sides in the distance.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e002",
+        "video27_e003",
+        "video27_e012",
+        "video27_e013",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00019",
+      "statement": "In frame 20, only part of Vehicle C is exposed at the lower-left edge of the main view, while the rest is outside the left edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 20,
+      "end_frame": 20,
+      "evidence_frames": [
+        19,
+        20,
+        21
+      ],
+      "subject_ids": [
+        "video27_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00021",
+      "statement": "In frame 42, the racetrack surface extends from the lower part of the main view toward the right of center and follows a gentle right bend toward the passage beneath the Distant Gray Structure; the curb on the right is between the road surface and the right guardrail, while the left guardrail extends along the other side of the road, and the visible route ends where it is occluded by the foot of the right slope below that structure.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e002",
+        "video27_e003",
+        "video27_e012",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00022",
+      "statement": "In frame 42, the slopes on both sides occupy the left and right sides of the main view and rise above the valley floor in the middle; vegetation covers the slope surfaces, with additional vegetation distributed along the top of the left slope.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e016",
+        "video27_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00023",
+      "statement": "In frame 42, sky areas are exposed between the tops of the slopes on both sides above the Distant Gray Structure and in the distant opening below and to the right of that structure.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e005",
+        "video27_e012",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00024",
+      "statement": "In frame 42, the Distant Gray Structure spans the left and right slopes ahead, with an opening underneath for the road to pass through.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e012",
+        "video27_e016",
+        "video27_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00025",
+      "statement": "In frame 42, the rear-view area of the overlay is located at the top center of the image, while the other interface areas are distributed along the left and right edges and in the two lower corners, overlaid in front of the main scene.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_restore00026",
+      "statement": "In frame 42, 2 vehicle bodies are visible within the top rear-view area; Vehicle B is closer and slightly left of center in that area, while Vehicle D is farther away on the right side of that area.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        30,
+        41,
+        42
+      ],
+      "subject_ids": [
+        "video27_e019",
+        "video27_e020",
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00071",
+      "statement": "In frame 42, the Distant Gray Structure extends across above the road ahead, and the Red-and-White Curb on the right is between the Gray Racetrack and the Metal Guardrail on the inside of the bend; the Slopes Beside the Racetrack on both sides flank the road, and the Blue Sky is exposed above the structure and through the distant opening beneath it.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e002",
+        "video27_e003",
+        "video27_e005",
+        "video27_e012",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_r00003",
+      "statement": "In frame 0, the camera is at a low position above the right-curving road surface in the valley, between the Metal Guardrails on both sides, with the visible front portion of Vehicle C nearby to the left of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e002",
+        "video27_e013",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00003",
+      "statement": "In frame 0, the camera is at a low position above the right-curving road surface in the valley, between the Metal Guardrails on both sides, with the visible front portion of Vehicle C nearby to the left of the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e002",
+        "video27_e013",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_r00039",
+      "statement": "In frame 42, the camera is at a low position above the right-curving road surface in front of the Distant Gray Structure, between the Metal Guardrails on both sides.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e002",
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00039",
+      "statement": "In frame 42, the camera is at a low position above the right-curving road surface in front of the Distant Gray Structure, between the Metal Guardrails on both sides.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e002",
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_r00004",
+      "statement": "In frame 0, the camera faces the right bend ahead and the road through the valley beneath the Distant Gray Structure.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00004",
+      "statement": "In frame 0, the camera faces the right bend ahead and the road through the valley beneath the Distant Gray Structure.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_r00040",
+      "statement": "In frame 42, the camera faces the passage beneath the Distant Gray Structure and the right-curving road section in front of it.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00040",
+      "statement": "In frame 42, the camera faces the passage beneath the Distant Gray Structure and the right-curving road section in front of it.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 42,
+      "end_frame": 42,
+      "evidence_frames": [
+        42
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_r00002",
+      "statement": "From frames 0 through 42, the camera pans right relative to its orientation at the start of the interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        10,
+        21,
+        30,
+        42
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00002",
+      "statement": "From frames 0 through 42, the camera pans right relative to its orientation at the start of the interval.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        10,
+        21,
+        30,
+        42
+      ],
+      "subject_ids": [
+        "video27_e001",
+        "video27_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_a008",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        10,
+        19,
+        20,
+        21,
+        30,
+        42
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video27_cp008_a008",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        10,
+        19,
+        20,
+        21,
+        30,
+        42
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video27_cp008_r00078",
+      "statement": "From frames 0 through 21, Vehicle C moves backward relative to the camera, with its body gradually exiting through the left edge of the main view and completely leaving the main view by frame 21.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 21,
+      "evidence_frames": [
+        0,
+        10,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video27_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00078",
+      "statement": "From frames 0 through 21, Vehicle C moves backward relative to the camera, with its body gradually exiting through the left edge of the main view and completely leaving the main view by frame 21.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 21,
+      "evidence_frames": [
+        0,
+        10,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video27_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_r00079",
+      "statement": "From frames 0 through 42, the total time on the Racing Interface Overlay increases from “2:44.456” to “2:46.130,” and the current lap time increases from “1:10.691” to “1:12.365.”",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        19,
+        20,
+        21,
+        42
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_r00080",
+      "statement": "From frames 0 through 42, the speed reading on the Racing Interface Overlay rises from 130 km/h to 136 km/h.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        10,
+        21,
+        30,
+        42
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00079",
+      "statement": "From frames 0 through 42, the total time on the Racing Interface Overlay increases from “2:44.456” to “2:46.130,” and the current lap time increases from “1:10.691” to “1:12.365.”",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        19,
+        20,
+        21,
+        42
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_r00080",
+      "statement": "From frames 0 through 42, the speed reading on the Racing Interface Overlay rises from 130 km/h to 136 km/h.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 42,
+      "evidence_frames": [
+        0,
+        10,
+        21,
+        30,
+        42
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video27_cp008_a018",
+      "statement": "From frames 19 through 20, the position at the upper left of the Racing Interface Overlay changes from orange “2nd” to orange “1st.”",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 19,
+      "end_frame": 20,
+      "evidence_frames": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video27_cp008_a018",
+      "statement": "From frames 19 through 20, the position at the upper left of the Racing Interface Overlay changes from orange “2nd” to orange “1st.”",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 19,
+      "end_frame": 20,
+      "evidence_frames": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "subject_ids": [
+        "video27_e014"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    42
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "f4d815f968090c92a2b5710c67de3ca0545ee7391c6117f89b995e4b919058f2"
+}

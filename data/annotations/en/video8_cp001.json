@@ -1,0 +1,1376 @@
+{
+  "clip_id": "video8_cp001",
+  "video_id": "video8",
+  "fps": 30.0,
+  "start_frame": 0,
+  "end_frame": 44,
+  "source_frame_offset": 0,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video8_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The person in the front row who has short light-brown hair, wears a black top, light-green over-ear headphones, and a dark two-shoulder safety harness, and faces away from the camera."
+    },
+    {
+      "source_entity_id": "video8_e002",
+      "name": "aircraft cockpit",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light-colored cockpit interior walls, dark window frames, transparent overhead window, and front instrument panel surrounding Person A."
+    },
+    {
+      "source_entity_id": "video8_e003",
+      "name": "front-row seat",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The front-row seat behind Person A, with the edge of its light gray-beige cushion visible slightly left of the bottom edge of the frame."
+    },
+    {
+      "source_entity_id": "video8_e006",
+      "name": "field",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The adjacent plots of field outside the windows, predominantly yellowish brown with some light green."
+    },
+    {
+      "source_entity_id": "video8_e007",
+      "name": "forest belt",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark green-gray strips and patches of woodland with winding edges between the plots of field."
+    },
+    {
+      "source_entity_id": "video8_e008",
+      "name": "field road",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The narrow, light-colored sections of field road that are partially discernible between the plots of field outside the windows."
+    },
+    {
+      "source_entity_id": "video8_e009",
+      "name": "building complex",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The scattered groups of buildings outside the windows, visible mainly by their light-colored roofs."
+    },
+    {
+      "source_entity_id": "video8_e010",
+      "name": "pond surface",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The small turquoise-green pond surface with a light-colored bank among the fields."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video8_cp001_restore00008",
+      "statement": "In frame 0, 1 Person A is visible in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00009",
+      "statement": "In frame 0, the interior of 1 aircraft cockpit is visible in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00010",
+      "statement": "In frame 0, fields are visible outside the windows.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00011",
+      "statement": "In frame 0, forest belts are visible outside the windows.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00012",
+      "statement": "In frame 0, part of a field road is visible outside the windows.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video8_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00013",
+      "statement": "In frame 0, part of a building complex is visible outside the windows.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video8_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a005",
+      "statement": "In frame 0, Person A is visible in the center of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a006",
+      "statement": "In frame 0, the light-colored interior walls and dark frames of the aircraft cockpit are visible around the sides and across the upper part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00004",
+      "statement": "In frame 0, expanses of fields are visible outside the windows on both sides.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00005",
+      "statement": "In frame 0, multiple forest belts and expanses of woodland are visible outside the windows on both sides.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00006",
+      "statement": "In frame 0, part of a field road is visible outside the windows.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video8_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00007",
+      "statement": "In frame 0, parts of the roofs of scattered building complexes are visible outside the windows.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video8_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00028",
+      "statement": "In frame 22, part of the front-row seat is visible slightly left of the bottom edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video8_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00036",
+      "statement": "In frame 22, a small section of the front-row seat's backrest edge is exposed slightly left of the bottom edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video8_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00030",
+      "statement": "In frame 30, part of the pond surface is visible outside the window at the image-left edge.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 30,
+      "end_frame": 30,
+      "evidence_frames": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video8_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00039",
+      "statement": "In frame 30, a small portion of the pond surface is exposed outside the window at the image-left edge.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 30,
+      "end_frame": 30,
+      "evidence_frames": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video8_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00018",
+      "statement": "In frame 44, 1 Person A is visible in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00019",
+      "statement": "In frame 44, the interior of 1 aircraft cockpit is visible in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00020",
+      "statement": "In frame 44, fields are visible outside the windows.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00021",
+      "statement": "In frame 44, forest belts are visible outside the windows.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a018",
+      "statement": "In frame 44, Person A is visible slightly right of center in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a019",
+      "statement": "In frame 44, the light-colored interior walls and dark frames of the aircraft cockpit are visible around the sides and across the upper part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00008",
+      "statement": "In frame 44, expanses of fields are visible outside the windows on both sides.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00009",
+      "statement": "In frame 44, multiple forest belts and expanses of woodland are visible outside the windows on both sides.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a008",
+      "statement": "In frame 0, Person A has short light-brown hair, wears a black top and large light-green over-ear headphones, and has a dark gray-green two-shoulder safety harness over the shoulders and back.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00012",
+      "statement": "In frame 0, the aircraft cockpit has off-white interior walls, black window frames, a transparent overhead window, a light-colored instrument panel, and a red recessed panel; there is also a broad black strap in the center of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00013",
+      "statement": "In frame 0, the yellowish-brown and green fields outside the windows occupy most of the exterior view and form adjacent irregular plots.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00014",
+      "statement": "In frame 0, the forest belts appear as dark green-gray strips and patches with irregular outlines.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00015",
+      "statement": "In frame 0, the visible parts of the field roads appear as narrow, light-colored lines distributed between the plots of field.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00016",
+      "statement": "In frame 0, the building complexes are relatively small in the frame; the visible roofs appear as light gray-white patches, and some have nearly rectangular outlines.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00017",
+      "statement": "In frame 0, Person A has short light-brown hair, with shorter hair at the nape, wears a black top and large light-green over-ear headphones; the headphones have black fittings and metal supports, and a black cable hangs toward the shoulders and back; fine woven texture is partially visible on the dark gray-green two-shoulder safety harness, with light-colored connectors behind the shoulders.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00018",
+      "statement": "In frame 0, the aircraft cockpit has off-white interior walls, black window frames, a transparent overhead window, a light-colored instrument panel, and a red recessed panel, with a broad black strap in the center of the frame; multiple circular gauges with black rims are visible on the instrument panel, and a black cylindrical device, coiled cable, and small rear-view mirror are at the upper left; the window-frame supports have forked joints and light-colored metal fittings, and a thin red trim is visible along the inner edge of the right window.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00019",
+      "statement": "In frame 0, the fields occupy most of the view outside the windows and form adjacent plots with varying outlines; their colors vary among yellowish brown, light green, and grayish brown, and some field boundaries form narrow dividing lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00020",
+      "statement": "In frame 0, the forest belts appear as dark green-gray strips and patches, with irregular outer edges and long, narrow projecting branches; coarse textures of varying lightness are visible within them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00021",
+      "statement": "In frame 0, the visible parts of the field roads appear as narrow, light-colored lines distributed between the plots of field; inside the right-side window, part of a road extends diagonally from the lower right toward the upper left of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video8_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00022",
+      "statement": "In frame 0, the building complexes are relatively small in the frame; light gray-white, nearly rectangular roofs can be discerned outside the right-side window, spaced apart from one another, while wall details are not discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00037",
+      "statement": "In frame 22, only the edge of the front-row seat's light gray-beige cushioned backrest is exposed; its complete outline is not visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video8_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00038",
+      "statement": "In frame 22, only the edge of the front-row seat's light gray-beige cushioned backrest is exposed, and part of its outer edge is rounded; the complete backrest is occluded by Person A and the bottom edge of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video8_e003",
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00040",
+      "statement": "In frame 30, the exposed part of the pond surface outside the window is turquoise-green, with a light-colored bank along its edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 30,
+      "end_frame": 30,
+      "evidence_frames": [
+        30,
+        31
+      ],
+      "subject_ids": [
+        "video8_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00041",
+      "statement": "In frame 30, a small portion of the pond surface outside the window is exposed at the image-left edge; the surface is uniformly turquoise-green and forms a clear color contrast with the light-colored bank, while the rest of the pond's outline extends beyond the image-left edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 30,
+      "end_frame": 30,
+      "evidence_frames": [
+        30,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video8_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a021",
+      "statement": "In frame 44, Person A has short light-brown hair, wears a black top and large light-green over-ear headphones, and has a dark gray-green two-shoulder safety harness over the shoulders and back.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00023",
+      "statement": "In frame 44, the aircraft cockpit has off-white interior walls, black window frames, a transparent overhead window, a light-colored instrument panel, and a red recessed panel; there is also a broad black strap in the center of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00024",
+      "statement": "In frame 44, the fields consist of adjacent yellowish-brown and light-green plots of varying sizes and outlines, spreading across the windows on both sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00025",
+      "statement": "In frame 44, the forest belts appear as dark green-gray strips and irregular patches interspersed with the light-colored plots of field.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00028",
+      "statement": "In frame 44, Person A has short light-brown hair, with shorter hair at the nape, wears a black top and large light-green over-ear headphones; the headphones have black fittings and thin metal supports, and a black cable hangs toward the shoulders and back; the dark gray-green two-shoulder safety harness has light-colored connectors behind the shoulders.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00029",
+      "statement": "In frame 44, the aircraft cockpit has off-white interior walls, black window frames, a transparent overhead window, a light-colored instrument panel, and a red recessed panel, with a broad black strap in the center of the frame; multiple circular gauges with black rims are visible on the instrument panel, a row of switches is visible on the upper-left panel, and a black cylindrical device, coiled cable, and small rear-view mirror are also at the upper left; the window-frame supports have forked joints and light-colored metal fittings, and thin red trim is locally visible along the inner edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00030",
+      "statement": "In frame 44, the fields consist of adjacent yellowish-brown and light-green plots spreading across the windows on both sides; the plots vary in size and outline, and some field boundaries appear as narrow dividing lines.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00031",
+      "statement": "In frame 44, the forest belts appear as dark green-gray strips and irregular patches interspersed with the light-colored plots of field; their edges are winding and have long, thin branches, and their internal texture is coarser than that of the fields.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00014",
+      "statement": "In frame 0, Person A is in the front-row position inside the aircraft cockpit, occupying the lower middle part of the frame, facing away from the camera and toward the front of the cockpit; the instrument panel is in front of Person A, and the central broad strap extends downward from the top edge of the frame, occluding part of the back of Person A's head and back.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00015",
+      "statement": "In frame 0, the aircraft cockpit surrounds the upper part and both sides of the frame; the fields, forest belts, field roads, and building complexes are beyond the window frames and are visible on both sides of Person A and in the unobstructed areas of the front window, while the window frames and Person A occlude part of the exterior scenery.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e002",
+        "video8_e001",
+        "video8_e006",
+        "video8_e007",
+        "video8_e008",
+        "video8_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00016",
+      "statement": "In frame 0, the fields spread across most of the exterior view through the windows on both sides, the forest belts are distributed between the fields, and the visible roofs of the building complexes are scattered and spaced apart from one another.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video8_e006",
+        "video8_e007",
+        "video8_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00017",
+      "statement": "In frame 0, the field roads extend between the plots of field; inside the right-side window, part of a road is visible extending diagonally from the lower right toward the upper left of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video8_e008",
+        "video8_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a014",
+      "statement": "In frame 0, Person A is in the piloting position inside the aircraft cockpit, with the instrument panel in front of Person A; the broad black strap in the center of the frame extends downward from the top edge, occluding part of the back of Person A's head and back.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00034",
+      "statement": "In frame 0, the fields, forest belts, field roads, and building complexes are beyond the aircraft cockpit's window frames and are visible on both sides of Person A's outline and in the unobstructed areas of the front window.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e006",
+        "video8_e007",
+        "video8_e008",
+        "video8_e009",
+        "video8_e002",
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00029",
+      "statement": "In frame 22, the visible edge of the front-row seat's backrest is behind Person A, with part of it exposed slightly left of the bottom edge of the frame; the rest is occluded by Person A or the edge of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22,
+        23
+      ],
+      "subject_ids": [
+        "video8_e003",
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00031",
+      "statement": "In frame 30, the pond surface is among the fields outside the aircraft cockpit, with part of it exposed at the image-left edge and the rest of its outline extending beyond the image-left edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 30,
+      "end_frame": 30,
+      "evidence_frames": [
+        30,
+        31,
+        32
+      ],
+      "subject_ids": [
+        "video8_e010",
+        "video8_e006",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00024",
+      "statement": "In frame 44, Person A is in the front-row position inside the aircraft cockpit, occupying the lower middle part of the frame slightly to the right, facing away from the camera and toward the front of the cockpit; the instrument panel is in front of Person A, and the central broad strap occludes part of the back of Person A's head and back.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00025",
+      "statement": "In frame 44, the aircraft cockpit surrounds the upper part and both sides of the frame, while the fields and forest belts are beyond the window frames and visible on both sides of Person A and in the unobstructed areas of the front window; the window frames and Person A occlude part of the exterior area.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video8_e002",
+        "video8_e001",
+        "video8_e006",
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_restore00026",
+      "statement": "In frame 44, the fields spread across most of the exterior view through the windows on both sides, and the forest belts are distributed between the fields.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e006",
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a027",
+      "statement": "In frame 44, Person A is in the piloting position inside the aircraft cockpit, slightly right of center in the lower part of the frame; the instrument panel is in front of Person A, and the central broad black strap occludes part of the back of Person A's head and back.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00035",
+      "statement": "In frame 44, the fields and forest belts are beyond the aircraft cockpit's window frames and are visible on both sides of Person A and in the unobstructed areas of the front window.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e006",
+        "video8_e007",
+        "video8_e002",
+        "video8_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_a003",
+      "statement": "In frame 0, the camera is inside the aircraft cockpit, close behind Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a003",
+      "statement": "In frame 0, the camera is inside the aircraft cockpit, close behind Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_a016",
+      "statement": "In frame 44, the camera is inside the aircraft cockpit, close behind Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a016",
+      "statement": "In frame 44, the camera is inside the aircraft cockpit, close behind Person A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_r00002",
+      "statement": "In frame 0, the camera is aimed toward the front of the aircraft cockpit, and the framing includes the back of Person A's head and upper back, the instrument panel ahead, and the fields and forest belts outside the windows.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002",
+        "video8_e006",
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00002",
+      "statement": "In frame 0, the camera is aimed toward the front of the aircraft cockpit, and the framing includes the back of Person A's head and upper back, the instrument panel ahead, and the fields and forest belts outside the windows.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002",
+        "video8_e006",
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_r00003",
+      "statement": "In frame 44, the camera is aimed toward the front of the aircraft cockpit, and the framing includes the back of Person A's head and upper back, the instrument panel ahead, and the fields and forest belts outside the windows.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002",
+        "video8_e006",
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_r00003",
+      "statement": "In frame 44, the camera is aimed toward the front of the aircraft cockpit, and the framing includes the back of Person A's head and upper back, the instrument panel ahead, and the fields and forest belts outside the windows.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002",
+        "video8_e006",
+        "video8_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video8_cp001_a029",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        44
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video8_cp001_a029",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        44
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video8_cp001_a030",
+      "statement": "From frame 0 through frame 44, Person A's torso remains seated throughout and stays essentially in the piloting position behind the instrument panel; slight swaying is visible, with no overall movement away from that position.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        12,
+        22,
+        30,
+        33,
+        44
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video8_cp001_a030",
+      "statement": "From frame 0 through frame 44, Person A's torso remains seated throughout and stays essentially in the piloting position behind the instrument panel; slight swaying is visible, with no overall movement away from that position.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        12,
+        22,
+        30,
+        33,
+        44
+      ],
+      "subject_ids": [
+        "video8_e001",
+        "video8_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    22,
+    30,
+    44
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "317575e068e2f9cfe28f286140e0f843a5bdca8a0c8265b7131d399cb8e54f17"
+}

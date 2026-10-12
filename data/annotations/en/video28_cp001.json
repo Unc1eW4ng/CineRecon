@@ -1,0 +1,1394 @@
+{
+  "clip_id": "video28_cp001",
+  "video_id": "video28",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 75,
+  "source_frame_offset": 0,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video28_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A dark gray-black handgun in a first-person view, initially raised and tilted, then lowered to the lower right of the image."
+    },
+    {
+      "source_entity_id": "video28_e004",
+      "name": "Object A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A creature-like body on the floor behind the door, initially with a light-colored central portion and brown upward-extending limb-like parts, then changing to a sprawled posture."
+    },
+    {
+      "source_entity_id": "video28_e005",
+      "name": "group of metal barrels",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A collection of turquoise-green barrel-shaped props against the wall on the left behind the door; the exposed barrel bodies have horizontal bands."
+    },
+    {
+      "source_entity_id": "video28_e013",
+      "name": "riveted metal wall panel",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Large rectangular wall panels indoors, light gray to blue-gray, with rivets arranged near the seams."
+    },
+    {
+      "source_entity_id": "video28_e014",
+      "name": "metal floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A gray to turquoise-green paneled floor indoors, with panel seams and a raised step in front of the door."
+    },
+    {
+      "source_entity_id": "video28_e015",
+      "name": "dark-colored metal ceiling",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A dark-colored ceiling surface above the passage behind the door, with multiple parallel trim strips along the wall-ceiling junction."
+    },
+    {
+      "source_entity_id": "video28_e016",
+      "name": "yellow hazard sign",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A yellow triangular sign with a black border on the wall beside the door, with a black skull-and-crossbones pattern on its face."
+    },
+    {
+      "source_entity_id": "video28_e017",
+      "name": "dark-colored doorframe",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The dark-colored border of the doorway to the left of the yellow hazard sign, with light gray edging strips."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video28_cp001_restore00017",
+      "statement": "At frame 0, one Weapon A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a004",
+      "statement": "At frame 0, Weapon A is visible in the lower-right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a014",
+      "statement": "At frame 0, Object A is visible on the distant floor behind the door.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00007",
+      "statement": "At frame 0, one member of the group of metal barrels is partially visible inside the doorway in the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00016",
+      "statement": "At frame 0, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00017",
+      "statement": "At frame 0, the metal floor is visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00018",
+      "statement": "At frame 0, the dark-colored metal ceiling is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00019",
+      "statement": "At frame 0, the yellow hazard sign is visible on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00020",
+      "statement": "At frame 0, the dark-colored doorframe is visible in the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00018",
+      "statement": "At frame 75, one Weapon A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a021",
+      "statement": "At frame 75, Weapon A is visible in the lower-right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00001",
+      "statement": "At frame 75, the yellow hazard sign is visible on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        74,
+        75
+      ],
+      "subject_ids": [
+        "video28_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00004",
+      "statement": "At frame 75, the dark-colored doorframe is visible in the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00021",
+      "statement": "At frame 75, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00022",
+      "statement": "At frame 75, the metal floor is visible in the lower part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00023",
+      "statement": "At frame 75, the dark-colored metal ceiling is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a007",
+      "statement": "At frame 0, Weapon A is a dark gray-black handgun, with an angular elongated upper body and a curved trigger guard visible below; the grip end is partially occluded by a hand and the edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a008",
+      "statement": "At frame 0, Weapon A is a dark gray-black handgun, with an angular elongated upper body and a curved trigger guard visible below; light and dark ridgelines run lengthwise along the upper body, the trigger-guard opening is discernible, and the grip end is partially occluded by a hand and the edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a015",
+      "statement": "At frame 0, Object A is a compact creature-like body close to the turquoise-green floor behind the door, with a light yellowish-brown central portion and brown limb-like parts around the outside, some of which extend upward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a016",
+      "statement": "At frame 0, Object A is a compact creature-like body close to the turquoise-green floor behind the door, with a light yellowish-brown central portion and brown limb-like parts around the outside; two thinner limb-like parts extend toward the top of the image, and yellow dot-like marks are scattered on the floor near the body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00008",
+      "statement": "At frame 0, one exposed member of the group of metal barrels has a turquoise-green vertical barrel body; only part of its cylindrical outline is visible, and its left side is occluded by the dark-colored doorframe.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00009",
+      "statement": "At frame 0, one exposed member of the group of metal barrels has a turquoise-green vertical barrel body, with only part of its cylindrical outline visible; the exposed barrel body has several horizontal bands, and its left side is occluded by the dark-colored doorframe.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00024",
+      "statement": "At frame 0, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00025",
+      "statement": "At frame 0, the metal floor is gray to turquoise-green and consists of relatively flat, large panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00026",
+      "statement": "At frame 0, the dark-colored metal ceiling consists of dark gray panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00027",
+      "statement": "At frame 0, the yellow hazard sign is a yellow triangle with a black border and a prominent black skull-like pattern in the center.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00028",
+      "statement": "At frame 0, the dark-colored doorframe is a vertical rectangular border.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00029",
+      "statement": "At frame 0, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces; there are narrow dark-colored gaps between the panels, circular rivets are arranged along the edges of the seams, and layered trim adjoins the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00030",
+      "statement": "At frame 0, the metal floor is gray to turquoise-green and consists of relatively flat, large panel surfaces, with mottled texture and panel seams on the surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00031",
+      "statement": "At frame 0, the dark-colored metal ceiling consists of dark gray panel surfaces, with multiple parallel trim strips distributed along the top of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00032",
+      "statement": "At frame 0, the yellow hazard sign is a yellow triangle with a black border, with a black skull-and-crossbones pattern visible inside.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00033",
+      "statement": "At frame 0, the dark-colored doorframe is a vertical rectangular border; a narrow light gray edge is visible on the outside, and the inner edge of the doorframe is darker, nearly black.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a024",
+      "statement": "At frame 75, Weapon A is a dark gray-black handgun, with an angular elongated upper body and a curved trigger guard visible below; the grip end is partially occluded by a hand and the edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a025",
+      "statement": "At frame 75, Weapon A is a dark gray-black handgun, with an angular elongated upper body and a curved trigger guard visible below; an elongated dark groove and a light gray ridgeline are visible along the top of the body, there is a small protrusion at the upper rear, and the grip end is partially occluded by a hand and the edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00002",
+      "statement": "At frame 75, the yellow hazard sign is presented at a narrow oblique side angle, with the yellow face and black outer edge visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00003",
+      "statement": "At frame 75, the yellow hazard sign is presented at a narrow oblique side angle; the black outer edge surrounds the yellow face, and part of a dark-colored pattern is exposed on the face.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00005",
+      "statement": "At frame 75, only part of the near vertical edge of the dark-colored doorframe is visible, appearing as a wide dark-colored vertical strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00006",
+      "statement": "At frame 75, only part of the near vertical edge of the dark-colored doorframe is visible, appearing as a wide dark-colored vertical strip; there are horizontal dark markings on the inner side of the vertical edge, light gray edging strips on both sides, and it extends beyond the top and bottom edges of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00034",
+      "statement": "At frame 75, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00035",
+      "statement": "At frame 75, the metal floor is predominantly turquoise-green and consists of relatively flat, large panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00036",
+      "statement": "At frame 75, the dark-colored metal ceiling consists of dark gray panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00037",
+      "statement": "At frame 75, the riveted metal wall panel is light gray to blue-gray and consists of large rectangular panel surfaces; there are narrow dark-colored gaps between the panels, circular rivets are arranged along the edges of the seams, and layered trim adjoins the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00038",
+      "statement": "At frame 75, the metal floor is predominantly turquoise-green and consists of relatively flat, large panel surfaces, with mottled texture and panel seams on the surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00039",
+      "statement": "At frame 75, the dark-colored metal ceiling consists of dark gray panel surfaces, with multiple parallel trim strips distributed along the top of the wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00009",
+      "statement": "At frame 0, Weapon A is in the lower-right foreground of the image, with its front end pointing toward the upper left of the image, occluding parts of the riveted metal wall panel and metal floor behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00010",
+      "statement": "At frame 0, Object A is on the distant metal floor behind the doorway and is supported by the floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e004",
+        "video28_e014",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00011",
+      "statement": "At frame 0, one member of the group of metal barrels is partially visible on the image-left side inside the doorway, with part of it occluded by the dark-colored doorframe.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e005",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00012",
+      "statement": "At frame 0, riveted metal wall panels are distributed on the left side of the image and around the doorway ahead, while the dark-colored doorframe encloses the opening in the center of the wall ahead; the dark-colored metal ceiling is above the space behind the door and adjoins the upper edge of the wall.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e015",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00013",
+      "statement": "At frame 0, the floor extends from nearby in the lower part of the image toward the doorway ahead, connecting across the change in elevation at the doorway step to the higher floor behind the door.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00040",
+      "statement": "At frame 0, Weapon A is in the lower-right foreground of the image, occluding parts of the riveted metal wall panel and metal floor behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00041",
+      "statement": "At frame 0, the dark-colored doorframe encloses the doorway in the center of the image, and the yellow hazard sign is affixed to the riveted metal wall panel on its right side.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e016",
+        "video28_e017",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00042",
+      "statement": "At frame 0, Object A is on the distant metal floor behind the dark-colored doorframe.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e004",
+        "video28_e014",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00014",
+      "statement": "At frame 75, Weapon A is in the lower-right foreground of the image, with its front end pointing toward the upper left of the image, occluding part of the riveted metal wall panel behind it on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00015",
+      "statement": "At frame 75, the near vertical edge of the dark-colored doorframe occupies the center of the image; riveted metal wall panels are located respectively nearby on its right and in the area behind the door on its left, and the dark-colored metal ceiling is above the passage on the left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e017",
+        "video28_e013",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_restore00016",
+      "statement": "At frame 75, the metal floor to the left of the dark-colored doorframe extends from the lower part of the image into the distance, leading along the riveted metal wall panel on the left to a distant wall corner, which occludes the passage farther away.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e014",
+        "video28_e013",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00043",
+      "statement": "At frame 75, Weapon A is in the lower-right foreground of the image, occluding part of the riveted metal wall panel on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_r00012",
+      "statement": "At frame 0, the camera is inside a riveted metal interior and in front of the yellow hazard sign and dark-colored doorframe.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015",
+        "video28_e016",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00012",
+      "statement": "At frame 0, the camera is inside a riveted metal interior and in front of the yellow hazard sign and dark-colored doorframe.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e015",
+        "video28_e016",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_r00013",
+      "statement": "At frame 75, the camera is close to the dark-colored doorframe, with a nearby riveted metal wall panel on the right and the passage behind the door and its metal floor exposed to the front left.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        74,
+        75
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00013",
+      "statement": "At frame 75, the camera is close to the dark-colored doorframe, with a nearby riveted metal wall panel on the right and the passage behind the door and its metal floor exposed to the front left.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        74,
+        75
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_r00014",
+      "statement": "At frame 0, the camera faces the yellow hazard sign, the dark-colored doorframe, and the metal passage area in which they are located.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e016",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00014",
+      "statement": "At frame 0, the camera faces the yellow hazard sign, the dark-colored doorframe, and the metal passage area in which they are located.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e016",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_r00015",
+      "statement": "At frame 75, the camera faces the nearby dark-colored doorframe and the passage behind the door exposed to its left, with riveted metal wall panels visible in the passage.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00015",
+      "statement": "At frame 75, the camera faces the nearby dark-colored doorframe and the passage behind the door exposed to its left, with riveted metal wall panels visible in the passage.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 75,
+      "end_frame": 75,
+      "evidence_frames": [
+        75
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_r00010",
+      "statement": "From frames 0 to 75, the camera remains mostly stationary during the earlier portion, then moves forward toward the doorway beside the yellow hazard sign and approaches the right vertical edge of the dark-colored doorframe; it remains near the doorframe at the end of the clip.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 75,
+      "evidence_frames": [
+        0,
+        8,
+        16,
+        17,
+        18,
+        28,
+        41,
+        49,
+        59,
+        62,
+        67,
+        74,
+        75
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e016",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00010",
+      "statement": "From frames 0 to 75, the camera remains mostly stationary during the earlier portion, then moves forward toward the doorway beside the yellow hazard sign and approaches the right vertical edge of the dark-colored doorframe; it remains near the doorframe at the end of the clip.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 75,
+      "evidence_frames": [
+        0,
+        8,
+        16,
+        17,
+        18,
+        28,
+        41,
+        49,
+        59,
+        62,
+        67,
+        74,
+        75
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e014",
+        "video28_e016",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_r00011",
+      "statement": "From frames 0 to 75, the camera's orientation remains mostly unchanged during the earlier portion, then gradually turns right during the middle and later portions to look at the passage extending to the right behind the door; its orientation tends to stabilize during the final portion.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 75,
+      "evidence_frames": [
+        0,
+        8,
+        16,
+        28,
+        41,
+        49,
+        50,
+        51,
+        52,
+        59,
+        62,
+        64,
+        67,
+        75
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_r00011",
+      "statement": "From frames 0 to 75, the camera's orientation remains mostly unchanged during the earlier portion, then gradually turns right during the middle and later portions to look at the passage extending to the right behind the door; its orientation tends to stabilize during the final portion.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 75,
+      "evidence_frames": [
+        0,
+        8,
+        16,
+        28,
+        41,
+        49,
+        50,
+        51,
+        52,
+        59,
+        62,
+        64,
+        67,
+        75
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp001_a031",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 75,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59,
+        60,
+        71,
+        72,
+        75
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video28_cp001_a031",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 75,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        59,
+        60,
+        71,
+        72,
+        75
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video28_cp001_a030",
+      "statement": "From frames 0 to 23, Weapon A is gradually lowered from the already raised and tilted posture it has at the start of the clip and turns back to a forward-pointing ready posture in the lower right of the image.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        1,
+        8,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp001_a030",
+      "statement": "From frames 0 to 23, Weapon A is gradually lowered from the already raised and tilted posture it has at the start of the clip and turns back to a forward-pointing ready posture in the lower right of the image.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 23,
+      "evidence_frames": [
+        0,
+        1,
+        8,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    75
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "61dee2d66a00fa2eed894aa2b3829cab5d7fd1d29248e23db966dd1f8caea1d5"
+}

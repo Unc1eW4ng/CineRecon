@@ -1,0 +1,60 @@
+Autonomously reconstruct the provided reference video as a high-fidelity 3D video in Blender 5.2.
+
+Reference video:
+<VIDEO_PATH>
+
+Output directory:
+<OUTPUT_DIR>
+
+Core objective:
+Beyond reproducing object categories and events, reproduce nearly completely the visible appearance, structure, actions, and imaging characteristics of the specific reference objects so that reconstruction and reference closely agree on observable content.
+
+Modeling requirements:
+
+1. Use detailed editable 3D models to accurately reproduce the specific objects' global and local silhouettes, proportions, structures, component shapes, and component distributions. Matching the category, adding polygons, or smoothing a placeholder is not a substitute for accurate reconstruction.
+2. Accurately reproduce clearly visible appearance features that distinguish instances of the same category, including colors, patterns, textures, materials, and relevant local details.
+3. Accurately reproduce visible global and local actions, pose changes, contacts, deformations, and secondary motion. Do not substitute generic actions or whole-object rigid motion for the specific visible actions.
+4. Faithfully retain the reference style, whether live action, cartoon, game footage, or another style. Do not intentionally transform it into a different style.
+5. The reconstruction target is observable reference content. Completing unseen regions must not change visible silhouettes, occlusions, lighting and shadows, or motion. Do not lower requirements for visible content because the video is monocular or contains occluded or unseen regions.
+
+Execution requirements:
+
+1. Actually inspect and edit the scene through Blender MCP; do not provide only a plan or code.
+2. Analyze the reference video independently. You may use local video, image, and other auxiliary tools; choose your own analysis method and reference preparation.
+3. Accurately preserve the number and persistent correspondence of main subjects, spatial and occlusion relations, support and contact, entries and exits, motion directions, starts and stops, turns, interactions, and event order.
+4. Match the reference frame rate, frame count, duration, and timeline.
+5. Camera-induced composition, perspective, image motion, subject positions and sizes in the image, and shot transitions must align nearly completely with the reference. Do not replace necessary camera changes with incorrect subject translation or scaling.
+6. Construct the scene from editable 3D objects. Do not use the original video or reference frames as the final image, background, or projected image surfaces in place of 3D reconstruction.
+7. Render with Cycles on a CUDA GPU with denoising enabled. Use the reference resolution and aspect ratio for the final output; do not upscale a low-resolution render. Test renders may use a lower resolution.
+8. Do not call external asset or generation services. Do not read, reuse, or modify other tasks' outputs. Do not read evaluation-side annotations, ground truth, evaluation clips, question banks, or answers.
+9. Every reconstructed frame must correspond to the same time in the original video, matching the subject state, action phase, interaction, and camera composition at that moment. Do not hide discrepancies using temporal shifts, speed changes, frame interpolation, or repeated frames.
+10. Strictly match subjects' image-left/image-right positions, orientations, motion directions, and interactions. Distinguish image directions from subjects' anatomical directions and maintain correct correspondence across camera changes. Do not mirror or reverse left and right.
+
+Inspection and completion requirements:
+
+1. Call get_scene_info before starting. Inspect the scene and obtain screenshots after substantial changes.
+2. Select images or intervals covering all shots, main state changes, key events, and important visible details; compare them with the original at the same time positions.
+3. Check subject counts, spatial relations, main actions, interactions, camera composition, shot cuts, and timing.
+4. Check that the specific objects' visible silhouettes, structures, components, local appearance, and action details are nearly identical, rather than merely sharing categories.
+5. Check visible materials, reflections, transparency, lighting, shadows, exposure, depth of field, focus pulls, and motion blur. Use observable reference effects as the criterion, rather than physical parameters that cannot be uniquely determined.
+6. Continue editing and comparing until clear discrepancies within the above scope are resolved. Statements of limitations, added geometry, more render samples, or a completed round count cannot replace correction.
+7. End only after completing all requirements. Do not submit a result with clear reconstruction discrepancies as complete, or end merely because files and a report exist.
+8. Finally call get_scene_info again and capture a screenshot. Confirm the scene meets the requirements, all deliverables exist and are nonempty, and the video decodes with the correct timeline.
+
+Mandatory condition before ending:
+
+"Delivered but below requirements," "only a draft," and "clear discrepancies remain" are not acceptable reasons to end. If inspection identifies unresolved clear problems within the task requirements, make them the target of the next actual revision, continue using tools to correct them, and compare again; do not simply list the problems and provide a final response. Inspections and reports must truthfully record the results. Do not end by deleting descriptions of problems, lowering standards, or falsely claiming success. Submit the final result and end only after actual corrections and verification establish that the requirements are met.
+
+Required deliverables:
+
+- <OUTPUT_DIR>/scene.blend
+- <OUTPUT_DIR>/reconstruction.mp4
+- <OUTPUT_DIR>/comparison/original_vs_reconstruction.mp4
+- <OUTPUT_DIR>/comparison/original_vs_reconstruction_contact_sheet.jpg
+- <OUTPUT_DIR>/report.md
+
+Place the original video on the left and the reconstruction on the right in the comparison video. Synchronize their timelines, preserve aspect ratios without stretching, and label them ORIGINAL and RECONSTRUCTION.
+
+Briefly record the implementation, inspection evidence, revisions, and final verification in the report. The report cannot replace actual corrections or justify ending the task early.
+
+Do not ask the user for guidance or stop at planning. Complete all requirements autonomously before ending the task.

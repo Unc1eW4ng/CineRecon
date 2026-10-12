@@ -1,0 +1,2117 @@
+{
+  "clip_id": "video13_cp002",
+  "video_id": "video13",
+  "fps": 25.0,
+  "start_frame": 0,
+  "end_frame": 44,
+  "source_frame_offset": 146,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video13_e001",
+      "name": "green soccer field",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A green grass playing field covering the middle and lower portions of the image, with white penalty-area, goal-area, and penalty-arc markings."
+    },
+    {
+      "source_entity_id": "video13_e003",
+      "name": "sideline advertising barrier",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "Long rectangular advertising boards arranged along the far side and right end of the field, predominantly with white board surfaces."
+    },
+    {
+      "source_entity_id": "video13_e004",
+      "name": "group of players in green clothing",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The set of players on the field wearing green shirts, green shorts, and white knee-high socks."
+    },
+    {
+      "source_entity_id": "video13_e005",
+      "name": "group of players in dark clothing",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The set of players on the field wearing blue-and-black vertically striped shirts, dark shorts, and knee-high socks, excluding Person C and Person E."
+    },
+    {
+      "source_entity_id": "video13_e006",
+      "name": "Person C",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The goalkeeper wearing a red kit and positioned on the side of Object E facing the field."
+    },
+    {
+      "source_entity_id": "video13_e008",
+      "name": "Person E",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The referee on the field wearing a bright yellow shirt, black shorts, and dark knee-high socks."
+    },
+    {
+      "source_entity_id": "video13_e009",
+      "name": "soccer ball",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A small white nearly spherical ball that changes position with the action within the playing area."
+    },
+    {
+      "source_entity_id": "video13_e011",
+      "name": "Object E",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The white goal defended by Person C, with white goalposts, a crossbar, and part of a light-colored goal net visible."
+    },
+    {
+      "source_entity_id": "video13_e012",
+      "name": "gray tiered stands",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "Gray stepped stands extending along the far side and right end of the field in the upper portion of the image."
+    },
+    {
+      "source_entity_id": "video13_e013",
+      "name": "group of spectators in the stands",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A large number of spectators gathered in the seating area of the stands, appearing as dense outlines of heads and upper bodies."
+    },
+    {
+      "source_entity_id": "video13_e014",
+      "name": "off-field group of people in vests",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The set of people on the off-field passageway wearing bright yellow or orange vests, excluding Person E on the field."
+    },
+    {
+      "source_entity_id": "video13_e015",
+      "name": "off-field gray rigid passageway",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A long, narrow gray hard-surfaced ground area between the lower edge of the stands and the sideline advertising barrier."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video13_cp002_restore00013",
+      "statement": "At frame 0, 7 members of the group of players in green clothing are fully visible in the image, and another 1 member is only partially visible at the bottom edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video13_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00014",
+      "statement": "At frame 0, 9 members of the group of players in dark clothing are in the image, of whom 2 members in the center of the image partially occlude each other.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00003",
+      "statement": "At frame 0, the green soccer field is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00006",
+      "statement": "At frame 0, the sideline advertising barrier is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00009",
+      "statement": "At frame 0, the group of players in green clothing is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00012",
+      "statement": "At frame 0, the group of players in dark clothing wearing blue-and-black vertically striped shirts is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00015",
+      "statement": "At frame 0, goalkeeper Person C wearing red clothing is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video13_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00018",
+      "statement": "At frame 0, referee Person E wearing a bright yellow shirt is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video13_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00021",
+      "statement": "At frame 0, the white soccer ball is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00024",
+      "statement": "At frame 0, the white goal Object E defended by Person C is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video13_e006",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00027",
+      "statement": "At frame 0, the gray tiered stands are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00030",
+      "statement": "At frame 0, the group of spectators in the stands is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00033",
+      "statement": "At frame 0, the off-field group of people in vests is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00036",
+      "statement": "At frame 0, the off-field gray rigid passageway is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00022",
+      "statement": "At frame 44, 10 members of the group of players in green clothing are in the image, of whom 1 is only partially visible at the upper-left edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00023",
+      "statement": "At frame 44, 10 members of the group of players in dark clothing are in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00042",
+      "statement": "At frame 44, the green soccer field is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00045",
+      "statement": "At frame 44, the sideline advertising barrier is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00048",
+      "statement": "At frame 44, the group of players in green clothing is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00051",
+      "statement": "At frame 44, the group of players in dark clothing wearing blue-and-black vertically striped shirts is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00054",
+      "statement": "At frame 44, goalkeeper Person C wearing red clothing is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00057",
+      "statement": "At frame 44, referee Person E wearing a bright yellow shirt is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00060",
+      "statement": "At frame 44, the white soccer ball is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00063",
+      "statement": "At frame 44, the white goal Object E defended by Person C is partially visible at the upper-right edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e006",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00066",
+      "statement": "At frame 44, the gray tiered stands are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00069",
+      "statement": "At frame 44, the group of spectators in the stands is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00072",
+      "statement": "At frame 44, the off-field group of people in vests is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00075",
+      "statement": "At frame 44, the off-field gray rigid passageway is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00004",
+      "statement": "At frame 0, the green grass has white penalty-area lines, goal-area lines, and a penalty arc.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00005",
+      "statement": "At frame 0, the green grass of the green soccer field has alternating light and dark stripes; the white front line of the penalty area runs diagonally across the right half of the image, with the white penalty arc adjoining it on the outside, and the white goal-area lines in front of the goal and the penalty spot are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00007",
+      "statement": "At frame 0, the sideline advertising barrier consists of long rectangular board surfaces arranged along the field, predominantly with white backgrounds, interspersed with dark and green areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00008",
+      "statement": "At frame 0, the long rectangular board surfaces of the sideline advertising barrier predominantly have white backgrounds, interspersed with dark and green areas; the board surfaces have large dark or light-colored lettering, and some have red graphics; adjacent board surfaces are arranged continuously along the edge of the field.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00010",
+      "statement": "At frame 0, the group of players in green clothing wears green shirts and shorts and white knee-high socks.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00011",
+      "statement": "At frame 0, the group of players in green clothing wears green short-sleeved shirts, green shorts, and white knee-high socks; some members have light-colored numbers on their backs, and bright-colored or dark cleats are visible on their feet.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00013",
+      "statement": "At frame 0, the group of players in dark clothing wears blue-and-black vertically striped shirts, dark shorts, and dark soccer socks.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00014",
+      "statement": "At frame 0, the group of players in dark clothing wears blue-and-black vertically striped shirts, dark shorts, and dark knee-high socks; some members have white numbers on their backs, and cleats of varying brightness are visible on their feet.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00016",
+      "statement": "At frame 0, Person C wears a red shirt, red shorts, and red knee-high socks.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00017",
+      "statement": "At frame 0, Person C wears a red shirt, red shorts, and red knee-high socks; the sleeves of the shirt are also red, and the body remains upright.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00019",
+      "statement": "At frame 0, Person E wears a bright yellow shirt and black shorts.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00020",
+      "statement": "At frame 0, Person E wears a bright yellow short-sleeved shirt, black shorts, and dark knee-high socks, distinctly different from the kits of the group of players in green clothing and the group of players in dark clothing.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e004",
+        "video13_e005",
+        "video13_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00022",
+      "statement": "At frame 0, the soccer ball appears as a small white sphere.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00023",
+      "statement": "At frame 0, the soccer ball appears as a small, nearly spherical white ball, forming a bright spot that contrasts clearly with the green grass, with a slightly blurred outer contour.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00025",
+      "statement": "At frame 0, Object E is a white goal, with the white goalposts on both sides, the crossbar, and part of a light-colored goal net visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00026",
+      "statement": "At frame 0, the white goalposts on both sides of Object E and the crossbar form a rectangular goal opening in perspective, with part of a light-colored goal net behind it; the bottom edge extending rearward is visible on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00028",
+      "statement": "At frame 0, the gray tiered stands extend along the far side and right end of the soccer field, are stepped, and have passageways between the seating areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00029",
+      "statement": "At frame 0, the gray tiered stands extend along the far side and right end of the soccer field, with the seats rising tier by tier; horizontal rows of seats, vertical stepped aisles, and railings are discernible, and some gray seats are exposed between spectators.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00031",
+      "statement": "At frame 0, a large number of spectators, predominantly wearing dark clothing, are gathered in the stands.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00032",
+      "statement": "At frame 0, the spectators form dense outlines of heads and upper bodies among the seats; their clothing is mostly dark, interspersed with small light-colored and green patches; individuals are relatively small in the distant view.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00034",
+      "statement": "At frame 0, the off-field group of people in vests wears fluorescent yellow or orange vests, and the visible lower-body clothing is dark.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00035",
+      "statement": "At frame 0, the off-field group of people in vests wears fluorescent yellow or orange vests, and the visible lower-body clothing is dark; the brightly colored garment areas are concentrated on the torsos, and the lower bodies of some members on the far side are occluded by the advertising barrier.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00037",
+      "statement": "At frame 0, the off-field gray rigid passageway has a gray hard surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00038",
+      "statement": "At frame 0, the off-field gray rigid passageway appears as a long, narrow strip with a gray hard surface, extending along the lower edge of the stands; its surface varies in brightness, and the side nearer the field is partially occluded by the advertising barrier.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00043",
+      "statement": "At frame 44, white markings are visible on the green grass of the green soccer field, including part of the center circle on the left side of the image and the penalty-area markings on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00044",
+      "statement": "At frame 44, the green grass of the green soccer field has alternating light and dark stripes; part of the white center-circle arc enters from the left edge of the image, and the white front line of the penalty area, the penalty arc, the goal-area line, and the penalty spot are visible on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00046",
+      "statement": "At frame 44, the sideline advertising barrier consists of long rectangular board surfaces arranged along the field, predominantly with white backgrounds, interspersed with dark and green areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00047",
+      "statement": "At frame 44, the long rectangular board surfaces of the sideline advertising barrier predominantly have white backgrounds, interspersed with dark and green areas; the board surfaces have large dark or light-colored lettering, and some have red graphics; adjacent board surfaces are arranged continuously along the edge of the field.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00049",
+      "statement": "At frame 44, the group of players in green clothing wears green shirts and shorts and white knee-high socks.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00050",
+      "statement": "At frame 44, the group of players in green clothing wears green short-sleeved shirts, green shorts, and white knee-high socks; some members have light-colored numbers on their backs, and bright-colored or dark cleats are visible on their feet.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00052",
+      "statement": "At frame 44, the group of players in dark clothing wears blue-and-black vertically striped shirts, dark shorts, and dark soccer socks; the body of one member in the lower-left portion of the image is leaning markedly forward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00053",
+      "statement": "At frame 44, the group of players in dark clothing wears blue-and-black vertically striped shirts, dark shorts, and dark knee-high socks; some members have white numbers on their backs, and cleats of varying brightness are visible on their feet. One member in the lower-left portion is leaning markedly forward with the body lowered, and the legs extend toward image-right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00055",
+      "statement": "At frame 44, Person C wears a red shirt, red shorts, and red knee-high socks.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00056",
+      "statement": "At frame 44, Person C wears a red shirt, red shorts, and red knee-high socks; the sleeves of the shirt are also red, and the body remains upright.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00058",
+      "statement": "At frame 44, Person E wears a bright yellow shirt and black shorts.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00059",
+      "statement": "At frame 44, Person E wears a bright yellow short-sleeved shirt, black shorts, and dark knee-high socks, distinctly different from the kits of the group of players in green clothing and the group of players in dark clothing.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e004",
+        "video13_e005",
+        "video13_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00061",
+      "statement": "At frame 44, the soccer ball appears as a small white sphere.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00062",
+      "statement": "At frame 44, the soccer ball appears as a small, nearly spherical white ball, forming a bright spot that contrasts clearly with the green grass, with a slightly blurred outer contour.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00064",
+      "statement": "At frame 44, Object E is a white goal partially in the image, with one white goalpost and part of the crossbar visible, while the other goalpost is outside the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00065",
+      "statement": "At frame 44, Object E is a white goal partially in the image, with one white goalpost and part of the crossbar visible, while the other goalpost is outside the image; the visible goalpost is nearly vertical in the image, and the crossbar extends toward the lower right of the image and is cut off by the right boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00067",
+      "statement": "At frame 44, the gray tiered stands extend along the far side and right end of the soccer field, are stepped, and have passageways between the seating areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00068",
+      "statement": "At frame 44, the gray tiered stands extend along the far side and right end of the soccer field, with the seats rising tier by tier; horizontal rows of seats, vertical stepped aisles, and railings are discernible, and some gray seats are exposed between spectators.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00070",
+      "statement": "At frame 44, a large number of spectators, predominantly wearing dark clothing, are gathered in the stands.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00071",
+      "statement": "At frame 44, the spectators form dense outlines of heads and upper bodies among the seats; their clothing is mostly dark, interspersed with small light-colored and green patches; individuals are relatively small in the distant view.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00073",
+      "statement": "At frame 44, the off-field group of people in vests wears fluorescent yellow or orange vests, and the visible lower-body clothing is dark.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00074",
+      "statement": "At frame 44, the off-field group of people in vests wears fluorescent yellow or orange vests, and the visible lower-body clothing is dark; the brightly colored garment areas are concentrated on the torsos, and the lower bodies of some members on the far side are occluded by the advertising barrier.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00076",
+      "statement": "At frame 44, the off-field gray rigid passageway has a gray hard surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00077",
+      "statement": "At frame 44, the off-field gray rigid passageway appears as a long, narrow strip with a gray hard surface, extending along the lower edge of the stands; its surface varies in brightness, and the side nearer the field is partially occluded by the advertising barrier.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00012",
+      "statement": "At frame 0, the green soccer field occupies the middle and lower portions of the image, the penalty area is in the right half of the image, and the playing area outside the penalty area extends toward image-left.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00015",
+      "statement": "At frame 0, 1 Object E is in the distant upper-right portion of the image, and 1 Person C stands on its side facing the field and is at the lower left of Object E in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e006",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00016",
+      "statement": "At frame 0, 1 soccer ball is slightly left of the center of the image, on the image-left side of a nearby member of the group of players in green clothing; Person E is at the upper left of the soccer ball in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e004",
+        "video13_e008",
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00017",
+      "statement": "At frame 0, the group of players in green clothing and the group of players in dark clothing are interspersed outside the penalty area in the center of the image; members of the two sides are adjacent near the front of the penalty area on the right, and each set also has nearby members in the lower portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00018",
+      "statement": "At frame 0, the sideline advertising barrier is arranged along the far edge of the green soccer field and continues to the outer edge of the field in the upper-right portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00019",
+      "statement": "At frame 0, the gray tiered stands are behind the sideline advertising barrier and higher than the field; the group of spectators in the stands is distributed within the stands, occupying the background in the upper portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e003",
+        "video13_e012",
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00020",
+      "statement": "At frame 0, the off-field gray rigid passageway is between the sideline advertising barrier and the gray tiered stands, and the off-field group of people in vests stands on this passageway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e003",
+        "video13_e012",
+        "video13_e014",
+        "video13_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00039",
+      "statement": "At frame 0, Object E is in the upper-right portion of the image, and Person C stands on its side facing the field; the soccer ball is near players from both sides slightly left of center, and Person E is at the upper left of the soccer ball in the image; the sideline advertising barrier is arranged along the far edge, and the group of spectators in the stands is within the gray tiered stands farther behind.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e003",
+        "video13_e004",
+        "video13_e005",
+        "video13_e006",
+        "video13_e008",
+        "video13_e009",
+        "video13_e011",
+        "video13_e012",
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00031",
+      "statement": "At frame 34, the lowest member in the image of the group of players in dark clothing is in a running posture, with the torso off the ground; one member of the group of players in green clothing is on the image-left side and one is on the image-right side of this member, with gaps between the three people.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        33,
+        34,
+        35
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00021",
+      "statement": "At frame 44, the green soccer field occupies the middle and lower portions of the image, part of the center circle is at the left edge of the image, the penalty area is in the right half of the image, and a continuous playing area lies between them.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00024",
+      "statement": "At frame 44, Object E is partially in the image at the upper-right edge, and Person C is on its side facing the field, at the lower left of the visible goal frame in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e006",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00025",
+      "statement": "At frame 44, the soccer ball is on the image-right side of the partial center circle, near and in front of the foot of a member of the group of players in dark clothing there, and below that member in the image; Person E is at the upper right of the soccer ball in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e005",
+        "video13_e008",
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00026",
+      "statement": "At frame 44, the group of players in green clothing and the group of players in dark clothing are distributed between the right side of the center circle and the front of the penalty area; members of the two sides are adjacent and interspersed in the center of the image, and additional members of both sides are distributed nearby in the lower portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00027",
+      "statement": "At frame 44, the sideline advertising barrier is arranged along the far edge of the green soccer field and continues to the outer edge of the field in the upper-right portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00028",
+      "statement": "At frame 44, the gray tiered stands are behind the sideline advertising barrier and higher than the field; the group of spectators in the stands is distributed within the stands, occupying the background in the upper portion of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e003",
+        "video13_e012",
+        "video13_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00029",
+      "statement": "At frame 44, the off-field gray rigid passageway is between the sideline advertising barrier and the gray tiered stands, and the off-field group of people in vests stands on this passageway.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e003",
+        "video13_e012",
+        "video13_e014",
+        "video13_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_restore00030",
+      "statement": "At frame 44, a member of the group of players in dark clothing in the lower-left portion of the image is leaning markedly forward with the body lowered, and the legs extend toward image-right; one nearby member of the group of players in green clothing is on the image-left side and one is on the image-right side of this member, with gaps between the three people.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00078",
+      "statement": "At frame 44, Person C and the partially visible Object E are in the distant upper-right portion of the image, and part of the center circle is at the left edge; the soccer ball is near and in front of the foot of a member of the group of players in dark clothing on the image-right side of the center circle, while another member of this set in the lower-left portion of the image is leaning markedly forward with the body lowered.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e005",
+        "video13_e006",
+        "video13_e009",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_r00001",
+      "statement": "At frame 0, the camera is at an elevated position on the near side of the soccer field, looking obliquely downward at the penalty area and nearby grass.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00001",
+      "statement": "At frame 0, the camera is at an elevated position on the near side of the soccer field, looking obliquely downward at the penalty area and nearby grass.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_r00040",
+      "statement": "At frame 44, the camera is at an elevated position on the near side of the soccer field, looking obliquely downward at the penalty area and nearby grass.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00040",
+      "statement": "At frame 44, the camera is at an elevated position on the near side of the soccer field, looking obliquely downward at the penalty area and nearby grass.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_r00002",
+      "statement": "At frame 0, the camera is aimed at the soccer ball outside the penalty arc at the end defended by Person C and the area of nearby players.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005",
+        "video13_e006",
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00002",
+      "statement": "At frame 0, the camera is aimed at the soccer ball outside the penalty arc at the end defended by Person C and the area of nearby players.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005",
+        "video13_e006",
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_r00041",
+      "statement": "At frame 44, the camera is aimed at the players and soccer ball between the penalty area and the center circle at the end defended by Person C.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005",
+        "video13_e006",
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00041",
+      "statement": "At frame 44, the camera is aimed at the players and soccer ball between the penalty area and the center circle at the end defended by Person C.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 44,
+      "end_frame": 44,
+      "evidence_frames": [
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005",
+        "video13_e006",
+        "video13_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_r00080",
+      "statement": "From frame 0 through frame 44, the camera pans left relative to its orientation at frame 0, following the play as it shifts toward midfield.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        10,
+        22,
+        34,
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e012",
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00080",
+      "statement": "From frame 0 through frame 44, the camera pans left relative to its orientation at frame 0, following the play as it shifts toward midfield.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        10,
+        22,
+        34,
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e012",
+        "video13_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_a017",
+      "statement": "Frames 0 through 44 form a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        44
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video13_cp002_a017",
+      "statement": "Frames 0 through 44 form a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        44
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video13_cp002_r00081",
+      "statement": "From frame 0 through frame 44, the soccer ball moves from outside the penalty arc at the end where Object E is located toward the center-circle side.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        10,
+        22,
+        33,
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e009",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_r00082",
+      "statement": "From frame 0 through frame 44, the main ball-following members of the group of players in green clothing and the group of players in dark clothing move from outside the penalty area at the end where Object E is located toward midfield, while the nearby members follow along the length of the field.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        10,
+        22,
+        34,
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_r00083",
+      "statement": "From frame 0 through frame 44, Person E follows the play, moving from outside the penalty arc toward the midfield side.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        10,
+        22,
+        44
+      ],
+      "subject_ids": [
+        "video13_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00081",
+      "statement": "From frame 0 through frame 44, the soccer ball moves from outside the penalty arc at the end where Object E is located toward the center-circle side.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        10,
+        22,
+        33,
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e009",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00082",
+      "statement": "From frame 0 through frame 44, the main ball-following members of the group of players in green clothing and the group of players in dark clothing move from outside the penalty area at the end where Object E is located toward midfield, while the nearby members follow along the length of the field.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        10,
+        22,
+        34,
+        44
+      ],
+      "subject_ids": [
+        "video13_e001",
+        "video13_e004",
+        "video13_e005",
+        "video13_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00083",
+      "statement": "From frame 0 through frame 44, Person E follows the play, moving from outside the penalty arc toward the midfield side.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 44,
+      "evidence_frames": [
+        0,
+        10,
+        22,
+        44
+      ],
+      "subject_ids": [
+        "video13_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video13_cp002_r00084",
+      "statement": "From frame 34 through frame 44, a nearby member of the group of players in dark clothing in the lower portion of the image transitions from running to a markedly forward-leaning low posture; in the final segment, one hand is close to the grass and both legs extend behind the body.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 44,
+      "evidence_frames": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video13_cp002_r00084",
+      "statement": "From frame 34 through frame 44, a nearby member of the group of players in dark clothing in the lower portion of the image transitions from running to a markedly forward-leaning low posture; in the final segment, one hand is close to the grass and both legs extend behind the body.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 44,
+      "evidence_frames": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "subject_ids": [
+        "video13_e005"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    26,
+    30,
+    34,
+    38,
+    44
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "82263b2ba7e58af2a0fe6e5fceec65883d5671fc3104794074f2ec508bdc7f88"
+}

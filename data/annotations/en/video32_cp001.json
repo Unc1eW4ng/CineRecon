@@ -1,0 +1,1787 @@
+{
+  "clip_id": "video32_cp001",
+  "video_id": "video32",
+  "fps": 30.0,
+  "start_frame": 0,
+  "end_frame": 24,
+  "source_frame_offset": 0,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video32_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A person wearing a brown flat hat, a light blue long-sleeved top, gray-green bib overalls, and brown gloves; dark boots are visible later."
+    },
+    {
+      "source_entity_id": "video32_e002",
+      "name": "Animal A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A goose with a white body, a long slender neck, an orange beak and legs and feet, and small black eyes."
+    },
+    {
+      "source_entity_id": "video32_e011",
+      "name": "pond surface",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A light blue water surface extending along the curved shoreline in the lower part of the image."
+    },
+    {
+      "source_entity_id": "video32_e012",
+      "name": "pond-edge stones",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A group of light gray irregular stones of varying sizes arranged along the boundary between the water surface and the lawn."
+    },
+    {
+      "source_entity_id": "video32_e013",
+      "name": "aquatic plants",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Clusters of pale green long leaves along the shore, dark green water-lily leaves on the water surface, and locally visible white flowers with yellow centers."
+    },
+    {
+      "source_entity_id": "video32_e014",
+      "name": "small wooden bridge",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A bridge structure partially extending in from image-left, with a brown wooden-plank surface and short supporting legs."
+    },
+    {
+      "source_entity_id": "video32_e015",
+      "name": "gray-green lawn",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A large expanse of gray-green ground outside the pond shore, with outlines of short grass along its edge."
+    },
+    {
+      "source_entity_id": "video32_e016",
+      "name": "light gray path",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A light gray road surface spanning the upper part of the image, with the edge on the lawn side curving gently."
+    },
+    {
+      "source_entity_id": "video32_e017",
+      "name": "wooden bench",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A brown wooden bench with vertical backrest slats, parallel seat boards, armrests, and legs."
+    },
+    {
+      "source_entity_id": "video32_e018",
+      "name": "blue square object",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A flat, nearly square object on the seat of the wooden bench, dark blue in the center and light blue along the edges."
+    },
+    {
+      "source_entity_id": "video32_e030",
+      "name": "light gray handheld device",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A light gray, flat, elongated rectangular device carried by Person A, with a dark component and a small red piece."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video32_cp001_restore00010",
+      "statement": "At frame 0, there is one Person A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00011",
+      "statement": "At frame 0, there is one Animal A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00010",
+      "statement": "At frame 0, Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00011",
+      "statement": "At frame 0, Animal A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00012",
+      "statement": "At frame 0, the pond surface is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00015",
+      "statement": "At frame 0, the pond-edge stones are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00018",
+      "statement": "At frame 0, the aquatic plants are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00021",
+      "statement": "At frame 0, the small wooden bridge is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00024",
+      "statement": "At frame 0, the gray-green lawn is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00027",
+      "statement": "At frame 0, the light gray path is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00030",
+      "statement": "At frame 0, the light gray handheld device is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e030"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00019",
+      "statement": "At frame 24, there is one Person A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00020",
+      "statement": "At frame 24, there is one Animal A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00033",
+      "statement": "At frame 24, Person A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00034",
+      "statement": "At frame 24, Animal A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00035",
+      "statement": "At frame 24, the pond surface is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00038",
+      "statement": "At frame 24, the pond-edge stones are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00041",
+      "statement": "At frame 24, the aquatic plants are visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00044",
+      "statement": "At frame 24, the gray-green lawn is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00047",
+      "statement": "At frame 24, the light gray path is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00050",
+      "statement": "At frame 24, the wooden bench is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00053",
+      "statement": "At frame 24, the blue square object is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a010",
+      "statement": "At frame 0, Person A wears a brown flat hat, a light blue long-sleeved top, gray-green bib overalls, and brown gloves, and carries a light gray rectangular device.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e030"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a011",
+      "statement": "At frame 0, Person A wears a brown flat hat, with brown hair and sideburns partially exposed beneath it; a light blue long-sleeved top with a light blue turn-down collar, gray-green bib overalls, and brown gloves. On the chest is a dark green, nearly rectangular pocket with a rounded lower edge; the light gray handheld device being carried is flat and elongated rectangular, with a dark block and a small red strip-shaped block on one side, and a small dark component is partially exposed at the connection to the hand.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e030"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00006",
+      "statement": "At frame 0, Animal A is a goose with a white body and long neck, and an orange beak and legs and feet; the wing on image-left is extended outward and upward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00007",
+      "statement": "At frame 0, Animal A is a goose with a plump, rounded white body and a long, slender, curved neck, and an orange beak and legs and feet; a small black eye and pointed beak are visible on the head, and the slender legs end in flat feet. The wing on image-left is extended outward and upward, with faint layering on the wing surface and multiple rounded feather-tip outlines visible along the wing edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00013",
+      "statement": "At frame 0, the pond surface is a light blue area extending along the curved shoreline.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00014",
+      "statement": "At frame 0, the pond surface is uniformly light blue, extends along the irregular shoreline, and reaches the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00016",
+      "statement": "At frame 0, the pond-edge stones are light gray, vary in size, and are irregularly block-shaped.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00017",
+      "statement": "At frame 0, the pond-edge stones are light gray, vary in size, and are arranged at uneven intervals along the shoreline; irregular outlines including flattened ovals, rounded polygons, and small triangular shapes are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00019",
+      "statement": "At frame 0, the aquatic plants include clusters of pale green long leaves and nearly circular, disc-shaped dark green water-lily leaves on the water surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00020",
+      "statement": "At frame 0, among the aquatic plants, pale green narrow, elongated leaves rise in clusters; the dark green water-lily leaves are circular and disc-shaped with notches. White petals and yellow flower centers are also visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00022",
+      "statement": "At frame 0, the small wooden bridge is brown; its flat bridge deck and supporting legs beneath are visible, and it extends partially in from image-left.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00023",
+      "statement": "At frame 0, the small wooden bridge is brown and extends partially in from image-left; the flat bridge deck consists of wooden boards arranged side by side, short thick supporting legs are visible beneath, and there are darker seams between the boards.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00025",
+      "statement": "At frame 0, the gray-green lawn covers a large expanse of ground.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00026",
+      "statement": "At frame 0, the gray-green lawn covers a large expanse of ground, is relatively uniform in color, and has dense outlines of fine, short grass blades along its edge; small white flowers are scattered in the upper-left part of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00028",
+      "statement": "At frame 0, the light gray path spans the upper part of the image and forms a gentle arc.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00029",
+      "statement": "At frame 0, the light gray path is a wide light gray band spanning the upper part of the image and extending beyond the left and right boundaries; its lower edge gradually curves upward from image-left toward image-right and becomes gentler in the right half.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00031",
+      "statement": "At frame 0, the light gray handheld device has a flat, elongated rectangular casing with a dark block on one side.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e030"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00032",
+      "statement": "At frame 0, the light gray handheld device has a flat, elongated rectangular casing, with a dark block and a small red strip-shaped block on one side; a small dark component is partially exposed at the connection to the hand.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e030"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a022",
+      "statement": "At frame 24, Person A wears a brown flat hat, a light blue long-sleeved top, gray-green bib overalls, and brown gloves, with dark boots visible on the feet.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a023",
+      "statement": "At frame 24, Person A wears a brown flat hat, with short brown hair and same-colored sideburns exposed; a light blue long-sleeved top with a light blue turn-down collar, gray-green bib overalls, and brown gloves, with dark boots visible on the feet. A shoulder strap is visible from the side, and the dark green pocket on the chest is only partially exposed.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a024",
+      "statement": "At frame 24, Animal A is a goose with a white body and long neck, and an orange beak and visible legs and feet; the wings are close to the body and are not visibly extended.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a025",
+      "statement": "At frame 24, Animal A is a goose with a plump, rounded white body and a long, slender, curved neck, and an orange beak and visible legs and feet; the wings are close to the body and are not visibly extended. A small black eye and pointed beak are visible on the head, the neck extends toward image-right, slender sections of the legs and flat feet are visible, and there is a small pointed projection at the tail end of the white body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00036",
+      "statement": "At frame 24, the pond surface is a light blue area extending along the curved shoreline.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00037",
+      "statement": "At frame 24, the pond surface is uniformly light blue, extends along the irregular shoreline, and reaches the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00039",
+      "statement": "At frame 24, the pond-edge stones are light gray, vary in size, and are irregularly block-shaped.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00040",
+      "statement": "At frame 24, the pond-edge stones are light gray, vary in size, and are arranged at uneven intervals along the shoreline; irregular outlines including flattened ovals, rounded polygons, and small triangular shapes are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00042",
+      "statement": "At frame 24, the aquatic plants include clusters of pale green long leaves and dark green water-lily leaves partially visible at the bottom edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00043",
+      "statement": "At frame 24, among the aquatic plants, pale green narrow, elongated leaves rise in clusters; the dark green water-lily leaves are partially visible at the bottom edge of the image, with curved edges and notches on their exposed portions.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00045",
+      "statement": "At frame 24, the gray-green lawn covers a large expanse of ground.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00046",
+      "statement": "At frame 24, the gray-green lawn covers a large expanse of ground, is relatively uniform in color, and has dense outlines of fine, short grass blades along its edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00048",
+      "statement": "At frame 24, the light gray path spans the upper part of the image and forms a gentle arc.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00049",
+      "statement": "At frame 24, the light gray path spans the upper part of the image; the lower edge of the wide light gray band arches toward the top of the image in the middle, and both ends extend beyond the left and right boundaries.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00051",
+      "statement": "At frame 24, the wooden bench is brown and has a backrest, seat, armrests, and legs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00052",
+      "statement": "At frame 24, the brown wooden bench has multiple parallel seat boards, evenly spaced vertical backrest slats, thick armrests, and legs.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00054",
+      "statement": "At frame 24, the blue square object is nearly square in shape, dark blue in the center, and light blue along the edges.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00055",
+      "statement": "At frame 24, the blue square object is flat and nearly square, with a dark blue center surrounded by a thin light blue border; the outline of the corner facing the bottom of the image is slightly bent.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00012",
+      "statement": "At frame 0, Animal A is on the image-left side of Person A, with its head oriented toward the area of Person A's shoulder.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00013",
+      "statement": "At frame 0, Person A bends forward with their head lowered at the edge of the pond surface, with their head oriented toward the light gray handheld device at the lower right of the image; the device is in contact with Person A's hand on image-right and is above the water surface by the shore.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e030",
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00014",
+      "statement": "At frame 0, the pond surface occupies the lower part of the image and extends to the bottom edge, while the gray-green lawn is above the pond surface in the image, and the two meet along the shoreline.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00015",
+      "statement": "At frame 0, the light gray path is farther away than the gray-green lawn, spans the upper part of the image, and connects the left and right boundaries; its boundary on the pond side gradually curves upward from image-left toward image-right and becomes gentler in the right half.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e016",
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00016",
+      "statement": "At frame 0, the pond-edge stones are distributed along the boundary between the pond surface and the gray-green lawn, on both the image-left and image-right sides of Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e012",
+        "video32_e011",
+        "video32_e015",
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00017",
+      "statement": "At frame 0, aquatic plants are distributed near the small wooden bridge and along the shoreline on the image-right side of Person A, with another portion on the pond surface near the bottom edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e013",
+        "video32_e014",
+        "video32_e001",
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00018",
+      "statement": "At frame 0, the small wooden bridge extends partially from the left edge of the image into the pond-shore area, with the pond surface beneath it; part of the bridge structure on the lower side of the image is occluded by aquatic plants.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e014",
+        "video32_e011",
+        "video32_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a014",
+      "statement": "At frame 0, Animal A is on the image-left side of Person A, with its beak oriented toward the area of Person A's shoulder; Person A bends forward with their head lowered at the pond shore, facing the light gray handheld device beside their hand.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002",
+        "video32_e011",
+        "video32_e030"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00008",
+      "statement": "At frame 0, the pond surface is in the lower part of the image, the gray-green lawn extends along the visible shoreline, and the light gray path is farther away than the lawn in the upper part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e015",
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00027",
+      "statement": "At frame 12, Animal A is behind Person A in depth, with most of it occluded by Person A and its head exposed on the image-right side of Person A's shoulder.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 12,
+      "end_frame": 12,
+      "evidence_frames": [
+        11,
+        12,
+        13
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00021",
+      "statement": "At frame 24, Person A is on the image-left side of Animal A, and both are near the edge of the pond surface; Animal A faces image-right, and the wooden bench is on the image-right side of both.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002",
+        "video32_e011",
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00022",
+      "statement": "At frame 24, the pond surface occupies the lower part of the image and extends to the bottom edge, while the gray-green lawn is above and to the image-right of it, and the two meet along the shoreline.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00023",
+      "statement": "At frame 24, the light gray path is farther away than the gray-green lawn, spans the upper part of the image, and connects the left and right boundaries; its boundary on the pond side curves upward in the middle of the image, with both ends positioned lower in the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e016",
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00024",
+      "statement": "At frame 24, the pond-edge stones are distributed along the boundary between the pond surface and the gray-green lawn, on both the image-left and image-right sides of Person A.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e012",
+        "video32_e011",
+        "video32_e015",
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00025",
+      "statement": "At frame 24, one portion of the aquatic plants is along the shoreline on the image-right side of Person A, while another portion is on the pond surface and partially enters the image at the bottom edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e013",
+        "video32_e001",
+        "video32_e011"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_restore00026",
+      "statement": "At frame 24, the wooden bench is on image-right and is partially cropped by the right boundary, with the bottoms of its visible legs in contact with the gray-green lawn.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e017",
+        "video32_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a026",
+      "statement": "At frame 24, Person A is on the image-left side of Animal A, and both are near the pond-edge stones; the wooden bench is on the image-right side of both.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002",
+        "video32_e012",
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00009",
+      "statement": "At frame 24, the pond surface occupies the lower part of the image, the gray-green lawn and light gray path are above it, and the wooden bench partially enters the image on image-right, with its visible legs in contact with the lawn.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e015",
+        "video32_e016",
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_r00002",
+      "statement": "At frame 0, the camera is obliquely above the boundary area between the pond and the gray-green lawn, looking down at the pond shore.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e012",
+        "video32_e013",
+        "video32_e014",
+        "video32_e015",
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00002",
+      "statement": "At frame 0, the camera is obliquely above the boundary area between the pond and the gray-green lawn, looking down at the pond shore.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e012",
+        "video32_e013",
+        "video32_e014",
+        "video32_e015",
+        "video32_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_r00003",
+      "statement": "At frame 24, the camera looks down obliquely from above at the pond shore and the wooden bench on the lawn to its right.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e012",
+        "video32_e013",
+        "video32_e015",
+        "video32_e016",
+        "video32_e017",
+        "video32_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00003",
+      "statement": "At frame 24, the camera looks down obliquely from above at the pond shore and the wooden bench on the lawn to its right.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e012",
+        "video32_e013",
+        "video32_e015",
+        "video32_e016",
+        "video32_e017",
+        "video32_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_r00004",
+      "statement": "At frame 0, the camera is directed toward Person A by the pond and Animal A on Person A's image-left side.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00004",
+      "statement": "At frame 0, the camera is directed toward Person A by the pond and Animal A on Person A's image-left side.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_r00005",
+      "statement": "At frame 24, the camera is directed toward Person A and Animal A at the pond shore and the wooden bench on image-right.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002",
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00005",
+      "statement": "At frame 24, the camera is directed toward Person A and Animal A at the pond shore and the wooden bench on image-right.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 24,
+      "end_frame": 24,
+      "evidence_frames": [
+        24
+      ],
+      "subject_ids": [
+        "video32_e001",
+        "video32_e002",
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_r00001",
+      "statement": "From frames 0 to 24, the camera tracks toward image-right, the pond-edge stones and grassy shore as a whole move toward image-left, and the bench on the right gradually enters the image.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 24,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        18,
+        24
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e012",
+        "video32_e013",
+        "video32_e014",
+        "video32_e015",
+        "video32_e016",
+        "video32_e017",
+        "video32_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_r00001",
+      "statement": "From frames 0 to 24, the camera tracks toward image-right, the pond-edge stones and grassy shore as a whole move toward image-left, and the bench on the right gradually enters the image.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 24,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        18,
+        24
+      ],
+      "subject_ids": [
+        "video32_e011",
+        "video32_e012",
+        "video32_e013",
+        "video32_e014",
+        "video32_e015",
+        "video32_e016",
+        "video32_e017",
+        "video32_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_a008",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 24,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        18,
+        24
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video32_cp001_a008",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 24,
+      "evidence_frames": [
+        0,
+        6,
+        12,
+        18,
+        24
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video32_cp001_a035",
+      "statement": "From frames 0 to 24, Animal A moves from the image-left side of Person A, passes behind Person A, moves to image-right, and moves toward the area where the wooden bench is located.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 24,
+      "evidence_frames": [
+        0,
+        9,
+        12,
+        15,
+        16,
+        24
+      ],
+      "subject_ids": [
+        "video32_e002",
+        "video32_e001",
+        "video32_e012",
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a035",
+      "statement": "From frames 0 to 24, Animal A moves from the image-left side of Person A, passes behind Person A, moves to image-right, and moves toward the area where the wooden bench is located.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 24,
+      "evidence_frames": [
+        0,
+        9,
+        12,
+        15,
+        16,
+        24
+      ],
+      "subject_ids": [
+        "video32_e002",
+        "video32_e001",
+        "video32_e012",
+        "video32_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_a036",
+      "statement": "From frames 0 to 12, Person A gradually raises their head and straightens their upper body from a bent posture with the head lowered, and by frame 12 the body is basically upright.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 12,
+      "evidence_frames": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "subject_ids": [
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a036",
+      "statement": "From frames 0 to 12, Person A gradually raises their head and straightens their upper body from a bent posture with the head lowered, and by frame 12 the body is basically upright.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 12,
+      "evidence_frames": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "subject_ids": [
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video32_cp001_a037",
+      "statement": "From frames 0 to 24, Animal A initially has its wings spread beside Person A; afterward, the exposed wing sections gradually lower and fold in, and from frames 15 to 24 no clearly spread wings are visible. During the middle stage of folding in, part of it is occluded by Person A.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 24,
+      "evidence_frames": [
+        0,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video32_e002",
+        "video32_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video32_cp001_a037",
+      "statement": "From frames 0 to 24, Animal A initially has its wings spread beside Person A; afterward, the exposed wing sections gradually lower and fold in, and from frames 15 to 24 no clearly spread wings are visible. During the middle stage of folding in, part of it is occluded by Person A.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 24,
+      "evidence_frames": [
+        0,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        23,
+        24
+      ],
+      "subject_ids": [
+        "video32_e002",
+        "video32_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    24
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "4ce11eedb217355b807bdafe692b2809ff04277924279885cd887e264fcb8070"
+}

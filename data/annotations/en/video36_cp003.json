@@ -1,0 +1,900 @@
+{
+  "clip_id": "video36_cp003",
+  "video_id": "video36",
+  "fps": 23.912,
+  "start_frame": 0,
+  "end_frame": 26,
+  "source_frame_offset": 82,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video36_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The only person in the foreground, with long dark curly hair and wearing a bright red sleeveless V-neck outfit; the image mainly shows their upper body."
+    },
+    {
+      "source_entity_id": "video36_e004",
+      "name": "dark brick edge on the right",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The narrow section of nearly black brick surface between the blue area and the pink wall on the right, with light-colored horizontal joints visible."
+    },
+    {
+      "source_entity_id": "video36_e005",
+      "name": "pink wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The pink wall surfaces visible along the left and right edges of the image, with fine raised and recessed texture on their surfaces."
+    },
+    {
+      "source_entity_id": "video36_e006",
+      "name": "doorway and back room",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The combined environmental area behind and to the image-right of Person B, including the blue wall, white door casing, and the purplish-gray back room visible through the opening."
+    },
+    {
+      "source_entity_id": "video36_e008",
+      "name": "wall shelf for folded towels",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The narrow blue wall shelf on the pink wall on the left and the multiple layers of folded towels on it; its left end as a whole is cropped by the image."
+    },
+    {
+      "source_entity_id": "video36_cp003_split_e009",
+      "name": "doorway area",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The opening behind and to the image-right of Person B and its white door casing, with blue wall visible around it."
+    },
+    {
+      "source_entity_id": "video36_cp003_split_e010",
+      "name": "back room area",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The distant interior area visible through the doorway, with purplish-gray walls, vertical light-colored lines, and a small warm-lit table lamp."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video36_cp003_restore00009",
+      "statement": "In frame 0, there is one Person B in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a007",
+      "statement": "One Person B is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a008",
+      "statement": "In frame 0, the dark brick edge on the right, pink wall, doorway and back room, and wall shelf for folded towels are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00014",
+      "statement": "In frame 26, there is one Person B in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a017",
+      "statement": "One Person B is visible in frame 26.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a018",
+      "statement": "In frame 26, the dark brick edge on the right, pink wall, doorway and back room, and wall shelf for folded towels are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a009",
+      "statement": "In frame 0, Person B has long dark curly hair and wears a bright red sleeveless deep V-neck outfit, visibly close-fitting to the contours of the upper body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a010",
+      "statement": "In frame 0, Person B's long dark hair falls below the shoulders in large curls, with some hair covering the side of the face on one side; Person B wears a bright red sleeveless deep V-neck outfit, visibly close-fitting to the contours of the upper body, with relatively wide shoulder straps visible, and the fabric over the chest gathered toward the center to form twist-like folds.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a011",
+      "statement": "In frame 0, the dark brick edge on the right appears as a narrow, nearly black vertical strip with light-colored horizontal joints; the pink wall is located on both sides of the image; the doorway and back room have a blue wall, white door casing, and a purplish-gray interior area behind; the wall shelf for folded towels consists of a narrow blue shelf and multiple layers of folded towels on it, including pink and yellow towels.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a012",
+      "statement": "In frame 0, the dark brick edge on the right is a narrow, nearly black vertical strip with reflections on its surface, segmented by several light-colored horizontal joints; the pink wall surfaces on both sides have a fine raised and recessed texture, and the lower-right edge adjoins a cropped portion of a black rectangle; the doorway and back room have a blue wall, white door casing, and a purplish-gray interior area behind, with vertical light-colored lines and a small warm-lit table lamp visible on the back room wall, and part of a warm-white wall lamp exposed at the upper right of the blue wall; on the narrow blue shelf of the wall shelf for folded towels are stacked towels including light-colored patterned, pink, and yellow towels, with the folded edges forming multiple horizontal layers.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a019",
+      "statement": "In frame 26, Person B has long dark curly hair and wears a bright red sleeveless deep V-neck outfit, visibly close-fitting to the contours of the upper body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a020",
+      "statement": "In frame 26, Person B's long dark hair falls below the shoulders in large curls, with some hair covering the side of the face on one side; Person B wears a bright red sleeveless deep V-neck outfit, visibly close-fitting to the contours of the upper body, with relatively wide shoulder straps visible, and the fabric over the chest gathered toward the center to form folds, while the lower part of the gathered area is cropped by the bottom edge of the active image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a021",
+      "statement": "In frame 26, the dark brick edge on the right appears as a narrow, nearly black vertical strip with light-colored horizontal joints; the pink wall is located on both sides of the image; the doorway and back room have a blue wall, white door casing, and a purplish-gray interior area behind; the wall shelf for folded towels consists of a narrow blue shelf and multiple layers of folded towels on it, including pink and yellow towels.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a022",
+      "statement": "In frame 26, the dark brick edge on the right is a narrow, nearly black vertical strip with reflections on its surface, segmented by several light-colored horizontal joints; the pink wall surfaces on both sides have a fine raised and recessed texture, and the lower-right edge adjoins a cropped portion of a black rectangle; the doorway and back room have a blue wall, white door casing, and a purplish-gray interior area behind, with vertical light-colored lines and a small warm-lit table lamp visible on the back room wall, and a warm-white wall lamp visible at the upper right of the blue wall; on the narrow blue shelf of the wall shelf for folded towels are stacked towels including light-colored patterned, pink, and yellow towels, with the folded edges forming multiple horizontal layers.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00010",
+      "statement": "In frame 0, Person B's upper body is slightly left of the center of the image, with its lower part extending beyond the bottom edge of the active image; Person B faces the side where the camera is located, and the doorway area is behind and to the image-right of Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00011",
+      "statement": "In frame 0, the pink wall surfaces respectively occupy the left and right edges of the image; the dark brick edge on the right is to the image-right of the doorway area and lies between the doorway area and the pink wall at the right edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00012",
+      "statement": "In frame 0, the opening in the doorway area leads to the back room area, which is behind the opening and visible through it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_cp003_split_e009",
+        "video36_cp003_split_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00013",
+      "statement": "In frame 0, the wall shelf for folded towels is at the left edge of the image and attached to the pink wall on that side, with part of it as a whole extending beyond the left edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e008",
+        "video36_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a013",
+      "statement": "In frame 0, Person B is slightly left of the center of the image, in front of the doorway area, and faces the side where the camera is located; the doorway area is behind and to the image-right of Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a014",
+      "statement": "In frame 0, the wall shelf for folded towels is on the pink wall at the left edge of the image; the doorway and back room are behind and to the image-right of Person B; the dark brick edge on the right is in the right part of the image, between the blue wall and the pink wall at the right edge.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00015",
+      "statement": "In frame 26, Person B's upper body is in the left half of the image, with its lower part extending beyond the bottom edge of the active image; Person B faces the side where the camera is located, and the doorway area is behind and to the image-right of Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00016",
+      "statement": "In frame 26, the pink wall surfaces respectively occupy the left and right edges of the image; the dark brick edge on the right is to the image-right of the doorway area and lies between the doorway area and the pink wall at the right edge.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00017",
+      "statement": "In frame 26, the opening in the doorway area leads to the back room area, which is behind the opening and visible through it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_cp003_split_e009",
+        "video36_cp003_split_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_restore00018",
+      "statement": "In frame 26, the wall shelf for folded towels is at the left edge of the image and attached to the pink wall on that side, with part of it as a whole extending beyond the left edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e008",
+        "video36_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a023",
+      "statement": "In frame 26, Person B is in the left half of the image, in front of the doorway area, and faces the side where the camera is located; the doorway area is behind and to the image-right of Person B.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a024",
+      "statement": "In frame 26, the wall shelf for folded towels is on the pink wall at the left edge of the image; the doorway and back room are behind and to the image-right of Person B; the dark brick edge on the right is in the right part of the image, between the blue wall and the pink wall at the right edge.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_a005",
+      "statement": "In frame 0, the camera is on the side Person B faces, and Person B is in the foreground between the camera and the doorway area behind and to the image-right of Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a005",
+      "statement": "In frame 0, the camera is on the side Person B faces, and Person B is in the foreground between the camera and the doorway area behind and to the image-right of Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_a015",
+      "statement": "In frame 26, the camera is on the side Person B faces, and Person B is in the foreground between the camera and the doorway area behind and to the image-right of Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a015",
+      "statement": "In frame 26, the camera is on the side Person B faces, and Person B is in the foreground between the camera and the doorway area behind and to the image-right of Person B.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_a006",
+      "statement": "In frame 0, the camera is aimed at Person B's upper body, while the image also includes the doorway area behind and to the image-right of Person B.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a006",
+      "statement": "In frame 0, the camera is aimed at Person B's upper body, while the image also includes the doorway area behind and to the image-right of Person B.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_a016",
+      "statement": "In frame 26, the camera is aimed at Person B's upper body, while the image also includes the doorway area behind and to the image-right of Person B.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a016",
+      "statement": "In frame 26, the camera is aimed at Person B's upper body, while the image also includes the doorway area behind and to the image-right of Person B.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 26,
+      "end_frame": 26,
+      "evidence_frames": [
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_a001",
+      "statement": "From frame 0 through frame 26, the camera adjusts the framing slightly to the right, and the door frame of the doorway and back room and the wall edge on the right generally move toward the image-left.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 26,
+      "evidence_frames": [
+        0,
+        12,
+        13,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "subject_ids": [
+        "video36_e006",
+        "video36_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a001",
+      "statement": "From frame 0 through frame 26, the camera adjusts the framing slightly to the right, and the door frame of the doorway and back room and the wall edge on the right generally move toward the image-left.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 26,
+      "evidence_frames": [
+        0,
+        12,
+        13,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "subject_ids": [
+        "video36_e006",
+        "video36_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_a025",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 26,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video36_cp003_a025",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 26,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video36_cp003_a003",
+      "statement": "From frame 0 through frame 26, Person B's upper body moves slightly overall toward the image-left relative to the doorway area.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 26,
+      "evidence_frames": [
+        0,
+        1,
+        12,
+        13,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a003",
+      "statement": "From frame 0 through frame 26, Person B's upper body moves slightly overall toward the image-left relative to the doorway area.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 26,
+      "evidence_frames": [
+        0,
+        1,
+        12,
+        13,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_cp003_split_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp003_a004",
+      "statement": "From frame 0 through frame 26, Person B changes mouth shape and eyebrow-and-eye expression multiple times, accompanied by slight changes in head orientation.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 26,
+      "evidence_frames": [
+        0,
+        1,
+        12,
+        13,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp003_a004",
+      "statement": "From frame 0 through frame 26, Person B changes mouth shape and eyebrow-and-eye expression multiple times, accompanied by slight changes in head orientation.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 26,
+      "evidence_frames": [
+        0,
+        1,
+        12,
+        13,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    26
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "a3c2c95e7d4b7a3a5231c1a4634dfaa539ab7cdb6c5b558aefa461134d54551d"
+}

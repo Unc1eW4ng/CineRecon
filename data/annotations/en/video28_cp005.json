@@ -1,0 +1,1347 @@
+{
+  "clip_id": "video28_cp005",
+  "video_id": "video28",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 81,
+  "source_frame_offset": 559,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video28_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "The dark-colored handgun continuously visible in the lower-right portion of the first-person view, with a long, squared slide; part of the grip is within the frame."
+    },
+    {
+      "source_entity_id": "video28_e013",
+      "name": "riveted metal wall panel",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The large light-gray to bluish-gray metal wall panels around the ladder opening, with dark rivet points arranged near the seams."
+    },
+    {
+      "source_entity_id": "video28_e014",
+      "name": "metal floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The grayish-brown floor partially exposed at the left edge of the image in frame 0, behind the foreground ladder rail."
+    },
+    {
+      "source_entity_id": "video28_e015",
+      "name": "dark-colored metal ceiling",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The top panel surface located between the wall panels on both sides in the upward-looking view in the latter portion, appearing dark grayish-brown to olive green."
+    },
+    {
+      "source_entity_id": "video28_e018",
+      "name": "metal ladder",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The metal ladder composed of dark-colored long side rails and parallel rungs, which shifts from the left side of the image to the front as the camera turns."
+    },
+    {
+      "source_entity_id": "video28_e019",
+      "name": "hatch guardrail",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The thick gray angled bar beside the hatch, which forms an angled arch-shaped outline with an open center on the left side of the image in the latter portion."
+    },
+    {
+      "source_entity_id": "video28_e025",
+      "name": "indoor light fixture",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The bluish-white rectangular luminous surface partially exposed in the upper ceiling area in the latter portion, with a gray border around its outside."
+    },
+    {
+      "source_entity_id": "video28_e026",
+      "name": "hatch flange",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The thick gray metal edge around the hatch opening, with a layered, stepped structure and bluish-green illuminated surfaces."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video28_cp005_restore00010",
+      "statement": "In frame 0, 1 Weapon A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_a004",
+      "statement": "In frame 0, Weapon A is visible in the lower-right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00018",
+      "statement": "In frame 0, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00019",
+      "statement": "In frame 0, a small portion of the metal floor is visible at the left edge of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00020",
+      "statement": "In frame 0, some rungs of the metal ladder are visible in the lower portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        34,
+        35
+      ],
+      "subject_ids": [
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00021",
+      "statement": "In frame 0, the hatch guardrail is visible in the foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        45,
+        81
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00022",
+      "statement": "In frame 0, the hatch flange is visible in the foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_restore00013",
+      "statement": "In frame 81, 1 Weapon A is visible in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_a017",
+      "statement": "In frame 81, Weapon A is visible in the lower-right foreground of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00014",
+      "statement": "In frame 81, a partially visible light fixture is located in the upper portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00023",
+      "statement": "In frame 81, the riveted metal wall panel is visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00024",
+      "statement": "In frame 81, the dark-colored metal ceiling is visible in the upper portion of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00025",
+      "statement": "In frame 81, some rungs and side rails of the metal ladder are visible in the middle-lower portion of the image, and the side rails continue upward out of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00026",
+      "statement": "In frame 81, the hatch guardrail is visible in the foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00027",
+      "statement": "In frame 81, the hatch flange is visible in the foreground.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00001",
+      "statement": "In frame 0, Weapon A is a dark gray to dark green handgun, with a long, squared slide and part of the grip outline visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00002",
+      "statement": "In frame 0, Weapon A is a dark gray to dark green handgun, with a long, squared slide and part of the grip outline visible; there is a straight bright edge along the upper edge of the slide, and the lower end of the grip is cut off by the lower edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00028",
+      "statement": "In frame 0, the riveted metal wall panel is light gray to bluish gray and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00029",
+      "statement": "In frame 0, the portion of the metal floor at the left edge of the image is grayish brown.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00030",
+      "statement": "In frame 0, the visible portion of the metal ladder is dark gray and consists of parallel rungs and side rails.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00031",
+      "statement": "In frame 0, the visible portion of the hatch guardrail is dark gray, with thick angled bars visible; its complete outline is occluded by foreground structures and the image frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00032",
+      "statement": "In frame 0, the hatch flange is a thick gray metal edge, with adjoining straight edges and a corner visible; only part of the opening is within the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00033",
+      "statement": "In frame 0, the riveted metal wall panel is light gray to bluish gray and consists of large rectangular panel surfaces; there are dark narrow gaps between the panels, and dark rivet points are arranged near the seams.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00034",
+      "statement": "In frame 0, the portion of the metal floor at the left edge of the image is grayish brown, with blurry light and dark mottling on its surface; the rest is occluded by foreground structures.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00035",
+      "statement": "In frame 0, the visible portion of the metal ladder is dark gray and consists of parallel rungs and side rails, with some bars cut off by the lower edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00036",
+      "statement": "In frame 0, the visible portion of the hatch guardrail is dark gray, with thick angled bars visible; its complete outline is occluded by foreground structures and the image frame; the exposed bars have straight edges and side surfaces of differing brightness.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00037",
+      "statement": "In frame 0, the hatch flange is a thick gray metal edge, with adjoining straight edges and a corner visible, and only part of the opening is within the frame; the edge has a multilayered, stepped structure and bluish-green illuminated surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00003",
+      "statement": "In frame 81, Weapon A is a dark gray to dark green handgun, with a long, squared slide and part of the grip outline visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00004",
+      "statement": "In frame 81, Weapon A is a dark gray to dark green handgun, with a long, squared slide and part of the grip outline visible; there is a straight bright edge along the upper edge of the slide, and the lower end of the grip is cut off by the lower edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00015",
+      "statement": "In frame 81, the indoor light fixture partially exposes a bluish-white rectangular luminous surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00016",
+      "statement": "In frame 81, the indoor light fixture partially exposes a bluish-white rectangular luminous surface, with a dark gray border around its outside, and its right portion is occluded by a foreground vertical bar.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00038",
+      "statement": "In frame 81, the riveted metal wall panel is light gray to bluish gray and consists of large rectangular panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00039",
+      "statement": "In frame 81, the dark-colored metal ceiling consists of large panel surfaces and appears dark grayish-brown to olive green under the light.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00040",
+      "statement": "In frame 81, the visible portion of the metal ladder is dark gray and consists of parallel rungs and side rails.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00041",
+      "statement": "In frame 81, the hatch guardrail consists of thick dark gray angled bars, with supports on both sides and an upper connecting section visible, forming an overall angled arch-shaped outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00042",
+      "statement": "In frame 81, the hatch flange is a thick gray metal edge, with adjoining straight edges and a corner visible; only part of the opening is within the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00043",
+      "statement": "In frame 81, the riveted metal wall panel is light gray to bluish gray and consists of large rectangular panel surfaces; there are dark narrow gaps between the panels, dark rivet points are arranged near the seams, and layered narrow trim adjoins the upper edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00044",
+      "statement": "In frame 81, the dark-colored metal ceiling consists of large panel surfaces and appears dark grayish-brown to olive green under the light; intersecting seams are visible between the panel surfaces, and there are multiple parallel narrow trim strips at the junction with the wall panel on the left.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00045",
+      "statement": "In frame 81, the visible portion of the metal ladder is dark gray and consists of parallel rungs and side rails, with some bars cut off by the lower edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00046",
+      "statement": "In frame 81, the hatch guardrail consists of thick dark gray angled bars, with supports on both sides and an upper connecting section visible, forming an overall angled arch-shaped outline; the bars have straight edges, there is an opening in the middle, and part of the outline is occluded by foreground bars.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00047",
+      "statement": "In frame 81, the hatch flange is a thick gray metal edge, with adjoining straight edges and a corner visible, and only part of the opening is within the frame; the edge has a multilayered, stepped structure and bluish-green illuminated surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_restore00011",
+      "statement": "In frame 0, a small portion of the metal floor is exposed at the left edge of the image and is partially occluded by foreground metal ladder bars.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        34
+      ],
+      "subject_ids": [
+        "video28_e014",
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_restore00012",
+      "statement": "In frame 0, part of the metal ladder is located in the lower-left portion of the image and is cut off by the lower edge; the hatch flange is exposed around the ladder opening, part of the hatch guardrail is located on the left and overlaps the ladder rails, and the riveted metal wall panel is behind the ladder opening and on the right side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subject_ids": [
+        "video28_e018",
+        "video28_e019",
+        "video28_e026",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_restore00016",
+      "statement": "In frame 0, Weapon A is located in the lower-right foreground of the image, with its lower portion cut off by the lower edge of the image, and it occludes a small portion of the riveted metal wall panel behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00012",
+      "statement": "In frame 0, Weapon A is located in the lower-right foreground of the image and occludes a small amount of the riveted metal wall panel inside the ladder opening.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00048",
+      "statement": "In frame 0, part of the metal ladder is located in the lower-left portion of the image, and part of the hatch guardrail is exposed on the left; the hatch flange is around the ladder opening, the riveted metal wall panel is behind and to the right of these foreground structures, and the metal floor is only partially exposed at the left edge.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subject_ids": [
+        "video28_e018",
+        "video28_e019",
+        "video28_e026",
+        "video28_e013",
+        "video28_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_restore00014",
+      "statement": "In frame 81, the metal ladder extends upward from the lower portion of the image, with its side rails continuing out through the upper edge; the hatch flange spans the middle-lower portion of the image, and the hatch guardrail is above the flange and partially occludes the riveted metal wall panel behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e018",
+        "video28_e019",
+        "video28_e026",
+        "video28_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_restore00015",
+      "statement": "In frame 81, the wall surfaces are on the left and right sides of the image behind the hatch, and the ceiling is above and between the wall surfaces on both sides, adjoining their upper edges.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e015",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_restore00017",
+      "statement": "In frame 81, Weapon A is located in the lower-right foreground of the image, with its lower portion cut off by the lower edge of the image; the metal ladder and hatch guardrail are behind Weapon A, and Weapon A occludes part of the metal ladder.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e018",
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00013",
+      "statement": "In frame 81, Weapon A is located in the lower-right foreground of the image, and the metal ladder's rungs and side rails, as well as the hatch guardrail, are all behind Weapon A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e001",
+        "video28_e018",
+        "video28_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00049",
+      "statement": "In frame 81, the metal ladder rungs are located in the middle-lower portion of the image, and the long side rails extend upward along the center-right; the hatch flange spans the middle-lower portion, the hatch guardrail is above it and left of center, the riveted metal wall panels are distributed on both sides behind them, and the dark-colored metal ceiling is above and between the wall panels on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e018",
+        "video28_e019",
+        "video28_e026",
+        "video28_e013",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_r00005",
+      "statement": "In frame 0, the camera is near the edge of the hatch, adjacent to the wall panel, guardrail, and metal ladder extending downward.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e018",
+        "video28_e019",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00005",
+      "statement": "In frame 0, the camera is near the edge of the hatch, adjacent to the wall panel, guardrail, and metal ladder extending downward.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e018",
+        "video28_e019",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_r00006",
+      "statement": "In frame 81, the camera is below the hatch and close to the metal ladder, with the upper-level guardrail above the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e018",
+        "video28_e019",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00006",
+      "statement": "In frame 81, the camera is below the hatch and close to the metal ladder, with the upper-level guardrail above the camera.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e018",
+        "video28_e019",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_r00007",
+      "statement": "In frame 0, the camera points diagonally downward toward the metal wall panel and some ladder rungs inside the ladder opening.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00007",
+      "statement": "In frame 0, the camera points diagonally downward toward the metal wall panel and some ladder rungs inside the ladder opening.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_r00008",
+      "statement": "In frame 81, the camera points upward toward the hatch guardrail and the wall panels and ceiling above the opening.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e015",
+        "video28_e019",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00008",
+      "statement": "In frame 81, the camera points upward toward the hatch guardrail and the wall panels and ceiling above the opening.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 81,
+      "end_frame": 81,
+      "evidence_frames": [
+        81
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e015",
+        "video28_e019",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_r00017",
+      "statement": "From frames 45 to 81, the camera remains near the metal ladder, with no clearly discernible translation visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 45,
+      "end_frame": 81,
+      "evidence_frames": [
+        44,
+        45,
+        46,
+        50,
+        53,
+        55,
+        56,
+        57,
+        58,
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e018",
+        "video28_e019",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00017",
+      "statement": "From frames 45 to 81, the camera remains near the metal ladder, with no clearly discernible translation visible.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 45,
+      "end_frame": 81,
+      "evidence_frames": [
+        44,
+        45,
+        46,
+        50,
+        53,
+        55,
+        56,
+        57,
+        58,
+        80,
+        81
+      ],
+      "subject_ids": [
+        "video28_e013",
+        "video28_e018",
+        "video28_e019",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_r00010",
+      "statement": "From frames 22 to 40, relative to its initial orientation in frame 22, the camera turns left, bringing the ladder rungs originally on the left side of the image to the front.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 40,
+      "evidence_frames": [
+        21,
+        22,
+        23,
+        34,
+        35,
+        36,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "subject_ids": [
+        "video28_e018",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00010",
+      "statement": "From frames 22 to 40, relative to its initial orientation in frame 22, the camera turns left, bringing the ladder rungs originally on the left side of the image to the front.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 40,
+      "evidence_frames": [
+        21,
+        22,
+        23,
+        34,
+        35,
+        36,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "subject_ids": [
+        "video28_e018",
+        "video28_e026"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_r00011",
+      "statement": "From frames 35 to 55, relative to its orientation in frame 35, the camera gradually raises its line of sight, turning from the nearby metal ladder toward the hatch guardrail and dark-colored metal ceiling above.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 35,
+      "end_frame": 55,
+      "evidence_frames": [
+        34,
+        35,
+        36,
+        40,
+        44,
+        45,
+        46,
+        50,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "subject_ids": [
+        "video28_e018",
+        "video28_e019",
+        "video28_e026",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video28_cp005_r00011",
+      "statement": "From frames 35 to 55, relative to its orientation in frame 35, the camera gradually raises its line of sight, turning from the nearby metal ladder toward the hatch guardrail and dark-colored metal ceiling above.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 35,
+      "end_frame": 55,
+      "evidence_frames": [
+        34,
+        35,
+        36,
+        40,
+        44,
+        45,
+        46,
+        50,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "subject_ids": [
+        "video28_e018",
+        "video28_e019",
+        "video28_e026",
+        "video28_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video28_cp005_a031",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 81,
+      "evidence_frames": [
+        0,
+        11,
+        22,
+        35,
+        44,
+        55,
+        66,
+        81
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video28_cp005_a031",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 81,
+      "evidence_frames": [
+        0,
+        11,
+        22,
+        35,
+        44,
+        55,
+        66,
+        81
+      ],
+      "subject_ids": []
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    81
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "61dee2d66a00fa2eed894aa2b3829cab5d7fd1d29248e23db966dd1f8caea1d5"
+}

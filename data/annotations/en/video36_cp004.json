@@ -1,0 +1,744 @@
+{
+  "clip_id": "video36_cp004",
+  "video_id": "video36",
+  "fps": 23.912,
+  "start_frame": 0,
+  "end_frame": 28,
+  "source_frame_offset": 109,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video36_e001",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 9,
+      "identification": "A person with auburn hair styled in a low bun, bare shoulders, and wrapped in a white bath towel; in the later segment, both the direct image and the mirror reflection appear simultaneously."
+    },
+    {
+      "source_entity_id": "video36_e002",
+      "name": "Person B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A person with long, dark, curly hair, wearing a bright red sleeveless V-neck outfit, positioned in front of the doorway at the beginning of the clip."
+    },
+    {
+      "source_entity_id": "video36_e003",
+      "name": "large wall mirror",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A large rectangular mirror surface on the wall, reflecting Person A and the pink background."
+    },
+    {
+      "source_entity_id": "video36_e004",
+      "name": "dark brick wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The source ID covers the narrow dark brick edge to the right of the doorway at the beginning of the clip, as well as the dark green square-tiled areas beside and below the mirror in the later segment."
+    },
+    {
+      "source_entity_id": "video36_e005",
+      "name": "pink wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A large expanse of pink wall in the bathroom, with a fine surface texture discernible at the beginning of the clip."
+    },
+    {
+      "source_entity_id": "video36_e006",
+      "name": "doorway and back room",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A doorway with light-colored trim, the adjacent blue area, and the purplish-gray interior and small warm-colored light visible behind the doorway."
+    },
+    {
+      "source_entity_id": "video36_e007",
+      "name": "dark counter area along the wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark counter area extending along the wall at the lower right in the later segment, with blue-and-white bottles and jars and a blue-rimmed oval small mirror."
+    },
+    {
+      "source_entity_id": "video36_e008",
+      "name": "wall shelf for folded towels",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A narrow blue wall shelf partially visible at the left edge at the beginning of the clip, with light-colored, pink, and yellow towel-like fabrics folded and stacked on top."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video36_cp004_restore00008",
+      "statement": "In frame 0, 1 physical person is visible: Person B.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a006",
+      "statement": "Person B is visible in frame 0.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a007",
+      "statement": "In frame 0, the narrow edge of the dark brick wall, the pink wall, the doorway and back room, and the wall shelf for folded towels partially entering the frame at the left edge are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_restore00011",
+      "statement": "In frame 28, 1 physical person is visible: Person A; the mirror reflection is of the same Person A.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a016",
+      "statement": "Person A is visible in frame 28.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a017",
+      "statement": "In frame 28, the large wall mirror, dark brick wall, pink wall, and dark counter area along the wall are visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e003",
+        "video36_e004",
+        "video36_e005",
+        "video36_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a008",
+      "statement": "In frame 0, Person B has long, dark, curly hair and wears a bright red sleeveless outfit with a deep V-neck; the visible upper-body silhouette is relatively form-fitting.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a009",
+      "statement": "In frame 0, Person B has long, dark, curly hair, with relatively large waves falling past the shoulders; the bright red sleeveless outfit fits closely over the visible upper body, the deep V-shaped neckline exposes the upper chest, and the shoulders and arms are bare.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a010",
+      "statement": "In frame 0, the dark brick wall is visible only as a narrow dark strip with light-colored horizontal joints; the pink wall appears as a large pink expanse; the doorway and back room include a blue doorway area, light-colored door trim, and a purplish-gray interior behind it; the wall shelf for folded towels shows a narrow blue shelf surface and portions of multiple layers of folded towels.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a011",
+      "statement": "In frame 0, the dark brick wall is visible only as a vertical narrow dark strip with several light-colored horizontal joints; the pink wall covers a relatively large area, with a fine surface texture discernible, and part of a black rectangular area is exposed along its lower edge; the doorway and back room show light-colored door trim, a blue area, and the purplish-gray interior behind, with vertical lines and a small warm-colored light inside the doorway; the wall shelf for folded towels exposes a narrow blue shelf surface, while the folded edges of the light-colored, pink, and yellow towels above form horizontal layers.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a018",
+      "statement": "In frame 28, Person A has auburn hair in a low bun, bare shoulders, and is wrapped in a white strapless bath towel; the shape of the bath towel around the upper body is visible in the mirror reflection.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a019",
+      "statement": "In frame 28, Person A has auburn hair styled in a low bun at the back of the head, with diagonal strands beside the forehead; the shoulders are bare, and a white strapless bath towel wraps around the torso, with the towel's upper edge and folds below visible in the mirror; there are bright highlights on the shoulder and neck surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a020",
+      "statement": "In frame 28, the large wall mirror is a large rectangular mirror surface; the dark brick wall consists of dark green square tiles and light-colored grout lines, with a black horizontal trim band adjoining its lower section; the pink wall forms a large pink background; in the dark counter area along the wall, the dark counter surface, adjacent green-tiled surface, bottles and jars, and blue-rimmed oval small mirror are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e003",
+        "video36_e004",
+        "video36_e005",
+        "video36_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a021",
+      "statement": "In frame 28, the large wall mirror is a large rectangular mirror surface with straight edges, reflecting Person A and the pink background, with the image in the mirror appearing relatively soft; the dark brick wall consists of dark green square tiles and thin light-colored joints forming a regular grid, with a black horizontal trim band adjoining its lower section; the pink wall forms a large background on the right; in the dark counter area along the wall, the dark counter extending along the wall, the adjacent green-tiled surface, blue-and-white bottles and jars, and a blue-rimmed oval small mirror with a thin support are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e003",
+        "video36_e004",
+        "video36_e005",
+        "video36_e007",
+        "video36_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_restore00009",
+      "statement": "In frame 0, Person B is on the left side of the image, in front of the doorway and back room, facing the interior side where the camera is located.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_restore00010",
+      "statement": "In frame 0, the doorway and back room are slightly right of center, with the back room visible through the doorway; only a narrow strip of the dark brick wall is exposed on the image-right side of the doorway, and the pink wall extends from the right of the narrow strip to the right edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e006",
+        "video36_e004",
+        "video36_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a012",
+      "statement": "In frame 0, Person B is on the left side of the image, in front of the doorway and back room, facing the bathroom interior side where the camera is located.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a013",
+      "statement": "In frame 0, the wall shelf for folded towels is partially located on the pink wall at the left edge of the image; the doorway and back room are slightly right of center, the narrow edge of the dark brick wall is on the image-right side of the doorway, and the pink wall continues to the right of the narrow edge, extending to the right edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e004",
+        "video36_e005",
+        "video36_e006",
+        "video36_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_restore00012",
+      "statement": "In frame 28, Person A is in the foreground slightly right of center, with the head facing toward the camera; the reflection of the same Person A is inside the large wall mirror on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001",
+        "video36_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_restore00013",
+      "statement": "In frame 28, the large wall mirror is in the left half of the image, and the dark brick wall is distributed along the image-right side and below the mirror surface; the pink wall is in the background on the right, and the dark counter area along the wall extends below it to the right edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e003",
+        "video36_e004",
+        "video36_e005",
+        "video36_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a022",
+      "statement": "In frame 28, Person A is in the foreground slightly right of center, with the head facing toward the camera; the reflection of the same Person A appears in the large wall mirror on the left, showing the side and back of the head and the towel-wrapped torso.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001",
+        "video36_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a023",
+      "statement": "In frame 28, the large wall mirror occupies the left half of the image, with the dark brick wall adjoining its right side and lower edge; the pink wall is in the background on the right, and the dark counter area along the wall is at the lower right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e003",
+        "video36_e004",
+        "video36_e005",
+        "video36_e007"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_a004",
+      "statement": "In frame 0, the camera is inside the bathroom, in front of the doorway, facing the doorway side where Person B is located.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a004",
+      "statement": "In frame 0, the camera is inside the bathroom, in front of the doorway, facing the doorway side where Person B is located.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_a014",
+      "statement": "In frame 28, the camera is indoors in front of the large wall mirror, on Person A's side, capturing Person A and the mirror surface at close range.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001",
+        "video36_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a014",
+      "statement": "In frame 28, the camera is indoors in front of the large wall mirror, on Person A's side, capturing Person A and the mirror surface at close range.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001",
+        "video36_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_a005",
+      "statement": "In frame 0, the camera faces Person B in front of the doorway, while the image also includes the doorway and back room.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a005",
+      "statement": "In frame 0, the camera faces Person B in front of the doorway, while the image also includes the doorway and back room.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video36_e002",
+        "video36_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_a015",
+      "statement": "In frame 28, the camera faces Person A and the large wall mirror to the side and rear of Person A.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001",
+        "video36_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a015",
+      "statement": "In frame 28, the camera faces Person A and the large wall mirror to the side and rear of Person A.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 28,
+      "end_frame": 28,
+      "evidence_frames": [
+        28
+      ],
+      "subject_ids": [
+        "video36_e001",
+        "video36_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_a001",
+      "statement": "From frames 0 through 28, the camera pans right, while the stationary wall and doorframe continuously move or exit toward the image-left side.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 28,
+      "evidence_frames": [
+        0,
+        4,
+        8,
+        12,
+        18,
+        24,
+        28
+      ],
+      "subject_ids": [
+        "video36_e005",
+        "video36_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a001",
+      "statement": "From frames 0 through 28, the camera pans right, while the stationary wall and doorframe continuously move or exit toward the image-left side.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 28,
+      "evidence_frames": [
+        0,
+        4,
+        8,
+        12,
+        18,
+        24,
+        28
+      ],
+      "subject_ids": [
+        "video36_e005",
+        "video36_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video36_cp004_a024",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 28,
+      "evidence_frames": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video36_cp004_a024",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 28,
+      "evidence_frames": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video36_cp004_a003",
+      "statement": "From frames 12 through 28, after entering the frame, Person A maintains a pose of looking back toward the camera.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 12,
+      "end_frame": 28,
+      "evidence_frames": [
+        12,
+        13,
+        14,
+        18,
+        19,
+        27,
+        28
+      ],
+      "subject_ids": [
+        "video36_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video36_cp004_a003",
+      "statement": "From frames 12 through 28, after entering the frame, Person A maintains a pose of looking back toward the camera.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 12,
+      "end_frame": 28,
+      "evidence_frames": [
+        12,
+        13,
+        14,
+        18,
+        19,
+        27,
+        28
+      ],
+      "subject_ids": [
+        "video36_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    28
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "a3c2c95e7d4b7a3a5231c1a4634dfaa539ab7cdb6c5b558aefa461134d54551d"
+}

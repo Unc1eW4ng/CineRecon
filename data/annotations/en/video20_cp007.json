@@ -1,0 +1,1199 @@
+{
+  "clip_id": "video20_cp007",
+  "video_id": "video20",
+  "fps": 60.0,
+  "start_frame": 0,
+  "end_frame": 111,
+  "source_frame_offset": 650,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video20_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A large dark firearm that remains at the lower center of the frame, with a forward-projecting barrel, plate-like components, and wide, curved, ribbed strip-like components on both sides."
+    },
+    {
+      "source_entity_id": "video20_e002",
+      "name": "Snow-Covered Rocky Battlefield",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A ground surface composed of dark rock fragments, undulating rock platforms, crevices, and discontinuous white snow cover."
+    },
+    {
+      "source_entity_id": "video20_e003",
+      "name": "Upper Smoke-Cloud Background",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark blue-gray background above the terrain, along with light and dark gray smoke clouds."
+    },
+    {
+      "source_entity_id": "video20_e004",
+      "name": "Explosion and Smoke-Dust",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The collection of bright explosions, sparks, flying debris, and smoke-dust effects that repeatedly appear on the battlefield."
+    },
+    {
+      "source_entity_id": "video20_e005",
+      "name": "Red-Glowing Mechanical Group",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A group of dark bipedal mechanical humanoids in the midground and background, with red glowing areas on their upper bodies."
+    },
+    {
+      "source_entity_id": "video20_e008",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 70,
+      "first_appearance_rule": "first_identifiable_visible_part",
+      "identification": "The dark-armored, gun-carrying person who gradually becomes visible from the left edge in the latter part, wearing a helmet, with a vertical yellow stripe along the waist and leg, and a square attachment on the back."
+    },
+    {
+      "source_entity_id": "video20_e009",
+      "name": "Light-Colored Metal Wreckage",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The bent, tilted, segmented metal structure in the smoke in front of and to the right of Weapon A at frame 0."
+    },
+    {
+      "source_entity_id": "video20_e010",
+      "name": "Distant Jagged Rock Pile",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A dark, elevated rock formation in the background with an irregular, stepped edge."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video20_cp007_restore00019",
+      "statement": "At frame 0, there is one Weapon A in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a006",
+      "statement": "At frame 0, Weapon A is clearly visible in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a010",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield covers the middle and lower parts of the frame, and the Upper Smoke-Cloud Background covers the upper background.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a014",
+      "statement": "At frame 0, the Light-Colored Metal Wreckage appears in the middle foreground on the right side of the frame, in a bent, tilted posture.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video20_e009"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00021",
+      "statement": "At frame 78, there is one main Explosion and Smoke-Dust area at the center of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00020",
+      "statement": "At frame 111, there is one Weapon A in the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a020",
+      "statement": "At frame 111, Weapon A is clearly visible in the lower part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a024",
+      "statement": "At frame 111, the Snow-Covered Rocky Battlefield covers the middle and lower parts of the frame, and the Upper Smoke-Cloud Background covers the upper background.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a028",
+      "statement": "At frame 111, Person A is in the midground on the left side of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e008",
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a032",
+      "statement": "At frame 111, at least one member of the Red-Glowing Mechanical Group is clearly visible in the midground left of center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e005",
+        "video20_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a036",
+      "statement": "At frame 111, the Distant Jagged Rock Pile is in the background left of center.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a007",
+      "statement": "At frame 0, Weapon A has a large dark gray-black mechanical gun body, a forward-projecting barrel, and wide strip-like components curving outward on both sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a008",
+      "statement": "At frame 0, Weapon A has a large dark gray-black mechanical gun body, a forward-projecting barrel, and wide strip-like components curving outward on both sides; segmented armor plates and transverse seams are discernible on the gun body, and the surfaces of the curved components on both sides have repeated ribbing.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a011",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield consists of dark rock fragments, undulating rock platforms, and patches of white snow; the Upper Smoke-Cloud Background is dark blue-gray, interspersed with light and dark gray smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a012",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield consists of dark rock fragments, undulating rock platforms, and patches of white snow, with layered fractured rock surfaces, dark crevices, and irregular snow edges discernible; the Upper Smoke-Cloud Background is dark blue-gray, with light and dark gray smoke forming overlapping masses.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a015",
+      "statement": "At frame 0, the Light-Colored Metal Wreckage is a light gray-white segmented mechanical structure, bent and tilted overall, with white smoke around it.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a016",
+      "statement": "At frame 0, the Light-Colored Metal Wreckage is a light gray-white segmented mechanical structure, bent and tilted overall, with white smoke around it; a plate-like outer shell, narrower connecting sections, and bright edges are discernible, while smoke along its lower portion obscures part of its outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a021",
+      "statement": "At frame 111, Weapon A has a large dark gray-black mechanical gun body, a forward-projecting barrel, and wide strip-like components curving outward on both sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a022",
+      "statement": "At frame 111, Weapon A has a large dark gray-black mechanical gun body, a forward-projecting barrel, and wide strip-like components curving outward on both sides; segmented armor plates and transverse seams are discernible on the upper part of the gun body, the curved components on both sides are ribbed, and there is a bright muzzle flash at the front end.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a025",
+      "statement": "At frame 111, the Snow-Covered Rocky Battlefield consists of dark rock fragments, undulating rock platforms, and patches of white snow; the Upper Smoke-Cloud Background is dark blue-gray, interspersed with light and dark gray smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a026",
+      "statement": "At frame 111, the Snow-Covered Rocky Battlefield consists of dark rock fragments, undulating rock platforms, and patches of white snow, with layered rock surfaces, dark crevices, and irregular snow edges discernible; the Upper Smoke-Cloud Background is dark blue-gray, with gray-white smoke masses overlapping darker smoke.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a029",
+      "statement": "At frame 111, Person A wears dark armor and a helmet, holds a long gun raised in both hands, and has a conspicuous vertical yellow stripe along the waist and leg.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a030",
+      "statement": "At frame 111, Person A wears dark armor and a helmet, holds a long gun raised in both hands, and has a conspicuous vertical yellow stripe along the waist and leg; a rounded helmet, relatively broad shoulders, a square attachment on the back, and a forward-projecting barrel are discernible, and there is also a small yellow marking on the upper part of the back attachment.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a033",
+      "statement": "At frame 111, the visible member of the Red-Glowing Mechanical Group left of center is a dark bipedal mechanical humanoid, with two conspicuous red glowing strips arranged vertically on its upper body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a034",
+      "statement": "At frame 111, the visible member of the Red-Glowing Mechanical Group left of center is a dark bipedal mechanical humanoid, with two conspicuous red glowing strips arranged vertically on its upper body; its body leans slightly forward, its legs are spread apart, and downward-extending limb outlines are visible on both sides of its torso.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a037",
+      "statement": "At frame 111, the Distant Jagged Rock Pile is a dark, elevated rock formation with an irregular stepped and jagged outline.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a038",
+      "statement": "At frame 111, the Distant Jagged Rock Pile is a dark, elevated rock formation with an irregular stepped and jagged outline; there is a short, relatively flat edge at the top, and the outer contours on both sides form multiple tiers of block-like steps.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00010",
+      "statement": "At frame 0, Weapon A occupies the lower center of the frame, extends partly beyond the bottom edge, occludes part of the nearby Snow-Covered Rocky Battlefield, and points toward the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00011",
+      "statement": "At frame 0, the Snow-Covered Rocky Battlefield extends from the foreground in the lower part of the frame to the distant slope in the middle, the Upper Smoke-Cloud Background is above the ground surface, and the distant terrain boundary is partially obscured by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00012",
+      "statement": "At frame 0, the Light-Colored Metal Wreckage is in the middle foreground in front of and to the right of Weapon A, close to the surface of the Snow-Covered Rocky Battlefield; smoke from the Explosion and Smoke-Dust surrounds its lower portion and the area around it, obscuring part of the ground surface and the wreckage's lower end.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video20_e009",
+        "video20_e001",
+        "video20_e002",
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a009",
+      "statement": "At frame 0, Weapon A is in the foreground in the lower part of the frame, occludes part of the Snow-Covered Rocky Battlefield, and points toward the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a013",
+      "statement": "At frame 0, the Upper Smoke-Cloud Background is above the Snow-Covered Rocky Battlefield, and the upper edge of the distant slope is partially obscured by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a017",
+      "statement": "At frame 0, the Light-Colored Metal Wreckage is in front of and to the right of Weapon A, close to the surface of the Snow-Covered Rocky Battlefield, and its lower end is partially occluded by smoke and Weapon A.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1,
+        2
+      ],
+      "subject_ids": [
+        "video20_e009",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00018",
+      "statement": "At frame 78, the main Explosion and Smoke-Dust is in the central midground, in front of Weapon A, occupying the space above the surface of the Snow-Covered Rocky Battlefield and obscuring part of the terrain behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 78,
+      "end_frame": 78,
+      "evidence_frames": [
+        78
+      ],
+      "subject_ids": [
+        "video20_e004",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00013",
+      "statement": "At frame 111, Weapon A occupies the lower center of the frame, extends partly beyond the bottom edge, occludes part of the nearby Snow-Covered Rocky Battlefield, and points toward the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00014",
+      "statement": "At frame 111, the Snow-Covered Rocky Battlefield extends from the foreground in the lower part of the frame to the distant terrain in the middle, the Upper Smoke-Cloud Background is above the ground surface, and the distant terrain boundary is partially obscured by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00015",
+      "statement": "At frame 111, Person A is on the surface of the Snow-Covered Rocky Battlefield on the left side of the frame, in front of and to the left of Weapon A, holding a long gun raised in both hands and pointing it toward the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e008",
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00016",
+      "statement": "At frame 111, one clearly discernible member of the Red-Glowing Mechanical Group is in the midground left of center, in front of Weapon A, to the image-right of Person A, and farther away.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e005",
+        "video20_e001",
+        "video20_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_restore00017",
+      "statement": "At frame 111, the Distant Jagged Rock Pile is left of center in the frame, behind the visible member of the Red-Glowing Mechanical Group, protrudes upward from the surface of the Snow-Covered Rocky Battlefield, and occludes part of the Upper Smoke-Cloud Background behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e010",
+        "video20_e005",
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a023",
+      "statement": "At frame 111, Weapon A is in the foreground in the lower part of the frame, occludes part of the Snow-Covered Rocky Battlefield, and points toward the middle of the frame.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a027",
+      "statement": "At frame 111, the Upper Smoke-Cloud Background is above the Snow-Covered Rocky Battlefield, and the upper edge of the distant terrain is partially obscured by smoke.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a031",
+      "statement": "At frame 111, Person A is on the surface of the Snow-Covered Rocky Battlefield in front of and to the left of Weapon A, with the long gun pointing toward the central midground, in the direction of the Red-Glowing Mechanical Group.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e008",
+        "video20_e001",
+        "video20_e002",
+        "video20_e005"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a035",
+      "statement": "At frame 111, the member of the Red-Glowing Mechanical Group left of center is in front of Weapon A, to the image-right of Person A, on the more distant surface of the Snow-Covered Rocky Battlefield.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e005",
+        "video20_e001",
+        "video20_e008",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a039",
+      "statement": "At frame 111, the Distant Jagged Rock Pile is behind the visible member of the Red-Glowing Mechanical Group, rises from the surface of the Snow-Covered Rocky Battlefield, and its upper edge occludes part of the Upper Smoke-Cloud Background.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e010",
+        "video20_e005",
+        "video20_e002",
+        "video20_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_a004",
+      "statement": "At frame 0, the camera is behind Weapon A and above the surface of the Snow-Covered Rocky Battlefield, looking over Weapon A toward the terrain ahead; Weapon A occupies the lower part of the frame.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a004",
+      "statement": "At frame 0, the camera is behind Weapon A and above the surface of the Snow-Covered Rocky Battlefield, looking over Weapon A toward the terrain ahead; Weapon A occupies the lower part of the frame.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_a018",
+      "statement": "At frame 111, the camera is behind Weapon A and above the surface of the Snow-Covered Rocky Battlefield, looking over Weapon A toward the terrain ahead; Weapon A occupies the lower part of the frame.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a018",
+      "statement": "At frame 111, the camera is behind Weapon A and above the surface of the Snow-Covered Rocky Battlefield, looking over Weapon A toward the terrain ahead; Weapon A occupies the lower part of the frame.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e001",
+        "video20_e002"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_a005",
+      "statement": "At frame 0, the camera is aimed toward the Explosion and Smoke-Dust area at the center of the Snow-Covered Rocky Battlefield, where smoke and flying debris are visible.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a005",
+      "statement": "At frame 0, the camera is aimed toward the Explosion and Smoke-Dust area at the center of the Snow-Covered Rocky Battlefield, where smoke and flying debris are visible.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e004"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_a019",
+      "statement": "At frame 111, the camera is aimed toward the battlefield in the central midground; one member of the Red-Glowing Mechanical Group is left of center in the field of view, and smoke and sparks from the Explosion and Smoke-Dust are visible to its right.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e005",
+        "video20_e004",
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a019",
+      "statement": "At frame 111, the camera is aimed toward the battlefield in the central midground; one member of the Red-Glowing Mechanical Group is left of center in the field of view, and smoke and sparks from the Explosion and Smoke-Dust are visible to its right.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 111,
+      "end_frame": 111,
+      "evidence_frames": [
+        111
+      ],
+      "subject_ids": [
+        "video20_e005",
+        "video20_e004",
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_a002",
+      "statement": "From frames 0 to 111, the camera generally rotates left relative to the Snow-Covered Rocky Battlefield; the leftward rotation is more pronounced in the early and final portions, while the change in orientation is smaller in the middle portion and accompanied by slight shaking.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 111,
+      "evidence_frames": [
+        0,
+        14,
+        15,
+        16,
+        24,
+        42,
+        55,
+        107,
+        110,
+        111
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e010"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a002",
+      "statement": "From frames 0 to 111, the camera generally rotates left relative to the Snow-Covered Rocky Battlefield; the leftward rotation is more pronounced in the early and final portions, while the change in orientation is smaller in the middle portion and accompanied by slight shaking.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 111,
+      "evidence_frames": [
+        0,
+        14,
+        15,
+        16,
+        24,
+        42,
+        55,
+        107,
+        110,
+        111
+      ],
+      "subject_ids": [
+        "video20_e002",
+        "video20_e010"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_a040",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 111,
+      "evidence_frames": [
+        0,
+        24,
+        55,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        107,
+        110,
+        111
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video20_cp007_a040",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 111,
+      "evidence_frames": [
+        0,
+        24,
+        55,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        107,
+        110,
+        111
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video20_cp007_a041",
+      "statement": "From frames 72 to 111, Person A gradually moves rightward into the frame from the left edge, revealing more of the body while holding a gun pointed toward the central battlefield; by frame 111, Person A is in front of and to the left of Weapon A.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 72,
+      "end_frame": 111,
+      "evidence_frames": [
+        70,
+        71,
+        72,
+        73,
+        78,
+        92,
+        107,
+        110,
+        111
+      ],
+      "subject_ids": [
+        "video20_e008",
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a041",
+      "statement": "From frames 72 to 111, Person A gradually moves rightward into the frame from the left edge, revealing more of the body while holding a gun pointed toward the central battlefield; by frame 111, Person A is in front of and to the left of Weapon A.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 72,
+      "end_frame": 111,
+      "evidence_frames": [
+        70,
+        71,
+        72,
+        73,
+        78,
+        92,
+        107,
+        110,
+        111
+      ],
+      "subject_ids": [
+        "video20_e008",
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video20_cp007_a042",
+      "statement": "From frames 0 to 111, Weapon A fires multiple times; white or yellow-white sparks, orange explosions, spreading smoke-dust, and Red Glowing Projectile Trajectories streaking across the frame repeatedly appear on the battlefield.",
+      "category": "action_event",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 111,
+      "evidence_frames": [
+        6,
+        24,
+        43,
+        65,
+        72,
+        74,
+        75,
+        76,
+        77,
+        78,
+        92,
+        107,
+        111
+      ],
+      "subject_ids": [
+        "video20_e004",
+        "video20_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video20_cp007_a042",
+      "statement": "From frames 0 to 111, Weapon A fires multiple times; white or yellow-white sparks, orange explosions, spreading smoke-dust, and Red Glowing Projectile Trajectories streaking across the frame repeatedly appear on the battlefield.",
+      "category": "action_event",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 111,
+      "evidence_frames": [
+        6,
+        24,
+        43,
+        65,
+        72,
+        74,
+        75,
+        76,
+        77,
+        78,
+        92,
+        107,
+        111
+      ],
+      "subject_ids": [
+        "video20_e004",
+        "video20_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    111
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "99607015e8be9396af277fb27aebe60121d44d25fbb49c9f4452f55e555a9a9f"
+}

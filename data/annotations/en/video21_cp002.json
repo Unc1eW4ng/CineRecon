@@ -1,0 +1,2405 @@
+{
+  "clip_id": "video21_cp002",
+  "video_id": "video21",
+  "fps": 24.0,
+  "start_frame": 0,
+  "end_frame": 22,
+  "source_frame_offset": 74,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video21_e001",
+      "name": "Weapon A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A black-and-gray long gun that sways with the viewpoint along the bottom edge of the frame; in the final frame, only part of the front end and front sight is visible."
+    },
+    {
+      "source_entity_id": "video21_e002",
+      "name": "damp, debris-strewn corridor floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark floor extending into the distance between the walls on both sides, with reflections from standing water and debris on it."
+    },
+    {
+      "source_entity_id": "video21_e003",
+      "name": "peeling two-tone corridor wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The corridor walls on both sides, light-colored above and dark-colored below, with a conspicuous irregular peeling area on the right."
+    },
+    {
+      "source_entity_id": "video21_e006",
+      "name": "light-colored narrow windowed door on the right wall",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dirty, worn, light beige door nearby on the right wall; a vertical narrow window is visible in the early portion, while only the left part of the door panel is visible in the final frame."
+    },
+    {
+      "source_entity_id": "video21_e007",
+      "name": "group of wooden pallets on the right",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The group of brown pallets beside the door on the right wall; one leans diagonally against the wall, while another lies flat on the floor to its left."
+    },
+    {
+      "source_entity_id": "video21_e008",
+      "name": "open doorway at the far end of the corridor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The rectangular doorway in the distance along the corridor; a dark door panel on the left obscures part of the entrance, while the remaining opening reveals a brighter space."
+    },
+    {
+      "source_entity_id": "video21_e009",
+      "name": "square wall light at the far end",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The small, bright white wall light on the wall above and to the left of the far doorway; its illuminated face is a nearly square rectangle."
+    },
+    {
+      "source_entity_id": "video21_e012",
+      "name": "damaged suspended ceiling",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The light gray paneled suspended ceiling above, with openings from missing panels and bent, drooping panel pieces."
+    },
+    {
+      "source_entity_id": "video21_e013",
+      "name": "exposed corridor piping",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Long pipes of varying thicknesses along the ceiling and upper right wall, including thick gray and rust-red pipes and thin pipes that turn along the wall."
+    },
+    {
+      "source_entity_id": "video21_e014",
+      "name": "hanging corridor cables",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Thin black lines along the upper right wall and near the damaged ceiling in the distance, including a nearby long, narrow U-shaped hanging section."
+    },
+    {
+      "source_entity_id": "video21_e015",
+      "name": "window on the left",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The bright window partially visible at the far left in the first frame, most of which is outside the frame."
+    },
+    {
+      "source_entity_id": "video21_e016",
+      "name": "gray radiator below the window",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray multi-section heating fixture partially visible below the window on the left."
+    },
+    {
+      "source_entity_id": "video21_e017",
+      "name": "scattered corridor debris",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Light gray broken panels, long thin strips, and irregular fragments on the floor, densely concentrated nearby and in front of the doorway."
+    },
+    {
+      "source_entity_id": "video21_e018",
+      "name": "standing water on the corridor floor",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "Irregular areas of standing water on the dark floor, with elongated and fragmented bright patches."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video21_cp002_restore00009",
+      "statement": "In frame 0, Weapon A is visible along the bottom edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a004",
+      "statement": "In frame 0, Weapon A is visible at the bottom center of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a008",
+      "statement": "In frame 0, the damp, debris-strewn corridor floor is visible in the lower half of the frame and leads into the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a012",
+      "statement": "In frame 0, the peeling two-tone corridor wall is visible on the image-left and image-right sides of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a020",
+      "statement": "In frame 0, the light-colored narrow windowed door on the right wall is visible on the image-right side of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a024",
+      "statement": "In frame 0, the group of wooden pallets on the right is visible at the lower right of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a028",
+      "statement": "In frame 0, the open doorway at the far end of the corridor is visible at the center of the frame in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00004",
+      "statement": "In frame 0, the damaged suspended ceiling is at the top of the frame, with multiple panels and gaps visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00005",
+      "statement": "In frame 0, the exposed corridor piping is at the upper right and top of the frame, with thick and thin pipes visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00006",
+      "statement": "In frame 0, the hanging corridor cables are at the upper right of the frame, with thin black hanging lines visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00025",
+      "statement": "In frame 0, patches of scattered corridor debris are visible across the lower half of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00029",
+      "statement": "In frame 0, standing water on the corridor floor is visible from the bottom to the middle of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00041",
+      "statement": "In frame 0, the window on the left is partially visible at the far left of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video21_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00044",
+      "statement": "In frame 0, the gray radiator below the window is partially visible toward the lower far left of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video21_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00017",
+      "statement": "In frame 22, part of the front end of Weapon A is visible along the bottom edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a034",
+      "statement": "In frame 22, part of the front end of Weapon A is visible slightly right of center along the bottom edge of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a038",
+      "statement": "In frame 22, the damp, debris-strewn corridor floor is visible in the lower half of the frame and leads into the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a042",
+      "statement": "In frame 22, the peeling two-tone corridor wall is visible on the image-left and image-right sides of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a050",
+      "statement": "In frame 22, the light-colored narrow windowed door on the right wall is visible at the far right of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a054",
+      "statement": "In frame 22, the group of wooden pallets on the right is visible at the lower right of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a058",
+      "statement": "In frame 22, the open doorway at the far end of the corridor is visible slightly left of center in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a062",
+      "statement": "In frame 22, the square wall light at the far end is visible at the upper left in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00007",
+      "statement": "In frame 22, the damaged suspended ceiling is at the top of the frame, with multiple panels and gaps visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00008",
+      "statement": "In frame 22, the exposed corridor piping is at the upper right and top of the frame, with thick and thin pipes visible.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00009",
+      "statement": "In frame 22, the hanging corridor cables are visible in the middle distance in the upper part of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00033",
+      "statement": "In frame 22, patches of scattered corridor debris are visible across the lower half of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00037",
+      "statement": "In frame 22, standing water on the corridor floor is visible from the bottom to the middle of the frame.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a005",
+      "statement": "In frame 0, Weapon A is a black-and-gray long gun; its slender front outline and raised front sight are visible, and its front end projects into the depth of the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a006",
+      "statement": "In frame 0, Weapon A is a black-and-gray long gun; its slender front portion projecting into the depth of the frame, raised front sight, and brighter edges on both sides of the front portion are visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a009",
+      "statement": "In frame 0, the damp, debris-strewn corridor floor is dark-colored and damp, with large light-colored broken panels and fragments scattered across it.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a010",
+      "statement": "In frame 0, the damp, debris-strewn corridor floor is dark and damp, with irregular reflections from puddles on its surface and light gray broken panels, long thin strips, and angular fragments of varying sizes scattered across it.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a013",
+      "statement": "In frame 0, the peeling two-tone corridor wall is light gray above and a darker gray-green below, with large irregular areas of surface peeling.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a014",
+      "statement": "In frame 0, the peeling two-tone corridor wall is light gray above and dark gray-green below; the edges of the large peeling areas are jagged, locally exposing a mottled, rough underlying layer with dark stains. The wall on the left is darker, with localized reflections in the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a021",
+      "statement": "In frame 0, the light-colored narrow windowed door on the right wall is dirty, worn, and light beige, with a long, narrow vertical rectangular window set into the door panel.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a022",
+      "statement": "In frame 0, the light-colored narrow windowed door on the right wall is dirty, worn, and light beige, with a dim, long, narrow vertical rectangular window set into the door panel; its surface has mottled stains, and the upper edge of the doorframe forms a light brownish-gray strip.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a025",
+      "statement": "In frame 0, the group of wooden pallets on the right is brown and has a rectangular slatted structure; one pallet leans diagonally against the wall, while another lies flat at a lower level.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a026",
+      "statement": "In frame 0, the group of wooden pallets on the right has a brown rectangular slatted structure; one pallet leans diagonally against the wall and one lies flat. Parallel wooden slats, horizontal supports, and gaps between the slats are visible, and the side of the flat pallet has a thicker supporting section.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a029",
+      "statement": "In frame 0, the open doorway at the far end of the corridor is a dark rectangular opening; a dark door panel on the left obscures part of the entrance, and the space behind it is brighter.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a030",
+      "statement": "In frame 0, the open doorway at the far end of the corridor appears as a dark rectangle; a dark door panel on the left obscures part of the entrance, while the remaining opening reveals the brighter space behind it. The horizontal upper edge and vertical edge are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00010",
+      "statement": "In frame 0, the damaged suspended ceiling is a joined structure of light gray panels, with panels missing in multiple places and some panels folded downward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00011",
+      "statement": "In frame 0, the exposed corridor piping varies in thickness, with long gray and rust-red pipes extending roughly parallel to one another.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00012",
+      "statement": "In frame 0, the hanging corridor cables are thin and black, and one section hangs downward in a relatively long curved loop.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00013",
+      "statement": "In frame 0, the damaged suspended ceiling is a joined structure of light gray panels, with multiple rectangular gaps, narrow support strips, and panels folded downward; dense small holes are visible in the nearby panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00014",
+      "statement": "In frame 0, among the exposed corridor piping, thicker gray and rust-red pipes and several thin pipes extend parallel into the distance; the thin pipes on the right wall have right-angle turns and fixed support points.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00015",
+      "statement": "In frame 0, the hanging corridor cables are thin and black and run along the upper part of the right wall; one nearby section hangs in a long, narrow U shape, with both sides extending upward to the piping area on the upper wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00026",
+      "statement": "In frame 0, the scattered corridor debris is mainly light gray and includes large broken panels, long thin strips, and fragments of varying sizes.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00027",
+      "statement": "In frame 0, the scattered corridor debris is mainly light gray; large broken panels and long thin strips overlap in an interlaced arrangement and have irregular broken edges, with angular fragments of varying sizes and fine debris scattered around them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00030",
+      "statement": "In frame 0, the standing water on the corridor floor is dark gray-black, with bright reflections distributed across the water surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00031",
+      "statement": "In frame 0, the standing water on the corridor floor is dark gray-black, with visibly irregular edges; long, narrow and fragmented bright patches appear on the water surface, with bright and dark areas interspersed.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00042",
+      "statement": "In frame 0, only a bright, narrow vertical strip of the window on the left is visible, with the vast majority of the window outside the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video21_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00043",
+      "statement": "In frame 0, most of the window on the left extends beyond the image-left boundary, leaving a bright, narrow vertical strip visible, with a dark upright window frame along its right edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video21_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00045",
+      "statement": "In frame 0, part of the gray multi-section surface of the gray radiator below the window is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00046",
+      "statement": "In frame 0, the left part of the gray radiator below the window extends beyond the frame, leaving its gray multi-section surface visible; vertical ribbed contours, darker separations between them, and a brighter top edge are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a035",
+      "statement": "In frame 22, only the narrow black-and-gray front end and raised front sight of Weapon A are visible; the rest of the gun is outside the frame below.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a036",
+      "statement": "In frame 22, only the narrow black-and-gray front end and raised front sight of Weapon A are visible; a forked outline is discernible at the top of the front sight, and the rest of the gun is outside the frame below.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a039",
+      "statement": "In frame 22, the damp, debris-strewn corridor floor is dark-colored and damp, with large light-colored broken panels and fragments scattered across it.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a040",
+      "statement": "In frame 22, the damp, debris-strewn corridor floor is dark and damp, with irregular reflections from puddles on its surface and light gray broken panels, long thin strips, and angular fragments of varying sizes scattered across it.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a043",
+      "statement": "In frame 22, the peeling two-tone corridor wall is light gray above and a darker gray-green below, with large irregular areas of surface peeling.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a044",
+      "statement": "In frame 22, the peeling two-tone corridor wall is light gray above and dark gray-green below; the edges of the large peeling areas are jagged, locally exposing a mottled, rough underlying layer with dark stains. The wall on the left is darker, with localized reflections in the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a045",
+      "statement": "In frame 22, the left side of the peeling two-tone corridor wall is darker overall than the right side.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a051",
+      "statement": "In frame 22, only the left part of the dirty, worn, light beige door panel and part of the doorframe of the light-colored narrow windowed door on the right wall are visible; the vertical narrow window has moved beyond the image-right boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a052",
+      "statement": "In frame 22, only the left part of the dirty, worn, light beige door panel and part of the doorframe of the light-colored narrow windowed door on the right wall are visible; mottled brownish-gray stains, the darker left frame seam, and a light brownish-gray strip above are visible, while the vertical narrow window is outside the frame.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a055",
+      "statement": "In frame 22, the group of wooden pallets on the right is brown and has a rectangular slatted structure; one pallet leans diagonally against the wall, while another lies flat at a lower level.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a056",
+      "statement": "In frame 22, the group of wooden pallets on the right has a brown rectangular slatted structure; one pallet leans diagonally against the wall and one lies flat. Parallel wooden slats, horizontal supports, and gaps between the slats are visible, and the side of the flat pallet has a thicker supporting section.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e007"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a059",
+      "statement": "In frame 22, the open doorway at the far end of the corridor is a dark rectangular opening; a dark door panel on the left obscures part of the entrance, and the space behind it is brighter.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a060",
+      "statement": "In frame 22, the open doorway at the far end of the corridor appears as a dark rectangle; a dark door panel on the left obscures part of the entrance, while the remaining opening reveals the brighter space behind it. The horizontal upper edge, vertical frame edge, and upright edge of the door panel are discernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a063",
+      "statement": "In frame 22, the square wall light at the far end has a bright white, nearly square rectangular illuminated face and is mounted on the wall at the far end.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a064",
+      "statement": "In frame 22, the square wall light at the far end is mounted on the wall and has a bright white, nearly square rectangular illuminated face with darker edges; a soft bright patch is present on the nearby wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e009"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00016",
+      "statement": "In frame 22, the damaged suspended ceiling is a joined structure of light gray panels, with panels missing in multiple places and some panels folded downward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00017",
+      "statement": "In frame 22, the exposed corridor piping varies in thickness, with long gray and rust-red pipes extending roughly parallel to one another.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00018",
+      "statement": "In frame 22, the hanging corridor cables are thin and black, with some sections curving and hanging downward.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00019",
+      "statement": "In frame 22, the damaged suspended ceiling is a joined structure of light gray panels, with multiple rectangular gaps, narrow support strips, and panels folded downward; dense small holes are visible in the nearby panel surfaces.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00020",
+      "statement": "In frame 22, among the exposed corridor piping, thicker gray and rust-red pipes and several thin pipes extend parallel into the distance; the thin pipes on the right wall have right-angle turns and fixed support points.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00021",
+      "statement": "In frame 22, the hanging corridor cables are thin and black; one cable in the middle section of the right wall hangs in a shallow arc, and thin lines extend downward near a ceiling gap in the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00034",
+      "statement": "In frame 22, the scattered corridor debris is mainly light gray and includes large broken panels, long thin strips, and fragments of varying sizes.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00035",
+      "statement": "In frame 22, the scattered corridor debris is mainly light gray; large broken panels and long thin strips overlap in an interlaced arrangement and have irregular broken edges, with angular fragments of varying sizes and fine debris scattered around them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00038",
+      "statement": "In frame 22, the standing water on the corridor floor is dark gray-black, with bright reflections distributed across the water surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00039",
+      "statement": "In frame 22, the standing water on the corridor floor is dark gray-black, with visibly irregular edges; long, narrow and fragmented bright patches appear on the water surface, with bright and dark areas interspersed.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00010",
+      "statement": "In frame 0, the damp, debris-strewn corridor floor runs between the peeling two-tone corridor walls from nearby at the bottom of the frame to the open doorway at the far end of the corridor in the distant center; the left part of the doorway is obscured by a dark door panel, while the remaining opening on the right reveals the space behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video21_e002",
+        "video21_e003",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00011",
+      "statement": "In frame 0, the peeling two-tone corridor walls are on the image-left and image-right sides of the frame, the damp, debris-strewn corridor floor is below between them, and the damaged suspended ceiling is above between them.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e003",
+        "video21_e002",
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00012",
+      "statement": "In frame 0, the exposed corridor piping is along the upper right portion of the peeling two-tone corridor wall and below the damaged suspended ceiling, extending into the distance along the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e013",
+        "video21_e003",
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00013",
+      "statement": "In frame 0, the light-colored narrow windowed door on the right wall is on the nearby right wall; the group of wooden pallets on the right is on the floor below and to the image-left of the door and is closer to the foreground than the open doorway at the far end of the corridor. The bottom of one pallet rests on the floor while the pallet leans diagonally against the right wall, and another pallet lies flat to its left on the damp, debris-strewn corridor floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e006",
+        "video21_e007",
+        "video21_e003",
+        "video21_e002",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00014",
+      "statement": "In frame 0, patches of scattered corridor debris are distributed on the damp, debris-strewn corridor floor nearby at the lower left of the frame and in front of the open doorway at the far end of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e017",
+        "video21_e002",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00015",
+      "statement": "In frame 0, the standing water on the corridor floor is in the central area of the damp, debris-strewn corridor floor, extending from the lower part to the middle of the frame and adjacent to the scattered corridor debris.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e018",
+        "video21_e002",
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00016",
+      "statement": "In frame 0, the window on the left and the gray radiator below the window are on the left side of the peeling two-tone corridor wall, with the window above the radiator; both partially extend beyond the image-left boundary.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video21_e015",
+        "video21_e016",
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00024",
+      "statement": "In frame 0, Weapon A emerges from the center of the bottom edge of the frame, with its front end pointing toward the open doorway at the far end of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e001",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a007",
+      "statement": "In frame 0, Weapon A is at the center of the bottom edge of the frame, with its front end pointing toward the open doorway at the far end of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e001",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a011",
+      "statement": "In frame 0, the damp, debris-strewn corridor floor is between the peeling two-tone corridor walls, and reflections from the standing water on the corridor floor are distributed in depth as far as the area in front of the open doorway at the far end of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e002",
+        "video21_e003",
+        "video21_e018",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a015",
+      "statement": "In frame 0, the peeling two-tone corridor walls are between the damp, debris-strewn corridor floor and the damaged suspended ceiling, enclosing a long, narrow corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e003",
+        "video21_e002",
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a023",
+      "statement": "In frame 0, the light-colored narrow windowed door on the right wall is on the right side of the peeling two-tone corridor wall, and the group of wooden pallets on the right is on the floor below and to the image-left of the door.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e006",
+        "video21_e003",
+        "video21_e007",
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a027",
+      "statement": "In frame 0, the group of wooden pallets on the right is beside the light-colored narrow windowed door on the right wall; one pallet leans diagonally against the right side of the peeling two-tone corridor wall, while another lies flat. The entire group is closer to the camera than the open doorway at the far end of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e007",
+        "video21_e006",
+        "video21_e003",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a031",
+      "statement": "In frame 0, the open doorway at the far end of the corridor is at the far end of the corridor, and the perspective extension of the damp, debris-strewn corridor floor points toward this opening.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e008",
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00022",
+      "statement": "In frame 0, the damaged suspended ceiling is above the peeling two-tone corridor wall, the exposed corridor piping extends into the distance along the upper right of the frame, and the hanging corridor cables are along the upper part of the right wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e012",
+        "video21_e013",
+        "video21_e014",
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00028",
+      "statement": "In frame 0, the scattered corridor debris lies on the damp, debris-strewn corridor floor, with some fragments overlapping one another.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e017",
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00032",
+      "statement": "In frame 0, the standing water on the corridor floor is on the damp, debris-strewn corridor floor, and the edge of the water surface meets the scattered debris.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e018",
+        "video21_e002",
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00047",
+      "statement": "In frame 0, the window on the left is above the gray radiator below the window, and both are on the left side of the peeling two-tone corridor wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e015",
+        "video21_e016",
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00018",
+      "statement": "In frame 22, the damp, debris-strewn corridor floor runs between the peeling two-tone corridor walls from nearby at the bottom of the frame to the open doorway at the far end of the corridor slightly left of center in the distance; the left part of the doorway is obscured by a dark door panel, while the remaining opening on the right reveals the space behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e002",
+        "video21_e003",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00019",
+      "statement": "In frame 22, the peeling two-tone corridor walls are on the image-left and image-right sides of the frame, the damp, debris-strewn corridor floor is below between them, and the damaged suspended ceiling is above between them.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e003",
+        "video21_e002",
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00020",
+      "statement": "In frame 22, the exposed corridor piping is along the upper right portion of the peeling two-tone corridor wall and below the damaged suspended ceiling, extending into the distance along the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e013",
+        "video21_e003",
+        "video21_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00021",
+      "statement": "In frame 22, the light-colored narrow windowed door on the right wall is on the nearby right wall, with the right part of the door panel beyond the image-right boundary; the group of wooden pallets on the right is below and to the image-left of the door and is closer to the foreground than the open doorway at the far end of the corridor. The bottom of one pallet rests on the floor while the pallet leans diagonally against the right wall, and another pallet lies flat to its left on the damp, debris-strewn corridor floor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006",
+        "video21_e007",
+        "video21_e003",
+        "video21_e002",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00022",
+      "statement": "In frame 22, patches of scattered corridor debris are distributed on the damp, debris-strewn corridor floor nearby at the lower left of the frame and in front of the open doorway at the far end of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e017",
+        "video21_e002",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00023",
+      "statement": "In frame 22, the standing water on the corridor floor is in the central area of the damp, debris-strewn corridor floor, extending from the lower part to the middle of the frame and adjacent to the scattered corridor debris.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e018",
+        "video21_e002",
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_restore00025",
+      "statement": "In frame 22, Weapon A is partially visible slightly right of center along the bottom edge of the frame, obscuring a small area of the damp, debris-strewn corridor floor behind it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e001",
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a037",
+      "statement": "In frame 22, part of Weapon A is slightly right of center along the bottom edge of the frame, obscuring a small area of the nearby damp, debris-strewn corridor floor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e001",
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a041",
+      "statement": "In frame 22, the damp, debris-strewn corridor floor is between the peeling two-tone corridor walls, and scattered corridor debris extends to the area in front of the open doorway at the far end of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e002",
+        "video21_e003",
+        "video21_e017",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a053",
+      "statement": "In frame 22, the light-colored narrow windowed door on the right wall is nearby on the right side of the peeling two-tone corridor wall, with the right part of the door panel beyond the image-right boundary.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006",
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a057",
+      "statement": "In frame 22, the group of wooden pallets on the right is at the foot of the right side of the peeling two-tone corridor wall, below and to the image-left of the light-colored narrow windowed door on the right wall, and closer to the camera than the open doorway at the far end of the corridor.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e007",
+        "video21_e003",
+        "video21_e006",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a061",
+      "statement": "In frame 22, the open doorway at the far end of the corridor is at the far end of the corridor, with the brighter space behind it visible through the opening.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a065",
+      "statement": "In frame 22, the square wall light at the far end is above and to the left of the open doorway at the far end of the corridor, with a bright patch visible on the nearby wall.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e009",
+        "video21_e008",
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00023",
+      "statement": "In frame 22, the damaged suspended ceiling is above the peeling two-tone corridor wall, the exposed corridor piping extends into the distance along the upper right of the frame, and the hanging corridor cables are at the wall-ceiling junction in the middle distance and near gaps in the ceiling panels.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e012",
+        "video21_e013",
+        "video21_e014",
+        "video21_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00036",
+      "statement": "In frame 22, the scattered corridor debris lies on the damp, debris-strewn corridor floor, with some fragments overlapping one another.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e017",
+        "video21_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00040",
+      "statement": "In frame 22, the standing water on the corridor floor is on the damp, debris-strewn corridor floor, and the edge of the water surface meets the scattered debris.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e018",
+        "video21_e002",
+        "video21_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_r00003",
+      "statement": "In frame 0, the camera is inside the corridor between the window on the left and the light-colored narrow windowed door on the right wall.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e015",
+        "video21_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00003",
+      "statement": "In frame 0, the camera is inside the corridor between the window on the left and the light-colored narrow windowed door on the right wall.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e015",
+        "video21_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_a032",
+      "statement": "In frame 22, the camera is inside the corridor beside the light-colored narrow windowed door on the right wall and the group of wooden pallets on the right, closer to the open doorway at the far end of the corridor than in frame 0.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006",
+        "video21_e007",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a032",
+      "statement": "In frame 22, the camera is inside the corridor beside the light-colored narrow windowed door on the right wall and the group of wooden pallets on the right, closer to the open doorway at the far end of the corridor than in frame 0.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006",
+        "video21_e007",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_a003",
+      "statement": "In frame 0, the camera faces along the corridor toward the open doorway at the far end.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a003",
+      "statement": "In frame 0, the camera faces along the corridor toward the open doorway at the far end.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_a033",
+      "statement": "In frame 22, the camera still faces along the corridor toward the open doorway at the far end.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_a033",
+      "statement": "In frame 22, the camera still faces along the corridor toward the open doorway at the far end.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 22,
+      "end_frame": 22,
+      "evidence_frames": [
+        22
+      ],
+      "subject_ids": [
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_r00001",
+      "statement": "From frames 0 through 22, the camera generally translates forward along the corridor, accompanied by slight viewpoint sway.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        7,
+        11,
+        18,
+        22
+      ],
+      "subject_ids": [
+        "video21_e002",
+        "video21_e006",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00001",
+      "statement": "From frames 0 through 22, the camera generally translates forward along the corridor, accompanied by slight viewpoint sway.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        7,
+        11,
+        18,
+        22
+      ],
+      "subject_ids": [
+        "video21_e002",
+        "video21_e006",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_r00002",
+      "statement": "From frames 0 through 22, the camera first turns right, then transitions to swinging back left around frames 7 through 8; the open doorway at the far end of the corridor first moves toward the image-left side of the frame, then moves back to the right, and remains slightly left of center in the final frame.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        7,
+        8,
+        11,
+        18,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00002",
+      "statement": "From frames 0 through 22, the camera first turns right, then transitions to swinging back left around frames 7 through 8; the open doorway at the far end of the corridor first moves toward the image-left side of the frame, then moves back to the right, and remains slightly left of center in the final frame.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        7,
+        8,
+        11,
+        18,
+        22
+      ],
+      "subject_ids": [
+        "video21_e006",
+        "video21_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video21_cp002_a001",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video21_cp002_a001",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video21_cp002_r00024",
+      "statement": "From frames 0 through 22, Weapon A sways left and right and bobs up and down along the bottom edge of the frame; less of it is visible in the later portion, and by frame 22 only part of the front end remains visible.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        7,
+        8,
+        11,
+        12,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video21_cp002_r00024",
+      "statement": "From frames 0 through 22, Weapon A sways left and right and bobs up and down along the bottom edge of the frame; less of it is visible in the later portion, and by frame 22 only part of the front end remains visible.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 22,
+      "evidence_frames": [
+        0,
+        6,
+        7,
+        8,
+        11,
+        12,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "subject_ids": [
+        "video21_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    11,
+    22
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "778f9cc793b889cef7350a6d8a2009fb0b05c966238212e6540d65d938284cdf"
+}

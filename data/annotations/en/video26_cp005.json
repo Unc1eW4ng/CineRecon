@@ -1,0 +1,1515 @@
+{
+  "clip_id": "video26_cp005",
+  "video_id": "video26",
+  "fps": 30.0,
+  "start_frame": 0,
+  "end_frame": 58,
+  "source_frame_offset": 268,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video26_e001",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A low blue open-wheel single-seat race car with white wing surfaces and trim and exposed black tires; the rear-wing endplate bears a white number 6."
+    },
+    {
+      "source_entity_id": "video26_e018",
+      "name": "Person A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A person in Vehicle A's cockpit wearing a light-and-black helmet with a dark horizontal visor, with most of the body occluded by the vehicle body."
+    },
+    {
+      "source_entity_id": "video26_e006",
+      "name": "gray asphalt racetrack",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "The gray paved road surface on which Vehicle A is traveling, with a white line or blue-and-white segmented curb along parts of the far boundary."
+    },
+    {
+      "source_entity_id": "video26_e008",
+      "name": "grass shoulder",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A continuous green grassy area outside the racetrack, with blurry variations between lighter and darker tones."
+    },
+    {
+      "source_entity_id": "video26_e012",
+      "name": "white guardrail",
+      "numbered": false,
+      "first_appearance_frame": 0,
+      "identification": "A long guardrail behind the grass shoulder, composed of multiple parallel light-colored horizontal rails."
+    },
+    {
+      "source_entity_id": "video26_e013",
+      "name": "blue-and-white segmented curb",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A narrow strip extending along the far edge of the racetrack and composed of alternating blue and white segments."
+    },
+    {
+      "source_entity_id": "video26_e014",
+      "name": "green paved runoff area",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A broad, light-green paved strip behind Vehicle A, with relatively uniform coloration."
+    },
+    {
+      "source_entity_id": "video26_e017",
+      "name": "mesh fence above the white guardrail",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A fence above the white guardrail, composed of thin gray lines and vertical posts."
+    },
+    {
+      "source_entity_id": "video26_e025",
+      "name": "gray paved strip outside the racetrack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "A horizontal gray paved strip located between the green paved runoff area and the grass above it, separate from the racetrack beneath Vehicle A."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video26_cp005_restore00009",
+      "statement": "At frame 0, there is 1 Vehicle A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a014",
+      "statement": "At frame 0, the white guardrail is visible in the distant upper-right part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00004",
+      "statement": "At frame 0, Vehicle A is visible slightly below the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00005",
+      "statement": "At frame 0, the gray asphalt racetrack is visible in the middle and lower parts of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00006",
+      "statement": "At frame 0, the grass shoulder is visible in the upper half of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00028",
+      "statement": "At frame 0, Person A's helmeted head is visible above the cockpit opening of Vehicle A.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00039",
+      "statement": "At frame 34, the green paved runoff area is visible in the middle of the image above the vehicle body.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video26_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00042",
+      "statement": "At frame 34, the gray paved strip outside the racetrack is visible in the upper half of the image beyond the green paved runoff area.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        33,
+        34,
+        35
+      ],
+      "subject_ids": [
+        "video26_e025"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00016",
+      "statement": "At frame 58, there is 1 Vehicle A in the image.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a028",
+      "statement": "At frame 58, the white guardrail is visible in the distant upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00007",
+      "statement": "At frame 58, Vehicle A is visible slightly below the center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00008",
+      "statement": "At frame 58, the gray asphalt racetrack is visible in the middle and lower parts of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00009",
+      "statement": "At frame 58, the blue-and-white segmented curb is visible along an edge extending diagonally toward the upper right in the middle of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00010",
+      "statement": "At frame 58, the grass shoulder is visible in the upper-middle part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00032",
+      "statement": "At frame 58, the upper part of Person A's helmet is visible above Vehicle A's cockpit and body.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00036",
+      "statement": "At frame 58, the mesh fence above the white guardrail is visible above the white guardrail at the top of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a007",
+      "statement": "At frame 0, Vehicle A is a low open-wheel single-seat race car, predominantly blue, with white wing surfaces and trim and exposed black tires; three tires can be clearly distinguished in this frame, while the other rear tire is occluded by the vehicle body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a015",
+      "statement": "At frame 0, the white guardrail is composed of multiple parallel light-colored metal horizontal rails.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00011",
+      "statement": "At frame 0, the gray asphalt racetrack is a broad gray paved surface spreading across the middle and lower parts of the image; its upper white boundary line extends diagonally toward the upper-left edge of the image, with a short, nearly straight section visible, and the road surface is cut off at the left and right edges of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00012",
+      "statement": "At frame 0, the grass shoulder is a continuous green grassy area located in the upper half of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00013",
+      "statement": "At frame 0, Vehicle A is a low blue open-wheel single-seat race car with white wing surfaces and trim and exposed black tires; three tires can be clearly distinguished in this frame, while the other rear tire is occluded by the vehicle body. A slender nose cone, thin front-wing plates, thin black suspension rods, blue rearview mirrors, the white lower edges of the sidepods, a blue-and-white rear wing, multiple white markings on the vehicle body, light-colored rings around the visible wheel hubs, and a white number on the nose can be distinguished.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00014",
+      "statement": "At frame 0, the gray asphalt racetrack is a broad gray paved surface spreading across the middle and lower parts of the image; its upper white boundary line extends diagonally toward the upper-left edge of the image, with a short, nearly straight section visible, and the road surface is cut off at the left and right edges of the image. The surface has blurry bands of lighter and darker tones, and the thin white line along the far side is continuous.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00015",
+      "statement": "At frame 0, the grass shoulder is a continuous green grassy area located in the upper half of the image; its surface shows blurry alternating yellow-green and dark-green bands, and its edge extends along the racetrack boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00016",
+      "statement": "At frame 0, the white guardrail is composed of multiple parallel light-colored metal horizontal rails, with narrow dark gaps between the layers, and parts of its outline are horizontally blurred due to the tracking shot.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00029",
+      "statement": "At frame 0, Person A's light-colored helmet protrudes from Vehicle A's open cockpit.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00030",
+      "statement": "At frame 0, Person A's light-colored helmet protrudes from Vehicle A's open cockpit; the helmet has a dark horizontal visor, and most of Person A's body is occluded by the vehicle body.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00040",
+      "statement": "At frame 34, the green paved runoff area is a flat, broad strip of green pavement.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video26_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00041",
+      "statement": "At frame 34, the green paved runoff area is a flat, broad strip of green pavement; its coloration is continuous, its upper edge abuts the gray paved strip outside the racetrack, and its lower part is occluded by Vehicle A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video26_e014",
+        "video26_e025",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00043",
+      "statement": "At frame 34, the gray paved strip outside the racetrack is a narrow horizontal strip of gray pavement.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video26_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00044",
+      "statement": "At frame 34, the gray paved strip outside the racetrack is a narrow horizontal strip of gray pavement; its edges are straight, and the gray surface forms clear boundaries with the green areas above and below it.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video26_e025"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00045",
+      "statement": "At frame 34, the gray asphalt racetrack appears as a gray paved surface, exposed in this frame mainly as a narrow horizontal strip beneath Vehicle A and along the bottom edge of the image, extending out of the image to the left and right, with most of its upper part occluded by Vehicle A.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video26_e006",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00046",
+      "statement": "At frame 34, the gray asphalt racetrack appears as a gray paved surface, exposed in this frame mainly as a narrow horizontal strip beneath Vehicle A and along the bottom edge of the image, extending out of the image to the left and right, with most of its upper part occluded by Vehicle A; blurry variations in brightness and the dark shadow beneath the vehicle are visible on the exposed road surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        34
+      ],
+      "subject_ids": [
+        "video26_e006",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a021",
+      "statement": "At frame 58, Vehicle A has the outline of a low blue open-wheel single-seat race car, with white trim, exposed black tires, and a wide rear wing.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a029",
+      "statement": "At frame 58, the white guardrail is composed of multiple parallel light-colored metal horizontal rails.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00017",
+      "statement": "At frame 58, the gray asphalt racetrack is a broad gray paved surface spreading across the lower part of the image; its far edge extends toward the upper right of the image along the blue-and-white segmented curb, with a short, nearly straight section visible, and the road surface is cut off at the left and right edges of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00018",
+      "statement": "At frame 58, the blue-and-white segmented curb appears as a narrow strip of alternating blue and white, extending diagonally toward the upper right of the image along the edge of the road surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00019",
+      "statement": "At frame 58, the grass shoulder is a continuous green grassy area located in the upper-middle part of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00020",
+      "statement": "At frame 58, Vehicle A has the outline of a low blue open-wheel single-seat race car, with white trim and white lower edges on the sidepods, exposed black tires, and a wide rear wing; the white number 6 on the rear-wing endplate, a raised blue cover behind the cockpit, black rear components, a red taillight at the center of the rear, and white markings on the side can be distinguished.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00021",
+      "statement": "At frame 58, the gray asphalt racetrack is a broad gray paved surface spreading across the lower part of the image; its far edge extends toward the upper right of the image along the blue-and-white segmented curb, with a short, nearly straight section visible, and the road surface is cut off at the left and right edges of the image. The road surface has blurry bands of lighter and darker tones, and a thin light-colored edge is visible where it meets the blue-and-white segmented curb.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00022",
+      "statement": "At frame 58, the blue-and-white segmented curb appears as a narrow strip of alternating blue and white, extending diagonally toward the upper right of the image along the edge of the road surface; the colored blocks appear as rectangular segments in perspective, with a thin light-colored edge on the side adjoining the road surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00023",
+      "statement": "At frame 58, the grass shoulder is a continuous green grassy area located in the upper-middle part of the image; its surface shows blurry alternating yellow-green and dark-green bands, and its edge extends along the pavement boundary.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00024",
+      "statement": "At frame 58, the white guardrail is composed of multiple parallel light-colored metal horizontal rails, with narrow dark gaps between the layers, and parts of its outline are horizontally blurred due to the tracking shot.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00033",
+      "statement": "At frame 58, only the upper part of Person A's helmet protrudes above Vehicle A's cockpit and body.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00034",
+      "statement": "At frame 58, only the upper part of Person A's helmet protrudes above Vehicle A's cockpit and body; a small light-and-dark helmet outline is visible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00037",
+      "statement": "At frame 58, the mesh fence above the white guardrail appears as a fence of thin gray lines with vertical posts.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00038",
+      "statement": "At frame 58, the mesh fence above the white guardrail appears as a fence of thin gray lines with vertical posts; multiple horizontal lines can be distinguished, and parts of its outline are blurred due to the tracking shot.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00010",
+      "statement": "At frame 0, Vehicle A is located slightly below the center of the image, with its tires visibly in contact with the gray asphalt racetrack; its front points toward the lower right of the image, and its rear points toward the upper left of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00011",
+      "statement": "At frame 0, 1 Person A is seated in Vehicle A's cockpit, with the helmeted head protruding above the vehicle body and most of the body occluded by the vehicle body.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00012",
+      "statement": "At frame 0, the gray asphalt racetrack occupies the middle and lower parts of the image, spreading toward the bottom and right side of the image in the foreground, while its upper boundary extends to the upper-left edge of the image, with the visible section of track nearly straight; the grass shoulder is located in the upper part of the image and adjoins the far boundary of the racetrack.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e006",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00013",
+      "statement": "At frame 0, the white guardrail is located in the upper-right part of the image, behind the grass shoulder.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e012",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a009",
+      "statement": "At frame 0, Vehicle A is on the gray asphalt racetrack, with its front pointing toward the lower right of the image and its rear pointing toward the upper left of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a017",
+      "statement": "At frame 0, the white guardrail is located on the distant outer side of the gray asphalt racetrack.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e012",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00025",
+      "statement": "At frame 0, the far white boundary line of the gray asphalt racetrack adjoins the grass shoulder.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e006",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00031",
+      "statement": "At frame 0, Person A is seated in Vehicle A's open cockpit.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00014",
+      "statement": "At frame 34, Vehicle A spans the middle and lower parts of the image, with its front pointing toward the right side of the image, and its front and rear cut off by the right and left edges of the image, respectively.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        33,
+        34,
+        35
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00015",
+      "statement": "At frame 34, the green paved runoff area is located behind Vehicle A, with its lower part occluded by the vehicle body; the gray paved strip outside the racetrack adjoins the image-upper side of the green paved runoff area, and its other side adjoins the grass shoulder at the top of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 34,
+      "end_frame": 34,
+      "evidence_frames": [
+        33,
+        34,
+        35
+      ],
+      "subject_ids": [
+        "video26_e014",
+        "video26_e025",
+        "video26_e008",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00017",
+      "statement": "At frame 58, Vehicle A is located slightly below the center of the image, with its tires visibly in contact with the gray asphalt racetrack; its front points toward the distance on the right side of the image, and its rear points toward the foreground on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00018",
+      "statement": "At frame 58, 1 Person A is located in Vehicle A's cockpit, with only the upper part of the helmet protruding above the vehicle body and the rest of the body occluded by the vehicle body.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00019",
+      "statement": "At frame 58, the gray asphalt racetrack spreads across the lower part of the image, extending from the nearby lower left toward the distant upper right along the far curb, with the visible section of track nearly straight; the blue-and-white segmented curb abuts the far boundary of the racetrack, and the grass shoulder adjoins the outer side of the curb.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e006",
+        "video26_e013",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_restore00020",
+      "statement": "At frame 58, the white guardrail is located in the upper part of the image, behind the grass shoulder; the mesh fence above the white guardrail adjoins the upper side of the white guardrail and extends to the top of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e012",
+        "video26_e017",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a023",
+      "statement": "At frame 58, Vehicle A is on the gray asphalt racetrack, with its front pointing toward the distance on the right side of the image and its rear pointing toward the foreground on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a031",
+      "statement": "At frame 58, the white guardrail is located on the distant outer side of the gray asphalt racetrack.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e012",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00026",
+      "statement": "At frame 58, the blue-and-white segmented curb closely adjoins the edge of the gray asphalt racetrack, and the grass shoulder adjoins the outer side of the curb.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e006",
+        "video26_e013",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00035",
+      "statement": "At frame 58, Person A is located in Vehicle A's open cockpit, with most of the body occluded by the vehicle body.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video26_e018",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_r00002",
+      "statement": "At frame 0, the camera looks diagonally downward at Vehicle A and the nearby road surface from a position beside the racetrack and above Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00002",
+      "statement": "At frame 0, the camera looks diagonally downward at Vehicle A and the nearby road surface from a position beside the racetrack and above Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_r00003",
+      "statement": "At frame 58, the camera looks diagonally downward at Vehicle A and the nearby road surface from a position beside the racetrack and above Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00003",
+      "statement": "At frame 58, the camera looks diagonally downward at Vehicle A and the nearby road surface from a position beside the racetrack and above Vehicle A.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006",
+        "video26_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_a005",
+      "statement": "At frame 0, the camera is aimed at Vehicle A and the gray asphalt racetrack on which it is located.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a005",
+      "statement": "At frame 0, the camera is aimed at Vehicle A and the gray asphalt racetrack on which it is located.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_a019",
+      "statement": "At frame 58, the camera is aimed at Vehicle A and the gray asphalt racetrack on which it is located.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a019",
+      "statement": "At frame 58, the camera is aimed at Vehicle A and the gray asphalt racetrack on which it is located.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 58,
+      "end_frame": 58,
+      "evidence_frames": [
+        58
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_a001",
+      "statement": "From frames 0 to 58, the camera position remains stable overall, primarily following Vehicle A by rotating the view, with no obvious translation along the racetrack.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        15,
+        29,
+        34,
+        37,
+        58
+      ],
+      "subject_ids": [
+        "video26_e006",
+        "video26_e008",
+        "video26_e012",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_a001",
+      "statement": "From frames 0 to 58, the camera position remains stable overall, primarily following Vehicle A by rotating the view, with no obvious translation along the racetrack.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        15,
+        29,
+        34,
+        37,
+        58
+      ],
+      "subject_ids": [
+        "video26_e006",
+        "video26_e008",
+        "video26_e012",
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_r00001",
+      "statement": "From frames 0 to 58, the camera pans right relative to its initial orientation at frame 0, continuously following Vehicle A as it passes and moves away.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        15,
+        29,
+        30,
+        34,
+        37,
+        58
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006",
+        "video26_e008",
+        "video26_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00001",
+      "statement": "From frames 0 to 58, the camera pans right relative to its initial orientation at frame 0, continuously following Vehicle A as it passes and moves away.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        15,
+        29,
+        30,
+        34,
+        37,
+        58
+      ],
+      "subject_ids": [
+        "video26_e001",
+        "video26_e006",
+        "video26_e008",
+        "video26_e012"
+      ]
+    },
+    {
+      "item_key": "L1:video26_cp005_a033",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        58
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video26_cp005_a033",
+      "statement": "The clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        11,
+        12,
+        23,
+        24,
+        35,
+        36,
+        47,
+        48,
+        58
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video26_cp005_r00027",
+      "statement": "From frames 0 to 58, Vehicle A passes toward the right side of the image along the gray asphalt racetrack, first approaching the camera, then passing side-on, and subsequently presenting its rear obliquely to the camera while gradually moving away.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        15,
+        29,
+        33,
+        34,
+        35,
+        36,
+        37,
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video26_cp005_r00027",
+      "statement": "From frames 0 to 58, Vehicle A passes toward the right side of the image along the gray asphalt racetrack, first approaching the camera, then passing side-on, and subsequently presenting its rear obliquely to the camera while gradually moving away.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 58,
+      "evidence_frames": [
+        0,
+        15,
+        29,
+        33,
+        34,
+        35,
+        36,
+        37,
+        57,
+        58
+      ],
+      "subject_ids": [
+        "video26_e001"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    34,
+    58
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "9c30c461c488e279d54d5962768f8dbedb363c1a5664568b79ff986762446d44"
+}

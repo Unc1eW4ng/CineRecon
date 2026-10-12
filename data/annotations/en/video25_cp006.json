@@ -1,0 +1,2910 @@
+{
+  "clip_id": "video25_cp006",
+  "video_id": "video25",
+  "fps": 59.94005994005994,
+  "start_frame": 0,
+  "end_frame": 94,
+  "source_frame_offset": 1046,
+  "first_appearance_definition": "The first visible portion within the clip that is identifiable and can be temporally matched to that subject; frame numbering starts at 0.",
+  "entities": [
+    {
+      "source_entity_id": "video25_e001",
+      "name": "Vehicle A",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A yellow low-profile sports car in the foreground, with a dark rear panel, a large red rear wing, and red circular light clusters on both sides."
+    },
+    {
+      "source_entity_id": "video25_e002",
+      "name": "Vehicle B",
+      "numbered": true,
+      "first_appearance_frame": 0,
+      "identification": "A white low-profile sports car ahead of Vehicle A, with a horizontal rear wing, a dark rear window, and red taillights."
+    },
+    {
+      "source_entity_id": "video25_e003",
+      "name": "racetrack surface",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The gray paved racetrack extending from the lower part of the image into the distance."
+    },
+    {
+      "source_entity_id": "video25_e006",
+      "name": "sky",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The blue-gray sky above the trees and mountains, with relatively little texture."
+    },
+    {
+      "source_entity_id": "video25_e008",
+      "name": "orange-lit tunnel entrance",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The orange-yellow arch-shaped bright opening at the far end of the road, behind the gantry."
+    },
+    {
+      "source_entity_id": "video25_e012",
+      "name": "red-and-white curb",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The alternating red-and-white segmented curb repeatedly arranged along the edge of the racetrack."
+    },
+    {
+      "source_entity_id": "video25_e013",
+      "name": "green runoff area",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous green strip-shaped paved area along the outer edge of the racetrack."
+    },
+    {
+      "source_entity_id": "video25_e014",
+      "name": "concrete racetrack barrier",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous low solid gray wall outside the green runoff area."
+    },
+    {
+      "source_entity_id": "video25_e015",
+      "name": "metal racetrack guardrail",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The continuous guardrail composed of parallel silver-gray horizontal bars on the right side of the racetrack."
+    },
+    {
+      "source_entity_id": "video25_e016",
+      "name": "racetrack safety fence",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The mesh fence above the barrier, supported by tall gray posts, with the tops of some posts inclined."
+    },
+    {
+      "source_entity_id": "video25_e017",
+      "name": "trees around the outside of the racetrack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The contiguous dark green trees around the outside of the racetrack, with crowns of varying heights."
+    },
+    {
+      "source_entity_id": "video25_e018",
+      "name": "distant mountain",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The undulating gray-green mountain ridge behind the trees, with parts of the mountain face appearing light gray."
+    },
+    {
+      "source_entity_id": "video25_e019",
+      "name": "racetrack grandstand",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The long grandstand behind the fence, with gray steps and horizontal tiers of seating."
+    },
+    {
+      "source_entity_id": "video25_e020",
+      "name": "racetrack sign and display screen",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "An input set consisting of billboards, distant vertical signs, and roadside illuminated display screens."
+    },
+    {
+      "source_entity_id": "video25_e021",
+      "name": "roadside lattice tower",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The slender gray lattice tower beside the display screen, with multiple tiers of horizontal members at the top."
+    },
+    {
+      "source_entity_id": "video25_e022",
+      "name": "gantry spanning the racetrack",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The dark gate-shaped structure spanning the road in the distance, with light-colored logos and lettering on its crossbeam."
+    },
+    {
+      "source_entity_id": "video25_e029",
+      "name": "group of spectators in the grandstand",
+      "numbered": false,
+      "first_appearance_frame": null,
+      "identification": "The set of background spectators arranged in rows within the grandstand seating, without tracking individuals."
+    }
+  ],
+  "items": [
+    {
+      "item_key": "L1:video25_cp006_restore00010",
+      "statement": "At frame 0, Vehicle A and Vehicle B are both visible, for a total of two vehicles.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0,
+        1
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a011",
+      "statement": "At frame 0, Vehicle A is clearly visible as the yellow low-profile sports car in the lower center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a015",
+      "statement": "At frame 0, Vehicle B is clearly visible as the white low-profile sports car on the racetrack surface ahead.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a019",
+      "statement": "At frame 0, the gray paved racetrack surface extends from the lower edge of the image into the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a031",
+      "statement": "At frame 0, the blue-gray sky is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00008",
+      "statement": "At frame 0, the green runoff area is visible at the outer edge of the road surface in the middle of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00012",
+      "statement": "At frame 0, the concrete racetrack barrier is visible outside the road surface in the middle of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00016",
+      "statement": "At frame 0, the racetrack safety fence is visible above the wall in the middle of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00020",
+      "statement": "At frame 0, the trees around the outside of the racetrack are visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00024",
+      "statement": "At frame 0, the distant mountain is visible in the distant view at the top of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00028",
+      "statement": "At frame 0, the racetrack grandstand is visible on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00032",
+      "statement": "At frame 0, the billboards among the racetrack sign and display screen are visible above the center of the image and along the front edge of the racetrack grandstand on the right.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e020",
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00036",
+      "statement": "At frame 0, the group of spectators in the grandstand is visible in the seating area on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e029"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00021",
+      "statement": "At frame 94, Vehicle A and Vehicle B are both visible, with Vehicle B on the racetrack ahead of Vehicle A.",
+      "category": "object_presence",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a039",
+      "statement": "At frame 94, Vehicle A is clearly visible as the yellow low-profile sports car in the lower center of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a043",
+      "statement": "At frame 94, Vehicle B is visible on the racetrack surface ahead, with the outline of a white low-profile sports car.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a047",
+      "statement": "At frame 94, the gray paved racetrack surface extends from the lower edge of the image into the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a059",
+      "statement": "At frame 94, the blue-gray sky is visible in the upper part of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00040",
+      "statement": "At frame 94, the red-and-white curb is visible at the left edge of the racetrack ahead of Vehicle A.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e012",
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00044",
+      "statement": "At frame 94, the green runoff area is visible in the lower left of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00048",
+      "statement": "At frame 94, the concrete racetrack barrier is visible on the left side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00052",
+      "statement": "At frame 94, the metal racetrack guardrail is visible on the right side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00056",
+      "statement": "At frame 94, the racetrack safety fence is visible above the top of the wall on the left side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00060",
+      "statement": "At frame 94, the trees around the outside of the racetrack are visible in the distant view and on both sides of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00064",
+      "statement": "At frame 94, the distant mountain is visible in the distant view in the upper left of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00068",
+      "statement": "At frame 94, the racetrack grandstand is visible behind the safety fence on the left side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00072",
+      "statement": "At frame 94, the racetrack sign and display screen are visible in the upper right of the image, along the front edge of the grandstand on the left, and beside the distant gantry.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00076",
+      "statement": "At frame 94, the roadside lattice tower is visible beside the display screen in the upper right of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00080",
+      "statement": "At frame 94, the gantry spanning the racetrack is visible slightly right of center in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00084",
+      "statement": "At frame 94, the orange-lit tunnel entrance is visible below the gantry in the distance.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00088",
+      "statement": "At frame 94, the group of spectators in the grandstand is partially visible in the seating area behind the safety fence on the left side of the image.",
+      "category": "object_presence",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        47,
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a012",
+      "statement": "At frame 0, Vehicle A has the outline of a low-profile sports car, with a yellow body, a dark rear panel, a large red rear wing, and red circular taillights.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a013",
+      "statement": "At frame 0, Vehicle A has the outline of a low-profile sports car, with a yellow body, a dark rear panel, and a large red rear wing; four red circular taillights are discernible in the light clusters on both sides, the central license plate area is illuminated, the rear has a vehicle emblem and small lettering decals, and red components and dark fins are visible along the lower edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a016",
+      "statement": "At frame 0, Vehicle B has the outline of a low-profile white sports car, with a dark rear window, a horizontal rear wing, and red taillights on both sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a017",
+      "statement": "At frame 0, Vehicle B has the outline of a low-profile white sports car, with a dark rear window, a horizontal rear wing, and red taillights on both sides; the rear has a dark horizontal band, white wheel rims are discernible on the side, and the remaining small structures are limited by distance and blur.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a032",
+      "statement": "At frame 0, the sky is blue-gray overall and slightly brighter near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a033",
+      "statement": "At frame 0, the sky is blue-gray overall, with relatively little texture and a soft gradient from darker in the upper part to lighter and brighter near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00002",
+      "statement": "At frame 0, the gray racetrack surface spreads out from the lower center of the image and extends along a curve toward off-screen right slightly right of center; the visible section of the road continues to bend right in the direction of travel; its far end terminates at the right edge of the image.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00003",
+      "statement": "At frame 0, the gray racetrack surface spreads out from the lower center of the image and extends along a curve toward off-screen right slightly right of center; the visible section of the road continues to bend right in the direction of travel; its far end terminates at the right edge of the image; the white inside edge line in the lower right curves out of the image, and the green outer edge and gray wall in the middle of the image enclose the outside of the bend.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00009",
+      "statement": "At frame 0, the green runoff area is a narrow green strip-shaped paved area.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00010",
+      "statement": "At frame 0, the green runoff area is a narrow green strip-shaped paved area extending continuously along the outer edge of the racetrack surface, with a clear boundary between it and the gray main road surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e013",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00013",
+      "statement": "At frame 0, the concrete racetrack barrier is a continuous low gray concrete wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00014",
+      "statement": "At frame 0, the concrete racetrack barrier is a continuous low gray concrete wall, its surface divided into long horizontal sections, with a continuous top edge and some areas illuminated by the vehicle lights.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00017",
+      "statement": "At frame 0, the racetrack safety fence is a safety fence supported by tall gray posts.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00018",
+      "statement": "At frame 0, the racetrack safety fence is a safety fence supported by tall gray posts, with the fine mesh divided by repeated posts and the tops of some posts inclined over the racetrack.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00021",
+      "statement": "At frame 0, the trees around the outside of the racetrack are dense dark green trees.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00022",
+      "statement": "At frame 0, the trees around the outside of the racetrack are dense dark green trees, with crown outlines of varying heights; pointed and more rounded crowns can be distinguished, while fine branches and leaves are unclear in the twilight.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00025",
+      "statement": "At frame 0, the distant mountain is an undulating gray-green mountain.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00026",
+      "statement": "At frame 0, the distant mountain is an undulating gray-green mountain, with sharp peaks and gentle slopes in the ridge outline, parts of the mountain face appearing light gray, and relatively weak texture in the distant view.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00029",
+      "statement": "At frame 0, the racetrack grandstand is a gray stepped grandstand.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00030",
+      "statement": "At frame 0, the racetrack grandstand is a gray stepped grandstand, with multiple rows of horizontal seats rising in tiers and dense small colored dots distributed over them.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00033",
+      "statement": "At frame 0, the visible parts of the racetrack sign and display screen are a large rectangular billboard with red lettering on a white background and smaller advertising boards of the same colors along the front edge of the racetrack grandstand.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e020",
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00034",
+      "statement": "At frame 0, the visible parts of the racetrack sign and display screen are a large rectangular billboard with red lettering on a white background and smaller advertising boards of the same colors along the front edge of the racetrack grandstand; the lettering BOSCH is discernible on the large sign, with three light-colored supports below it and a conspicuous bright patch on the adjacent wall surface.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e020",
+        "video25_e019",
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00037",
+      "statement": "At frame 0, the group of spectators in the grandstand appears as small human-shaped spectator outlines densely distributed in rows.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00038",
+      "statement": "At frame 0, the group of spectators in the grandstand appears as small human-shaped spectator outlines densely distributed in rows; blocks of lighter and darker clothing colors, head outlines, and tiered arrangement are discernible, while distant facial and individual limb details are unclear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a040",
+      "statement": "At frame 94, Vehicle A has the outline of a low-profile sports car, with a yellow body, a dark rear panel, a large red rear wing, and red circular taillights.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a041",
+      "statement": "At frame 94, Vehicle A has the outline of a low-profile sports car, with a yellow body, a dark rear panel, and a large red rear wing; four red circular taillights are discernible in the light clusters on both sides, the central license plate area is illuminated, the rear has a vehicle emblem and small lettering decals, and red components and dark fins are visible along the lower edge.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a044",
+      "statement": "At frame 94, Vehicle B has the outline of a low-profile white sports car, with a dark rear window, a horizontal rear wing, and red taillights on both sides.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a045",
+      "statement": "At frame 94, Vehicle B has the outline of a low-profile white sports car, with a dark rear window, a horizontal rear wing, and red taillights on both sides; a horizontal dark area at the rear and a light-colored central license plate area are discernible, while the remaining details are limited by distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a060",
+      "statement": "At frame 94, the upper part of the sky is blue-gray, with a lighter color and greater brightness near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a061",
+      "statement": "At frame 94, the upper part of the sky is blue-gray with relatively little texture, transitioning softly toward lighter and brighter tones near the horizon.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e006"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00004",
+      "statement": "At frame 94, the gray racetrack surface converges from the lower center and right of the image toward slightly right of center in the distance, extending beneath the gantry spanning the road; the visible road section after the right-hand bend is largely straight; its far end terminates near the orange opening below the gantry, and details of the road surface farther in are indiscernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00005",
+      "statement": "At frame 94, the gray racetrack surface converges from the lower center and right of the image toward slightly right of center in the distance, extending beneath the gantry spanning the road; the visible road section after the right-hand bend is largely straight; its far end terminates near the orange opening below the gantry, and details of the road surface farther in are indiscernible; the white edge line, red-and-white curb, and green runoff area on the left run parallel, with the outer gray wall and safety fence extending continuously; the metal guardrail is on the right.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00041",
+      "statement": "At frame 94, the red-and-white curb is a segmented curb alternating red and white.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00042",
+      "statement": "At frame 94, the red-and-white curb is a segmented curb alternating red and white, with adjacent color blocks repeated along the roadside and its edge aligned with the white edge line.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e012"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00045",
+      "statement": "At frame 94, the green runoff area is a continuous green strip-shaped paved area, wider nearby under perspective and gradually narrowing into the distance.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00046",
+      "statement": "At frame 94, the green runoff area is a continuous green strip-shaped paved area, wider nearby and narrowing into the distance; its inner side adjoins the white edge line and the red-and-white curb ahead, with a clear boundary from the gray main road surface, and it is partially occluded by Vehicle A.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e013",
+        "video25_e012",
+        "video25_e003",
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00049",
+      "statement": "At frame 94, the concrete racetrack barrier is a continuous low gray concrete wall.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00050",
+      "statement": "At frame 94, the concrete racetrack barrier is a continuous low gray concrete wall, its surface divided into long horizontal sections, with a continuous top edge and some areas illuminated by the vehicle lights.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00053",
+      "statement": "At frame 94, the metal racetrack guardrail is a continuous silver-gray guardrail composed of parallel horizontal bars.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00054",
+      "statement": "At frame 94, the metal racetrack guardrail is a continuous silver-gray guardrail, with multiple parallel horizontal slats extending along the road and gradually drawing closer together in the image as distance increases; the small vertical supports are unclear.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00057",
+      "statement": "At frame 94, the racetrack safety fence is a safety fence supported by tall gray posts.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00058",
+      "statement": "At frame 94, the racetrack safety fence is a safety fence supported by tall gray posts, with the fine mesh divided by repeated posts and the tops of some posts inclined over the racetrack.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00061",
+      "statement": "At frame 94, the trees around the outside of the racetrack are dense dark green trees.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00062",
+      "statement": "At frame 94, the trees around the outside of the racetrack are dense dark green trees, with connected clumped crowns of varying heights and irregular edges; fine branches and leaves are unclear because of distance and dark areas.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00065",
+      "statement": "At frame 94, the distant mountain is an undulating gray-green mountain.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00066",
+      "statement": "At frame 94, the distant mountain is an undulating gray-green mountain, with sharp peaks and gentle slopes in the ridge outline, parts of the mountain face appearing light gray, and relatively weak texture in the distant view.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00069",
+      "statement": "At frame 94, the gray stepped outline of the racetrack grandstand remains discernible, but some structures are occluded by the fence and advertising boards in front.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e019",
+        "video25_e016",
+        "video25_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00070",
+      "statement": "At frame 94, the gray stepped outline and some horizontal seating tiers of the racetrack grandstand remain discernible; the safety fence and advertising boards in front occlude some structures, and blurred light and dark spectator color blocks are visible above the seats.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e019",
+        "video25_e016",
+        "video25_e020",
+        "video25_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00073",
+      "statement": "At frame 94, the racetrack sign and display screen appear as a white illuminated rectangular screen in the upper right, advertising boards with red lettering on a white background on the left, and distant vertical signs.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00074",
+      "statement": "At frame 94, the racetrack sign and display screen appear as a white illuminated rectangular screen in the upper right, advertising boards with red lettering on a white background on the left, and distant vertical signs; the display screen has blue and red graphics, and the advertising boards on the left are repeated along the grandstand.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00077",
+      "statement": "At frame 94, the roadside lattice tower has a slender gray lattice tower body, with multiple tiers of horizontal brackets at the top.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00078",
+      "statement": "At frame 94, the roadside lattice tower has a slender gray lattice tower body, with a repeated horizontal grid within the tower body and multiple tiers of horizontal brackets and small dark devices at the top.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00081",
+      "statement": "At frame 94, the gantry spanning the racetrack has a gate-shaped outline formed by a dark crossbeam and vertical supports at both ends.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00082",
+      "statement": "At frame 94, the gantry spanning the racetrack has a gate-shaped outline formed by a dark crossbeam and vertical supports at both ends; the crossbeam has light-colored logos and lettering.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00085",
+      "statement": "At frame 94, the orange-lit tunnel entrance is an orange-yellow illuminated arched opening.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00086",
+      "statement": "At frame 94, the orange-lit tunnel entrance is an orange-yellow illuminated arched opening, appearing at a distance as a small warm-colored arc-shaped bright area, with interior details indiscernible.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00089",
+      "statement": "At frame 94, the group of spectators in the grandstand appears within the seating as small light and dark color blocks arranged in rows, with individual human shapes affected by occlusion from the safety fence and by blur.",
+      "category": "object_appearance",
+      "levels": [
+        "L2"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e029"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00090",
+      "statement": "At frame 94, the group of spectators in the grandstand appears within the seating as small light and dark color blocks arranged in rows; local red-gray and dark color blocks and their tiered arrangement are discernible; occlusion by the safety fence and blur make individual human shapes, heads, faces, and limb details impossible to distinguish reliably.",
+      "category": "object_appearance",
+      "levels": [
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e029"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00011",
+      "statement": "At frame 0, Vehicle A is in the lower center of the image, while Vehicle B is ahead of it and farther away on the right side of the image; both vehicles are on the racetrack surface and oriented in the forward direction along the racetrack.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e002",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00012",
+      "statement": "At frame 0, the racetrack surface spreads out from the lower edge of the image, curves right in the middle of the image, and extends beyond the right edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00013",
+      "statement": "At frame 0, the green runoff area is in the middle of the image and directly adjoins the outer edge of the racetrack surface, while the concrete racetrack barrier is outside the runoff area.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e013",
+        "video25_e014",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00014",
+      "statement": "At frame 0, the racetrack safety fence is above the concrete racetrack barrier in the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e016",
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00015",
+      "statement": "At frame 0, the trees around the outside of the racetrack are in the background in the upper part of the image, behind the concrete racetrack barrier and the racetrack grandstand.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e017",
+        "video25_e014",
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00016",
+      "statement": "At frame 0, the distant mountain is in the distant view at the top of the image, behind the trees around the outside of the racetrack, and is partially occluded by the trees.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e018",
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00017",
+      "statement": "At frame 0, the sky is in the upper part of the image, above the trees around the outside of the racetrack and the distant mountain.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e006",
+        "video25_e017",
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00018",
+      "statement": "At frame 0, the racetrack grandstand is on the right side of the image, behind the concrete racetrack barrier and the racetrack safety fence.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e019",
+        "video25_e014",
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00019",
+      "statement": "At frame 0, the visible billboards among the racetrack sign and display screen are distributed above the center of the image and along the front edge of the racetrack grandstand on the right; the large billboard above the center is higher than the concrete racetrack barrier.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e020",
+        "video25_e019",
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00020",
+      "statement": "At frame 0, the group of spectators in the grandstand is distributed within the seating area of the racetrack grandstand on the right side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e029",
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a014",
+      "statement": "At frame 0, Vehicle A is behind Vehicle B, and both vehicles face the same forward direction along the racetrack.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a022",
+      "statement": "At frame 0, the racetrack surface supports Vehicle A and extends ahead of the vehicle into the depth of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e003",
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00006",
+      "statement": "At frame 0, the sky is above the trees around the outside of the racetrack and the distant mountain.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e006",
+        "video25_e017",
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00011",
+      "statement": "At frame 0, the green runoff area is at the outer edge of the road surface in the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00015",
+      "statement": "At frame 0, the concrete racetrack barrier is outside the road surface in the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00019",
+      "statement": "At frame 0, the racetrack safety fence is above the wall in the middle of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00023",
+      "statement": "At frame 0, the trees around the outside of the racetrack are in the upper part of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00027",
+      "statement": "At frame 0, the distant mountain is in the distant view at the top of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00031",
+      "statement": "At frame 0, the racetrack grandstand is on the right side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00035",
+      "statement": "At frame 0, the visible billboards among the racetrack sign and display screen are above the center of the image and along the front edge of the racetrack grandstand on the right.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e020",
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00039",
+      "statement": "At frame 0, the group of spectators in the grandstand is in the seating area on the right side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e029"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00022",
+      "statement": "At frame 94, Vehicle A is in the lower part of the image, straddling the white edge line on the left side of the racetrack surface, with most of the vehicle body's projection over the green runoff area; Vehicle B is on the racetrack surface ahead of it and toward the right side of the image, and both vehicles face the far end of the racetrack.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e002",
+        "video25_e003",
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00023",
+      "statement": "At frame 94, the racetrack surface extends continuously from the lower center and right of the image toward slightly right of center in the distance; the visible road section is largely straight and leads toward the vicinity of the orange-lit tunnel entrance.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e003",
+        "video25_e008"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00024",
+      "statement": "At frame 94, the red-and-white curb is at the left edge of the racetrack ahead of Vehicle A and adjoins the green runoff area outside it; the green runoff area extends toward the foreground into the lower left of the image, and the concrete racetrack barrier is outside it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e012",
+        "video25_e013",
+        "video25_e014",
+        "video25_e003",
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00025",
+      "statement": "At frame 94, the racetrack safety fence is above the concrete racetrack barrier on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e016",
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00026",
+      "statement": "At frame 94, the metal racetrack guardrail is at the outer edge of the racetrack on the right side of the image, on the opposite side of the racetrack surface from the concrete racetrack barrier on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e015",
+        "video25_e014",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00027",
+      "statement": "At frame 94, the trees around the outside of the racetrack are distributed in the distant view and on both sides of the image, behind the concrete racetrack barrier and the metal racetrack guardrail.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e017",
+        "video25_e014",
+        "video25_e015"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00028",
+      "statement": "At frame 94, the distant mountain is in the distant view in the upper left of the image, behind the trees around the outside of the racetrack, and is partially occluded by the trees.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e018",
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00029",
+      "statement": "At frame 94, the sky is in the upper part of the image, above the trees around the outside of the racetrack and the distant mountain.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e006",
+        "video25_e017",
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00030",
+      "statement": "At frame 94, the racetrack grandstand is behind the racetrack safety fence on the left side of the image and is partially occluded by the mesh and posts.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e019",
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00031",
+      "statement": "At frame 94, the racetrack sign and display screen are distributed in the upper right of the image and along the front edge of the racetrack grandstand on the left; the display screen in the upper right extends partially beyond the right edge of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e020",
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00032",
+      "statement": "At frame 94, the roadside lattice tower is in the upper right of the image, above and to the left of the right-side display screen among the racetrack sign and display screen.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e021",
+        "video25_e020"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00033",
+      "statement": "At frame 94, the gantry spanning the racetrack is slightly right of center in the distance, spanning above the racetrack surface, with passage space below it.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e022",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00034",
+      "statement": "At frame 94, the orange-lit tunnel entrance is behind the gantry spanning the racetrack, with its projection in the image below the gantry crossbeam and between the trees around the outside of the racetrack on both sides.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e008",
+        "video25_e022",
+        "video25_e017",
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_restore00035",
+      "statement": "At frame 94, the group of spectators in the grandstand is partially visible within the seating area of the racetrack grandstand behind the racetrack safety fence on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        47,
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e029",
+        "video25_e019",
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a042",
+      "statement": "At frame 94, Vehicle A is behind Vehicle B, and both vehicles face the same direction toward the far end of the racetrack.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e002"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a050",
+      "statement": "At frame 94, Vehicle A straddles the white edge line on the left side of the racetrack surface, with most of the vehicle body's projection over the green runoff area; the racetrack surface extends into the distance along its right side and ahead of it.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e003",
+        "video25_e001",
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00007",
+      "statement": "At frame 94, the sky is above the trees around the outside of the racetrack and the distant mountain.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e006",
+        "video25_e017",
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00043",
+      "statement": "At frame 94, the red-and-white curb is at the left edge of the racetrack ahead of Vehicle A, extending from slightly right of center in the image into the distance.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e012",
+        "video25_e001"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00047",
+      "statement": "At frame 94, the green runoff area is in the lower left of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00051",
+      "statement": "At frame 94, the concrete racetrack barrier is on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e014"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00055",
+      "statement": "At frame 94, the metal racetrack guardrail is on the right side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e015"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00059",
+      "statement": "At frame 94, the racetrack safety fence is above the top of the wall on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00063",
+      "statement": "At frame 94, the trees around the outside of the racetrack are in the distant view and on both sides of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e017"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00067",
+      "statement": "At frame 94, the distant mountain is in the distant view in the upper left of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e018"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00071",
+      "statement": "At frame 94, the racetrack grandstand is behind the safety fence on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e019"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00075",
+      "statement": "At frame 94, the racetrack sign and display screen are in the upper right of the image, along the front edge of the grandstand on the left, and beside the distant gantry.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e020"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00079",
+      "statement": "At frame 94, the roadside lattice tower is beside the display screen in the upper right of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e021"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00083",
+      "statement": "At frame 94, the gantry spanning the racetrack is slightly right of center in the distance, spanning the road.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e022"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00087",
+      "statement": "At frame 94, the orange-lit tunnel entrance is below the gantry in the distance.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e008"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00091",
+      "statement": "At frame 94, the visible part of the group of spectators in the grandstand is in the seating area behind the racetrack safety fence on the left side of the image.",
+      "category": "object_relation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e029",
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_a004",
+      "statement": "At frame 0, the camera is slightly elevated behind Vehicle A, forming a following view above the racetrack surface.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a004",
+      "statement": "At frame 0, the camera is slightly elevated behind Vehicle A, forming a following view above the racetrack surface.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_a006",
+      "statement": "At frame 94, the camera is slightly elevated behind Vehicle A, forming a following view above the ground near the left edge line of the racetrack surface.",
+      "category": "camera_position",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003",
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a006",
+      "statement": "At frame 94, the camera is slightly elevated behind Vehicle A, forming a following view above the ground near the left edge line of the racetrack surface.",
+      "category": "camera_position",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003",
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_a005",
+      "statement": "At frame 0, the camera faces the rear of Vehicle A and the racetrack surface extending ahead of it.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a005",
+      "statement": "At frame 0, the camera faces the rear of Vehicle A and the racetrack surface extending ahead of it.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 0,
+      "evidence_frames": [
+        0
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_a007",
+      "statement": "At frame 94, the camera faces the rear of Vehicle A and the racetrack surface extending ahead of it.",
+      "category": "camera_target",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a007",
+      "statement": "At frame 94, the camera faces the rear of Vehicle A and the racetrack surface extending ahead of it.",
+      "category": "camera_target",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 94,
+      "end_frame": 94,
+      "evidence_frames": [
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_a001",
+      "statement": "From frame 0 through frame 94, the camera follows Vehicle A forward, translating overall horizontally toward the forward right relative to the camera orientation at frame 0, while maintaining a roughly stable height relative to the road surface.",
+      "category": "camera_translation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        47,
+        65,
+        77,
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003",
+        "video25_e014",
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a001",
+      "statement": "From frame 0 through frame 94, the camera follows Vehicle A forward, translating overall horizontally toward the forward right relative to the camera orientation at frame 0, while maintaining a roughly stable height relative to the road surface.",
+      "category": "camera_translation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        47,
+        65,
+        77,
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003",
+        "video25_e014",
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_r00001",
+      "statement": "From frame 0 through frame 94, the camera turns right with Vehicle A along the right-hand bend, gradually aligning with the straighter section of racetrack ahead.",
+      "category": "camera_rotation",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        47,
+        65,
+        77,
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003",
+        "video25_e013",
+        "video25_e014",
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_r00001",
+      "statement": "From frame 0 through frame 94, the camera turns right with Vehicle A along the right-hand bend, gradually aligning with the straighter section of racetrack ahead.",
+      "category": "camera_rotation",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        47,
+        65,
+        77,
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003",
+        "video25_e013",
+        "video25_e014",
+        "video25_e016"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_a008",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        11,
+        23,
+        35,
+        47,
+        59,
+        71,
+        83,
+        94
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L3:video25_cp006_a008",
+      "statement": "This clip is a continuous shot, with 0 cuts.",
+      "category": "cut_count",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        11,
+        23,
+        35,
+        47,
+        59,
+        71,
+        83,
+        94
+      ],
+      "subject_ids": []
+    },
+    {
+      "item_key": "L1:video25_cp006_a009",
+      "statement": "From frame 0 through frame 94, Vehicle A continuously moves forward along the racetrack, gradually approaches the left edge line, crosses the line into the green runoff area during the final part, and continues forward.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        47,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        75,
+        76,
+        77,
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003",
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L1:video25_cp006_a010",
+      "statement": "From frame 0 through frame 94, Vehicle B remains ahead of Vehicle A and moves forward along the racetrack surface in the direction of travel.",
+      "category": "object_motion",
+      "levels": [
+        "L1"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        47,
+        65,
+        77,
+        94
+      ],
+      "subject_ids": [
+        "video25_e002",
+        "video25_e001",
+        "video25_e003"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a009",
+      "statement": "From frame 0 through frame 94, Vehicle A continuously moves forward along the racetrack, gradually approaches the left edge line, crosses the line into the green runoff area during the final part, and continues forward.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        47,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        75,
+        76,
+        77,
+        92,
+        93,
+        94
+      ],
+      "subject_ids": [
+        "video25_e001",
+        "video25_e003",
+        "video25_e013"
+      ]
+    },
+    {
+      "item_key": "L3:video25_cp006_a010",
+      "statement": "From frame 0 through frame 94, Vehicle B remains ahead of Vehicle A and moves forward along the racetrack surface in the direction of travel.",
+      "category": "object_motion",
+      "levels": [
+        "L2",
+        "L3"
+      ],
+      "start_frame": 0,
+      "end_frame": 94,
+      "evidence_frames": [
+        0,
+        47,
+        65,
+        77,
+        94
+      ],
+      "subject_ids": [
+        "video25_e002",
+        "video25_e001",
+        "video25_e003"
+      ]
+    }
+  ],
+  "evaluation_sample_frames": [
+    0,
+    94
+  ],
+  "evaluation_cut_frames": [],
+  "source_sha256": "f0c79e1f6597c0b9430d265c42d519269df525fd7d2f37fc8b4becfc215a90f0"
+}

@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CineRecon evaluation clip",
+  "type": "object",
+  "required": [
+    "clip_id",
+    "video_id",
+    "fps",
+    "start_frame",
+    "end_frame",
+    "source_frame_offset",
+    "source_sha256",
+    "evaluation_sample_frames",
+    "evaluation_cut_frames",
+    "first_appearance_definition",
+    "entities",
+    "items"
+  ],
+  "properties": {
+    "clip_id": {
+      "type": "string"
+    },
+    "video_id": {
+      "type": "string"
+    },
+    "fps": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "start_frame": {
+      "const": 0
+    },
+    "end_frame": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "source_frame_offset": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "evaluation_sample_frames": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "evaluation_cut_frames": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "first_appearance_definition": {
+      "type": "string"
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_entity_id",
+          "name",
+          "identification",
+          "numbered",
+          "first_appearance_frame"
+        ],
+        "properties": {
+          "source_entity_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "identification": {
+            "type": "string"
+          },
+          "numbered": {
+            "type": "boolean"
+          },
+          "first_appearance_frame": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "identity_context": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "clip_id",
+                "frames",
+                "purpose"
+              ],
+              "properties": {
+                "clip_id": {
+                  "type": "string"
+                },
+                "frames": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "purpose": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "item_key",
+          "statement",
+          "category",
+          "levels",
+          "start_frame",
+          "end_frame",
+          "evidence_frames",
+          "subject_ids"
+        ],
+        "properties": {
+          "item_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "enum": [
+              "action_event",
+              "camera_position",
+              "camera_rotation",
+              "camera_target",
+              "camera_translation",
+              "camera_zoom",
+              "cut_count",
+              "object_appearance",
+              "object_motion",
+              "object_presence",
+              "object_relation"
+            ]
+          },
+          "levels": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "L1",
+                "L2",
+                "L3"
+              ]
+            }
+          },
+          "start_frame": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_frame": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "evidence_frames": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "subject_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
