@@ -1,13 +1,8 @@
-<table align="center">
-  <tr>
-    <td align="center" valign="top" width="88">
-      <img src="docs/assets/cinerecon-logo.png" width="72" height="72" alt="CineRecon logo">
-    </td>
-    <td align="center" valign="middle">
-      <h1>CineRecon: Benchmarking Frontier Models<br>for Agentic Cinematic Reconstruction</h1>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="docs/assets/cinerecon-logo.png" width="96" height="96" alt="CineRecon logo">
+</p>
+
+<h1 align="center">CineRecon: Benchmarking Frontier Models<br>for Agentic Cinematic Reconstruction</h1>
 
 <!-- arXiv and Hugging Face links are pending. -->
 <p align="center">
