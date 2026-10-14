@@ -4,7 +4,6 @@
 
 <h1 align="center">CineRecon: Benchmarking Frontier Models<br>for Agentic Cinematic Reconstruction</h1>
 
-<!-- Hugging Face link is pending. -->
 <p align="center">
   <a href="https://arxiv.org/abs/2610.16577">
     <img src="https://img.shields.io/badge/arXiv-2610.16577-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv: 2610.16577">
@@ -14,7 +13,9 @@
     <img src="https://img.shields.io/badge/Demo_Page-315A70?style=flat-square&amp;logo=googlechrome&amp;logoColor=white" alt="Demo Page">
   </a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Hugging_Face-Coming_Soon-E5A628?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Hugging Face - coming soon">
+  <a href="https://huggingface.co/papers/2610.16577">
+    <img src="https://img.shields.io/badge/Hugging_Face-Paper-E5A628?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Hugging Face Paper">
+  </a>
 </p>
 
 ![CineRecon task overview: a coding agent reconstructs an editable Blender scene through Blender MCP and revises it using rendered visual feedback.](docs/assets/figure1.png)
