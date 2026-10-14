@@ -4,9 +4,11 @@
 
 <h1 align="center">CineRecon: Benchmarking Frontier Models<br>for Agentic Cinematic Reconstruction</h1>
 
-<!-- arXiv and Hugging Face links are pending. -->
+<!-- Hugging Face link is pending. -->
 <p align="center">
-  <img src="https://img.shields.io/badge/arXiv-Coming_Soon-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv - coming soon">
+  <a href="https://arxiv.org/abs/2610.16577">
+    <img src="https://img.shields.io/badge/arXiv-2610.16577-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv: 2610.16577">
+  </a>
   &nbsp;
   <a href="https://cinerecon.github.io/">
     <img src="https://img.shields.io/badge/Demo_Page-315A70?style=flat-square&amp;logo=googlechrome&amp;logoColor=white" alt="Demo Page">
